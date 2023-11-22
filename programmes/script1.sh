@@ -9,7 +9,8 @@ then
 	exit
 fi
 
-echo "<html>
+echo "<!DOCTYPE html>
+    <html>
         <head>
             <link rel="stylesheet" href="../../Css/main.css">
         </head>
@@ -35,6 +36,9 @@ do
     
     #récupère la valeur de l'encodage et l'écrit à la fin du fichier
     curl -L -I -s $URL | egrep -o "charset.+\b" | tail -1 | tr -d "\r\d" | tr -d "charset=" >> ../extractions/${langue}/extraction${compteur}.txt
+
+    ## ASPIRATION
+    curl $URL > ../aspirations/${langue}/aspiration${compteur}.html
 
     ## TABLEAU
 
