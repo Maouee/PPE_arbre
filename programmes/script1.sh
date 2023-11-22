@@ -50,10 +50,10 @@ do
     <td>$response</td>
     <td>$encoding</td>
     <td>
-    <a href="../aspirations/${langue}/aspiration${compteur}.html">aspiration</a>
+    <a href="https://maouee.github.io/PPE_arbre/aspirations/${langue}/aspiration${compteur}.html">aspiration</a>
     </td>
     <td>
-    <a href="../extractions/${langue}/extraction${compteur}.txt">extraction</a></td>
+    <a href="https://maouee.github.io/PPE_arbre/extractions/${langue}/extraction${compteur}.txt">extraction</a></td>
     </tr>" >> ../tableaux/${langue}/tableau_${langue}.html
     lineno=$(expr $lineno + 1)
     #incrémente le compteur de 1 avant de passer au fichier suivant
