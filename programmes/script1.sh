@@ -32,7 +32,8 @@ while read -r URL
 do
     ## EXTRACTION
     #récupère le contenu textuel et l'envoie vers un fichier .txt
-    lynx -dump -nolist $URL > ../extractions/${langue}/extraction${compteur}.txt
+    curl $URL > ../aspirations/${langue}aspiration${compteur}.html
+    lynx -dump -nolist ../aspiration/${langue}/aspiration${compteur}.html > ../extractions/${langue}/extraction${compteur}.txt
     
     #récupère la valeur de l'encodage et l'écrit à la fin du fichier
     curl -L -I -s $URL | egrep -o "charset.+\b" | tail -1 | tr -d "\r\d" | tr -d "charset=" >> ../extractions/${langue}/extraction${compteur}.txt
