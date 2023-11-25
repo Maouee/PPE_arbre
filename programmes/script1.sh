@@ -25,6 +25,7 @@ echo "<tr>
     <th>encodage</th>
     <th>aspirations</th>
     <th>dumps</th>
+    <th>compte</th>
     </tr>" >> ../tableaux/${langue}/tableau_${langue}.html
 lineno=1
 
@@ -38,7 +39,7 @@ do
     #récupère la valeur de l'encodage et l'écrit à la fin du fichier
     encodage=$(curl -L -I -s $URL | egrep -o "charset.+\b" | tail -1 | tr -d "\r\d" | tr -d "charset=")
 
-    bash ../comptage/${langue}.sh ../extractions/${langue}/extraction${compteur}.txt
+    compte=$(bash comptage/${langue}.sh ../extractions/${langue}/extraction${compteur}.txt)
 
     #iconv -f ${encodage} -t UTF-8 ../extractions/${langue}/extraction${compteur}.txt > ../extractions/${langue}/extraction${compteur}.txt
 
@@ -57,7 +58,9 @@ do
     </td>
     <td>
     <a href="https://maouee.github.io/PPE_arbre/extractions/${langue}/extraction${compteur}.txt">extraction</a></td>
-    </tr>" >> ../tableaux/${langue}/tableau_${langue}.html
+    </tr>
+    <td>$compte</td>
+    " >> ../tableaux/${langue}/tableau_${langue}.html
     lineno=$(expr $lineno + 1)
     #incrémente le compteur de 1 avant de passer au fichier suivant
     ((compteur++))
