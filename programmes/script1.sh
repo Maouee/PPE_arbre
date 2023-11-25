@@ -58,8 +58,8 @@ do
     </td>
     <td>
     <a href="https://maouee.github.io/PPE_arbre/extractions/${langue}/extraction${compteur}.txt">extraction</a></td>
-    </tr>
     <td>$compte</td>
+    </tr>
     " >> ../tableaux/${langue}/tableau_${langue}.html
     lineno=$(expr $lineno + 1)
     #incrémente le compteur de 1 avant de passer au fichier suivant
