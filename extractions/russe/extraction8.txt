@@ -1,0 +1,208 @@
+   #alternate Pravit' Vikipediya (ru) Vikipediya -- Atom-lenta
+
+Brounovskoe derevo
+
+   Material iz Vikipedii -- svobodnoj `enciklopedii
+   Perejti k navigacii Perejti k poisku
+   [250px-Brownian_tree_vertical_large.png] Primer brounovskogo
+   dereva[250px-DLA_Cluster.JPG] Brounovskoe derevo, vyraschennoe iz
+   mednogo kuporosa
+
+   Bro'unovskoe de'revo yavlyaetsya formoj komp'yuternogo iskusstva,
+   kotoroe bylo populyarno v 1990-h, kogda domashnie komp'yutery stali
+   obladat' dostatochnoj proizvoditel'nost'yu dlya modelirovaniya
+   brounovskogo dvizheniya (otsyuda i nazvanie). Brounovskie derev'ya --
+   matematicheskie modeli drevovidnyh struktur, svyazannyh s fizicheskim
+   processom, izvestnym kak agregaciya, ogranichennaya diffuziej.
+
+   Komp'yuternaya model' agregacii, ogranichennoj diffuziej^[en]
+   predstavlyaet soboj pole, zapolnennoe chasticami, sovershayuschimi
+   haoticheskoe brounovskoe dvizhenie. Na pole vnositsya centr agregacii,
+   k kotoromu «prilipaet» vsyakaya sluchajno prikosnuvshayasya chastica;
+   nachinaetsya rost konglomerata chastic -- fraktal'nogo klastera.
+   Zachastuyu v modelirovanii ispol'zuetsya tol'ko odna dvizhuschayasya
+   chastica.
+
+   U poluchayuschegosya dereva mozhet byt' mnogo razlichnyh form,
+   preimuschestvenno zavisyaschih ot trioh faktorov:
+     * polozhenie centra agregacii;
+     * nachal'noe polozhenie dvizhuschejsya chasticy;
+     * algoritm modelirovaniya brounovskogo dvizheniya;
+
+   Pri izmenenii cveta chasticy mezhdu iteraciyami mozhno nablyudat'
+   interesnye cvetovye `effekty.
+
+   V period populyarnosti `etogo iskusstva srednij personal'nyj komp'yuter
+   tratil chasy i dazhe dni dlya sozdaniya malen'kogo dereva. Sovremennye
+   personal'nye komp'yutery mogut sozdavat' derev'ya iz mnogih tysyach
+   chastic za schitannye sekundy.
+
+   Podobnye derev'ya mogut byt' vyrascheny v kamere `elektroliticheskogo
+   osazhdeniya. Ih forma takzhe ob"yasnyaetsya agregaciej, ogranichennoj
+   diffuziej.
+   Formula
+   `Eto zagotovka stat'i po matematike. Pomogite Vikipedii, dopolniv eio.
+   V stat'e ne hvataet ssylok na istochniki (sm. rekomendacii po poisku).
+   Informaciya dolzhna byt' proveryaema, inache ona mozhet byt' udalena.
+   Vy mozhete otredaktirovat' stat'yu, dobaviv ssylki na avtoritetnye
+   istochniki v vide snosok. (3 marta 2023)
+   Perejti k shablonu «Fraktaly»
+   Fraktaly
+   Harakteristiki
+     * Fraktal'naya razmernost'
+          + Razmernost' Hausdorfa
+          + Razmernost' Lebega
+     * Rekursiya
+     * Samopodobie
+
+   [80px-Fractal_fern_explained.png]
+   Prostejshie fraktaly
+     * Paporotnik Barnsli
+     * Kantorovo mnozhestvo
+     * Krivaya drakona
+     * Krivaya Koha
+     * Gubka Mengera
+     * Kovior Serpinskogo
+     * Treugol'nik Serpinskogo
+     * Zapolnyayuschaya prostranstvo krivaya
+
+   Strannyj attraktor
+   Mul'tifraktal
+   L-sistema
+   Zapolnyayuschaya prostranstvo krivaya
+   Bifurkacionnye fraktaly
+     * Mnozhestvo ZHyulia
+     * Fraktal Lyapunova
+     * Mnozhestvo Mandel'brota
+     * Bassejny N'yutona
+
+   Sluchajnye fraktaly
+     * Brounovskoe dvizhenie
+     * Brounovskoe derevo
+     * Fraktal'naya poverhnost'
+     * Teoriya perkolyacii
+
+   Lyudi
+     * Georg Kantor
+     * Feliks Hausdorf
+     * Gaston ZHyulia
+     * Hel'ge fon Koh
+     * Pol' Levi
+     * Aleksandr Lyapunov
+     * Benua Mandel'brot
+     * L'yuis Richardson
+     * Vaclav Serpinskij
+
+   Svyazannye temy
+     * «Kakova dlina poberezh'ya Velikobritanii?»
+          + Paradoks beregovoj linii
+
+   Istochnik --
+   https://ru.wikipedia.org/w/index.php?title=Brounovskoe_derevo&oldid=128
+   998432
+   Kategoriya:
+     * Fraktaly
+
+   Skrytye kategorii:
+     * Nezavershionnye stat'i po matematike
+     * Vikipediya:Stat'i bez ssylok na istochniki s marta 2023 goda
+     * Vikipediya:Stat'i bez istochnikov (ne raspredelionnye po tipam)
+
+Navigaciya
+
+Personal'nye instrumenty
+
+     * Vy ne predstavilis' sisteme
+     * Obsuzhdenie
+     * Vklad
+     * Sozdat' uchiotnuyu zapis'
+     * Vojti
+
+Prostranstva imion
+
+     * Stat'ya
+     * Obsuzhdenie
+
+   [ ] russkij
+
+Prosmotry
+
+     * CHitat'
+     * Pravit'
+     * Pravit' kod
+     * Istoriya
+
+   [ ] Eschio
+
+Poisk
+
+   ____________________ Najti Perejti
+
+Navigaciya
+
+     * Zaglavnaya stranica
+     * Soderzhanie
+     * Izbrannye stat'i
+     * Sluchajnaya stat'ya
+     * Tekuschie sobytiya
+     * Pozhertvovat'
+
+Uchastie
+
+     * Soobschit' ob oshibke
+     * Kak pravit' stat'i
+     * Soobschestvo
+     * Forum
+     * Svezhie pravki
+     * Novye stranicy
+     * Spravka
+
+Instrumenty
+
+     * Ssylki syuda
+     * Svyazannye pravki
+     * Sluzhebnye stranicy
+     * Postoyannaya ssylka
+     * Svedeniya o stranice
+     * Citirovat' stranicu
+     * Poluchit' sokraschionnyj URL-adres
+     * `Element Vikidannyh
+
+Pechat'/`eksport
+
+     * Skachat' kak PDF
+     * Versiya dlya pechati
+
+Na drugih yazykah
+
+     * English
+     * f+a+r+s+
+     * Hrvatski
+     * Makedonski
+     * Srpskohrvatski / srpskohrvatski
+     * Srpski / srpski
+     * Ukrayins'ka
+
+   Pravit' ssylki
+
+     * `Eta stranica v poslednij raz byla otredaktirovana 3 marta 2023 v
+       13:53.
+     * Tekst dostupen po licenzii Creative Commons «S ukazaniem avtorstva
+       -- S sohraneniem uslovij» (CC BY-SA); v otdel'nyh sluchayah mogut
+       dejstvovat' dopolnitel'nye usloviya. Podrobnee sm. Usloviya
+       ispol'zovaniya.
+       Wikipedia® -- zaregistrirovannyj tovarnyj znak nekommercheskoj
+       organizacii Fond Vikimedia (Wikimedia Foundation, Inc.)
+
+     * Politika konfidencial'nosti
+     * Opisanie Vikipedii
+     * Otkaz ot otvetstvennosti
+     * Svyazhites' s nami
+     * Kodeks povedeniya
+     * Razrabotchiki
+     * Statistika
+     * Zayavlenie o kuki
+     * Mobil'naya versiya
+
+     * Wikimedia Foundation
+     * Powered by MediaWiki

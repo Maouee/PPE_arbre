@@ -1,0 +1,523 @@
+   #alternate Pravit' Vikipediya (ru) Vikipediya -- Atom-lenta
+
+Derevo (struktura dannyh)
+
+   Material iz Vikipedii -- svobodnoj `enciklopedii
+   Perejti k navigacii Perejti k poisku
+   U `etogo termina suschestvuyut i drugie znacheniya, sm. Derevo
+   (znacheniya).
+   [192px-Binary_search_tree.svg.png] Prostoj primer dereva
+
+   Derevo -- odna iz naibolee shiroko rasprostranionnyh struktur dannyh v
+   informatike, `emuliruyuschaya drevovidnuyu strukturu v vide nabora
+   svyazannyh uzlov. YAvlyaetsya svyaznym grafom, ne soderzhaschim cikly.
+   Bol'shinstvo istochnikov takzhe dobavlyaet uslovie na to, chto riobra
+   grafa ne dolzhny byt' orientirovannymi. V dopolnenie k `etim triom
+   ogranicheniyam, v nekotoryh istochnikah ukazyvaetsya, chto riobra grafa
+   ne dolzhny byt' vzveshennymi.
+   [ ]
+
+Soderzhanie
+
+     * 1 Opredeleniya
+     * 2 Uzly
+          + 2.1 Kornevye uzly
+     * 3 Podderev'ya
+     * 4 Uporyadochivanie derev'ev
+     * 5 Predstavlenie derev'ev
+          + 5.1 Derev'ya kak grafy
+     * 6 Metody obhoda
+     * 7 Obschie operacii
+     * 8 Obschee primenenie
+     * 9 Sm. takzhe
+     * 10 Primechaniya
+     * 11 Literatura
+     * 12 Ssylki
+
+Opredeleniya[pravit' | pravit' kod]
+
+     * Kornevoj uzel -- samyj verhnij uzel dereva (uzel 8 na primere).
+     * Koren' -- odna iz vershin, po zhelaniyu nablyudatelya.
+
+     * List, listovoj ili terminal'nyj uzel -- uzel, ne imeyuschij
+       dochernih `elementov (uzly 1, 4, 7, 13).
+
+     * Vnutrennij uzel -- lyuboj uzel dereva, imeyuschij potomkov, i takim
+       obrazom, ne yavlyayuschijsya listovym uzlom (3, 6, 10, 14).
+
+   Derevo schitaetsya orientirovannym, esli v koren' ne zahodit ni odno
+   rebro.
+     * Polnyj sceplennyj klyuch -- identifikator zapisi, kotoryj
+       obrazuetsya putiom konkatenacii vseh klyuchej `ekzemplyarov
+       roditel'skih zapisej (grupp).
+
+Uzly[pravit' | pravit' kod]
+
+   Uzel yavlyaetsya `ekzemplyarom odnogo iz dvuh tipov `elementov grafa,
+   sootvetstvuyuschim ob"ektu nekotoroj fiksirovannoj prirody. Uzel mozhet
+   soderzhat' znachenie, sostoyanie ili predstavlenie otdel'noj
+   informacionnoj struktury ili samogo dereva. Kazhdyj uzel dereva imeet
+   nol' ili bolee uzlov-potomkov, kotorye raspolagayutsya nizhe po derevu
+   (po soglasheniyu, derev'ya "rastut" vniz, a ne vverh, kak `eto
+   proishodit s nastoyaschimi derev'yami). Uzel, imeyuschij potomka,
+   nazyvaetsya uzlom-roditelem otnositel'no svoego potomka (ili
+   uzlom-predshestvennikom, ili starshim). Kazhdyj uzel imeet ne bol'she
+   odnogo predka. Vysota uzla -- `eto maksimal'naya dlina nishodyaschego
+   puti ot `etogo uzla k samomu nizhnemu uzlu (kraevomu uzlu), nazyvaemomu
+   listom. Vysota kornevogo uzla ravna vysote vsego dereva. Glubina
+   vlozhennosti uzla ravna dline puti do kornevogo uzla.
+
+Kornevye uzly[pravit' | pravit' kod]
+
+   Uzel, ne imeyuschij predkov (samyj verhnij), nazyvaetsya kornevym
+   uzlom. `Eto uzel, na kotorom nachinaetsya vypolnenie bol'shinstva
+   operacij nad derevom (hotya nekotorye algoritmy nachinayut vypolnenie s
+   «listov» i vypolnyayutsya, poka ne dostignut kornya). Vse prochie uzly
+   mogut byt' dostignuty putiom perehoda ot kornevogo uzla po riobram (ili
+   ssylkam) (soglasno formal'nomu opredeleniyu, kazhdyj podobnyj put'
+   dolzhen byt' unikal'nym). V diagrammah on obychno izobrazhaetsya na
+   samoj vershine. V nekotoryh derev'yah, naprimer, kuchah, kornevoj uzel
+   obladaet osobymi svojstvami. Kazhdyj uzel dereva mozhno rassmatrivat'
+   kak kornevoj uzel poddereva, «rastuschego» iz `etogo uzla.
+
+Podderev'ya[pravit' | pravit' kod]
+
+   Podderevo -- chast' drevoobraznoj struktury dannyh, kotoraya mozhet
+   byt' predstavlena v vide otdel'nogo dereva. Lyuboj uzel dereva T vmeste
+   so vsemi ego uzlami-potomkami yavlyaetsya podderevom dereva T. Dlya
+   lyubogo uzla poddereva libo dolzhen byt' put' v kornevoj uzel `etogo
+   poddereva, libo sam uzel dolzhen yavlyat'sya kornevym. To est'
+   podderevo svyazano s kornevym uzlom celym derevom, a otnosheniya
+   poddereva so vsemi prochimi uzlami opredelyayutsya cherez ponyatie
+   sootvetstvuyuschee podderevo (po analogii s terminom
+   «sootvetstvuyuschee podmnozhestvo»).
+
+Uporyadochivanie derev'ev[pravit' | pravit' kod]
+
+   Suschestvuet dva osnovnyh tipa derev'ev. V rekursivnom dereve ili
+   neuporyadochennom dereve imeet znachenie lish' struktura samogo dereva
+   bez uchiota poryadka potomkov dlya kazhdogo uzla. Derevo, v kotorom
+   zadan poryadok (naprimer, kazhdomu rebru, veduschemu k potomku,
+   prisvoeny razlichnye natural'nye chisla) nazyvaetsya derevom s
+   imenovannymi riobrami ili uporyadochennym derevom so strukturoj dannyh,
+   zadannoj pered imenovaniem i nazyvaemoj strukturoj dannyh
+   uporyadochennogo dereva.
+
+   Uporyadochennye derev'ya yavlyayutsya naibolee rasprostranionnymi sredi
+   drevovidnyh struktur. Dvoichnoe derevo poiska -- odno iz raznovidnostej
+   uporyadochennogo dereva.
+
+Predstavlenie derev'ev[pravit' | pravit' kod]
+
+   Suschestvuet mnozhestvo razlichnyh sposobov predstavleniya derev'ev.
+   Naibolee obschij sposob predstavleniya izobrazhaet uzly kak zapisi,
+   raspolozhennye v dinamicheski vydelyaemoj pamyati s ukazatelyami na
+   svoih potomkov, predkov (ili i teh i drugih), ili kak `elementy
+   massiva, svyazannye mezhdu soboj otnosheniyami, opredelionnymi ih
+   poziciyami v massive (naprimer, dvoichnaya kucha).
+
+Derev'ya kak grafy[pravit' | pravit' kod]
+
+   V teorii grafov derevo -- svyaznyj aciklicheskij graf. Kornevoe
+   derevo -- `eto graf s vershinoj, vydelennoj v kachestve kornevoj. V
+   `etom sluchae lyubye dve vershiny, svyazannye rebrom, nasleduyut
+   otnosheniya «roditel'-potomok». Nesvyaznyj graf, sostoyaschij
+   isklyuchitel'no iz derev'ev, nazyvaetsya lesom.
+
+Metody obhoda[pravit' | pravit' kod]
+
+   Osnovnaya stat'ya: Obhod dereva
+
+   Poshagovyj perebor `elementov dereva po svyazyam mezhdu uzlami-predkami
+   i uzlami-potomkami nazyvaetsya obhodom dereva. Zachastuyu operaciya
+   mozhet byt' vypolnena perehodom ukazatelya po otdel'nym uzlam. Obhod,
+   pri kotorom kazhdyj uzel-predok prosmatrivaetsya prezhde ego potomkov,
+   nazyvaetsya preduporyadochennym obhodom ili obhodom v pryamom poryadke
+   (pre-order walk), a kogda prosmatrivayutsya snachala potomki, a potom
+   predki, to obhod nazyvaetsya postuporyadochennym obhodom ili obhodom v
+   obratnom poryadke (post-order walk). Suschestvuet takzhe simmetrichnyj
+   obhod, pri kotorom poseschaetsya snachala levoe podderevo, zatem uzel,
+   zatem -- pravoe podderevo, i obhod v shirinu, pri kotorom uzly
+   poseschayutsya uroven' za urovnem (N-j uroven' dereva -- mnozhestvo
+   uzlov s vysotoj N). Kazhdyj uroven' obhoditsya sleva napravo.
+
+Obschie operacii[pravit' | pravit' kod]
+
+     * vstavka novogo `elementa v opredelionnuyu poziciyu;
+     * vstavka poddereva;
+     * dobavlenie vetvi dereva (nazyvaetsya privivkoj);
+     * nahozhdenie kornevogo `elementa dlya lyubogo uzla;
+     * nahozhdenie naimen'shego obschego predka dvuh vershin;
+     * perebor vseh `elementov dereva;
+     * perebor `elementov vetvi dereva;
+     * poisk izomorfnogo poddereva;
+     * poisk `elementa;
+     * udalenie vetvi dereva (nazyvaetsya obrezkoj);
+     * udalenie poddereva;
+     * udalenie `elementa.
+
+Obschee primenenie[pravit' | pravit' kod]
+
+     * upravlenie ierarhiej dannyh;
+     * uproschenie poiska informacii (sm. obhod dereva);
+     * upravlenie sortirovannymi spiskami dannyh;
+     * sintaksicheskij razbor arifmeticheskih vyrazhenij (angl. parsing),
+       optimizaciya programm;
+     * v kachestve tehnologii komponovki cifrovyh kartinok dlya
+       polucheniya razlichnyh vizual'nyh `effektov;
+     * forma prinyatiya mnogo`etapnogo resheniya (sm. delovye shahmaty).
+
+Sm. takzhe[pravit' | pravit' kod]
+
+     * Dvoichnoe razbienie prostranstva
+     * Kucha (struktura dannyh)
+     * Derevo (teoriya grafov)
+     * Derevo (teoriya naborov)
+     * Drevovidnaya struktura
+     * Prefiksnoe derevo
+     * `Eksponencial'noe derevo
+
+   Rasprostranionnye drevovidnye struktury
+
+     * Dvoichnoe derevo
+
+   Samobalansiruyuschiesya dvoichnye derev'ya poiska
+
+     * AA-derevo
+     * AVL-derevo
+     * Krasno-chiornoe derevo
+     * Rasshiryayuscheesya derevo
+     * Derevo so shtrafami
+
+   Prochie derev'ya
+
+     * B-derevo (2-3-derevo, B+-derev'ya, B*-derevo, UB-derevo)
+     * DSW-algoritm
+     * Tancuyuschee derevo
+     * Anfilada
+     * Smeshannoe derevo
+     * k-mernoe derevo
+     * Oktoderevo
+     * Kvadroderevo
+     * R-derevo (struktura dannyh)
+     * Derevo pokrytij
+     * Derevo ostatkov
+     * Segmentnoe derevo
+     * Spisok s propuskami
+     * T-derevo
+     * T-piramida
+     * Verhnee derevo
+     * Derevo van Emde Boasa
+     * Proshitoe dvoichnoe derevo
+     * Spisok struktur dannyh (derev'ya)
+
+Primechaniya[pravit' | pravit' kod]
+
+Literatura[pravit' | pravit' kod]
+
+     * Donal'd `E. Knut. Glava 2.3. Derev'ya // Iskusstvo
+       programmirovaniya = The Art of Computer Programming. -- 3-e izd. --
+       M.: Vil'yams, 2002. -- T. 1. Osnovnye algoritmy. -- 720 s. -- ISBN
+       5-8459-0080-8 (rus.) ISBN 0-201-89683-4 (angl.).
+     * Tomas Kormen, CHarl'z Lejzerson, Ronal'd Rivest, Klifford SHtajn.
+       Introduction to Algorithms. -- 2nd Edition. -- MIT Press,
+       McGraw-Hill, 2001. -- ISBN 0-262-03293-7.
+          + Section 10.4: Representing rooted trees, pp.214-217.
+          + Chapters 12-14 (Binary Search Trees, Red-Black Trees,
+            Augmenting Data Structures), pp. 253--320.
+
+Ssylki[pravit' | pravit' kod]
+
+     * Obhody binarnyh derev'ev
+     * Krasno-chernye derev'ya
+
+   Perejti k shablonu «Derev'ya (struktury dannyh)»
+   Derevo (struktura dannyh)
+     * Dvoichnoe derevo poiska
+     * Derevo (teoriya grafov)
+     * Drevovidnaya struktura
+
+                        Dvoichnye derev'ya
+     * Dvoichnoe derevo
+     * T-derevo
+
+   Samobalansiruyuschiesya
+   dvoichnye derev'ya
+     * AA-derevo
+     * AVL-derevo
+     * Krasno-chiornoe derevo
+     * Splay-derevo
+     * Derevo so shtrafami
+     * Dekartovo derevo
+     * Derevo Fibonachchi
+     * B-derevo
+     * T-derevo
+
+   B-derev'ya
+     * 2-3-derevo
+     * B^+-derevo
+     * B*-derevo
+     * B^x-derevo
+     * UB-derevo
+     * 2-3-4 derevo
+     * (a,b)-derevo
+     * Tancuyuschee derevo
+
+   Prefiksnye derev'ya
+     * Suffiksnoe derevo
+     * Szhatoe prefiksnoe derevo
+     * Ternary search tree
+
+   Dvoichnoe razbienie
+   prostranstva
+     * k-mernoe derevo
+     * VP-derevo
+
+   Nedvoichnye derev'ya
+     * Derevo kvadrantov
+     * Oktoderevo
+     * Sparse Voxel Octree
+     * `Eksponencial'noe derevo
+     * PQ-derevo
+
+   Razbienie prostranstva
+     * R-derevo
+     * R-derevo Gil'berta
+     * R+-derevo
+     * R*-derevo
+     * X-derevo
+     * M-derevo
+     * Derevo Fenvika
+     * Derevo otrezkov
+
+   Drugie derev'ya
+     * Kucha
+     * Derevo heshej
+     * Finger tree
+     * Metric tree
+     * Derevo pokrytij
+     * BK-tree
+     * Doubly-chained tree
+     * iDistance
+     * Link-cut tree
+     * LSM-derevo
+
+   Algoritmy
+     * Poisk v shirinu
+     * Poisk v glubinu
+     * DSW-algoritm
+     * Protokol ostovnogo dereva
+
+   Perejti k shablonu «Struktury dannyh»
+   Struktury dannyh
+       Tipy
+     * Kollekciya
+     * Kontejner
+
+   Abstraktnye
+     * Associativnyj massiv
+          + Mnogomernyj associativnyj massiv
+     * Spisok
+     * Stek
+     * Ochered'
+          + Dvuhstoronnyaya ochered'
+     * Ochered' s prioritetom
+          + Dvuhstoronyaya ochered' s prioritetom
+     * Mnozhestvo
+          + Mul'timnozhestvo
+          + Sistema neperesekayuschihsya mnozhestv
+
+   Massiv
+     * Bitovaya karta
+     * Kol'cevoj bufer
+     * Dinamicheskij massiv
+     * Hesh-tablica
+     * Derevo hesh-tablicy^[en]
+     * Razrezhennaya matrica
+
+   Svyaznye^[en]
+     * Associativnyj spisok
+     * Svyaznyj spisok
+     * Spisok s propuskami
+     * Razviornutyj svyaznyj spisok
+     * Odnosvyaznyj spisok
+     * Dvusvyaznyj spisok
+     * XOR-svyaznyj spisok
+
+   Derev'ya
+     * B-derevo
+
+     * Dvoichnoe derevo poiska
+          + AA-derevo^[en]
+          + AVL-derevo
+          + Krasno-chiornoe derevo
+          + Samobalansiruyuscheesya dvoichnoe derevo poiska^[en]
+          + Splay-derevo
+
+     * Kucha
+          + Dvoichnaya kucha
+          + Binomial'naya kucha
+          + Fibonachchieva kucha
+
+     * R-derevo
+          + R*-derevo
+          + R+-derevo^[en]
+          + R-derevo Gil'berta
+
+     * Prefiksnoe derevo
+          + Hash tree^[en]
+
+   Grafy
+     * Binarnaya diagramma reshenij
+     * Orientirovannyj graf
+     * Orientirovannyj aciklicheskij graf
+     * Gipergraf
+
+   Istochnik --
+   https://ru.wikipedia.org/w/index.php?title=Derevo_(struktura_dannyh)&ol
+   did=130944486
+   Kategorii:
+     * Derev'ya (struktury dannyh)
+     * Predstavlenie znanij
+
+   Skrytaya kategoriya:
+     * Stranicy, ispol'zuyuschie volshebnye ssylki ISBN
+
+Navigaciya
+
+Personal'nye instrumenty
+
+     * Vy ne predstavilis' sisteme
+     * Obsuzhdenie
+     * Vklad
+     * Sozdat' uchiotnuyu zapis'
+     * Vojti
+
+Prostranstva imion
+
+     * Stat'ya
+     * Obsuzhdenie
+
+   [ ] russkij
+
+Prosmotry
+
+     * CHitat'
+     * Pravit'
+     * Pravit' kod
+     * Istoriya
+
+   [ ] Eschio
+
+Poisk
+
+   ____________________ Najti Perejti
+
+Navigaciya
+
+     * Zaglavnaya stranica
+     * Soderzhanie
+     * Izbrannye stat'i
+     * Sluchajnaya stat'ya
+     * Tekuschie sobytiya
+     * Pozhertvovat'
+
+Uchastie
+
+     * Soobschit' ob oshibke
+     * Kak pravit' stat'i
+     * Soobschestvo
+     * Forum
+     * Svezhie pravki
+     * Novye stranicy
+     * Spravka
+
+Instrumenty
+
+     * Ssylki syuda
+     * Svyazannye pravki
+     * Sluzhebnye stranicy
+     * Postoyannaya ssylka
+     * Svedeniya o stranice
+     * Citirovat' stranicu
+     * Poluchit' sokraschionnyj URL-adres
+     * `Element Vikidannyh
+
+Pechat'/`eksport
+
+     * Skachat' kak PDF
+     * Versiya dlya pechati
+
+V drugih proektah
+
+     * Vikisklad
+
+Na drugih yazykah
+
+     * a+l+e+r+b+y+tm
+     * B"lgarski
+     * Català
+     * Cestina
+     * CHvashla
+     * Dansk
+     * Deutsch
+     * English
+     * Esperanto
+     * Español
+     * Eesti
+     * f+a+r+s+
+     * Suomi
+     * Français
+     * Magyar
+     * Bahasa Indonesia
+     * Ido
+     * Íslenska
+     * Italiano
+     * ¥¬
+     * ­´
+     * Lietuviu
+     * Latviesu
+     * Makedonski
+     * ®²¯¾³
+     * Mongol
+     * Nederlands
+     * Norsk bokmål
+     * Polski
+     * Português
+     * Srpskohrvatski / srpskohrvatski
+     * Simple English
+     * Slovenscina
+     * Srpski / srpski
+     * Svenska
+     * ¤®¿´
+     * ¢
+     * Tagalog
+     * Türkçe
+     * Ukrayins'ka
+     * Tie>'ng Vie>-.t
+     * ­
+     * µ
+
+   Pravit' ssylki
+
+     * `Eta stranica v poslednij raz byla otredaktirovana 9 iyunya 2023 v
+       14:07.
+     * Tekst dostupen po licenzii Creative Commons «S ukazaniem avtorstva
+       -- S sohraneniem uslovij» (CC BY-SA); v otdel'nyh sluchayah mogut
+       dejstvovat' dopolnitel'nye usloviya. Podrobnee sm. Usloviya
+       ispol'zovaniya.
+       Wikipedia® -- zaregistrirovannyj tovarnyj znak nekommercheskoj
+       organizacii Fond Vikimedia (Wikimedia Foundation, Inc.)
+
+     * Politika konfidencial'nosti
+     * Opisanie Vikipedii
+     * Otkaz ot otvetstvennosti
+     * Svyazhites' s nami
+     * Kodeks povedeniya
+     * Razrabotchiki
+     * Statistika
+     * Zayavlenie o kuki
+     * Mobil'naya versiya
+
+     * Wikimedia Foundation
+     * Powered by MediaWiki

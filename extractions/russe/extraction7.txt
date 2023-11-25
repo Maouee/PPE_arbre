@@ -1,0 +1,192 @@
+   #alternate Pravit' Vikipediya (ru) Vikipediya -- Atom-lenta
+
+Derevo Pifagora
+
+   Material iz Vikipedii -- svobodnoj `enciklopedii
+   Perejti k navigacii Perejti k poisku
+
+   De'revo Pifago'ra -- raznovidnost' fraktala, osnovannaya na figure,
+   izvestnoj kak «Pifagorovy shtany».
+   [Fractal_pifagor_tree.png] Sverhu -- klassicheskoe derevo Pifagora,
+   snizu -- obnazhennoe obduvaemoe vetrom derevo Pifagora
+   [ ]
+
+Soderzhanie
+
+     * 1 Istoriya
+     * 2 Osobennosti
+     * 3 Primery
+     * 4 Sm. takzhe
+
+Istoriya[pravit' | pravit' kod]
+
+   Pifagor, dokazyvaya svoyu znamenituyu teoremu, postroil figuru, gde na
+   storonah pryamougol'nogo treugol'nika raspolozheny kvadraty. Vpervye
+   derevo Pifagora postroil A. E. Bosman (1891--1961) vo vremya Vtoroj
+   mirovoj vojny, ispol'zuya obychnuyu chertiozhnuyu linejku.
+   ^[istochnik ne ukazan 3760 dnej]
+   [384px-Pythagoras_tree_1_1_13_Summer.svg.png]
+
+Osobennosti[pravit' | pravit' kod]
+
+   Odnim iz svojstv dereva Pifagora yavlyaetsya to, chto esli ploschad'
+   pervogo kvadrata ravna edinice, to na kazhdom urovne summa ploschadej
+   kvadratov tozhe budet ravna edinice.
+
+   Esli v klassicheskom dereve Pifagora ugol raven 45 gradusam, to takzhe
+   mozhno postroit' i obobschionnoe derevo Pifagora pri ispol'zovanii
+   drugih uglov. Takoe derevo chasto nazyvayut obduvaemoe vetrom derevo
+   Pifagora. Esli izobrazhat' tol'ko otrezki, soedinyayuschie kakim-libo
+   obrazom vybrannye «centry» treugol'nikov, to poluchaetsya obnazhennoe
+   derevo Pifagora.
+
+Primery[pravit' | pravit' kod]
+
+     * Klassicheskoe derevo Pifagora
+       Klassicheskoe derevo Pifagora
+     * Obduvaemoe vetrom derevo Pifagora
+       Obduvaemoe vetrom derevo Pifagora
+     * Obnazhennoe derevo Pifagora
+       Obnazhennoe derevo Pifagora
+     * Obnazhennoe obduvaemoe vetrom derevo Pifagora
+       Obnazhennoe obduvaemoe vetrom derevo Pifagora
+
+Sm. takzhe[pravit' | pravit' kod]
+
+     * Krivaya Levi
+     * Samopodobie
+     * Graf K`eli (teoriya grupp)
+
+   V stat'e ne hvataet ssylok na istochniki (sm. rekomendacii po poisku).
+   Informaciya dolzhna byt' proveryaema, inache ona mozhet byt' udalena.
+   Vy mozhete otredaktirovat' stat'yu, dobaviv ssylki na avtoritetnye
+   istochniki v vide snosok. (8 iyunya 2019)
+   Istochnik --
+   https://ru.wikipedia.org/w/index.php?title=Derevo_Pifagora&oldid=100289
+   736
+   Kategoriya:
+     * Fraktaly
+
+   Skrytye kategorii:
+     * Vikipediya:Stat'i bez istochnikov (ne raspredelionnye po tipam)
+     * Vikipediya:Net istochnikov s avgusta 2013
+     * Vikipediya:Stat'i s utverzhdeniyami bez istochnikov bolee 14 dnej
+     * Vikipediya:Stat'i bez ssylok na istochniki s iyunya 2019 goda
+
+Navigaciya
+
+Personal'nye instrumenty
+
+     * Vy ne predstavilis' sisteme
+     * Obsuzhdenie
+     * Vklad
+     * Sozdat' uchiotnuyu zapis'
+     * Vojti
+
+Prostranstva imion
+
+     * Stat'ya
+     * Obsuzhdenie
+
+   [ ] russkij
+
+Prosmotry
+
+     * CHitat'
+     * Pravit'
+     * Pravit' kod
+     * Istoriya
+
+   [ ] Eschio
+
+Poisk
+
+   ____________________ Najti Perejti
+
+Navigaciya
+
+     * Zaglavnaya stranica
+     * Soderzhanie
+     * Izbrannye stat'i
+     * Sluchajnaya stat'ya
+     * Tekuschie sobytiya
+     * Pozhertvovat'
+
+Uchastie
+
+     * Soobschit' ob oshibke
+     * Kak pravit' stat'i
+     * Soobschestvo
+     * Forum
+     * Svezhie pravki
+     * Novye stranicy
+     * Spravka
+
+Instrumenty
+
+     * Ssylki syuda
+     * Svyazannye pravki
+     * Sluzhebnye stranicy
+     * Postoyannaya ssylka
+     * Svedeniya o stranice
+     * Citirovat' stranicu
+     * Poluchit' sokraschionnyj URL-adres
+     * `Element Vikidannyh
+
+Pechat'/`eksport
+
+     * Skachat' kak PDF
+     * Versiya dlya pechati
+
+V drugih proektah
+
+     * Vikisklad
+
+Na drugih yazykah
+
+     * a+l+e+r+b+y+tm
+     * B"lgarski
+     * Català
+     * ©w+r+d+
+     * Cestina
+     * Deutsch
+     * Ellynika'
+     * English
+     * Español
+     * Euskara
+     * f+a+r+s+
+     * Français
+     * E+B+R+J+T+
+     * Italiano
+     * ¥¬
+     * Nederlands
+     * Polski
+     * Português
+     * Shqip
+     * Srpski / srpski
+     * Ukrayins'ka
+     * ­
+
+   Pravit' ssylki
+
+     * `Eta stranica v poslednij raz byla otredaktirovana 8 iyunya 2019 v
+       08:00.
+     * Tekst dostupen po licenzii Creative Commons «S ukazaniem avtorstva
+       -- S sohraneniem uslovij» (CC BY-SA); v otdel'nyh sluchayah mogut
+       dejstvovat' dopolnitel'nye usloviya. Podrobnee sm. Usloviya
+       ispol'zovaniya.
+       Wikipedia® -- zaregistrirovannyj tovarnyj znak nekommercheskoj
+       organizacii Fond Vikimedia (Wikimedia Foundation, Inc.)
+
+     * Politika konfidencial'nosti
+     * Opisanie Vikipedii
+     * Otkaz ot otvetstvennosti
+     * Svyazhites' s nami
+     * Kodeks povedeniya
+     * Razrabotchiki
+     * Statistika
+     * Zayavlenie o kuki
+     * Mobil'naya versiya
+
+     * Wikimedia Foundation
+     * Powered by MediaWiki

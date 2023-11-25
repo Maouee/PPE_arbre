@@ -1,0 +1,164 @@
+     * 1Terminology and properties
+
+     2Examples of tree structures
+
+     3Representing trees
+   (BUTTON) Toggle Representing trees subsection
+     * 3.1Classical node-link diagrams
+
+--
+
+
+   3.4Outlines and tree views
+
+
+--
+
+
+   3.6Radial trees
+
+
+--
+   article by introducing more precise citations. (July 2014) (Learn how
+   and when to remove this template message)
+   [300px-Binary_tree_structure.svg.png] A tree structure showing the
+   possible hierarchical organization of an
+   encyclopedia[300px-ENC_SYSTEME_FIGURE.jpeg] The original Encyclopédie
+   (1752) used a tree diagram to show the way in which its subjects were
+   ordered.
+
+   A tree structure, tree diagram, or tree model is a way of representing
+   the hierarchical nature of a structure in a graphical form. It is named
+   a "tree structure" because the classic representation resembles a tree,
+   although the chart is generally upside down compared to a biological
+   tree, with the "stem" at the top and the "leaves" at the bottom.
+
+   A tree structure is conceptual, and appears in several forms. For a
+   discussion of tree structures in specific fields, see Tree (data
+   structure) for computer science; insofar as it relates to graph theory,
+   see tree (graph theory) or tree (set theory). Other related articles
+   are listed below.
+
+Terminology and properties[edit]
+
+   The tree elements are called "nodes". The lines connecting elements are
+   called "branches". Nodes without children are called leaf nodes,
+   "end-nodes", or "leaves".
+
+   Every finite tree structure has a member that has no superior. This
+   member is called the "root" or root node. The root is the starting
+   node. But the converse is not true: infinite tree structures may or may
+   not have a root node.
+
+--
+   "culture", its children. "Art" and "craft" are siblings, and children
+   of "culture", which is their parent and thus one of their ancestors.
+   Also, "encyclopedia", as the root of the tree, is the ancestor of
+   "science", "culture", "art" and "craft". Finally, "science", "art" and
+   "craft", as leaves, are ancestors of no other node.
+
+   Tree structures can depict all kinds of taxonomic knowledge, such as
+   family trees, the biological evolutionary tree, the evolutionary tree
+   of a language family, the grammatical structure of a language (a key
+   example being S -> NP VP, meaning a sentence is a noun phrase and a
+   verb phrase, with each in turn having other components which have other
+   components), the way web pages are logically ordered in a web site,
+   mathematical trees of integer sets, et cetera.
+
+   The Oxford English Dictionary records use of both the terms "tree
+   structure" and "tree-diagram" from 1965 in Noam Chomsky's Aspects of
+   the Theory of Syntax.^[2]
+
+   In a tree structure there is one and only one path from any point to
+   any other point.
+
+   Computer science uses tree structures extensively (see Tree (data
+   structure) and telecommunications.)
+
+--
+   which children are not necessarily successors, see prefix order.
+
+Examples of tree structures[edit]
+
+   [220px-Tree_Map.png] A tree map used to represent a directory structure
+   as a nested set[220px-1934-Thermionic-Tube-Chart.jpg] information
+   diagram in the shape of a tree illustrating the "evolution" of
+   thermionic tubes (a type of vacuum tube) between 1883 and 1934
+     * Internet:
+--
+     * Management: hierarchical organizational structures
+     * Computer science:
+          + binary search tree
+          + red-black tree
+          + AVL tree
+          + R-tree
+          + doubly logarithmic tree
+     * Biology: evolutionary tree
+     * Business: pyramid selling scheme
+     * Project management: work breakdown structure
+     * Linguistics:
+          + (Syntax) Phrase structure trees
+          + (Historical Linguistics) Tree model of language change
+     * Sports: business chess, playoffs brackets
+     * Mathematics: Von Neumann universe
+     * Group theory: descendant trees
+
+Representing trees[edit]
+
+   There are many ways of visually representing tree structures. Almost
+   always, these boil down to variations, or combinations, of a few basic
+   styles:
+--
+   art craft
+
+Outlines and tree views[edit]
+
+   Lists or diagrams that use indentation, sometimes called "outlines" or
+   "tree views".
+
+   An outline:
+--
+                science
+
+   A tree view:
+     * encyclopedia
+          + culture
+--
+   encyclopedia(culture(art,craft),science)
+
+Radial trees[edit]
+
+   See also: Radial tree
+
+   Trees can also be represented radially:
+--
+See also[edit]
+
+   Kinds of trees
+
+     * B-tree
+     * Dancing tree
+     * Decision tree
+     * Left-child right-sibling binary tree
+     * Porphyrian tree
+     * Tree (data structure)
+     * Tree (graph theory)
+--
+    1. ^ "Ethereum Glossary". GitHub. Archived from the original on 25
+       April 2019. Retrieved 17 April 2019.
+    2. ^ "tree". Oxford English Dictionary (Online ed.). Oxford University
+       Press. (Subscription or participating institution membership
+       required.)
+--
+Further reading[edit]
+
+   Identification of some of the basic styles of tree structures can be
+   found in:
+     * Jacques Bertin, Semiology of Graphics, 1983, University of
+--
+   Wikimedia Commons has media related to Tree diagram.
+
+     * Visualization of phylogenetic trees on the T-REX server
+     * Using a tree structure to design a business process - from the
+       Society for Technical Communication
+
