@@ -37,8 +37,10 @@ do
     
     #récupère la valeur de l'encodage et l'écrit à la fin du fichier
     encodage=$(curl -L -I -s $URL | egrep -o "charset.+\b" | tail -1 | tr -d "\r\d" | tr -d "charset=")
-    #iconv -f ${encodage} -t UTF-8 ../extractions/${langue}/extraction${compteur}.txt > ../extractions/${langue}/extraction${compteur}.txt
 
+    bash ../comptage/${langue}.sh ../extractions/${langue}/extraction${compteur}.txt
+
+    #iconv -f ${encodage} -t UTF-8 ../extractions/${langue}/extraction${compteur}.txt > ../extractions/${langue}/extraction${compteur}.txt
 
 
     ## TABLEAU
