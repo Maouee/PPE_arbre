@@ -890,4 +890,3 @@
 
      * Wikimedia Foundation
      * Powered by MediaWiki
-UTF-8
