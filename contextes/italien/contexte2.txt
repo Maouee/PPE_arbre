@@ -4,10 +4,11 @@
    cilindro per motore quadricilindrico in linea[Nockenwelle_2005.jpg]
    Albero a camme per motore o bancata quadricilidrici
 
-   L'albero a camme, nella meccanica, è un albero motore con parti
+   L'albero a camme, nella meccanica, Ã¨ un albero motore con parti
    eccentriche calettate, atto a trasmettere particolari leggi di moto
-   agli elementi che vi sono a contatto. Nei motori a scoppio è l'albero
---
+   agli elementi che vi sono a contatto. Nei motori a scoppio Ã¨ l'albero
+   responsabile della distribuzione su cui sono montati degli eccentrici,
+   detti "camme", forzate su un tubo in acciaio cementato (generalmente
    acciaio 18NiCrMo5) o costituenti un tutt'uno forgiato o realizzati
    tramite idroformatura, che comandano l'apertura e la chiusura delle
    valvole. L'albero a camme si trova solo nel motore a 4 tempi sia
@@ -24,19 +25,19 @@
    delle camme
 
    L'albero a camme viene azionato dall'albero motore rispetto al quale
-   ruota (nel motore a quattro tempi) a velocità angolare dimezzata e al
-   quale è generalmente collegato tramite catena o cinghia. In alcuni
+   ruota (nel motore a quattro tempi) a velocitÃ  angolare dimezzata e al
+   quale Ã¨ generalmente collegato tramite catena o cinghia. In alcuni
 --
    dettaglio: Camma.
 
-   Nei motori attuali l'albero a camme è situato generalmente al di sopra
+   Nei motori attuali l'albero a camme Ã¨ situato generalmente al di sopra
    della testata. Con tale disposizione prende il nome di "albero a camme
    in testa" e comanda le valvole mediante punterie a bicchiere. In altri
    motori l'albero a camme era situato lateralmente alla testata del
    motore.
 
    A seconda del numero di valvole per cilindro e della disposizione dei
-   cilindri ci possono essere più alberi a camme, anche se generalmente
+   cilindri ci possono essere piÃ¹ alberi a camme, anche se generalmente
    non superano i due per bancata (doppio albero a camme in testa). Altri
    sistemi prevedono prima delle valvole vari rimandi meccanici quali aste
    o bilancieri, sistemi comunque progressivamente abbandonati per il
@@ -52,12 +53,12 @@ L'importanza dell'albero a camme[modifica | modifica wikitesto]
 
 Messa in fase dell'albero a camme[modifica | modifica wikitesto]
 
-   L'albero a camme può essere messo in fase tramite sistemi diversi:
+   L'albero a camme puÃ² essere messo in fase tramite sistemi diversi:
      * fori asolati i fori presenti sull'ingranaggio da accoppiare
        sull'albero sono asolati, in modo da poter variare facilmente e
        velocemente la fasatura;
      * chiavetta di Woodruff sfalsata, l'ingranaggio viene accoppiato
-       tramite questa chiavetta, oppure ogni lobo è provvisto di una
+       tramite questa chiavetta, oppure ogni lobo Ã¨ provvisto di una
        chiavetta propria;
      * nonio o verniero, prevede l'unione dell'albero all'ingranaggio
        tramite dei fori presenti su entrambi, ma che hanno numero diversi
@@ -70,7 +71,9 @@ Messa in fase dell'albero a camme[modifica | modifica wikitesto]
      * Albero a gomiti
      * Albero di trasmissione
 --
-       dizionario «albero a camme»
+
+     * Collabora a Wikizionario Wikizionario contiene il lemma di
+       dizionario Â«albero a cammeÂ»
      * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
        altri file su albero a camme
 

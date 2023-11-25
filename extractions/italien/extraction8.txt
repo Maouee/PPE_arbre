@@ -7,17 +7,17 @@ Albero genealogico
    [220px-Waldburg_Ahnentafel.jpg] Esempio di albero genealogico della
    famiglia di Sigmund Christoph von Waldburg-Zeil-Trauchburg
 
-   L'albero genealogico � generalmente l'elenco completo degli antenati, o
-   pi� specificamente, un grafico utilizzato nella genealogia per mostrare
-   i rapporti familiari tra individui. Non sempre � facile risalire
+   L'albero genealogico è generalmente l'elenco completo degli antenati, o
+   più specificamente, un grafico utilizzato nella genealogia per mostrare
+   i rapporti familiari tra individui. Non sempre è facile risalire
    cronologicamente agli antenati in assenza di documentazione accertata.
    Nelle ricerche private il "di" e il "fu", che precede il nome del
-   genitore, vivo o defunto, permette di risalire pi� facilmente
+   genitore, vivo o defunto, permette di risalire più facilmente
    all'antenato che precede il nominativo conosciuto.
 
    Le grafiche che rappresentano gli alberi genealogici sono disparate e
    molteplici e spesso le diramazioni molto estese richiedono
-   un'elaborazione che non sempre � contenibile nei formati cartacei
+   un'elaborazione che non sempre è contenibile nei formati cartacei
    tradizionali.
 
    Abitualmente l'albero genealogico viene realizzato utilizzando delle
@@ -28,10 +28,10 @@ Albero genealogico
    il basso in ordine cronologico, sono connessi da vari tipi di linee che
    rappresentano i matrimoni e unioni extraconiugali e la discendenza.
 
-   In alcuni casi, se non � possibile ad esempio inserire un grafico, �
+   In alcuni casi, se non è possibile ad esempio inserire un grafico, è
    possibile descrivere gli antenati di una persona utilizzando una tavola
-   genealogica.^[1] Inoltre, uno dei modi pi� semplici e veloci per creare
-   un albero genealogico � quello di utilizzare dei modelli.
+   genealogica.^[1] Inoltre, uno dei modi più semplici e veloci per creare
+   un albero genealogico è quello di utilizzare dei modelli.
    [ ]
 
 Indice
@@ -43,7 +43,7 @@ Indice
 
 Note[modifica | modifica wikitesto]
 
-    1. ^ Realizzato l'albero genealogico digitale pi� grande del mondo, su
+    1. ^ Realizzato l'albero genealogico digitale più grande del mondo, su
        superEva. URL consultato il 14 marzo 2018.
 
 Voci correlate[modifica | modifica wikitesto]
@@ -55,12 +55,12 @@ Altri progetti[modifica | modifica wikitesto]
 
    Altri progetti
      * Wikiquote
-     * Wikiversit�
+     * Wikiversità
      * Wikimedia Commons
 
      * Collabora a Wikiquote Wikiquote contiene citazioni sull'albero
        genealogico
-     * Collabora a Wikiversit� Wikiversit� contiene risorse sull'albero
+     * Collabora a Wikiversità Wikiversità contiene risorse sull'albero
        genealogico
      * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
        altri file sull'albero genealogico
@@ -72,7 +72,7 @@ Collegamenti esterni[modifica | modifica wikitesto]
      * (EN) WikiTree.Org.
      * rodovid.org Genealogia globale, in 22 lingue.
 
-   Controllo di autorit� GND (DE) 4248436-4
+   Controllo di autorità GND (DE) 4248436-4
      Portale Storia di famiglia: accedi alle voci di Wikipedia che
    trattano di storia di famiglia
    Estratto da
@@ -83,7 +83,7 @@ Collegamenti esterni[modifica | modifica wikitesto]
 
    Categorie nascoste:
      * Voci con codice GND
-     * Voci non biografiche con codici di controllo di autorit�
+     * Voci non biografiche con codici di controllo di autorità
 
 Menu di navigazione
 
@@ -125,9 +125,9 @@ Navigazione
      * Aiuto
      * Sportello informazioni
 
-Comunit�
+Comunità
 
-     * Portale Comunit�
+     * Portale Comunità
      * Bar
      * Il Wikipediano
      * Fai una donazione
@@ -154,68 +154,68 @@ In altri progetti
 
      * Wikimedia Commons
      * Wikiquote
-     * Wikiversit�
+     * Wikiversità
 
 In altre lingue
 
-     * �nglisc
-     * a+l+e+r+b+y+tm
+     * Ænglisc
+     * العربية
      * Brezhoneg
-     * Catal�
-     * Cestina
+     * Català
+     * Čeština
      * Cymraeg
      * Dansk
      * Deutsch
-     * Ellynika'
+     * Ελληνικά
      * English
      * Esperanto
-     * Espa�ol
+     * Español
      * Eesti
      * Euskara
-     * f+a+r+s+
+     * فارسی
      * Suomi
-     * V�ro
-     * Fran�ais
+     * Võro
+     * Français
      * Galego
-     * ����
+     * हिन्दी
      * Hrvatski
      * Magyar
-     * �����
-     * �����������
+     * Հայերեն
+     * Արեւմտահայերէն
      * Bahasa Indonesia
-     * ��
-     * azasha
-     * ��
+     * 日本語
+     * Қазақша
+     * 한국어
      * Latina
-     * Latviesu
+     * Latviešu
      * Bahasa Melayu
      * Nederlands
-     * ���
+     * ଓଡ଼ିଆ
      * Polski
-     * Portugu�s
-     * Rom�na
-     * Russkij
-     * Saha tyla
-     * Srpskohrvatski / srpskohrvatski
+     * Português
+     * Română
+     * Русский
+     * Саха тыла
+     * Srpskohrvatski / српскохрватски
      * Simple English
-     * Slovencina
-     * Slovenscina
+     * Slovenčina
+     * Slovenščina
      * Shqip
-     * Srpski / srpski
+     * Српски / srpski
      * Svenska
-     * ����
-     * �
-     * T�rk�e
-     * Tatarcha / tatar�a
-     * Ukrayins'ka
-     * a+r+d+w+
-     * �
+     * தமிழ்
+     * ไทย
+     * Türkçe
+     * Татарча / tatarça
+     * Українська
+     * اردو
+     * 中文
 
    Modifica collegamenti
 
-     * Questa pagina � stata modificata per l'ultima volta il 1 mag 2023
+     * Questa pagina è stata modificata per l'ultima volta il 1 mag 2023
        alle 09:10.
-     * Il testo � disponibile secondo la licenza Creative Commons
+     * Il testo è disponibile secondo la licenza Creative Commons
        Attribuzione-Condividi allo stesso modo; possono applicarsi
        condizioni ulteriori. Vedi le condizioni d'uso per i dettagli.
 

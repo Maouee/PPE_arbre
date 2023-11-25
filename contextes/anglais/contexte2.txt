@@ -1,20 +1,15 @@
-
-
-   7.6Ornamental trees
-
-
---
-
-   (BUTTON) Toggle Threats subsection
-     * 8.1Individual trees
-
-
---
-
-
-   10Superlative trees
-
-
+               o 7.4.2Tree shaping
+          + 7.5Bark
+          + 7.6Ornamental trees
+          + 7.7Other uses
+     * 8Threats
+       (BUTTON) Toggle Threats subsection
+          + 8.1Individual trees
+          + 8.2Conservation
+     * 9Mythology
+     * 10Superlative trees
+     * 11See also
+     * 12Notes
 --
    [220px-Ash_Tree_-_geograph.org.uk_-_590710.jpg] Common ash (Fraxinus
    excelsior), a deciduous broad-leaved (angiosperm)
@@ -277,7 +272,7 @@
    leaves to all other parts, including the roots.^[62]
 
 --
-   cambium or phellogen.^[63] The London plane (Platanus � acerifolia)
+   cambium or phellogen.^[63] The London plane (Platanus × acerifolia)
    periodically sheds its bark in large flakes. Similarly, the bark of the
    silver birch (Betula pendula) peels off in strips. As the tree's girth
    expands, newer layers of bark are larger in circumference, and the
@@ -316,7 +311,7 @@
    Three quarters of the dry mass of the xylem is cellulose, a
    polysaccharide, and most of the remainder is lignin, a complex polymer.
    A transverse section through a tree trunk or a horizontal core will
-   show concentric circles of lighter or darker wood - tree rings.^[68]
+   show concentric circles of lighter or darker wood – tree rings.^[68]
    These rings are the annual growth rings^[69]^[70] There may also be
    rays running at right angles to growth rings. These are vascular rays
    which are thin sheets of living tissue permeating the wood.^[68] Many
@@ -378,8 +373,8 @@
    may shed all their leaves annually, such as at the start of the dry
    season.^[77] Many deciduous trees flower before the new leaves
    emerge.^[78] A few trees do not have true leaves but instead have
-   structures with similar external appearance such as Phylloclades -
-   modified stem structures^[79] - as seen in the genus Phyllocladus.^[80]
+   structures with similar external appearance such as Phylloclades –
+   modified stem structures^[79] – as seen in the genus Phyllocladus.^[80]
 --
 
    Trees can be pollinated either by wind or by animals, mostly insects.
@@ -538,7 +533,7 @@
    The leaves of trees are widely gathered as fodder for livestock and
    some can be eaten by humans but they tend to be high in tannins which
    makes them bitter. Leaves of the curry tree (Murraya koenigii) are
-   eaten, those of kaffir lime (Citrus � hystrix) (in Thai food)^[119] and
+   eaten, those of kaffir lime (Citrus × hystrix) (in Thai food)^[119] and
    Ailanthus (in Korean dishes such as bugak) and those of the European
    bay tree (Laurus nobilis) and the California bay tree (Umbellularia
    californica) are used for flavouring food.^[116] Camellia sinensis, the
@@ -571,7 +566,7 @@
    Main article: Bonsai
 --
    there are similar practices in other cultures like the living miniature
-   landscapes of Vietnam h�n non bo>-.. The word bonsai is often used in
+   landscapes of Vietnam hòn non bộ. The word bonsai is often used in
    English as an umbrella term for all miniature trees in containers or
    pots.^[131]
 
@@ -635,7 +630,10 @@
    extensively by Native Americans. Wigwams were covered by it and canoes
    were constructed from it. Other uses included food containers, hunting
 --
-   (Platanus � acerifolia) in garden
+   a mulch and as a growing medium for epiphytic plants that need a
+   soil-free compost.^[147]
+   [220px-Fontaine-l%27Eveque_JPG01c.jpg] Alleé of London plane trees
+   (Platanus × acerifolia) in garden
 
   Ornamental trees
 
@@ -669,10 +667,11 @@
 
    Latex is a sticky defensive secretion that protects plants against
    herbivores. Many trees produce it when injured but the main source of
-   the latex used to make natural rubber is the Par� rubber tree (Hevea
+   the latex used to make natural rubber is the Pará rubber tree (Hevea
    brasiliensis). Originally used to create bouncy balls and for the
---
-   exuded by the balat� tree (Manilkara bidentata) is used to make golf
+   waterproofing of cloth, natural rubber is now mainly used in tyres for
+   which synthetic materials have proved less durable.^[152] The latex
+   exuded by the balatá tree (Manilkara bidentata) is used to make golf
    balls and is similar to gutta-percha, made from the latex of the "getah
    perca" tree Palaquium. This is also used as an insulator, particularly
    of undersea cables, and in dentistry, walking sticks and gun butts. It
@@ -785,7 +784,7 @@ Superlative trees
 
    A little farther south, at Santa Maria del Tule, Oaxaca, Mexico, is the
    tree with the broadest trunk. It is a Montezuma cypress (Taxodium
-   mucronatum) known as �rbol del Tule and its diameter at breast height
+   mucronatum) known as Árbol del Tule and its diameter at breast height
    is 11.62 m (38.1 ft) giving it a girth of 36.2 m (119 ft). The tree's
    trunk is far from round and the exact dimensions may be misleading as
    the circumference includes much empty space between the large buttress
@@ -800,7 +799,7 @@ Superlative trees
      * i-Tree
      * List of lists of trees
      * Million Tree Initiative
-     * Multipurpose tree - a tree grown and managed for more than one
+     * Multipurpose tree – a tree grown and managed for more than one
        output
      * Reforestation
 --
@@ -817,9 +816,9 @@ References
        December 2021.
     4. ^ ^a ^b ^c Gschwantner, Thomas; et al. (2009). "Common tree
        definitions for national forest inventories in Europe". Silva
-       Fennica. 43 (2): 303-321. doi:10.14214/sf.463.
+       Fennica. 43 (2): 303–321. doi:10.14214/sf.463.
 --
-       activity". Trees. 29 (5): 1493-1499. doi:10.1007/s00468-015-1230-3.
+       activity". Trees. 29 (5): 1493–1499. doi:10.1007/s00468-015-1230-3.
        ISSN 0931-1890.
    13. ^ "Community forestry rapid appraisal of tree and land tenure".
        Food and Agriculture Organisation. Archived from the original on 17
@@ -828,7 +827,7 @@ References
        Archived from the original (PDF) on 16 January 2014.
    16. ^ Koch, George W.; Sillett, Stephen C.; Jennings, Gregory M.;
        Davis, Stephen D. (2004). "The limits to tree height" (PDF).
-       Letters to Nature. Nature Publishing Group. 428 (6985): 851-4.
+       Letters to Nature. Nature Publishing Group. 428 (6985): 851–4.
        Bibcode:2004Natur.428..851K. doi:10.1038/nature02417.
 --
        Routledge. p. 138. ISBN 978-1-84407-079-4. Archived from the
@@ -843,7 +842,7 @@ References
    34. ^ Crowther, T. W.; Glick, H. B.; Covey, K. R.; Bettigole, C.;
        Maynard, D. S.; Thomas, S. M.; Smith, J. R.; Hintler, G.; Duguid,
        M. C. (2 September 2015). "Mapping tree density at a global scale".
-       Nature. advance online publication (7568): 201-205.
+       Nature. advance online publication (7568): 201–205.
        Bibcode:2015Natur.525..201C. doi:10.1038/nature14967.
 --
        Astonished By How Many Trees There Are". National Public Radio.
@@ -868,23 +867,29 @@ References
        species in the eastern half of the biome."
    43. ^ "Taiga Biological Station: FAQ". Taiga Biological Station. 23
 --
+       Museum of Paleontology. Archived from the original on 9 August
+       2012. Retrieved 28 July 2012.
+   45. ^ Körner, Christian. "High elevation treeline research". University
+       of Basel: Institute of Botany. Archived from the original on 23
+       October 2016. Retrieved 28 July 2012.
+--
        original on 19 August 2020. Retrieved 29 May 2020.
    57. ^ Hough, Walter A. (1 June 1965). "Root extension of Individual
        trees in surface soils of a Natural Longleaf Pine-Turkey Oak
-       Stand". Forest Science. 11 (2): 223-242. Archived from the original
+       Stand". Forest Science. 11 (2): 223–242. Archived from the original
        on 9 December 2013.
 --
        buttress roots: a comparative study of the anchorage systems of
        buttressed (Aglaia and Nephelium ramboutan species) and
        non-buttressed (Mallotus wrayi) tropical trees". Journal of
-       Experimental Botany. 48 (9): 1703-1716. doi:10.1093/jxb/48.9.1703.
+       Experimental Botany. 48 (9): 1703–1716. doi:10.1093/jxb/48.9.1703.
    61. ^ King, David A. (1990). "The Adaptive Significance of Tree
 --
-       and sink". Annual Review of Plant Biology. 55: 341-372.
+       and sink". Annual Review of Plant Biology. 55: 341–372.
        doi:10.1146/annurev.arplant.55.031903.141758. PMID 15377224.
    67. ^ "Wood, tree trunks and branches". BioTech. Cronodon Museum.
        Archived from the original on 2 May 2015. Retrieved 16 July 2012.
-   68. ^ ^a ^b "The anatomy of a tree trunk - the wood 2". Archived from
+   68. ^ ^a ^b "The anatomy of a tree trunk – the wood 2". Archived from
        the original on 14 March 2012.{{cite web}}: CS1 maint: bot:
        original URL status unknown (link)
    69. ^ Fritts, H. C. (2001). Tree Rings and Climate. Blackburn Press.
@@ -896,7 +901,7 @@ References
        2022. Retrieved 28 February 2016.
    78. ^ Bullock, Stephen H.; Solis-Magallanes, J. Arturo (March 1990).
        "Phenology of canopy trees of a tropical deciduous forest in
-       Mexico". Biotropica. 22 (1): 22-35. doi:10.2307/2388716.
+       Mexico". Biotropica. 22 (1): 22–35. doi:10.2307/2388716.
        JSTOR 2388716.
 --
    106. ^ "English oak". Old Knobbley. 2007. Archived from the original on
@@ -921,15 +926,15 @@ References
        original on 15 November 2012. Retrieved 27 July 2012.
    148. ^ Brickell, Christopher, ed. (1992). "Ornamental trees". The Royal
        Horticultural Society Encyclopedia of Gardening. Dorling
-       Kindersley. pp. 32-33. ISBN 978-0-86318-979-1.
+       Kindersley. pp. 32–33. ISBN 978-0-86318-979-1.
 --
        for Livable and Sustainable Communities". Plants, People, Planet. 1
-       (4): 323-335. doi:10.1002/ppp3.39.
+       (4): 323–335. doi:10.1002/ppp3.39.
    150. ^ "Street trees". Greenspace initiative. Forestry Commission.
        Archived from the original on 4 March 2016. Retrieved 20 September
        2014.
 --
-       Heroes, Rituals, and Beliefs, pp. 319-322. Oxford University Press.
+       Heroes, Rituals, and Beliefs, pp. 319–322. Oxford University Press.
        ISBN 0-19-515382-0
    161. ^ Dehejia, Harsha V. (21 December 2011). "The sacred tree". The
        Times of India. Archived from the original on 23 May 2014.
@@ -938,7 +943,7 @@ References
        January 2016. Retrieved 5 June 2016.
    166. ^ Koch, George W.; Sillett, Stephen C.; Jennings, Gregory M.;
        Davis, Stephen D. (22 April 2004). "The limits to tree height".
-       Nature. 428 (6985): 851-854. Bibcode:2004Natur.428..851K.
+       Nature. 428 (6985): 851–854. Bibcode:2004Natur.428..851K.
        doi:10.1038/nature02417. PMID 15103376. S2CID 11846291.
 --
        Retrieved 15 September 2017.

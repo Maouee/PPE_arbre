@@ -1,260 +1,256 @@
-   #alternate Pravit' Vikipediya (ru) Vikipediya -- Atom-lenta
+   #alternate Править Википедия (ru) Википедия — Atom-лента
 
-Derevo (teoriya grafov)
+Дерево (теория графов)
 
-   Material iz Vikipedii -- svobodnoj `enciklopedii
-   Perejti k navigacii Perejti k poisku
-   U `etogo termina suschestvuyut i drugie znacheniya, sm. Derevo
-   (znacheniya).
+   Материал из Википедии — свободной энциклопедии
+   Перейти к навигации Перейти к поиску
+   У этого термина существуют и другие значения, см. Дерево (значения).
 
-   Derevo -- `eto svyaznyj aciklicheskij graf.^[1] Svyaznost' oznachaet
-   nalichie marshruta mezhdu lyuboj paroj vershin, aciklichnost' --
-   otsutstvie ciklov. Otsyuda, v chastnosti, sleduet, chto chislo riober v
-   dereve na edinicu men'she chisla vershin, a mezhdu lyubymi parami
-   vershin imeetsya odin i tol'ko odin put'.
+   Дерево — это связный ациклический граф.^[1] Связность означает наличие
+   маршрута между любой парой вершин, ацикличность — отсутствие циклов.
+   Отсюда, в частности, следует, что число рёбер в дереве на единицу
+   меньше числа вершин, а между любыми парами вершин имеется один и только
+   один путь.
 
-   Les -- mnozhestvo derev'ev.
+   Лес — множество деревьев.
 
-   Orientirovannoe (napravlennoe) derevo -- aciklichnyj orgraf
-   (orientirovannyj graf, ne soderzhaschij ciklov), v kotorom tol'ko odna
-   vershina imeet nulevuyu stepen' zahoda (v neio ne vedut dugi), a vse
-   ostal'nye vershiny imeyut stepen' zahoda 1 (v nih vediot rovno po odnoj
-   duge). Vershina s nulevoj stepen'yu zahoda nazyvaetsya kornem dereva,
-   vershiny s nulevoj stepen'yu ishoda (iz kotoryh ne ishodit ni odna
-   duga) nazyvayutsya koncevymi vershinami ili list'yami.^[2]
+   Ориентированное (направленное) дерево — ацикличный орграф
+   (ориентированный граф, не содержащий циклов), в котором только одна
+   вершина имеет нулевую степень захода (в неё не ведут дуги), а все
+   остальные вершины имеют степень захода 1 (в них ведёт ровно по одной
+   дуге). Вершина с нулевой степенью захода называется корнем дерева,
+   вершины с нулевой степенью исхода (из которых не исходит ни одна дуга)
+   называются концевыми вершинами или листьями.^[2]
    [ ]
 
-Soderzhanie
+Содержание
 
-     * 1 Svyazannye opredeleniya
-     * 2 Dvoichnoe derevo
-     * 3 N-arnye derev'ya
-     * 4 Svojstva
-     * 5 Podschiot derev'ev
-     * 6 Kodirovanie derev'ev
-     * 7 Sm. takzhe
-     * 8 Primechaniya
-     * 9 Literatura
+     * 1 Связанные определения
+     * 2 Двоичное дерево
+     * 3 N-арные деревья
+     * 4 Свойства
+     * 5 Подсчёт деревьев
+     * 6 Кодирование деревьев
+     * 7 См. также
+     * 8 Примечания
+     * 9 Литература
 
-Svyazannye opredeleniya[pravit' | pravit' kod]
+Связанные определения[править | править код]
 
-     * Stepen' vershiny -- kolichestvo incidentnyh ej reber.
+     * Степень вершины — количество инцидентных ей ребер.
 
-     * Koncevoj uzel (list, terminal'naya vershina) -- uzel so stepen'yu 1
-       (to est' uzel, v kotoryj vediot tol'ko odno rebro; v sluchae
-       orientirovannogo dereva -- uzel, v kotoryj vediot tol'ko odna duga
-       i ne ishodit ni odnoj dugi).
+     * Концевой узел (лист, терминальная вершина) — узел со степенью 1 (то
+       есть узел, в который ведёт только одно ребро; в случае
+       ориентированного дерева — узел, в который ведёт только одна дуга и
+       не исходит ни одной дуги).
 
-     * Uzel vetvleniya -- nekoncevoj uzel.
+     * Узел ветвления — неконцевой узел.
 
-     * Derevo s otmechennoj vershinoj nazyvaetsya kornevym derevom.
+     * Дерево с отмеченной вершиной называется корневым деревом.
           +
             [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
             displaystyle="true" scriptlevel="0"> <mi>m</mi> </mstyle>
             </mrow> <annotation
             encoding="application/x-tex">{\displaystyle m}</annotation>
             </semantics> :MATH]
-            m -j yarus dereva
+            m -й ярус дерева
             [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
             displaystyle="true" scriptlevel="0"> <mi>T</mi> </mstyle>
             </mrow> <annotation
             encoding="application/x-tex">{\displaystyle T}</annotation>
             </semantics> :MATH]
-            T  -- mnozhestvo uzlov dereva, na urovne
+            T  — множество узлов дерева, на уровне
             [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
             displaystyle="true" scriptlevel="0"> <mi>m</mi> </mstyle>
             </mrow> <annotation
             encoding="application/x-tex">{\displaystyle m}</annotation>
             </semantics> :MATH]
-            m ot kornya dereva.
-          + chastichnyj poryadok na vershinah:
+            m от корня дерева.
+          + частичный порядок на вершинах:
             [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-            displaystyle="true" scriptlevel="0"> <mi>u</mi>
-            <mo>&#x227A;</mo> <mi>v</mi> </mstyle> </mrow> <annotation
+            displaystyle="true" scriptlevel="0"> <mi>u</mi> <mo>≺</mo>
+            <mi>v</mi> </mstyle> </mrow> <annotation
             encoding="application/x-tex">{\displaystyle u\prec
             v}</annotation> </semantics> :MATH]
-            u\prec v , esli vershiny
+            u\prec v , если вершины
             [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
             displaystyle="true" scriptlevel="0"> <mi>u</mi> </mstyle>
             </mrow> <annotation
             encoding="application/x-tex">{\displaystyle u}</annotation>
             </semantics> :MATH]
-            u i
+            u и
             [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
             displaystyle="true" scriptlevel="0"> <mi>v</mi> </mstyle>
             </mrow> <annotation
             encoding="application/x-tex">{\displaystyle v}</annotation>
             </semantics> :MATH]
-            v razlichny i vershina
+            v различны и вершина
             [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
             displaystyle="true" scriptlevel="0"> <mi>u</mi> </mstyle>
             </mrow> <annotation
             encoding="application/x-tex">{\displaystyle u}</annotation>
             </semantics> :MATH]
-            u lezhit na (edinstvennoj!) `elementarnoj cepi,
-            soedinyayuschej koren' s vershinoj
+            u лежит на (единственной!) элементарной цепи, соединяющей
+            корень с вершиной
             [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
             displaystyle="true" scriptlevel="0"> <mi>v</mi> </mstyle>
             </mrow> <annotation
             encoding="application/x-tex">{\displaystyle v}</annotation>
             </semantics> :MATH]
             v .
-          + kornevoe podderevo s kornem
+          + корневое поддерево с корнем
             [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
             displaystyle="true" scriptlevel="0"> <mi>v</mi> </mstyle>
             </mrow> <annotation
             encoding="application/x-tex">{\displaystyle v}</annotation>
             </semantics> :MATH]
-            v  -- podgraf
+            v  — подграф
             [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
             displaystyle="true" scriptlevel="0"> <mo fence="false"
             stretchy="false">{</mo> <mi>v</mi> <mo fence="false"
-            stretchy="false">}</mo> <mo>)U</mo> <mo fence="false"
-            stretchy="false">{</mo> <mi>w</mi> <mo>&#x2223;</mo>
-            <mi>v</mi> <mo><</mo> <mi>w</mi> <mo fence="false"
+            stretchy="false">}</mo> <mo>∪</mo> <mo fence="false"
+            stretchy="false">{</mo> <mi>w</mi> <mo>∣</mo> <mi>v</mi>
+            <mo><</mo> <mi>w</mi> <mo fence="false"
             stretchy="false">}</mo> </mstyle> </mrow> <annotation
             encoding="application/x-tex">{\displaystyle \{v\}\cup \{w\mid
             v<w\}}</annotation> </semantics> :MATH]
             \{v\}\cup \{w\mid v<w\} .
-          + V kontekste, gde derevo predpolagaetsya imeyuschim koren',
-            derevo bez vydelennogo kornya nazyvaetsya svobodnym.
+          + В контексте, где дерево предполагается имеющим корень, дерево
+            без выделенного корня называется свободным.
 
-     * Uroven' uzla -- dlina puti ot kornya do uzla. Mozhno opredelit'
-       rekursivno:
+     * Уровень узла — длина пути от корня до узла. Можно определить
+       рекурсивно:
 
-    1. uroven' kornya dereva
+    1. уровень корня дерева
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mi>T</mi> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        T}</annotation> </semantics> :MATH]
-       T raven 0;
-    2. uroven' lyubogo drugogo uzla na edinicu bol'she, chem uroven'
-       kornya blizhajshego poddereva dereva
+       T равен 0;
+    2. уровень любого другого узла на единицу больше, чем уровень корня
+       ближайшего поддерева дерева
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mi>T</mi> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        T}</annotation> </semantics> :MATH]
-       T , soderzhaschego dannyj uzel.
+       T , содержащего данный узел.
 
-     * Ostovnoe derevo (ostov) -- `eto podgraf dannogo grafa,
-       soderzhaschij vse ego vershiny i yavlyayuschijsya derevom. Riobra
-       grafa, ne vhodyaschie v ostov, nazyvayutsya hordami grafa
-       otnositel'no ostova.
+     * Остовное дерево (остов) — это подграф данного графа, содержащий все
+       его вершины и являющийся деревом. Рёбра графа, не входящие в остов,
+       называются хордами графа относительно остова.
 
-     * Nesvodimym nazyvaetsya derevo, v kotorom net vershin stepeni 2.
+     * Несводимым называется дерево, в котором нет вершин степени 2.
 
-     * Les -- mnozhestvo (obychno uporyadochennoe), ne soderzhaschee ni
-       odnogo neperesekayuschegosya dereva ili soderzhaschee neskol'ko
-       neperesekayuschihsya derev'ev.
-     * Centroid -- vershina, pri udalenii kotoroj razmery poluchivshihsya
-       komponent svyaznosti ne prevyshayut
+     * Лес — множество (обычно упорядоченное), не содержащее ни одного
+       непересекающегося дерева или содержащее несколько непересекающихся
+       деревьев.
+     * Центроид — вершина, при удалении которой размеры получившихся
+       компонент связности не превышают
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mrow class="MJX-TeXAtom-ORD">
        <mstyle displaystyle="true" scriptlevel="0"> <mfrac> <mi>n</mi>
        <mn>2</mn> </mfrac> </mstyle> </mrow> </mstyle> </mrow> <annotation
        encoding="application/x-tex">{\displaystyle {\dfrac
        {n}{2}}}</annotation> </semantics> :MATH]
-       {\displaystyle {\dfrac {n}{2}}} (poloviny razmera ishodnogo dereva)
+       {\displaystyle {\dfrac {n}{2}}} (половины размера исходного дерева)
 
-Dvoichnoe derevo[pravit' | pravit' kod]
+Двоичное дерево[править | править код]
 
-   [192px-Binary_tree.svg.png] Prostoe binarnoe derevo razmera 9 i vysoty
-   3, s kornem znacheniya 2. `Eto derevo ne sbalansirovano i ne
-   otsortirovano.
+   [192px-Binary_tree.svg.png] Простое бинарное дерево размера 9 и высоты
+   3, с корнем значения 2. Это дерево не сбалансировано и не
+   отсортировано.
 
-   Termin dvoichnoe derevo (primenyaetsya tak zhe termin binarnoe derevo)
-   imeet neskol'ko znachenij:
-     * Neorientirovannoe derevo, v kotorom stepeni vershin ne prevoshodyat
+   Термин двоичное дерево (применяется так же термин бинарное дерево)
+   имеет несколько значений:
+     * Неориентированное дерево, в котором степени вершин не превосходят
        3.
-     * Orientirovannoe derevo, v kotorom ishodyaschie stepeni vershin
-       (chislo ishodyaschih riober) ne prevoshodyat 2.
-     * Abstraktnaya struktura dannyh, ispol'zuemaya v programmirovanii. Na
-       dvoichnom dereve osnovany takie struktury dannyh, kak dvoichnoe
-       derevo poiska, dvoichnaya kucha, krasno-chiornoe derevo,
-       AVL-derevo, fibonachchieva kucha i dr.
+     * Ориентированное дерево, в котором исходящие степени вершин (число
+       исходящих рёбер) не превосходят 2.
+     * Абстрактная структура данных, используемая в программировании. На
+       двоичном дереве основаны такие структуры данных, как двоичное
+       дерево поиска, двоичная куча, красно-чёрное дерево, АВЛ-дерево,
+       фибоначчиева куча и др.
 
-N-arnye derev'ya[pravit' | pravit' kod]
+N-арные деревья[править | править код]
 
-   N-arnye derev'ya opredelyayutsya po analogii s dvoichnym derevom. Dlya
-   nih takzhe est' orientirovannye i neorientirovannye sluchai, a takzhe
-   sootvetstvuyuschie abstraktnye struktury dannyh.
-     * N-arnoe derevo (neorientirovannoe) -- `eto derevo (obychnoe,
-       neorientirovannoe), v kotorom stepeni vershin ne prevoshodyat N+1.
-     * N-arnoe derevo (orientirovannoe) -- `eto orientirovannoe derevo, v
-       kotorom ishodyaschie stepeni vershin (chislo ishodyaschih riober)
-       ne prevoshodyat N.
+   N-арные деревья определяются по аналогии с двоичным деревом. Для них
+   также есть ориентированные и неориентированные случаи, а также
+   соответствующие абстрактные структуры данных.
+     * N-арное дерево (неориентированное) — это дерево (обычное,
+       неориентированное), в котором степени вершин не превосходят N+1.
+     * N-арное дерево (ориентированное) — это ориентированное дерево, в
+       котором исходящие степени вершин (число исходящих рёбер) не
+       превосходят N.
 
-Svojstva[pravit' | pravit' kod]
+Свойства[править | править код]
 
-     * Derevo ne imeet kratnyh riober i petel'.
-     * Lyuboe derevo s
+     * Дерево не имеет кратных рёбер и петель.
+     * Любое дерево с
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mi>n</mi> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        n}</annotation> </semantics> :MATH]
-       n vershinami soderzhit
+       n вершинами содержит
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mi>n</mi> <mo>-</mo>
+       displaystyle="true" scriptlevel="0"> <mi>n</mi> <mo>−</mo>
        <mn>1</mn> </mstyle> </mrow> <annotation
        encoding="application/x-tex">{\displaystyle n-1}</annotation>
        </semantics> :MATH]
-       n-1 rebro. Bolee togo, konechnyj svyaznyj graf yavlyaetsya derevom
-       togda i tol'ko togda, kogda
+       n-1 ребро. Более того, конечный связный граф является деревом тогда
+       и только тогда, когда
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mi>B</mi> <mo>-</mo>
+       displaystyle="true" scriptlevel="0"> <mi>B</mi> <mo>−</mo>
        <mi>P</mi> <mo>=</mo> <mn>1</mn> </mstyle> </mrow> <annotation
        encoding="application/x-tex">{\displaystyle B-P=1}</annotation>
        </semantics> :MATH]
-       B-P=1 , gde
+       B-P=1 , где
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mi>B</mi> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        B}</annotation> </semantics> :MATH]
-       B  -- chislo vershin,
+       B  — число вершин,
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mi>P</mi> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        P}</annotation> </semantics> :MATH]
-       P  -- chislo riober grafa.
-     * Graf yavlyaetsya derevom togda i tol'ko togda, kogda lyubye dve
-       razlichnye ego vershiny mozhno soedinit' edinstvennoj prostoj
-       cep'yu.
-     * Lyuboe derevo odnoznachno opredelyaetsya rasstoyaniyami (dlinoj
-       naimen'shej cepi) mezhdu ego koncevymi (stepeni 1) vershinami.
-     * Lyuboe derevo yavlyaetsya dvudol'nym grafom.
-     * Lyuboe derevo, mnozhestvo vershin kotorogo ne bolee chem schiotnoe,
-       yavlyaetsya planarnym grafom.
-     * Dlya lyubyh trioh vershin dereva, puti mezhdu parami `etih vershin
-       imeyut rovno odnu obschuyu vershinu.
+       P  — число рёбер графа.
+     * Граф является деревом тогда и только тогда, когда любые две
+       различные его вершины можно соединить единственной простой цепью.
+     * Любое дерево однозначно определяется расстояниями (длиной
+       наименьшей цепи) между его концевыми (степени 1) вершинами.
+     * Любое дерево является двудольным графом.
+     * Любое дерево, множество вершин которого не более чем счётное,
+       является планарным графом.
+     * Для любых трёх вершин дерева, пути между парами этих вершин имеют
+       ровно одну общую вершину.
 
-Podschiot derev'ev[pravit' | pravit' kod]
+Подсчёт деревьев[править | править код]
 
-   Osnovnaya stat'ya: Teorema K`eli o chisle derev'ev
-     * CHislo razlichnyh derev'ev, kotorye mozhno postroit' na
+   Основная статья: Теорема Кэли о числе деревьев
+     * Число различных деревьев, которые можно построить на
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mi>n</mi> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        n}</annotation> </semantics> :MATH]
-       n numerovannyh vershinah, ravno
+       n нумерованных вершинах, равно
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <msup> <mi>n</mi> <mrow
-       class="MJX-TeXAtom-ORD"> <mi>n</mi> <mo>-</mo> <mn>2</mn> </mrow>
+       class="MJX-TeXAtom-ORD"> <mi>n</mi> <mo>−</mo> <mn>2</mn> </mrow>
        </msup> </mstyle> </mrow> <annotation
        encoding="application/x-tex">{\displaystyle n^{n-2}}</annotation>
        </semantics> :MATH]
-       n^{{n-2}} (Teorema K`eli^[3]).
-     * Proizvodyaschaya funkciya
+       n^{{n-2}} (Теорема Кэли^[3]).
+     * Производящая функция
 
                 [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
                 displaystyle="true" scriptlevel="0"> <mi>T</mi> <mo
                 stretchy="false">(</mo> <mi>z</mi> <mo
-                stretchy="false">)</mo> <mo>=</mo> <munderover>
-                <mo>\sum</mo> <mrow class="MJX-TeXAtom-ORD"> <mi>n</mi>
-                <mo>=</mo> <mn>1</mn> </mrow> <mrow
-                class="MJX-TeXAtom-ORD"> <mi
-                mathvariant="normal">infty</mi> </mrow> </munderover>
-                <msub> <mi>T</mi> <mrow class="MJX-TeXAtom-ORD">
-                <mi>n</mi> </mrow> </msub> <msup> <mi>z</mi> <mrow
+                stretchy="false">)</mo> <mo>=</mo> <munderover> <mo>∑</mo>
+                <mrow class="MJX-TeXAtom-ORD"> <mi>n</mi> <mo>=</mo>
+                <mn>1</mn> </mrow> <mrow class="MJX-TeXAtom-ORD"> <mi
+                mathvariant="normal">∞</mi> </mrow> </munderover> <msub>
+                <mi>T</mi> <mrow class="MJX-TeXAtom-ORD"> <mi>n</mi>
+                </mrow> </msub> <msup> <mi>z</mi> <mrow
                 class="MJX-TeXAtom-ORD"> <mi>n</mi> </mrow> </msup>
                 </mstyle> </mrow> <annotation
                 encoding="application/x-tex">{\displaystyle T(z)=\sum
@@ -262,49 +258,48 @@ Podschiot derev'ev[pravit' | pravit' kod]
                 :MATH]
                 T(z)=\sum _{n=1}^{\infty }T_{n}z^{n}
 
-          dlya chisla
+          для числа
           [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
           displaystyle="true" scriptlevel="0"> <msub> <mi>T</mi> <mrow
           class="MJX-TeXAtom-ORD"> <mi>n</mi> </mrow> </msub> </mstyle>
           </mrow> <annotation encoding="application/x-tex">{\displaystyle
           T_{n}}</annotation> </semantics> :MATH]
-          T_{n} neizomorfnyh kornevyh derev'ev s
+          T_{n} неизоморфных корневых деревьев с
           [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
           displaystyle="true" scriptlevel="0"> <mi>n</mi> </mstyle>
           </mrow> <annotation encoding="application/x-tex">{\displaystyle
           n}</annotation> </semantics> :MATH]
-          n vershinami udovletvoryaet funkcional'nomu uravneniyu
+          n вершинами удовлетворяет функциональному уравнению
 
                 [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
                 displaystyle="true" scriptlevel="0"> <mi>T</mi> <mo
                 stretchy="false">(</mo> <mi>z</mi> <mo
                 stretchy="false">)</mo> <mo>=</mo> <mi>z</mi> <mi>exp</mi>
-                <mo>&#x2061;</mo> <munderover> <mo>\sum</mo> <mrow
+                <mo>⁡</mo> <munderover> <mo>∑</mo> <mrow
                 class="MJX-TeXAtom-ORD"> <mi>r</mi> <mo>=</mo> <mn>1</mn>
                 </mrow> <mrow class="MJX-TeXAtom-ORD"> <mi
-                mathvariant="normal">infty</mi> </mrow> </munderover>
-                <mrow class="MJX-TeXAtom-ORD"> <mfrac> <mn>1</mn>
-                <mi>r</mi> </mfrac> </mrow> <mi>T</mi> <mo
-                stretchy="false">(</mo> <msup> <mi>z</mi> <mrow
-                class="MJX-TeXAtom-ORD"> <mi>r</mi> </mrow> </msup> <mo
-                stretchy="false">)</mo> </mstyle> </mrow> <annotation
+                mathvariant="normal">∞</mi> </mrow> </munderover> <mrow
+                class="MJX-TeXAtom-ORD"> <mfrac> <mn>1</mn> <mi>r</mi>
+                </mfrac> </mrow> <mi>T</mi> <mo stretchy="false">(</mo>
+                <msup> <mi>z</mi> <mrow class="MJX-TeXAtom-ORD">
+                <mi>r</mi> </mrow> </msup> <mo stretchy="false">)</mo>
+                </mstyle> </mrow> <annotation
                 encoding="application/x-tex">{\displaystyle T(z)=z\exp
                 \sum _{r=1}^{\infty }{\frac {1}{r}}T(z^{r})}</annotation>
                 </semantics> :MATH]
                 T(z)=z\exp \sum _{r=1}^{\infty }{\frac {1}{r}}T(z^{r}) .
 
-     * Proizvodyaschaya funkciya
+     * Производящая функция
 
                 [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
                 displaystyle="true" scriptlevel="0"> <mi>t</mi> <mo
                 stretchy="false">(</mo> <mi>z</mi> <mo
-                stretchy="false">)</mo> <mo>=</mo> <munderover>
-                <mo>\sum</mo> <mrow class="MJX-TeXAtom-ORD"> <mi>n</mi>
-                <mo>=</mo> <mn>1</mn> </mrow> <mrow
-                class="MJX-TeXAtom-ORD"> <mi
-                mathvariant="normal">infty</mi> </mrow> </munderover>
-                <msub> <mi>t</mi> <mrow class="MJX-TeXAtom-ORD">
-                <mi>n</mi> </mrow> </msub> <msup> <mi>z</mi> <mrow
+                stretchy="false">)</mo> <mo>=</mo> <munderover> <mo>∑</mo>
+                <mrow class="MJX-TeXAtom-ORD"> <mi>n</mi> <mo>=</mo>
+                <mn>1</mn> </mrow> <mrow class="MJX-TeXAtom-ORD"> <mi
+                mathvariant="normal">∞</mi> </mrow> </munderover> <msub>
+                <mi>t</mi> <mrow class="MJX-TeXAtom-ORD"> <mi>n</mi>
+                </mrow> </msub> <msup> <mi>z</mi> <mrow
                 class="MJX-TeXAtom-ORD"> <mi>n</mi> </mrow> </msup>
                 </mstyle> </mrow> <annotation
                 encoding="application/x-tex">{\displaystyle t(z)=\sum
@@ -312,31 +307,31 @@ Podschiot derev'ev[pravit' | pravit' kod]
                 :MATH]
                 t(z)=\sum _{n=1}^{\infty }t_{n}z^{n}
 
-          dlya chisla
+          для числа
           [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
           displaystyle="true" scriptlevel="0"> <msub> <mi>t</mi> <mrow
           class="MJX-TeXAtom-ORD"> <mi>n</mi> </mrow> </msub> </mstyle>
           </mrow> <annotation encoding="application/x-tex">{\displaystyle
           t_{n}}</annotation> </semantics> :MATH]
-          t_{n} neizomorfnyh derev'ev s
+          t_{n} неизоморфных деревьев с
           [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
           displaystyle="true" scriptlevel="0"> <mi>n</mi> </mstyle>
           </mrow> <annotation encoding="application/x-tex">{\displaystyle
           n}</annotation> </semantics> :MATH]
-          n vershinami mozhno predstavit' s pomosch'yu perechislyayuschego
-          ryada dlya kornevyh derev'ev:
+          n вершинами можно представить с помощью перечисляющего ряда для
+          корневых деревьев:
 
                 [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
                 displaystyle="true" scriptlevel="0"> <mi>t</mi> <mo
                 stretchy="false">(</mo> <mi>z</mi> <mo
                 stretchy="false">)</mo> <mo>=</mo> <mi>T</mi> <mo
                 stretchy="false">(</mo> <mi>z</mi> <mo
-                stretchy="false">)</mo> <mo>-</mo> <mrow
+                stretchy="false">)</mo> <mo>−</mo> <mrow
                 class="MJX-TeXAtom-ORD"> <mfrac> <mn>1</mn> <mn>2</mn>
                 </mfrac> </mrow> <mrow> <mo>(</mo> <mrow> <msup>
                 <mi>T</mi> <mrow class="MJX-TeXAtom-ORD"> <mn>2</mn>
                 </mrow> </msup> <mo stretchy="false">(</mo> <mi>z</mi> <mo
-                stretchy="false">)</mo> <mo>-</mo> <mi>T</mi> <mo
+                stretchy="false">)</mo> <mo>−</mo> <mi>T</mi> <mo
                 stretchy="false">(</mo> <msup> <mi>z</mi> <mrow
                 class="MJX-TeXAtom-ORD"> <mn>2</mn> </mrow> </msup> <mo
                 stretchy="false">)</mo> </mrow> <mo>)</mo> </mrow>
@@ -347,19 +342,18 @@ Podschiot derev'ev[pravit' | pravit' kod]
                 </semantics> :MATH]
                 t(z)=T(z)-{\frac {1}{2}}\left(T^{2}(z)-T(z^{2})\right).
 
-     * Pri
+     * При
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mi>n</mi> <mo
-       stretchy="false">-></mo> <mi mathvariant="normal">infty</mi>
-       </mstyle> </mrow> <annotation
-       encoding="application/x-tex">{\displaystyle n\to \infty
-       }</annotation> </semantics> :MATH]
-       n\to \infty verna sleduyuschaya asimptotika
+       stretchy="false">→</mo> <mi mathvariant="normal">∞</mi> </mstyle>
+       </mrow> <annotation encoding="application/x-tex">{\displaystyle
+       n\to \infty }</annotation> </semantics> :MATH]
+       n\to \infty верна следующая асимптотика
 
                 [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
                 displaystyle="true" scriptlevel="0"> <msub> <mi>t</mi>
                 <mrow class="MJX-TeXAtom-ORD"> <mi>n</mi> </mrow> </msub>
-                <mo>?1</mo> <mi>C</mi> <msup> <mi>a</mi> <mrow
+                <mo>∼</mo> <mi>C</mi> <msup> <mi>α</mi> <mrow
                 class="MJX-TeXAtom-ORD"> <mi>n</mi> </mrow> </msup> <mrow
                 class="MJX-TeXAtom-ORD"> <mo>/</mo> </mrow> <msup>
                 <mi>n</mi> <mrow class="MJX-TeXAtom-ORD"> <mn>5</mn> <mrow
@@ -369,17 +363,17 @@ Podschiot derev'ev[pravit' | pravit' kod]
                 C\alpha ^{n}/n^{5/2}}</annotation> </semantics> :MATH]
                 t_{n}\sim C\alpha ^{n}/n^{5/2}
 
-          gde
+          где
           [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
           displaystyle="true" scriptlevel="0"> <mi>C</mi> </mstyle>
           </mrow> <annotation encoding="application/x-tex">{\displaystyle
           C}</annotation> </semantics> :MATH]
-          C i
+          C и
           [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-          displaystyle="true" scriptlevel="0"> <mi>a</mi> </mstyle>
+          displaystyle="true" scriptlevel="0"> <mi>α</mi> </mstyle>
           </mrow> <annotation encoding="application/x-tex">{\displaystyle
           \alpha }</annotation> </semantics> :MATH]
-          \alpha opredelionnye konstanty,
+          \alpha определённые константы,
           [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
           displaystyle="true" scriptlevel="0"> <mi>C</mi> <mo>=</mo>
           <mn>0</mn> <mo>,</mo> <mn>534948...</mn> </mstyle> </mrow>
@@ -387,75 +381,74 @@ Podschiot derev'ev[pravit' | pravit' kod]
           C=0,534948...}</annotation> </semantics> :MATH]
           C=0,534948... ,
           [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-          displaystyle="true" scriptlevel="0"> <mi>a</mi> <mo>=</mo>
+          displaystyle="true" scriptlevel="0"> <mi>α</mi> <mo>=</mo>
           <mn>2</mn> <mo>,</mo> <mn>95576...</mn> </mstyle> </mrow>
           <annotation encoding="application/x-tex">{\displaystyle \alpha
           =2,95576...}</annotation> </semantics> :MATH]
           \alpha =2,95576... .
 
-Kodirovanie derev'ev[pravit' | pravit' kod]
+Кодирование деревьев[править | править код]
 
-     * Derevo mozhno kodirovat' naborami iz nulej i edinic. Rassmotrim,
-       naprimer, ukladku dereva na ploskosti. Nachinaya s kakoj-libo
-       vershiny budem dvigat'sya po rebram dereva, svorachivaya v kazhdoj
-       vershine na blizhajshee sprava rebro i povorachivaya nazad v
-       koncevyh vershinah dereva. Prohodya po nekotoromu rebru, zapisyvaem
+     * Дерево можно кодировать наборами из нулей и единиц. Рассмотрим,
+       например, укладку дерева на плоскости. Начиная с какой-либо вершины
+       будем двигаться по ребрам дерева, сворачивая в каждой вершине на
+       ближайшее справа ребро и поворачивая назад в концевых вершинах
+       дерева. Проходя по некоторому ребру, записываем
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mn>0</mn> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        0}</annotation> </semantics> :MATH]
-       {\displaystyle 0} pri dvizhenii po rebru v pervyj raz i
+       {\displaystyle 0} при движении по ребру в первый раз и
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mn>1</mn> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        1}</annotation> </semantics> :MATH]
-       1 pri dvizhenii po rebru vtoroj raz (v obratnom napravlenii). Esli
+       1 при движении по ребру второй раз (в обратном направлении). Если
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mi>m</mi> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        m}</annotation> </semantics> :MATH]
-       m  -- chislo riober dereva, to cherez
+       m  — число рёбер дерева, то через
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mn>2</mn> <mi>m</mi>
        </mstyle> </mrow> <annotation
        encoding="application/x-tex">{\displaystyle 2m}</annotation>
        </semantics> :MATH]
-       2m shagov my vernemsya v ishodnuyu vershinu, projdya po kazhdomu
-       rebru dvazhdy. Poluchennaya pri `etom posledovatel'nost' iz
+       2m шагов мы вернемся в исходную вершину, пройдя по каждому ребру
+       дважды. Полученная при этом последовательность из
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mn>0</mn> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        0}</annotation> </semantics> :MATH]
-       {\displaystyle 0} i
+       {\displaystyle 0} и
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mn>1</mn> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        1}</annotation> </semantics> :MATH]
-       1 (kod dereva) dliny
+       1 (код дерева) длины
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mn>2</mn> <mi>m</mi>
        </mstyle> </mrow> <annotation
        encoding="application/x-tex">{\displaystyle 2m}</annotation>
        </semantics> :MATH]
-       2m pozvolyaet odnoznachno vosstanavlivat' ne tol'ko samo derevo
+       2m позволяет однозначно восстанавливать не только само дерево
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mi>D</mi> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        D}</annotation> </semantics> :MATH]
-       D , no i ego ukladku na ploskosti. Proizvol'nomu derevu
-       sootvetstvuyut neskol'ko takih kodov. V chastnosti, iz `etogo
-       sposoba kodirovaniya vytekaet sleduyuschaya grubaya ocenka na
-       chislo derev'ev s
+       D , но и его укладку на плоскости. Произвольному дереву
+       соответствуют несколько таких кодов. В частности, из этого способа
+       кодирования вытекает следующая грубая оценка на число деревьев с
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mi>n</mi> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        n}</annotation> </semantics> :MATH]
-       n vershinami:
+       n вершинами:
 
                 [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
                 displaystyle="true" scriptlevel="0"> <msub> <mi>t</mi>
                 <mrow class="MJX-TeXAtom-ORD"> <mi>n</mi> </mrow> </msub>
-                <mo><=</mo> <msub> <mi>T</mi> <mrow
+                <mo>≤</mo> <msub> <mi>T</mi> <mrow
                 class="MJX-TeXAtom-ORD"> <mi>n</mi> </mrow> </msub>
                 <mo><</mo> <msup> <mn>2</mn> <mrow
                 class="MJX-TeXAtom-ORD"> <mn>2</mn> <mi>n</mi> </mrow>
@@ -465,284 +458,283 @@ Kodirovanie derev'ev[pravit' | pravit' kod]
                 t_{n}\leq T_{n}<2^{2n}
 
    [162px-Tree_graph.svg.png]
-     * Kod Pryufera sopostavlyaet proizvol'nomu konechnomu derevu s
+     * Код Прюфера сопоставляет произвольному конечному дереву с
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mi>n</mi> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        n}</annotation> </semantics> :MATH]
-       n vershinami posledovatel'nost' iz
+       n вершинами последовательность из
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
-       displaystyle="true" scriptlevel="0"> <mi>n</mi> <mo>-</mo>
+       displaystyle="true" scriptlevel="0"> <mi>n</mi> <mo>−</mo>
        <mn>2</mn> </mstyle> </mrow> <annotation
        encoding="application/x-tex">{\displaystyle n-2}</annotation>
        </semantics> :MATH]
-       n-2 chisel ot
+       n-2 чисел от
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mn>1</mn> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        1}</annotation> </semantics> :MATH]
-       1 do
+       1 до
        [MATH: <semantics> <mrow class="MJX-TeXAtom-ORD"> <mstyle
        displaystyle="true" scriptlevel="0"> <mi>n</mi> </mstyle> </mrow>
        <annotation encoding="application/x-tex">{\displaystyle
        n}</annotation> </semantics> :MATH]
-       n s vozmozhnymi povtoreniyami. Naprimer derevo na risunke imeet kod
-       Pryufera (4,4,4,5). Mezhdu depev'yami s pomechennymi vershinami i
-       ih kodami Pryufera suschestvuet vzaimno odnoznachnoe sootvetstvie.
-       Iz koda Pryufera vyvoditsya formula K`eli.
+       n с возможными повторениями. Например дерево на рисунке имеет код
+       Прюфера (4,4,4,5). Между деpевьями с помеченными вершинами и их
+       кодами Прюфера существует взаимно однозначное соответствие. Из кода
+       Прюфера выводится формула Кэли.
 
-     * Derevo mozhno zadat' v vide stpoki, soderzhaschej simvoly,
-       pomechayuschie vershiny depeva, a takzhe otkryvayuschie i
-       zakryvayuschie kpuglye skobki. Mezhdu depev'yami i ih linejnymi
-       skobochnymi zapisyami suschestvuet vzaimno odnoznachnoe
-       sootvetstvie.
+     * Дерево можно задать в виде стpоки, содержащей символы, помечающие
+       вершины деpева, а также открывающие и закрывающие кpуглые скобки.
+       Между деpевьями и их линейными скобочными записями существует
+       взаимно однозначное соответствие.
 
-Sm. takzhe[pravit' | pravit' kod]
+См. также[править | править код]
 
-     * Glossarij teorii grafov
-     * Les neperesekayuschihsya mnozhestv
-     * Spisok struktur dannyh (derev'ya)
+     * Глоссарий теории графов
+     * Лес непересекающихся множеств
+     * Список структур данных (деревья)
 
-Primechaniya[pravit' | pravit' kod]
+Примечания[править | править код]
 
-    1. ^| � 13. Opredelenie dereva // Lekcii po teorii grafov / Emelichev
-       V. A., Mel'nikov O. I., Sarvanov V. I., Tyshkevich R. I.. -- M.:
-       Nauka, Fizmatlit, 1990. -- S. 53. -- 384 s. -- 22 000 `ekz. -- ISBN
+    1. ↑ § 13. Определение дерева // Лекции по теории графов / Емеличев В.
+       А., Мельников О. И., Сарванов В. И., Тышкевич Р. И.. — М.: Наука,
+       Физматлит, 1990. — С. 53. — 384 с. — 22 000 экз. — ISBN
        5-02-013992-0.
-    2. ^| Al'fs Berztiss. Glava 3. Teoriya grafov. 3.6. Derev'ya //
-       Struktury dannyh = A. T. Berztiss. Data structures. Theory and
-       practice. -- M.: Statistika, 1974. -- S. 131. -- 10 500 `ekz.
-    3. ^| Diskretnaya matematika: algoritmy. Formula K`eli  (neopr.). Data
-       obrascheniya: 29 oktyabrya 2009. Arhivirovano iz originala 14
-       iyunya 2009 goda.
+    2. ↑ Альфс Берзтисс. Глава 3. Теория графов. 3.6. Деревья // Структуры
+       данных = A. T. Berztiss. Data structures. Theory and practice. —
+       М.: Статистика, 1974. — С. 131. — 10 500 экз.
+    3. ↑ Дискретная математика: алгоритмы. Формула Кэли  (неопр.). Дата
+       обращения: 29 октября 2009. Архивировано из оригинала 14 июня 2009
+       года.
 
-Literatura[pravit' | pravit' kod]
+Литература[править | править код]
 
-     * Donal'd Knut. Iskusstvo programmirovaniya, tom = The Art of
-       Computer Programming, vol. 1. Fundamental Algorithms. -- 3-e
-       izd. -- M.: Vil'yams, 2006. -- T. 1. Osnovnye algoritmy. --
-       720 s. -- ISBN 0-201-89683-4.
-     * Ore O. Teoriya grafov. -- 2-e izd. -- M.: Nauka, 1980. -- 336 s.
-     * Harari F. Teoriya grafov. -- M.: Mir, 1973. -- 302 s.
+     * Дональд Кнут. Искусство программирования, том = The Art of Computer
+       Programming, vol. 1. Fundamental Algorithms. — 3-е изд. — М.:
+       Вильямс, 2006. — Т. 1. Основные алгоритмы. — 720 с. — ISBN
+       0-201-89683-4.
+     * Оре О. Теория графов. — 2-е изд. — М.: Наука, 1980. — 336 с.
+     * Харари Ф. Теория графов. — М.: Мир, 1973. — 302 с.
 
-   Perejti k shablonu �Derev'ya (struktury dannyh)�
-   Derevo (struktura dannyh)
-     * Dvoichnoe derevo poiska
-     * Derevo (teoriya grafov)
-     * Drevovidnaya struktura
+   Перейти к шаблону «Деревья (структуры данных)»
+   Дерево (структура данных)
+     * Двоичное дерево поиска
+     * Дерево (теория графов)
+     * Древовидная структура
 
-                        Dvoichnye derev'ya
-     * Dvoichnoe derevo
-     * T-derevo
+   Двоичные деревья
+     * Двоичное дерево
+     * T-дерево
 
-   Samobalansiruyuschiesya
-   dvoichnye derev'ya
-     * AA-derevo
-     * AVL-derevo
-     * Krasno-chiornoe derevo
-     * Splay-derevo
-     * Derevo so shtrafami
-     * Dekartovo derevo
-     * Derevo Fibonachchi
-     * B-derevo
-     * T-derevo
+   Самобалансирующиеся
+   двоичные деревья
+     * АА-дерево
+     * АВЛ-дерево
+     * Красно-чёрное дерево
+     * Splay-дерево
+     * Дерево со штрафами
+     * Декартово дерево
+     * Дерево Фибоначчи
+     * B-дерево
+     * T-дерево
 
-   B-derev'ya
-     * 2-3-derevo
-     * B^+-derevo
-     * B*-derevo
-     * B^x-derevo
-     * UB-derevo
-     * 2-3-4 derevo
-     * (a,b)-derevo
-     * Tancuyuschee derevo
+   B-деревья
+     * 2-3-дерево
+     * B⁺-дерево
+     * B*-дерево
+     * B^x-дерево
+     * UB-дерево
+     * 2-3-4 дерево
+     * (a,b)-дерево
+     * Танцующее дерево
 
-   Prefiksnye derev'ya
-     * Suffiksnoe derevo
-     * Szhatoe prefiksnoe derevo
+   Префиксные деревья
+     * Суффиксное дерево
+     * Сжатое префиксное дерево
      * Ternary search tree
 
-   Dvoichnoe razbienie
-   prostranstva
-     * k-mernoe derevo
-     * VP-derevo
+   Двоичное разбиение
+   пространства
+     * k-мерное дерево
+     * VP-дерево
 
-   Nedvoichnye derev'ya
-     * Derevo kvadrantov
-     * Oktoderevo
+   Недвоичные деревья
+     * Дерево квадрантов
+     * Октодерево
      * Sparse Voxel Octree
-     * `Eksponencial'noe derevo
-     * PQ-derevo
+     * Экспоненциальное дерево
+     * PQ-дерево
 
-   Razbienie prostranstva
-     * R-derevo
-     * R-derevo Gil'berta
-     * R+-derevo
-     * R*-derevo
-     * X-derevo
-     * M-derevo
-     * Derevo Fenvika
-     * Derevo otrezkov
+   Разбиение пространства
+     * R-дерево
+     * R-дерево Гильберта
+     * R+-дерево
+     * R*-дерево
+     * X-дерево
+     * M-дерево
+     * Дерево Фенвика
+     * Дерево отрезков
 
-   Drugie derev'ya
-     * Kucha
-     * Derevo heshej
+   Другие деревья
+     * Куча
+     * Дерево хешей
      * Finger tree
      * Metric tree
-     * Derevo pokrytij
+     * Дерево покрытий
      * BK-tree
      * Doubly-chained tree
      * iDistance
      * Link-cut tree
-     * LSM-derevo
+     * LSM-дерево
 
-   Algoritmy
-     * Poisk v shirinu
-     * Poisk v glubinu
-     * DSW-algoritm
-     * Protokol ostovnogo dereva
+   Алгоритмы
+     * Поиск в ширину
+     * Поиск в глубину
+     * DSW-алгоритм
+     * Протокол остовного дерева
 
-   Istochnik --
-   https://ru.wikipedia.org/w/index.php?title=Derevo_(teoriya_grafov)&oldi
-   d=134088095
-   Kategorii:
-     * Teoriya grafov
-     * Derev'ya (struktury dannyh)
-     * Derev'ya (grafy)
+   Источник —
+   https://ru.wikipedia.org/w/index.php?title=Дерево_(теория_графов)&oldid
+   =134088095
+   Категории:
+     * Теория графов
+     * Деревья (структуры данных)
+     * Деревья (графы)
 
-   Skrytaya kategoriya:
-     * Stranicy, ispol'zuyuschie volshebnye ssylki ISBN
+   Скрытая категория:
+     * Страницы, использующие волшебные ссылки ISBN
 
-Navigaciya
+Навигация
 
-Personal'nye instrumenty
+Персональные инструменты
 
-     * Vy ne predstavilis' sisteme
-     * Obsuzhdenie
-     * Vklad
-     * Sozdat' uchiotnuyu zapis'
-     * Vojti
+     * Вы не представились системе
+     * Обсуждение
+     * Вклад
+     * Создать учётную запись
+     * Войти
 
-Prostranstva imion
+Пространства имён
 
-     * Stat'ya
-     * Obsuzhdenie
+     * Статья
+     * Обсуждение
 
-   [ ] russkij
+   [ ] русский
 
-Prosmotry
+Просмотры
 
-     * CHitat'
-     * Pravit'
-     * Pravit' kod
-     * Istoriya
+     * Читать
+     * Править
+     * Править код
+     * История
 
-   [ ] Eschio
+   [ ] Ещё
 
-Poisk
+Поиск
 
-   ____________________ Najti Perejti
+   ____________________ Найти Перейти
 
-Navigaciya
+Навигация
 
-     * Zaglavnaya stranica
-     * Soderzhanie
-     * Izbrannye stat'i
-     * Sluchajnaya stat'ya
-     * Tekuschie sobytiya
-     * Pozhertvovat'
+     * Заглавная страница
+     * Содержание
+     * Избранные статьи
+     * Случайная статья
+     * Текущие события
+     * Пожертвовать
 
-Uchastie
+Участие
 
-     * Soobschit' ob oshibke
-     * Kak pravit' stat'i
-     * Soobschestvo
-     * Forum
-     * Svezhie pravki
-     * Novye stranicy
-     * Spravka
+     * Сообщить об ошибке
+     * Как править статьи
+     * Сообщество
+     * Форум
+     * Свежие правки
+     * Новые страницы
+     * Справка
 
-Instrumenty
+Инструменты
 
-     * Ssylki syuda
-     * Svyazannye pravki
-     * Sluzhebnye stranicy
-     * Postoyannaya ssylka
-     * Svedeniya o stranice
-     * Citirovat' stranicu
-     * Poluchit' sokraschionnyj URL-adres
-     * `Element Vikidannyh
+     * Ссылки сюда
+     * Связанные правки
+     * Служебные страницы
+     * Постоянная ссылка
+     * Сведения о странице
+     * Цитировать страницу
+     * Получить сокращённый URL-адрес
+     * Элемент Викиданных
 
-Pechat'/`eksport
+Печать/экспорт
 
-     * Skachat' kak PDF
-     * Versiya dlya pechati
+     * Скачать как PDF
+     * Версия для печати
 
-V drugih proektah
+В других проектах
 
-     * Vikisklad
+     * Викисклад
 
-Na drugih yazykah
+На других языках
 
-     * a+l+e+r+b+y+tm
-     * B"lgarski
-     * Catal�
-     * Cestina
-     * CHvashla
+     * العربية
+     * Български
+     * Català
+     * Čeština
+     * Чӑвашла
      * Deutsch
-     * Ellynika'
+     * Ελληνικά
      * English
      * Esperanto
-     * Espa�ol
+     * Español
      * Eesti
-     * f+a+r+s+
+     * فارسی
      * Suomi
-     * Fran�ais
-     * E+B+R+J+T+
+     * Français
+     * עברית
      * Hrvatski
      * Magyar
      * Bahasa Indonesia
      * Ido
      * Italiano
-     * ��
-     * ��
+     * 日本語
+     * 한국어
      * Lombard
-     * Lietuviu
+     * Lietuvių
      * Polski
-     * Portugu�s
-     * Rom�na
-     * Slovencina
-     * Slovenscina
-     * Srpski / srpski
+     * Português
+     * Română
+     * Slovenčina
+     * Slovenščina
+     * Српски / srpski
      * Svenska
-     * ����
-     * �
-     * Ukrayins'ka
-     * a+r+d+w+
-     * Tie>'ng Vie>-.t
-     * �
-     * �
+     * தமிழ்
+     * ไทย
+     * Українська
+     * اردو
+     * Tiếng Việt
+     * 中文
+     * 粵語
 
-   Pravit' ssylki
+   Править ссылки
 
-     * `Eta stranica v poslednij raz byla otredaktirovana 9 noyabrya 2023
-       v 16:14.
-     * Tekst dostupen po licenzii Creative Commons �S ukazaniem avtorstva
-       -- S sohraneniem uslovij� (CC BY-SA); v otdel'nyh sluchayah mogut
-       dejstvovat' dopolnitel'nye usloviya. Podrobnee sm. Usloviya
-       ispol'zovaniya.
-       Wikipedia� -- zaregistrirovannyj tovarnyj znak nekommercheskoj
-       organizacii Fond Vikimedia (Wikimedia Foundation, Inc.)
+     * Эта страница в последний раз была отредактирована 9 ноября 2023 в
+       16:14.
+     * Текст доступен по лицензии Creative Commons «С указанием авторства
+       — С сохранением условий» (CC BY-SA); в отдельных случаях могут
+       действовать дополнительные условия. Подробнее см. Условия
+       использования.
+       Wikipedia® — зарегистрированный товарный знак некоммерческой
+       организации Фонд Викимедиа (Wikimedia Foundation, Inc.)
 
-     * Politika konfidencial'nosti
-     * Opisanie Vikipedii
-     * Otkaz ot otvetstvennosti
-     * Svyazhites' s nami
-     * Kodeks povedeniya
-     * Razrabotchiki
-     * Statistika
-     * Zayavlenie o kuki
-     * Mobil'naya versiya
+     * Политика конфиденциальности
+     * Описание Википедии
+     * Отказ от ответственности
+     * Свяжитесь с нами
+     * Кодекс поведения
+     * Разработчики
+     * Статистика
+     * Заявление о куки
+     * Мобильная версия
 
      * Wikimedia Foundation
      * Powered by MediaWiki

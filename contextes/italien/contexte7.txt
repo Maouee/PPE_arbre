@@ -5,14 +5,14 @@
    H.M.S. Victory alla fonda a Portsmouth: l'albero di maestra sta al
    centro
 
-   L'albero di maestra è l'albero maggiore delle navi a vela. Solitamente
-   è costituito da quattro parti ben distinte; partendo dal basso si ha:
+   L'albero di maestra Ã¨ l'albero maggiore delle navi a vela. Solitamente
+   Ã¨ costituito da quattro parti ben distinte; partendo dal basso si ha:
      * Fuso maggiore di maestra (1)
 --
      * Alberetto di controvelaccio (4)
 
    In corrispondenza delle specifiche zone dell'albero appena descritte si
-   trovano i rispettivi pennoni (più uno volante); partendo sempre dal
+   trovano i rispettivi pennoni (piÃ¹ uno volante); partendo sempre dal
    basso:
 --
      * Pennone di controvelaccio (V)

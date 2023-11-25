@@ -1,192 +1,192 @@
-   #alternate Pravit' Vikipediya (ru) Vikipediya -- Atom-lenta
+   #alternate Править Википедия (ru) Википедия — Atom-лента
 
-Derevo Pifagora
+Дерево Пифагора
 
-   Material iz Vikipedii -- svobodnoj `enciklopedii
-   Perejti k navigacii Perejti k poisku
+   Материал из Википедии — свободной энциклопедии
+   Перейти к навигации Перейти к поиску
 
-   De'revo Pifago'ra -- raznovidnost' fraktala, osnovannaya na figure,
-   izvestnoj kak �Pifagorovy shtany�.
-   [Fractal_pifagor_tree.png] Sverhu -- klassicheskoe derevo Pifagora,
-   snizu -- obnazhennoe obduvaemoe vetrom derevo Pifagora
+   Де́рево Пифаго́ра — разновидность фрактала, основанная на фигуре,
+   известной как «Пифагоровы штаны».
+   [Fractal_pifagor_tree.png] Сверху — классическое дерево Пифагора,
+   снизу — обнаженное обдуваемое ветром дерево Пифагора
    [ ]
 
-Soderzhanie
+Содержание
 
-     * 1 Istoriya
-     * 2 Osobennosti
-     * 3 Primery
-     * 4 Sm. takzhe
+     * 1 История
+     * 2 Особенности
+     * 3 Примеры
+     * 4 См. также
 
-Istoriya[pravit' | pravit' kod]
+История[править | править код]
 
-   Pifagor, dokazyvaya svoyu znamenituyu teoremu, postroil figuru, gde na
-   storonah pryamougol'nogo treugol'nika raspolozheny kvadraty. Vpervye
-   derevo Pifagora postroil A. E. Bosman (1891--1961) vo vremya Vtoroj
-   mirovoj vojny, ispol'zuya obychnuyu chertiozhnuyu linejku.
-   ^[istochnik ne ukazan 3760 dnej]
+   Пифагор, доказывая свою знаменитую теорему, построил фигуру, где на
+   сторонах прямоугольного треугольника расположены квадраты. Впервые
+   дерево Пифагора построил А. Е. Босман (1891—1961) во время Второй
+   мировой войны, используя обычную чертёжную линейку.
+   ^[источник не указан 3760 дней]
    [384px-Pythagoras_tree_1_1_13_Summer.svg.png]
 
-Osobennosti[pravit' | pravit' kod]
+Особенности[править | править код]
 
-   Odnim iz svojstv dereva Pifagora yavlyaetsya to, chto esli ploschad'
-   pervogo kvadrata ravna edinice, to na kazhdom urovne summa ploschadej
-   kvadratov tozhe budet ravna edinice.
+   Одним из свойств дерева Пифагора является то, что если площадь первого
+   квадрата равна единице, то на каждом уровне сумма площадей квадратов
+   тоже будет равна единице.
 
-   Esli v klassicheskom dereve Pifagora ugol raven 45 gradusam, to takzhe
-   mozhno postroit' i obobschionnoe derevo Pifagora pri ispol'zovanii
-   drugih uglov. Takoe derevo chasto nazyvayut obduvaemoe vetrom derevo
-   Pifagora. Esli izobrazhat' tol'ko otrezki, soedinyayuschie kakim-libo
-   obrazom vybrannye �centry� treugol'nikov, to poluchaetsya obnazhennoe
-   derevo Pifagora.
+   Если в классическом дереве Пифагора угол равен 45 градусам, то также
+   можно построить и обобщённое дерево Пифагора при использовании других
+   углов. Такое дерево часто называют обдуваемое ветром дерево Пифагора.
+   Если изображать только отрезки, соединяющие каким-либо образом
+   выбранные «центры» треугольников, то получается обнаженное дерево
+   Пифагора.
 
-Primery[pravit' | pravit' kod]
+Примеры[править | править код]
 
-     * Klassicheskoe derevo Pifagora
-       Klassicheskoe derevo Pifagora
-     * Obduvaemoe vetrom derevo Pifagora
-       Obduvaemoe vetrom derevo Pifagora
-     * Obnazhennoe derevo Pifagora
-       Obnazhennoe derevo Pifagora
-     * Obnazhennoe obduvaemoe vetrom derevo Pifagora
-       Obnazhennoe obduvaemoe vetrom derevo Pifagora
+     * Классическое дерево Пифагора
+       Классическое дерево Пифагора
+     * Обдуваемое ветром дерево Пифагора
+       Обдуваемое ветром дерево Пифагора
+     * Обнаженное дерево Пифагора
+       Обнаженное дерево Пифагора
+     * Обнаженное обдуваемое ветром дерево Пифагора
+       Обнаженное обдуваемое ветром дерево Пифагора
 
-Sm. takzhe[pravit' | pravit' kod]
+См. также[править | править код]
 
-     * Krivaya Levi
-     * Samopodobie
-     * Graf K`eli (teoriya grupp)
+     * Кривая Леви
+     * Самоподобие
+     * Граф Кэли (теория групп)
 
-   V stat'e ne hvataet ssylok na istochniki (sm. rekomendacii po poisku).
-   Informaciya dolzhna byt' proveryaema, inache ona mozhet byt' udalena.
-   Vy mozhete otredaktirovat' stat'yu, dobaviv ssylki na avtoritetnye
-   istochniki v vide snosok. (8 iyunya 2019)
-   Istochnik --
-   https://ru.wikipedia.org/w/index.php?title=Derevo_Pifagora&oldid=100289
+   В статье не хватает ссылок на источники (см. рекомендации по поиску).
+   Информация должна быть проверяема, иначе она может быть удалена. Вы
+   можете отредактировать статью, добавив ссылки на авторитетные источники
+   в виде сносок. (8 июня 2019)
+   Источник —
+   https://ru.wikipedia.org/w/index.php?title=Дерево_Пифагора&oldid=100289
    736
-   Kategoriya:
-     * Fraktaly
+   Категория:
+     * Фракталы
 
-   Skrytye kategorii:
-     * Vikipediya:Stat'i bez istochnikov (ne raspredelionnye po tipam)
-     * Vikipediya:Net istochnikov s avgusta 2013
-     * Vikipediya:Stat'i s utverzhdeniyami bez istochnikov bolee 14 dnej
-     * Vikipediya:Stat'i bez ssylok na istochniki s iyunya 2019 goda
+   Скрытые категории:
+     * Википедия:Статьи без источников (не распределённые по типам)
+     * Википедия:Нет источников с августа 2013
+     * Википедия:Статьи с утверждениями без источников более 14 дней
+     * Википедия:Статьи без ссылок на источники с июня 2019 года
 
-Navigaciya
+Навигация
 
-Personal'nye instrumenty
+Персональные инструменты
 
-     * Vy ne predstavilis' sisteme
-     * Obsuzhdenie
-     * Vklad
-     * Sozdat' uchiotnuyu zapis'
-     * Vojti
+     * Вы не представились системе
+     * Обсуждение
+     * Вклад
+     * Создать учётную запись
+     * Войти
 
-Prostranstva imion
+Пространства имён
 
-     * Stat'ya
-     * Obsuzhdenie
+     * Статья
+     * Обсуждение
 
-   [ ] russkij
+   [ ] русский
 
-Prosmotry
+Просмотры
 
-     * CHitat'
-     * Pravit'
-     * Pravit' kod
-     * Istoriya
+     * Читать
+     * Править
+     * Править код
+     * История
 
-   [ ] Eschio
+   [ ] Ещё
 
-Poisk
+Поиск
 
-   ____________________ Najti Perejti
+   ____________________ Найти Перейти
 
-Navigaciya
+Навигация
 
-     * Zaglavnaya stranica
-     * Soderzhanie
-     * Izbrannye stat'i
-     * Sluchajnaya stat'ya
-     * Tekuschie sobytiya
-     * Pozhertvovat'
+     * Заглавная страница
+     * Содержание
+     * Избранные статьи
+     * Случайная статья
+     * Текущие события
+     * Пожертвовать
 
-Uchastie
+Участие
 
-     * Soobschit' ob oshibke
-     * Kak pravit' stat'i
-     * Soobschestvo
-     * Forum
-     * Svezhie pravki
-     * Novye stranicy
-     * Spravka
+     * Сообщить об ошибке
+     * Как править статьи
+     * Сообщество
+     * Форум
+     * Свежие правки
+     * Новые страницы
+     * Справка
 
-Instrumenty
+Инструменты
 
-     * Ssylki syuda
-     * Svyazannye pravki
-     * Sluzhebnye stranicy
-     * Postoyannaya ssylka
-     * Svedeniya o stranice
-     * Citirovat' stranicu
-     * Poluchit' sokraschionnyj URL-adres
-     * `Element Vikidannyh
+     * Ссылки сюда
+     * Связанные правки
+     * Служебные страницы
+     * Постоянная ссылка
+     * Сведения о странице
+     * Цитировать страницу
+     * Получить сокращённый URL-адрес
+     * Элемент Викиданных
 
-Pechat'/`eksport
+Печать/экспорт
 
-     * Skachat' kak PDF
-     * Versiya dlya pechati
+     * Скачать как PDF
+     * Версия для печати
 
-V drugih proektah
+В других проектах
 
-     * Vikisklad
+     * Викисклад
 
-Na drugih yazykah
+На других языках
 
-     * a+l+e+r+b+y+tm
-     * B"lgarski
-     * Catal�
-     * �w+r+d+
-     * Cestina
+     * العربية
+     * Български
+     * Català
+     * کوردی
+     * Čeština
      * Deutsch
-     * Ellynika'
+     * Ελληνικά
      * English
-     * Espa�ol
+     * Español
      * Euskara
-     * f+a+r+s+
-     * Fran�ais
-     * E+B+R+J+T+
+     * فارسی
+     * Français
+     * עברית
      * Italiano
-     * ��
+     * 日本語
      * Nederlands
      * Polski
-     * Portugu�s
+     * Português
      * Shqip
-     * Srpski / srpski
-     * Ukrayins'ka
-     * �
+     * Српски / srpski
+     * Українська
+     * 中文
 
-   Pravit' ssylki
+   Править ссылки
 
-     * `Eta stranica v poslednij raz byla otredaktirovana 8 iyunya 2019 v
+     * Эта страница в последний раз была отредактирована 8 июня 2019 в
        08:00.
-     * Tekst dostupen po licenzii Creative Commons �S ukazaniem avtorstva
-       -- S sohraneniem uslovij� (CC BY-SA); v otdel'nyh sluchayah mogut
-       dejstvovat' dopolnitel'nye usloviya. Podrobnee sm. Usloviya
-       ispol'zovaniya.
-       Wikipedia� -- zaregistrirovannyj tovarnyj znak nekommercheskoj
-       organizacii Fond Vikimedia (Wikimedia Foundation, Inc.)
+     * Текст доступен по лицензии Creative Commons «С указанием авторства
+       — С сохранением условий» (CC BY-SA); в отдельных случаях могут
+       действовать дополнительные условия. Подробнее см. Условия
+       использования.
+       Wikipedia® — зарегистрированный товарный знак некоммерческой
+       организации Фонд Викимедиа (Wikimedia Foundation, Inc.)
 
-     * Politika konfidencial'nosti
-     * Opisanie Vikipedii
-     * Otkaz ot otvetstvennosti
-     * Svyazhites' s nami
-     * Kodeks povedeniya
-     * Razrabotchiki
-     * Statistika
-     * Zayavlenie o kuki
-     * Mobil'naya versiya
+     * Политика конфиденциальности
+     * Описание Википедии
+     * Отказ от ответственности
+     * Свяжитесь с нами
+     * Кодекс поведения
+     * Разработчики
+     * Статистика
+     * Заявление о куки
+     * Мобильная версия
 
      * Wikimedia Foundation
      * Powered by MediaWiki

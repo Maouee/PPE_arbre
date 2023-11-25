@@ -1,29 +1,22 @@
+     * (Top)
      * 1Terminology and properties
-
-     2Examples of tree structures
-
-     3Representing trees
-   (BUTTON) Toggle Representing trees subsection
-     * 3.1Classical node-link diagrams
-
---
-
-
-   3.4Outlines and tree views
-
-
---
-
-
-   3.6Radial trees
-
-
+     * 2Examples of tree structures
+     * 3Representing trees
+       (BUTTON) Toggle Representing trees subsection
+          + 3.1Classical node-link diagrams
+          + 3.2Nested sets
+          + 3.3Layered "icicle" diagrams
+          + 3.4Outlines and tree views
+          + 3.5Nested parentheses
+          + 3.6Radial trees
+     * 4See also
+     * 5References
 --
    article by introducing more precise citations. (July 2014) (Learn how
    and when to remove this template message)
    [300px-Binary_tree_structure.svg.png] A tree structure showing the
    possible hierarchical organization of an
-   encyclopedia[300px-ENC_SYSTEME_FIGURE.jpeg] The original Encyclop�die
+   encyclopedia[300px-ENC_SYSTEME_FIGURE.jpeg] The original Encyclopédie
    (1752) used a tree diagram to show the way in which its subjects were
    ordered.
 
@@ -60,8 +53,8 @@ Terminology and properties[edit]
    Tree structures can depict all kinds of taxonomic knowledge, such as
    family trees, the biological evolutionary tree, the evolutionary tree
    of a language family, the grammatical structure of a language (a key
-   example being S -> NP VP, meaning a sentence is a noun phrase and a
-   verb phrase, with each in turn having other components which have other
+   example being S → NP VP, meaning a sentence is a noun phrase and a verb
+   phrase, with each in turn having other components which have other
    components), the way web pages are logically ordered in a web site,
    mathematical trees of integer sets, et cetera.
 
@@ -89,7 +82,7 @@ Examples of tree structures[edit]
      * Management: hierarchical organizational structures
      * Computer science:
           + binary search tree
-          + red-black tree
+          + red–black tree
           + AVL tree
           + R-tree
           + doubly logarithmic tree
@@ -159,6 +152,6 @@ Further reading[edit]
    Wikimedia Commons has media related to Tree diagram.
 
      * Visualization of phylogenetic trees on the T-REX server
-     * Using a tree structure to design a business process - from the
+     * Using a tree structure to design a business process – from the
        Society for Technical Communication
 

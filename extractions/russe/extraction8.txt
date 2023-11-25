@@ -1,208 +1,207 @@
-   #alternate Pravit' Vikipediya (ru) Vikipediya -- Atom-lenta
+   #alternate Править Википедия (ru) Википедия — Atom-лента
 
-Brounovskoe derevo
+Броуновское дерево
 
-   Material iz Vikipedii -- svobodnoj `enciklopedii
-   Perejti k navigacii Perejti k poisku
-   [250px-Brownian_tree_vertical_large.png] Primer brounovskogo
-   dereva[250px-DLA_Cluster.JPG] Brounovskoe derevo, vyraschennoe iz
-   mednogo kuporosa
+   Материал из Википедии — свободной энциклопедии
+   Перейти к навигации Перейти к поиску
+   [250px-Brownian_tree_vertical_large.png] Пример броуновского
+   дерева[250px-DLA_Cluster.JPG] Броуновское дерево, выращенное из медного
+   купороса
 
-   Bro'unovskoe de'revo yavlyaetsya formoj komp'yuternogo iskusstva,
-   kotoroe bylo populyarno v 1990-h, kogda domashnie komp'yutery stali
-   obladat' dostatochnoj proizvoditel'nost'yu dlya modelirovaniya
-   brounovskogo dvizheniya (otsyuda i nazvanie). Brounovskie derev'ya --
-   matematicheskie modeli drevovidnyh struktur, svyazannyh s fizicheskim
-   processom, izvestnym kak agregaciya, ogranichennaya diffuziej.
+   Бро́уновское де́рево является формой компьютерного искусства, которое
+   было популярно в 1990-х, когда домашние компьютеры стали обладать
+   достаточной производительностью для моделирования броуновского движения
+   (отсюда и название). Броуновские деревья — математические модели
+   древовидных структур, связанных с физическим процессом, известным как
+   агрегация, ограниченная диффузией.
 
-   Komp'yuternaya model' agregacii, ogranichennoj diffuziej^[en]
-   predstavlyaet soboj pole, zapolnennoe chasticami, sovershayuschimi
-   haoticheskoe brounovskoe dvizhenie. Na pole vnositsya centr agregacii,
-   k kotoromu �prilipaet� vsyakaya sluchajno prikosnuvshayasya chastica;
-   nachinaetsya rost konglomerata chastic -- fraktal'nogo klastera.
-   Zachastuyu v modelirovanii ispol'zuetsya tol'ko odna dvizhuschayasya
-   chastica.
+   Компьютерная модель агрегации, ограниченной диффузией^[en] представляет
+   собой поле, заполненное частицами, совершающими хаотическое броуновское
+   движение. На поле вносится центр агрегации, к которому «прилипает»
+   всякая случайно прикоснувшаяся частица; начинается рост конгломерата
+   частиц — фрактального кластера. Зачастую в моделировании используется
+   только одна движущаяся частица.
 
-   U poluchayuschegosya dereva mozhet byt' mnogo razlichnyh form,
-   preimuschestvenno zavisyaschih ot trioh faktorov:
-     * polozhenie centra agregacii;
-     * nachal'noe polozhenie dvizhuschejsya chasticy;
-     * algoritm modelirovaniya brounovskogo dvizheniya;
+   У получающегося дерева может быть много различных форм, преимущественно
+   зависящих от трёх факторов:
+     * положение центра агрегации;
+     * начальное положение движущейся частицы;
+     * алгоритм моделирования броуновского движения;
 
-   Pri izmenenii cveta chasticy mezhdu iteraciyami mozhno nablyudat'
-   interesnye cvetovye `effekty.
+   При изменении цвета частицы между итерациями можно наблюдать интересные
+   цветовые эффекты.
 
-   V period populyarnosti `etogo iskusstva srednij personal'nyj komp'yuter
-   tratil chasy i dazhe dni dlya sozdaniya malen'kogo dereva. Sovremennye
-   personal'nye komp'yutery mogut sozdavat' derev'ya iz mnogih tysyach
-   chastic za schitannye sekundy.
+   В период популярности этого искусства средний персональный компьютер
+   тратил часы и даже дни для создания маленького дерева. Современные
+   персональные компьютеры могут создавать деревья из многих тысяч частиц
+   за считанные секунды.
 
-   Podobnye derev'ya mogut byt' vyrascheny v kamere `elektroliticheskogo
-   osazhdeniya. Ih forma takzhe ob"yasnyaetsya agregaciej, ogranichennoj
-   diffuziej.
-   Formula
-   `Eto zagotovka stat'i po matematike. Pomogite Vikipedii, dopolniv eio.
-   V stat'e ne hvataet ssylok na istochniki (sm. rekomendacii po poisku).
-   Informaciya dolzhna byt' proveryaema, inache ona mozhet byt' udalena.
-   Vy mozhete otredaktirovat' stat'yu, dobaviv ssylki na avtoritetnye
-   istochniki v vide snosok. (3 marta 2023)
-   Perejti k shablonu �Fraktaly�
-   Fraktaly
-   Harakteristiki
-     * Fraktal'naya razmernost'
-          + Razmernost' Hausdorfa
-          + Razmernost' Lebega
-     * Rekursiya
-     * Samopodobie
+   Подобные деревья могут быть выращены в камере электролитического
+   осаждения. Их форма также объясняется агрегацией, ограниченной
+   диффузией.
+   Формула
+   Это заготовка статьи по математике. Помогите Википедии, дополнив её.
+   В статье не хватает ссылок на источники (см. рекомендации по поиску).
+   Информация должна быть проверяема, иначе она может быть удалена. Вы
+   можете отредактировать статью, добавив ссылки на авторитетные источники
+   в виде сносок. (3 марта 2023)
+   Перейти к шаблону «Фракталы»
+   Фракталы
+   Характеристики
+     * Фрактальная размерность
+          + Размерность Хаусдорфа
+          + Размерность Лебега
+     * Рекурсия
+     * Самоподобие
 
    [80px-Fractal_fern_explained.png]
-   Prostejshie fraktaly
-     * Paporotnik Barnsli
-     * Kantorovo mnozhestvo
-     * Krivaya drakona
-     * Krivaya Koha
-     * Gubka Mengera
-     * Kovior Serpinskogo
-     * Treugol'nik Serpinskogo
-     * Zapolnyayuschaya prostranstvo krivaya
+   Простейшие фракталы
+     * Папоротник Барнсли
+     * Канторово множество
+     * Кривая дракона
+     * Кривая Коха
+     * Губка Менгера
+     * Ковёр Серпинского
+     * Треугольник Серпинского
+     * Заполняющая пространство кривая
 
-   Strannyj attraktor
-   Mul'tifraktal
-   L-sistema
-   Zapolnyayuschaya prostranstvo krivaya
-   Bifurkacionnye fraktaly
-     * Mnozhestvo ZHyulia
-     * Fraktal Lyapunova
-     * Mnozhestvo Mandel'brota
-     * Bassejny N'yutona
+   Странный аттрактор
+   Мультифрактал
+   L-система
+   Заполняющая пространство кривая
+   Бифуркационные фракталы
+     * Множество Жюлиа
+     * Фрактал Ляпунова
+     * Множество Мандельброта
+     * Бассейны Ньютона
 
-   Sluchajnye fraktaly
-     * Brounovskoe dvizhenie
-     * Brounovskoe derevo
-     * Fraktal'naya poverhnost'
-     * Teoriya perkolyacii
+   Случайные фракталы
+     * Броуновское движение
+     * Броуновское дерево
+     * Фрактальная поверхность
+     * Теория перколяции
 
-   Lyudi
-     * Georg Kantor
-     * Feliks Hausdorf
-     * Gaston ZHyulia
-     * Hel'ge fon Koh
-     * Pol' Levi
-     * Aleksandr Lyapunov
-     * Benua Mandel'brot
-     * L'yuis Richardson
-     * Vaclav Serpinskij
+   Люди
+     * Георг Кантор
+     * Феликс Хаусдорф
+     * Гастон Жюлиа
+     * Хельге фон Кох
+     * Поль Леви
+     * Александр Ляпунов
+     * Бенуа Мандельброт
+     * Льюис Ричардсон
+     * Вацлав Серпинский
 
-   Svyazannye temy
-     * �Kakova dlina poberezh'ya Velikobritanii?�
-          + Paradoks beregovoj linii
+   Связанные темы
+     * «Какова длина побережья Великобритании?»
+          + Парадокс береговой линии
 
-   Istochnik --
-   https://ru.wikipedia.org/w/index.php?title=Brounovskoe_derevo&oldid=128
+   Источник —
+   https://ru.wikipedia.org/w/index.php?title=Броуновское_дерево&oldid=128
    998432
-   Kategoriya:
-     * Fraktaly
+   Категория:
+     * Фракталы
 
-   Skrytye kategorii:
-     * Nezavershionnye stat'i po matematike
-     * Vikipediya:Stat'i bez ssylok na istochniki s marta 2023 goda
-     * Vikipediya:Stat'i bez istochnikov (ne raspredelionnye po tipam)
+   Скрытые категории:
+     * Незавершённые статьи по математике
+     * Википедия:Статьи без ссылок на источники с марта 2023 года
+     * Википедия:Статьи без источников (не распределённые по типам)
 
-Navigaciya
+Навигация
 
-Personal'nye instrumenty
+Персональные инструменты
 
-     * Vy ne predstavilis' sisteme
-     * Obsuzhdenie
-     * Vklad
-     * Sozdat' uchiotnuyu zapis'
-     * Vojti
+     * Вы не представились системе
+     * Обсуждение
+     * Вклад
+     * Создать учётную запись
+     * Войти
 
-Prostranstva imion
+Пространства имён
 
-     * Stat'ya
-     * Obsuzhdenie
+     * Статья
+     * Обсуждение
 
-   [ ] russkij
+   [ ] русский
 
-Prosmotry
+Просмотры
 
-     * CHitat'
-     * Pravit'
-     * Pravit' kod
-     * Istoriya
+     * Читать
+     * Править
+     * Править код
+     * История
 
-   [ ] Eschio
+   [ ] Ещё
 
-Poisk
+Поиск
 
-   ____________________ Najti Perejti
+   ____________________ Найти Перейти
 
-Navigaciya
+Навигация
 
-     * Zaglavnaya stranica
-     * Soderzhanie
-     * Izbrannye stat'i
-     * Sluchajnaya stat'ya
-     * Tekuschie sobytiya
-     * Pozhertvovat'
+     * Заглавная страница
+     * Содержание
+     * Избранные статьи
+     * Случайная статья
+     * Текущие события
+     * Пожертвовать
 
-Uchastie
+Участие
 
-     * Soobschit' ob oshibke
-     * Kak pravit' stat'i
-     * Soobschestvo
-     * Forum
-     * Svezhie pravki
-     * Novye stranicy
-     * Spravka
+     * Сообщить об ошибке
+     * Как править статьи
+     * Сообщество
+     * Форум
+     * Свежие правки
+     * Новые страницы
+     * Справка
 
-Instrumenty
+Инструменты
 
-     * Ssylki syuda
-     * Svyazannye pravki
-     * Sluzhebnye stranicy
-     * Postoyannaya ssylka
-     * Svedeniya o stranice
-     * Citirovat' stranicu
-     * Poluchit' sokraschionnyj URL-adres
-     * `Element Vikidannyh
+     * Ссылки сюда
+     * Связанные правки
+     * Служебные страницы
+     * Постоянная ссылка
+     * Сведения о странице
+     * Цитировать страницу
+     * Получить сокращённый URL-адрес
+     * Элемент Викиданных
 
-Pechat'/`eksport
+Печать/экспорт
 
-     * Skachat' kak PDF
-     * Versiya dlya pechati
+     * Скачать как PDF
+     * Версия для печати
 
-Na drugih yazykah
+На других языках
 
      * English
-     * f+a+r+s+
+     * فارسی
      * Hrvatski
-     * Makedonski
-     * Srpskohrvatski / srpskohrvatski
-     * Srpski / srpski
-     * Ukrayins'ka
+     * Македонски
+     * Srpskohrvatski / српскохрватски
+     * Српски / srpski
+     * Українська
 
-   Pravit' ssylki
+   Править ссылки
 
-     * `Eta stranica v poslednij raz byla otredaktirovana 3 marta 2023 v
+     * Эта страница в последний раз была отредактирована 3 марта 2023 в
        13:53.
-     * Tekst dostupen po licenzii Creative Commons �S ukazaniem avtorstva
-       -- S sohraneniem uslovij� (CC BY-SA); v otdel'nyh sluchayah mogut
-       dejstvovat' dopolnitel'nye usloviya. Podrobnee sm. Usloviya
-       ispol'zovaniya.
-       Wikipedia� -- zaregistrirovannyj tovarnyj znak nekommercheskoj
-       organizacii Fond Vikimedia (Wikimedia Foundation, Inc.)
+     * Текст доступен по лицензии Creative Commons «С указанием авторства
+       — С сохранением условий» (CC BY-SA); в отдельных случаях могут
+       действовать дополнительные условия. Подробнее см. Условия
+       использования.
+       Wikipedia® — зарегистрированный товарный знак некоммерческой
+       организации Фонд Викимедиа (Wikimedia Foundation, Inc.)
 
-     * Politika konfidencial'nosti
-     * Opisanie Vikipedii
-     * Otkaz ot otvetstvennosti
-     * Svyazhites' s nami
-     * Kodeks povedeniya
-     * Razrabotchiki
-     * Statistika
-     * Zayavlenie o kuki
-     * Mobil'naya versiya
+     * Политика конфиденциальности
+     * Описание Википедии
+     * Отказ от ответственности
+     * Свяжитесь с нами
+     * Кодекс поведения
+     * Разработчики
+     * Статистика
+     * Заявление о куки
+     * Мобильная версия
 
      * Wikimedia Foundation
      * Powered by MediaWiki

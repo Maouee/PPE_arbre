@@ -1,904 +1,892 @@
-   #alternate Vikislovar' (ru) Vikislovar' -- Atom-lenta
+   #alternate Викисловарь (ru) Викисловарь — Atom-лента
 
-derevo
+дерево
 
-   Material iz Vikislovarya
-   Perejti k navigacii Perejti k poisku
-   [30px-Disambig.svg.png] Sm. takzhe drevo.
-   [24px-Wikipedia-logo-v2.svg.png] V Vikipedii est' stat'ya �derevo�.
-   [24px-Commons-logo.svg.png] Na Vikisklade est' stranica po teme
-   �derevo�
-   [24px-SE200.png] Slovo derevo vhodit v spisok Svodesha-200 (51).
+   Материал из Викисловаря
+   Перейти к навигации Перейти к поиску
+   [30px-Disambig.svg.png] См. также древо.
+   [24px-Wikipedia-logo-v2.svg.png] В Википедии есть статья «дерево».
+   [24px-Commons-logo.svg.png] На Викискладе есть страница по теме
+   «дерево»
+   [24px-SE200.png] Слово дерево входит в список Сводеша-200 (51).
    [ ]
 
-Soderzhanie
+Содержание
 
-     * 1 Russkij
-          + 1.1 Morfologicheskie i sintaksicheskie svojstva
-          + 1.2 Proiznoshenie
-          + 1.3 Semanticheskie svojstva
-               o 1.3.1 Znachenie
-               o 1.3.2 Sinonimy
-               o 1.3.3 Antonimy
-               o 1.3.4 Giperonimy
-               o 1.3.5 Giponimy
-          + 1.4 Rodstvennye slova
-          + 1.5 `Etimologiya
-          + 1.6 Frazeologizmy i ustojchivye sochetaniya
-               o 1.6.1 Poslovicy i pogovorki
-               o 1.6.2 Tipichnye sochetaniya
-          + 1.7 Perevod
-          + 1.8 Bibliografiya
-     * 2 Ukrainskij
-          + 2.1 Morfologicheskie i sintaksicheskie svojstva
-          + 2.2 Proiznoshenie
-          + 2.3 Semanticheskie svojstva
-               o 2.3.1 Znachenie
-               o 2.3.2 Sinonimy
-               o 2.3.3 Antonimy
-               o 2.3.4 Giperonimy
-               o 2.3.5 Giponimy
-          + 2.4 Rodstvennye slova
-          + 2.5 `Etimologiya
-          + 2.6 Frazeologizmy i ustojchivye sochetaniya
-          + 2.7 Bibliografiya
+     * 1 Русский
+          + 1.1 Морфологические и синтаксические свойства
+          + 1.2 Произношение
+          + 1.3 Семантические свойства
+               o 1.3.1 Значение
+               o 1.3.2 Синонимы
+               o 1.3.3 Антонимы
+               o 1.3.4 Гиперонимы
+               o 1.3.5 Гипонимы
+          + 1.4 Родственные слова
+          + 1.5 Этимология
+          + 1.6 Фразеологизмы и устойчивые сочетания
+               o 1.6.1 Пословицы и поговорки
+               o 1.6.2 Типичные сочетания
+          + 1.7 Перевод
+          + 1.8 Библиография
+     * 2 Украинский
+          + 2.1 Морфологические и синтаксические свойства
+          + 2.2 Произношение
+          + 2.3 Семантические свойства
+               o 2.3.1 Значение
+               o 2.3.2 Синонимы
+               o 2.3.3 Антонимы
+               o 2.3.4 Гиперонимы
+               o 2.3.5 Гипонимы
+          + 2.4 Родственные слова
+          + 2.5 Этимология
+          + 2.6 Фразеологизмы и устойчивые сочетания
+          + 2.7 Библиография
 
-Russkij
+Русский
 
-Morfologicheskie i sintaksicheskie svojstva
+Морфологические и синтаксические свойства
 
-   padezh ed. ch.    mn. ch.
-   Im.    de'revo  dere'v'ya
-   R.     de'reva  dere'v'ev
-   D.     de'revu  dere'v'yam
-   V.     de'revo  dere'v'ya
-   Tv.    de'revom dere'v'yami
-   Pr.    de'reve  dere'v'yah
+   падеж  ед. ч.    мн. ч.
+   Им.   де́рево  дере́вья
+   Р.    де́рева  дере́вьев
+   Д.    де́реву  дере́вьям
+   В.    де́рево  дере́вья
+   Тв.   де́ревом дере́вьями
+   Пр.   де́реве  дере́вьях
 
-   de'-re-vo (doreform. de'revo, na de'revy3, po de'revu)
+   де́-ре-во (дореформ. де́рево, на де́ревѣ, по де́реву)
 
-   Suschestvitel'noe, neodushevlionnoe, srednij rod, 2-e sklonenie (tip
-   skloneniya 1a^ po klassifikacii A. A. Zaliznyaka).
+   Существительное, неодушевлённое, средний род, 2-е склонение (тип
+   склонения 1a^ по классификации А. А. Зализняка).
 
-   Vstrechayutsya takzhe ustar. varianty slovoobrazovaniya vo mn. ch.: im.
-   i vin. p. -- dereva', rod. p. -- dere'v i deriov, dat. p. -- dereva'm,
-   tv. p. -- dereva'mi, predl. p. -- dereva'h, mestn. p. -- v, na
-   dereva'h.
+   Встречаются также устар. варианты словообразования во мн. ч.: им. и
+   вин. п. — дерева́, род. п. — дере́в и дерёв, дат. п. — дерева́м, тв.
+   п. — дерева́ми, предл. п. — дерева́х, местн. п. — в, на дерева́х.
 
-   Koren': -derev-; okonchanie: -o [Tihonov, 1996].
+   Корень: -дерев-; окончание: -о [Тихонов, 1996].
 
-Proiznoshenie
+Произношение
 
-     * MFA: ed. ch. [|d;er;Iv@]
+     * МФА: ед. ч. [ˈdʲerʲɪvə]
 
-       (fajl)
-       mn. ch. [d;I|r;ev;I�@]
+       (файл)
+       мн. ч. [dʲɪˈrʲevʲɪ̯ə]
 
-Semanticheskie svojstva
+Семантические свойства
 
-   [200px-Linde_von_linn.jpg] Derevo [1][200px-Bauschnittholz.jpg] Derevo
-   [2][200px-Kiefer_Holz.JPG] Derevo
-   [3][200px-Balclutha_fore_topgallant_mast.jpg] Derevo
-   [4][langru-200px-Call_Tree_for_Fibonacci_Number_F6.svg.png] Derevo [5],
+   [200px-Linde_von_linn.jpg] Дерево [1][200px-Bauschnittholz.jpg] Дерево
+   [2][200px-Kiefer_Holz.JPG] Дерево
+   [3][200px-Balclutha_fore_topgallant_mast.jpg] Дерево
+   [4][langru-200px-Call_Tree_for_Fibonacci_Number_F6.svg.png] Дерево [5],
    [6]
 
-Znachenie
+Значение
 
-    1. botan. mnogoletnee, kak pravilo, krupnoe rastenie s tviordym
-       stvolom, moschnoj kornevoj sistemoj i obrazuyuschimi kronu
-       vetvyami, pokrytymi list'yami ili igolkami Db Lyudi s ih toporami i
-       pilami ... bezzhalostno gubili moschnye duby, shirokie osiny,
-       strojnye beriozki i topolya i drugie derev'ya. L. A. CHarskaya,
-       �Zolotaya svirel'�, 1912 g. [NKRYA] Db Tumannaya melanholiya
-       neizmenno nakrenyala dereva'. Stoyali dereva' naklonionnye.
-       Andrej Belyj, �Severnaya simfoniya�, 1917 g. [NKRYA]
-       Db Mozhzhevel -- derevo skrytnoe, kolkoe, ne dopuskayuschee v
-       sebya, zamknutoe, strogoe k zhizni, samoe mudroe iz nashih dere'v.
-       L. M. Leonov, �Barsuki�, 1924 g. [NKRYA] Db  -- Znaesh', po chemu u
-       deriov schitayut goda?.. S. A. Klychkov, �CHertuhinskij balakir'�,
-       1926 g. [NKRYA] Db Mi'ny rvali's' v dereva'h. V. P. Astaf'ev,
-       �Vesiolyj soldat� (1987-1997) // �Novyj Mir�, 1998 g. [NKRYA] Db V
-       nekotoryh rajonah Afriki rastiot derevo merula, dayuschee krupnye
-       zhioltye plody, napominayuschie dynyu. �Kak i lyudi� // �Znanie --
-       sila�, 2003 g. [NKRYA]
-    2. peren., ed. ch. drevesnyj material, iduschij na izdeliya,
-       postrojki; brevno, drevesina, pilomaterial, les Db Spal on v zhiloj
-       palube na reshiotchatyh rundukah, podostlav pod sebya matrac,
-       nabityj melkimi istolchionnymi kroshkami iz probochnogo dereva.
-       A. S. Novikov-Priboj, �SHalyj�, 1917 g. [NKRYA] Db Pamfil lyubil ih
-       vseh, v osobennosti detishek, bez pamyati, i s lovkost'yu,
-       izumlyavshej doktora, rezal im ugolkom ostro ottochennogo topora
-       igrushki iz dereva, zajcev, medvedej, petuhov. B. L. Pasternak,
-       �Doktor ZHivago�, 1945-1955 g gg. [NKRYA] Db Sidya v krasnyh
-       dereva'h svoej moskovskoj kvartiry, pri svete hrustalya, v
-       `elegantnom kostyume iz N'yu-Jorka ili Parizha, propovedoval o
-       Rodine. M. M. Kozakov, �Aktiorskaya kniga�, 1978-1995 g gg. [NKRYA]
-       Db V russkoj cerkvi na ulice Lonshan byla biblioteka s
-       zasteklionnymi orehovogo dereva knizhnymi shkafami do potolka.
-       Vadim Krejd, �Georgij Ivanov v Jere� // �Zvezda�, 2003 g. [NKRYA]
-       Db Derevo (polovina brevna ili brusok) mozhet byt' lyuboe, no
-       luchshe -- zvuchaschee, to est' klion, sosna, el', v Sibiri --
-       kedr. Boris Efremov, �Gusli -- svoimi rukami� // �Narodnoe
-       tvorchestvo�, 2003 g. [NKRYA] Db Rez'ba po derevu nastol'ko uvlekla
-       mastera, chto Nikolaj postavil lyubimoe delo na professional'nuyu
-       osnovu. �Krasna izba uglami� // �Narodnoe tvorchestvo�, 2003 g.
-       [NKRYA] Db Tam zhe valyalis' razobrannye i cel'nye shkafy krasnogo
-       dereva, orehovye komody, vishniovye stoly i tumbochki s
-       oblupivshejsya inkrustaciej iz karel'skoj beriozy.
-       A. N. Arhangel'skij, �1962�, "Poslanie k Timofeyu", 2006 g. [NKRYA]
-       Db Dlya odnoj prostoj izby nuzhno bylo okolo sta pyatidesyati
-       brioven -- v starinu ih nazyvali �dereva'mi�. Lev Ban'kovskij,
-       �Dom-ptica i ptica v dome� // �Nauka i zhizn'�, 2009 g. [NKRYA]
-    3. peren. faktura, harakternaya dlya de'reva [2] Db V spektre
-       predostavlyaemyh uslug nedavno poyavilis' novye -- obtyagivanie
-       kozhej i otdelka pod derevo absolyutno lyubogo cveta, a takzhe
-       reshenie vnutrennego prostranstva mashiny v lyubom stile ili
-       dizajnerskom napravlenii. �Oficial'nye dilery� // �Avtopilot�,
-       2002 g. [NKRYA]
-    4. morsk. to zhe, chto rangout, rangoutnoe derevo, derevyannye
-       izdeliya i predmety parusnogo vooruzheniya korablej
-       Db Fok-marsa-rej -- `eto gorizontal'noe derevo rangouta, nesuschee
-       mars.
-    5. matem. svyaznyj neorientirovannyj graf, ne soderzhaschij ciklov
-       Db Derevo reshenij sostoit iz uzlov (nazyvaemyh takzhe vershinami)
-       i vetvej, oboznachaemyh otrezkami, soedinyayuschimi uzly.
-    6. peren. komp. ob"ekt, struktura kotorogo imeet formu de'reva, a
-       takzhe sama takaya struktura Db Davajte rassmotrim derevo
-       vozmozhnostej. Db Rassmotrim primer modeli setevoj ataki na
-       W-server, predstavlennoj v vide de'reva G = (L, E). V. A. Serdyuk,
-       �Analiz sovremennyh tendencij postroeniya modelej informacionnyh
-       atak� // �Informacionnye tehnologii�, 2004 g. [NKRYA]
-    7. peren., razg. beschuvstvennyj, neblagodarnyj chelovek; glupyj,
-       medlenno soobrazhayuschij, tupoj, maloobrazovannyj ili
-       neobrazovannyj chelovek Db  -- YA tebe lesu na i'zbu dala, a ty
-       buntovat', beschuvstvennoe, neblagodarnoe ty derevo `edakoe!
-       V. V. Krestovskij, �Panurgovo stado�, CH. 1-2, 1869 g. [NKRYA]
-       Db  -- Ah, Pasha, neuzhto `eto pravda? Neuzhto ty nikogda, nikogda
-       ne lyubil? -- Nikogda. -- I nikogda ne polyubish'? -- Nikogda.
-       -- Pochemu, Pavlyukan, derevo ty `etakoe? Pochemu? N. S. Leskov,
-       �Na nozhah�, 1870 g. [NKRYA] Db �Tut nedaleko, -- probormotal
-       Semion, glyadya v okno na novostrojki vdali. -- A ty chem
-       zanimaesh'sya? -- sprosil on i, ne dozhidayas' otveta, protyanul:
-       -- `Eh ty, derevo!�
+    1. ботан. многолетнее, как правило, крупное растение с твёрдым
+       стволом, мощной корневой системой и образующими крону ветвями,
+       покрытыми листьями или иголками ◆ Люди с их топорами и пилами …
+       безжалостно губили мощные дубы, широкие осины, стройные берёзки и
+       тополя и другие деревья. Л. А. Чарская, «Золотая свирель», 1912 г.
+       [НКРЯ] ◆ Туманная меланхолия неизменно накреняла дерева́. Стояли
+       дерева́ наклонённые. Андрей Белый, «Северная симфония», 1917 г.
+       [НКРЯ] ◆ Можжевел — дерево скрытное, колкое, не допускающее в себя,
+       замкнутое, строгое к жизни, самое мудрое из наших дере́в.
+       Л. М. Леонов, «Барсуки», 1924 г. [НКРЯ] ◆  — Знаешь, по чему у
+       дерёв считают года?.. С. А. Клычков, «Чертухинский балакирь»,
+       1926 г. [НКРЯ] ◆ Ми́ны рвали́сь в дерева́х. В. П. Астафьев,
+       «Весёлый солдат» (1987–1997) // «Новый Мир», 1998 г. [НКРЯ] ◆ В
+       некоторых районах Африки растёт дерево мерула, дающее крупные
+       жёлтые плоды, напоминающие дыню. «Как и люди» // «Знание — сила»,
+       2003 г. [НКРЯ]
+    2. перен., ед. ч. древесный материал, идущий на изделия, постройки;
+       бревно, древесина, пиломатериал, лес ◆ Спал он в жилой палубе на
+       решётчатых рундуках, подостлав под себя матрац, набитый мелкими
+       истолчёнными крошками из пробочного дерева. А. С. Новиков-Прибой,
+       «Шалый», 1917 г. [НКРЯ] ◆ Памфил любил их всех, в особенности
+       детишек, без памяти, и с ловкостью, изумлявшей доктора, резал им
+       уголком остро отточенного топора игрушки из дерева, зайцев,
+       медведей, петухов. Б. Л. Пастернак, «Доктор Живаго», 1945–1955
+       г гг. [НКРЯ] ◆ Сидя в красных дерева́х своей московской квартиры,
+       при свете хрусталя, в элегантном костюме из Нью-Йорка или Парижа,
+       проповедовал о Родине. М. М. Козаков, «Актёрская книга», 1978–1995
+       г гг. [НКРЯ] ◆ В русской церкви на улице Лоншан была библиотека с
+       застеклёнными орехового дерева книжными шкафами до потолка. Вадим
+       Крейд, «Георгий Иванов в Йере» // «Звезда», 2003 г. [НКРЯ] ◆ Дерево
+       (половина бревна или брусок) может быть любое, но лучше — звучащее,
+       то есть клён, сосна, ель, в Сибири — кедр. Борис Ефремов, «Гусли —
+       своими руками» // «Народное творчество», 2003 г. [НКРЯ] ◆ Резьба по
+       дереву настолько увлекла мастера, что Николай поставил любимое дело
+       на профессиональную основу. «Красна изба углами» // «Народное
+       творчество», 2003 г. [НКРЯ] ◆ Там же валялись разобранные и цельные
+       шкафы красного дерева, ореховые комоды, вишнёвые столы и тумбочки с
+       облупившейся инкрустацией из карельской берёзы.
+       А. Н. Архангельский, «1962», „Послание к Тимофею“, 2006 г. [НКРЯ]
+       ◆ Для одной простой избы нужно было около ста пятидесяти брёвен — в
+       старину их называли «дерева́ми». Лев Баньковский, «Дом-птица и
+       птица в доме» // «Наука и жизнь», 2009 г. [НКРЯ]
+    3. перен. фактура, характерная для де́рева [2] ◆ В спектре
+       предоставляемых услуг недавно появились новые — обтягивание кожей и
+       отделка под дерево абсолютно любого цвета, а также решение
+       внутреннего пространства машины в любом стиле или дизайнерском
+       направлении. «Официальные дилеры» // «Автопилот», 2002 г. [НКРЯ]
+    4. морск. то же, что рангоут, рангоутное дерево, деревянные изделия и
+       предметы парусного вооружения кораблей ◆ Фок-марса-рей — это
+       горизонтальное дерево рангоута, несущее марс.
+    5. матем. связный неориентированный граф, не содержащий циклов
+       ◆ Дерево решений состоит из узлов (называемых также вершинами) и
+       ветвей, обозначаемых отрезками, соединяющими узлы.
+    6. перен. комп. объект, структура которого имеет форму де́рева, а
+       также сама такая структура ◆ Давайте рассмотрим дерево
+       возможностей. ◆ Рассмотрим пример модели сетевой атаки на W-сервер,
+       представленной в виде де́рева G = (L, E). В. А. Сердюк, «Анализ
+       современных тенденций построения моделей информационных атак» //
+       «Информационные технологии», 2004 г. [НКРЯ]
+    7. перен., разг. бесчувственный, неблагодарный человек; глупый,
+       медленно соображающий, тупой, малообразованный или необразованный
+       человек ◆  — Я тебе лесу на и́збу дала, а ты бунтовать,
+       бесчувственное, неблагодарное ты дерево эдакое! В. В. Крестовский,
+       «Панургово стадо», Ч. 1–2, 1869 г. [НКРЯ] ◆  — Ах, Паша, неужто это
+       правда? Неужто ты никогда, никогда не любил? — Никогда. — И никогда
+       не полюбишь? — Никогда. — Почему, Павлюкан, дерево ты этакое?
+       Почему? Н. С. Лесков, «На ножах», 1870 г. [НКРЯ] ◆ «Тут недалеко, —
+       пробормотал Семён, глядя в окно на новостройки вдали. — А ты чем
+       занимаешься? — спросил он и, не дожидаясь ответа, протянул: — Эх
+       ты, дерево!»
     8.
 
-Sinonimy
+Синонимы
 
-    1. --
-    2. les, drevesina
-    3. --
-    4. rangout, rangoutnoe derevo
-    5. --
-    6. chastichn.: ierarhiya
-    7. dub, dubina, tormoz
+    1. —
+    2. лес, древесина
+    3. —
+    4. рангоут, рангоутное дерево
+    5. —
+    6. частичн.: иерархия
+    7. дуб, дубина, тормоз
 
-Antonimy
+Антонимы
 
-    1. --
-    2. --
-    3. --
-    4. --
-    5. --
-    6. set'
-    7. --
+    1. —
+    2. —
+    3. —
+    4. —
+    5. —
+    6. сеть
+    7. —
 
-Giperonimy
+Гиперонимы
 
-    1. rastenie
-    2. material
-    3. faktura
-    4. takelazh
-    5. graf
-    6. struktura dannyh
-    7. chelovek
+    1. растение
+    2. материал
+    3. фактура
+    4. такелаж
+    5. граф
+    6. структура данных
+    7. человек
 
-Giponimy
+Гипонимы
 
-    1. dub, el', buk, grab, sosna, berioza, klion, listvennica, sekvojya,
-       kedr
-    2. dub, el', buk, grab, sosna, berioza, klion, listvennica, sekvojya,
-       kedr
-    3. dub, el', buk, grab, sosna, berioza, klion, listvennica, sekvojya,
-       kedr
-    4. vertikal'noe rangoutnoe derevo, machta, sten'ga; gorizontal'noe
-       rangoutnoe derevo, gik, gafel', rej, bushprit, vystrel
-    5. --
-    6. koderevo
-    7. --
+    1. дуб, ель, бук, граб, сосна, берёза, клён, лиственница, секвойя,
+       кедр
+    2. дуб, ель, бук, граб, сосна, берёза, клён, лиственница, секвойя,
+       кедр
+    3. дуб, ель, бук, граб, сосна, берёза, клён, лиственница, секвойя,
+       кедр
+    4. вертикальное рангоутное дерево, мачта, стеньга; горизонтальное
+       рангоутное дерево, гик, гафель, рей, бушприт, выстрел
+    5. —
+    6. кодерево
+    7. —
 
-Rodstvennye slova
+Родственные слова
 
-   Blizhajshee rodstvo
-     * umen'sh.-lask. formy: derevce, derevco
-     * unichizh. formy: derevyashka
-     * pr. suschestvitel'nye: drevo, drevko, drevesina
-     * prilagatel'nye: drevesnyj, derevyannyj, drevovidnyj, drevoobraznyj
-     * glagoly: derevenet', oderevenet', odrevesnet'
-     * narechiya: derevyanno
+   Ближайшее родство
+     * уменьш.-ласк. формы: деревце, деревцо
+     * уничиж. формы: деревяшка
+     * пр. существительные: древо, древко, древесина
+     * прилагательные: древесный, деревянный, древовидный, древообразный
+     * глаголы: деревенеть, одеревенеть, одревеснеть
+     * наречия: деревянно
 
-   Spisok vseh slov s kornem -derev-/-drev- [pravit']
-     * imena sobstvennye: Derevyaga
-     * familii: Derevschikov, Derevyankin, Derevyanko, Derevyannikov,
-       Derevyagin, Derevyashkin
-     * pr.  suschestvitel'nye: derevo (negnoj-derevo; derevce, derevco);
-       derevej; derevenen'e; derevenik; derevoizdelie (derevoobrabotka;
-       derevopererabotka); derevschik (krasnoderevschik); derevyaga
-       (derevyashka, derevyashechka); derevyanica; derevyanka; dervyaga;
-       dreva; drevesa; drevesina; drevo; drevko; drevesina
-     * prilagatel'nye: derevyannyj; derevoobrabatyvayuschij,
-       derevopererabatyvayuschij; derevyanistyj; derevchatyj; drevesnyj;
-       drevesnovoloknistyj (drevesno-voloknistyj); drevesno-gipnovyj;
-       drevesno-dekorativnyj; drevesno-kustarnikovyj
-       (kustarnikovo-drevesnyj); drevesno-massnyj; drevesno-mohovoj;
-       drevesno-opilochnyj; drevesno-osokovyj; drevesno-pekovyj;
-       drevesno-plasticheskij; drevesno-polimernyj; drevesno-rozetochnyj;
-       drevesno-sloistyj; drevesnosmolyanoj (drevesno-smolyanoj,
-       drevesno-smol'nyj); drevesno-spirtovoj; drevesnostruzhechnyj
-       (drevesno-struzhechnyj); drevesno-sfagnovyj; drevesno-travyanoj;
-       drevesno-trostnikovyj; drevesno-ugol'nyj (ugol'no-drevesnyj);
-       drevesno-uksusnyj; drevesno-cementnyj; drevovidnyj; drevoobraznyj
-     * glagoly: derevenet' (derevyanet'; zaderevenet'; oderevenet');
-       derevet'; odrevesnet'
-     * narechiya: vpoldereva; derevyanno
+   Список всех слов с корнем -дерев-/-древ- [править]
+     * имена собственные: Деревяга
+     * фамилии: Деревщиков, Деревянкин, Деревянко, Деревянников,
+       Деревягин, Деревяшкин
+     * пр.  существительные: дерево (негной-дерево; деревце, деревцо);
+       деревей; деревененье; деревеник; деревоизделие (деревообработка;
+       деревопереработка); деревщик (краснодеревщик); деревяга (деревяшка,
+       деревяшечка); деревяница; деревянка; дервяга; древа; древеса;
+       древесина; древо; древко; древесина
+     * прилагательные: деревянный; деревообрабатывающий,
+       деревоперерабатывающий; деревянистый; деревчатый; древесный;
+       древесноволокнистый (древесно-волокнистый); древесно-гипновый;
+       древесно-декоративный; древесно-кустарниковый
+       (кустарниково-древесный); древесно-массный; древесно-моховой;
+       древесно-опилочный; древесно-осоковый; древесно-пековый;
+       древесно-пластический; древесно-полимерный; древесно-розеточный;
+       древесно-слоистый; древесносмоляной (древесно-смоляной,
+       древесно-смольный); древесно-спиртовой; древесностружечный
+       (древесно-стружечный); древесно-сфагновый; древесно-травяной;
+       древесно-тростниковый; древесно-угольный (угольно-древесный);
+       древесно-уксусный; древесно-цементный; древовидный; древообразный
+     * глаголы: деревенеть (деревянеть; задеревенеть; одеревенеть);
+       дереветь; одревеснеть
+     * наречия: вполдерева; деревянно
 
-`Etimologiya
+Этимология
 
-   Proishodit ot praslav. *dervo �derevo�, ot kot. v chisle prochego
-   proizoshli: st.-slav. dry3vo (rod. p. dry3vese i dry3va; dr.-grech.
-   cu%lon, de'ndron), russk., ukr. de'revo, serbohorv. dri``jevo,
-   slovensk. drev�, drevesa, cheshsk. drevo, slovack. drevo, pol'sk.
-   drzewo, v.-luzh. drjewo, n.-luzh. drjowo; voshodit k praindoevr. *derw-
-   �derevo, drova; dub�. Rodstvenno lit. derv� �sosna�, vin. der~va; s
-   drugim vokalizmom: darva �smola�, latyshsk. darva �smola�, anglos. teru
-   �smola�, grech. do'ru �derevo, brus, kop'io�, dr�*s �derevo (rastenie),
-   dub�, dr.-ind. daru, dru- �derevo (material)�, avest. dauru, -dru-
-   �derevo�, irl. derucc �zhiolud'�, gall'sk. dervo -- v mestn. n. Dervus
-   �dubovyj les�. Syuda zhe gotsk. triu, angl. tree �derevo�, hettsk. taru
-   -- to zhe. Ispol'zovany dannye slovarya M. Fasmera. Sm. Spisok
-   literatury.
+   Происходит от праслав. *dervo «дерево», от кот. в числе прочего
+   произошли: ст.-слав. дрѣво (род. п. дрѣвесе и дрѣва; др.-греч. ξύλον,
+   δένδρον), русск., укр. де́рево, сербохорв. дри̏jево, словенск. drevô,
+   drevė̑sa, чешск. dřevo, словацк. drevo, польск. drzewo, в.-луж. drjewo,
+   н.-луж. drjowo; восходит к праиндоевр. *derw- «дерево, дрова; дуб».
+   Родственно лит. dervà «сосна», вин. der̃va; с другим вокализмом: darva
+   «смола», латышск. darva «смола», англос. teru «смола», греч. δόρυ
+   «дерево, брус, копьё», δρῦς «дерево (растение), дуб», др.-инд. dāru,
+   dru- «дерево (материал)», авест. dauru, -dru- «дерево», ирл. derucc
+   «жёлудь», галльск. dervo — в местн. н. Dervus «дубовый лес». Сюда же
+   готск. triu, англ. tree «дерево», хеттск. taru — то же. Использованы
+   данные словаря М. Фасмера. См. Список литературы.
 
-Frazeologizmy i ustojchivye sochetaniya
+Фразеологизмы и устойчивые сочетания
 
-     * afrikanskoe derevo
-          + derevo afrikanskoe
-          + derevo derevom
-          + derevo stoerosovoe
-          + derevo ty stoerosovoe!
-          + zdravstvuj, derevo!
-          + nu ty i derevo!
-          + polnoe derevo
-          + probkovoe derevo
-     * genealogicheskoe derevo
-          + rodoslovnoe derevo
-     * dynnoe derevo
-     * krasnoe derevo
-     * massiv dereva
-     * mebel' iz dereva
-     * natural'noe derevo
-     * ne videt' lesa za derev'yami
-          + za derev'yami lesa ne videt'
-          + ne videt' za derev'yami lesa
-          + iz-za derev'ev lesa ne videt'
-          + ne videt' iz-za derev'ev lesa
-     * plyusovoe derevo
-     * postuchat' po derevu
-     * rangoutnoe derevo
-     * sloistoe derevo
-     * tekovoe derevo
-     * tutovoe derevo
-     * filogeneticheskoe derevo
-     * chajnoe derevo
-     * `ebenovoe derevo
+     * африканское дерево
+          + дерево африканское
+          + дерево деревом
+          + дерево стоеросовое
+          + дерево ты стоеросовое!
+          + здравствуй, дерево!
+          + ну ты и дерево!
+          + полное дерево
+          + пробковое дерево
+     * генеалогическое дерево
+          + родословное дерево
+     * дынное дерево
+     * красное дерево
+     * массив дерева
+     * мебель из дерева
+     * натуральное дерево
+     * не видеть леса за деревьями
+          + за деревьями леса не видеть
+          + не видеть за деревьями леса
+          + из-за деревьев леса не видеть
+          + не видеть из-за деревьев леса
+     * плюсовое дерево
+     * постучать по дереву
+     * рангоутное дерево
+     * слоистое дерево
+     * тековое дерево
+     * тутовое дерево
+     * филогенетическое дерево
+     * чайное дерево
+     * эбеновое дерево
 
-Poslovicy i pogovorki
+Пословицы и поговорки
 
-     * za odin raz dereva ne srubish'
-     * iz-za lesu dereva ne vidat'
-     * i na dereve list na list ne prihoditsya
-     * kuda derevo klonilos', tuda i povalilos'
-          + kuda derevo podrubleno, tuda i valitsya
-     * les po derevu ne plachet
-     * ne otkormit' konya suhoparogo, ne otrastit' dereva suhoverhogo
-     * net takogo dereva, chtob na nego ptica ne sadilas'
-     * odno proklyatoe derevo bez vetra shumit
-     * ot dobrogo dereva dobryj i plod
-     * rubi derevo po sebe
+     * за один раз дерева не срубишь
+     * из-за лесу дерева не видать
+     * и на дереве лист на лист не приходится
+     * куда дерево клонилось, туда и повалилось
+          + куда дерево подрублено, туда и валится
+     * лес по дереву не плачет
+     * не откормить коня сухопарого, не отрастить дерева суховерхого
+     * нет такого дерева, чтоб на него птица не садилась
+     * одно проклятое дерево без ветра шумит
+     * от доброго дерева добрый и плод
+     * руби дерево по себе
 
-Tipichnye sochetaniya
+Типичные сочетания
 
-     * po derevu
-          + rabotat' po derevu -- plotnichat', stolyarnichat'
-          + rabota po derevu -- plotnickaya, stolyarnaya rabota
-          + rez'ba po derevu -- rabota krasnoderevschika (naprimer,
-            inkrustaciya)
-     * topit' derevom -- topit' pech' drovami
+     * по дереву
+          + работать по дереву — плотничать, столярничать
+          + работа по дереву — плотницкая, столярная работа
+          + резьба по дереву — работа краснодеревщика (например,
+            инкрустация)
+     * топить деревом — топить печь дровами
 
-Perevod
+Перевод
 
-   rastenie
-     * Abazinskij[abq]: cla
-     * Abhazskij[ab]: a�la
-     * Avarskij[av]: g"vet
-     * Adygejskij[ady]: ch"ygy
-     * Azerbajdzhanskij[az] (arabsk.): aMi+a+g+
-     * Azerbajdzhanskij[az] (kir.): aa�
-     * Azerbajdzhanskij[az] (lat.): agac
-     * Ajmarskij[ay]: quqa
-     * Ajnskij[ain]: Ni (ni)
-     * Ajnskij[ain] (kana): Ni (ni)
-     * Alabamskij[akz]: itto
-     * Albanskij[sq]: pem�; dru
-     * Altajskij[alt]: agash
-     * Amharskij[am]: zao (zaf)
-     * Anglijskij[en]: tree
-     * Arabskij[ar]: sng+r+tm (sagar�)
-     * Aragonskij[an]: �rbol ; abre
-     * Aramejskij[arc] (iud.): #J+L+N+# ('ilana') m.
-     * Aramejskij[arc] (sir.): �� (ilana)
-     * Armyanskij[hy]: ��� (car.)
-     * Arumynskij[rup]: lemnu; arbore
-     * Assamskij[asm]: �� (br<o>ks-.�); ���� (birik<h>)
-     * Asturijskij[ast]: �rbore
-     * Afarskij[aar]: caxa
-     * Afrikaans[af]: boom
-     * Bavarskij[bar]: Bam
-     * Bambara[bm]: jiri
-     * Baskskij[eu]: zuhaitz
-     * Bashkirskij[ba]: aas
-     * Belorusskij[be]: dr`eva sr.
-     * Beludzhskij[bal]: d+r+tc� (dirack)
-     * Bemba[bem]: icimuti
-     * Bengal'skij[bn]: � (gac<h>), �� (brikkh�)
-     * Birmanskij[my]: �� (thitpin)
-     * Bolgarskij[bg]: d"rvo sr.
-     * Bosnijskij[bs]: drvo sr.
-     * Bretonskij[br]: gwezenn
-     * Bugijskij[bug]: (pong)
-     * Buryatskij[bua]: modon
-     * Vallijskij[cy]: pren
-     * Vallonskij[wa]: �be
-     * Varajskij[war]: puno
-     * Vengerskij[hu]: fa
-     * Venda[ven]: muri
-     * Venetskij[vec]: albaro
-     * Vepsskij[vep]: pu
-     * Verhneluzhickij[hsb]: stom
-     * Volapyuk^i[vo]: bim
-     * Volof[wo]: garab
-     * V'etnamskij[vi]: c�y
-     * Gavajskij[haw]: la;Sau
-     * Gagauzskij[gag]: fidan, aa�
-     * Gaityanskij[ht]: pyebwa
-     * Galisijskij[gl]: �rbore
-     * Genu`ezskij[ze]: �rboo
-     * Gotskij^/-[got]: bagms
-     * Grenlandskij[kl]: orpik
-     * Grecheskij[el]: de'ntro
-     * Gruzinskij[ka]: � (he)
-     * Guarani[gn]: yvyra
-     * Gudzharati[gu]: �� (vr<o>ks-.a)
-     * G`el'skij[gd]: craobh
-     * Darginskij[dar]: galga, (cud. dial) ttultta
-     * Dari[prs]: d+r+x+t+ (darah-(t)
-     * Datskij[da]: tr�
-     * Divehi[dv] (mal'divskij): �� (gas)
-     * Dolganskij[dlg]: mas
-     * Drevneanglijskij^/-[ang]: treow zh., beam m., wudu m.
-     * Drevneverhnenemeckij^/-[goh]: boum
-     * Drevnegrecheskij^/-[grc]: de'ndron
-     * Drevneislandskij^/-[non]: tr�
-     * Drevneprusskij^/-[prg]: garrin
-     * Egipetskij^/-[egy]: sn
-     * Egipetskij arabskij[arz]: sng+r+tm zh. (sagara or sagara)
-     * Zazaki[zza]: dare
-     * Zulu[zu]: isihlahla; umuthi
-     * Ivrit[he]: E+Zj (�et�s)
-     * Igbo[ibo]: osi-.si-.
-     * Idish[yi]: B+W+J+M% (boym) m.
-     * Ido^i[io]: arboro
-     * Inari-saamskij[smn]: muor�
-     * Ingushskij[inh]: hi; ga
-     * Indonezijskij[id]: pohon
-     * Interlingva^i[ia]: arbore
-     * Inuktitut[iu]: napaaqtuq
-     * Inupiak[ik]: napaaqtuq
-     * Irlandskij[ga]: crann
-     * Islandskij[is]: tr�
-     * Ispanskij[es]: �rbol m.
-     * Ital'yanskij[it]: �lbero m.
-     * Itel'menskij[itl]: u'
-     * Joruba[yo]: igi
-     * Kabardino-cherkesskij[kbd]: zhyg
-     * Kabil'skij[kab]: ttejr-.a
-     * Kazahskij[kk] (arabsk.): a+e+a+sn
-     * Kazahskij[kk] (kir.): aash, dara
-     * Kazahskij[kk] (lat.): agas
-     * Kalmyckij[xal]: modn
-     * Kannada[kn]: �� (mara)
-     * Karakalpakskij[kaa]: agash
-     * Karachaevo-balkarskij[krc]: terek
-     * Karel'skij[krl]: puu
-     * Katalanskij[ca]: arbre
-     * Kashubskij[csb]: drz�wi�
-     * Ketskij[ket]: �ks'
-     * Kechua[qu]: sach'a
-     * Kikongo[kg]: nti
-     * Kil'dinskij saamskij[sjd]: m�rr
-     * Kin'yaruanda[rw]: ti
-     * Kirgizskij[ky]: zhygach, (bak-)darak (posazhennoe)
-     * Kitajskij (tradic.): �� (sh�m�), � (sh�), �� (qi�om�)
-     * Kitajskij (uprosch.): � (sh�m�), (sh�), � (qi�om�)
-     * Koltta-saamskij[sms]: mu�rr
-     * Komi-zyryanskij[kom]: pu
-     * Komi-permyackij[koi]: pu; ker
-     * Konkani[kok]: � (ruku)
-     * Koptskij[cop]: � (sen)
-     * Korejskij[ko]: � (namu)
-     * Kornskij[kw]: gwydhenn
-     * Korsikanskij[co]: arburu; alburu
-     * Kosa[xh]: umthi
-     * Kri[cr]: � (mistikw), mistik
-     * Krymskotatarskij[crh]: terek; aga�
-     * Kumykskij[kum]: terek; ag"ach
-     * Kurdskij[ku]: derext; dar; soransk.: d+a+r+ (dar); d+r+x+t+
-       (dirext)
-     * Khmerskij[km]: � (pru"k[s])
-     * Lakskij[lbe]: murh'
-     * Laosskij[lo]: �� (to>'nm�i)
-     * Latinskij[la]: arbor zh.
-     * Latyshskij[lv]: koks
-     * Lezginskij[lez]: tar
-     * Limburgskij[li]: boum
-     * Lingala[ln]: mwete
-     * Litovskij[lt]: medis
-     * Lombardskij[lmo]: alber ; elbor
-     * Lyuksemburgskij[lb]: Baam; Bam
-     * Makedonskij[mk]: drvo
-     * Malagasijskij[mg]: hazo
-     * Malajskij[ms]: pokok
-     * Malayalam[ml]: �� (vr<o>ks-.am-.)
-     * Mal'tijskij[mt]: sigra
-     * Maori[mi]: rakau
-     * Marathi[mr]: �� (wr<o>ksa)
-     * Marijskij[chm]: pu; pushe�ge
-     * Masajskij[mas]: olcani
-     * Mokshanskij[mdf]: shufta
-     * Moldavskij[mo]: kopak; arbore
-     * Mongol'skij[mn]: mod
-     * M`enskij[gv]: billey
-     * Nanajskij[gld]: mo
-     * Nauatl'[nah]: cuahuitl, quahuitl, quauitl
-     * Nauru[na]: imin er� ogoda
-     * Nganasanskij[nio]: huaa
-     * Neapolitano-kalabrijskij[nap]: �varo ; �uro
-     * Nemeckij[de]: Baum m. -(e)s, B�ume
-     * Neneckij[yrk]: pya
-     * Niderlandskij[nl]: boom
-     * Nizhneluzhickij[dsb]: bom
-     * Nizhnesaksonskij[nds]: Boom
-     * Novial'^i[nov]: arbre
-     * Norvezhskij[no]: tre
-     * Odzhibva[oj]: mitig
-     * Oksitanskij[oc]: arbre
-     * Oromo[om]: muka
-     * Osetinskij[os]: ironsk. baelas; digorsk. baelasae
-     * Osmanskij^/-[ota]: aMi+a+g+ (agac)
-     * Pali[pi]: rukkha
-     * Pandzhabi[pa]: � (per-.); �� (rukk)
-     * Pap'yamentu[pap]: palo; palu
-     * Persidskij[fa]: d+r+x+t+ (deraxt, daraxt), d+a+r+ (d�r), sng+r+
-       (sajar)
-     * Pol'skij[pl]: drzewo
-     * Portugal'skij[pt]: �rvore
-     * Pushtu[ps]: w+n+h+ (wan�)
-     * Rapanujskij[rap]: miro
-     * Retoromanskij[rm]: planta
-     * Rumynskij[ro]: copac; arbore
-     * Rutul'skij[rut]: huk
-     * Samoa[sm]: la'au
-     * Sanskrit[sa]: �� (vr<o>iks-.ah-.); �� (vanah-.); ��� (drumah-.)
-     * Sardinskij[sc]: albere, �rbore, �lbore, �lbure (logud.); matta
-       (kamp.); �rvore (unifik.)
-     * Sebuano[ceb]: punuan
-     * Severnosaamskij[se]: muorra
-     * Serbskij[sr] (kir.): drvo sr., stablo sr.
-     * Serbskij[sr] (lat.): drvo sr., stablo sr.
-     * Sefardskij[lad]: #R+B+'W+L+ (arvol), arvole
-     * Silezskij[szl]: strom
-     * Singal'skij[si]: (gasa)
-     * Sindhi[sd]: g+�a+ (j<h>ar-.u); sng+r+ (sajaru); w+� (van-.u)
-     * Sicilijskij[scn]: �rvulu
-     * Slovackij[sk]: strom
-     * Slovenskij[sl]: drevo
-     * Somalijskij[so]: geed
-     * Sranan-tongo[srn]: bon
-     * Staroslavyanskij^/-[cu] (kirillica): dry3vo sr.
-     * Suahili[sw]: mti
-     * Sundanskij[su]: tangkal
-     * Tabasaranskij[tab]: g'ar
-     * Tagal'skij[tl]: punong-kahoy; puno
-     * Tadzhikskij[tg]: daraht, sha�ar
-     * Taityanskij[ty]: tumu ra;Sau
-     * Tajskij[th]: � (t�nm�i)
-     * Talyshskij[tly]: d+w+ (du); d+a+r+ (d�r)
-     * Tamil'skij[ta]: ��� (maram)
-     * Tatarskij[tt] (lat.): aga�
-     * Tatskij[ttt]: dor (D+#oR+)
-     * Telugu[te]: (cet-.t-.u); ��� (manu); ��� (vr<o>ks-.amu)
-     * Tetum[tet]: ai-hun
-     * Tibetskij[bo]: �� (shing)
-     * Tok-pisin[tpi]: diwai
-     * Tokipona^i[art]: kasi, kasi suli
-     * Tofalarskij[kim]: nesh
-     * Tsvana[tn]: setlhare
-     * Tuvinskij[tyv]: yyash
-     * Tureckij[tr]: aga�
-     * Turkmenskij[tk]: aga�, bag
-     * Udmurtskij[udm]: pispu; pu
-     * Uzbekskij[uz]: daraxt
-     * Ujgurskij[ug]: d+r+x+ (derex; drh)
-     * Ukrainskij[uk]: derevo sr.
-     * Urdu[ur]: p+ (per-.)
-     * Farerskij[fo]: tr� sr.
-     * Finskij[fi]: puu
-     * Francuzskij[fr]: arbre m.
-     * Frizskij[fy]: beam
-     * Friul'skij[fur]: arbul
-     * Hakasskij[kjh]: aas
-     * Hausa[ha]: itace
-     * Hindi[hi]: ��� (per-.)
-     * Horvatskij[hr]: drvo
-     * Cyganskij[rom]: dr`evo
-     * CHeroki[chr]: �� (tlugv)
-     * CHechenskij[ce]: ditt
-     * CHeshskij[cs]: strom
-     * CHuvashskij[cv]: jyv�
-     * CHukotskij[ckt]: utuut, uttuut
-     * SHvedskij[sv]: tr�d
-     * SHerpskij[xsr]: �� (don.bu)
-     * SHona[sn]: muti
-     * SHorskij[cjs]: aash
-     * SHotlandskij[sco]: tree
-     * `Evenkijskij[evn]: mo
-     * `Evenskij[eve]: mo; hekita
-     * `Erzyanskij[myv]: chuvto
-     * `Esperanto^i[eo]: arbo
-     * `Estonskij[et]: puu
-     * YUkatekskij[yua]: che'
-     * YAvanskij[jv]: wit
-     * YAkutskij[sah]: mas
-     * YAponskij[ja]: � (ki; ki), �� (jumoku), � (tachiki)
+   растение
+     * Абазинский[abq]: цӀла
+     * Абхазский[ab]: аҵла
+     * Аварский[av]: гъветӀ
+     * Адыгейский[ady]: чъыгы
+     * Азербайджанский[az] (арабск.): آغاج
+     * Азербайджанский[az] (кир.): ағаҹ
+     * Азербайджанский[az] (лат.): ağac
+     * Аймарский[ay]: quqa
+     * Айнский[ain]: ニ (ni)
+     * Айнский[ain] (кана): ニ (ni)
+     * Алабамский[akz]: itto
+     * Албанский[sq]: pemë; dru
+     * Алтайский[alt]: агаш
+     * Амхарский[am]: ዛፍ (zaf)
+     * Английский[en]: tree
+     * Арабский[ar]: شجرة (šaǧarâ)
+     * Арагонский[an]: árbol ; abre
+     * Арамейский[arc] (иуд.): אילנא (’īlānā’) м.
+     * Арамейский[arc] (сир.): ܐܝܠܢܐ (īlanā)
+     * Армянский[hy]: ծառ (caṙ)
+     * Арумынский[rup]: lemnu; arbore
+     * Ассамский[asm]: বৃক্ষ (br̥kṣô); বিৰিখ (birikʰ)
+     * Астурийский[ast]: árbore
+     * Афарский[aar]: caxa
+     * Африкаанс[af]: boom
+     * Баварский[bar]: Bam
+     * Бамбара[bm]: jiri
+     * Баскский[eu]: zuhaitz
+     * Башкирский[ba]: ағас
+     * Белорусский[be]: дрэва ср.
+     * Белуджский[bal]: درچک (dirack)
+     * Бемба[bem]: icimuti
+     * Бенгальский[bn]: গাছ (gāčʰ), বৃক্ষ (brikkhô)
+     * Бирманский[my]: သစ်ပင် (thitpin)
+     * Болгарский[bg]: дърво ср.
+     * Боснийский[bs]: drvo ср.
+     * Бретонский[br]: gwezenn
+     * Бугийский[bug]: ᨄᨚᨂ (pong)
+     * Бурятский[bua]: модон
+     * Валлийский[cy]: pren
+     * Валлонский[wa]: åbe
+     * Варайский[war]: puno
+     * Венгерский[hu]: fa
+     * Венда[ven]: muri
+     * Венетский[vec]: albaro
+     * Вепсский[vep]: pu
+     * Верхнелужицкий[hsb]: štom
+     * Волапюк^и[vo]: bim
+     * Волоф[wo]: garab
+     * Вьетнамский[vi]: cây
+     * Гавайский[haw]: lāʻau
+     * Гагаузский[gag]: fidan, aaç
+     * Гаитянский[ht]: pyebwa
+     * Галисийский[gl]: árbore
+     * Генуэзский[ze]: ærboo
+     * Готский^†[got]: bagms
+     * Гренландский[kl]: orpik
+     * Греческий[el]: δέντρο
+     * Грузинский[ka]: ხე (ĥe)
+     * Гуарани[gn]: yvyra
+     * Гуджарати[gu]: વૃક્ષ (vr̥kṣa)
+     * Гэльский[gd]: craobh
+     * Даргинский[dar]: галга, (цуд. диал) ттултта
+     * Дари[prs]: درخت (daraḫt)
+     * Датский[da]: træ
+     * Дивехи[dv] (мальдивский): ގަސް (gas)
+     * Долганский[dlg]: мас
+     * Древнеанглийский^†[ang]: trēow ж., bēam м., wudu м.
+     * Древневерхненемецкий^†[goh]: boum
+     * Древнегреческий^†[grc]: δένδρον
+     * Древнеисландский^†[non]: tré
+     * Древнепрусский^†[prg]: garrin
+     * Египетский^†[egy]: šn
+     * Египетский арабский[arz]: شجرة ж. (šagara or sagara)
+     * Зазаки[zza]: dare
+     * Зулу[zu]: isihlahla; umuthi
+     * Иврит[he]: עץ (ʿet͡s)
+     * Игбо[ibo]: osịsị
+     * Идиш[yi]: בוים (boym) м.
+     * Идо^и[io]: arboro
+     * Инари-саамский[smn]: muorâ
+     * Ингушский[inh]: хи; га
+     * Индонезийский[id]: pohon
+     * Интерлингва^и[ia]: arbore
+     * Инуктитут[iu]: napaaqtuq
+     * Инупиак[ik]: napaaqtuq
+     * Ирландский[ga]: crann
+     * Исландский[is]: tré
+     * Испанский[es]: árbol м.
+     * Итальянский[it]: àlbero м.
+     * Ительменский[itl]: у'
+     * Йоруба[yo]: igi
+     * Кабардино-черкесский[kbd]: жыг
+     * Кабильский[kab]: ttejṛa
+     * Казахский[kk] (арабск.): اعاش
+     * Казахский[kk] (кир.): ағаш, дарақ
+     * Казахский[kk] (лат.): ağaş
+     * Калмыцкий[xal]: модн
+     * Каннада[kn]: ಮರ (mara)
+     * Каракалпакский[kaa]: aǵash
+     * Карачаево-балкарский[krc]: терек
+     * Карельский[krl]: puu
+     * Каталанский[ca]: arbre
+     * Кашубский[csb]: drzéwiã
+     * Кетский[ket]: өксь
+     * Кечуа[qu]: sach’a
+     * Киконго[kg]: nti
+     * Кильдинский саамский[sjd]: мӯрр
+     * Киньяруанда[rw]: ti
+     * Киргизский[ky]: жыгач, (бак-)дарак (посаженное)
+     * Китайский (традиц.): 樹木 (shùmù), 樹 (shù), 喬木 (qiáomù)
+     * Китайский (упрощ.): 树木 (shùmù), 树 (shù), 乔木 (qiáomù)
+     * Колтта-саамский[sms]: muõrr
+     * Коми-зырянский[kom]: пу
+     * Коми-пермяцкий[koi]: пу; кер
+     * Конкани[kok]: रूकु (rūku)
+     * Коптский[cop]: ϣⲏⲛ (šēn)
+     * Корейский[ko]: 나무 (namu)
+     * Корнский[kw]: gwydhenn
+     * Корсиканский[co]: arburu; alburu
+     * Коса[xh]: umthi
+     * Кри[cr]: ᒥᔅᑎᒄ (mistikw), mistik
+     * Крымскотатарский[crh]: terek; ağaç
+     * Кумыкский[kum]: терек; агъач
+     * Курдский[ku]: derext; dar; соранск.: دار (dar); درەخت (dirext)
+     * Кхмерский[km]: ព្រឹក្ស (prʉk[s])
+     * Лакский[lbe]: мурхь
+     * Лаосский[lo]: ຕົ້ນໄມ້ (tốnmái)
+     * Латинский[la]: arbor ж.
+     * Латышский[lv]: koks
+     * Лезгинский[lez]: тар
+     * Лимбургский[li]: boum
+     * Лингала[ln]: mwete
+     * Литовский[lt]: medis
+     * Ломбардский[lmo]: alber ; elbor
+     * Люксембургский[lb]: Baam; Bam
+     * Македонский[mk]: дрво
+     * Малагасийский[mg]: hazo
+     * Малайский[ms]: pokok
+     * Малаялам[ml]: വൃക്ഷം (vr̥kṣaṃ)
+     * Мальтийский[mt]: siġra
+     * Маори[mi]: rākau
+     * Маратхи[mr]: वृक्ष (wr̥kša)
+     * Марийский[chm]: пу; пушеҥге
+     * Масайский[mas]: olcani
+     * Мокшанский[mdf]: шуфта
+     * Молдавский[mo]: копак; арборе
+     * Монгольский[mn]: мод
+     * Мэнский[gv]: billey
+     * Нанайский[gld]: мо
+     * Науатль[nah]: cuahuitl, quahuitl, quauitl
+     * Науру[na]: imin erò ogoda
+     * Нганасанский[nio]: хуаа
+     * Неаполитано-калабрийский[nap]: àvaro ; àuro
+     * Немецкий[de]: Baum м. -(e)s, Bäume
+     * Ненецкий[yrk]: пя
+     * Нидерландский[nl]: boom
+     * Нижнелужицкий[dsb]: bom
+     * Нижнесаксонский[nds]: Boom
+     * Новиаль^и[nov]: arbre
+     * Норвежский[no]: tre
+     * Оджибва[oj]: mitig
+     * Окситанский[oc]: arbre
+     * Оромо[om]: muka
+     * Осетинский[os]: иронск. бӕлас; дигорск. бӕласӕ
+     * Османский^†[ota]: آغاج (ağac)
+     * Пали[pi]: rukkha
+     * Панджаби[pa]: ਪੇੜ (peṛ); ਰੁੱਖ (rukk)
+     * Папьяменту[pap]: palo; palu
+     * Персидский[fa]: درخت (deraxt, daraxt), دار (dâr), شجر (šajar)
+     * Польский[pl]: drzewo
+     * Португальский[pt]: árvore
+     * Пушту[ps]: ونه (wanâ)
+     * Рапануйский[rap]: miro
+     * Ретороманский[rm]: planta
+     * Румынский[ro]: copac; arbore
+     * Рутульский[rut]: хук
+     * Самоа[sm]: lā’au
+     * Санскрит[sa]: वृक्षः (vr̥ikṣaḥ); वनः (vanaḥ); द्रुमः (drumaḥ)
+     * Сардинский[sc]: albere, àrbore, àlbore, àlbure (логуд.); matta
+       (камп.); àrvore (унифик.)
+     * Себуано[ceb]: punuan
+     * Северносаамский[se]: muorra
+     * Сербский[sr] (кир.): дрво ср., стабло ср.
+     * Сербский[sr] (лат.): drvo ср., stablo ср.
+     * Сефардский[lad]: ארב'ול (arvol), arvole
+     * Силезский[szl]: strom
+     * Сингальский[si]: ගස (gasa)
+     * Синдхи[sd]: جھاڙ (jʰāṛu); شجر (šajaru); وڻ (vaṇu)
+     * Сицилийский[scn]: àrvulu
+     * Словацкий[sk]: strom
+     * Словенский[sl]: drevo
+     * Сомалийский[so]: geed
+     * Сранан-тонго[srn]: bon
+     * Старославянский^†[cu] (кириллица): дрѣво ср.
+     * Суахили[sw]: mti
+     * Сунданский[su]: tangkal
+     * Табасаранский[tab]: гьар
+     * Тагальский[tl]: punong-kahoy; puno
+     * Таджикский[tg]: дарахт, шаҷар
+     * Таитянский[ty]: tumu rāʻau
+     * Тайский[th]: ต้นไม้ (tónmái)
+     * Талышский[tly]: دو (du); دار (dâr)
+     * Тамильский[ta]: மரம் (maram)
+     * Татарский[tt] (лат.): ağaç
+     * Татский[ttt]: дор (דאָר)
+     * Телугу[te]: చెట్టు (čeṭṭu); మాను (mānu); వృక్షము (vr̥kṣamu)
+     * Тетум[tet]: ai-hun
+     * Тибетский[bo]: ཤིང (shing)
+     * Ток-писин[tpi]: diwai
+     * Токипона^и[art]: kasi, kasi suli
+     * Тофаларский[kim]: неш
+     * Тсвана[tn]: setlhare
+     * Тувинский[tyv]: ыяш
+     * Турецкий[tr]: ağaç
+     * Туркменский[tk]: agaç, bag
+     * Удмуртский[udm]: писпу; пу
+     * Узбекский[uz]: daraxt
+     * Уйгурский[ug]: دەرەخ (derex; дәрәх)
+     * Украинский[uk]: дерево ср.
+     * Урду[ur]: پیڑ (peṛ)
+     * Фарерский[fo]: træ ср.
+     * Финский[fi]: puu
+     * Французский[fr]: arbre м.
+     * Фризский[fy]: beam
+     * Фриульский[fur]: arbul
+     * Хакасский[kjh]: ағас
+     * Хауса[ha]: itace
+     * Хинди[hi]: पेड़ (peṛ)
+     * Хорватский[hr]: drvo
+     * Цыганский[rom]: дрэво
+     * Чероки[chr]: ᏡᎬ (tlugv)
+     * Чеченский[ce]: дитт
+     * Чешский[cs]: strom
+     * Чувашский[cv]: йывӑҫ
+     * Чукотский[ckt]: утуут, уттуут
+     * Шведский[sv]: träd
+     * Шерпский[xsr]: दोङबु (doṅbu)
+     * Шона[sn]: muti
+     * Шорский[cjs]: ағаш
+     * Шотландский[sco]: tree
+     * Эвенкийский[evn]: мо
+     * Эвенский[eve]: мо; хекита
+     * Эрзянский[myv]: чувто
+     * Эсперанто^и[eo]: arbo
+     * Эстонский[et]: puu
+     * Юкатекский[yua]: che’
+     * Яванский[jv]: wit
+     * Якутский[sah]: мас
+     * Японский[ja]: 木 (き; ki), 樹木 (jumoku), 立木 (tachiki)
 
-   material
-     * Albanskij[sq]: dru
-     * Anglijskij[en]: wood
-     * Armyanskij[hy]: ���
-     * Afrikaans[af]: hout
-     * Bashkirskij[ba]: aas
-     * Bolgarskij[bg]: d"rva
-     * Vengerskij[hu]: fa, faanyag
-     * V'etnamskij[vi]: cu2i
-     * Grecheskij[el]: culei'a
-     * Darginskij[dar]: urculi
-     * Datskij[da]: tr�
-     * Indonezijskij[id]: kahu
-     * Islandskij[is]: vi�ur
-     * Ispanskij[es]: madera
-     * Ital'yanskij[it]: legno
-     * Kazahskij[kk]: aash
-     * Latinskij[la]: materia
-     * Latyshskij[lv]: koks
-     * Litovskij[lt]: medis
-     * Malagasijskij[mg]: hazo
-     * Nauatl'[nah]: cuahuitl
-     * Nemeckij[de]: Holz sr.
-     * Niderlandskij[nl]: hout
-     * Norvezhskij[no]: tre, trevirke
-     * Pol'skij[pl]: drzewo, drewno
-     * Portugal'skij[pt]: madeira
-     * Rumynskij[ro]: lemn
-     * Suahili[sw]: mbao
-     * Tadzhikskij[tg]: ch�b
-     * Tatarskij[tt]: agach
-     * Tureckij[tr]: aga�
-     * Ukrainskij[uk]: derevo
-     * Finskij[fi]: puu
-     * Francuzskij[fr]: bois m.
-     * CHeshskij[cs]: drevo
-     * SHvedskij[sv]: tr�
-     * `Esperanto^i[eo]: ligno
-     * `Estonskij[et]: puu
-     * YAponskij[ja]: � (mokuzai), � (zaimoku), � (yozai), � (ki)
+   материал
+     * Албанский[sq]: dru
+     * Английский[en]: wood
+     * Армянский[hy]: փայտ
+     * Африкаанс[af]: hout
+     * Башкирский[ba]: ағас
+     * Болгарский[bg]: дърва
+     * Венгерский[hu]: fa, faanyag
+     * Вьетнамский[vi]: củi
+     * Греческий[el]: ξυλεία
+     * Даргинский[dar]: урцули
+     * Датский[da]: træ
+     * Индонезийский[id]: kahu
+     * Исландский[is]: viður
+     * Испанский[es]: madera
+     * Итальянский[it]: legno
+     * Казахский[kk]: ағаш
+     * Латинский[la]: materia
+     * Латышский[lv]: koks
+     * Литовский[lt]: medis
+     * Малагасийский[mg]: hazo
+     * Науатль[nah]: cuahuitl
+     * Немецкий[de]: Holz ср.
+     * Нидерландский[nl]: hout
+     * Норвежский[no]: tre, trevirke
+     * Польский[pl]: drzewo, drewno
+     * Португальский[pt]: madeira
+     * Румынский[ro]: lemn
+     * Суахили[sw]: mbao
+     * Таджикский[tg]: чӯб
+     * Татарский[tt]: агач
+     * Турецкий[tr]: ağaç
+     * Украинский[uk]: дерево
+     * Финский[fi]: puu
+     * Французский[fr]: bois м.
+     * Чешский[cs]: dřevo
+     * Шведский[sv]: trä
+     * Эсперанто^и[eo]: ligno
+     * Эстонский[et]: puu
+     * Японский[ja]: 木材 (mokuzai), 材木 (zaimoku), 用材 (yōzai), 木 (ki)
 
-   faktura, harakternaya dlya dereva
-     * YAponskij[ja]: �� (kiji)
+   фактура, характерная для дерева
+     * Японский[ja]: 木地 (kiji)
 
-   rangout, rangoutnoe derevo, derevyannye izdeliya i predmety parusnogo
-   vooruzheniya korablej
-     * YAponskij[ja]: (�) (enzai)
+   рангоут, рангоутное дерево, деревянные изделия и предметы парусного
+   вооружения кораблей
+     * Японский[ja]: (海事) 円材 (enzai)
 
-   ob"ekt, struktura kotorogo imeet formu dereva, a takzhe sama takaya
-   struktura
-     * YAponskij[ja]: �� (kikozo)
+   объект, структура которого имеет форму дерева, а также сама такая
+   структура
+     * Японский[ja]: 木構造 (kikōzō)
 
-   svyaznyj neorientirovannyj graf, ne soderzhaschij ciklov
-     * YAponskij[ja]: (��) � (ki)
+   связный неориентированный граф, не содержащий циклов
+     * Японский[ja]: (数学) 木 (ki)
 
-   beschuvstvennyj, neblagodarnyj chelovek; glupyj, medlenno
-   soobrazhayuschij, tupoj, maloobrazovannyj ili neobrazovannyj chelovek
-     * YAponskij[ja]: ��no (dekunobo), ��no�� (udonotaiboku)
+   бесчувственный, неблагодарный человек; глупый, медленно соображающий,
+   тупой, малообразованный или необразованный человек
+     * Японский[ja]: 木偶の坊 (dekunobō), 独活の大木 (udonotaiboku)
 
-Bibliografiya
+Библиография
 
      *
 
-Ukrainskij
+Украинский
 
-Morfologicheskie i sintaksicheskie svojstva
+Морфологические и синтаксические свойства
 
-   padezh ed. ch.   mn. ch.
-   Im.    de'revo  dere'va
-   R.     de'reva  dere'v
-   D.     de'revu  dere'vam
-   V.     de'revo  dere'va
-   Tv.    de'revom dere'vami
-   M.     de'revii dere'vah
-   Zv.    de'revo* dere'va*
+   падеж  ед. ч.   мн. ч.
+   Им.   де́рево  дере́ва
+   Р.    де́рева  дере́в
+   Д.    де́реву  дере́вам
+   В.    де́рево  дере́ва
+   Тв.   де́ревом дере́вами
+   М.    де́реві  дере́вах
+   Зв.   де́рево* дере́ва*
 
-   de'-re-vo
+   де́-ре-во
 
-   Suschestvitel'noe, neodushevlionnoe, srednij rod, 2-e sklonenie (tip
-   skloneniya po klassifikacii A. Zaliznyaka -- 1^a).
+   Существительное, неодушевлённое, средний род, 2-е склонение (тип
+   склонения по классификации А. Зализняка — 1^a).
 
-   Koren': --.
+   Корень: --.
 
-Proiznoshenie
+Произношение
 
-     * MFA: [|d[E.rE.wO]
+     * МФА: [ˈd̪ɛ.rɛ̝.wɔ]
 
-Semanticheskie svojstva
+Семантические свойства
 
-Znachenie
+Значение
 
-    1. derevo (analogichno russkomu slovu) Db Otsutstvuet primer
-       upotrebleniya (sm. rekomendacii).
+    1. дерево (аналогично русскому слову) ◆ Отсутствует пример
+       употребления (см. рекомендации).
     2.
 
-Sinonimy
+Синонимы
 
     1. ?
     2.
 
-Antonimy
+Антонимы
 
-    1. --
+    1. —
     2.
 
-Giperonimy
+Гиперонимы
 
     1. ?
     2.
 
-Giponimy
+Гипонимы
 
     1. ?
     2.
 
-Rodstvennye slova
+Родственные слова
 
-   Blizhajshee rodstvo
+   Ближайшее родство
 
-`Etimologiya
+Этимология
 
-   Proishodit ot praslav. *dervo �derevo�, ot kot. v chisle prochego
-   proizoshli: st.-slav. dry3vo (rod. p. dry3vese i dry3va; dr.-grech.
-   cu%lon, de'ndron), russk., ukr. de'revo, serbohorv. dri``jevo,
-   slovensk. drev�, drevesa, cheshsk. drevo, slovack. drevo, pol'sk.
-   drzewo, v.-luzh. drjewo, n.-luzh. drjowo; voshodit k praindoevr. *derw-
-   �derevo, drova; dub�. Rodstvenno lit. derv� �sosna�, vin. der~va; s
-   drugim vokalizmom: darva �smola�, latyshsk. darva �smola�, anglos. teru
-   �smola�, grech. do'ru �derevo, brus, kop'io�, dr�*s �derevo (rastenie),
-   dub�, dr.-ind. daru, dru- �derevo (material)�, avest. dauru, -dru-
-   �derevo�, irl. derucc �zhiolud'�, gall'sk. dervo -- v mestn. n. Dervus
-   �dubovyj les�. Syuda zhe gotsk. triu, angl. tree �derevo�, hettsk. taru
-   -- to zhe. Ispol'zovany dannye slovarya M. Fasmera. Sm. Spisok
-   literatury.
+   Происходит от праслав. *dervo «дерево», от кот. в числе прочего
+   произошли: ст.-слав. дрѣво (род. п. дрѣвесе и дрѣва; др.-греч. ξύλον,
+   δένδρον), русск., укр. де́рево, сербохорв. дри̏jево, словенск. drevô,
+   drevė̑sa, чешск. dřevo, словацк. drevo, польск. drzewo, в.-луж. drjewo,
+   н.-луж. drjowo; восходит к праиндоевр. *derw- «дерево, дрова; дуб».
+   Родственно лит. dervà «сосна», вин. der̃va; с другим вокализмом: darva
+   «смола», латышск. darva «смола», англос. teru «смола», греч. δόρυ
+   «дерево, брус, копьё», δρῦς «дерево (растение), дуб», др.-инд. dāru,
+   dru- «дерево (материал)», авест. dauru, -dru- «дерево», ирл. derucc
+   «жёлудь», галльск. dervo — в местн. н. Dervus «дубовый лес». Сюда же
+   готск. triu, англ. tree «дерево», хеттск. taru — то же. Использованы
+   данные словаря М. Фасмера. См. Список литературы.
 
-Frazeologizmy i ustojchivye sochetaniya
-
-     *
-
-Bibliografiya
+Фразеологизмы и устойчивые сочетания
 
      *
 
-   [30px-Interrobang.svg.png] Dlya uluchsheniya `etoj stat'i zhelatel'no:
-     * Dobavit' opisanie morfemnogo sostava s pomosch'yu {{morfo}}
-     * Dobavit' primer slovoupotrebleniya dlya znacheniya s pomosch'yu
-       {{primer}}
+Библиография
 
-   Istochnik --
-   https://ru.wiktionary.org/w/index.php?title=derevo&oldid=13143858
-   Kategorii:
-     * Slova iz spiska Svodesha/ru
-     * Russkij yazyk
-     * Russkie leksemy
-     * Russkie suschestvitel'nye
-     * Neodushevlionnye/ru
-     * Srednij rod/ru
-     * Russkie suschestvitel'nye, sklonenie 1a^
-     * Russkie slova, tip morfemnogo stroeniya R-f
-     * Botanicheskie terminy/ru
-     * Citaty/CHarskaya L. A.
-     * Citaty/Belyj A.
-     * Citaty/Leonov L. M.
-     * Citaty/Astaf'ev V. P.
-     * Vyrazheniya s perenosnym znacheniem/ru
-     * Citaty/Novikov-Priboj A. S.
-     * Citaty/Pasternak B. L.
-     * Citaty/Kozakov M. M.
-     * Citaty/Arhangel'skij A. N.
-     * Morskie terminy/ru
-     * Matematicheskie terminy/ru
-     * Komp'yuternye terminy/ru
-     * Razgovornye vyrazheniya/ru
-     * Citaty/Krestovskij V. V.
-     * Citaty/Leskov N. S.
-     * Derev'ya/ru
-     * Derevo/ru
-     * Struktury dannyh/ru
-     * Otricatel'nye ocenki/ru
-     * Teoriya grafov/ru
-     * Slova iz 6 bukv/ru
-     * Ukrainskij yazyk
-     * Ukrainskie suschestvitel'nye
-     * Neodushevlionnye/uk
-     * Srednij rod/uk
-     * Ukrainskie suschestvitel'nye, sklonenie 1^a
-     * Nuzhny svedeniya o morfologii/uk
-     * Derev'ya/uk
-     * Derevo/uk
-     * Slova iz 6 bukv/uk
-     * Vikislovar':Stat'i s mezh"yazykovoj omonimiej/2
+     *
 
-   Skrytye kategorii:
-     * Stat'i so ssylkami na Vikipediyu/ru
-     * Stat'i so ssylkami na Vikisklad
-     * Stat'i so zvuchaschimi primerami proiznosheniya/ru
-     * Stat'i s illyustraciyami
-     * Net svedenij o sostave slova
-     * Nuzhna illyustraciya
-     * Stat'i bez primerov upotrebleniya
-     * Stat'i, nuzhdayuschiesya v dorabotke/uk
-     * Nuzhny svedeniya o semantike/uk
+   [30px-Interrobang.svg.png] Для улучшения этой статьи желательно:
+     * Добавить описание морфемного состава с помощью {{морфо}}
+     * Добавить пример словоупотребления для значения с помощью {{пример}}
 
-Navigaciya
+   Источник —
+   https://ru.wiktionary.org/w/index.php?title=дерево&oldid=13143858
+   Категории:
+     * Слова из списка Сводеша/ru
+     * Русский язык
+     * Русские лексемы
+     * Русские существительные
+     * Неодушевлённые/ru
+     * Средний род/ru
+     * Русские существительные, склонение 1a^
+     * Русские слова, тип морфемного строения R-f
+     * Ботанические термины/ru
+     * Цитаты/Чарская Л. А.
+     * Цитаты/Белый А.
+     * Цитаты/Леонов Л. М.
+     * Цитаты/Астафьев В. П.
+     * Выражения с переносным значением/ru
+     * Цитаты/Новиков-Прибой А. С.
+     * Цитаты/Пастернак Б. Л.
+     * Цитаты/Козаков М. М.
+     * Цитаты/Архангельский А. Н.
+     * Морские термины/ru
+     * Математические термины/ru
+     * Компьютерные термины/ru
+     * Разговорные выражения/ru
+     * Цитаты/Крестовский В. В.
+     * Цитаты/Лесков Н. С.
+     * Деревья/ru
+     * Дерево/ru
+     * Структуры данных/ru
+     * Отрицательные оценки/ru
+     * Теория графов/ru
+     * Слова из 6 букв/ru
+     * Украинский язык
+     * Украинские существительные
+     * Неодушевлённые/uk
+     * Средний род/uk
+     * Украинские существительные, склонение 1^a
+     * Нужны сведения о морфологии/uk
+     * Деревья/uk
+     * Дерево/uk
+     * Слова из 6 букв/uk
+     * Викисловарь:Статьи с межъязыковой омонимией/2
 
-Personal'nye instrumenty
+   Скрытые категории:
+     * Статьи со ссылками на Википедию/ru
+     * Статьи со ссылками на Викисклад
+     * Статьи со звучащими примерами произношения/ru
+     * Статьи с иллюстрациями
+     * Нет сведений о составе слова
+     * Нужна иллюстрация
+     * Статьи без примеров употребления
+     * Статьи, нуждающиеся в доработке/uk
+     * Нужны сведения о семантике/uk
 
-     * Vy ne predstavilis' sisteme
-     * Obsuzhdenie
-     * Vklad
-     * Sozdat' uchiotnuyu zapis'
-     * Vojti
+Навигация
 
-Prostranstva imion
+Персональные инструменты
 
-     * Stat'ya
-     * Obsuzhdenie
+     * Вы не представились системе
+     * Обсуждение
+     * Вклад
+     * Создать учётную запись
+     * Войти
 
-   [ ] russkij
+Пространства имён
 
-Prosmotry
+     * Статья
+     * Обсуждение
 
-     * CHitat'
-     * Prosmotr koda
-     * Istoriya
+   [ ] русский
 
-   [ ] Eschio
+Просмотры
 
-Poisk
+     * Читать
+     * Просмотр кода
+     * История
 
-   ____________________ Najti Perejti
+   [ ] Ещё
 
-Navigaciya
+Поиск
 
-     * Zaglavnaya stranica
-     * Polnyj indeks
-     * Kategorii
-     * Novye stranicy
-     * Svezhie pravki
-     * Sluchajnaya stranica
-     * Statistika
-     * Spravka
-     * Soobschit' ob oshibke
+   ____________________ Найти Перейти
 
-Soobschestvo
+Навигация
 
-     * Forum
-     * Tekuschie sobytiya
-     * Pozhertvovat'
+     * Заглавная страница
+     * Полный индекс
+     * Категории
+     * Новые страницы
+     * Свежие правки
+     * Случайная страница
+     * Статистика
+     * Справка
+     * Сообщить об ошибке
 
-Instrumenty
+Сообщество
 
-     * Ssylki syuda
-     * Svyazannye pravki
-     * Sluzhebnye stranicy
-     * Postoyannaya ssylka
-     * Svedeniya o stranice
-     * Citirovat' stranicu
-     * Poluchit' sokraschionnyj URL-adres
+     * Форум
+     * Текущие события
+     * Пожертвовать
 
-Pechat'/`eksport
+Инструменты
 
-     * Sozdat' knigu
-     * Skachat' kak PDF
-     * Versiya dlya pechati
+     * Ссылки сюда
+     * Связанные правки
+     * Служебные страницы
+     * Постоянная ссылка
+     * Сведения о странице
+     * Цитировать страницу
+     * Получить сокращённый URL-адрес
 
-Na drugih yazykah
+Печать/экспорт
+
+     * Создать книгу
+     * Скачать как PDF
+     * Версия для печати
+
+На других языках
 
      * Afrikaans
-     * a+l+e+r+b+y+tm
-     * Az@rbaycanca
-     * Cestina
+     * العربية
+     * Azərbaycanca
+     * Čeština
      * Deutsch
-     * Ellynika'
+     * Ελληνικά
      * English
      * Esperanto
      * Eesti
      * Euskara
-     * f+a+r+s+
+     * فارسی
      * Suomi
      * Na Vosa Vakaviti
-     * Fran�ais
+     * Français
      * Magyar
-     * �����
+     * Հայերեն
      * Ido
-     * �slenska
-     * ��
-     * ���
-     * ��
-     * Kurd�
+     * Íslenska
+     * 日本語
+     * ಕನ್ನಡ
+     * 한국어
+     * Kurdî
      * Limburgs
-     * ���
-     * Lietuviu
+     * ລາວ
+     * Lietuvių
      * Malagasy
-     * Makedonski
+     * Македонски
      * Nederlands
      * Occitan
      * Polski
-     * p+t+w+
-     * Portugu�s
-     * Rom�na
-     * �
-     * Slovencina
-     * Slovenscina
+     * پښتو
+     * Português
+     * Română
+     * සිංහල
+     * Slovenčina
+     * Slovenščina
      * Shqip
-     * Srpski / srpski
+     * Српски / srpski
      * Svenska
-     * To�ik�
-     * �
+     * Тоҷикӣ
+     * ไทย
      * Tagalog
-     * T�rk�e
-     * Ukrayins'ka
-     * O;Szbekcha / v%zbekcha
-     * Tie>'ng Vie>-.t
-     * �
+     * Türkçe
+     * Українська
+     * Oʻzbekcha / ўзбекча
+     * Tiếng Việt
+     * 中文
 
-     * `Eta stranica v poslednij raz byla otredaktirovana 20 sentyabrya
-       2023 v 09:01.
-     * Tekst dostupen po licenzii Creative Commons Attribution-ShareAlike,
-       v otdel'nyh sluchayah mogut dejstvovat' dopolnitel'nye usloviya.
-       Podrobnee sm. Usloviya ispol'zovaniya.
+     * Эта страница в последний раз была отредактирована 20 сентября 2023
+       в 09:01.
+     * Текст доступен по лицензии Creative Commons Attribution-ShareAlike,
+       в отдельных случаях могут действовать дополнительные условия.
+       Подробнее см. Условия использования.
 
-     * Politika konfidencial'nosti
-     * Opisanie Vikislovarya
-     * Otkaz ot otvetstvennosti
-     * Kodeks povedeniya
-     * Razrabotchiki
-     * Statistika
-     * Zayavlenie o kuki
-     * Mobil'naya versiya
+     * Политика конфиденциальности
+     * Описание Викисловаря
+     * Отказ от ответственности
+     * Кодекс поведения
+     * Разработчики
+     * Статистика
+     * Заявление о куки
+     * Мобильная версия
 
      * Wikimedia Foundation
      * Powered by MediaWiki

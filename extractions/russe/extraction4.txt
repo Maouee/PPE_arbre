@@ -1,678 +1,653 @@
-   #alternate Pravit' Vikipediya (ru) Vikipediya -- Atom-lenta
+   #alternate Править Википедия (ru) Википедия — Atom-лента
 
-Derevo (v iskusstve)
+Дерево (в искусстве)
 
-   Material iz Vikipedii -- svobodnoj `enciklopedii
-   Perejti k navigacii Perejti k poisku
+   Материал из Википедии — свободной энциклопедии
+   Перейти к навигации Перейти к поиску
 
-   Derevo -- odin iz drevnejshih materialov, primenyaemyh v arhitekture,
-   skul'pture, dekorativno-prikladnom iskusstve, kak osnova dlya zhivopisi
-   i izgotovleniya pechatnyh form dlya tirazhirovaniya grafiki
-   (ksilografiya), dekorirovaniya tkanej (doski dlya nabojki),
-   izgotovleniya konditerskih izdelij (formy dlya pechatnyh pryanikov).
+   Дерево — один из древнейших материалов, применяемых в архитектуре,
+   скульптуре, декоративно-прикладном искусстве, как основа для живописи и
+   изготовления печатных форм для тиражирования графики (ксилография),
+   декорирования тканей (доски для набойки), изготовления кондитерских
+   изделий (формы для печатных пряников).
    [ ]
 
-Soderzhanie
+Содержание
 
-     * 1 Arhitektura
-          + 1.1 Drevnyaya Greciya. Arhitektura Arhaiki
-          + 1.2 Drevnyaya Rus'
-          + 1.3 Britaniya i Skandinaviya
-     * 2 Izobrazitel'noe iskusstvo
-          + 2.1 Skul'ptura
-          + 2.2 ZHivopis'
-          + 2.3 Grafika
-     * 3 Dekorativnoe, prikladnoe, dekorativno-prikladnoe iskusstvo
-          + 3.1 Pryanichnye doski
-     * 4 Primechaniya
-     * 5 Literatura
+     * 1 Архитектура
+          + 1.1 Древняя Греция. Архитектура Архаики
+          + 1.2 Древняя Русь
+          + 1.3 Британия и Скандинавия
+     * 2 Изобразительное искусство
+          + 2.1 Скульптура
+          + 2.2 Живопись
+          + 2.3 Графика
+     * 3 Декоративное, прикладное, декоративно-прикладное искусство
+          + 3.1 Пряничные доски
+     * 4 Примечания
+     * 5 Литература
 
-Arhitektura[pravit' | pravit' kod]
+Архитектура[править | править код]
 
-   Osnovnaya stat'ya: Derevyannaya arhitektura
+   Основная статья: Деревянная архитектура
 
-Drevnyaya Greciya. Arhitektura Arhaiki[pravit' | pravit' kod]
+Древняя Греция. Архитектура Архаики[править | править код]
 
-   Derevo, kak stroitel'nyj material, s drevnejshih vremen ispol'zovalos'
-   v mestnostyah s obshirnymi lesnymi massivami, gde v niom ne bylo
-   nedostatka. V iskusstve i arhitekture chasti stran derevyannaya
-   arhitektura imela preobladayuschuyu rol'. Tak, drevnejshie postrojki v
-   Drevnej Grecii byli sozdany iz dereva, i imenno v `etom materiale iz
-   stoechno-balochnoj sistemy sozdavalas' ordernaya arhitektura. Zapad
-   Grecii byl bogat stroevym lesom, stvoly bol'shogo diametra shli na
-   izgotovlenie kolonn i brusa perekrytij -- otsyuda monumental'nost'
-   doricheskogo ordera. V vostochnoj Grecii lesa izobilovali derev'yami s
-   menee tolstymi stvolami, po`etomu, chtoby poluchit' kolonnu,
-   prihodilos' soedinyat' mezhdu soboj neskol'ko stvolov. Na vostoke
-   Grecii poluchil razvitie zarodivshijsya v Maloj Azii bolee izyaschnyj
-   ionicheskij order^[1]^[2].
+   Дерево, как строительный материал, с древнейших времен использовалось в
+   местностях с обширными лесными массивами, где в нём не было недостатка.
+   В искусстве и архитектуре части стран деревянная архитектура имела
+   преобладающую роль. Так, древнейшие постройки в Древней Греции были
+   созданы из дерева, и именно в этом материале из стоечно-балочной
+   системы создавалась ордерная архитектура. Запад Греции был богат
+   строевым лесом, стволы большого диаметра шли на изготовление колонн и
+   бруса перекрытий — отсюда монументальность дорического ордера. В
+   восточной Греции леса изобиловали деревьями с менее толстыми стволами,
+   поэтому, чтобы получить колонну, приходилось соединять между собой
+   несколько стволов. На востоке Греции получил развитие зародившийся в
+   Малой Азии более изящный ионический ордер^[1]^[2].
 
-   Tri yarusa klassicheskogo grecheskogo hrama: fundament, karniz s
-   kryshej i podderzhivayuschaya kraya kryshi kolonnada, prishli imenno iz
-   derevyannoj arhitektury, ne imevshej ni odnoj konstrukcii, kotoruyu
-   nel'zya by bylo ispolnit' iz pryamyh lesomaterialov. Po`etomu v `etih
-   postrojkah ne bylo ni kupolov, ni arok, ni svodov. Hramy VII--VI vv.
-   do n. `e. vozvodilis' iz dereva (kolonny, krovlya) i kirpicha-syrca
-   (steny naosa). Torcy derevyannyh balok, opiravshihsya na arhitrav
-   (nizhnij brus karniza), zakryvalis' derevyannymi zhe plankami, mezhdu
-   kotorymi raspolagalis' metopy (pervonachal'no terrakotovye barel'efy
-   ili zhivopisnye kartiny). Ot planok, flankiruyuschih balki, poshli
-   triglify v kamennyh konstrukciyah, takzhe zakryvayuschie vystupayuschie
-   koncy balok. Pozdnee konstrukcii sooruzhenij postepenno iz dereva i
-   kirpicha byli perevedeny v kamen' (snachala izvestnyak, a potom
-   mramor)^[2]. Hramy Drevnej Grecii predstavlyayut soboj uspeshnyj
-   perenos konstrukcii, planirovki i klyuchevyh dekorativnyh motivov iz
-   odnogo materiala v drugoj^[1]^[3].
+   Три яруса классического греческого храма: фундамент, карниз с крышей и
+   поддерживающая края крыши колоннада, пришли именно из деревянной
+   архитектуры, не имевшей ни одной конструкции, которую нельзя бы было
+   исполнить из прямых лесоматериалов. Поэтому в этих постройках не было
+   ни куполов, ни арок, ни сводов. Храмы VII—VI вв. до н. э. возводились
+   из дерева (колонны, кровля) и кирпича-сырца (стены наоса). Торцы
+   деревянных балок, опиравшихся на архитрав (нижний брус карниза),
+   закрывались деревянными же планками, между которыми располагались
+   метопы (первоначально терракотовые барельефы или живописные картины).
+   От планок, фланкирующих балки, пошли триглифы в каменных конструкциях,
+   также закрывающие выступающие концы балок. Позднее конструкции
+   сооружений постепенно из дерева и кирпича были переведены в камень
+   (сначала известняк, а потом мрамор)^[2]. Храмы Древней Греции
+   представляют собой успешный перенос конструкции, планировки и ключевых
+   декоративных мотивов из одного материала в другой^[1]^[3].
 
-Drevnyaya Rus'[pravit' | pravit' kod]
+Древняя Русь[править | править код]
 
-   [220px-Kishi_church_2.jpg] Cerkov' Preobrazheniya Gospodnya na ostrove
-   Kizhi 1714
+   [220px-Kishi_church_2.jpg] Церковь Преображения Господня на острове
+   Кижи 1714
 
-   Na Rusi, tak zhe, kak i vezde, gde lesa bylo dostatochno, derevyannye
-   zdaniya poyavilis' ran'she kamennyh, i tak zhe, kak i v Drevnej Grecii,
-   pervonachal'no formy kamennogo stroitel'stva otrabatyvalis' v dereve.
-   Nemalovazhnoe znachenie imelo to, chto stroit' iz dereva bylo
-   dostatochno legko (v tom chisle ispol'zovat' zaranee sobrannye
-   otdel'nye bloki) i v korotkie sroki. Na Rusi plotniki otdavali
-   predpochtenie briovnam, rezhe ispol'zovalis' brus i doska, kotorye
-   trudno vytesat' toporom. Doski obyknovenno zamenyalis' plastinami --
-   briovnami, raskolotymi nadvoe. Ispol'zovalis' dva priioma soedineniya
-   brioven v uglah sooruzheniya: �s ostatkom� -- naibolee
-   rasprostranionnyj ili �bez ostatka� (�v lapu�) -- dostatochno redkij.
-   Krovlya byla dvuhskatnoj libo mnogogrannoj, shatrovoj, chto pozvolyalo
-   sozdavat' razlichnye variacii arhitekturnyh form. Osnovnaya edinica
-   russkoj derevyannoj arhitektury -- chetyriohugol'nyj (kvadratnyj libo
-   pryamougol'nyj v plane) srub so storonami 6--8 metrov, bol'shie zdaniya
-   konstruirovalis' iz mnozhestva podobnyh srubov. Cerkovnye zdaniya
-   stroilis' iz vos'merikov, tak nazyvaemyh �kruglyh� srubov, chto
-   pozvolyalo uvelichit' vnutrennij ob"em, i iz srubov krestoobraznyh v
-   plane. Izvestny cerkvi, vozvodivshiesya po ch'emu-libo obetu za odin
-   den'. Tehnologiya stroitel'stva iz srubov pozvolyala legko razbirat' i
-   perevozit' zdaniya dlya sborki ih na novom meste. Tak v 1551 godu byl
-   postroen gorod Sviyazhsk -- ego postrojki byli srubleny v Uglichskom
-   uezde zimoj, a vesnoj 1551 goda splavleny po Volge na mesto buduschego
-   goroda. Vse zdaniya Sviyazhska byli sobrany na novom meste za
-   mesyac^[4].
+   На Руси, так же, как и везде, где леса было достаточно, деревянные
+   здания появились раньше каменных, и так же, как и в Древней Греции,
+   первоначально формы каменного строительства отрабатывались в дереве.
+   Немаловажное значение имело то, что строить из дерева было достаточно
+   легко (в том числе использовать заранее собранные отдельные блоки) и в
+   короткие сроки. На Руси плотники отдавали предпочтение брёвнам, реже
+   использовались брус и доска, которые трудно вытесать топором. Доски
+   обыкновенно заменялись пластинами — брёвнами, расколотыми надвое.
+   Использовались два приёма соединения брёвен в углах сооружения: «с
+   остатком» — наиболее распространённый или «без остатка» («в лапу») —
+   достаточно редкий. Кровля была двухскатной либо многогранной, шатровой,
+   что позволяло создавать различные вариации архитектурных форм. Основная
+   единица русской деревянной архитектуры — четырёхугольный (квадратный
+   либо прямоугольный в плане) сруб со сторонами 6—8 метров, большие
+   здания конструировались из множества подобных срубов. Церковные здания
+   строились из восьмериков, так называемых «круглых» срубов, что
+   позволяло увеличить внутренний объем, и из срубов крестообразных в
+   плане. Известны церкви, возводившиеся по чьему-либо обету за один день.
+   Технология строительства из срубов позволяла легко разбирать и
+   перевозить здания для сборки их на новом месте. Так в 1551 году был
+   построен город Свияжск — его постройки были срублены в Угличском уезде
+   зимой, а весной 1551 года сплавлены по Волге на место будущего города.
+   Все здания Свияжска были собраны на новом месте за месяц^[4].
 
-Britaniya i Skandinaviya[pravit' | pravit' kod]
+Британия и Скандинавия[править | править код]
 
-   [220px-Greensted_Church_North_Side.jpg] Cerkov' Svyatogo Andreya.
-   Grinsted, grafstvo `Esseks. CHast' zdaniya, datiruemaya XI v. pod
-   krovlej pozdnego perioda
+   [220px-Greensted_Church_North_Side.jpg] Церковь Святого Андрея.
+   Гринстед, графство Эссекс. Часть здания, датируемая XI в. под кровлей
+   позднего периода
 
-   Derevo shiroko primenyalos' v arhitekture Severnoj Evropy (Irlandii,
-   Britanii, Germanii, Skandinavii). V stranah, byvshih pod vladychestvom
-   Rimskoj imperii, posle eio gibeli stroitel'stvo iz kamnya ustupilo
-   mesto derevyannomu zodchestvu. V anglo-saksonskoj Britanii sam glagol
-   �stroit'� bukval'no oznachal �vozvodit' iz dereva�. Irlandskie i
-   britanskie istochniki perioda rannego Srednevekov'ya osobenno chasto
-   upominayut cerkovnye stroeniya iz dereva. S VII veka vstrechayutsya
-   detal'nye opisaniya postroek, takie, kak rasskaz o derevyannoj molel'ne
-   v �Gesperijskih recheniyah� (stihi 547--560). Beda Dostopochtennyj
-   pishet o derevyannyh postrojkah, vozvodimyh �po obychayu skottov� (mos
-   Scottorum), krytyh trostnikom. Do nastoyaschego vremeni doshiol
-   derevyannyj central'nyj ob"em cerkvi Svyatogo Andreya v Grinstede
-   (grafstvo `Esseks, Velikobritaniya), zalozhennoj v XI veke --
-   edinstvennoe sohranivsheesya sooruzhenie donormannskogo perioda.
-   Drevnejshaya chast' neodnokratno perestroennoj cerkvi soglasno
-   poslednim issledovaniyam, datiruetsya 1013 godom. Steny vozvedeny iz
-   vertikal'no postavlennyh, napodobie ogrady-chastokola, dubovyh
-   polukruglyh panelej. Sudya po risunku XVIII veka, sohranivshemu vid
-   zapadnogo frontona cerkvi do eio perestrojki, v eio konstrukcii
-   otsutstvovali gorizontal'nye `elementy^[5]. Grinstedskaya cerkov'
-   otnositsya k naibolee rasprostranionnomu tipu cerkovnyh stroenij --
-   bazilikal'nomu, odnako v Britanii suschestvovali i bolee slozhnye
-   sooruzheniya centricheskogo tipa, takie kak cerkov' v Potterne
-   (Uiltshir), rekonstruirovannaya sovremennymi arheologami. Na kovre iz
-   Baje (konec XI veka) izobrazhena v razreze podzhigaemaya normannami
-   dvuh"yarusnaya cerkov', v kotoroj spryatalis' mestnye zhiteli. Odnako
-   nebol'shoe kolichestvo sohranivshihsya dokumental'nyh istochnikov i
-   arheologicheskie nahodki ne pozvolyayut v dostatochnoj stepeni
-   vosstanovit' istoriyu britanskogo derevyannogo zodchestva `epohi
-   rannego Srednevekov'ya^[6].
+   Дерево широко применялось в архитектуре Северной Европы (Ирландии,
+   Британии, Германии, Скандинавии). В странах, бывших под владычеством
+   Римской империи, после её гибели строительство из камня уступило место
+   деревянному зодчеству. В англо-саксонской Британии сам глагол «строить»
+   буквально означал «возводить из дерева». Ирландские и британские
+   источники периода раннего Средневековья особенно часто упоминают
+   церковные строения из дерева. С VII века встречаются детальные описания
+   построек, такие, как рассказ о деревянной молельне в «Гесперийских
+   речениях» (стихи 547—560). Беда Достопочтенный пишет о деревянных
+   постройках, возводимых «по обычаю скоттов» (mos Scottorum), крытых
+   тростником. До настоящего времени дошёл деревянный центральный объем
+   церкви Святого Андрея в Гринстеде (графство Эссекс, Великобритания),
+   заложенной в XI веке — единственное сохранившееся сооружение
+   донорманнского периода. Древнейшая часть неоднократно перестроенной
+   церкви согласно последним исследованиям, датируется 1013 годом. Стены
+   возведены из вертикально поставленных, наподобие ограды-частокола,
+   дубовых полукруглых панелей. Судя по рисунку XVIII века, сохранившему
+   вид западного фронтона церкви до её перестройки, в её конструкции
+   отсутствовали горизонтальные элементы^[5]. Гринстедская церковь
+   относится к наиболее распространённому типу церковных строений —
+   базиликальному, однако в Британии существовали и более сложные
+   сооружения центрического типа, такие как церковь в Поттерне (Уилтшир),
+   реконструированная современными археологами. На ковре из Байе (конец XI
+   века) изображена в разрезе поджигаемая норманнами двухъярусная церковь,
+   в которой спрятались местные жители. Однако небольшое количество
+   сохранившихся документальных источников и археологические находки не
+   позволяют в достаточной степени восстановить историю британского
+   деревянного зодчества эпохи раннего Средневековья^[6].
 
-   V Skandinaviyu derevyannoe cerkovnoe zodchestvo prishlo vmeste s
-   hristianstvom cherez Britaniyu. Predstavlenie o drevnejshej derevyannoj
-   arhitekture `etogo regiona dayut nahodki, sdelannye pri
-   arheologicheskih raskopkah v SHvecii, Danii, Norvegii. Kak soobschaet
-   Adam Bremenskij, v Skone (yuzhnaya SHveciya) suschestvovalo 300
-   cerkvej. Izvestno okolo 10 cerkvej v Lunde (pervaya polovina XI --
-   nachalo XII v.). Odna iz nih -- postroennyj v 1050 godu bol'shoj
-   triohnefnyj hram Svyatoj Marii, blizkij k hramam bazilikal'nogo tipa,
-   vozvedionnyj, kak i cerkov' v Grinstede, �chastokol'nym� sposobom^[7].
+   В Скандинавию деревянное церковное зодчество пришло вместе с
+   христианством через Британию. Представление о древнейшей деревянной
+   архитектуре этого региона дают находки, сделанные при археологических
+   раскопках в Швеции, Дании, Норвегии. Как сообщает Адам Бременский, в
+   Сконе (южная Швеция) существовало 300 церквей. Известно около 10
+   церквей в Лунде (первая половина XI — начало XII в.). Одна из них —
+   построенный в 1050 году большой трёхнефный храм Святой Марии, близкий к
+   храмам базиликального типа, возведённый, как и церковь в Гринстеде,
+   «частокольным» способом^[7].
 
-Izobrazitel'noe iskusstvo[pravit' | pravit' kod]
+Изобразительное искусство[править | править код]
 
-Skul'ptura[pravit' | pravit' kod]
+Скульптура[править | править код]
 
-   [220px-Chorgest%C3%BChl_Ulmer_M%C3%BCnster_2.jpg] Jorg Sirlin Starshij.
-   Skam'i horov. 1469-1474. Ul'm, sobor
+   [220px-Chorgest%C3%BChl_Ulmer_M%C3%BCnster_2.jpg] Йорг Сирлин Старший.
+   Скамьи хоров. 1469-1474. Ульм, собор
 
-   Derevo kak material dlya skul'ptury izvestno s glubokoj drevnosti.
-   Drevnejshaya derevyannaya skul'ptura, sohranivshayasya do nashih dnej,
-   -- SHigirskij idol iz drevesiny listvennicy, vozrast eio, po mneniyu
-   specialistov, sostavlyaet 11 600 let^[8]. Rascvet derevyannoj
-   skul'ptury prishiolsya na Srednie veka i rannee Vozrozhdenie v
-   central'noj Evrope, gde dlya hramov ispolnyalis' statui svyatyh, reznye
-   altari (v tom chisle stvorchatye, rasprostranenie kotoryh znamenovalo
-   soboj perehod ot gotiki k Renessansu), kafedry i sideniya dlya horov.
-   Dlya skul'pturnyh i reznyh rabot ispol'zovalos' v osnovnom myagkoe,
-   liogkoe v obrabotke, dayuschee plastichnye formy lipovoe ili bukovoe
-   derevo. V altaryah so stvorkami, kotorye mozhno bylo zakryvat' i
-   otkryvat' v sootvetstvii s dnyami liturgicheskogo goda, mogli
-   sochetat'sya zhivopis' i skul'ptura. Po tradicii severnoj gotiki takie
-   altari imeli predelly, kotorye takzhe mogli byt' vypolneny iz dereva, i
-   figurnye navershiya, ukrashennye azhurnoj rez'boj. V svoiom
-   original'nom vide altari so stvorkami (kryl'yami) sohranilis' v krajne
-   malom kolichestve, bol'shaya chast' ih pogibla ili byla razroznena v
-   gody protestantskogo ikonoborchestva, po estestvennym prichinam ili
-   iz-za izmeneniya vkusovyh predpochtenij. Izvestnye mastera (Miha`el'
-   Paher, Fejt SHtoss, Til'man Rimenshnejder), rabotavshie v oblasti
-   derevyannoj skul'ptury, sposobstvovali razvitiyu altarnyh kompozicij ot
-   rannih prostyh i staticheskih k bolee slozhnym, mnogoplanovym,
-   ozhivlionnym umeloj peredachej dvizheniya personazhej i ih
-   `emocional'nogo sostoyaniya^[9].
+   Дерево как материал для скульптуры известно с глубокой древности.
+   Древнейшая деревянная скульптура, сохранившаяся до наших дней, —
+   Шигирский идол из древесины лиственницы, возраст её, по мнению
+   специалистов, составляет 11 600 лет^[8]. Расцвет деревянной скульптуры
+   пришёлся на Средние века и раннее Возрождение в центральной Европе, где
+   для храмов исполнялись статуи святых, резные алтари (в том числе
+   створчатые, распространение которых знаменовало собой переход от готики
+   к Ренессансу), кафедры и сидения для хоров. Для скульптурных и резных
+   работ использовалось в основном мягкое, лёгкое в обработке, дающее
+   пластичные формы липовое или буковое дерево. В алтарях со створками,
+   которые можно было закрывать и открывать в соответствии с днями
+   литургического года, могли сочетаться живопись и скульптура. По
+   традиции северной готики такие алтари имели пределлы, которые также
+   могли быть выполнены из дерева, и фигурные навершия, украшенные ажурной
+   резьбой. В своём оригинальном виде алтари со створками (крыльями)
+   сохранились в крайне малом количестве, большая часть их погибла или
+   была разрознена в годы протестантского иконоборчества, по естественным
+   причинам или из-за изменения вкусовых предпочтений. Известные мастера
+   (Михаэль Пахер, Фейт Штосс, Тильман Рименшнейдер), работавшие в области
+   деревянной скульптуры, способствовали развитию алтарных композиций от
+   ранних простых и статических к более сложным, многоплановым, оживлённым
+   умелой передачей движения персонажей и их эмоционального состояния^[9].
 
-   Tipichnye motivy evropejskoj derevyannoj skul'ptury XV veka:
-   �Prekrasnaya Madonna�, Hristos verhom na osle (scena v"ezda v
-   Ierusalim), �Raspyatie� i �P'eta�. Statui svyatyh, pomimo prochego,
-   ispol'zovalis' v religioznyh processiyah. Po bol'shej chasti `eto
-   proizvedeniya anonimnyh masterov. Derevo, kazavsheesya v tu poru
-   slishkom prostym po sravneniyu s mramorom i bronzoj, raskrashivalos' i
-   zolotilos'. Uzhe v konce XV veka pod vliyaniem tvorchestva Jorga
-   Sirlina i Rimenshnejdera derevyannaya skul'ptura lishaetsya okraski, i
-   zriteli obretayut vozmozhnost' videt' estestvennye cvet i risunok
-   natural'nogo dereva^[10].
-   [220px-Skladen01_%28rublevs_museum%29.jpg] Deisus, prazdniki, proroki.
-   Pohodnaya ikona-skladen'. Novgorod, 2-ya polovina XVI veka. Derevo,
-   rez'ba. Muzej im. A. Rubleva
+   Типичные мотивы европейской деревянной скульптуры XV века: «Прекрасная
+   Мадонна», Христос верхом на осле (сцена въезда в Иерусалим), «Распятие»
+   и «Пьета». Статуи святых, помимо прочего, использовались в религиозных
+   процессиях. По большей части это произведения анонимных мастеров.
+   Дерево, казавшееся в ту пору слишком простым по сравнению с мрамором и
+   бронзой, раскрашивалось и золотилось. Уже в конце XV века под влиянием
+   творчества Йорга Сирлина и Рименшнейдера деревянная скульптура лишается
+   окраски, и зрители обретают возможность видеть естественные цвет и
+   рисунок натурального дерева^[10].
+   [220px-Skladen01_%28rublevs_museum%29.jpg] Деисус, праздники, пророки.
+   Походная икона-складень. Новгород, 2-я половина XVI века. Дерево,
+   резьба. Музей им. А. Рублева
 
-   Na Rusi derevyannaya religioznaya skul'ptura i reznye ikony
-   suschestvovali, nesmotrya na otricatel'noe otnoshenie k ob"emnym
-   izobrazheniyam svyatyh, harakternoe dlya pravoslavnoj hristianskoj
-   tradicii, vosprinyatoj ot Vizantii, s davnih vremion. Odni iz rannih
-   obrazcov `etogo vida iskusstva -- ikona �Arhangel Mihail v deyanii�
-   (XII v., v nastoyaschee vremya hranitsya v Mahachkale), izobrazhenie
-   Nikoly Mozhajskogo (nachalo XIII v.), �Raspyatie� (Tutaev) --
-   otnosyatsya k domongol'skomu periodu. S perehodom vo vtoroj polovine
-   XII veka veduschego politicheskogo znacheniya ot Kieva k
-   Vladimiro-Suzdal'skomu knyazhestvu `eto vid izobrazitel'nogo iskusstva
-   priobrel pervostepennoe znachenie. V period tataro-mongol'skogo iga, na
-   severe Rusi i v Novgorode, kotorye byli obojdeny zahvatchikami,
-   derevyannaya skul'ptura shiroko ispol'zovalas' v ubranstve inter'erov
-   cerkvej. V konce XV veka v Novgorode i Pskove otmechaetsya eio burnoe
-   razvitie. O znachenii reznyh derevyannyh ikon, raspyatij, statuj
-   svyatyh (naibolee rasprostraneny byli izobrazheniya svyatyh Georgiya,
-   Nikolaya, Paraskevy) svidetel'stvuyut oficial'nye dokumenty, letopisi i
-   literaturnye proizvedeniya togo vremeni. V konce XIV -- nachale XV
-   vekov v reznye rel'efy nachali perevodit'sya chudotvornye ikony:
-   Vladimirskaya Bogomater', Spas Nerukotvornyj, poslednyaya, krome
-   prochego, ispol'zovalas' v tyablovyh i yarusnyh ikonostasah. Rascvet
-   russkoj derevyannoj skul'ptury prishiolsya na XVI vek, kogda v
-   znachimyh gorodah Russkogo carstva vozvodilis' sobory po obrazu
-   moskovskogo Uspenskogo sobora. Kak i v Moskve, v novyh soborah
-   ustraivalis' podkupol'nye amvony s zhivopisnymi ikonami i derevyannymi
-   gorel'efami i statuyami svyatyh, kotorye, kak kariatidy, sluzhili
-   oporami dlya vsego sooruzheniya^[11]. Pomimo Moskvy, gde posle
-   russko-pol'skoj vojny (1654--1667) v Oruzhejnoj palate rabotali
-   rezchiki iz Pol'shi i Belorussii, sredi centrov s aktivno
-   razvivavshimisya tradiciyami derevyannoj skul'ptury mozhno nazvat'
-   Velikij Novgorod, Rostov Velikij, monastyri russkogo Severa:
-   Soloveckij, Kirillo-Belozerskij, Spaso-Priluckij^[12].
+   На Руси деревянная религиозная скульптура и резные иконы существовали,
+   несмотря на отрицательное отношение к объемным изображениям святых,
+   характерное для православной христианской традиции, воспринятой от
+   Византии, с давних времён. Одни из ранних образцов этого вида
+   искусства — икона «Архангел Михаил в деянии» (XII в., в настоящее время
+   хранится в Махачкале), изображение Николы Можайского (начало XIII в.),
+   «Распятие» (Тутаев) — относятся к домонгольскому периоду. С переходом
+   во второй половине XII века ведущего политического значения от Киева к
+   Владимиро-Суздальскому княжеству это вид изобразительного искусства
+   приобрел первостепенное значение. В период татаро-монгольского ига, на
+   севере Руси и в Новгороде, которые были обойдены захватчиками,
+   деревянная скульптура широко использовалась в убранстве интерьеров
+   церквей. В конце XV века в Новгороде и Пскове отмечается её бурное
+   развитие. О значении резных деревянных икон, распятий, статуй святых
+   (наиболее распространены были изображения святых Георгия, Николая,
+   Параскевы) свидетельствуют официальные документы, летописи и
+   литературные произведения того времени. В конце XIV — начале XV веков в
+   резные рельефы начали переводиться чудотворные иконы: Владимирская
+   Богоматерь, Спас Нерукотворный, последняя, кроме прочего,
+   использовалась в тябловых и ярусных иконостасах. Расцвет русской
+   деревянной скульптуры пришёлся на XVI век, когда в значимых городах
+   Русского царства возводились соборы по образу московского Успенского
+   собора. Как и в Москве, в новых соборах устраивались подкупольные
+   амвоны с живописными иконами и деревянными горельефами и статуями
+   святых, которые, как кариатиды, служили опорами для всего
+   сооружения^[11]. Помимо Москвы, где после русско-польской войны
+   (1654—1667) в Оружейной палате работали резчики из Польши и Белоруссии,
+   среди центров с активно развивавшимися традициями деревянной скульптуры
+   можно назвать Великий Новгород, Ростов Великий, монастыри русского
+   Севера: Соловецкий, Кирилло-Белозерский, Спасо-Прилуцкий^[12].
 
-ZHivopis'[pravit' | pravit' kod]
+Живопись[править | править код]
 
-   Osnovnaya stat'ya: Derevo (zhivopis')
+   Основная статья: Дерево (живопись)
 
-   Derevo, kak osnova pod zhivopis', izvestno so vremion antichnosti.
-   Plinij Starshij soobschaet, chto afinskij hudozhnik Apollodor (vtoraya
-   polovina V v. do n. `e.) pisal svoi kartiny na derevyannyh doskah.
-   Samye rannie proizvedeniya izobrazitel'nogo iskusstva na derevyannoj
-   osnove, sohranivshiesya do nashih dnej, -- fayumskie portrety (I--III
-   vv. n. `e.). Assortiment drevesiny dlya fayumskih portretov
-   raznoobrazen: oni pisalis' na tonkih doschechkah iz smokovnicy,
-   kiparisa, livanskogo kedra, pinii, sosny, listvennicy. V srednie veka
-   ital'yanskie zhivopiscy predpochitali myagkuyu drevesinu. CHennino
-   CHennini v svoej rabote �Kniga ob iskusstve� rekomenduet ispol'zovat'
-   ivu i lipu. Leon Battista Al'berti nazyvaet predpochtitel'nye sorta
-   dlya zhivopisi: listvennicu (dolgovechnuyu i ne dayuschuyu treschin),
-   topol' belyj i chiornyj, ivu, grab, ryabinu, buzinu i smokovnicu. Po
-   ego soobscheniyu, drevesina `etih porod dostatochno suha, nadiozhno
-   derzhit klej i podmaliovok, a kraski lozhatsya na neio ravnomerno. Dub
-   zhe, po mneniyu Al'berti, ne podhodit dlya zhivopisi, tak kak ne
-   vosprinimaet klej^[13]. Po slovam Vazari, ital'yancy predpochitali
-   belyj topol' iz-za ego myagkosti i, v to zhe vremya prochnosti pri
-   kreplenii mastikoj, a veneciancy, kogda pisali na derevyannoj osnove,
-   vybirali el', tak kak eio v izobilii splavlyali iz Germanii po reke
-   Adidzhe, a takzhe poluchali iz Slavonii. Drevesina kak osnova dlya
-   zhivopisi shiroko primenyalas' do XVII veka. V Italii doski
-   ispol'zovali parallel'no s holstom v XVI stoletii, vo Flandrii,
-   Gollandii i Germanii derevyannaya osnova byla predpochtitel'noj,
-   osobenno dlya kartin malogo formata, eschio v XVII veke. Tem ne menee
-   izvestny i masshtabnye proizvedeniya na dereve, naprimer, altarnye
-   kartiny Rubensa. Na Rusi zhivopis' na doskah byla shiroko
-   rasprostranena do konca XVII veka. Podavlyayuschee bol'shinstvo russkih
-   ikon napisany na lipovyh doskah, dalee po chastote ispol'zovaniya idut
-   sosna i el', rezhe primenyalis' buk i listvennica^[14]. Dazhe posle
-   togo, kak glavenstvuyuschee polozhenie sredi osnov dlya zhivopisi
-   zanyal holst, i v Evrope i v Rossii prodolzhali poyavlyat'sya kartiny
-   na dereve^[15].
+   Дерево, как основа под живопись, известно со времён античности. Плиний
+   Старший сообщает, что афинский художник Аполлодор (вторая половина V в.
+   до н. э.) писал свои картины на деревянных досках. Самые ранние
+   произведения изобразительного искусства на деревянной основе,
+   сохранившиеся до наших дней, — фаюмские портреты (I—III вв. н. э.).
+   Ассортимент древесины для фаюмских портретов разнообразен: они писались
+   на тонких дощечках из смоковницы, кипариса, ливанского кедра, пинии,
+   сосны, лиственницы. В средние века итальянские живописцы предпочитали
+   мягкую древесину. Ченнино Ченнини в своей работе «Книга об искусстве»
+   рекомендует использовать иву и липу. Леон Баттиста Альберти называет
+   предпочтительные сорта для живописи: лиственницу (долговечную и не
+   дающую трещин), тополь белый и чёрный, иву, граб, рябину, бузину и
+   смоковницу. По его сообщению, древесина этих пород достаточно суха,
+   надёжно держит клей и подмалёвок, а краски ложатся на неё равномерно.
+   Дуб же, по мнению Альберти, не подходит для живописи, так как не
+   воспринимает клей^[13]. По словам Вазари, итальянцы предпочитали белый
+   тополь из-за его мягкости и, в то же время прочности при креплении
+   мастикой, а венецианцы, когда писали на деревянной основе, выбирали
+   ель, так как её в изобилии сплавляли из Германии по реке Адидже, а
+   также получали из Славонии. Древесина как основа для живописи широко
+   применялась до XVII века. В Италии доски использовали параллельно с
+   холстом в XVI столетии, во Фландрии, Голландии и Германии деревянная
+   основа была предпочтительной, особенно для картин малого формата, ещё в
+   XVII веке. Тем не менее известны и масштабные произведения на дереве,
+   например, алтарные картины Рубенса. На Руси живопись на досках была
+   широко распространена до конца XVII века. Подавляющее большинство
+   русских икон написаны на липовых досках, далее по частоте использования
+   идут сосна и ель, реже применялись бук и лиственница^[14]. Даже после
+   того, как главенствующее положение среди основ для живописи занял
+   холст, и в Европе и в России продолжали появляться картины на
+   дереве^[15].
 
-   Vybiraya osnovu dlya buduschej kartiny, hudozhniki, prezhde vsego,
-   ispol'zovali drevesinu, harakternuyu dlya dannoj mestnosti. `Eto
-   obstoyatel'stvo pomogaet issledovatelyam opredelit' s bol'shoj dolej
-   veroyatnosti, po krajnej mere `eto harakterno dlya zapadnoevropejskoj
-   zhivopisi XIII--XVI vv., gde sozdavalas' kartina. Neobhodimo takzhe
-   imet' predstavlenie o drevnej flore toj ili inoj mestnosti^[16]. Posle
-   XVI veka razvitie mezhdunarodnyh svyazej (prezhde vsego torgovlya) i
-   snizhenie trebovanij k kachestvu materialov priveli k rasshireniyu
-   vybora osnovy. Tak, v Gollandii hudozhniki ispol'zovali dlya kartin
-   doski staryh korablej i pivnyh bochek -- drevesina, nahodivshayasya
-   dolgoe vremya pod vozdejstviem snachala vody, a potom (pri sushke)
-   solnechnogo sveta, ne korobilas' i ne gnila. Nekotorye kartiny
-   Rembrandta napisany na krasnom dereve, vvozimom iz kolonij. V Rossii
-   poyavilis' kiparisovye doski i ih dazhe nauchilis' poddelyvat' -- ob
-   `etom soobschaet russkij avtor pervoj treti XVII v.^[14]
+   Выбирая основу для будущей картины, художники, прежде всего,
+   использовали древесину, характерную для данной местности. Это
+   обстоятельство помогает исследователям определить с большой долей
+   вероятности, по крайней мере это характерно для западноевропейской
+   живописи XIII—XVI вв., где создавалась картина. Необходимо также иметь
+   представление о древней флоре той или иной местности^[16]. После XVI
+   века развитие международных связей (прежде всего торговля) и снижение
+   требований к качеству материалов привели к расширению выбора основы.
+   Так, в Голландии художники использовали для картин доски старых
+   кораблей и пивных бочек — древесина, находившаяся долгое время под
+   воздействием сначала воды, а потом (при сушке) солнечного света, не
+   коробилась и не гнила. Некоторые картины Рембрандта написаны на красном
+   дереве, ввозимом из колоний. В России появились кипарисовые доски и их
+   даже научились подделывать — об этом сообщает русский автор первой
+   трети XVII в.^[14]
 
-   Orientiruyas' na razmer buduschej kartiny (ikony), osnovu dlya neio
-   delali libo iz odnoj celoj doski, libo iz sostavlennyh vmeste
-   neskol'kih dosok (izvestny sluchai, kogda kartiny pisalis' na schite iz
-   dvadcati dosok). Doski mezhdu soboj soedinyali snachala kleem:
-   kazeinovym, mezdrovym, iz obrezkov pergamenta, al'buminovyj. Styki s
-   oborotnoj storony pokryvali gruntom, schitaya, chto tak
-   obespechivaetsya ih nepodvizhnost'. Podobnye soedineniya harakterny
-   dlya katalonskoj shkoly zhivopisi XII veka, Francii, Germanii, Italii v
-   XIII--XIV vekah. Esche odin rannij sposob soedineniya -- s pomosch'yu
-   derevyannyh shipov, vstavlyaemyh v paz, vyrezannyj v ploskosti styka.
-   SHipy na celyh schitah mozhno uvidet' tol'ko pri rentgenograficheskom
-   issledovanii. Po principu �shipa� delalos' soedinenie, pri kotorom na
-   torce odnoj iz dosok po vsej dline vytachivalsya vystup, na drugoj,
-   takzhe po vsej dline -- paz. `Eto soedinenie vidno s torca osnovy^[17].
-   [220px-Giorgione_-_Judith_-_Eremitage.jpg] Dzhordzhone. YUdif'. Kartina
-   byla napisana na dereve okolo 1504 goda. V 1893 godu v `Ermitazhe
-   perevedena na holst restavratorom A. Sidorovym
+   Ориентируясь на размер будущей картины (иконы), основу для неё делали
+   либо из одной целой доски, либо из составленных вместе нескольких досок
+   (известны случаи, когда картины писались на щите из двадцати досок).
+   Доски между собой соединяли сначала клеем: казеиновым, мездровым, из
+   обрезков пергамента, альбуминовый. Стыки с оборотной стороны покрывали
+   грунтом, считая, что так обеспечивается их неподвижность. Подобные
+   соединения характерны для каталонской школы живописи XII века, Франции,
+   Германии, Италии в XIII—XIV веках. Еще один ранний способ соединения —
+   с помощью деревянных шипов, вставляемых в паз, вырезанный в плоскости
+   стыка. Шипы на целых щитах можно увидеть только при рентгенографическом
+   исследовании. По принципу «шипа» делалось соединение, при котором на
+   торце одной из досок по всей длине вытачивался выступ, на другой, также
+   по всей длине — паз. Это соединение видно с торца основы^[17].
+   [220px-Giorgione_-_Judith_-_Eremitage.jpg] Джорджоне. Юдифь. Картина
+   была написана на дереве около 1504 года. В 1893 году в Эрмитаже
+   переведена на холст реставратором А. Сидоровым
 
-   Zapadnoevropejskie hudozhniki rabotali na osnovah, sostavlennyh iz
-   odnogo vida drevesiny. Schitalos', chto raznoe derevo nel'zya ne tol'ko
-   soedinyat' v odnu osnovu, no dazhe i hranit' ryadom doski raznyh porod.
-   Odnako v sostave altarnyh kompleksov, poliptihov, triptihov i diptihov
-   vstrechayutsya osnovy iz raznogo dereva. Podlinnost' vsego
-   proizvedeniya podtverzhdaetsya, esli `eto porody derev'ev iz odnoj
-   mestnosti, toj, gde ono bylo sozdano. Kartiny, napisannye odnim
-   hudozhnikom priblizitel'no v odno vremya, ispolnyalis' na doskah odnogo
-   stvola, issledovatelyam ne izvestny sluchai ispol'zovaniya dosok odnogo
-   stvola raznymi masterami^[17].
+   Западноевропейские художники работали на основах, составленных из
+   одного вида древесины. Считалось, что разное дерево нельзя не только
+   соединять в одну основу, но даже и хранить рядом доски разных пород.
+   Однако в составе алтарных комплексов, полиптихов, триптихов и диптихов
+   встречаются основы из разного дерева. Подлинность всего произведения
+   подтверждается, если это породы деревьев из одной местности, той, где
+   оно было создано. Картины, написанные одним художником приблизительно в
+   одно время, исполнялись на досках одного ствола, исследователям не
+   известны случаи использования досок одного ствола разными
+   мастерами^[17].
 
-   Doski dlya zhivopisi, v zavisimosti ot mesta i vremeni sozdaniya
-   proizvedeniya, primenyalis' razlichnoj tolschiny: ot 2 mm (Fayum) do
-   ochen' tolstyh osnov ital'yanskogo rannego Vozrozhdeniya. Ikony v
-   tehnike `enkaustiki VI--VIII vekov imeyut tolschinu 10--12 mm. Samye
-   rannie ikony Rusi vypolnyalis' na ochen' tonkih doskah, vposledstvii
-   russkie mastera vybirali bolee tolstuyu osnovu. Hudozhniki Severnoj
-   Evropy v XVII veke ispol'zovali doski tolschinoj 8--10 mm^[18].
+   Доски для живописи, в зависимости от места и времени создания
+   произведения, применялись различной толщины: от 2 мм (Фаюм) до очень
+   толстых основ итальянского раннего Возрождения. Иконы в технике
+   энкаустики VI—VIII веков имеют толщину 10—12 мм. Самые ранние иконы
+   Руси выполнялись на очень тонких досках, впоследствии русские мастера
+   выбирали более толстую основу. Художники Северной Европы в XVII веке
+   использовали доски толщиной 8—10 мм^[18].
 
-   Ser'ioznyj nedostatok derevyannoj osnovy -- sposobnost' materiala,
-   dazhe horosho vysushennogo, pogloschat' i otdavat' vlagu iz vozduha.
-   Iz-za gigroskopichnosti drevesiny proishodit postoyannoe dvizhenie eio
-   volokon i ona korobitsya, vyzyvaya razrusheniya grunta i krasochnogo
-   sloya kartin. CHtoby predohranit' zhivopisnye osnovy ot korobleniya, ih
-   zaklyuchali v special'nye ramy s krepleniem vintami (tak postupil
-   Dyurer s central'noj chast'yu �Vozneseniya Marii�) ili sozdavali na
-   oborotnoj storone celye sistemy iz derevyannyh planok,
-   ogranichivayuschie dvizhenie dosok odnim napravleniem. Pozdnee, v XVIII
-   veke, restavratory stali primenyat' metod parketirovaniya (parketazh),
-   blagodarya kotoromu doski kartiny prisposablivalis' k perepadam
-   vlazhnosti i temperatury vozduha bez korobleniya^[17]. Pri
-   parketirovanii chast' derevyannoj osnovy s obratnoj storony kartiny
-   udalyaetsya (sostrugivaetsya), dalee k nej podkleivayutsya derevyannye
-   planki, napravlennye po drevesnym voloknam doski. Planki imeyut
-   otverstiya, v kotorye vstavlyayutsya perpendikulyarno drugie planki.
-   `Eto pozvolyaet drevesine rasshiryat'sya i suzhat'sya, ne vyzyvaya
-   korobleniya i treschin^[19]. Takim obrazom v 1740 godu francuzskij
-   restavrator Haken, s imenem kotorogo svyazyvayut rasprostranenie `etogo
-   metoda, parketiroval kartinu Rubensa. Metod parketazha shiroko
-   ispol'zovalsya v XIX veke, kak pri restavracii staryh kartin, tak i pri
-   sozdanii novyh proizvedenij. Parketazh ispolnyalsya iz dorogih sortov
-   dereva, a stolyary-krasnoderevschiki, ukreplyavshie kartiny, neredko
-   podpisyvali svoyu rabotu^[20].
+   Серьёзный недостаток деревянной основы — способность материала, даже
+   хорошо высушенного, поглощать и отдавать влагу из воздуха. Из-за
+   гигроскопичности древесины происходит постоянное движение её волокон и
+   она коробится, вызывая разрушения грунта и красочного слоя картин.
+   Чтобы предохранить живописные основы от коробления, их заключали в
+   специальные рамы с креплением винтами (так поступил Дюрер с центральной
+   частью «Вознесения Марии») или создавали на оборотной стороне целые
+   системы из деревянных планок, ограничивающие движение досок одним
+   направлением. Позднее, в XVIII веке, реставраторы стали применять метод
+   паркетирования (паркетаж), благодаря которому доски картины
+   приспосабливались к перепадам влажности и температуры воздуха без
+   коробления^[17]. При паркетировании часть деревянной основы с обратной
+   стороны картины удаляется (состругивается), далее к ней подклеиваются
+   деревянные планки, направленные по древесным волокнам доски. Планки
+   имеют отверстия, в которые вставляются перпендикулярно другие планки.
+   Это позволяет древесине расширяться и сужаться, не вызывая коробления и
+   трещин^[19]. Таким образом в 1740 году французский реставратор Хакен, с
+   именем которого связывают распространение этого метода, паркетировал
+   картину Рубенса. Метод паркетажа широко использовался в XIX веке, как
+   при реставрации старых картин, так и при создании новых произведений.
+   Паркетаж исполнялся из дорогих сортов дерева, а
+   столяры-краснодеревщики, укреплявшие картины, нередко подписывали свою
+   работу^[20].
 
-   Derevyannaya osnova porazhaetsya drevotochcami -- `eto harakterno dlya
-   dosok iz myagkih porod dereva, v men'shej stepeni portyatsya doski iz
-   duba (blagodarya soderzhaschemusya v niom taninu) i hvojnyh porod
-   (iz-za smoly). Osnovy starinnyh kartin, porazhionnye nasekomymi,
-   utonchalis' restavratorami v XVIII--XIX vekah. Inogda derevyannaya
-   osnova udalyalas' polnost'yu (sostrugivalas'), a krasochnyj sloj
-   perevodilsya na novuyu osnovu -- chasche vsego holst, rezhe -- na
-   derevo ili med'. SHirokoe rasprostranenie, nesmotrya na vysokuyu
-   veroyatnost' porchi kartiny, perevod zhivopisi s dereva na holst
-   poluchil v Italii (gde, veroyatno, i byl izobretion v 1720-h godah) i,
-   osobenno, vo Francii^[21].
+   Деревянная основа поражается древоточцами — это характерно для досок из
+   мягких пород дерева, в меньшей степени портятся доски из дуба
+   (благодаря содержащемуся в нём танину) и хвойных пород (из-за смолы).
+   Основы старинных картин, поражённые насекомыми, утончались
+   реставраторами в XVIII—XIX веках. Иногда деревянная основа удалялась
+   полностью (состругивалась), а красочный слой переводился на новую
+   основу — чаще всего холст, реже — на дерево или медь. Широкое
+   распространение, несмотря на высокую вероятность порчи картины, перевод
+   живописи с дерева на холст получил в Италии (где, вероятно, и был
+   изобретён в 1720-х годах) и, особенно, во Франции^[21].
 
-Grafika[pravit' | pravit' kod]
+Графика[править | править код]
 
-   Sleva: Sudzuki Harunobu. ZHenschina, igrayuschaya na kokyu. 1763--1767.
-   Sprava: Frontispis vtorogo izdaniya �Apokalipsisa� Dyurera, znamenitoj
-                        serii gravyur na dereve. 1511
+Слева: Судзуки Харунобу. Женщина, играющая на кокю. 1763—1767. Справа:
+Фронтиспис второго издания «Апокалипсиса» Дюрера, знаменитой серии
+                    гравюр на дереве. 1511
 
-   Samaya rannyaya gravyurnaya tehnika, ksilogravyura, gravyura na dereve,
-   poyavilas' v YAponii v VIII veke. Tehnika gravirovaniya byla blizka k
-   tehnike izgotovleniya dosok dlya nabojki. Iznachal'no na derevyannyh
-   doskah iz grushi, samshita, dikoj vishni vyrezalis' buddijskie teksty.
-   Rascvet obreznoj (na doskah prodol'nogo raspila) yaponskoj gravyury
-   prihoditsya na XVII vek. Myagkie plavnye linii i oblasti cvetovyh
-   pyaten obrezalis' s dvuh storon nozhami so skoshennymi lezviyami ili
-   rezcami. Dlya detal'noj prorabotki risunka primenyalis' nebol'shie
-   nozhichki. Lishnee derevo mezhdu vystupayuschimi mestami doski
-   vybiralos' dolotom. Poluchennye formy dlya vypukloj gravyury
-   pokryvalis' kraskami iz mineral'nogo ili rastitel'nogo syr'ya v smesi s
-   pastoj iz risa, pri `etom kraska ne popadala v uglubleniya doski.
-   Cvetnaya gravyura pechatalas' v neskol'ko priiomov, otdel'no dlya
-   kazhdogo cveta^[22]. Pri sderzhannoj krasochnoj gamme, ne vsegda
-   sootvetstvuyuschej natural'nomu cvetu^[23], i obobschionno-uslovnoj
-   forme, yaponskaya gravyura (dazhe v chiorno-belom ispolnenii)
-   otlichaetsya osobennoj utonchionnoj dekorativnost'yu.
+   Самая ранняя гравюрная техника, ксилогравюра, гравюра на дереве,
+   появилась в Японии в VIII веке. Техника гравирования была близка к
+   технике изготовления досок для набойки. Изначально на деревянных досках
+   из груши, самшита, дикой вишни вырезались буддийские тексты. Расцвет
+   обрезной (на досках продольного распила) японской гравюры приходится на
+   XVII век. Мягкие плавные линии и области цветовых пятен обрезались с
+   двух сторон ножами со скошенными лезвиями или резцами. Для детальной
+   проработки рисунка применялись небольшие ножички. Лишнее дерево между
+   выступающими местами доски выбиралось долотом. Полученные формы для
+   выпуклой гравюры покрывались красками из минерального или растительного
+   сырья в смеси с пастой из риса, при этом краска не попадала в
+   углубления доски. Цветная гравюра печаталась в несколько приёмов,
+   отдельно для каждого цвета^[22]. При сдержанной красочной гамме, не
+   всегда соответствующей натуральному цвету^[23], и обобщённо-условной
+   форме, японская гравюра (даже в чёрно-белом исполнении) отличается
+   особенной утончённой декоративностью.
 
-   Evropejskaya obreznaya ksilogravyura, proizvedeniya kotoroj byli
-   dostupny shirokim sloyam naseleniya, dolgoe vremya byla monohromnoj. V
-   Evrope gravyura na dereve byla izvestna s XIV veka, evropejcev s
-   gravyuroj (cherez igral'nye karty, kotorye chasche vsego pechatalis' s
-   derevyannyh dosok) poznakomili araby. Do nachala XV veka v evropejskoj
-   gravyure gospodstvoval konturnyj risunok. Vskore metodom gravirovaniya
-   stali proizvodit' pechatnye listy s izobrazheniem i tekstom, kotorymi
-   ukrashali steny v domah. Samyj rannij obrazec takogo lista datiruetsya
-   1423 godom. So vtoroj treti XIV veka v Germanii i Gollandii
-   rasprostranilis' nebol'shie broshyury ili �blochnye knigi�, gde
-   kartinki vmeste s tekstom pechatalis' s graviroval'noj doski. Odna iz
-   samyh massovyh knizhek `etogo vida -- �Bibliya dlya bednyh�, starejshij
-   `ekzemplyar kotoroj otpechatan v 1430--1440 godah (Gejdel'berg,
-   Universitetskaya biblioteka). Dlya kazhdoj stranicy podobnoj knigi
-   trebovalos' izgotovit' svoyu gravernuyu dosku^[24].
+   Европейская обрезная ксилогравюра, произведения которой были доступны
+   широким слоям населения, долгое время была монохромной. В Европе
+   гравюра на дереве была известна с XIV века, европейцев с гравюрой
+   (через игральные карты, которые чаще всего печатались с деревянных
+   досок) познакомили арабы. До начала XV века в европейской гравюре
+   господствовал контурный рисунок. Вскоре методом гравирования стали
+   производить печатные листы с изображением и текстом, которыми украшали
+   стены в домах. Самый ранний образец такого листа датируется 1423 годом.
+   Со второй трети XIV века в Германии и Голландии распространились
+   небольшие брошюры или «блочные книги», где картинки вместе с текстом
+   печатались с гравировальной доски. Одна из самых массовых книжек этого
+   вида — «Библия для бедных», старейший экземпляр которой отпечатан в
+   1430—1440 годах (Гейдельберг, Университетская библиотека). Для каждой
+   страницы подобной книги требовалось изготовить свою граверную
+   доску^[24].
 
-   Razvitie evropejskoj gravyury na dereve tesno svyazano s tvorchestvom
-   Al'brehta Dyurera, ego proizvedeniya, gde ispol'zovalas' tol'ko odna
-   kraska -- chiornaya, ne ustupali, po mneniyu nekotoryh sovremennikov,
-   zhivopisnym proizvedeniyam. Dyurer izmenil gospodstvovavshuyu ranee
-   maneru raboty v ksilografii, perenesya v `etu oblast' tehnicheskie
-   priiomy, harakternye dlya gravyury na metalle. S pomosch'yu
-   raznoobraznoj shtrihovki on stremilsya peredat' kak mozhno bolee
-   pravdopodobno ob"iom predmetov i nyuansy svetoteni, stavya ves'ma
-   trudnye zadachi dlya rezchika. Po mneniyu chasti issledovatelej ego
-   tvorchestva, nekotorye gravyury on rezal sam^[25]. Rascvet evropejskoj
-   ksilografii prishiolsya na pervuyu polovinu XVI veka, pozdnee eio mesto
-   zanyala gravyura na metalle, v knigopechatanii ksilografiya stala
-   ispol'zovat'sya tol'ko dlya vosproizvedeniya vin'etok. V gravyure na
-   medi legche peredat' igru polutonov, tak kak dlya sozdaniya tonkih
-   shtrihov ispol'zovalsya rezec-shtihel', na doske prodol'nogo raspila
-   shtihelem rabotat' nevozmozhno -- on rviot poperechnye drevesnye
-   volokna, pri pechati takoj obrez daiot gryaznyj, zazubrennyj
-   shtrih^[26].
+   Развитие европейской гравюры на дереве тесно связано с творчеством
+   Альбрехта Дюрера, его произведения, где использовалась только одна
+   краска — чёрная, не уступали, по мнению некоторых современников,
+   живописным произведениям. Дюрер изменил господствовавшую ранее манеру
+   работы в ксилографии, перенеся в эту область технические приёмы,
+   характерные для гравюры на металле. С помощью разнообразной штриховки
+   он стремился передать как можно более правдоподобно объём предметов и
+   нюансы светотени, ставя весьма трудные задачи для резчика. По мнению
+   части исследователей его творчества, некоторые гравюры он резал
+   сам^[25]. Расцвет европейской ксилографии пришёлся на первую половину
+   XVI века, позднее её место заняла гравюра на металле, в книгопечатании
+   ксилография стала использоваться только для воспроизведения виньеток. В
+   гравюре на меди легче передать игру полутонов, так как для создания
+   тонких штрихов использовался резец-штихель, на доске продольного
+   распила штихелем работать невозможно — он рвёт поперечные древесные
+   волокна, при печати такой обрез даёт грязный, зазубренный штрих^[26].
 
-   V 1780-h godah Tomas B'yuik izobriol torcovuyu (ili tonovuyu,
-   reprodukionnuyu) gravyuru -- na doskah, sobiraemyh iz plastin
-   poperechnogo raspila tviordyh sortov dereva. Poluchalas' tviordaya i
-   odnorodnaya po stroeniyu poverhnost', podhodyaschaya dlya raboty
-   shtihelyami. Forma dlya pechati poluchaetsya bolee prochnoj, s neio
-   mozhno sdelat' bol'she otpechatkov, chem s doski prodol'nogo raspila.
-   Pri torcovom sposobe gravirovaniya stalo vozmozhnym poluchat' v odin
-   rez shtrihi razlichnoj tolschiny do samyh tonkih. SHtrihi pri pechati
-   ostayutsya belymi -- B'yuik ispol'zoval pri rabote na dereve priiomy
-   uglublionnoj gravyury, i poluchil vozmozhnost' sozdavat' slozhnye
-   tonal'nye i cvetovye perehody s pomosch'yu belyh, a ne chiornyh, kak v
-   obreznoj gravyure, shtrihov^[27]^[28].
+   В 1780-х годах Томас Бьюик изобрёл торцовую (или тоновую,
+   репродукионную) гравюру — на досках, собираемых из пластин поперечного
+   распила твёрдых сортов дерева. Получалась твёрдая и однородная по
+   строению поверхность, подходящая для работы штихелями. Форма для печати
+   получается более прочной, с неё можно сделать больше отпечатков, чем с
+   доски продольного распила. При торцовом способе гравирования стало
+   возможным получать в один рез штрихи различной толщины до самых тонких.
+   Штрихи при печати остаются белыми — Бьюик использовал при работе на
+   дереве приёмы углублённой гравюры, и получил возможность создавать
+   сложные тональные и цветовые переходы с помощью белых, а не чёрных, как
+   в обрезной гравюре, штрихов^[27]^[28].
 
-Dekorativnoe, prikladnoe, dekorativno-prikladnoe iskusstvo[pravit' | pravit'
-kod]
+Декоративное, прикладное, декоративно-прикладное искусство[править | править
+код]
 
-Pryanichnye doski[pravit' | pravit' kod]
+Пряничные доски[править | править код]
 
-   Sleva: car' David, igrayuschij na arfe. Pryanichnaya doska. 1650. Muzej
-    pryanika i narodnogo tvorchestva `El'zasa. Sprava: Sovremennye doski
-                     dlya pechataniya pryanikov. Gorodec
+Слева: царь Давид, играющий на арфе. Пряничная доска. 1650. Музей
+пряника и народного творчества Эльзаса. Справа: Современные доски для
+             печатания пряников. Городец
 
-   Pryanichnaya doska -- forma iz drevesiny preimuschestvenno listvennyh
-   porod dlya proizvodstva pechatnyh pryanikov^[29] s vyrezannym na nej
-   kontrrel'efnym uzorom. V germanskih zemlyah rezkoj dosok zanimalis'
-   sami pekari libo rezchiki-graviory, v nekotoryh mestnostyah
-   proizvodstvo form dlya pryanikov bylo tesnym obrazom svyazano s
-   proizvodstvom dosok dlya nabojki tkani. Krome dereva dlya pryanichnyh
-   form ispol'zovalis' i drugie materialy, takie kak kamen' i glina.
-   Glinyanye formy, v otlichie ot derevyannyh, byli izvestny eschio v
-   antichnuyu `epohu^[30], no imenno derevyannye doski pri massovom
-   proizvodstve pryanikov byli naibolee udobnymi^[31]. Samye drevnie
-   evropejskie derevyannye formy, doshedshie do nashih dnej, datiruyutsya
-   XVI vekom^[32]. V slovackih Koshice i Banska-Bystrice byli obnaruzheny
-   derevyannye pryanichnye doski, datiruemye 1631 i 1635 godami
-   sootvetstvenno^[33].
+   Пряничная доска — форма из древесины преимущественно лиственных пород
+   для производства печатных пряников^[29] с вырезанным на ней
+   контррельефным узором. В германских землях резкой досок занимались сами
+   пекари либо резчики-гравёры, в некоторых местностях производство форм
+   для пряников было тесным образом связано с производством досок для
+   набойки ткани. Кроме дерева для пряничных форм использовались и другие
+   материалы, такие как камень и глина. Глиняные формы, в отличие от
+   деревянных, были известны ещё в античную эпоху^[30], но именно
+   деревянные доски при массовом производстве пряников были наиболее
+   удобными^[31]. Самые древние европейские деревянные формы, дошедшие до
+   наших дней, датируются XVI веком^[32]. В словацких Кошице и
+   Банска-Быстрице были обнаружены деревянные пряничные доски, датируемые
+   1631 и 1635 годами соответственно^[33].
 
-   V Rossii v XVII veke risunki dlya moskovskih pryanichnyh dosok
-   sozdavali �kormovye moskovskie i gorodskie ikonopiscy�^[34]. Odnim iz
-   centrov izgotovleniya pryanichnyh dosok i pryanikov s XVIII veka byl
-   Gorodec -- mestnye mastera, v otlichie ot evropejskih, podpisyvali svoi
-   izdeliya. Dve samye rannie datirovannye gorodeckie doski dlya pryanikov
-   -- 1763 i 1766 godov -- `eksponiruyutsya v Gosudarstvennom
-   istoricheskom muzee. Pryanichnye doski iz Gorodca postavlyalis' i v
-   drugie goroda Rossii. Naryadu s gorodeckimi byli izvestny pryanichnye
-   formy iz Moskvy, Tuly, Tveri, Vyaz'my, Arhangel'ska i
-   Vologdy^[35]^[36].
+   В России в XVII веке рисунки для московских пряничных досок создавали
+   «кормовые московские и городские иконописцы»^[34]. Одним из центров
+   изготовления пряничных досок и пряников с XVIII века был Городец —
+   местные мастера, в отличие от европейских, подписывали свои изделия.
+   Две самые ранние датированные городецкие доски для пряников — 1763 и
+   1766 годов — экспонируются в Государственном историческом музее.
+   Пряничные доски из Городца поставлялись и в другие города России.
+   Наряду с городецкими были известны пряничные формы из Москвы, Тулы,
+   Твери, Вязьмы, Архангельска и Вологды^[35]^[36].
 
-   Derevyannye doski v Vostochnoj Evrope rezalis' iz drevesiny beriozy,
-   lipy, grushi, ivy, ol'hi i osiny. Zapadnoevropejskie rezchiki
-   ispol'zovali verhnyuyu chast' stvola grushi, greckogo oreha, buka, eli,
-   kliona, rezhe duba. V konce XVIII veka poyavlyayutsya mnogochislennye
-   doski iz samshita, cenivshegosya za odnorodnuyu strukturu drevesiny.
-   Avstrijskij `etnolog `E. Hiorandner otmechala, chto priblizitel'no do
-   1600 goda germanskie rezchiki ispol'zovali doski torcovogo raspila, v
-   XVII veke oni pereshli na doski prodol'nogo raspila^[31].
+   Деревянные доски в Восточной Европе резались из древесины берёзы, липы,
+   груши, ивы, ольхи и осины. Западноевропейские резчики использовали
+   верхнюю часть ствола груши, грецкого ореха, бука, ели, клёна, реже
+   дуба. В конце XVIII века появляются многочисленные доски из самшита,
+   ценившегося за однородную структуру древесины. Австрийский этнолог Э.
+   Хёранднер отмечала, что приблизительно до 1600 года германские резчики
+   использовали доски торцового распила, в XVII веке они перешли на доски
+   продольного распила^[31].
 
-   Esli bylo neobhodimo sozdat' tonkij uzor so mnozhestvom detalej, to
-   vybiralas' tviordaya drevesina beriozy ili grushi, `eti vidy dereva
-   otlichayutsya prochnost'yu, formy iz nih mogut prosluzhit' dolgie gody.
-   Uzor s vysokim rel'efom i plastichnymi liniyami luchshe vsego
-   poluchaetsya na legko obrabatyvaemoj lipovoj doske, odnako doski iz
-   `etoj drevesiny nedolgovechny^[31]. Suschestvovali sostavnye
-   pryanichnye formy, gde sobstvenno chast' iz dorogoj drevesiny, s
-   kotoroj pechatalsya pryanik krepilas' na bazu iz dereva nizshego
-   kachestva^[37].
+   Если было необходимо создать тонкий узор со множеством деталей, то
+   выбиралась твёрдая древесина берёзы или груши, эти виды дерева
+   отличаются прочностью, формы из них могут прослужить долгие годы. Узор
+   с высоким рельефом и пластичными линиями лучше всего получается на
+   легко обрабатываемой липовой доске, однако доски из этой древесины
+   недолговечны^[31]. Существовали составные пряничные формы, где
+   собственно часть из дорогой древесины, с которой печатался пряник
+   крепилась на базу из дерева низшего качества^[37].
 
-   Pervonachal'no istochnikami motivov dlya evropejskih pryanichnyh form
-   byli gravyury na dereve i medi, shiroko rasprostranyavshiesya po
-   nemeckim zemlyam v XV--XVI vekah, obrazcami sluzhili i yuvelirnye
-   izdeliya. V `epohu barokko masterstvo rezchikov vozrastaet, i
-   vypuskayutsya formy s bolee slozhnymi uzorami^[31].
+   Первоначально источниками мотивов для европейских пряничных форм были
+   гравюры на дереве и меди, широко распространявшиеся по немецким землям
+   в XV—XVI веках, образцами служили и ювелирные изделия. В эпоху барокко
+   мастерство резчиков возрастает, и выпускаются формы с более сложными
+   узорами^[31].
 
-   V XX veke, pri perehode na promyshlennyj sposob proizvodstva pechatnyh
-   i figurnyh pryanikov, neodnokratno predprinimalis' popytki zamenit'
-   derevyannye pryanichnye doski formami iz drugih materialov. Odnako
-   imenno derevyannye doski schitayutsya naibolee podhodyaschimi dlya
-   formirovaniya izdelij iz pryanichnogo testa, i do nastoyaschego vremeni
-   v centrah proizvodstva `etogo konditerskogo izdeliya sohranyaetsya
-   professiya rezchika dosok^[38].
+   В XX веке, при переходе на промышленный способ производства печатных и
+   фигурных пряников, неоднократно предпринимались попытки заменить
+   деревянные пряничные доски формами из других материалов. Однако именно
+   деревянные доски считаются наиболее подходящими для формирования
+   изделий из пряничного теста, и до настоящего времени в центрах
+   производства этого кондитерского изделия сохраняется профессия резчика
+   досок^[38].
 
-Primechaniya[pravit' | pravit' kod]
+Примечания[править | править код]
 
-    1. ^| ^1 ^2 Alekseev YU., Kazachinskij V., Bondar' V. Istoriya
-       arhitektury gradostroitel'stva i dizajna. Kurs lekcij. -- M.:
-       Izdatel'stvo Associacii stroitel'nyh vuzov, 2008. -- S. 14.
-    2. ^| ^1 ^2 Vardanyan, 2004, s. 37, 39.
-    3. ^| Gasparov M. Zanimatel'naya Greciya. -- M.: Mir `enciklopedij
-       Avanta+, Astrel', 2008. -- S. 217--218.
-    4. ^| Vardanyan, 2004, s. 136--137.
-    5. ^| Hodakovskij, 2015, s. 42--44, 46--47.
-    6. ^| Hodakovskij, 2015, s. 46.
-    7. ^| Hodakovskij, 2015, s. 47--48.
-    8. ^| Zhilin M., Savchenko S., Hansen S., Heussner K.-U., Terberger T.
+    1. ↑ ^1 ^2 Алексеев Ю., Казачинский В., Бондарь В. История архитектуры
+       градостроительства и дизайна. Курс лекций. — М.: Издательство
+       Ассоциации строительных вузов, 2008. — С. 14.
+    2. ↑ ^1 ^2 Варданян, 2004, с. 37, 39.
+    3. ↑ Гаспаров М. Занимательная Греция. — М.: Мир энциклопедий Аванта+,
+       Астрель, 2008. — С. 217—218.
+    4. ↑ Варданян, 2004, с. 136—137.
+    5. ↑ Ходаковский, 2015, с. 42—44, 46—47.
+    6. ↑ Ходаковский, 2015, с. 46.
+    7. ↑ Ходаковский, 2015, с. 47—48.
+    8. ↑ Zhilin M., Savchenko S., Hansen S., Heussner K.-U., Terberger T.
        Early art in the Urals: new research on the wooden sculpture from
-       Shigir (angl.) // Antiquity. -- 2018. -- Vol. 92, iss. 362. -- P.
-       334--350. -- doi:10.15184/aqy.2018.48. Arhivirovano 14 sentyabrya
-       2019 goda.
-    9. ^| Dzuffi S. Vozrozhdenie. XV vek. Kvatrochento. -- M.:
-       Omega-press, 2008. -- S. 68.
-   10. ^| Dzuffi S. Vozrozhdenie. XV vek. Kvatrochento. -- M.:
-       Omega-press, 2008. -- S. 71.
-   11. ^| Mal'cev N. V. Russkaya derevyannaya skul'ptura XVI--XVIII vv.
-       Hudozhestvennye svyazi remeslennyh centrov // Problemy izucheniya,
-       sohraneniya i ispol'zovaniya naslediya hristianskoj derevyannoj
-       skul'ptury: materialy mezhregional'nogo simpoziuma, 3-4 dekabrya
-       2003 g.. -- Ministerstvo kul'tury i massovyh kommunikacij Permskogo
-       kraya, Permskaya gosudarstvennaya hudozhestvennaya galereya,
-       2007. -- S. 8--9.
-   12. ^| Sokolova I. M. . -- M.: FGUP Izd-vo Izvestiya, 2003. -- ISBN
+       Shigir (англ.) // Antiquity. — 2018. — Vol. 92, iss. 362. — P.
+       334—350. — doi:10.15184/aqy.2018.48. Архивировано 14 сентября
+       2019 года.
+    9. ↑ Дзуффи С. Возрождение. XV век. Кватроченто. — М.: Омега-пресс,
+       2008. — С. 68.
+   10. ↑ Дзуффи С. Возрождение. XV век. Кватроченто. — М.: Омега-пресс,
+       2008. — С. 71.
+   11. ↑ Мальцев Н. В. Русская деревянная скульптура XVI—XVIII вв.
+       Художественные связи ремесленных центров // Проблемы изучения,
+       сохранения и использования наследия христианской деревянной
+       скульптуры: материалы межрегионального симпозиума, 3-4 декабря 2003
+       г.. — Министерство культуры и массовых коммуникаций Пермского края,
+       Пермская государственная художественная галерея, 2007. — С. 8—9.
+   12. ↑ Соколова И. М. . — М.: ФГУП Изд-во Известия, 2003. — ISBN
        5-88678-037-8.
-   13. ^| Grenberg, 2003, s. 34.
-   14. ^| ^1 ^2 Grenberg, 2003, s. 36.
-   15. ^| Grenberg, 2003, s. 34--35.
-   16. ^| Grenberg, 2003, s. 35--36.
-   17. ^| ^1 ^2 ^3 Grenberg, 2003, s. 38--39.
-   18. ^| Grenberg, 2003, s. 42.
-   19. ^| `ESBE/Restavraciya proizvedenij iskusstva -- Vikiteka
-   20. ^| Grenberg, 2003, s. 41.
-   21. ^| Grenberg, 2003, s. 45--47.
-   22. ^| Byalik, 2010, s. 70--71.
-   23. ^| Byalik, 2010, s. 71.
-   24. ^| Nemirovskij, 1986, s. 69--70.
-   25. ^| Byalik, 2010, s. 74--75.
-   26. ^| Nemirovskij, 1986, s. 171--172.
-   27. ^| Nemirovskij, 1986, s. 172.
-   28. ^| Vishnyakova, YUliya Igorevna. Ksilograficheskie pechatnye formy
-       v fonde Muzeya knigi RGB / YU. I. Vishnyakova // Al'manah
-       bibliofila. - Vyp. 35. - Moskva, 2012. - S. 128-135.
-   29. ^| Pryanichnye doski, ili Istoriya so vkusom  (neopr.). Novosti
-       muzeev. Arhivirovano 5 dekabrya 2017 goda.
-   30. ^| Archives suisses des traditions populaires. -- Schweizerische
-       Gesellschaft f�r Volkskunde, 1989. -- Vol. 85. -- S. 446.
-   31. ^| ^1 ^2 ^3 ^4 H�randner E. Model: Geschnitzte formen f�r
-       Lebkuchen, Spekulatius und Springerle. -- M�nchen: Callwey Georg
-       D.W. GmbH, 1982.
-   32. ^| Piroska W. Ungarische Lebkuchenformen des 16./17.
-       Jahrhunderts // Grapfis. -- Z�rich, 1964. -- No. 111--116.
-   33. ^| Lyahovskaya L. P. Pravoslavnaya obryadovaya kuhnya. -- SPb.:
-       Kristall, 2001=. -- S. 20.
-   34. ^| Goncharova N. N. Tverskie pryanichnye doski // Pamyatniki
-       russkoj narodnoj kul'tury XVII--XIX vekov / Otv. red. S. G.
-       ZHizhina. -- Moskva: GIM, 1990. -- S. 132.
-   35. ^| Fedotov G. YA. Pryanichnye doski // YUnyj tehnik. -- M.:
-       Molodaya gvardiya, 1983. -- No. 12. -- S. 49.
-   36. ^| Sokol'skij I. Pryanik na Rozhdestvo // Nauka i zhizn' :
-       zhurnal. -- 2012. -- No. 12. -- S. 101.
-   37. ^| H�randner E. Model: Geschnitzte formen f�r Lebkuchen,
-       Spekulatius und Springerle. -- M�nchen: Callwey Georg D.W. GmbH,
+   13. ↑ Гренберг, 2003, с. 34.
+   14. ↑ ^1 ^2 Гренберг, 2003, с. 36.
+   15. ↑ Гренберг, 2003, с. 34—35.
+   16. ↑ Гренберг, 2003, с. 35—36.
+   17. ↑ ^1 ^2 ^3 Гренберг, 2003, с. 38—39.
+   18. ↑ Гренберг, 2003, с. 42.
+   19. ↑ ЭСБЕ/Реставрация произведений искусства — Викитека
+   20. ↑ Гренберг, 2003, с. 41.
+   21. ↑ Гренберг, 2003, с. 45—47.
+   22. ↑ Бялик, 2010, с. 70—71.
+   23. ↑ Бялик, 2010, с. 71.
+   24. ↑ Немировский, 1986, с. 69—70.
+   25. ↑ Бялик, 2010, с. 74—75.
+   26. ↑ Немировский, 1986, с. 171—172.
+   27. ↑ Немировский, 1986, с. 172.
+   28. ↑ Вишнякова, Юлия Игоревна. Ксилографические печатные формы в фонде
+       Музея книги РГБ / Ю. И. Вишнякова // Альманах библиофила. - Вып.
+       35. - Москва, 2012. - С. 128-135.
+   29. ↑ Пряничные доски, или История со вкусом  (неопр.). Новости музеев.
+       Архивировано 5 декабря 2017 года.
+   30. ↑ Archives suisses des traditions populaires. — Schweizerische
+       Gesellschaft für Volkskunde, 1989. — Vol. 85. — С. 446.
+   31. ↑ ^1 ^2 ^3 ^4 Hörandner E. Model: Geschnitzte formen für Lebkuchen,
+       Spekulatius und Springerle. — München: Callwey Georg D.W. GmbH,
        1982.
-   38. ^| Russkie. Narodnaya kul'tura. Istoriya i sovremennost'. -- In-t
-       `etnologii i antropologii, 1997. -- T. 2. Material'naya
-       kul'tura. -- S. 304.
+   32. ↑ Piroska W. Ungarische Lebkuchenformen des 16./17. Jahrhunderts //
+       Grapfis. — Zürich, 1964. — № 111—116.
+   33. ↑ Ляховская Л. П. Православная обрядовая кухня. — СПб.: Кристалл,
+       2001=. — С. 20.
+   34. ↑ Гончарова Н. Н. Тверские пряничные доски // Памятники русской
+       народной культуры XVII—XIX веков / Отв. ред. С. Г. Жижина. —
+       Москва: ГИМ, 1990. — С. 132.
+   35. ↑ Федотов Г. Я. Пряничные доски // Юный техник. — М.: Молодая
+       гвардия, 1983. — № 12. — С. 49.
+   36. ↑ Сокольский И. Пряник на Рождество // Наука и жизнь : журнал. —
+       2012. — № 12. — С. 101.
+   37. ↑ Hörandner E. Model: Geschnitzte formen für Lebkuchen, Spekulatius
+       und Springerle. — München: Callwey Georg D.W. GmbH, 1982.
+   38. ↑ Русские. Народная культура. История и современность. — Ин-т
+       этнологии и антропологии, 1997. — Т. 2. Материальная культура. —
+       С. 304.
 
-Literatura[pravit' | pravit' kod]
+Литература[править | править код]
 
-     * Byalik V. M. Grafika. -- M.: Mir `enciklopedij Avanta+, 2010. --
-       112 s. -- ISBN 978-5-98986-395-2.
-     * Vardanyan R. V. Mirovaya hudozhestvennaya kul'tura: Arhitektura. --
-       M.: Vlados, 2004. -- ISBN 5-691-01064-6.
-     * Grenberg YU. I. Ot fayumskogo portreta do postimpressionizma:
-       Istoriya tehnologii stankovoj zhivopisi. -- M.: Iskusstvo, 2003.
-     * Nemirovskij E. L. Mir knigi. S drevnejshih vremion do nachala XX
-       veka / Recenzenty A. A. Govorov, E. A. Dinershtejn, V. G. Utkov. --
-       Moskva: Kniga, 1986. -- 50 000 `ekz.
-     * Hodakovskij E. V. Derevyannye machtovye cerkvi Norvegii. --
-       Sankt-Peterburg: Avrora, 2015. -- 252 s.
+     * Бялик В. М. Графика. — М.: Мир энциклопедий Аванта+, 2010. —
+       112 с. — ISBN 978-5-98986-395-2.
+     * Варданян Р. В. Мировая художественная культура: Архитектура. — М.:
+       Владос, 2004. — ISBN 5-691-01064-6.
+     * Гренберг Ю. И. От фаюмского портрета до постимпрессионизма: История
+       технологии станковой живописи. — М.: Искусство, 2003.
+     * Немировский Е. Л. Мир книги. С древнейших времён до начала XX века
+       / Рецензенты А. А. Говоров, Е. А. Динерштейн, В. Г. Утков. —
+       Москва: Книга, 1986. — 50 000 экз.
+     * Ходаковский Е. В. Деревянные мачтовые церкви Норвегии. —
+       Санкт-Петербург: Аврора, 2015. — 252 с.
 
-   Istochnik --
-   https://ru.wikipedia.org/w/index.php?title=Derevo_(v_iskusstve)&oldid=1
+   Источник —
+   https://ru.wikipedia.org/w/index.php?title=Дерево_(в_искусстве)&oldid=1
    27440991
-   Kategoriya:
-     * Hudozhestvennye materialy
+   Категория:
+     * Художественные материалы
 
-   Skrytye kategorii:
-     * Stranicy, ispol'zuyuschie volshebnye ssylki ISBN
-     * Vikipediya:Stranicy s modulem Hatnote s krasnoj ssylkoj
+   Скрытые категории:
+     * Страницы, использующие волшебные ссылки ISBN
+     * Википедия:Страницы с модулем Hatnote с красной ссылкой
 
-Navigaciya
+Навигация
 
-Personal'nye instrumenty
+Персональные инструменты
 
-     * Vy ne predstavilis' sisteme
-     * Obsuzhdenie
-     * Vklad
-     * Sozdat' uchiotnuyu zapis'
-     * Vojti
+     * Вы не представились системе
+     * Обсуждение
+     * Вклад
+     * Создать учётную запись
+     * Войти
 
-Prostranstva imion
+Пространства имён
 
-     * Stat'ya
-     * Obsuzhdenie
+     * Статья
+     * Обсуждение
 
-   [ ] russkij
+   [ ] русский
 
-Prosmotry
+Просмотры
 
-     * CHitat'
-     * Pravit'
-     * Pravit' kod
-     * Istoriya
+     * Читать
+     * Править
+     * Править код
+     * История
 
-   [ ] Eschio
+   [ ] Ещё
 
-Poisk
+Поиск
 
-   ____________________ Najti Perejti
+   ____________________ Найти Перейти
 
-Navigaciya
+Навигация
 
-     * Zaglavnaya stranica
-     * Soderzhanie
-     * Izbrannye stat'i
-     * Sluchajnaya stat'ya
-     * Tekuschie sobytiya
-     * Pozhertvovat'
+     * Заглавная страница
+     * Содержание
+     * Избранные статьи
+     * Случайная статья
+     * Текущие события
+     * Пожертвовать
 
-Uchastie
+Участие
 
-     * Soobschit' ob oshibke
-     * Kak pravit' stat'i
-     * Soobschestvo
-     * Forum
-     * Svezhie pravki
-     * Novye stranicy
-     * Spravka
+     * Сообщить об ошибке
+     * Как править статьи
+     * Сообщество
+     * Форум
+     * Свежие правки
+     * Новые страницы
+     * Справка
 
-Instrumenty
+Инструменты
 
-     * Ssylki syuda
-     * Svyazannye pravki
-     * Sluzhebnye stranicy
-     * Postoyannaya ssylka
-     * Svedeniya o stranice
-     * Citirovat' stranicu
-     * Poluchit' sokraschionnyj URL-adres
-     * `Element Vikidannyh
+     * Ссылки сюда
+     * Связанные правки
+     * Служебные страницы
+     * Постоянная ссылка
+     * Сведения о странице
+     * Цитировать страницу
+     * Получить сокращённый URL-адрес
+     * Элемент Викиданных
 
-Pechat'/`eksport
+Печать/экспорт
 
-     * Skachat' kak PDF
-     * Versiya dlya pechati
+     * Скачать как PDF
+     * Версия для печати
 
-Na drugih yazykah
+На других языках
 
-   Dobavit' ssylki
+   Добавить ссылки
 
-     * `Eta stranica v poslednij raz byla otredaktirovana 24 dekabrya 2022
-       v 01:00.
-     * Tekst dostupen po licenzii Creative Commons �S ukazaniem avtorstva
-       -- S sohraneniem uslovij� (CC BY-SA); v otdel'nyh sluchayah mogut
-       dejstvovat' dopolnitel'nye usloviya. Podrobnee sm. Usloviya
-       ispol'zovaniya.
-       Wikipedia� -- zaregistrirovannyj tovarnyj znak nekommercheskoj
-       organizacii Fond Vikimedia (Wikimedia Foundation, Inc.)
+     * Эта страница в последний раз была отредактирована 24 декабря 2022 в
+       01:00.
+     * Текст доступен по лицензии Creative Commons «С указанием авторства
+       — С сохранением условий» (CC BY-SA); в отдельных случаях могут
+       действовать дополнительные условия. Подробнее см. Условия
+       использования.
+       Wikipedia® — зарегистрированный товарный знак некоммерческой
+       организации Фонд Викимедиа (Wikimedia Foundation, Inc.)
 
-     * Politika konfidencial'nosti
-     * Opisanie Vikipedii
-     * Otkaz ot otvetstvennosti
-     * Svyazhites' s nami
-     * Kodeks povedeniya
-     * Razrabotchiki
-     * Statistika
-     * Zayavlenie o kuki
-     * Mobil'naya versiya
+     * Политика конфиденциальности
+     * Описание Википедии
+     * Отказ от ответственности
+     * Свяжитесь с нами
+     * Кодекс поведения
+     * Разработчики
+     * Статистика
+     * Заявление о куки
+     * Мобильная версия
 
      * Wikimedia Foundation
      * Powered by MediaWiki

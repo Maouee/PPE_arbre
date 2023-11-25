@@ -1,6 +1,6 @@
    progetto di riferimento.
 
-   L'albero, in meccanica, Ë un organo di trasmissione di un moto
+   L'albero, in meccanica, √® un organo di trasmissione di un moto
    rotatorio.
    [ ]
 --
@@ -12,47 +12,54 @@
 --
 Usi[modifica | modifica wikitesto]
 
-   L'albero ha una grandissima quantit‡ di applicazioni in tutti i campi
-   della trasmissione del moto. Per fare un esempio domestico, l'estremit‡
-   del frullatore, su cui si innesta il vaso, Ë un giunto collegato
+   L'albero ha una grandissima quantit√† di applicazioni in tutti i campi
+   della trasmissione del moto. Per fare un esempio domestico, l'estremit√†
+   del frullatore, su cui si innesta il vaso, √® un giunto collegato
    all'albero di un motore elettrico.
 
-   Nei mezzi di trasporto, vi Ë una grande quantit‡ di alberi: nei motori
+   Nei mezzi di trasporto, vi √® una grande quantit√† di alberi: nei motori
    a pistoni abbiamo l'albero motore, detto anche albero a gomiti o albero
    eccentrico, o collo d'oca che converte il moto alternativo dei pistoni
    in rotatorio, in quanto parte del sistema di manovellismo
 --
 
-   Questo, nelle automobili, Ë connesso alla scatola del cambio, in cui
+   Questo, nelle automobili, √® connesso alla scatola del cambio, in cui
    alloggiano l'albero primario e l'albero secondario; la scatola
    trasferisce quindi il moto a un albero di trasmissione che, a sua volta
    e tramite il differenziale, lo trasmette agli alberi delle ruote detti
    anche semiassi. Numerosi alberi poi fanno parte dei sistemi ausiliari,
    quali le pompe, il tergicristallo eccetera. Ma in tutte le applicazioni
-   di meccanica si trovano impieghi di alberi, nelle forme pi˘ varie.
+   di meccanica si trovano impieghi di alberi, nelle forme pi√π varie.
 
 L'albero dal punto di vista meccanico[modifica | modifica wikitesto]
 
    [220px-Shaft.PNG] Albero sollecitato a flessione
---
-   Come si Ë detto, l'albero trasmette un moto rotatorio; esso Ë quindi
+
+   Come si √® detto, l'albero trasmette un moto rotatorio; esso √® quindi
    sottoposto a uno sforzo di torsione; nella maggior parte dei casi, a
-   causa di masse collegate all'albero stesso, esso Ë anche sottoposto a
+   causa di masse collegate all'albero stesso, esso √® anche sottoposto a
    sforzo di flessione. In figura la linea rossa mostra l'inflessione di
    un albero supportato in due punti e recante a sbalzo una massa, che
    genera una forza peso F. Per le leggi della scienza delle costruzioni,
-   quindi, l'albero dovr‡ essere dotato di opportuni supporti. Si pone,
+   quindi, l'albero dovr√† essere dotato di opportuni supporti. Si pone,
    quindi, il problema dell'attrito tra la parte rotante (albero) e quella
-   stazionaria (supporto), di cui Ë parte essenziale la definizione di
+   stazionaria (supporto), di cui √® parte essenziale la definizione di
    giochi e interferenze.
 
    Per evitare che l'albero sia sottoposto a una coppia di torsione troppo
-   elevata, si puÚ ricorrere alla chiavetta di Woodruff, la quale se
+   elevata, si pu√≤ ricorrere alla chiavetta di Woodruff, la quale se
    sottoposta a uno sforzo eccessivo si rompe e svincola l'albero motore
    dal carico.
 
 Accorgimenti[modifica | modifica wikitesto]
 
-   L'albero motore puÚ essere munito o caratterizzato da alcuni elementi o
+   L'albero motore pu√≤ essere munito o caratterizzato da alcuni elementi o
    funzioni a seconda del tipo d'utilizzo:
-     * Cavit‡ nel caso di un albero motore dritto, questo puÚ essere
+     * Cavit√† nel caso di un albero motore dritto, questo pu√≤ essere
+       creato cavo per poter aumentare la sua leggerezza senza
+       compromettere alla sua rigidezza nella torsione.
+     * Contro rotante soluzione usata su alcuni mezzi stradali, in
+       particolar modo sulle motociclette, in modo da ridurre l'effetto
+       giroscopico e ridurre l'impennata, questo perch√© l'albero motore
+       ruotando in senso opposto a quello delle ruote annulla parte
+       dell'effetto giroscopico, permettendo un cambio di traiettoria pi√π

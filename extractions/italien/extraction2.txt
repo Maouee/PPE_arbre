@@ -15,9 +15,9 @@ Albero a camme
    cilindro per motore quadricilindrico in linea[Nockenwelle_2005.jpg]
    Albero a camme per motore o bancata quadricilidrici
 
-   L'albero a camme, nella meccanica, � un albero motore con parti
+   L'albero a camme, nella meccanica, è un albero motore con parti
    eccentriche calettate, atto a trasmettere particolari leggi di moto
-   agli elementi che vi sono a contatto. Nei motori a scoppio � l'albero
+   agli elementi che vi sono a contatto. Nei motori a scoppio è l'albero
    responsabile della distribuzione su cui sono montati degli eccentrici,
    detti "camme", forzate su un tubo in acciaio cementato (generalmente
    acciaio 18NiCrMo5) o costituenti un tutt'uno forgiato o realizzati
@@ -42,28 +42,28 @@ Albero a camme[modifica | modifica wikitesto]
    delle camme
 
    L'albero a camme viene azionato dall'albero motore rispetto al quale
-   ruota (nel motore a quattro tempi) a velocit� angolare dimezzata e al
-   quale � generalmente collegato tramite catena o cinghia. In alcuni
+   ruota (nel motore a quattro tempi) a velocità angolare dimezzata e al
+   quale è generalmente collegato tramite catena o cinghia. In alcuni
    motori il collegamento viene effettuato tramite meccanismi costituiti
    da una cascata di ingranaggi, alberelli con coppie coniche o coppia di
    bielle.
 
-   Il profilo delle camme � caratterizzato da un'eccentricit� pi� o meno
-   marcata (alzo). La forma degli eccentrici � determinante ai fini delle
+   Il profilo delle camme è caratterizzato da un'eccentricità più o meno
+   marcata (alzo). La forma degli eccentrici è determinante ai fini delle
    prestazioni in quanto regola il diagramma di apertura, fasature e
-   ampiezze, e anche ai fini della rumorosit� in quanto regola l'impatto
+   ampiezze, e anche ai fini della rumorosità in quanto regola l'impatto
    tra valvole e sedi delle stesse.
    [18px-Magnifying_glass_icon_mgx2.svg.png] Lo stesso argomento in
    dettaglio: Camma.
 
-   Nei motori attuali l'albero a camme � situato generalmente al di sopra
+   Nei motori attuali l'albero a camme è situato generalmente al di sopra
    della testata. Con tale disposizione prende il nome di "albero a camme
    in testa" e comanda le valvole mediante punterie a bicchiere. In altri
    motori l'albero a camme era situato lateralmente alla testata del
    motore.
 
    A seconda del numero di valvole per cilindro e della disposizione dei
-   cilindri ci possono essere pi� alberi a camme, anche se generalmente
+   cilindri ci possono essere più alberi a camme, anche se generalmente
    non superano i due per bancata (doppio albero a camme in testa). Altri
    sistemi prevedono prima delle valvole vari rimandi meccanici quali aste
    o bilancieri, sistemi comunque progressivamente abbandonati per il
@@ -84,12 +84,12 @@ L'importanza dell'albero a camme[modifica | modifica wikitesto]
    aspirazione sia quelle di scarico, in modo che i gas incombusti vengano
    espulsi dalla camera grazie all'entrata della nuova miscela. In questa
    fase si perde una piccola percentuale di miscela, ma il vantaggio che
-   se ne ricava � un forte lavaggio della camera di combustione, che cos�
-   ad ogni scoppio � sempre "pulita" e raffreddata a dovere.
+   se ne ricava è un forte lavaggio della camera di combustione, che così
+   ad ogni scoppio è sempre "pulita" e raffreddata a dovere.
 
    Se a questo associamo anche il variatore d'alzata, che modifica
    l'escursione in millimetri della valvola, otteniamo un motore in grado
-   di erogare pi� di 100 cv/l.
+   di erogare più di 100 cv/l.
 
    Queste ultime considerazioni ci fanno capire quanto sia importante
    l'asse a camme, un elemento tante volte trascurato tuttavia uno dei
@@ -98,12 +98,12 @@ L'importanza dell'albero a camme[modifica | modifica wikitesto]
 
 Messa in fase dell'albero a camme[modifica | modifica wikitesto]
 
-   L'albero a camme pu� essere messo in fase tramite sistemi diversi:
+   L'albero a camme può essere messo in fase tramite sistemi diversi:
      * fori asolati i fori presenti sull'ingranaggio da accoppiare
        sull'albero sono asolati, in modo da poter variare facilmente e
        velocemente la fasatura;
      * chiavetta di Woodruff sfalsata, l'ingranaggio viene accoppiato
-       tramite questa chiavetta, oppure ogni lobo � provvisto di una
+       tramite questa chiavetta, oppure ogni lobo è provvisto di una
        chiavetta propria;
      * nonio o verniero, prevede l'unione dell'albero all'ingranaggio
        tramite dei fori presenti su entrambi, ma che hanno numero diversi
@@ -127,17 +127,17 @@ Altri progetti[modifica | modifica wikitesto]
      * Wikimedia Commons
 
      * Collabora a Wikizionario Wikizionario contiene il lemma di
-       dizionario �albero a camme�
+       dizionario «albero a camme»
      * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
        altri file su albero a camme
 
 Collegamenti esterni[modifica | modifica wikitesto]
 
      *
-     * (EN) camshaft, su Enciclopedia Britannica, Encyclop�dia Britannica,
+     * (EN) camshaft, su Enciclopedia Britannica, Encyclopædia Britannica,
        Inc. Modifica su Wikidata
 
-   Controllo di autorit� LCCN (EN) sh85010302 � GND (DE) 4120808-0 � J9U
+   Controllo di autorità LCCN (EN) sh85010302 · GND (DE) 4120808-0 · J9U
    (EN, HE) 987007295701905171
    Estratto da
    "https://it.wikipedia.org/w/index.php?title=Albero_a_camme&oldid=136146
@@ -153,7 +153,7 @@ Collegamenti esterni[modifica | modifica wikitesto]
      * Voci con codice LCCN
      * Voci con codice GND
      * Voci con codice J9U
-     * Voci non biografiche con codici di controllo di autorit�
+     * Voci non biografiche con codici di controllo di autorità
 
 Menu di navigazione
 
@@ -195,9 +195,9 @@ Navigazione
      * Aiuto
      * Sportello informazioni
 
-Comunit�
+Comunità
 
-     * Portale Comunit�
+     * Portale Comunità
      * Bar
      * Il Wikipediano
      * Fai una donazione
@@ -227,55 +227,55 @@ In altri progetti
 In altre lingue
 
      * Afrikaans
-     * a+l+e+r+b+y+tm
-     * Az@rbaycanca
-     * Belaruskaya
-     * ���
-     * Catal�
-     * Cestina
+     * العربية
+     * Azərbaycanca
+     * Беларуская
+     * བོད་ཡིག
+     * Català
+     * Čeština
      * Dansk
      * Deutsch
      * English
      * Esperanto
-     * Espa�ol
+     * Español
      * Eesti
      * Euskara
-     * f+a+r+s+
+     * فارسی
      * Suomi
-     * Fran�ais
+     * Français
      * Gaeilge
      * Galego
-     * E+B+R+J+T+
+     * עברית
      * Hrvatski
      * Magyar
      * Bahasa Indonesia
-     * �slenska
-     * ��
-     * ���
-     * ��
+     * Íslenska
+     * 日本語
+     * ქართული
+     * 한국어
      * Bahasa Melayu
-     * �����
+     * မြန်မာဘာသာ
      * Nederlands
-     * Norsk bokm�l
+     * Norsk bokmål
      * Polski
-     * Portugu�s
-     * Rom�na
-     * Russkij
+     * Português
+     * Română
+     * Русский
      * Scots
-     * Slovencina
-     * Slovenscina
-     * Srpski / srpski
+     * Slovenčina
+     * Slovenščina
+     * Српски / srpski
      * Svenska
-     * T�rk�e
-     * Ukrayins'ka
-     * Tie>'ng Vie>-.t
-     * �
+     * Türkçe
+     * Українська
+     * Tiếng Việt
+     * 中文
 
    Modifica collegamenti
 
-     * Questa pagina � stata modificata per l'ultima volta il 26 ott 2023
+     * Questa pagina è stata modificata per l'ultima volta il 26 ott 2023
        alle 06:21.
-     * Il testo � disponibile secondo la licenza Creative Commons
+     * Il testo è disponibile secondo la licenza Creative Commons
        Attribuzione-Condividi allo stesso modo; possono applicarsi
        condizioni ulteriori. Vedi le condizioni d'uso per i dettagli.
 

@@ -44,113 +44,38 @@ Contents
    (BUTTON) move to sidebar (BUTTON) hide
      * (Top)
      * 1Definition
-
-     2Overview
-
-     3Distribution
-
-
-
-   4Parts and function
-
-   (BUTTON) Toggle Parts and function subsection
-     * 4.1Roots
-
-
-
-   4.2Trunk
-
-
-
-   4.3Buds and growth
-
-
-
-   4.4Leaves
-
-
-
-   4.5Reproduction
-
-
-
-   4.6Seeds
-
-
-
-   5Evolutionary history
-
-
-
-   6Ecology
-
-
-
-   7Uses
-
-   (BUTTON) Toggle Uses subsection
-     * 7.1Food
-
-
-
-   7.2Fuel
-
-
-
-   7.3Timber
-
-
-
-   7.4Art
-
-     * 7.4.1Bonsai
-
-
-
-   7.4.2Tree shaping
-
-
-
-   7.5Bark
-
-
-
-   7.6Ornamental trees
-
-
-
-   7.7Other uses
-
-
-
-   8Threats
-
-   (BUTTON) Toggle Threats subsection
-     * 8.1Individual trees
-
-
-
-   8.2Conservation
-
-
-
-   9Mythology
-
-
-
-   10Superlative trees
-
-
-
-   11See also
-
-
-
-   12Notes
-
-
-
-   13References
+     * 2Overview
+     * 3Distribution
+     * 4Parts and function
+       (BUTTON) Toggle Parts and function subsection
+          + 4.1Roots
+          + 4.2Trunk
+          + 4.3Buds and growth
+          + 4.4Leaves
+          + 4.5Reproduction
+          + 4.6Seeds
+     * 5Evolutionary history
+     * 6Ecology
+     * 7Uses
+       (BUTTON) Toggle Uses subsection
+          + 7.1Food
+          + 7.2Fuel
+          + 7.3Timber
+          + 7.4Art
+               o 7.4.1Bonsai
+               o 7.4.2Tree shaping
+          + 7.5Bark
+          + 7.6Ornamental trees
+          + 7.7Other uses
+     * 8Threats
+       (BUTTON) Toggle Threats subsection
+          + 8.1Individual trees
+          + 8.2Conservation
+     * 9Mythology
+     * 10Superlative trees
+     * 11See also
+     * 12Notes
+     * 13References
 
    [ ] Toggle the table of contents
 
@@ -159,40 +84,40 @@ Tree
    [ ] 210 languages
      * Afrikaans
      * Alemannisch
-     * emarNa
-     * ��
-     * �nglisc
-     * a+l+e+r+b+y+tm
-     * Aragon�s
-     * ��
-     * �����������
-     * Arm�neashti
+     * አማርኛ
+     * अंगिका
+     * Ænglisc
+     * العربية
+     * Aragonés
+     * ܐܪܡܝܐ
+     * Արեւմտահայերէն
+     * Armãneashti
      * Arpetan
-     * �����
+     * অসমীয়া
      * Asturianu
      * Atikamekw
-     * ��
-     * Ava�e'e?
+     * अवधी
+     * Avañe'ẽ
      * Aymar aru
-     * Az@rbaycanca
-     * t+r+�g+h+
+     * Azərbaycanca
+     * تۆرکجه
      * Bamanankan
-     * ����
-     * B�n-l�m-g�
-     * Bash�ortsa
-     * Belaruskaya
-     * Belaruskaya (tarashkeviica)
-     * ���
+     * বাংলা
+     * Bân-lâm-gú
+     * Башҡортса
+     * Беларуская
+     * Беларуская (тарашкевіца)
+     * भोजपुरी
      * Bikol Central
-     * B"lgarski
+     * Български
      * Boarisch
-     * ���
+     * བོད་ཡིག
      * Bosanski
      * Brezhoneg
-     * Buryaad
-     * Catal�
-     * CHvashla
-     * Cestina
+     * Буряад
+     * Català
+     * Чӑвашла
+     * Čeština
      * ChiShona
      * Cymraeg
      * Dagbanli
@@ -200,173 +125,173 @@ Tree
      * Deitsch
      * Deutsch
      * Eesti
-     * Ellynika'
-     * Emili�n e rumagn�l
-     * `Erzyan'
-     * Espa�ol
+     * Ελληνικά
+     * Emiliàn e rumagnòl
+     * Эрзянь
+     * Español
      * Esperanto
-     * Estreme�u
+     * Estremeñu
      * Euskara
-     * Er<lbd>egbe
-     * f+a+r+s+
-     * F�royskt
-     * Fran�ais
+     * Eʋegbe
+     * فارسی
+     * Føroyskt
+     * Français
      * Frysk
      * Furlan
      * Gaeilge
      * Gaelg
-     * G�idhlig
+     * Gàidhlig
      * Galego
-     * Galgaj
-     *
-     * ��/Hak-k�-ng�
-     * ��
+     * ГӀалгӀай
+     * 贛語
+     * 客家語/Hak-kâ-ngî
+     * 한국어
      * Hausa
-     * �����
-     * ����
+     * Հայերեն
+     * हिन्दी
      * Hrvatski
      * Ido
      * Igbo
      * Ilokano
      * Bahasa Indonesia
      * Interlingua
-     * I�upiatun
-     * Iron
+     * Iñupiatun
+     * Ирон
      * IsiXhosa
      * IsiZulu
-     * �slenska
+     * Íslenska
      * Italiano
-     * E+B+R+J+T+
+     * עברית
      * Jawa
-     * ���
+     * ಕನ್ನಡ
      * Kapampangan
-     * ���
-     * azasha
+     * ქართული
+     * Қазақша
      * Kernowek
      * Ikinyarwanda
      * Ikirundi
      * Kiswahili
-     * Komi
-     * Krey�l ayisyen
-     * Kriy�l gwiyannen
-     * Kurd�
-     * Kyrgyzcha
+     * Коми
+     * Kreyòl ayisyen
+     * Kriyòl gwiyannen
+     * Kurdî
+     * Кыргызча
      * Ladin
-     * Lakku
-     * ���
+     * Лакку
+     * ລາວ
      * Latina
-     * Latviesu
-     * L�tzebuergesch
-     * Lezgi
-     * Lietuviu
+     * Latviešu
+     * Lëtzebuergesch
+     * Лезги
+     * Lietuvių
      * Limburgs
-     * Ling�la
+     * Lingála
      * Lingua Franca Nova
      * Lombard
      * Magyar
-     * Makedonski
-     * �����
-     * Maori
-     * ���
-     * ��
-     * m+a+z+1+r+w+n+
+     * Македонски
+     * മലയാളം
+     * Māori
+     * मराठी
+     * მარგალური
+     * مازِرونی
      * Bahasa Melayu
-     * �� �
-     * �� / M�ng-de<?>ng-ngu--:�
-     * Mirand�s
-     * Mongol
-     * �����
-     * Nahuatl
+     * ꯃꯤꯇꯩ ꯂꯣꯟ
+     * 閩東語 / Mìng-dĕ̤ng-ngṳ̄
+     * Mirandés
+     * Монгол
+     * မြန်မာဘာသာ
+     * Nāhuatl
      * Na Vosa Vakaviti
      * Nederlands
      * Nedersaksies
-     * Nehiyawewin / ���
-     * ����
-     * ���� ����
-     * ��
-     *
-     * Nohchijn
+     * Nēhiyawēwin / ᓀᐦᐃᔭᐍᐏᐣ
+     * नेपाली
+     * नेपाल भाषा
+     * 日本語
+     * ߒߞߏ
+     * Нохчийн
      * Nordfriisk
-     * Norsk bokm�l
+     * Norsk bokmål
      * Norsk nynorsk
      * Nouormand
      * Occitan
-     * Olyk marij
+     * Олык марий
      * Oromoo
-     * O;Szbekcha / v%zbekcha
-     * ����
-     * p+n+g+a+b+
-     * p+t+w+
+     * Oʻzbekcha / ўзбекча
+     * ਪੰਜਾਬੀ
+     * پنجابی
+     * پښتو
      * Patois
      * Picard
      * Tok Pisin
-     * Plattd��tsch
+     * Plattdüütsch
      * Polski
-     * Portugu�s
-     * Qirimtatarca
-     * Rom�na
-     * Romani chib
+     * Português
+     * Qırımtatarca
+     * Română
+     * Romani čhib
      * Rumantsch
      * Runa Simi
-     * Rusin'skyj
-     * Russkij
-     * Saha tyla
+     * Русиньскый
+     * Русский
+     * Саха тыла
      * Sakizaya
-     * ����
-     * ����
+     * संस्कृतम्
+     * ᱥᱟᱱᱛᱟᱲᱤ
      * Scots
      * Seeltersk
      * Shqip
      * Sicilianu
-     * �
+     * සිංහල
      * Simple English
-     * s+n+y+
-     * Slovencina
-     * Slovenscina
-     * Slovy3n'sk" / �
-     * Slunski
+     * سنڌي
+     * Slovenčina
+     * Slovenščina
+     * Словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ
+     * Ślůnski
      * Soomaaliga
-     * �w+r+d+
-     * Srpski / srpski
-     * Srpskohrvatski / srpskohrvatski
+     * کوردی
+     * Српски / srpski
+     * Srpskohrvatski / српскохрватски
      * Sunda
      * Suomi
      * Svenska
      * Tagalog
-     * ����
-     * Taclh-.it
+     * தமிழ்
+     * Taclḥit
      * Taqbaylit
-     * Tarand�ne
-     * Tatarcha / tatar�a
+     * Tarandíne
+     * Татарча / tatarça
      * Tayal
-     * ��
-     * �
-     * To�ik�
-     * ���
-     * Tsets�hest�hese
-     * T�rk�e
-     * T�rkmen�e
+     * తెలుగు
+     * ไทย
+     * Тоҷикӣ
+     * ᏣᎳᎩ
+     * Tsetsêhestâhese
+     * Türkçe
+     * Türkmençe
      * Twi
      * Tyap
-     * Udmurt
-     * Ukrayins'ka
-     * a+r+d+w+
+     * Удмурт
+     * Українська
+     * اردو
      * Vahcuengh
-     * V�neto
-     * Veps�n kel'
-     * Tie>'ng Vie>-.t
-     * Volap�k
-     * V�ro
+     * Vèneto
+     * Vepsän kel’
+     * Tiếng Việt
+     * Volapük
+     * Võro
      * Walon
      * West-Vlams
      * Winaray
      * Wolof
-     * ��
-     * J+J+iD+J+Sh
-     * �
+     * 吴语
+     * ייִדיש
+     * 粵語
      * Zazaki
-     * Zemaiteska
-     * �
+     * Žemaitėška
+     * 中文
 
    Edit links
 
@@ -715,7 +640,6 @@ Roots
 Trunk
 
    [170px-Buk1.JPG] Northern beech (Fagus sylvatica) trunk in autumn
-
    Main article: Trunk (botany)
 
    The main purpose of the trunk is to raise the leaves above the ground,
@@ -731,7 +655,7 @@ Trunk
    animal attack and fire. It is perforated by a large number of fine
    breathing pores called lenticels, through which oxygen diffuses. Bark
    is continually replaced by a living layer of cells called the cork
-   cambium or phellogen.^[63] The London plane (Platanus � acerifolia)
+   cambium or phellogen.^[63] The London plane (Platanus × acerifolia)
    periodically sheds its bark in large flakes. Similarly, the bark of the
    silver birch (Betula pendula) peels off in strips. As the tree's girth
    expands, newer layers of bark are larger in circumference, and the
@@ -779,23 +703,21 @@ Trunk
    Three quarters of the dry mass of the xylem is cellulose, a
    polysaccharide, and most of the remainder is lignin, a complex polymer.
    A transverse section through a tree trunk or a horizontal core will
-   show concentric circles of lighter or darker wood - tree rings.^[68]
+   show concentric circles of lighter or darker wood – tree rings.^[68]
    These rings are the annual growth rings^[69]^[70] There may also be
    rays running at right angles to growth rings. These are vascular rays
    which are thin sheets of living tissue permeating the wood.^[68] Many
    older trees may become hollow but may still stand upright for many
    years.^[71]
 
-  Buds and growth
+Buds and growth
 
    [170px-Illustration_Quercus_robur0.jpg] Buds, leaves, flowers and fruit
    of oak (Quercus robur)[170px-Illustration_Abies_alba0.jpg] Buds, leaves
    and reproductive structures of white fir (Abies
    alba)[170px-Cycas_circinalis%28draw%29.jpg] Form, leaves and
    reproductive structures of queen sago (Cycas circinalis)
-
    Main article: Bud
-
    [220px-Magnolia_Bud.jpg] Dormant Magnolia bud
 
    Trees do not usually grow continuously throughout the year but mostly
@@ -833,7 +755,7 @@ Trunk
    and it gets no taller. If damage occurs the tree may in time become
    hollow.^[75]
 
-  Leaves
+Leaves
 
    Main article: Leaf
 
@@ -866,8 +788,8 @@ Trunk
    may shed all their leaves annually, such as at the start of the dry
    season.^[77] Many deciduous trees flower before the new leaves
    emerge.^[78] A few trees do not have true leaves but instead have
-   structures with similar external appearance such as Phylloclades -
-   modified stem structures^[79] - as seen in the genus Phyllocladus.^[80]
+   structures with similar external appearance such as Phylloclades –
+   modified stem structures^[79] – as seen in the genus Phyllocladus.^[80]
 
   Reproduction
 
@@ -1082,7 +1004,7 @@ Uses
    The leaves of trees are widely gathered as fodder for livestock and
    some can be eaten by humans but they tend to be high in tannins which
    makes them bitter. Leaves of the curry tree (Murraya koenigii) are
-   eaten, those of kaffir lime (Citrus � hystrix) (in Thai food)^[119] and
+   eaten, those of kaffir lime (Citrus × hystrix) (in Thai food)^[119] and
    Ailanthus (in Korean dishes such as bugak) and those of the European
    bay tree (Laurus nobilis) and the California bay tree (Umbellularia
    californica) are used for flavouring food.^[116] Camellia sinensis, the
@@ -1093,7 +1015,7 @@ Uses
    food is exposed to smoke and heat in a controlled environment. The food
    is ready to eat when the process is complete, having been tenderised
    and flavoured by the smoke it has absorbed. In the cold process, the
-   temperature is not allowed to rise above 100 �F (38 �C). The flavour of
+   temperature is not allowed to rise above 100 °F (38 °C). The flavour of
    the food is enhanced but raw food requires further cooking. If it is to
    be preserved, meat should be cured before cold smoking.^[121]
 
@@ -1171,10 +1093,10 @@ Uses
 
    Main article: Bonsai
 
-   Bonsai (�, lit. "Tray planting")^[130] is the practice of h�n non bo>-.
+   Bonsai (盆栽, lit. "Tray planting")^[130] is the practice of hòn non bộ
    originated in China and spread to Japan more than a thousand years ago,
    there are similar practices in other cultures like the living miniature
-   landscapes of Vietnam h�n non bo>-.. The word bonsai is often used in
+   landscapes of Vietnam hòn non bộ. The word bonsai is often used in
    English as an umbrella term for all miniature trees in containers or
    pots.^[131]
 
@@ -1257,8 +1179,8 @@ Uses
    Nowadays, bark chips, a by-product of the timber industry, are used as
    a mulch and as a growing medium for epiphytic plants that need a
    soil-free compost.^[147]
-   [220px-Fontaine-l%27Eveque_JPG01c.jpg] Alle� of London plane trees
-   (Platanus � acerifolia) in garden
+   [220px-Fontaine-l%27Eveque_JPG01c.jpg] Alleé of London plane trees
+   (Platanus × acerifolia) in garden
 
   Ornamental trees
 
@@ -1294,11 +1216,11 @@ Uses
 
    Latex is a sticky defensive secretion that protects plants against
    herbivores. Many trees produce it when injured but the main source of
-   the latex used to make natural rubber is the Par� rubber tree (Hevea
+   the latex used to make natural rubber is the Pará rubber tree (Hevea
    brasiliensis). Originally used to create bouncy balls and for the
    waterproofing of cloth, natural rubber is now mainly used in tyres for
    which synthetic materials have proved less durable.^[152] The latex
-   exuded by the balat� tree (Manilkara bidentata) is used to make golf
+   exuded by the balatá tree (Manilkara bidentata) is used to make golf
    balls and is similar to gutta-percha, made from the latex of the "getah
    perca" tree Palaquium. This is also used as an insulator, particularly
    of undersea cables, and in dentistry, walking sticks and gun butts. It
@@ -1420,7 +1342,7 @@ Superlative trees
 
    A little farther south, at Santa Maria del Tule, Oaxaca, Mexico, is the
    tree with the broadest trunk. It is a Montezuma cypress (Taxodium
-   mucronatum) known as �rbol del Tule and its diameter at breast height
+   mucronatum) known as Árbol del Tule and its diameter at breast height
    is 11.62 m (38.1 ft) giving it a girth of 36.2 m (119 ft). The tree's
    trunk is far from round and the exact dimensions may be misleading as
    the circumference includes much empty space between the large buttress
@@ -1441,7 +1363,7 @@ See also
      * i-Tree
      * List of lists of trees
      * Million Tree Initiative
-     * Multipurpose tree - a tree grown and managed for more than one
+     * Multipurpose tree – a tree grown and managed for more than one
        output
      * Reforestation
      * Tree climbing
@@ -1473,7 +1395,7 @@ References
        December 2021.
     4. ^ ^a ^b ^c Gschwantner, Thomas; et al. (2009). "Common tree
        definitions for national forest inventories in Europe". Silva
-       Fennica. 43 (2): 303-321. doi:10.14214/sf.463.
+       Fennica. 43 (2): 303–321. doi:10.14214/sf.463.
     5. ^ ^a ^b ^c Keslick, John A. (2004). "Tree Biology Dictionary".
        Archived from the original on 19 March 2021. Retrieved 30 July
        2012.
@@ -1484,8 +1406,8 @@ References
        Rings". Warnell School of Forest Resources, University of Georgia.
        Archived from the original on 8 September 2014. Retrieved 23
        September 2014.
-    8. ^ Gyde, Lund H. (1999). "A forest by any other name ...".
-       Environmental Science & Policy. 2 (2): 125-133.
+    8. ^ Gyde, Lund H. (1999). "A forest by any other name …".
+       Environmental Science & Policy. 2 (2): 125–133.
        doi:10.1016/s1462-9011(98)00046-x.
     9. ^ ^a ^b "Diversity and evolution of monocots" (PDF). University of
        Wisconsin. Archived (PDF) from the original on 22 October 2016.
@@ -1498,7 +1420,7 @@ References
        original on 19 March 2021. Retrieved 22 September 2014.
    12. ^ Jura-Morawiec, Joanna (2015). "Formation of amphivasal vascular
        bundles in Dracaena draco stem in relation to rate of cambial
-       activity". Trees. 29 (5): 1493-1499. doi:10.1007/s00468-015-1230-3.
+       activity". Trees. 29 (5): 1493–1499. doi:10.1007/s00468-015-1230-3.
        ISSN 0931-1890.
    13. ^ "Community forestry rapid appraisal of tree and land tenure".
        Food and Agriculture Organisation. Archived from the original on 17
@@ -1506,14 +1428,14 @@ References
    14. ^ Lowman, V.; Rinker, H. Bruce (2004). Forest Canopies. Academic
        Press. p. 119. ISBN 978-0-08-049134-9. Archived from the original
        on 4 March 2017. Retrieved 28 February 2016.
-   15. ^ Petit, R�my J.; Hampe, Arndt (2006). "Some Evolutionary
+   15. ^ Petit, Rémy J.; Hampe, Arndt (2006). "Some Evolutionary
        Consequences of Being a Tree" (PDF). Annual Review of Ecology,
-       Evolution, and Systematics. 37: 187-214.
+       Evolution, and Systematics. 37: 187–214.
        doi:10.1146/annurev.ecolsys.37.091305.110215. hdl:10261/64097.
        Archived from the original (PDF) on 16 January 2014.
    16. ^ Koch, George W.; Sillett, Stephen C.; Jennings, Gregory M.;
        Davis, Stephen D. (2004). "The limits to tree height" (PDF).
-       Letters to Nature. Nature Publishing Group. 428 (6985): 851-4.
+       Letters to Nature. Nature Publishing Group. 428 (6985): 851–4.
        Bibcode:2004Natur.428..851K. doi:10.1038/nature02417.
        PMID 15103376. S2CID 11846291. Archived from the original (PDF) on
        21 October 2012. Retrieved 18 December 2021.
@@ -1533,8 +1455,8 @@ References
        Selskab (eds.) (2005). Plant diversity and complexity patterns:
        local, regional, and global dimensions: proceedings of an
        international symposium held at the Royal Danish Academy of
-       Sciences and Letters in Copenhagen, Denmark, 25-28 May 2003. Kgl.
-       Danske Videnskabernes Selskab. pp. 57-59. ISBN 978-87-7304-304-2.
+       Sciences and Letters in Copenhagen, Denmark, 25–28 May 2003. Kgl.
+       Danske Videnskabernes Selskab. pp. 57–59. ISBN 978-87-7304-304-2.
        {{cite book}}: |first4= has generic name (help)
    22. ^ "The Gymnosperms (Conifers, cycads and allies)". The Plant List.
        2010. Archived from the original on 24 August 2013. Retrieved 14
@@ -1542,7 +1464,7 @@ References
    23. ^ Biswas, Chhaya; Johri, B.M. (1997). The Gymnosperms. Springer.
        ISBN 978-3-662-13166-4.
    24. ^ Hodson, Martin J.; Bryant, John A. (2012). Functional Biology of
-       Plants. John Wiley. pp. 9-11. ISBN 978-1-119-96887-0. Archived from
+       Plants. John Wiley. pp. 9–11. ISBN 978-1-119-96887-0. Archived from
        the original on 2 September 2021. Retrieved 28 February 2016.
    25. ^ "Transport in plants". BioTech. Cronodon Museum. 28 January 2007.
        Archived from the original on 14 October 2012. Retrieved 21 July
@@ -1566,13 +1488,13 @@ References
        Park Service. Retrieved 6 May 2022. "herbaceous monocotyledons lack
        cambial secondary growth but may have tough leaves and hard,
        fibrous stems (e.g., palms and Hesperoyucca whipplei)"
-   33. ^ Yatskievych, George. "Tree fern". Encyclop�dia Britannica.
+   33. ^ Yatskievych, George. "Tree fern". Encyclopædia Britannica.
        Archived from the original on 10 June 2012. Retrieved 4 August
        2012.
    34. ^ Crowther, T. W.; Glick, H. B.; Covey, K. R.; Bettigole, C.;
        Maynard, D. S.; Thomas, S. M.; Smith, J. R.; Hintler, G.; Duguid,
        M. C. (2 September 2015). "Mapping tree density at a global scale".
-       Nature. advance online publication (7568): 201-205.
+       Nature. advance online publication (7568): 201–205.
        Bibcode:2015Natur.525..201C. doi:10.1038/nature14967.
        ISSN 1476-4687. PMID 26331545. S2CID 4464317.
    35. ^ Greenfieldboyce, Nell (2 September 2015). "Tree Counter Is
@@ -1610,7 +1532,7 @@ References
    44. ^ "The forest biome: Boreal forest". University of California
        Museum of Paleontology. Archived from the original on 9 August
        2012. Retrieved 28 July 2012.
-   45. ^ K�rner, Christian. "High elevation treeline research". University
+   45. ^ Körner, Christian. "High elevation treeline research". University
        of Basel: Institute of Botany. Archived from the original on 23
        October 2016. Retrieved 28 July 2012.
    46. ^ "Temperate Broadleaf and Mixed Forest Ecoregions". WWF. Archived
@@ -1620,32 +1542,32 @@ References
    48. ^ "The tropical rain forest". Biomes of the World. Marietta
        College. Archived from the original on 23 May 2011. Retrieved 28
        July 2012.
-   49. ^ "Grass savanna". Encyclop�dia Britannica. Archived from the
+   49. ^ "Grass savanna". Encyclopædia Britannica. Archived from the
        original on 20 November 2012. Retrieved 28 July 2012.
    50. ^ Russell, Tony; Cutler, Catherine (2003). The World Encyclopedia
-       of Trees. Lorenz Books. pp. 14-15. ISBN 978-0-7548-1292-0.
-   51. ^ Egli, S.; Brunner, I. (2011). "Mycorrhiza - a fascinating
+       of Trees. Lorenz Books. pp. 14–15. ISBN 978-0-7548-1292-0.
+   51. ^ Egli, S.; Brunner, I. (2011). "Mycorrhiza – a fascinating
        symbiosis in the forest". Forestknowledge. Swiss Federal Research
        Institute. Archived from the original on 9 May 2013. Retrieved 15
        July 2012.
    52. ^ Heijden, Marcel G. A. van der (15 April 2016). "Underground
-       networking". Science. 352 (6283): 290-291.
+       networking". Science. 352 (6283): 290–291.
        Bibcode:2016Sci...352..290H. doi:10.1126/science.aaf4694.
        PMID 27081054. S2CID 133399719.
    53. ^ Puplett, Dan. "Mycorrhizas". Trees for Life. Archived from the
        original on 2 November 2019. Retrieved 15 July 2012.
    54. ^ Brundrett, Mark C. (2002). "Coevolution of roots and mycorrhizas
-       of land plants". New Phytologist. 154 (2): 275-304.
+       of land plants". New Phytologist. 154 (2): 275–304.
        doi:10.1046/j.1469-8137.2002.00397.x. PMID 33873429.
    55. ^ Benson, David. "Frankia and Actinorhizal Plants". University of
        Connecticut. Archived from the original on 6 August 2018. Retrieved
        15 July 2012.
-   56. ^ Baluska, Frantisek; Mancuso, Stefano (2009). Signaling in Plants.
-       Springer. pp. 83-84. ISBN 978-3-540-89227-4. Archived from the
+   56. ^ Baluška, František; Mancuso, Stefano (2009). Signaling in Plants.
+       Springer. pp. 83–84. ISBN 978-3-540-89227-4. Archived from the
        original on 19 August 2020. Retrieved 29 May 2020.
    57. ^ Hough, Walter A. (1 June 1965). "Root extension of Individual
        trees in surface soils of a Natural Longleaf Pine-Turkey Oak
-       Stand". Forest Science. 11 (2): 223-242. Archived from the original
+       Stand". Forest Science. 11 (2): 223–242. Archived from the original
        on 9 December 2013.
    58. ^ ^a ^b Ng, Peter K. L.; Sivasothi, N., eds. (2001). "How plants
        cope in the mangroves". Mangroves of Singapore. Archived from the
@@ -1657,18 +1579,18 @@ References
        buttress roots: a comparative study of the anchorage systems of
        buttressed (Aglaia and Nephelium ramboutan species) and
        non-buttressed (Mallotus wrayi) tropical trees". Journal of
-       Experimental Botany. 48 (9): 1703-1716. doi:10.1093/jxb/48.9.1703.
+       Experimental Botany. 48 (9): 1703–1716. doi:10.1093/jxb/48.9.1703.
    61. ^ King, David A. (1990). "The Adaptive Significance of Tree
-       Height". The American Naturalist. 135 (6): 809-828.
+       Height". The American Naturalist. 135 (6): 809–828.
        doi:10.1086/285075. S2CID 85160969. "competition for light is the
        primary factor responsible for the evolution and maintenance of the
        arboreal life form. The resulting evolutionarily stable growth
        pattern maximizes the competitive ability of the individual"
    62. ^ ^a ^b Russell, Tony; Cutler, Catherine (2003). The World
-       Encyclopedia of Trees. Lorenz Books. pp. 16-17.
+       Encyclopedia of Trees. Lorenz Books. pp. 16–17.
        ISBN 978-0-7548-1292-0.
    63. ^ ^a ^b Junikka, Leo (1994). "Survey of English Macroscopic Bark
-       Terminology". IAWA Journal. 15 (1): 3-45.
+       Terminology". IAWA Journal. 15 (1): 3–45.
        doi:10.1163/22941932-90001338. "phellem|a secondarily formed
        protective tissue in stems and roots consisting of dead cells with
        chiefly suberised walls: developed outward from the phellogen and
@@ -1679,11 +1601,11 @@ References
        Archived from the original on 9 March 2018. Retrieved 16 July 2012.
    66. ^ Lalonde, S.; Wipf, D.; Frommer, W. B. (2004). "Transport
        mechanisms for organic forms of carbon and nitrogen between source
-       and sink". Annual Review of Plant Biology. 55: 341-372.
+       and sink". Annual Review of Plant Biology. 55: 341–372.
        doi:10.1146/annurev.arplant.55.031903.141758. PMID 15377224.
    67. ^ "Wood, tree trunks and branches". BioTech. Cronodon Museum.
        Archived from the original on 2 May 2015. Retrieved 16 July 2012.
-   68. ^ ^a ^b "The anatomy of a tree trunk - the wood 2". Archived from
+   68. ^ ^a ^b "The anatomy of a tree trunk – the wood 2". Archived from
        the original on 14 March 2012.{{cite web}}: CS1 maint: bot:
        original URL status unknown (link)
    69. ^ Fritts, H. C. (2001). Tree Rings and Climate. Blackburn Press.
@@ -1694,17 +1616,17 @@ References
    71. ^ "Xylem and wood". BioTech. Cronodon Museum. Archived from the
        original on 2 May 2015. Retrieved 16 July 2012.
    72. ^ ^a ^b Russell, Tony; Cutler, Catherine (2003). The World
-       Encyclopedia of Trees. Lorenz Books. pp. 18-19.
+       Encyclopedia of Trees. Lorenz Books. pp. 18–19.
        ISBN 978-0-7548-1292-0.
    73. ^ Battey, N. H. (August 2003). "August-learning about summer".
-       Journal of Experimental Botany. 54 (389): 1797-1799.
+       Journal of Experimental Botany. 54 (389): 1797–1799.
        doi:10.1093/jxb/erg225. PMID 12869517.
    74. ^ Campbell, Neil A.; Reece, Jane B. (2002). Biology (6th ed.).
-       Pearson Education. pp. 729-730. ISBN 978-0-201-75054-6.
+       Pearson Education. pp. 729–730. ISBN 978-0-201-75054-6.
    75. ^ Russell, Tony; Cutler, Catherine (2003). The World Encyclopedia
        of Trees. Lorenz Books. pp. 16, 27. ISBN 978-0-7548-1292-0.
    76. ^ ^a ^b Pessarakli, Mohammad (2005). Handbook of Photosynthesis.
-       CRC Press. pp. 717-739. ISBN 978-0-8247-5839-4. Archived from the
+       CRC Press. pp. 717–739. ISBN 978-0-8247-5839-4. Archived from the
        original on 21 May 2016. Retrieved 28 February 2016.
    77. ^ Starr, Cecie; Evers, Christine; Starr, Lisa (2010). Biology:
        Concepts and Applications. Cengage Learning. p. 734.
@@ -1712,11 +1634,11 @@ References
        2022. Retrieved 28 February 2016.
    78. ^ Bullock, Stephen H.; Solis-Magallanes, J. Arturo (March 1990).
        "Phenology of canopy trees of a tropical deciduous forest in
-       Mexico". Biotropica. 22 (1): 22-35. doi:10.2307/2388716.
+       Mexico". Biotropica. 22 (1): 22–35. doi:10.2307/2388716.
        JSTOR 2388716.
    79. ^ Beentje, Henk (2010). The Kew Plant Glossary. Richmond, Surrey:
        Royal Botanic Gardens, Kew. ISBN 978-1-84246-422-9. p. 87.
-   80. ^ Page, Christopher N. (1990). "Phyllocladaceae" pp. 317-319. In:
+   80. ^ Page, Christopher N. (1990). "Phyllocladaceae" pp. 317–319. In:
        Klaus Kubitzki (general editor); Karl U. Kramer and Peter S. Green
        (volume editors) The Families and Genera of Vascular Plants volume
        I. Springer-Verlag: Berlin; Heidelberg, Germany.
@@ -1762,7 +1684,7 @@ References
        March 2017. Retrieved 28 February 2016.
    92. ^ Ruxton, Graeme D.; Schaefer, H. Martin (2012). "The conservation
        physiology of seed dispersal". Philosophical Transactions of the
-       Royal Society. 367 (1596): 1708-1718. doi:10.1098/rstb.2012.0001.
+       Royal Society. 367 (1596): 1708–1718. doi:10.1098/rstb.2012.0001.
        PMC 3350653. PMID 22566677.
    93. ^ Sager, Kim. "Whitebark Pine Seeds, Red Squirrels, and Grizzly
        Bears: An Interconnected Relationship". BEHAVE: Behavioral
@@ -1775,15 +1697,15 @@ References
        International. p. 371. ISBN 978-81-224-0792-1. Archived from the
        original on 4 March 2017. Retrieved 28 February 2016.
    96. ^ Beck, Charles B. (1960). "The identity of Archaeopteris and
-       Callixylon". Brittonia. 12 (4): 351-368. doi:10.2307/2805124.
+       Callixylon". Brittonia. 12 (4): 351–368. doi:10.2307/2805124.
        JSTOR 2805124. S2CID 27887887.
    97. ^ Jiao, Y.; Wickett, N. J.; Ayyampalayam, S.; et al. (2011).
        "Ancestral polyploidy in seed plants and angiosperms". Nature. 473
-       (7345): 97-100. Bibcode:2011Natur.473...97J.
+       (7345): 97–100. Bibcode:2011Natur.473...97J.
        doi:10.1038/nature09916. PMID 21478875. S2CID 4313258.
    98. ^ Gnaedinger, Silvia (2012). "Ginkgoalean woods from the Jurassic
        of Argentina: Taxonomic considerations and palaeogeographical
-       distribution". Geobios. 45 (2): 187-198.
+       distribution". Geobios. 45 (2): 187–198.
        Bibcode:2012Geobi..45..187G. doi:10.1016/j.geobios.2011.01.007.
        hdl:11336/25674.
    99. ^ Arens, Nan C. (1998). "Ginkgo". Lab IX; Ginkgo, Cordaites and the
@@ -1794,8 +1716,8 @@ References
        July 2012.
    101. ^ Lowman, M D (2009). "Canopy research in the twenty-first
        century: a review of arboreal ecology". Tropical Ecology. 50:
-       125-136. ISSN 0564-3295.
-   102. ^ Zotz, Gerhard (2016). Plants on Plants - The Biology of Vascular
+       125–136. ISSN 0564-3295.
+   102. ^ Zotz, Gerhard (2016). Plants on Plants – The Biology of Vascular
        Epiphytes. Springer. ISBN 978-3-319-39237-0. Archived from the
        original on 19 August 2020. Retrieved 14 November 2017.
    103. ^ "The structure of a forest". Enviropol. Archived from the
@@ -1816,10 +1738,10 @@ References
    108. ^ Binggeli, Pierre. "The conservation value of sycamore" (PDF).
        Archived from the original (PDF) on 21 February 2013. Retrieved 25
        July 2012.
-   109. ^ Jactel, Herv�; Moreira, Xoaqu�n; Castagneyrol, Bastien (7
+   109. ^ Jactel, Hervé; Moreira, Xoaquín; Castagneyrol, Bastien (7
        January 2021). "Tree Diversity and Forest Resistance to Insect
        Pests: Patterns, Mechanisms, and Prospects". Annual Review of
-       Entomology. Annual Reviews. 66 (1): 277-296.
+       Entomology. Annual Reviews. 66 (1): 277–296.
        doi:10.1146/annurev-ento-041720-075234. PMID 32903046.
        S2CID 221621050.
    110. ^ Kathiresan, K. "Importance of Mangrove Ecosystem" (PDF).
@@ -1892,8 +1814,8 @@ References
    134. ^ Squire, David (2004). The Bonsai Specialist. New Holland
        Publishers. p. 66. ISBN 978-1-84330-543-9. Archived from the
        original on 4 March 2017. Retrieved 28 February 2016.
-   135. ^ Gunnarsson, M�r�ur (2012). "Living Furniture". Cottage and
-       Garden: 28-29.
+   135. ^ Gunnarsson, Mörður (2012). "Living Furniture". Cottage and
+       Garden: 28–29.
    136. ^ ^a ^b Dwell, LLC (February 2007). Dwell. Dwell, LLC. p. 96.
        ISSN 1530-5309. Archived from the original on 4 March 2017.
        Retrieved 28 February 2016.
@@ -1919,7 +1841,7 @@ References
        Organization. 2006. Archived (PDF) from the original on 13 October
        2015. Retrieved 26 July 2012.
    144. ^ Sneader, W. (2000). "The discovery of aspirin: A reappraisal".
-       BMJ (Clinical Research Ed.). 321 (7276): 1591-1594.
+       BMJ (Clinical Research Ed.). 321 (7276): 1591–1594.
        doi:10.1136/bmj.321.7276.1591. PMC 1119266. PMID 11124191.
    145. ^ Goodman, Jordan; Walsh, Vivien (2001). The Story of Taxol:
        Nature and Politics in the Pursuit of an Anti-Cancer Drug.
@@ -1932,10 +1854,10 @@ References
        original on 15 November 2012. Retrieved 27 July 2012.
    148. ^ Brickell, Christopher, ed. (1992). "Ornamental trees". The Royal
        Horticultural Society Encyclopedia of Gardening. Dorling
-       Kindersley. pp. 32-33. ISBN 978-0-86318-979-1.
+       Kindersley. pp. 32–33. ISBN 978-0-86318-979-1.
    149. ^ Turner-Skoff, J.; Cavender, N. (2019). "The Benefits of Trees
        for Livable and Sustainable Communities". Plants, People, Planet. 1
-       (4): 323-335. doi:10.1002/ppp3.39.
+       (4): 323–335. doi:10.1002/ppp3.39.
    150. ^ "Street trees". Greenspace initiative. Forestry Commission.
        Archived from the original on 4 March 2016. Retrieved 20 September
        2014.
@@ -1958,7 +1880,7 @@ References
        System. Archived from the original on 7 September 2015. Retrieved
        10 September 2012.
    157. ^ The State of the World's Forests 2020. Forests, biodiversity and
-       people - In brief. FAO & UNEP. 2020. doi:10.4060/ca8985en.
+       people – In brief. FAO & UNEP. 2020. doi:10.4060/ca8985en.
        ISBN 978-92-5-132707-4. S2CID 241416114. Archived from the original
        on 20 May 2021. Retrieved 2 December 2020.
    158. ^ Collins (ed.). "Sacred Celtic Trees and Woods". The Celtic
@@ -1968,7 +1890,7 @@ References
        and Agriculture Organization of the United Nations. Archived from
        the original on 1 May 2013. Retrieved 29 July 2012.
    160. ^ Lindow, John (2001). Norse Mythology: A Guide to the Gods,
-       Heroes, Rituals, and Beliefs, pp. 319-322. Oxford University Press.
+       Heroes, Rituals, and Beliefs, pp. 319–322. Oxford University Press.
        ISBN 0-19-515382-0
    161. ^ Dehejia, Harsha V. (21 December 2011). "The sacred tree". The
        Times of India. Archived from the original on 23 May 2014.
@@ -1986,7 +1908,7 @@ References
        January 2016. Retrieved 5 June 2016.
    166. ^ Koch, George W.; Sillett, Stephen C.; Jennings, Gregory M.;
        Davis, Stephen D. (22 April 2004). "The limits to tree height".
-       Nature. 428 (6985): 851-854. Bibcode:2004Natur.428..851K.
+       Nature. 428 (6985): 851–854. Bibcode:2004Natur.428..851K.
        doi:10.1038/nature02417. PMID 15103376. S2CID 11846291.
    167. ^ Earle, Christopher J., ed. (2017). "Sequoia sempervirens". The
        Gymnosperm Database. Archived from the original on 1 April 2016.
@@ -2431,7 +2353,7 @@ References
 
     Other
      * NARA
-     * Isl�m Ansiklopedisi
+     * İslâm Ansiklopedisi
 
    Retrieved from
    "https://en.wikipedia.org/w/index.php?title=Tree&oldid=1185621948"
@@ -2467,12 +2389,12 @@ References
      * Articles with NDL identifiers
      * Articles with NKC identifiers
      * Articles with NARA identifiers
-     * Articles with TDVIA identifiers
+     * Articles with TDVİA identifiers
 
      * This page was last edited on 17 November 2023, at 23:21 (UTC).
      * Text is available under the Creative Commons Attribution-ShareAlike
        License 4.0; additional terms may apply. By using this site, you
-       agree to the Terms of Use and Privacy Policy. Wikipedia� is a
+       agree to the Terms of Use and Privacy Policy. Wikipedia® is a
        registered trademark of the Wikimedia Foundation, Inc., a
        non-profit organization.
 
