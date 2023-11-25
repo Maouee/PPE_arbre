@@ -44,69 +44,40 @@ Contents
    (BUTTON) move to sidebar (BUTTON) hide
      * (Top)
      * 1Terminology and properties
-
-     2Examples of tree structures
-
-     3Representing trees
-   (BUTTON) Toggle Representing trees subsection
-     * 3.1Classical node-link diagrams
-
-
-
-   3.2Nested sets
-
-
-
-   3.3Layered "icicle" diagrams
-
-
-
-   3.4Outlines and tree views
-
-
-
-   3.5Nested parentheses
-
-
-
-   3.6Radial trees
-
-
-
-   4See also
-
-
-
-   5References
-
-
-
-   6Further reading
-
-
-
-   7External links
+     * 2Examples of tree structures
+     * 3Representing trees
+       (BUTTON) Toggle Representing trees subsection
+          + 3.1Classical node-link diagrams
+          + 3.2Nested sets
+          + 3.3Layered "icicle" diagrams
+          + 3.4Outlines and tree views
+          + 3.5Nested parentheses
+          + 3.6Radial trees
+     * 4See also
+     * 5References
+     * 6Further reading
+     * 7External links
 
    [ ] Toggle the table of contents
 
 Tree structure
 
    [ ] 15 languages
-     * Catal�
+     * Català
      * Deutsch
-     * Ellynika'
-     * Espa�ol
+     * Ελληνικά
+     * Español
      * Esperanto
-     * f+a+r+s+
-     * Fran�ais
+     * فارسی
+     * Français
      * Bahasa Indonesia
-     * E+B+R+J+T+
+     * עברית
      * Nederlands
      * Polski
-     * Portugu�s
-     * Russkij
-     * Ukrayins'ka
-     * �
+     * Português
+     * Русский
+     * Українська
+     * 中文
 
    Edit links
 
@@ -150,11 +121,11 @@ Tree structure
    graphical form
    This article includes a list of general references, but it lacks
    sufficient corresponding inline citations. Please help to improve this
-   article by introducing more precise citations. (July 2014) (template
-   removal help)
+   article by introducing more precise citations. (July 2014) (Learn how
+   and when to remove this template message)
    [300px-Binary_tree_structure.svg.png] A tree structure showing the
    possible hierarchical organization of an
-   encyclopedia[300px-ENC_SYSTEME_FIGURE.jpeg] The original Encyclop�die
+   encyclopedia[300px-ENC_SYSTEME_FIGURE.jpeg] The original Encyclopédie
    (1752) used a tree diagram to show the way in which its subjects were
    ordered.
 
@@ -206,8 +177,8 @@ Terminology and properties[edit]
    Tree structures can depict all kinds of taxonomic knowledge, such as
    family trees, the biological evolutionary tree, the evolutionary tree
    of a language family, the grammatical structure of a language (a key
-   example being S -> NP VP, meaning a sentence is a noun phrase and a
-   verb phrase, with each in turn having other components which have other
+   example being S → NP VP, meaning a sentence is a noun phrase and a verb
+   phrase, with each in turn having other components which have other
    components), the way web pages are logically ordered in a web site,
    mathematical trees of integer sets, et cetera.
 
@@ -241,7 +212,7 @@ Examples of tree structures[edit]
      * Management: hierarchical organizational structures
      * Computer science:
           + binary search tree
-          + red-black tree
+          + red–black tree
           + AVL tree
           + R-tree
           + doubly logarithmic tree
@@ -377,19 +348,17 @@ Further reading[edit]
 
    ISBN 978-0299090609;
 
-
-
-   Donald E. Knuth (1968). The Art of Computer Programming. Volume 1:
-   Fundamental Algorithms. Addison-Wesley. pp. 309-310.
+     Donald E. Knuth (1968). The Art of Computer Programming. Volume 1:
+   Fundamental Algorithms. Addison-Wesley. pp. 309–310.
 
      Brian Johnson and Ben Shneiderman, "Tree-maps: A space-filling
    approach to the visualization of hierarchical information structures",
-   in Proceedings of IEEE Visualization (VIS), 1991, pp. 284-291,
+   in Proceedings of IEEE Visualization (VIS), 1991, pp. 284–291,
    ISBN 0-8186-2245-8;
 
      Peter Eades, Tao Lin, and Xuemin Lin, "Two Tree Drawing Conventions",
    International Journal of Computational Geometry and Applications, 1993,
-   volume 3, number 2, pp. 133-153.
+   volume 3, number 2, pp. 133–153.
 
      Manuel Lima (2014). The Book of Trees: Visualizing Branches of
    Knowledge (1st ed.). New York: Princeton Architectural Press.
@@ -400,7 +369,7 @@ External links[edit]
    Wikimedia Commons has media related to Tree diagram.
 
      * Visualization of phylogenetic trees on the T-REX server
-     * Using a tree structure to design a business process - from the
+     * Using a tree structure to design a business process – from the
        Society for Technical Communication
 
    Retrieved from
@@ -420,7 +389,7 @@ External links[edit]
      * This page was last edited on 8 November 2023, at 16:24 (UTC).
      * Text is available under the Creative Commons Attribution-ShareAlike
        License 4.0; additional terms may apply. By using this site, you
-       agree to the Terms of Use and Privacy Policy. Wikipedia� is a
+       agree to the Terms of Use and Privacy Policy. Wikipedia® is a
        registered trademark of the Wikimedia Foundation, Inc., a
        non-profit organization.
 
