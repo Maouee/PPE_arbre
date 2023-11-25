@@ -738,4 +738,3 @@ N-арные деревья[править | править код]
 
      * Wikimedia Foundation
      * Powered by MediaWiki
-UTF-8
