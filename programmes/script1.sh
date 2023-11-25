@@ -61,7 +61,7 @@ do
     <a href="https://maouee.github.io/PPE_arbre/extractions/${langue}/extraction${compteur}.txt">extraction</a></td>
     <td>$compte</td>
     <td>
-    <a href="../contextes/${langue}/contextes${compteur}.txt">contexte</a></td>
+    <a href="../contextes/${langue}/contexte${compteur}.txt">contexte</a></td>
     </tr>
     " >> ../tableaux/${langue}/tableau_${langue}.html
     lineno=$(expr $lineno + 1)
