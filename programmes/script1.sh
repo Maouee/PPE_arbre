@@ -26,6 +26,7 @@ echo "<tr>
     <th>aspirations</th>
     <th>dumps</th>
     <th>compte</th>
+    <th>contexte</th>
     </tr>" >> ../tableaux/${langue}/tableau_${langue}.html
 lineno=1
 
@@ -40,7 +41,7 @@ do
     encodage=$(curl -L -I -s $URL | egrep -o "charset.+\b" | tail -1 | tr -d "\r\d" | tr -d "charset=")
 
     compte=$(bash comptage/${langue}.sh ../extractions/${langue}/extraction${compteur}.txt)
-
+    bash contexte/${langue}
     #iconv -f ${encodage} -t UTF-8 ../extractions/${langue}/extraction${compteur}.txt > ../extractions/${langue}/extraction${compteur}.txt
 
 
@@ -59,6 +60,8 @@ do
     <td>
     <a href="https://maouee.github.io/PPE_arbre/extractions/${langue}/extraction${compteur}.txt">extraction</a></td>
     <td>$compte</td>
+    <td>
+    <a href="../contextes/${langue}/contextes${compteur}.txt">contexte</a></td>
     </tr>
     " >> ../tableaux/${langue}/tableau_${langue}.html
     lineno=$(expr $lineno + 1)
