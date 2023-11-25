@@ -44,55 +44,26 @@ Contents
    (BUTTON) move to sidebar (BUTTON) hide
      * (Top)
      * 1Terminology and properties
-
-     2Examples of tree structures
-
-     3Representing trees
-   (BUTTON) Toggle Representing trees subsection
-     * 3.1Classical node-link diagrams
-
-
-
-   3.2Nested sets
-
-
-
-   3.3Layered "icicle" diagrams
-
-
-
-   3.4Outlines and tree views
-
-
-
-   3.5Nested parentheses
-
-
-
-   3.6Radial trees
-
-
-
-   4See also
-
-
-
-   5References
-
-
-
-   6Further reading
-
-
-
-   7External links
+     * 2Examples of tree structures
+     * 3Representing trees
+       (BUTTON) Toggle Representing trees subsection
+          + 3.1Classical node-link diagrams
+          + 3.2Nested sets
+          + 3.3Layered "icicle" diagrams
+          + 3.4Outlines and tree views
+          + 3.5Nested parentheses
+          + 3.6Radial trees
+     * 4See also
+     * 5References
+     * 6Further reading
+     * 7External links
 
    [ ] Toggle the table of contents
 
 Tree structure
 
    [ ] 15 languages
-     * Catal�
+     * Català
      * Deutsch
      * Ελληνικά
      * Español
@@ -377,9 +348,7 @@ Further reading[edit]
 
    ISBN 978-0299090609;
 
-
-
-   Donald E. Knuth (1968). The Art of Computer Programming. Volume 1:
+     Donald E. Knuth (1968). The Art of Computer Programming. Volume 1:
    Fundamental Algorithms. Addison-Wesley. pp. 309–310.
 
      Brian Johnson and Ben Shneiderman, "Tree-maps: A space-filling
