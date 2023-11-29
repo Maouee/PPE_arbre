@@ -1,65 +1,80 @@
-   progetto di riferimento.
+   Puoi migliorare questa voce aggiungendo citazioni da fonti attendibili
+   secondo le linee guida sull'uso delle fonti.
+   [IMG]Distribuzione bialbero a 4 valvole per cilindro per motore
+   quadricilindrico in linea [IMG]Albero a camme per motore o bancata
+   quadricilidrici
 
-   L'albero, in meccanica, è un organo di trasmissione di un moto
-   rotatorio.
-   [ ]
+   L'albero a camme, nella meccanica, è un albero motore con parti
+   eccentriche calettate, atto a trasmettere particolari leggi di moto agli
+   elementi che vi sono a contatto. Nei motori a scoppio è l'albero
+   responsabile della distribuzione su cui sono montati degli eccentrici,
+   detti "camme", forzate su un tubo in acciaio cementato (generalmente
+   acciaio 18NiCrMo5) o costituenti un tutt'uno forgiato o realizzati tramite
+   idroformatura, che comandano l'apertura e la chiusura delle valvole.
+   L'albero a camme si trova solo nel motore a 4 tempi sia benzina
+   (accensione comandata) che diesel (accensione spontanea) ed in alcuni
+   motori a due tempi unidirezionali.
 --
 
-     * 1 Usi
-     * 2 L'albero dal punto di vista meccanico
-     * 3 Accorgimenti
+     * 1 Albero a camme
+     * 2 L'importanza dell'albero a camme
+     * 3 Messa in fase dell'albero a camme
      * 4 Voci correlate
+     * 5 Altri progetti
 --
-Usi[modifica | modifica wikitesto]
+   [IMG]Animazione rappresentante il funzionamento delle camme
 
-   L'albero ha una grandissima quantità di applicazioni in tutti i campi
-   della trasmissione del moto. Per fare un esempio domestico, l'estremità
-   del frullatore, su cui si innesta il vaso, è un giunto collegato
-   all'albero di un motore elettrico.
+   L'albero a camme viene azionato dall'albero motore rispetto al quale ruota
+   (nel motore a quattro tempi) a velocità angolare dimezzata e al quale è
+   generalmente collegato tramite catena o cinghia. In alcuni motori il
+--
+   Lo stesso argomento in dettaglio: Camma.
 
-   Nei mezzi di trasporto, vi è una grande quantità di alberi: nei motori
-   a pistoni abbiamo l'albero motore, detto anche albero a gomiti o albero
-   eccentrico, o collo d'oca che converte il moto alternativo dei pistoni
-   in rotatorio, in quanto parte del sistema di manovellismo
+   Nei motori attuali l'albero a camme è situato generalmente al di sopra
+   della testata. Con tale disposizione prende il nome di "albero a camme in
+   testa" e comanda le valvole mediante punterie a bicchiere. In altri motori
+   l'albero a camme era situato lateralmente alla testata del motore.
+
+   A seconda del numero di valvole per cilindro e della disposizione dei
+   cilindri ci possono essere più alberi a camme, anche se generalmente non
+   superano i due per bancata (doppio albero a camme in testa). Altri sistemi
+   prevedono prima delle valvole vari rimandi meccanici quali aste o
+   bilancieri, sistemi comunque progressivamente abbandonati per il maggior
+   numero di parti in movimento.
+
+L'importanza dell'albero a camme[modifica | modifica wikitesto]
+
+   Gli alberi a camme, dato che decidono quando e quanto devono aprirsi le
+   valvole, sono di grande importanza per le prestazioni dei motori. Il
+   variatore della fase di distribuzione, infatti, posto di norma su entrambi
+--
+   meccanico e non elettronico.
+
+Messa in fase dell'albero a camme[modifica | modifica wikitesto]
+
+   L'albero a camme può essere messo in fase tramite sistemi diversi:
+
+     * fori asolati i fori presenti sull'ingranaggio da accoppiare
+       sull'albero sono asolati, in modo da poter variare facilmente e
+       velocemente la fasatura;
+     * chiavetta di Woodruff sfalsata, l'ingranaggio viene accoppiato tramite
+       questa chiavetta, oppure ogni lobo è provvisto di una chiavetta
+       propria;
+     * nonio o verniero, prevede l'unione dell'albero all'ingranaggio tramite
+       dei fori presenti su entrambi, ma che hanno numero diversi tra loro
+       (20 a 19, ecc...)
+--
+     * Fasatura di distribuzione
+     * Camma
+     * Singolo albero a camme in testa
+     * Doppio albero a camme in testa
+     * Albero a gomiti
+     * Albero di trasmissione
 --
 
-   Questo, nelle automobili, è connesso alla scatola del cambio, in cui
-   alloggiano l'albero primario e l'albero secondario; la scatola
-   trasferisce quindi il moto a un albero di trasmissione che, a sua volta
-   e tramite il differenziale, lo trasmette agli alberi delle ruote detti
-   anche semiassi. Numerosi alberi poi fanno parte dei sistemi ausiliari,
-   quali le pompe, il tergicristallo eccetera. Ma in tutte le applicazioni
-   di meccanica si trovano impieghi di alberi, nelle forme più varie.
+     * Collabora a Wikizionario Wikizionario contiene il lemma di dizionario
+       «albero a camme»
+     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
+       altri file su albero a camme
 
-L'albero dal punto di vista meccanico[modifica | modifica wikitesto]
-
-   [220px-Shaft.PNG] Albero sollecitato a flessione
-
-   Come si è detto, l'albero trasmette un moto rotatorio; esso è quindi
-   sottoposto a uno sforzo di torsione; nella maggior parte dei casi, a
-   causa di masse collegate all'albero stesso, esso è anche sottoposto a
-   sforzo di flessione. In figura la linea rossa mostra l'inflessione di
-   un albero supportato in due punti e recante a sbalzo una massa, che
-   genera una forza peso F. Per le leggi della scienza delle costruzioni,
-   quindi, l'albero dovrà essere dotato di opportuni supporti. Si pone,
-   quindi, il problema dell'attrito tra la parte rotante (albero) e quella
-   stazionaria (supporto), di cui è parte essenziale la definizione di
-   giochi e interferenze.
-
-   Per evitare che l'albero sia sottoposto a una coppia di torsione troppo
-   elevata, si può ricorrere alla chiavetta di Woodruff, la quale se
-   sottoposta a uno sforzo eccessivo si rompe e svincola l'albero motore
-   dal carico.
-
-Accorgimenti[modifica | modifica wikitesto]
-
-   L'albero motore può essere munito o caratterizzato da alcuni elementi o
-   funzioni a seconda del tipo d'utilizzo:
-     * Cavità nel caso di un albero motore dritto, questo può essere
-       creato cavo per poter aumentare la sua leggerezza senza
-       compromettere alla sua rigidezza nella torsione.
-     * Contro rotante soluzione usata su alcuni mezzi stradali, in
-       particolar modo sulle motociclette, in modo da ridurre l'effetto
-       giroscopico e ridurre l'impennata, questo perché l'albero motore
-       ruotando in senso opposto a quello delle ruote annulla parte
-       dell'effetto giroscopico, permettendo un cambio di traiettoria più
+Collegamenti esterni[modifica | modifica wikitesto]
