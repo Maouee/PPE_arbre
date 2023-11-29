@@ -8,7 +8,7 @@ echo "<lang=$langue>" > ../itrameur/${langue}/dump.txt
 for file in ../extractions/${langue}/* ;
 do
 
-dump=$(cat $file)
+dump=$(cat $file | sed -e "s/>/\@lg\;/g" -e "s/</\@lt\;/g" -e "s/&/\@amp\;/g")
 
 echo "<page='extraction$compteur'>
     <text>

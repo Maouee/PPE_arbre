@@ -1,4 +1,5 @@
-   Link: alternate
+   Link: alternate >>
+   & <<
    Link: canonical
    Link: license
    Jump to content

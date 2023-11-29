@@ -1,7 +1,8 @@
 <lang=anglais>
 <page='extraction1'>
     <text>
-       Link: alternate
+       Link: alternate @lg;@lg;
+   @amp; @lt;@lt;
    Link: canonical
    Link: license
    Jump to content
@@ -354,7 +355,7 @@ External links[edit]
      * Using a tree structure to design a business process – from the Society
        for Technical Communication
    Retrieved from
-   "https://en.wikipedia.org/w/index.php?title=Tree_structure&oldid=1184144880"
+   "https://en.wikipedia.org/w/index.php?title=Tree_structure@amp;oldid=1184144880"
    Category:
      * Trees (data structures)
    Hidden categories:
@@ -1717,7 +1718,7 @@ References
        Archived from the original on 8 September 2014. Retrieved 23 September
        2014.
     8. ^ Gyde, Lund H. (1999). "A forest by any other name …". Environmental
-       Science & Policy. 2 (2): 125–133. doi:10.1016/s1462-9011(98)00046-x.
+       Science @amp; Policy. 2 (2): 125–133. doi:10.1016/s1462-9011(98)00046-x.
     9. ^ ^a ^b "Diversity and evolution of monocots" (PDF). University of
        Wisconsin. Archived (PDF) from the original on 22 October 2016.
        Retrieved 22 September 2014.
@@ -2059,7 +2060,7 @@ References
    115. ^ "About birch syrup". Alaska Wild Harvest. Archived from the
         original on 15 August 2012. Retrieved 27 July 2012.
    116. ^ ^a ^b ^c Armstrong, Wayne P. (1 June 2012). "Allspice, Bay Rum, Bay
-        Leaves, Capers, Cloves, Cinnamon, Camphor, Witch Hazel & Nutmeg".
+        Leaves, Capers, Cloves, Cinnamon, Camphor, Witch Hazel @amp; Nutmeg".
         Wayne's Word. Archived from the original on 10 August 2012. Retrieved
         28 July 2012.
    117. ^ "Honey". Tropical Forest. Archived from the original on 15 October
@@ -2173,11 +2174,11 @@ References
    155. ^ "Chapter 5: Eucalyptus oil". Flavours and fragrances of plant
         origin. Food and Agriculture Organization of the United Nations.
         Archived from the original on 2 May 2012. Retrieved 19 March 2015.
-   156. ^ "Texas drought". Texas A&M Forest Service. Texas A&M University
+   156. ^ "Texas drought". Texas A@amp;M Forest Service. Texas A@amp;M University
         System. Archived from the original on 7 September 2015. Retrieved 10
         September 2012.
    157. ^ The State of the World's Forests 2020. Forests, biodiversity and
-        people – In brief. FAO & UNEP. 2020. doi:10.4060/ca8985en.
+        people – In brief. FAO @amp; UNEP. 2020. doi:10.4060/ca8985en.
         ISBN 978-92-5-132707-4. S2CID 241416114. Archived from the original
         on 20 May 2021. Retrieved 2 December 2020.
    158. ^ Collins (ed.). "Sacred Celtic Trees and Woods". The Celtic
@@ -2579,7 +2580,7 @@ References
                        * İslâm Ansiklopedisi         
 
    Retrieved from
-   "https://en.wikipedia.org/w/index.php?title=Tree&oldid=1187408464"
+   "https://en.wikipedia.org/w/index.php?title=Tree@amp;oldid=1187408464"
    Categories:
      * Trees
      * Forest ecology
