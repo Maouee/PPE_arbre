@@ -135,10 +135,8 @@ do
     ## ASPIRATION
     curl $URL > ../aspirations/${langue}/aspiration${compteur}.html
     ## EXTRACTION
-    lynx -dump -nolist ../aspirations/${langue}/aspiration${compteur}.html > ../extractions/${langue}/extraction${compteur}.txt
+    links -dump -codepage utf-8 ../aspirations/${langue}/aspiration${compteur}.html > ../extractions/${langue}/extraction${compteur}.txt
     
-    #récupère la valeur de l'encodage et l'écrit à la fin du fichier
-    encodage=$(curl -L -I -s $URL | egrep -o "charset.+\b" | tail -1 | tr -d "\r\d" | tr -d "charset=")
 
     compte=$(bash comptage/${langue}.sh ../extractions/${langue}/extraction${compteur}.txt)
     bash contexte/${langue}.sh $langue $compteur
