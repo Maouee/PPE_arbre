@@ -8,7 +8,7 @@ echo "<!DOCTYPE html>
     <html>
         <head>
             <meta charset='UTF-8'>
-            <link rel=stylesheet href=../../Css/main.css>
+            <link rel=stylesheet href=../Css/main.css>
             <script src='https://kit.fontawesome.com/b0d5fca4a5.js' crossorigin='anonymous'></script>
         </head>" > ../tableaux/tableau_${langue}.html
 
