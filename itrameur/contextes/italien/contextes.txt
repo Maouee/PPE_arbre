@@ -1,11 +1,128 @@
 <lang=italien>
 <page='extraction1'>
     <text>
-       Link: license
+         * Energia in MobilitÃ 
+     * Nautica
+     * ALBERO DI UNA BARCA A VELA Tutti nomi dell'albero di una barca a vela
+   _____________________
+
+                           ALBERO DI UNA BARCA A VELA
+                   Tutti nomi dell'albero di una barca a vela
+
+   La casa della batteria Snc di Formica Antonio @amp; C.
+--
+   coperchio e il corpo della nave, sopportando il peso della maggior parte
+   delle manovre. Naturalmente, le navi piÃ¹ grandi tendono ad avere un
+   maggior numero di alberi.
+
+   Essi sono soggetti morti dal lato delle manovre della barca, che aumenta
+   la stabilitÃ  e la capacitÃ  di sopportare forze laterali.
+
+   Quando gli alberi supplementari sono stati costruiti, stavano ricevendo i
+   seguenti nomi:
+
+   alberi barca a vela
+
+   Trinchetto, piÃ¹ vicino all'albero di prua (anticipo) l'albero principale
+   o maestro.
+   Mezzana Ã¨ un bastone dietro (piÃ¹ vicino alla poppa) che l'albero
+   principale o maestro.
+
+   bastone Contramesana o la fortuna: su imbarcazioni con quattro alberi
+   verticali era il nome dato al secondo montante (piÃ¹ di mezzana) che si
+   trova dietro l'albero maestro.
+
+   Palo bompresso, non solo montante in posizione verticale.
+--
+   piano orizzontale) e le candele chiamati fiocchi, triangolari sono
+   pressare. Nel XVIII secolo il bompresso ha raggiunto dimensioni quasi
+   grande come l'albero di trinchetto.
+   Stampa
+   Precedente
+    </text>
+    </page>
+<page='extraction2'>
+    <text>
+       secondo le linee guida sull'uso delle fonti. Segui i suggerimenti del
+   progetto di riferimento.
+   [IMG]Schema di un albero di maestra generico [IMG]Il vascello britannico
+   H.M.S. Victory alla fonda a Portsmouth: l'albero di maestra sta al centro
+
+   L'albero di maestra è l'albero maggiore delle navi a vela. Solitamente è
+   costituito da quattro parti ben distinte; partendo dal basso si ha:
+
+--
+     * Alberetto di controvelaccio (4)
+
+   In corrispondenza delle specifiche zone dell'albero appena descritte si
+   trovano i rispettivi pennoni (più uno volante); partendo sempre dal basso:
+
+--
+     * Pennone di controvelaccio (V)
+
+   I nomi delle vele inferite sull'albero di maestra prendono il nome dai
+   rispettivi pennoni:
+
+--
+
+     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
+       altri file su albero di maestra
+
+Collegamenti esterni[modifica | modifica wikitesto]
+    </text>
+    </page>
+<page='extraction3'>
+    <text>
+       Da Wikipedia, l'enciclopedia libera.
+   Vai alla navigazione Vai alla ricerca
+   [IMG]Esempio di albero genealogico della famiglia di Sigmund Christoph von
+   Waldburg-Zeil-Trauchburg
+
+   L'albero genealogico è generalmente l'elenco completo degli antenati, o
+   più specificamente, un grafico utilizzato nella genealogia per mostrare i
+   rapporti familiari tra individui. Non sempre è facile risalire
+--
+   che precede il nominativo conosciuto.
+
+   Le grafiche che rappresentano gli alberi genealogici sono disparate e
+   molteplici e spesso le diramazioni molto estese richiedono un'elaborazione
+   che non sempre è contenibile nei formati cartacei tradizionali.
+
+   Abitualmente l'albero genealogico viene realizzato utilizzando delle
+   caselle, quadrate per i maschi e circolari per le femmine, contenenti i
+   nomi di ciascuna persona, spesso corredati di informazioni aggiuntive,
+--
+   possibile descrivere gli antenati di una persona utilizzando una tavola
+   genealogica.^[1] Inoltre, uno dei modi più semplici e veloci per creare un
+   albero genealogico è quello di utilizzare dei modelli.
+
+Indice
+--
+Note[modifica | modifica wikitesto]
+
+    1. ^ Realizzato l'albero genealogico digitale più grande del mondo, su
+       superEva. URL consultato il 14 marzo 2018.
+
+--
+Altri progetti[modifica | modifica wikitesto]
+
+     * Collabora a Wikiquote Wikiquote contiene citazioni sull'albero
+       genealogico
+     * Collabora a Wikiversità Wikiversità contiene risorse sull'albero
+       genealogico
+     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
+       altri file sull'albero genealogico
+
+Collegamenti esterni[modifica | modifica wikitesto]
+    </text>
+    </page>
+<page='extraction4'>
+    <text>
+       [ ] Toggle the table of contents
 
                                      albero
 
-   Da Wikizionario, il dizionario a contenuto aperto.
+   [ ] 53 lingue
 --
   [IMG]Sostantivo
 
@@ -61,123 +178,6 @@ Altri progetti[modifica]
    "https://it.wiktionary.org/w/index.php?title=albero@amp;oldid=3927841"
    Categorie:
      * Sostantivi in italiano
-    </text>
-    </page>
-<page='extraction2'>
-    <text>
-         * Energia in MobilitÃ 
-     * Nautica
-     * ALBERO DI UNA BARCA A VELA Tutti nomi dell'albero di una barca a vela
-   _____________________
-
-                           ALBERO DI UNA BARCA A VELA
-                   Tutti nomi dell'albero di una barca a vela
-
-   La casa della batteria Snc di Formica Antonio @amp; C.
---
-   coperchio e il corpo della nave, sopportando il peso della maggior parte
-   delle manovre. Naturalmente, le navi piÃ¹ grandi tendono ad avere un
-   maggior numero di alberi.
-
-   Essi sono soggetti morti dal lato delle manovre della barca, che aumenta
-   la stabilitÃ  e la capacitÃ  di sopportare forze laterali.
-
-   Quando gli alberi supplementari sono stati costruiti, stavano ricevendo i
-   seguenti nomi:
-
-   alberi barca a vela
-
-   Trinchetto, piÃ¹ vicino all'albero di prua (anticipo) l'albero principale
-   o maestro.
-   Mezzana Ã¨ un bastone dietro (piÃ¹ vicino alla poppa) che l'albero
-   principale o maestro.
-
-   bastone Contramesana o la fortuna: su imbarcazioni con quattro alberi
-   verticali era il nome dato al secondo montante (piÃ¹ di mezzana) che si
-   trova dietro l'albero maestro.
-
-   Palo bompresso, non solo montante in posizione verticale.
---
-   piano orizzontale) e le candele chiamati fiocchi, triangolari sono
-   pressare. Nel XVIII secolo il bompresso ha raggiunto dimensioni quasi
-   grande come l'albero di trinchetto.
-   Stampa
-   Precedente
-    </text>
-    </page>
-<page='extraction3'>
-    <text>
-       secondo le linee guida sull'uso delle fonti. Segui i suggerimenti del
-   progetto di riferimento.
-   [IMG]Schema di un albero di maestra generico [IMG]Il vascello britannico
-   H.M.S. Victory alla fonda a Portsmouth: l'albero di maestra sta al centro
-
-   L'albero di maestra è l'albero maggiore delle navi a vela. Solitamente è
-   costituito da quattro parti ben distinte; partendo dal basso si ha:
-
---
-     * Alberetto di controvelaccio (4)
-
-   In corrispondenza delle specifiche zone dell'albero appena descritte si
-   trovano i rispettivi pennoni (più uno volante); partendo sempre dal basso:
-
---
-     * Pennone di controvelaccio (V)
-
-   I nomi delle vele inferite sull'albero di maestra prendono il nome dai
-   rispettivi pennoni:
-
---
-
-     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
-       altri file su albero di maestra
-
-Collegamenti esterni[modifica | modifica wikitesto]
-    </text>
-    </page>
-<page='extraction4'>
-    <text>
-       Da Wikipedia, l'enciclopedia libera.
-   Vai alla navigazione Vai alla ricerca
-   [IMG]Esempio di albero genealogico della famiglia di Sigmund Christoph von
-   Waldburg-Zeil-Trauchburg
-
-   L'albero genealogico è generalmente l'elenco completo degli antenati, o
-   più specificamente, un grafico utilizzato nella genealogia per mostrare i
-   rapporti familiari tra individui. Non sempre è facile risalire
---
-   che precede il nominativo conosciuto.
-
-   Le grafiche che rappresentano gli alberi genealogici sono disparate e
-   molteplici e spesso le diramazioni molto estese richiedono un'elaborazione
-   che non sempre è contenibile nei formati cartacei tradizionali.
-
-   Abitualmente l'albero genealogico viene realizzato utilizzando delle
-   caselle, quadrate per i maschi e circolari per le femmine, contenenti i
-   nomi di ciascuna persona, spesso corredati di informazioni aggiuntive,
---
-   possibile descrivere gli antenati di una persona utilizzando una tavola
-   genealogica.^[1] Inoltre, uno dei modi più semplici e veloci per creare un
-   albero genealogico è quello di utilizzare dei modelli.
-
-Indice
---
-Note[modifica | modifica wikitesto]
-
-    1. ^ Realizzato l'albero genealogico digitale più grande del mondo, su
-       superEva. URL consultato il 14 marzo 2018.
-
---
-Altri progetti[modifica | modifica wikitesto]
-
-     * Collabora a Wikiquote Wikiquote contiene citazioni sull'albero
-       genealogico
-     * Collabora a Wikiversità Wikiversità contiene risorse sull'albero
-       genealogico
-     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
-       altri file sull'albero genealogico
-
-Collegamenti esterni[modifica | modifica wikitesto]
     </text>
     </page>
 <page='extraction5'>

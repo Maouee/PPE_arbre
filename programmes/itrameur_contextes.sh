@@ -5,10 +5,10 @@ compteur=1
 echo "<lang=$langue>" > ../itrameur/contextes/${langue}/contextes.txt
 
 
-for file in ../contextes/${langue}/* ;
+for file in ../contextes/contexte-${langue}* ;
 do
 
-dump=$(cat $file | sed -e "s/>/\@lg\;/g" -e "s/</\@lt\;/g" -e "s/&/\@amp\;/g")
+dump=$(cat $file | sed -e "s/>/\@gt\;/g" -e "s/</\@lt\;/g" -e "s/&/\@amp\;/g")
 
 echo "<page='extraction$compteur'>
     <text>
