@@ -2,7 +2,7 @@ langue=$1
 compteur=1
 
 
-echo "<lang=$langue>" > ../itrameur/contextes/${langue}/contextes.txt
+echo "<lang=$langue>" > ../itrameur/contextes/contextes-${langue}.txt
 
 
 for file in ../contextes/contexte-${langue}* ;
@@ -14,10 +14,10 @@ echo "<page='extraction$compteur'>
     <text>
     $dump
     </text>
-    </page>" > test3.txt >> ../itrameur/contextes/${langue}/contextes.txt
+    </page>" > test3.txt >> ../itrameur/contextes/contextes-${langue}.txt
 
     ((compteur++))
 
 done
 
-echo "</lang>" >> ../itrameur/contextes/${langue}/contextes.txt
+echo "</lang>" >> ../itrameur/contextes/contextes-${langue}.txt
