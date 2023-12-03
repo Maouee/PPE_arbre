@@ -1,8 +1,8 @@
-   Link: license
+   [ ] Toggle the table of contents
 
                                      albero
 
-   Da Wikizionario, il dizionario a contenuto aperto.
+   [ ] 53 lingue
 --
   [IMG]Sostantivo
 

@@ -1,14 +1,39 @@
    Link: alternate
    Link: canonical
    Link: license
-
-                                     albero
-
-   Da Wikizionario, il dizionario a contenuto aperto.
-   Vai alla navigazione Vai alla ricerca
+   Vai al contenuto
+   [ ] Menu principale
+   Menu principale
+   Comunità
+     * Pagina principale
+     * Portale comunità
+     * Bar
+     * Il Wikizionariano
+     * Aiuto
+     * Fai una donazione
+     * Contatti
+   Navigazione
+     * Ultime modifiche
+     * Un lemma a caso
+   Lingue
+   I collegamenti interlinguistici sono in cima alla pagina a destra del
+   titolo.
+   [IMG] Wikizionario Il dizionario libero
+   Ricerca
+   _____________________
+   Ricerca
+     * registrati
+     * entra
+   [ ] Strumenti personali
+     * registrati
+     * entra
+   Pagine per utenti anonimi ulteriori informazioni
+     * contributi
+     * discussioni
 
 Indice
 
+     * Inizio
      * 1 Italiano
           * 1.1 Sostantivo
           * 1.2 Sillabazione
@@ -23,6 +48,90 @@ Indice
           * 1.10 Traduzione
      * 2 Note / Riferimenti
      * 3 Altri progetti
+   [ ] Toggle the table of contents
+
+                                     albero
+
+   [ ] 53 lingue
+     * Aragonés
+     * Azərbaycanca
+     * Български
+     * Brezhoneg
+     * Català
+     * Corsu
+     * Čeština
+     * Deutsch
+     * Ελληνικά
+     * English
+     * Español
+     * Eesti
+     * Euskara
+     * فارسی
+     * Suomi
+     * Na Vosa Vakaviti
+     * Français
+     * Galego
+     * Gaelg
+     * Magyar
+     * Հայերեն
+     * Bahasa Indonesia
+     * Ido
+     * Íslenska
+     * 日本語
+     * 한국어
+     * Kurdî
+     * Lombard
+     * Lietuvių
+     * Latviešu
+     * Malagasy
+     * Македонски
+     * Nāhuatl
+     * Nederlands
+     * Norsk
+     * Occitan
+     * Oromoo
+     * Polski
+     * Português
+     * Română
+     * Русский
+     * Sicilianu
+     * සිංහල
+     * Gagana Samoa
+     * Svenska
+     * தமிழ்
+     * Тоҷикӣ
+     * ไทย
+     * Tagalog
+     * Türkçe
+     * Oʻzbekcha / ўзбекча
+     * Vèneto
+     * 中文
+     * Lemma
+     * Discussione
+   [ ] italiano
+     * Leggi
+     * Modifica
+     * Cronologia
+   [ ] Strumenti
+   Strumenti
+   Azioni
+     * Leggi
+     * Modifica
+     * Cronologia
+   Generale
+     * Puntano qui
+     * Modifiche correlate
+     * Carica un file
+     * Pagine speciali
+     * Link permanente
+     * Informazioni pagina
+     * Cita questa pagina
+     * Ottieni URL breve
+   Stampa/esporta
+     * Crea un libro
+     * Scarica come PDF
+     * Versione stampabile
+   Da Wikizionario, il dizionario a contenuto aperto.
 
 bandiera italiana Italiano[modifica]
 
@@ -205,122 +314,6 @@ Altri progetti[modifica]
      * Ingegneria-IT
      * Araldica-IT
      * Parole antiche-IT
-
-Menu di navigazione
-
-  Strumenti personali
-
-     * Accesso non effettuato
-     * discussioni
-     * contributi
-     * registrati
-     * entra
-
-  Namespace
-
-     * Lemma
-     * Discussione
-   [ ] italiano
-
-  Visite
-
-     * Leggi
-     * Modifica
-     * Cronologia
-   [ ] Altro
-
-  Ricerca
-
-   _____________________ [ Ricerca ] [ Vai ]
-   Visita la pagina principale
-
-  Comunità
-
-     * Pagina principale
-     * Portale comunità
-     * Bar
-     * Il Wikizionariano
-     * Aiuto
-     * Fai una donazione
-     * Contatti
-
-  Navigazione
-
-     * Ultime modifiche
-     * Un lemma a caso
-
-  Strumenti
-
-     * Puntano qui
-     * Modifiche correlate
-     * Carica un file
-     * Pagine speciali
-     * Link permanente
-     * Informazioni pagina
-     * Cita questa pagina
-     * Ottieni URL breve
-
-  Stampa/esporta
-
-     * Crea un libro
-     * Scarica come PDF
-     * Versione stampabile
-
-  In altre lingue
-
-     * Aragonés
-     * Azərbaycanca
-     * Български
-     * Brezhoneg
-     * Català
-     * Corsu
-     * Čeština
-     * Deutsch
-     * Ελληνικά
-     * English
-     * Español
-     * Eesti
-     * Euskara
-     * فارسی
-     * Suomi
-     * Na Vosa Vakaviti
-     * Français
-     * Galego
-     * Gaelg
-     * Magyar
-     * Հայերեն
-     * Bahasa Indonesia
-     * Ido
-     * Íslenska
-     * 日本語
-     * 한국어
-     * Kurdî
-     * Lombard
-     * Lietuvių
-     * Latviešu
-     * Malagasy
-     * Македонски
-     * Nāhuatl
-     * Nederlands
-     * Norsk
-     * Occitan
-     * Oromoo
-     * Polski
-     * Português
-     * Română
-     * Русский
-     * Sicilianu
-     * සිංහල
-     * Gagana Samoa
-     * Svenska
-     * தமிழ்
-     * Тоҷикӣ
-     * ไทย
-     * Tagalog
-     * Türkçe
-     * Oʻzbekcha / ўзбекча
-     * Vèneto
-     * 中文
      * Questa pagina è stata modificata per l'ultima volta il 13 mar 2023
        alle 10:38.
      * Il testo è disponibile secondo la licenza Creative Commons
@@ -336,3 +329,4 @@ Menu di navigazione
      * Versione mobile
      * Wikimedia Foundation
      * Powered by MediaWiki
+     * Toggle limited content width

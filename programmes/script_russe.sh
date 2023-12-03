@@ -8,16 +8,16 @@ echo "<!DOCTYPE html>
     <html>
         <head>
             <meta charset='UTF-8'>
-            <link rel=stylesheet href=../../Css/main.css>
+            <link rel=stylesheet href=../Css/main.css>
             <script src='https://kit.fontawesome.com/b0d5fca4a5.js' crossorigin='anonymous'></script>
-        </head>" > ../tableaux/${langue}/tableau_${langue}.html
+        </head>" > ../tableaux/tableau_${langue}.html
 
 echo "    <body>
         <div class='container is-max-desktop'>
         <h1 class='title is-bordered has-text-centered has-background-success-light has-background-centered'>
             Programmation et projet encadré
         </h1>
-        <div class='tabs is-centered'>" >> ../tableaux/${langue}/tableau_${langue}.html
+        <div class='tabs is-centered'>" >> ../tableaux/tableau_${langue}.html
 
 
 echo "             <ul>
@@ -34,20 +34,20 @@ echo "             <ul>
             </a>
         </li>
         <li>
-            <a href='../anglais/tableau_anglais.html'>
+            <a href='../tableau_anglais.html'>
                 <span class='icon is-small'><i class='fa-solid fa-table' aria-hidden='true'></i></span>
                 <span>Tableau anglais</span>
             </a>
         </li>
         <li>
-            <a href='../italien/tableau_italien.html'>
+            <a href='../tableau_italien.html'>
                 <span class='icon is-small'><i class='fa-solid fa-table' aria-hidden='true'></i></span>
                 <span>Tableau italien</span>
             </a>
         </li>
 </ul>
     </div>
-    <table id=table>" >> ../tableaux/${langue}/tableau_${langue}.html
+    <table id=table>" >> ../tableaux/tableau_${langue}.html
 
 
 echo
@@ -60,19 +60,19 @@ echo "            <tr>
                 <th>dumps</th>
                 <th>compte</th>
                 <th>contexte</th>
-                </tr>" >> ../tableaux/${langue}/tableau_${langue}.html
+                </tr>" >> ../tableaux/tableau_${langue}.html
 
 
 while read -r URL
 do
     ## ASPIRATION
-    curl $URL > ../aspirations/${langue}/aspiration${compteur}.html
-    ## EXTRACTION
-    links -dump -codepage utf-8 ../aspirations/${langue}/aspiration${compteur}.html > ../extractions/${langue}/extraction${compteur}.txt
+    curl $URL > ../aspirations/aspiration-${langue}-${compteur}.html
+    ## dump-text
+    links -dump -codepage utf-8 ../aspirations/aspiration-${langue}-${compteur}.html > ../dumps-text/dump-text-${langue}-${compteur}.txt
     
 
 
-    #iconv -f ${encodage} -t UTF-8 ../extractions/${langue}/extraction${compteur}.txt > ../extractions/${langue}/extraction${compteur}.txt
+    #iconv -f ${encodage} -t UTF-8 ../dumps-text/dump-text-${langue}-${compteur}.txt > ../dumps-text/dump-text-${langue}-${compteur}.txt
 
 
     ## TABLEAU
@@ -83,7 +83,7 @@ do
     contexte="NA"
     compte=0
     if [ "$response" == "200" ]; then
-        compte=$(bash comptage/${langue}.sh ../extractions/${langue}/extraction${compteur}.txt)
+        compte=$(bash comptage/${langue}.sh ../dumps-text/dump-text-${langue}-${compteur}.txt)
         bash contexte/${langue}.sh $langue $compteur
         contexte="contexte"
     fi
@@ -95,20 +95,20 @@ do
                     <td>$response</td>
                     <td>$encoding</td>
                     <td>
-                    <a href='../../aspirations/${langue}/aspiration${compteur}.html'>aspiration</a>
+                    <a href='../../aspirations/aspiration-${langue}-${compteur}.html'>aspiration</a>
                     </td>
                     <td>
-                    <a href='../../extractions/${langue}/extraction${compteur}.txt'>extraction</a>
+                    <a href='../../dumps-text/dump-text-${langue}-${compteur}.txt'>dump-text</a>
                     </td>
                     <td>$compte</td>
                     <td>
-                    <a href='../../contextes/${langue}/contexte${compteur}.txt'>${contexte}</a>
+                    <a href='../../contextes/contexte-${langue}-${compteur}.txt'>${contexte}</a>
                     </td>
                     </tr>
-    " >> ../tableaux/${langue}/tableau_${langue}.html
+    " >> ../tableaux/tableau_${langue}.html
     compteur=$(expr $compteur + 1)
     #incrémente le compteur de 1 avant de passer au fichier suivant
     ((compteur++))
 done < $file
 
-echo "</table></div></body></html>" >> ../tableaux/${langue}/tableau_${langue}.html
+echo "</table></div></body></html>" >> ../tableaux/tableau_${langue}.html
