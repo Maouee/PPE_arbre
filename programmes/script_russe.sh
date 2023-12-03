@@ -22,7 +22,7 @@ echo "    <body>
 
 echo "             <ul>
         <li>
-            <a href='../../index.html'>
+            <a href='../index.html'>
                 <span class='icon is-small'><i class='fa-solid fa-house' aria-hidden='true'></i></span>
                 <span>Accueil</span>
             </a>
@@ -34,13 +34,13 @@ echo "             <ul>
             </a>
         </li>
         <li>
-            <a href='../tableau_anglais.html'>
+            <a href='tableau_anglais.html'>
                 <span class='icon is-small'><i class='fa-solid fa-table' aria-hidden='true'></i></span>
                 <span>Tableau anglais</span>
             </a>
         </li>
         <li>
-            <a href='../tableau_italien.html'>
+            <a href='tableau_italien.html'>
                 <span class='icon is-small'><i class='fa-solid fa-table' aria-hidden='true'></i></span>
                 <span>Tableau italien</span>
             </a>
