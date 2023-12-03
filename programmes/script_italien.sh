@@ -28,13 +28,13 @@ echo "             <ul>
             </a>
         </li>
         <li>
-            <a href='/tableau_russe.html'>
+            <a href='tableau_russe.html'>
                 <span class='icon is-small'><i class='fa-solid fa-table' aria-hidden='true'></i></span>
                 <span>Tableau russe</span>
             </a>
         </li>
         <li>
-            <a href='/tableau_anglais.html'>
+            <a href='tableau_anglais.html'>
                 <span class='icon is-small'><i class='fa-solid fa-table' aria-hidden='true'></i></span>
                 <span>Tableau anglais</span>
             </a>
