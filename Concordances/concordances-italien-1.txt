@@ -1,11 +1,11 @@
 	albero	
 	albero	
-alberi
+	alberi	
 	albero	 piantato su un mucchio di
 img]un 	albero	 in
 img]un 	albero	 solitario con foglie
 img]un 	albero	 senza
-img]alberi di una nave
+img]	alberi	 di una nave
 img]struttura ad 	albero	
 	albero	
 ogni 	albero	 buono produce frutti buoni e
@@ -22,7 +22,7 @@ un 	albero	 in piedi vale pi
 	albero	 di natale
 	albero	
 	albero	
-alberi
+	alberi	
 	albero	
 wikiquote wikiquote contiene citazioni sull'	albero	
 wikipedia contiene una voce sull'	albero	
