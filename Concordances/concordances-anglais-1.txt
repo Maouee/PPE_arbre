@@ -1,64 +1,64 @@
-2 Examples of 	tree	 structures
-3 Representing 	tree	s
-3.4 Outlines and 	tree	 views
-3.6 Radial 	tree	s
-IMG]A 	tree	 structure showing the possible hierarchical
+2 examples of 	tree	 structures
+3 representing 	trees	
+3.4 outlines and 	tree	 views
+3.6 radial 	trees	
+img]a 	tree	 structure showing the possible hierarchical
 used a 	tree	 diagram to
-A 	tree	 structure
+a 	tree	 structure
 	tree	 diagram
 or 	tree	 model is a way of
 	tree	 structure
 the classic representation resembles a 	tree	
 down compared to a biological 	tree	
-A 	tree	 structure is conceptual
+a 	tree	 structure is conceptual
 discussion of 	tree	 structures in specific fields
-see Tree
+see 	tree	
 see 	tree	
 or 	tree	
-The 	tree	 elements are called
-Every finite 	tree	 structure has a member that
+the 	tree	 elements are called
+every finite 	tree	 structure has a member that
 infinite 	tree	 structures may or may not
 as the root of the 	tree	
-Tree structures can depict all kinds
-family 	tree	s
+	tree	 structures can depict all kinds
+family 	trees	
 the biological evolutionary 	tree	
 the evolutionary 	tree	 of a
-mathematical 	tree	s
+mathematical 	trees	
 	tree	
 	tree	-diagram
-In a 	tree	 structure there is one and
-Computer science uses 	tree	 structures extensively
-see Tree
-Examples of 	tree	 structures[edit
-IMG]A 	tree	 map used to represent a
+in a 	tree	 structure there is one and
+computer science uses 	tree	 structures extensively
+see 	tree	
+examples of 	tree	 structures[edit
+img]a 	tree	 map used to represent a
 in the shape of a 	tree	 illustrating the
 binary search 	tree	
 red–black 	tree	
-AVL 	tree	
-R-	tree	
+avl 	tree	
+r-	tree	
 doubly logarithmic 	tree	
 evolutionary 	tree	
-Phrase structure 	tree	s
-Tree model of language change
-descendant 	tree	s
-Representing 	tree	s[edit
+phrase structure 	trees	
+	tree	 model of language change
+descendant 	trees	
+representing 	trees	[edit
 many ways of visually representing 	tree	 structures
-Outlines and 	tree	 views[edit
+outlines and 	tree	 views[edit
 	tree	 views
-A 	tree	 view
-Radial 	tree	s[edit
-Radial 	tree	
-Trees can also be represented radially
-Kinds of 	tree	s
-B-	tree	
-Dancing 	tree	
-Decision 	tree	
-Left-child right-sibling binary 	tree	
-Porphyrian 	tree	
-Tree
-Tree
+a 	tree	 view
+radial 	trees	[edit
+radial 	tree	
+	trees	 can also be represented radially
+kinds of 	trees	
+b-	tree	
+dancing 	tree	
+decision 	tree	
+left-child right-sibling binary 	tree	
+porphyrian 	tree	
+	tree	
+	tree	
 	tree	
 of the basic styles of 	tree	 structures can be found
-Commons has media related to Tree diagram
-Visualization of phylogenetic 	tree	s on the T-REX server
-Using a 	tree	 structure to design a business
+commons has media related to 	tree	 diagram
+visualization of phylogenetic 	trees	 on the t-rex server
+using a 	tree	 structure to design a business

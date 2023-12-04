@@ -21,9 +21,11 @@ while read  line;do
     contexte_gauche=$(echo "$line" | cut -f 1)
     contexte_droit=$(echo "$line" | cut -f 3)
     mot=$(echo "$line" | cut -f 2)
+if [ -n "$contexte_gauche" ] && [ -n "$contexte_droit" ] && [ -n "$mot" ]; then
     echo "              <tr>
                         <td>${contexte_gauche}</td>
                         <td>${mot}</td>
                         <td>${contexte_droit}</td>
                         </tr> " >> ../Concordances/concordances-${langue}-${compteur}.html
+fi
 done < $file
