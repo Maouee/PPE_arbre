@@ -99,13 +99,17 @@ do
 
 
 
+    ## Concordancier
+    
+
+
     echo "            <tr>
                     <td>$compteur</td>
                     <td><a href=$URL>URL</a></td>
                     <td>$response</td>
                     <td>$encoding</td>
                     <td>
-                    <a href='../aspirations/aspiration-${langue}-${compteur}'>aspiration</a>
+                    <a href='../aspirations/aspiration-${langue}-${compteur}.html'>aspiration</a>
                     </td>
                     <td>
                     <a href='../dumps-text/dump-text-${langue}-${compteur}.txt'>dump-text</a>
