@@ -83,12 +83,13 @@ do
 
     contexte="NA"
     compte=0
+    concordancier="NA"
     if [ "$response" == "200" ]; then
         compte=$(bash comptage/${langue}.sh ../dumps-text/dump-text-${langue}-${compteur}.txt)
         bash contexte/${langue}.sh $langue $compteur
         contexte="contexte"
         # Récupère les occurences du mot avec contexte gauche et droit au format tsv
-        grep -o -i -P "(\w+\W){0,5}(дерев[ауе]|деревом?|деревьях?|деревьями?|деревьев)(\W\w+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(дерев[ауе]|деревом?|деревьях?|деревьями?|деревьев)/\t\1\t/g' > ../Concordances/concordances-${langue}-${compteur}.txt
+        grep -o -P -i "(\w+\W){0,5}(дерев[ауе]|деревом?|деревьях?|деревьями?|деревьев)(\W\w+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(дерево)/\t\1\t/g' > ../Concordances/concordances-${langue}-${compteur}.txt
         # Utilise le tsv pour créer un tableau html
         bash concordancier.sh ../Concordances/concordances-${langue}-${compteur}.txt ${langue} ${compteur}
         concordancier="concordancier"
@@ -101,14 +102,14 @@ do
                     <td>$response</td>
                     <td>$encoding</td>
                     <td>
-                    <a href='../../aspirations/aspiration-${langue}-${compteur}.html'>aspiration</a>
+                    <a href='../aspirations/aspiration-${langue}-${compteur}.html'>aspiration</a>
                     </td>
                     <td>
-                    <a href='../../dumps-text/dump-text-${langue}-${compteur}.txt'>dump-text</a>
+                    <a href='../dumps-text/dump-text-${langue}-${compteur}.txt'>dump-text</a>
                     </td>
                     <td>$compte</td>
                     <td>
-                    <a href='../../contextes/contexte-${langue}-${compteur}.txt'>${contexte}</a>
+                    <a href='../contextes/contexte-${langue}-${compteur}.txt'>${contexte}</a>
                     </td>
                     <td>
                     <a href='../Concordances/concordances-${langue}-${compteur}.html'>${concordancier}</a>
