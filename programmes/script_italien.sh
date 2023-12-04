@@ -60,6 +60,7 @@ echo "            <tr>
                 <th>dumps</th>
                 <th>compte</th>
                 <th>contexte</th>
+                <th>concordances</th>
                 </tr>" >> ../tableaux/tableau_${langue}.html
 
 
@@ -82,11 +83,20 @@ do
 
     contexte="NA"
     compte=0
+    concordancier="NA"
     if [ "$response" == "200" ]; then
         compte=$(bash comptage/${langue}.sh ../dumps-text/dump-text-${langue}-${compteur}.txt)
         bash contexte/${langue}.sh $langue $compteur
         contexte="contexte"
+        # Récupère les occurences du mot avec contexte gauche et droit au format tsv
+        ggrep -o -i -P "(\w+\W){0,5}alber(o|i)(\W\w+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(albero)/\t\1\t/g' > ../Concordances/concordances-${langue}-${compteur}.txt
+        # Utilise le tsv pour créer un tableau html
+        bash concordancier.sh ../Concordances/concordances-${langue}-${compteur}.txt ${langue} ${compteur}
     fi
+
+
+
+
 
 
     echo "            <tr>
@@ -103,6 +113,9 @@ do
                     <td>$compte</td>
                     <td>
                     <a href='../../contextes/contexte-${langue}-${compteur}.txt'>${contexte}</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-${langue}-${compteur}.html'>${concordancier}</a>
                     </td>
                     </tr>
     " >> ../tableaux/tableau_${langue}.html
