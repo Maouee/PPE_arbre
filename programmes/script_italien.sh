@@ -89,7 +89,7 @@ do
         bash contexte/${langue}.sh $langue $compteur
         contexte="contexte"
         # Récupère les occurences du mot avec contexte gauche et droit au format tsv
-        ggrep -o -i -P "(\w+\W){0,5}alber(o|i)(\W\w+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(albero)/\t\1\t/g' > ../Concordances/concordances-${langue}-${compteur}.txt
+        ggrep -o -i -P "(\w+\W){0,5}alber(o|i)(\W\w+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | tr '[:upper:]' '[:lower:]' | sed -E 's/(albero)/\t\1\t/g' > ../Concordances/concordances-${langue}-${compteur}.txt
         # Utilise le tsv pour créer un tableau html
         bash concordancier.sh ../Concordances/concordances-${langue}-${compteur}.txt ${langue} ${compteur}
         concordancier="concordancier"

@@ -1,9 +1,9 @@
-ALBERO DI UNA BARCA A VELA
-Tutti nomi dell'	albero	 di una barca a vela
-ALBERO DI UNA BARCA A VELA
-Tutti nomi dell'	albero	 di una barca a vela
+	albero	 di una barca a vela
+tutti nomi dell'	albero	 di una barca a vela
+	albero	 di una barca a vela
+tutti nomi dell'	albero	 di una barca a vela
 maggior numero di alberi
-Quando gli alberi supplementari sono stati costruiti
+quando gli alberi supplementari sono stati costruiti
 alberi barca a vela
 vicino all'	albero	 di prua
 l'	albero	 principale
