@@ -1,5 +1,5 @@
 <lang=anglais>
-<page='extraction1'>
+<page='dump1'>
     <text>
        Link: alternate
    Link: canonical
@@ -383,7 +383,7 @@ External links[edit]
      * Toggle limited content width
     </text>
     </page>
-<page='extraction2'>
+<page='dump2'>
     <text>
        Link: alternate
    Link: canonical
@@ -2630,7 +2630,7 @@ References
      * Toggle limited content width
     </text>
     </page>
-<page='extraction3'>
+<page='dump3'>
     <text>
                                401 Authorization Required
 

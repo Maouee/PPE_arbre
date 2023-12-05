@@ -1,165 +1,5 @@
 <lang=italien>
-<page='extraction1'>
-    <text>
-         * Energia in MobilitÃ 
-     * Nautica
-     * ALBERO DI UNA BARCA A VELA Tutti nomi dell'albero di una barca a vela
-   _____________________
-
---
---
-
-                           ALBERO DI UNA BARCA A VELA
-                   Tutti nomi dell'albero di una barca a vela
-
-   La casa della batteria Snc di Formica Antonio @amp; C.
---
---
-   coperchio e il corpo della nave, sopportando il peso della maggior parte
-   delle manovre. Naturalmente, le navi piÃ¹ grandi tendono ad avere un
-   maggior numero di alberi.
-
-   Essi sono soggetti morti dal lato delle manovre della barca, che aumenta
---
---
-   la stabilitÃ  e la capacitÃ  di sopportare forze laterali.
-
-   Quando gli alberi supplementari sono stati costruiti, stavano ricevendo i
-   seguenti nomi:
-
---
---
-   seguenti nomi:
-
-   alberi barca a vela
-
---
-
-   Trinchetto, piÃ¹ vicino all'albero di prua (anticipo) l'albero principale
-   o maestro.
---
-   o maestro.
-   Mezzana Ã¨ un bastone dietro (piÃ¹ vicino alla poppa) che l'albero
-   principale o maestro.
-
---
---
-   principale o maestro.
-
-   bastone Contramesana o la fortuna: su imbarcazioni con quattro alberi
-   verticali era il nome dato al secondo montante (piÃ¹ di mezzana) che si
---
-   verticali era il nome dato al secondo montante (piÃ¹ di mezzana) che si
-   trova dietro l'albero maestro.
-
-   Palo bompresso, non solo montante in posizione verticale.
---
---
-   piano orizzontale) e le candele chiamati fiocchi, triangolari sono
-   pressare. Nel XVIII secolo il bompresso ha raggiunto dimensioni quasi
-   grande come l'albero di trinchetto.
-   Stampa
-   Precedente
-    </text>
-    </page>
-<page='extraction2'>
-    <text>
-       secondo le linee guida sull'uso delle fonti. Segui i suggerimenti del
-   progetto di riferimento.
-   [IMG]Schema di un albero di maestra generico [IMG]Il vascello britannico
-   H.M.S. Victory alla fonda a Portsmouth: l'albero di maestra sta al centro
-
---
-
-   L'albero di maestra è l'albero maggiore delle navi a vela. Solitamente è
-   costituito da quattro parti ben distinte; partendo dal basso si ha:
-
---
---
-     * Alberetto di controvelaccio (4)
-
-   In corrispondenza delle specifiche zone dell'albero appena descritte si
-   trovano i rispettivi pennoni (più uno volante); partendo sempre dal basso:
-
---
---
-     * Pennone di controvelaccio (V)
-
-   I nomi delle vele inferite sull'albero di maestra prendono il nome dai
-   rispettivi pennoni:
-
---
---
-
-     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
-       altri file su albero di maestra
-
-Collegamenti esterni[modifica | modifica wikitesto]
-    </text>
-    </page>
-<page='extraction3'>
-    <text>
-       Da Wikipedia, l'enciclopedia libera.
-   Vai alla navigazione Vai alla ricerca
-   [IMG]Esempio di albero genealogico della famiglia di Sigmund Christoph von
-   Waldburg-Zeil-Trauchburg
-
---
---
-   Waldburg-Zeil-Trauchburg
-
-   L'albero genealogico è generalmente l'elenco completo degli antenati, o
-   più specificamente, un grafico utilizzato nella genealogia per mostrare i
-   rapporti familiari tra individui. Non sempre è facile risalire
---
---
-   che precede il nominativo conosciuto.
-
-   Le grafiche che rappresentano gli alberi genealogici sono disparate e
-   molteplici e spesso le diramazioni molto estese richiedono un'elaborazione
-   che non sempre è contenibile nei formati cartacei tradizionali.
---
---
-   che non sempre è contenibile nei formati cartacei tradizionali.
-
-   Abitualmente l'albero genealogico viene realizzato utilizzando delle
-   caselle, quadrate per i maschi e circolari per le femmine, contenenti i
-   nomi di ciascuna persona, spesso corredati di informazioni aggiuntive,
---
---
-   possibile descrivere gli antenati di una persona utilizzando una tavola
-   genealogica.^[1] Inoltre, uno dei modi più semplici e veloci per creare un
-   albero genealogico è quello di utilizzare dei modelli.
-
-Indice
---
---
-Note[modifica | modifica wikitesto]
-
-    1. ^ Realizzato l'albero genealogico digitale più grande del mondo, su
-       superEva. URL consultato il 14 marzo 2018.
-
---
---
-Altri progetti[modifica | modifica wikitesto]
-
-     * Collabora a Wikiquote Wikiquote contiene citazioni sull'albero
-       genealogico
---
-       genealogico
-     * Collabora a Wikiversità Wikiversità contiene risorse sull'albero
-       genealogico
-     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
---
---
-       genealogico
-     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
-       altri file sull'albero genealogico
-
-Collegamenti esterni[modifica | modifica wikitesto]
-    </text>
-    </page>
-<page='extraction4'>
+<page='contexte1italien'>
     <text>
        [ ] Toggle the table of contents
 
@@ -167,14 +7,10 @@ Collegamenti esterni[modifica | modifica wikitesto]
 
    [ ] 53 lingue
 --
---
   [IMG]Sostantivo
 
    albero (Wikipedia approfondimento) m sing (pl.: alberi)
 
-   [IMG]Dead Tree in Sea of ​​Life è un'opera d'arte del 2017 di Amiram Dora,
---
---
    [IMG]Dead Tree in Sea of ​​Life è un'opera d'arte del 2017 di Amiram Dora,
    una guida turistica della vicina città di Arad. L'opera consiste in un
    albero piantato su un mucchio di sale nel Mar Morto. [IMG]un albero in
@@ -183,13 +19,11 @@ Collegamenti esterni[modifica | modifica wikitesto]
     1. (botanica) vegetale perenne dotato di un fusto legnoso molto alto,
        spesso e duro, detto tronco, di rami in genere coperti di foglie
 --
---
   [IMG] Pronuncia[modifica]
 
    IPA: /ˈalbero/ Ascolta la pronuncia :
 
   [IMG]Etimologia / Derivazione[modifica]
---
 --
     Citazione[modifica]
 
@@ -197,14 +31,9 @@ Collegamenti esterni[modifica | modifica wikitesto]
                          albero cattivo produce frutti cattivi. »             
                          (Vangelo secondo Matteo 7,17)                        
 
---
---
-                         (Vangelo secondo Matteo 7,17)                        
-
                          «Un albero in piedi vale più di tonnellate di legno  
                          abbattute illegalmente da chi pensa solo al facile   
                          profitto, a scapito del deterioramento della vita    
---
 --
   [IMG] Parole derivate[modifica]
 
@@ -216,7 +45,6 @@ Collegamenti esterni[modifica | modifica wikitesto]
 
   [IMG] Termini correlati[modifica]
 --
---
   [IMG] Alterati[modifica]
 
      * (diminutivo) alberello, alberetto, alberino
@@ -224,46 +52,152 @@ Collegamenti esterni[modifica | modifica wikitesto]
 
   [IMG] Traduzione
 --
---
 Altri progetti[modifica]
 
      * Collabora a Wikiquote Wikiquote contiene citazioni sull'albero
      * Collabora a Wikipedia Wikipedia contiene una voce sull'albero
      * Collabora a Commons Commons contiene immagini o altri file sull'albero
    Estratto da
---
-   Estratto da
    "https://it.wiktionary.org/w/index.php?title=albero@amp;oldid=3927841"
    Categorie:
      * Sostantivi in italiano
     </text>
     </page>
-<page='extraction5'>
+<page='contexte2italien'>
+    <text>
+         * Energia in MobilitÃ 
+     * Nautica
+     * ALBERO DI UNA BARCA A VELA Tutti nomi dell'albero di una barca a vela
+   _____________________
+
+                           ALBERO DI UNA BARCA A VELA
+                   Tutti nomi dell'albero di una barca a vela
+
+   La casa della batteria Snc di Formica Antonio @amp; C.
+--
+   coperchio e il corpo della nave, sopportando il peso della maggior parte
+   delle manovre. Naturalmente, le navi piÃ¹ grandi tendono ad avere un
+   maggior numero di alberi.
+
+   Essi sono soggetti morti dal lato delle manovre della barca, che aumenta
+   la stabilitÃ  e la capacitÃ  di sopportare forze laterali.
+
+   Quando gli alberi supplementari sono stati costruiti, stavano ricevendo i
+   seguenti nomi:
+
+   alberi barca a vela
+
+   Trinchetto, piÃ¹ vicino all'albero di prua (anticipo) l'albero principale
+   o maestro.
+   Mezzana Ã¨ un bastone dietro (piÃ¹ vicino alla poppa) che l'albero
+   principale o maestro.
+
+   bastone Contramesana o la fortuna: su imbarcazioni con quattro alberi
+   verticali era il nome dato al secondo montante (piÃ¹ di mezzana) che si
+   trova dietro l'albero maestro.
+
+   Palo bompresso, non solo montante in posizione verticale.
+--
+   piano orizzontale) e le candele chiamati fiocchi, triangolari sono
+   pressare. Nel XVIII secolo il bompresso ha raggiunto dimensioni quasi
+   grande come l'albero di trinchetto.
+   Stampa
+   Precedente
+    </text>
+    </page>
+<page='contexte3italien'>
+    <text>
+       secondo le linee guida sull'uso delle fonti. Segui i suggerimenti del
+   progetto di riferimento.
+   [IMG]Schema di un albero di maestra generico [IMG]Il vascello britannico
+   H.M.S. Victory alla fonda a Portsmouth: l'albero di maestra sta al centro
+
+   L'albero di maestra è l'albero maggiore delle navi a vela. Solitamente è
+   costituito da quattro parti ben distinte; partendo dal basso si ha:
+
+--
+     * Alberetto di controvelaccio (4)
+
+   In corrispondenza delle specifiche zone dell'albero appena descritte si
+   trovano i rispettivi pennoni (più uno volante); partendo sempre dal basso:
+
+--
+     * Pennone di controvelaccio (V)
+
+   I nomi delle vele inferite sull'albero di maestra prendono il nome dai
+   rispettivi pennoni:
+
+--
+
+     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
+       altri file su albero di maestra
+
+Collegamenti esterni[modifica | modifica wikitesto]
+    </text>
+    </page>
+<page='contexte4italien'>
+    <text>
+       Da Wikipedia, l'enciclopedia libera.
+   Vai alla navigazione Vai alla ricerca
+   [IMG]Esempio di albero genealogico della famiglia di Sigmund Christoph von
+   Waldburg-Zeil-Trauchburg
+
+   L'albero genealogico è generalmente l'elenco completo degli antenati, o
+   più specificamente, un grafico utilizzato nella genealogia per mostrare i
+   rapporti familiari tra individui. Non sempre è facile risalire
+--
+   che precede il nominativo conosciuto.
+
+   Le grafiche che rappresentano gli alberi genealogici sono disparate e
+   molteplici e spesso le diramazioni molto estese richiedono un'elaborazione
+   che non sempre è contenibile nei formati cartacei tradizionali.
+
+   Abitualmente l'albero genealogico viene realizzato utilizzando delle
+   caselle, quadrate per i maschi e circolari per le femmine, contenenti i
+   nomi di ciascuna persona, spesso corredati di informazioni aggiuntive,
+--
+   possibile descrivere gli antenati di una persona utilizzando una tavola
+   genealogica.^[1] Inoltre, uno dei modi più semplici e veloci per creare un
+   albero genealogico è quello di utilizzare dei modelli.
+
+Indice
+--
+Note[modifica | modifica wikitesto]
+
+    1. ^ Realizzato l'albero genealogico digitale più grande del mondo, su
+       superEva. URL consultato il 14 marzo 2018.
+
+--
+Altri progetti[modifica | modifica wikitesto]
+
+     * Collabora a Wikiquote Wikiquote contiene citazioni sull'albero
+       genealogico
+     * Collabora a Wikiversità Wikiversità contiene risorse sull'albero
+       genealogico
+     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
+       altri file sull'albero genealogico
+
+Collegamenti esterni[modifica | modifica wikitesto]
+    </text>
+    </page>
+<page='contexte5italien'>
     <text>
        Puoi migliorare questa voce aggiungendo citazioni da fonti attendibili
    secondo le linee guida sull'uso delle fonti.
    [IMG]Distribuzione bialbero a 4 valvole per cilindro per motore
    quadricilindrico in linea [IMG]Albero a camme per motore o bancata
    quadricilidrici
---
---
-   quadricilidrici
 
    L'albero a camme, nella meccanica, è un albero motore con parti
-   eccentriche calettate, atto a trasmettere particolari leggi di moto agli
---
    eccentriche calettate, atto a trasmettere particolari leggi di moto agli
    elementi che vi sono a contatto. Nei motori a scoppio è l'albero
    responsabile della distribuzione su cui sono montati degli eccentrici,
    detti "camme", forzate su un tubo in acciaio cementato (generalmente
---
---
    acciaio 18NiCrMo5) o costituenti un tutt'uno forgiato o realizzati tramite
    idroformatura, che comandano l'apertura e la chiusura delle valvole.
    L'albero a camme si trova solo nel motore a 4 tempi sia benzina
    (accensione comandata) che diesel (accensione spontanea) ed in alcuni
    motori a due tempi unidirezionali.
---
 --
 
      * 1 Albero a camme
@@ -272,69 +206,47 @@ Altri progetti[modifica]
      * 4 Voci correlate
      * 5 Altri progetti
 --
---
    [IMG]Animazione rappresentante il funzionamento delle camme
 
    L'albero a camme viene azionato dall'albero motore rispetto al quale ruota
    (nel motore a quattro tempi) a velocità angolare dimezzata e al quale è
    generalmente collegato tramite catena o cinghia. In alcuni motori il
 --
---
    Lo stesso argomento in dettaglio: Camma.
 
    Nei motori attuali l'albero a camme è situato generalmente al di sopra
    della testata. Con tale disposizione prende il nome di "albero a camme in
    testa" e comanda le valvole mediante punterie a bicchiere. In altri motori
---
-   testa" e comanda le valvole mediante punterie a bicchiere. In altri motori
    l'albero a camme era situato lateralmente alla testata del motore.
-
-   A seconda del numero di valvole per cilindro e della disposizione dei
---
---
 
    A seconda del numero di valvole per cilindro e della disposizione dei
    cilindri ci possono essere più alberi a camme, anche se generalmente non
    superano i due per bancata (doppio albero a camme in testa). Altri sistemi
    prevedono prima delle valvole vari rimandi meccanici quali aste o
    bilancieri, sistemi comunque progressivamente abbandonati per il maggior
---
---
    numero di parti in movimento.
 
 L'importanza dell'albero a camme[modifica | modifica wikitesto]
-
---
 
    Gli alberi a camme, dato che decidono quando e quanto devono aprirsi le
    valvole, sono di grande importanza per le prestazioni dei motori. Il
    variatore della fase di distribuzione, infatti, posto di norma su entrambi
 --
---
    meccanico e non elettronico.
 
 Messa in fase dell'albero a camme[modifica | modifica wikitesto]
 
---
-
    L'albero a camme può essere messo in fase tramite sistemi diversi:
-
-     * fori asolati i fori presenti sull'ingranaggio da accoppiare
---
---
 
      * fori asolati i fori presenti sull'ingranaggio da accoppiare
        sull'albero sono asolati, in modo da poter variare facilmente e
        velocemente la fasatura;
      * chiavetta di Woodruff sfalsata, l'ingranaggio viene accoppiato tramite
---
---
        questa chiavetta, oppure ogni lobo è provvisto di una chiavetta
        propria;
      * nonio o verniero, prevede l'unione dell'albero all'ingranaggio tramite
        dei fori presenti su entrambi, ma che hanno numero diversi tra loro
        (20 a 19, ecc...)
---
 --
      * Fasatura di distribuzione
      * Camma
@@ -343,53 +255,39 @@ Messa in fase dell'albero a camme[modifica | modifica wikitesto]
      * Albero a gomiti
      * Albero di trasmissione
 --
---
 
      * Collabora a Wikizionario Wikizionario contiene il lemma di dizionario
        «albero a camme»
-     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
---
      * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
        altri file su albero a camme
 
 Collegamenti esterni[modifica | modifica wikitesto]
     </text>
     </page>
-<page='extraction6'>
+<page='contexte6italien'>
     <text>
        progetto di riferimento.
 
    L'albero, in meccanica, è un organo di trasmissione di un moto rotatorio.
 
 Indice
---
---
 
      * 1 Usi
      * 2 L'albero dal punto di vista meccanico
      * 3 Accorgimenti
      * 4 Voci correlate
 --
---
 Usi[modifica | modifica wikitesto]
 
    L'albero ha una grandissima quantità di applicazioni in tutti i campi
    della trasmissione del moto. Per fare un esempio domestico, l'estremità
    del frullatore, su cui si innesta il vaso, è un giunto collegato
---
---
-   della trasmissione del moto. Per fare un esempio domestico, l'estremità
-   del frullatore, su cui si innesta il vaso, è un giunto collegato
    all'albero di un motore elettrico.
-
---
 
    Nei mezzi di trasporto, vi è una grande quantità di alberi: nei motori a
    pistoni abbiamo l'albero motore, detto anche albero a gomiti o albero
    eccentrico, o collo d'oca che converte il moto alternativo dei pistoni in
    rotatorio, in quanto parte del sistema di manovellismo biella-manovella.
---
---
 
    Questo, nelle automobili, è connesso alla scatola del cambio, in cui
    alloggiano l'albero primario e l'albero secondario; la scatola trasferisce
@@ -397,62 +295,36 @@ Usi[modifica | modifica wikitesto]
    differenziale, lo trasmette agli alberi delle ruote detti anche semiassi.
    Numerosi alberi poi fanno parte dei sistemi ausiliari, quali le pompe, il
    tergicristallo eccetera. Ma in tutte le applicazioni di meccanica si
---
-   tergicristallo eccetera. Ma in tutte le applicazioni di meccanica si
    trovano impieghi di alberi, nelle forme più varie.
-
---
 
 L'albero dal punto di vista meccanico[modifica | modifica wikitesto]
 
    [IMG]Albero sollecitato a flessione
---
---
-   [IMG]Albero sollecitato a flessione
 
    Come si è detto, l'albero trasmette un moto rotatorio; esso è quindi
-   sottoposto a uno sforzo di torsione; nella maggior parte dei casi, a causa
---
    sottoposto a uno sforzo di torsione; nella maggior parte dei casi, a causa
    di masse collegate all'albero stesso, esso è anche sottoposto a sforzo di
    flessione. In figura la linea rossa mostra l'inflessione di un albero
    supportato in due punti e recante a sbalzo una massa, che genera una forza
---
-   supportato in due punti e recante a sbalzo una massa, che genera una forza
    peso F. Per le leggi della scienza delle costruzioni, quindi, l'albero
-   dovrà essere dotato di opportuni supporti. Si pone, quindi, il problema
---
    dovrà essere dotato di opportuni supporti. Si pone, quindi, il problema
    dell'attrito tra la parte rotante (albero) e quella stazionaria
    (supporto), di cui è parte essenziale la definizione di giochi e
    interferenze.
---
---
-   interferenze.
 
    Per evitare che l'albero sia sottoposto a una coppia di torsione troppo
-   elevata, si può ricorrere alla chiavetta di Woodruff, la quale se
---
    elevata, si può ricorrere alla chiavetta di Woodruff, la quale se
    sottoposta a uno sforzo eccessivo si rompe e svincola l'albero motore dal
    carico.
 
---
---
 Accorgimenti[modifica | modifica wikitesto]
 
    L'albero motore può essere munito o caratterizzato da alcuni elementi o
    funzioni a seconda del tipo d'utilizzo:
 
---
---
-   funzioni a seconda del tipo d'utilizzo:
-
      * Cavità nel caso di un albero motore dritto, questo può essere creato
        cavo per poter aumentare la sua leggerezza senza compromettere alla
        sua rigidezza nella torsione.
---
---
      * Contro rotante soluzione usata su alcuni mezzi stradali, in particolar
        modo sulle motociclette, in modo da ridurre l'effetto giroscopico e
        ridurre l'impennata, questo perché l'albero motore ruotando in senso
@@ -460,7 +332,7 @@ Accorgimenti[modifica | modifica wikitesto]
        permettendo un cambio di traiettoria più rapido (a discapito della
     </text>
     </page>
-<page='extraction7'>
+<page='contexte7italien'>
     <text>
        Link: license
 
@@ -468,21 +340,16 @@ Accorgimenti[modifica | modifica wikitesto]
 
    From Wiktionary, the free dictionary
 --
---
 
    Italian Wikipedia has an article on:
    albero da frutto
    Wikipedia ^it
 
 --
---
   Noun[edit]
 
    albero da frutto m (plural alberi da frutto)
 
-    1. fruit tree
---
---
     1. fruit tree
    Retrieved from
    "https://en.wiktionary.org/w/index.php?title=albero_da_frutto@amp;oldid=69188175"
@@ -490,34 +357,23 @@ Accorgimenti[modifica | modifica wikitesto]
      * Italian terms with audio links
     </text>
     </page>
-<page='extraction8'>
+<page='contexte8italien'>
     <text>
        secondo le linee guida sull'uso delle fonti. Segui i suggerimenti del
    progetto di riferimento.
    [IMG]una fregata armata a tre alberi, Grand Turk
 
---
-
    Viene definito albero un palo verticale impiegato per il sostegno delle
-   vele in una nave e in qualsiasi altro mezzo di trasporto a propulsione
---
    vele in una nave e in qualsiasi altro mezzo di trasporto a propulsione
    velica. Imbarcazioni più grandi possono armare alberi diversi per numero,
    dimensione e configurazione delle vele. Alberi con altre funzioni sono
    utilizzati anche sulle navi a propulsione meccanica.
 --
---
 Storia[modifica | modifica wikitesto]
 
    Fino al XX secolo gli alberi di un veliero erano realizzati in legno.
    Inizialmente realizzati con singoli tronchi, con il crescere delle
---
-   Inizialmente realizzati con singoli tronchi, con il crescere delle
    dimensioni dei velieri gli alberi furono realizzati assemblando più fusti
-   insieme.
-
---
---
    insieme.
 
    Gli alberi attrezzati per vele quadre sono formati da tre parti: fuso
@@ -525,15 +381,8 @@ Storia[modifica | modifica wikitesto]
    Nei velieri a tre o più alberi, quello a poppa, se non è a vele quadre,
    prende anche il nome di palo, che si ritrova anche nella denominazione di
    vari tipi di antichi bastimenti a vela (es. Brigantino a palo).
---
---
-   prende anche il nome di palo, che si ritrova anche nella denominazione di
-   vari tipi di antichi bastimenti a vela (es. Brigantino a palo).
    L'albero inclinato a prua è il bompresso.
 
-   A seconda della sua posizione assume diverso nome:
---
---
    A seconda della sua posizione assume diverso nome:
 
      * albero di maestra, l'albero principale, l'albero più alto o, nel caso
@@ -542,57 +391,30 @@ Storia[modifica | modifica wikitesto]
      * albero di trinchetto, l'albero situato a proravia dell'albero di
        maestra.
 
---
---
-       maestra.
-
    Gli alberi dei moderni velieri sono forniti sulla faccia poppiera di una
-   canaletta che serve per ospitare l'inferitura della randa, che può essere
-   costituita da una ralinga o da una serie di garrocci cuciti sulla ralinga.
---
---
    canaletta che serve per ospitare l'inferitura della randa, che può essere
    costituita da una ralinga o da una serie di garrocci cuciti sulla ralinga.
    L'albero è tenuto in posizione verticale dalle manovre dormienti dette
    sartie (quelle laterali), strallo (quella prodiera), paterazzo (quella
    poppiera).
---
---
-   sartie (quelle laterali), strallo (quella prodiera), paterazzo (quella
-   poppiera).
    A seconda delle dimensioni dell'imbarcazione e quindi dell'albero si
-   possono avere uno o più ordini di crocette, che servono per distanziare le
---
    possono avere uno o più ordini di crocette, che servono per distanziare le
    sartie dall'albero e quindi per distribuire meglio le tensioni a cui
    vengono sottoposte.
---
-   vengono sottoposte.
    Ad una certa altezza dalla coperta, sulla faccia poppiera dell'albero si
    articola, attraverso la trozza, il boma, un'asta di dimensioni consone a
---
-   articola, attraverso la trozza, il boma, un'asta di dimensioni consone a
    quelle dell'albero che serve per poter distendere e bordare la base della
-   randa.
---
    randa.
    Alcune imbarcazioni sono armate con un albero appoggiato in coperta, in
    tal caso l'albero è fornito di una mastra che va ad inserirsi sulla scassa
    dell'albero (la sua sede sulla coperta).
    Altre imbarcazioni sono equipaggiate con alberi "passanti", che cioè
    attraverso la coperta si appoggiano sul fondo dell'imbarcazione (sentina).
---
-   attraverso la coperta si appoggiano sul fondo dell'imbarcazione (sentina).
    In alcuni casi all'interno dell'albero passano manovre correnti: le
    drizze. Esse sono rinviate su pulegge poste in testa d'albero e servono
    per issare le vele.
---
-   per issare le vele.
    La parte superiore dell'albero si chiama "formaggetta" e può ospitare la
    luce di fonda, la stazione del vento e le eventuali antenne per VHF, GPS
-   etc.
---
---
    etc.
 
    Anticamente la parte superiore dell'albero era detta colombiere.
@@ -600,71 +422,39 @@ Storia[modifica | modifica wikitesto]
    una piattaforma, detta coffa, dotata di un'apertura chiamata buco del
    gatto, che consentiva il passaggio degli uomini dell'equipaggio.
 --
---
    Anche se nel XIX secolo le navi a vela furono sostituite dalle navi a
    motore, si è continuato a progettare e costruire imbarcazioni a vela per
    la crociera e lo sport. Nel 1930 alberi in alluminio furono introdotti nei
-   grandi J-class della Coppa America.
-   L'alluminio è considerato più vantaggioso del legno nella realizzazione di
---
---
    grandi J-class della Coppa America.
    L'alluminio è considerato più vantaggioso del legno nella realizzazione di
    alberi essendo più robusto e resistente alle rotture anche se più leggero.
    Inoltre, un albero di alluminio può essere realizzato per l'intera
    lunghezza con un'unica estrusione.
 
---
---
-   lunghezza con un'unica estrusione.
-
    Dopo la seconda guerra mondiale, gli alberi di alluminio divennero comuni
-   anche sulle piccole derive e sugli yacht da crociera. Imbarcazioni con
---
    anche sulle piccole derive e sugli yacht da crociera. Imbarcazioni con
    prestazioni più elevate iniziarono ad utilizzare alberi affusolati,
    ottenuti rimuovendo una sezione triangolare di alluminio per la lunghezza
---
-   ottenuti rimuovendo una sezione triangolare di alluminio per la lunghezza
    dell'albero e richiudendo poi l'apertura.
-   Dalla metà degli anni '90, nelle imbarcazioni da regata fu introdotto
-   l'uso delle fibre di carbonio e altri materiali compositi per costruire
---
---
    Dalla metà degli anni '90, nelle imbarcazioni da regata fu introdotto
    l'uso delle fibre di carbonio e altri materiali compositi per costruire
    alberi dotati di una ancora maggiore resistenza in rapporto al peso. La
    riduzione del peso in alto, che nel caso di grandi imbarcazioni può essere
    dell'ordine di centinaia di chili, comporta una riduzione dello
---
---
-   riduzione del peso in alto, che nel caso di grandi imbarcazioni può essere
-   dell'ordine di centinaia di chili, comporta una riduzione dello
    sbandamento e del beccheggio. Inoltre gli alberi in fibra di carbonio
    possono essere realizzati con profili aerodinamici che rispondano a più
-   precisi requisiti di progettazione.
---
---
    precisi requisiti di progettazione.
 
    Gli alberi moderni costituiscono il bordo principale del profilo alare
    della vela e tendono ad avere una sezione trasversale a forma di goccia
---
-   della vela e tendono ad avere una sezione trasversale a forma di goccia
    allungata. Sui più piccoli yacht e catamarani da regata, l'albero ruota
    all'angolo ottimale per il profilo alare della vela. Se l'albero ha una
    sezione lunga e sottile e compone una zona significativa del profilo
---
-   sezione lunga e sottile e compone una zona significativa del profilo
    alare, esso è denominato albero alare; le barche che usano questo profilo
-   hanno una superficie velica minore per compensare la superficie alare
---
    hanno una superficie velica minore per compensare la superficie alare
    dell'albero.
 
 Altri progetti[modifica | modifica wikitesto]
---
---
 
      * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
        altri file su albero

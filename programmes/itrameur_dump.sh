@@ -10,11 +10,11 @@ do
 
 dump=$(cat $file | sed -e "s/>/\@gt\;/g" -e "s/</\@lt\;/g" -e "s/&/\@amp\;/g")
 
-echo "<page='extraction$compteur'>
+echo "<page='dump$compteur'>
     <text>
     $dump
     </text>
-    </page>" > test3.txt >> ../itrameur/dumps-text-${langue}.txt
+    </page>" >> ../itrameur/dumps-text-${langue}.txt
 
     ((compteur++))
 

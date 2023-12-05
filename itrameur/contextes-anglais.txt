@@ -1,5 +1,5 @@
 <lang=anglais>
-<page='extraction1'>
+<page='contexte1anglais'>
     <text>
          * (Top)
      * 1 Terminology and properties
@@ -156,7 +156,7 @@ Further reading[edit]
    Retrieved from
     </text>
     </page>
-<page='extraction2'>
+<page='contexte2anglais'>
     <text>
                    * 7.4.2 Tree shaping
           * 7.5 Bark
