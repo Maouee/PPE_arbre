@@ -1160,7 +1160,7 @@ Altri progetti[modifica]
      * Collabora a Wikipedia Wikipedia contiene una voce sull'albero
      * Collabora a Commons Commons contiene immagini o altri file sull'albero
    Estratto da
-   "https://it.wiktionary.org/w/index.php?title=albero@amp;oldid=3927841"
+   "https://it.wiktionary.org/w/index.php?title=albero&amp;oldid=3927841"
    Categorie:
      * Sostantivi in italiano
     </text>
@@ -1175,7 +1175,7 @@ Altri progetti[modifica]
                            ALBERO DI UNA BARCA A VELA
                    Tutti nomi dell'albero di una barca a vela
 
-   La casa della batteria Snc di Formica Antonio @amp; C.
+   La casa della batteria Snc di Formica Antonio &amp; C.
 --
    coperchio e il corpo della nave, sopportando il peso della maggior parte
    delle manovre. Naturalmente, le navi piÃ¹ grandi tendono ad avere un
@@ -1454,7 +1454,7 @@ Accorgimenti[modifica | modifica wikitesto]
 
     1. fruit tree
    Retrieved from
-   "https://en.wiktionary.org/w/index.php?title=albero_da_frutto@amp;oldid=69188175"
+   "https://en.wiktionary.org/w/index.php?title=albero_da_frutto&amp;oldid=69188175"
    Categories:
      * Italian terms with audio links
     </text>
@@ -1818,7 +1818,7 @@ Collegamenti esterni[modifica | modifica wikitesto]
 --
 
    Источник —
-   https://ru.wiktionary.org/w/index.php?title=дерево@amp;oldid=13143858
+   https://ru.wiktionary.org/w/index.php?title=дерево&amp;oldid=13143858
    Категории:
      * Слова из списка Сводеша/ru
     </text>
@@ -2164,7 +2164,7 @@ Collegamenti esterni[modifica | modifica wikitesto]
 --
 
    Источник —
-   https://ru.wikipedia.org/w/index.php?title=Броуновское_дерево@amp;oldid=128998432
+   https://ru.wikipedia.org/w/index.php?title=Броуновское_дерево&amp;oldid=128998432
    Категория:
      * Фракталы
     </text>
@@ -3019,7 +3019,7 @@ Collegamenti esterni[modifica | modifica wikitesto]
           * частичный порядок на вершинах: u\prec v, если вершины u и v
             различны и вершина u лежит на (единственной!) элементарной цепи,
             соединяющей корень с вершиной v.
-          * корневое поддерево с корнем v — подграф \{v\}\cup \{w\mid v@lt;w\}.
+          * корневое поддерево с корнем v — подграф \{v\}\cup \{w\mid v&amp;lt;w\}.
           * В контексте, где дерево предполагается имеющим корень, дерево без
             выделенного корня называется свободным.
      * Уровень узла — длина пути от корня до узла. Можно определить
