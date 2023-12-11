@@ -20,7 +20,8 @@
 
 * Projet
   - Nous agrandissons notre liste d'url chacun de notre côté. Nous avons également réfléchi à des mots coocurrents d'abres selon les différentes langues afin de voir certaines similitudes et différences.
-
+  - "arbre de Noël" se traduit tel quel en anglais et italien mais se dit "sapin de Noël" en russe par exemple.
+  - Nous pensons aussi rechercher des expressions comme "arbre généalogique" ou "arbre syntaxique".
 
 ## Neuvième cours - 22 novembre 2023
 
