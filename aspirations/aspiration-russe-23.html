@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Дерево синтаксического разбора &mdash; Problem Solving with Algorithms and Data Structures</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/video.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/poll.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/tabbedstuff.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pytutor.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/modal-basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/codemirror.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/activecode.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/parsons.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/lib/prettify.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/jquery-ui-1.10.3.custom.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/runestone-custom-sphinx-bootstrap.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '3.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/poll.js"></script>
+    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="../_static/pytutor.js"></script>
+    <script type="text/javascript" src="../_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="../_static/codemirror.js"></script>
+    <script type="text/javascript" src="../_static/xml.js"></script>
+    <script type="text/javascript" src="../_static/css.js"></script>
+    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="../_static/python.js"></script>
+    <script type="text/javascript" src="../_static/javascript.js"></script>
+    <script type="text/javascript" src="../_static/activecode.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/assess.js"></script>
+    <script type="text/javascript" src="../_static/animationbase.js"></script>
+    <script type="text/javascript" src="../_static/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../_static/lib/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="../_static/lib/underscore-min.js"></script>
+    <script type="text/javascript" src="../_static/lib/lis.js"></script>
+    <script type="text/javascript" src="../_static/parsons.js"></script>
+    <script type="text/javascript" src="../_static/parsons-noconflict.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="../_static/rangy-core.js"></script>
+    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="../_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="../_static/user-highlights.js"></script>
+    <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="top" title="Problem Solving with Algorithms and Data Structures" href="../index.html" />
+    <link rel="next" title="Обход дерева" href="TreeTraversals.html" />
+    <link rel="prev" title="Узлы и ссылки" href="NodesandReferences.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<script type="text/javascript">
+  eBookConfig = {};
+  eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+  eBookConfig.app = eBookConfig.host+'/runestone';
+  eBookConfig.ajaxURL = eBookConfig.app+'/ajax/';
+  eBookConfig.course = 'pythonds';
+  eBookConfig.logLevel = 10;
+  eBookConfig.loginRequired = false
+  eBookConfig.build_info = "2.1.5";
+  eBookConfig.isLoggedIn = false;
+</script>
+
+<div id="fb-root"></div>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&status=0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+  </head>
+  <body>
+
+
+<!-- Begin navbar -->
+<div id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type='button' class='navbar-toggle' data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <div>
+        <a class="brand-logo" style='background: transparent url("../_static/img/logo_small.png") no-repeat 0px 0px;' href="/runestone/default/user/login">&nbsp; </a>
+        <a class="navbar-brand" href="../index.html">Problem Solving with Algorithms and Data Structures</a>
+      </div>
+    </div>
+
+    <div class="navbar-collapse collapse navbar-ex1-collapse">
+
+      <ul class="nav navbar-nav navbar-right">
+
+        <li class="divider-vertical"></li>
+
+        <!-- social media dropdown -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+            <i class="glyphicon glyphicon-share-alt" style="opacity: 0.9"></i>
+          </a>
+          <ul class="dropdown-menu social-menu">
+              <li>
+                <div>
+                  <b>Runestone in social media:</b>
+                </div>
+                <a href="https://twitter.com/iRunestone" class="twitter-follow-button" data-show-count="true">Follow @iRunestone</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                <div class="fb-like" data-href="https://www.facebook.com/RunestoneInteractive" data-send="false" data-layout="button_count" data-width="300" data-show-faces="false" data-font="arial"></div>
+              </li>
+
+              <li class="divider"></li>
+              <li>
+                <div>
+                  <b>Help support us:</b>
+                </div>
+                <div class="gittip">
+                  <iframe style="border:0;"
+                    src="https://www.gittip.com/bnmnetp/widget.html"
+                    width="48pt" height="22pt" class="gittip-button">
+                  </iframe>
+                </div>
+                <div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                  ">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+
+                </div>
+              </li>
+          </ul>
+        </li>
+        <!-- end social media dropdown -->
+
+        <li class="divider-vertical"></li>
+
+        <!-- search dropdown -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+            <i class="glyphicon glyphicon-search" style='opacity:0.9;'></i>
+          </a>
+          <ul class='dropdown-menu'>
+            
+                <li><a href='../index.html'>Table of Contents</a></li>
+            
+            <li><a href='/runestone/static/pythonds/genindex.html'>Book Index</a></li>
+            <li class="divider"></li>
+            <li id="scratch_ac_link"><a href="javascript:toggleScratchActivecode()">Scratch ActiveCode</a></li>
+            <li class="divider"></li>
+            <li style="width: 240px;">
+              <form class="navbar-search" style="margin:10px;" action="../search.html" method="get">
+                <div class="input-group">
+                  <input type="text" class="form-control" name="q" placeholder="Search this book" />
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" style="margin:0;" type="submit">
+                      <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                  </span>
+                </div><!-- /input-group -->
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+            </li>
+          </ul>
+        </li>
+        <!-- end search dropdown -->
+
+        <li class="divider-vertical"></li>
+
+        <!-- user account dropdown -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+            <i class="glyphicon glyphicon-user" style="opacity:0.9;"></i>
+          </a>
+          <ul class="dropdown-menu user-menu">
+            <li><span class='loggedinuser'></span></li>
+            <li class="divider"></li>
+            <li><a href='http://127.0.0.1:8000/runestone/mygroup/initiateGroup' id="joinGroupLink">Join a Study Group</a></li>
+            <li><a href='http://127.0.0.1:8000/runestone/mygroup/schedule' id="groupScheduleLink">Group Schedule</a></li>
+            <li><a href='http://127.0.0.1:8000/runestone/mygroup/newschedule' id="newChapterLink">Schedule New Chapter</a></li>
+            <li><a href='http://127.0.0.1:8000/runestone/mygroup/manageGroup' id="manageGroupLink">Manage Group</a></li>
+			<li class="divider"></li>
+            <li><a href='http://127.0.0.1:8000/runestone/admin/index'>Instructor's Page</a></li>
+            <li><a href='http://127.0.0.1:8000/runestone/assignments/index'>Progress Page</a></li>
+            <li class="divider"></li>
+            <li><a href="http://127.0.0.1:8000/runestone/default/user/profile" id="profilelink">Edit Profile</a></li>
+            <li><a href="http://127.0.0.1:8000/runestone/default/user/change_password" id="passwordlink">Change Password</a></li>
+            <li><a href="http://127.0.0.1:8000/runestone/default/user/register" id="registerlink">Register</a></li>
+            <li class='loginout'><a href='#'>Login</a></li> <!-- correct link populated by addNavbarLoginLink() -->
+          </ul>
+        </li>
+        <!-- end user account dropdown -->
+
+        <li class="divider-vertical"></li>
+
+        <!-- help menu dropdown -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+            <i class="glyphicon glyphicon-question-sign" style="opacity:0.9;"></i>
+          </a>
+          <ul class="dropdown-menu user-menu">
+            <li><a href='/runestone/static/pythonds/navhelp.html'>Navigation Help</a></li>
+            <li><a href='/runestone/static/overview/instructor.html'>Help for Instructors</a></li>
+            <li class="divider"></li>
+            <li><a href='http://runestoneinteractive.org'>About Runestone</a></li>
+            <li><a href='https://github.com/bnmnetp/runestone/issues/new'>Report A Problem</a></li>
+          </ul>
+        </li>
+        <!-- end help menu dropdown -->
+
+        <li class="divider-vertical"></li>
+
+      </ul>
+
+      <ul class="nav navbar-nav">
+        <li class="divider-vertical"></li>
+        <!--
+          <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">Дерево синтаксического разбора</a></li>
+</ul>
+</ul>
+</li>
+          <li class="divider-vertical"></li>
+        
+        
+          
+  <li id="relations-prev" title="Previous Chapter - Узлы и ссылки" data-toggle="tooltip">
+    <a href="NodesandReferences.html" >
+      <i class='glyphicon glyphicon-backward' style='opacity:0.9;'></i>
+    </a>
+  </li>
+  
+  <li id="relations-next" title='Next Chapter - Обход дерева' data-toggle="tooltip" >
+    <a href="TreeTraversals.html" >
+      <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
+    </a>
+  </li>
+  <li class="divider-vertical"></li>
+
+<script type="text/javascript">
+  opts = {'placement':'bottom',
+          'selector': '',
+          'delay': { show: 100, hide: 50}
+         };
+
+  $('#relations-prev').tooltip(opts);
+  $('#relations-next').tooltip(opts);
+</script>
+        -->
+        
+          <li></li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="container" id="continue-reading"></div>
+
+<div class="container" id="main-content">
+  
+  <div class="section" id="id1">
+<h1>Дерево синтаксического разбора<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>Закончив с реализацией дерева как структуры данных, рассмотрим примеры его применения при решении некоторых реальных задач. Этот раздел будет посвящён деревьям синтаксического разбора. Они могут использоваться для представления таких конструкций реального мира, как предложения естественного языка или математические выражения.</p>
+<div class="figure align-center" id="fig-nlparse">
+<img alt="image" src="../_images/nlParse.png" />
+<p class="caption">Рисунок 1: Дерево синтаксического разбора простого предложения</p>
+</div>
+<p>На <a class="reference internal" href="#fig-nlparse"><em>рисунке 1</em></a> изображена иерархическая структура простого предложения. Такое представление позволяет нам работать с его отдельными частями, используя поддеревья.</p>
+<div class="figure align-center" id="fig-meparse">
+<img alt="image" src="../_images/meParse.png" />
+<p class="caption">Рисунок 2: Дерево синтаксического разбора выражения <span class="math">\(((7+3)*(5-2))\)</span></p>
+</div>
+<p>Также в виде дерева синтаксического разбора можно представить математическое выражение наподобие <span class="math">\(((7 + 3) * (5 - 2))\)</span> (см. <a class="reference internal" href="#fig-meparse"><em>рисунок 2</em></a>). Мы уже рассматривали выражения с полной расстановкой скобок: исходя из этого, что можно сказать о данном примере? Нам известно, что умножение имеет более высокий приоритет, чем сложение и вычитание. Однако, благодаря скобкам мы знаем, что здесь сначала нужно вычислить сумму и разность. Иерархия дерева помогает лучше понять порядок вычисления выражения в целом. Перед тем, как найти стоящее на самом верху произведение, требуется произвести сложение и вычитание в поддеревьях. Первая операция - левое поддерево - даст 10, вторая - правое поддерево - 3. Используя свойство иерархической структуры, мы можем просто заменить каждое из поддеревьев на узел, содержащий найденный ответ. Эта процедура даст упрощённое дерево, показанное на <a class="reference internal" href="#fig-mesimple"><em>рисунке 3</em></a>.</p>
+<div class="figure align-center" id="fig-mesimple">
+<img alt="image" src="../_images/meSimple.png" />
+<p class="caption">Рисунок 3: Упрощённое дерево синтаксического разбора для <span class="math">\(((7+3)*(5-2))\)</span></p>
+</div>
+<p>До конца этого раздела мы собираемся как следует протестировать деревья синтаксического разбора. Точнее, будет рассмотрено:</p>
+<ul class="simple">
+<li>Как построить дерево разбора для математического выражения с полной расстановкой скобок.</li>
+<li>Как вычислить выражение, хранящееся в дереве разбора.</li>
+<li>Как записать оригинальное математическое выражение из дерева разбора.</li>
+</ul>
+<p>Первый шаг при постороении дерева синтаксического разбора - это разбить строку выражения на список токенов. Их насчитывается четыре вида: левая скобка, правая скобка, оператор и операнд. Мы знаем, что прочитанная левая скобка всегда означает начало нового выражения и, следовательно, необходимо создать связанное с ним поддерево. И наоборот, считывание правой скобки сигнализирует о завершении выражения. Так же известно, что операнды будут листьями и потомками своих операторов. Наконец, мы знаем, что каждый оператор имеет обоих своих потомков.</p>
+<p>Используя сказанную выше информацию, определим следующие правила:</p>
+<ol class="arabic simple">
+<li>Если считан токен <tt class="docutils literal"><span class="pre">'('</span></tt> - добавляем новый узел, как левого потомка текущего, и спускаемся к нему вниз.</li>
+<li>Если считанный один из элементов списка <tt class="docutils literal"><span class="pre">['+','-','/','*']</span></tt>, то устанавливаем корневое значение текущего узла равным оператору из этого токена. Добавляем новый узел на место правого потомка текущего и спускаемся вниз по правому поддереву.</li>
+<li>Если считанный токен - число, то устанавливаем корневое значение равным этой величине и возвращаемся к родителю.</li>
+<li>Если считан токен <tt class="docutils literal"><span class="pre">')'</span></tt>, то перемещаемся к родителю текущего узла.</li>
+</ol>
+<p>Перед тем, как писать код на Python, давайте рассмотрим в живую приведённые выше правила. Мы будем работать с выражением <span class="math">\((3 + (4 * 5))\)</span> и разобьём его следующим образом: <tt class="docutils literal"><span class="pre">['(',</span> <span class="pre">'3',</span> <span class="pre">'+',</span> <span class="pre">'(',</span> <span class="pre">'4',</span> <span class="pre">'*',</span> <span class="pre">'5'</span> <span class="pre">,')',')']</span></tt>. Начинать будем с дерева разбора, содержащего пустой корневой узел. <a class="reference internal" href="#fig-bldexpstep"><em>Рисунок 4</em></a> демонстрирует его структуру и содержимое по мере вычисления каждого нового токена.</p>
+<div class="figure align-center" id="fig-bldexpstep">
+<img alt="image" src="../_images/buildExp1.png" />
+</div>
+<div class="figure align-center">
+<img alt="image" src="../_images/buildExp2.png" />
+</div>
+<div class="figure align-center">
+<img alt="image" src="../_images/buildExp3.png" />
+</div>
+<div class="figure align-center">
+<img alt="image" src="../_images/buildExp4.png" />
+</div>
+<div class="figure align-center">
+<img alt="image" src="../_images/buildExp5.png" />
+</div>
+<div class="figure align-center">
+<img alt="image" src="../_images/buildExp6.png" />
+</div>
+<div class="figure align-center">
+<img alt="image" src="../_images/buildExp7.png" />
+</div>
+<div class="figure align-center">
+<img alt="image" src="../_images/buildExp8.png" />
+<p class="caption">Рисунок 4: Трассировка постороения дерева разбора.</p>
+</div>
+<p>Используя этот рисунок, пройдём по примеру шаг за шагом.</p>
+<p>а) Создаём пустое дерево.</p>
+<p>б) Читаем <tt class="docutils literal"><span class="pre">(</span></tt> в качестве первого токена. По правилу 1 создаём новый узел, как левого потомка корня. Делаем его текущим.</p>
+<p>в) Считываем следующий токен - <tt class="docutils literal"><span class="pre">3</span></tt>. По правилу 3 устанавливаем значение текущего узла в <tt class="docutils literal"><span class="pre">3</span></tt> и перемещаемся обратно к его родителю.</p>
+<p>г) Следующим считываем <tt class="docutils literal"><span class="pre">+</span></tt>. По правилу 2 устанавливаем корневое значение текущего узла в <tt class="docutils literal"><span class="pre">+</span></tt> и добавляем ему правого потомка. Этот новый узел становится текущим.</p>
+<p>д) Считываем <tt class="docutils literal"><span class="pre">(</span></tt>. По правилу 1 создаём для текущего узла левого потомка. Этот новый узел становится текущим.</p>
+<p>е) Считываем <tt class="docutils literal"><span class="pre">4</span></tt>. По правилу 3 устанавливаем значение текущего узла равным <tt class="docutils literal"><span class="pre">4</span></tt>. Делаем текущим родителя <tt class="docutils literal"><span class="pre">4</span></tt>.</p>
+<p>ж) Считываем следующий токен - <tt class="docutils literal"><span class="pre">*</span></tt>. По правилу 2 устанавливаем корневое значение текущего узла равным <tt class="docutils literal"><span class="pre">*</span></tt> и создаём его правого потомка. Он становится текущим.</p>
+<p>з) Считываем <tt class="docutils literal"><span class="pre">5</span></tt>. По правилу 3 устанавливаем корневое значение текущего узла в <tt class="docutils literal"><span class="pre">5</span></tt>, после чего текущим становится его родитель.</p>
+<p>и) Считываем <tt class="docutils literal"><span class="pre">)</span></tt>. По правилу 4 делаем текущим узлом родителя <tt class="docutils literal"><span class="pre">*</span></tt>.</p>
+<p>к) Наконец, считываем последний токен - <tt class="docutils literal"><span class="pre">)</span></tt>. По правилу 4 мы должны сделать текущим родителя <tt class="docutils literal"><span class="pre">+</span></tt>. Но такого узла не существует, следовательно, мы закончили.</p>
+<p>Из примера выше очевидна необходимость отслеживать не только текущий узел, но и его предка. Интерфейс дерева предоставляет нам способы получить потомков заданного узла - с помощью методов <tt class="docutils literal"><span class="pre">getLeftChild</span></tt> и <tt class="docutils literal"><span class="pre">getRightChild</span></tt>, - но как отследить родителя? Простым решением для этого станет использование стека в процессе прохода по дереву. Перед тем, как спуститься к потомку узла, проследний мы кладём в стек. Когда же надо будет вернуть родителя текущего узла, мы вытолкнем из стека нужный элемент.</p>
+<p>Используя описанные выше правила совместно с операциями из <tt class="docutils literal"><span class="pre">Stack</span></tt> и <tt class="docutils literal"><span class="pre">BinaryTree</span></tt>, мы готовы написать на Python функцию для создания дерева синтаксического разбора. Код её представлен в <a class="reference internal" href="#lst-buildparse"><em>ActiveCode 1</em></a>.</p>
+
+<div id="cont"></div>
+<div id="parsebuild" lang="python" class="ac_section alert alert-warning" >
+
+<div class="ac_actions">
+<button class='btn btn-success' id="parsebuild_runb">Run</button>
+<button class="ac_opt btn btn-default" style="display: inline-block" id="parsebuild_saveb" onclick="saveEditor('parsebuild');">Save</button>
+<button class="ac_opt btn btn-default" style="display: inline-block" id="parsebuild_loadb" onclick="requestCode('parsebuild');">Load</button>
+<button class='btn btn-default' id="parsebuild_vizb" onclick="injectCodelens(this,'parsebuild');">Show in Codelens</button>
+
+</div>
+<br/>
+<div id="parsebuild_code_div" style="display: block" class="ac_code_div">
+<textarea cols="50" rows="12" id="parsebuild_code" class="active_code" prefixcode="undefined" lang="python">
+from pythonds.basic.stack import Stack
+from pythonds.trees.binaryTree import BinaryTree
+
+def buildParseTree(fpexp):
+    fplist = fpexp.split()
+    pStack = Stack()
+    eTree = BinaryTree('')
+    pStack.push(eTree)
+    currentTree = eTree
+    for i in fplist:
+        if i == '(':
+            currentTree.insertLeft('')
+            pStack.push(currentTree)
+            currentTree = currentTree.getLeftChild()
+        elif i not in ['+', '-', '*', '/', ')']:
+            currentTree.setRootVal(int(i))
+            parent = pStack.pop()
+            currentTree = parent
+        elif i in ['+', '-', '*', '/']:
+            currentTree.setRootVal(i)
+            currentTree.insertRight('')
+            pStack.push(currentTree)
+            currentTree = currentTree.getRightChild()
+        elif i == ')':
+            currentTree = pStack.pop()
+        else:
+            raise ValueError
+    return eTree
+
+pt = buildParseTree("( ( 10 + 5 ) * 3 )")
+pt.postorder()  #определено и объясняется в следующем разделе
+</textarea>
+</div>
+
+<div class="ac_output">
+<div style="text-align: center">
+<canvas id="parsebuild_canvas" class="ac-canvas" height="400" width="400" style="border-style: solid; display: none; text-align: center"></canvas>
+</div>
+<pre id="parsebuild_suffix" style="display:none">
+</pre><pre id="parsebuild_pre" class="active_out"></pre>
+
+</div> <!-- end output --> 
+<div class="clearfix"></div>
+<p class="ac_caption"><span class="ac_caption_text">Постороение дерева синтаксического разбора (parsebuild)</span> </p>
+<div id="parsebuild_codelens_div" style="display:none"></div>
+<script>
+if ('block' == 'none') {
+    // a hack to preserve the inline-block display style. Toggle() will use display: block
+    // (instead of inline-block) if the previous display style was 'none'
+    $('#parsebuild_saveb').toggle();
+    $('#parsebuild_loadb').toggle();
+}
+if ($("#parsebuild").attr("lang") !== "html" && $("#parsebuild_code_div").parents(".admonition").length == 0 && $("#parsebuild_code_div").parents("#exercises").length == 0){
+	if ($(window).width() > 975){
+		$("#parsebuild_code_div").offset({
+			left: $("#parsebuild .clearfix").offset().left
+		});
+	}
+	$("#parsebuild_runb").one("click", function(){
+		$({})
+		.queue(function (next) {
+			if ($(window).width() > 975){
+				$("#parsebuild_code_div").animate({
+					left: 40
+				}, 500, next);
+			}
+			else{
+				next();
+			}
+		})
+		.queue(function (next) {
+			$("#parsebuild_runb").parent().siblings(".ac_output").show();
+			runit('parsebuild',this, undefined);
+			$("#parsebuild_runb").on("click", function(){
+				runit('parsebuild',this, undefined);
+			});
+		})
+		
+	});
+}
+else{
+	$("#parsebuild_code_div").css({float : "none", marginLeft : "auto", marginRight : "auto"});
+	$("#parsebuild_runb").parent().siblings(".ac_output").show().css({float : "none", right : "0px"});
+	$("#parsebuild_runb").on("click", function(){
+		runit('parsebuild',this, undefined);
+	});
+}
+</script>
+
+</div>
+
+<p>Четыре правила для постороения дерева разбора закодированы в первых четырёх <tt class="docutils literal"><span class="pre">if</span></tt>-ах 11, 15, 19 и 24 строк <a class="reference internal" href="#lst-buildparse"><em>ActiveCode 1</em></a>. В каждом случае вы видите код, воплощающий одно из описанных выше правил с помощью нескольких вызовов методов классов <tt class="docutils literal"><span class="pre">BinaryTree</span></tt> или <tt class="docutils literal"><span class="pre">Stack</span></tt>. Единственная ошибка, на которую в этой функции происходит проверка, - ветка <tt class="docutils literal"><span class="pre">else</span></tt>, вызывающая исключение <tt class="docutils literal"><span class="pre">ValueError</span></tt>, если мы получаем токен, который не можем рапознать.</p>
+<p>Итак, дерево синтаксического разбора построено, но что с ним теперь делать? В качестве первого примера, напишем функцию, вычисляющую дерево разбора и возвращающую числовой результат. Для этого будем использовать иерархическу природу дерева. Посмотрите ещё раз на <a class="reference internal" href="#fig-meparse"><em>рисунок 2</em></a>. Напоминаем: оригинальное дерево можно заменять упрощённым, показанным на <a class="reference internal" href="#fig-mesimple"><em>рисунке 3</em></a>. Это предполагает возможность написать алгоритм, вычисляющий дерево разбора с помощью рекурсивного вычисления каждого из его поддеревьев.</p>
+<p>Как мы уже делали для рекурсивных алгоритмов в прошлом, написание функции начнём с выявления базового случая. Естественным базовым случаем для рекурсивных алгоритмов, работающих с деревьями, является проверка узла на лист. В дереве разбора такими узлами всегда будут операнды. Поскольку объекты, подобные целым или действительным числам, не требуют дальнейшей интерпретации, функция <tt class="docutils literal"><span class="pre">evaluate</span></tt> может просто возвращать значение, сохранённое в листе дерева. Рекурсивный шаг, продвигающий функцию к базовому случаю, будет вызывать <tt class="docutils literal"><span class="pre">evaluate</span></tt> для правого и левого потомков текущего узла. Так мы эффективно спустимся по дереву до его листьев.</p>
+<p>Чтобы собрать вместе результаты двух рекурсивных вызовов, мы просто применим к ним сохранённый в родительском узле оператор. В примере на <a class="reference internal" href="#fig-mesimple"><em>рисунке 3</em></a> мы видим, что два потомка корневого узла вычисляются в 10 и 3. Применение к ним оператора умножения даст окончательный результат, равный 30.</p>
+<p>Код рекурсивной функции <tt class="docutils literal"><span class="pre">evaluate</span></tt> показан в <a class="reference internal" href="#lst-eval"><em>листинге 1</em></a>. Сначала мы получаем ссылки на правого и левого потомков текущего узла. Если оба они вычисляются в <tt class="docutils literal"><span class="pre">None</span></tt>, значит этот узел - лист. Это проверяется в строке 7. Если же узел не листовой, то ищем в нём оператор и применяем его к результатам рекурсивных вычислений левого и правого потомков.</p>
+<p>Для реализации арифметики мы используем словарь с ключами <tt class="docutils literal"><span class="pre">'+',</span> <span class="pre">'-',</span> <span class="pre">'*'</span></tt> и <tt class="docutils literal"><span class="pre">'/'</span></tt>. Хранимые в нём значения - функции из модуля операторов Python. Этот модуль предоставляет в наше распоряжение множество часто употребляемых операторов в виде функций. Когда мы ищем в словаре оператор, извлекается связанный с ним объект. А поскольку это функция, то мы можем вызвать её обычным способом <tt class="docutils literal"><span class="pre">function(param1,</span> <span class="pre">param2)</span></tt>. Таким образом, поиск <tt class="docutils literal"><span class="pre">opers['+'](2,2)</span></tt> эквивалентен <tt class="docutils literal"><span class="pre">operator.add(2,2)</span></tt>.</p>
+<p id="lst-eval"><strong>Листинг 1</strong></p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="highlight"><pre><span class="k">def</span> <span class="nf">evaluate</span><span class="p">(</span><span class="n">parseTree</span><span class="p">):</span>
+    <span class="n">opers</span> <span class="o">=</span> <span class="p">{</span><span class="s">&#39;+&#39;</span><span class="p">:</span><span class="n">operator</span><span class="o">.</span><span class="n">add</span><span class="p">,</span> <span class="s">&#39;-&#39;</span><span class="p">:</span><span class="n">operator</span><span class="o">.</span><span class="n">sub</span><span class="p">,</span> <span class="s">&#39;*&#39;</span><span class="p">:</span><span class="n">operator</span><span class="o">.</span><span class="n">mul</span><span class="p">,</span> <span class="s">&#39;/&#39;</span><span class="p">:</span><span class="n">operator</span><span class="o">.</span><span class="n">truediv</span><span class="p">}</span>
+
+    <span class="n">leftC</span> <span class="o">=</span> <span class="n">parseTree</span><span class="o">.</span><span class="n">getLeftChild</span><span class="p">()</span>
+    <span class="n">rightC</span> <span class="o">=</span> <span class="n">parseTree</span><span class="o">.</span><span class="n">getRightChild</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="n">leftC</span> <span class="ow">and</span> <span class="n">rightC</span><span class="p">:</span>
+        <span class="n">fn</span> <span class="o">=</span> <span class="n">opers</span><span class="p">[</span><span class="n">parseTree</span><span class="o">.</span><span class="n">getRootVal</span><span class="p">()]</span>
+        <span class="k">return</span> <span class="n">fn</span><span class="p">(</span><span class="n">evaluate</span><span class="p">(</span><span class="n">leftC</span><span class="p">),</span><span class="n">evaluate</span><span class="p">(</span><span class="n">rightC</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">parseTree</span><span class="o">.</span><span class="n">getRootVal</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+<p>Наконец, проследим работу функции <tt class="docutils literal"><span class="pre">evaluate</span></tt> на дереве синтаксического разбора, которое изображено на <a class="reference internal" href="#fig-bldexpstep"><em>рисунке 4</em></a>. В первом вызове <tt class="docutils literal"><span class="pre">evaluate</span></tt> мы передаём ей корень всего дерева в качестве параметра <tt class="docutils literal"><span class="pre">parseTree</span></tt>. Затем получаем ссылки на левого и правого потомков, чтобы убедиться в их существовании. В строке 9 идёт следующий рекурсивный вызов. Мы начинаем с поиска оператора в корне дерева, которым в данном случае является <tt class="docutils literal"><span class="pre">+</span></tt>. Он отображается как вызов функции <tt class="docutils literal"><span class="pre">operator.add</span></tt>, принимающей два параметра. Традиционно для вызова функции первым, что сделает Python, станет вычисление переданных в функцию параметров. В нашем случае оба они - рекурсивные вызовы <tt class="docutils literal"><span class="pre">evaluate</span></tt>. Вычисляя слева направо, сначала выполнится левый рекурсивный вызов, куда передано левое поддерево. Мы обнаружим, что этот узел не имеет потомков, следовательно, является листом. Поэтому хранящееся в нём значение просто вернётся, как результат вычисления. В данном случае это будет целое число 3.</p>
+<p>К настоящему моменту у нас есть один параметр, вычисленный для верхнего вызова <tt class="docutils literal"><span class="pre">operator.add</span></tt>. Но мы ещё не закончили. Продолжая вычислять параметры слева направо, сделаем рекурсивный вызов для правого поддерева корня. Обнаружив, что у него есть и правый, и левый потомки, ищем оператор, хранящийся в узле, (<tt class="docutils literal"><span class="pre">'*'</span></tt>) и вызываем для него функцию, передавая в неё левого и правого потомков в качестве параметров. В этой точке вычисления оба рекурсивных вызова вернут листья - целые 4 и 5, соответственно. Имея их, вернём результат <tt class="docutils literal"><span class="pre">operator.mul(4,5)</span></tt>. Теперь у нас есть все операнды для верхнего оператора <tt class="docutils literal"><span class="pre">+</span></tt>, и остаётся просто вызвать <tt class="docutils literal"><span class="pre">operator.add(3,20)</span></tt>. Результат вычисления дерева для выражения <span class="math">\((3 + (4 * 5))\)</span> равен 23.</p>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'alialiev';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+
+
+  
+      
+  <li id="relations-prev" class="navLink" title='Previous Section - Узлы и ссылки' data-toggle="tooltip">
+    <a href="NodesandReferences.html" >
+      <i class='prevNav glyphicon glyphicon-chevron-left'></i>
+    </a>
+  </li>
+  <a class="navLinkBg" id="navLinkBgLeft"  href="NodesandReferences.html" ></a>
+  
+  <li id="relations-next" class="navLink" title='Next Section - Обход дерева' data-toggle="tooltip" >
+    <a href="TreeTraversals.html" >
+      <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right'></i>
+    </a>
+  </li>
+  <a class="navLinkBg navLink" id="navLinkBgRight" href="TreeTraversals.html" >Next Section - Обход дерева</a>
+
+<script type="text/javascript">
+
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+  
+</script>
+  
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <span id='numuserspan'></span> readers online now | <span class='loggedinuser'></span> | <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014 Brad Miller, David Ranum.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.3.
+    </p>
+  </div>
+</footer>
+
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(addUserToFooter);
+    $(document).ready(addNavbarLoginLink);
+    $(document).ready(createEditors);
+    $(document).ready(getNumUsers);
+    $(document).ready(getOnlineUsers);
+    $(document).ready(createScratchActivecode());
+    $(document).ready(styleUnittestResults());
+</script>
+
+<script type="text/javascript">
+  // add the video play button overlay image
+  $(".video-play-overlay").each(function() {
+    $(this).css('background-image', "url(\'../_static/play_overlay_icon.png\')")
+    });
+
+  // This function is needed to allow the dropdown search bar to work;
+  // The default behaviour is that the dropdown menu closes when something in
+  // it (like the search bar) is clicked
+  $(function() {
+    // Fix input element click problem
+    $('.dropdown input, .dropdown label').click(function(e) {
+      e.stopPropagation();
+      });
+  });
+
+  // style codelens buttons (doing it here because PyTutor is a submodule owned by someone else
+  $(function() {
+    $(".ExecutionVisualizer").each(function() {
+      $(this).find("#jmpFirstInstr").addClass('btn btn-default');
+      $(this).find("#jmpStepBack").addClass('btn btn-danger');
+      $(this).find("#jmpStepFwd").addClass('btn btn-success');
+      $(this).find("#jmpLastInstr").addClass('btn btn-default');
+      });
+  });
+
+</script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42591955-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+  </body>
+</html>
