@@ -131,11 +131,11 @@ Mots proches
 
      ----------------------------------------------------------------------
 
-   Cochez la bonne traduction.
+   Savez-vous écrire en lettres ce nombre ? Cochez la bonne réponse.
 
-     * Pour 3 nuits.
+     * 8
 
-          * [ ] Per tre notti.
-          * [ ] Per tre giorni.
+          * [ ] otto
+          * [ ] quattro
    Applications mobiles Index Mentions légales et crédits CGU CGV Charte de
    confidentialité Cookies Contact © Larousse
