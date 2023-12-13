@@ -1,64 +1,116 @@
-2 examples of 	tree	 structures
-3 representing 	trees	
-3.4 outlines and 	tree	 views
-3.6 radial 	trees	
-img]a 	tree	 structure showing the possible hierarchical
-used a 	tree	 diagram to
-a 	tree	 structure
-	tree	 diagram
-or 	tree	 model is a way of
-	tree	 structure
-the classic representation resembles a 	tree	
-down compared to a biological 	tree	
-a 	tree	 structure is conceptual
-discussion of 	tree	 structures in specific fields
-see 	tree	
-see 	tree	
-or 	tree	
-the 	tree	 elements are called
-every finite 	tree	 structure has a member that
-infinite 	tree	 structures may or may not
-as the root of the 	tree	
-	tree	 structures can depict all kinds
-family 	trees	
-the biological evolutionary 	tree	
-the evolutionary 	tree	 of a
-mathematical 	trees	
-	tree	
-	tree	-diagram
-in a 	tree	 structure there is one and
-computer science uses 	tree	 structures extensively
-see 	tree	
-examples of 	tree	 structures[edit
-img]a 	tree	 map used to represent a
-in the shape of a 	tree	 illustrating the
-binary search 	tree	
-red–black 	tree	
-avl 	tree	
-r-	tree	
-doubly logarithmic 	tree	
-evolutionary 	tree	
-phrase structure 	trees	
-	tree	 model of language change
-descendant 	trees	
-representing 	trees	[edit
-many ways of visually representing 	tree	 structures
-outlines and 	tree	 views[edit
-	tree	 views
-a 	tree	 view
-radial 	trees	[edit
-radial 	tree	
-	trees	 can also be represented radially
-kinds of 	trees	
-b-	tree	
-dancing 	tree	
-decision 	tree	
-left-child right-sibling binary 	tree	
-porphyrian 	tree	
-	tree	
-	tree	
-	tree	
-of the basic styles of 	tree	 structures can be found
-commons has media related to 	tree	 diagram
-visualization of phylogenetic 	trees	 on the t-rex server
-using a 	tree	 structure to design a business
+a §tree§ can be seen as a
+decision §trees§ learn from data to
+deeper the §tree§
+§tree§
+some advantages of decision §trees§ are
+§trees§ can be visualized
+some §tree§ and algorithm combinations support
+the cost of using the §tree§
+points used to train the §tree§
+the disadvantages of decision §trees§ include
+decision-§tree§ learners can create over-complex
+§trees§ that do not
+the maximum depth of the §tree§ are necessary to
+decision §trees§ can be unstable because small
+result in a completely different §tree§ being generated
+is mitigated by using decision §trees§ within an ensemble
+predictions of decision §trees§ are neither smooth nor continuous
+of learning an optimal decision §tree§ is known to be
+practical decision-§tree§ learning algorithms
+return the globally optimal decision §tree§
+be mitigated by training multiple §trees§ in an ensemble learner
+hard to learn because decision §trees§ do
+decision §tree§ learners create biased §trees§ if some classes dominate
+with the decision §tree§
+from sklearn import §tree§
+§tree§.decision§tree§classifier
+we can construct a §tree§ as follows
+from sklearn import §tree§
+§tree§.decision§tree§classifier
+you can plot the §tree§ with the plot_§tree§ function
+§tree§.plot_§tree§(clf
+alternative ways to export §trees§ click for more details
+we can also export the §tree§ in graphviz format using the
+graphviz export of the above §tree§ trained on the
+§tree§.export_graphviz(clf
+§tree§.export_graphviz(clf
+the §tree§ can also be exported in
+from sklearn.§tree§ import decision§tree§classifier
+from sklearn.§tree§ import export_text
+§tree§
+§tree§
+§tree§
+§tree§.fit(iris.data
+§tree§
+the decision surface of decision §trees§ trained on the iris
+understanding the decision §tree§ structure
+§tree§
+decision §trees§ can also be applied to
+§tree§
+from sklearn import §tree§
+§tree§.decision§tree§regressor
+with regard to decision §trees§
+§tree§
+§tree§
+decision §tree§ is fit on an output
+the use of multi-output §trees§ for regression is demonstrated in
+multi-output decision §tree§ regression
+§tree§
+the use of multi-output §trees§ for classification is demonstrated in
+subwindows and multiple output randomized §trees§
+to construct a balanced binary §tree§ is
+although the §tree§ construction algorithm
+attempts to generate balanced §trees§
+§trees§ remain approximately balanced
+total cost over the entire §trees§
+decision §trees§ tend to overfit on data
+since a §tree§ with few samples in high
+beforehand to give your §tree§ a better chance of finding
+understanding the decision §tree§ structure will help in gaining
+insights about how the decision §tree§ makes predictions
+visualize your §tree§ as you are training by
+max_depth=3 as an initial §tree§ depth to get a feel
+how the §tree§ is fitting to your data
+samples required to populate the §tree§
+for each additional level the §tree§ grows to
+control the size of the §tree§ to prevent overfitting
+inform every decision in the §tree§
+§tree§ will overfit
+large number will prevent the §tree§ from
+before training to prevent the §tree§ from being
+be easier to optimize the §tree§
+all decision §trees§ use np.float32 arrays internally
+§tree§ algorithms
+are all the various decision §tree§ algorithms and how do they
+various decision §tree§ algorithms click for more details
+algorithm creates a multiway §tree§
+§trees§ are grown to their maximum
+improve the ability of the §tree§
+c4.5 converts the trained §trees§
+classification and regression §trees§
+cart constructs binary §trees§ using the feature
+a decision §tree§ recursively partitions the feature space
+entropy as §tree§ node splitting criterion is equivalent
+of the §tree§ model
+the log loss of a §tree§ model
+in a classification §tree§
+from sklearn.§tree§ import decision§tree§classifier
+§tree§
+§tree§
+§tree§.predict(x
+from sklearn.§tree§ import decision§tree§classifier
+§tree§
+§tree§
+§tree§.predict(x_test
+from sklearn.§tree§ import decision§tree§classifier
+§tree§
+§tree§
+§tree§.predict(x_test
+algorithm used to prune a §tree§ to
+of a given §tree§
+§tree§ of
+is defined to be a §tree§
+process stops when the pruned §tree§’s minimal
+post pruning decision §trees§ with cost complexity pruning
+regression §trees§
+§tree§

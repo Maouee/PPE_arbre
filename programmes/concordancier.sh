@@ -16,16 +16,22 @@ echo "      <body>
                     <th> contexte droit </th>
                     </tr>" >> ../Concordances/concordances-${langue}-${compteur}.html
         
-while read  line;do
+while read -e line;do
     # "$line" entre guillemets pour garder les tabs. Sinon les tabs sont interprétés comme des espaces et son collapsed.
-    contexte_gauche=$(echo "$line" | cut -f 1)
-    contexte_droit=$(echo "$line" | cut -f 3)
-    mot=$(echo "$line" | cut -f 2)
-if [ -n "$contexte_gauche" ] && [ -n "$contexte_droit" ] && [ -n "$mot" ]; then
+    contexte_gauche=$(echo -n "$line" | cut -f 1 -d '§'   )
+    contexte_droit=$(echo  -n "$line" | cut -f 3 -d '§')
+    mot=$(echo  -n "$line" | cut -f 2 -d '§')
+    echo "---"
+    echo $line
+    echo $mot
+    echo $contexte_gauche
+    echo $contexte_droit
+    echo "----"
+# if [ -n "$contexte_gauche" ] && [ -n "$contexte_droit" ] && [ -n "$mot" ]; then
     echo "              <tr>
                         <td>${contexte_gauche}</td>
                         <td>${mot}</td>
                         <td>${contexte_droit}</td>
                         </tr> " >> ../Concordances/concordances-${langue}-${compteur}.html
-fi
+# fi
 done < $file
