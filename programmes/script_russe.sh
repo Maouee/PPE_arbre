@@ -89,7 +89,7 @@ do
         bash contexte/${langue}.sh $langue $compteur
         contexte="contexte"
         # Récupère les occurences du mot avec contexte gauche et droit au format tsv
-        grep -o -i -P "([\x{0400}-\x{04FF}]+\s){0,5}(дерев[ауе]|деревом?|деревьях?|деревьями?|деревьев])(\s[\x{0400}-\x{04FF}]+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(дерево)/\t\1\t/g' > ../Concordances/concordances-${langue}-${compteur}.txt
+        grep -o -i -P "({InCyrillic}+\s){0,5}(дерев[ауе]|деревом?|деревьях?|деревьями?|деревьев])(\s{InCyrillic}+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(дерево)/\t\1\t/g' > ../Concordances/concordances-${langue}-${compteur}.txt
         # Utilise le tsv pour créer un tableau html
         bash concordancier.sh ../Concordances/concordances-${langue}-${compteur}.txt ${langue} ${compteur}
         concordancier="concordancier"
