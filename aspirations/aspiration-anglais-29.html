@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>What is Syntax Tree?</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes, maximum-scale=1">
+<meta name="Keywords" content="HTML, Python, CSS, SQL, JavaScript, Perl, PHP, Java, C, C++, C#, jQuery, Bootstrap, Colors, XML, MySQL, Icons, NodeJS, React, Graphics, Angular, R, AI, Git, Machine Learning, Data Science, Tutorials, Programming, Data Structure, Algorithms, Web Development, Training, Learning, Quiz, Exercises, Courses, References, Computer Science, Management, Finance, Examples, Articles, Demos, Tips, Website">
+<meta name="Description" content="What is Syntax Tree - Tree in which each leaf node describes an operand & each interior node an operator. The syntax tree is shortened form of the Parse Tree.Example1 − Draw Syntax Tree for the string a + b ∗ c − d.Rules for constructing a syntax treeEach node in a syntax tree can be executed as data with multiple ">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Lato:wght@400;700&family=Poppins:wght@400;500;600&family=Raleway:wght@500&display=swap" rel="stylesheet" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<meta property="og:image" content="https://www.tutorialspoint.com/images/t-logo.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="350">
+<meta property="og:image:height" content="65">
+<meta property="og:title" content="What is Syntax Tree?">
+<meta property="og:description" content="What is Syntax Tree - Tree in which each leaf node describes an operand & each interior node an operator. The syntax tree is shortened form of the Parse Tree.Example1 − Draw Syntax Tree for the string a + b ∗ c − d.Rules for constructing a syntax treeEach node in a syntax tree can be executed as data with multiple ">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+   tex2jax: { inlineMath: [["$","$"],["\\(","\\)"]] },
+   "HTML-CSS": {
+     linebreaks: { automatic: true, width: "container" }
+   }
+});
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
+<script id="MathJax-script" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" crossorigin="anonymous">
+<link href="/articles/css/article.css?v=6.013" rel="stylesheet">
+<link rel="canonical" href="https://www.tutorialspoint.com/what-is-syntax-tree" />
+<link rel="alternate" hreflang="en" href="https://www.tutorialspoint.com/what-is-syntax-tree" />
+<link rel="stylesheet" href="/static/css/lib-style.css?v41.25"  media="screen, print" />
+<script id="adv" data-cfasync="false">(function(w, d) { var s = d.createElement('script'); s.src = '//cdn.adpushup.com/40046/adpushup.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+<script>
+!function(t,e){var i=function(t,e){if(e.body){var n=e.createElement("div");n.className="ad-slot ad gpt-div-slot",n.style="position: absolute; visibility: hidden;",n.textContent="&nbsp;",e.body.appendChild(n),setTimeout((function(){if(0===n.clientHeight){var t=e.createElement("script");t.setAttribute("src","https://delivery.adrecover.com/18107/adRecover.js"),t.setAttribute("type","text/javascript"),t.setAttribute("async",!0),e.head.append(t)}}),0)}else setTimeout((function(){i(t,e)}),50)};i(t,e)}(window,document);
+</script>
+</head>
+<body style="--container: min(95%, 1780px);">
+<button class="icon-button--inverted scroll-to-top-button">
+  <svg style="rotate: 180deg" width="24" height="24" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>
+</button>
+<div class="accent-header ">
+  <nav class="accent-nav library-accent-nav">
+      <div class="accent-nav__content">
+          <ul class="accent-nav__list">
+              <li class="accent-nav__item"><a class="accent-nav__link" href="/index.htm">
+                  <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M303.5 13.7L288 .5 272.5 13.7l-264 224 31.1 36.6L64 253.5V488v24H88 488h24V488 253.5l24.5 20.8 31.1-36.6-264-224zM112 464V212.8L288 63.5 464 212.8V464H384V296 272H360 216 192v24V464H112zm128 0V320h96V464H240z"/></svg>
+                  Home</a>
+              </li>
+              <li class="accent-nav__item"><a class="accent-nav__link" href="/codingground.htm">
+                  <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><path d="M376.5 1.8l-7.3 22.8-144 448-7.3 22.8 45.7 14.7 7.3-22.8 144-448 7.3-22.8L376.5 1.8zm61.6 135.3l17.5 16.4L564.9 256 455.6 358.5l-17.5 16.4 32.8 35 17.5-16.4 128-120L635.1 256l-18.7-17.5-128-120-17.5-16.4-32.8 35zm-269-35l-17.5 16.4-128 120L4.9 256l18.7 17.5 128 120 17.5 16.4 32.8-35-17.5-16.4L75.1 256 184.4 153.5l17.5-16.4-32.8-35z"/></svg>
+                  Coding Ground</a>
+              </li>
+              <li class="accent-nav__item"><a class="accent-nav__link" href="/job_search.php">
+                 <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M160 48V96H352V48c0-8.8-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zM128 96V48c0-26.5 21.5-48 48-48H336c26.5 0 48 21.5 48 48V96h64c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64zm240 32H144 128V448H384V128H368zM64 128c-17.7 0-32 14.3-32 32V416c0 17.7 14.3 32 32 32H96V128H64zM448 448c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H416V448h32z"/></svg>
+                   Jobs</a>
+              </li>
+              <li class="accent-nav__item"><a class="accent-nav__link" aria-current="page" href="/whiteboard.htm">
+                  <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M56 32H32V56 400H80V80H496V400h48V56 32H520 56zM224 352v24 56H24 0v48H24 224h24H392h24H552h24V432H552 416V376 352H392 248 224zm144 48v32H272V400h96z"/></svg>
+                  Whiteboard</a>
+              </li>
+              <li class="accent-nav__item"><a class="accent-nav__link" aria-current="page" href="/online_dev_tools.htm">
+                 <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M33.9 366.1L160.4 239.6l33.9 33.9L67.9 400 112 444.1l95.4-95.4 17.9 17.9 16 16-95.4 95.4L112 512 78.1 478.1 33.9 433.9 0 400l33.9-33.9zM224 144.8V96 80l-7.3-5.5C245.1 29.7 295.1 0 352 0c13.5 0 26.7 1.7 39.3 4.9c17 4.3 33 11.3 47.3 20.6L403.5 60.5 352 112v48h48l51.5-51.5 35.1-35.1c9.3 14.4 16.3 30.3 20.6 47.3c3.2 12.6 4.9 25.7 4.9 39.3c0 57.2-30 107.3-75.1 135.6l-35.2-35.2c35.8-17.8 60.8-54.1 62.3-96.5l-30 30L419.9 208H400 352 304V160 112 92.1l14.1-14.1 30-30C288 50.1 240 99.5 240 160l0 .8-16-16zM287 321l-129-129H96L0 64 64 0 192 96v62.1L321 287l31-31L512 416l-96 96L256 352l31-31z"/></svg>
+                  Tools</a>
+              </li>
+          </ul>
+      </div>
+      <button class="accent-nav__toggle" aria-expanded="false"> Menu <svg xmlns="http://www.w3.org/2000/svg" width="13" height="8" viewBox="0 0 13 8" fill="none"><path d="M1.12891 1.33594L6.40994 6.62214L11.691 1.33594" stroke="white" stroke-width="1.79664" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
+      <a href="/market/login.jsp" class="accent-nav__login-button"> Login</a>
+      <ul class="flex-group accent-nav__right-list">
+           <li class="accent-nav__item">
+                 <button class="accent-nav__button theme-toggle" aria-expanded="false" href="index.htm">
+                     <span class="sr-only">Switch theme</span>
+                  </button>
+          </li>
+          <li class="accent-nav__item">
+             <a class="accent-nav__link" href="/market/teach-with-us.jsp">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                            <path d="M4.54199 9.72852C5.69023 9.72852 6.62402 8.79472 6.62402 7.64648C6.62402 6.49824 5.69023 5.56445 4.54199 5.56445C3.39375 5.56445 2.45996 6.49824 2.45996 7.64648C2.45996 8.79472 3.39375 9.72852 4.54199 9.72852ZM4.54199 6.60547C5.11611 6.60547 5.58301 7.07236 5.58301 7.64648C5.58301 8.2206 5.11611 8.6875 4.54199 8.6875C3.96787 8.6875 3.50098 8.2206 3.50098 7.64648C3.50098 7.07236 3.96787 6.60547 4.54199 6.60547ZM8.18555 14.4131C8.18555 14.7009 7.95236 14.9336 7.66504 14.9336C7.37772 14.9336 7.14453 14.7009 7.14453 14.4131C7.14453 12.978 5.97703 11.8105 4.54199 11.8105C3.10695 11.8105 1.93945 12.978 1.93945 14.4131C1.93945 14.7009 1.70627 14.9336 1.41895 14.9336C1.13163 14.9336 0.898438 14.7009 0.898438 14.4131C0.898438 12.4044 2.53283 10.7695 4.54199 10.7695C6.55115 10.7695 8.18555 12.4044 8.18555 14.4131Z" fill="white"></path>
+                            <path d="M6.46707 10.7543C6.02638 10.799 5.36206 11.6595 5.30469 12.0775C5.64176 12.5905 7.09049 14.9075 7.13752 14.9601C7.18455 15.0126 7.27778 15.3001 9.01839 15.0401C8.83959 14.6037 6.91844 10.7085 6.46707 10.7543Z" fill="#2C9D30"></path>
+                            <path d="M9.42806 8.92058C10.7546 8.92058 11.8334 7.84179 11.8334 6.51526C11.8334 5.18872 10.7546 4.10994 9.42806 4.10994C8.10153 4.10994 7.02274 5.18872 7.02274 6.51526C7.02274 7.84179 8.10153 8.92058 9.42806 8.92058ZM9.42806 5.3126C10.0913 5.3126 10.6307 5.85199 10.6307 6.51526C10.6307 7.17853 10.0913 7.71792 9.42806 7.71792C8.7648 7.71792 8.2254 7.17853 8.2254 6.51526C8.2254 5.85199 8.7648 5.3126 9.42806 5.3126ZM13.6374 14.3326C13.6374 14.6651 13.368 14.9339 13.036 14.9339C12.7041 14.9339 12.4347 14.6651 12.4347 14.3326C12.4347 12.6747 11.0859 11.3259 9.42806 11.3259C7.7702 11.3259 6.42141 12.6747 6.42141 14.3326C6.42141 14.6651 6.15202 14.9339 5.82008 14.9339C5.48815 14.9339 5.21875 14.6651 5.21875 14.3326C5.21875 12.012 7.10693 10.1232 9.42806 10.1232C11.7492 10.1232 13.6374 12.012 13.6374 14.3326ZM19.6507 3.50861V8.31925C19.6507 9.97712 18.3019 11.3259 16.644 11.3259H14.2387C13.9068 11.3259 13.6374 11.0571 13.6374 10.7246V9.52191C13.6374 9.18938 13.9068 8.92058 14.2387 8.92058H16.0427C16.3746 8.92058 16.644 9.18938 16.644 9.52191V10.1232C17.6386 10.1232 18.448 9.31385 18.448 8.31925V3.50861C18.448 2.51401 17.6386 1.70461 16.644 1.70461H10.9103C10.2681 1.70461 9.6692 2.05038 9.34749 2.60721C9.18092 2.89465 8.8135 2.99387 8.52607 2.8261C8.23803 2.66013 8.14001 2.29211 8.30658 2.00468C8.84297 1.07803 9.84058 0.501953 10.9109 0.501953H16.6446C18.3025 0.501953 19.6507 1.85074 19.6507 3.50861Z" fill="white"></path>
+                        </svg>
+                  Teach with us
+             </a>
+          </li>
+          <li>
+              <a class="accent-nav__social-link" rel="nofollow" target="_blank" href="https://www.facebook.com/tutorialspointindia">
+                <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+              </a>
+          </li>
+          <li>
+              <a class="accent-nav__social-link" target="_blank" href="https://www.instagram.com/tutorialspoint_/" rel="nofollow">
+                 <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+             </a>
+          </li>
+          <li>
+              <a class="accent-nav__social-link" target="_blank" href="https://twitter.com/tutorialspoint" rel="nofollow">
+                <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+              </a>
+          </li>
+          <li>
+              <a class="accent-nav__social-link" target="_blank" href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" rel="nofollow">
+                   <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+              </a>
+          </li>
+          <li>
+              <a class="accent-nav__social-link" target="_blank" href="https://www.linkedin.com/company/tutorialspoint/" rel="nofollow"> 
+                 <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+              </a>
+          </li>
+      </ul>
+  </nav>
+</div>
+<header class="header library-header show">
+<div class="container">
+   <a href="https://www.tutorialspoint.com">
+            <svg class="logo-desktop" xmlns="http://www.w3.org/2000/svg" width="226" height="42" viewBox="0 0 226 42" fill="none">
+                    <path class="logo-desktop-path" d="M76.2136 13.8408V27.7576H72.3845V26.1045C71.3229 27.3193 69.7701 27.9689 68.0642 27.9689C64.5731 27.9689 62.1172 26.0042 62.1172 21.7103V13.8461H66.1523V21.1135C66.1523 23.4426 67.1874 24.4778 68.9726 24.4778C70.7577 24.4778 72.1785 23.2895 72.1785 20.7279V13.8461H76.2136V13.8408Z" fill="#40A944"></path>
+                    <path class="logo-desktop-path" d="M89.1484 20.7959C89.1484 16.6077 92.3807 13.6289 96.8066 13.6289C101.233 13.6289 104.438 16.6024 104.438 20.7959C104.438 24.9894 101.233 27.9629 96.8066 27.9629C92.3807 27.9629 89.1484 24.9894 89.1484 20.7959ZM100.351 20.7959C100.351 18.3928 98.8242 16.9404 96.8066 16.9404C94.7891 16.9404 93.2363 18.3876 93.2363 20.7959C93.2363 23.2043 94.7891 24.6514 96.8066 24.6514C98.8242 24.6514 100.351 23.2043 100.351 20.7959Z" fill="#40A944"></path>
+                    <path class="logo-desktop-path" d="M115.28 13.6348V17.3582C114.942 17.3318 114.683 17.3054 114.377 17.3054C112.153 17.3054 110.68 18.5202 110.68 21.1873V27.7575H106.645V13.8407H110.5V15.6787C111.482 14.3319 113.141 13.6348 115.285 13.6348H115.28Z" fill="#40A944"></path>
+                    <path class="logo-desktop-path" d="M117.695 13.8408H121.73V27.7576H117.695V13.8408Z" fill="#40A944"></path>
+                    <path class="logo-desktop-path" d="M139.119 13.8402V27.757H135.263V26.1514C134.255 27.3661 132.781 27.9629 130.917 27.9629C126.987 27.9629 123.961 25.169 123.961 20.7959C123.961 16.4228 126.987 13.6289 130.917 13.6289C132.623 13.6289 134.07 14.1729 135.079 15.3084V13.8349H139.114L139.119 13.8402ZM135.163 20.7959C135.163 18.3928 133.61 16.9404 131.619 16.9404C129.628 16.9404 128.049 18.3876 128.049 20.7959C128.049 23.2043 129.602 24.6514 131.619 24.6514C133.637 24.6514 135.163 23.2043 135.163 20.7959Z" fill="#40A944"></path>
+                    <path class="logo-desktop-path" d="M146.402 8.5625H142.367V27.7555H146.402V8.5625Z" fill="#40A944"></path>
+                    <path class="logo-desktop-path" d="M149.141 26.4622L150.487 23.5679C151.729 24.3707 153.619 24.9147 155.325 24.9147C157.19 24.9147 157.887 24.4235 157.887 23.6471C157.887 21.3708 149.479 23.7 149.479 18.1385C149.479 15.4978 151.861 13.6387 155.917 13.6387C157.829 13.6387 159.952 14.077 161.272 14.8534L159.925 17.7266C158.552 16.9502 157.184 16.6914 155.917 16.6914C154.105 16.6914 153.329 17.2618 153.329 17.9854C153.329 20.3673 161.737 18.0646 161.737 23.5468C161.737 26.1347 159.334 27.9674 155.167 27.9674C152.811 27.9674 150.435 27.3231 149.141 26.4675V26.4622Z" fill="#40A944"></path>
+                    <path class="logo-desktop-path" d="M178.226 20.9541C178.226 25.0948 175.332 27.8835 171.45 27.8835C169.279 27.8835 167.415 26.9539 166.279 25.1952V32.7742H164.441V14.1515H166.2V16.8398C167.315 15.0283 169.2 14.0459 171.45 14.0459C175.332 14.0459 178.226 16.8398 178.226 20.9541ZM176.388 20.9541C176.388 17.8011 174.191 15.6515 171.318 15.6515C168.445 15.6515 166.248 17.7958 166.248 20.9541C166.248 24.1125 168.418 26.2568 171.318 26.2568C174.218 26.2568 176.388 24.1336 176.388 20.9541Z" fill="var(--clr-text)"></path>
+                    <path class="logo-desktop-path" d="M180.129 20.9541C180.129 16.919 183.076 14.0459 187.058 14.0459C191.041 14.0459 193.966 16.919 193.966 20.9541C193.966 24.9892 191.046 27.8835 187.058 27.8835C183.071 27.8835 180.129 24.9892 180.129 20.9541ZM192.102 20.9541C192.102 17.7747 189.953 15.6515 187.058 15.6515C184.164 15.6515 181.988 17.7747 181.988 20.9541C181.988 24.1336 184.159 26.2568 187.058 26.2568C189.958 26.2568 192.102 24.1336 192.102 20.9541Z" fill="var(--clr-text)"></path>
+                    <path class="logo-desktop-path" d="M196.754 14.1523H198.592V27.7575H196.754V14.1523Z" fill="var(--clr-text)"></path>
+                    <path class="logo-desktop-path" d="M215.288 19.8661V27.7567H213.45V20.051C213.45 17.1778 211.95 15.7043 209.362 15.7043C206.442 15.7043 204.604 17.5159 204.604 20.6161V27.7567H202.766V14.1515H204.524V16.6602C205.507 15.0071 207.345 14.0459 209.695 14.0459C213.006 14.0459 215.283 15.9578 215.283 19.8661H215.288Z" fill="var(--clr-text)"></path>
+                    <path class="logo-desktop-path" d="M59.3346 24.2389C58.8699 24.5769 58.2731 24.7565 57.6815 24.7565C56.5935 24.7565 55.9756 24.1122 55.9756 22.9185V17.2568H59.4139V14.1512H55.9756V10.2852L51.9405 11.2411V14.1512H50.2188V17.2568H51.9405V22.9714C51.9405 26.2829 53.8313 27.9624 57.1375 27.9624C58.3523 27.9624 59.567 27.6772 60.3962 27.0804L59.3346 24.2336V24.2389Z" fill="#40A944"></path>
+                    <path class="logo-desktop-path" d="M87.2878 24.2389C86.823 24.5769 86.2262 24.7565 85.6347 24.7565C84.5467 24.7565 83.9287 24.1122 83.9287 22.9185V17.2568H87.367V14.1512H83.9287V10.2852L79.8936 11.2411V14.1512H78.1719V17.2568H79.8936V22.9714C79.8936 26.2829 81.7844 27.9624 85.0907 27.9624C86.3054 27.9624 87.5202 27.6772 88.3494 27.0804L87.2878 24.2336V24.2389Z" fill="#40A944"></path>
+                    <path class="logo-desktop-path" d="M119.713 11.8222C120.827 11.8222 121.73 10.9189 121.73 9.80465C121.73 8.69039 120.827 7.78711 119.713 7.78711C118.599 7.78711 117.695 8.69039 117.695 9.80465C117.695 10.9189 118.599 11.8222 119.713 11.8222Z" fill="#40A944"></path>
+                    <path class="logo-desktop-path" d="M197.674 11.8222C198.788 11.8222 199.691 10.9189 199.691 9.80465C199.691 8.69039 198.788 7.78711 197.674 7.78711C196.56 7.78711 195.656 8.69039 195.656 9.80465C195.656 10.9189 196.56 11.8222 197.674 11.8222Z" fill="#40A944"></path>
+                    <path class="logo-desktop-path" d="M225.15 25.6071C224.633 26.0719 223.909 26.3043 223.133 26.3043C221.606 26.3043 220.803 25.4223 220.803 23.822V15.699H224.918V14.1462H220.803V10.2168L218.965 11.1728V14.1462H217.043V15.699H218.965V23.9223C218.965 26.4311 220.386 27.8782 222.948 27.8782C224.009 27.8782 225.097 27.5666 225.794 26.9222L225.15 25.6019V25.6071Z" fill="var(--clr-text)"></path>
+                    <path d="M27.3002 39.5829C33.1626 39.4561 38.4072 35.87 40.8842 30.5568C42.3208 27.4829 43.0444 24.013 42.8542 20.3582C42.2785 9.30395 33.1521 0.394029 22.082 0.0718569C9.95038 -0.282005 0 9.44655 0 21.5043C0 30.7099 5.80439 38.5583 13.9485 41.6004C13.1721 40.7871 12.6017 39.7941 12.2531 38.6217C11.7091 36.8101 11.725 34.6711 12.2954 32.2046L15.2319 19.8881H9.16343L10.1564 15.5837L10.4257 14.4429H16.5259L16.6368 13.9411L18.0628 7.76175L26.9727 6.05582L25.1506 13.9411L23.8408 19.8881L20.8197 33.2609C20.3602 35.2626 20.5398 36.8101 21.3743 37.8928C21.3743 37.8928 22.6207 39.6832 27.3002 39.5829ZM29.4128 13.4605C31.8951 12.9904 34.0288 15.1242 33.5588 17.6065C33.2947 18.9902 32.1803 20.1099 30.7912 20.374C28.3089 20.8441 26.1752 18.7103 26.6453 16.228C26.9093 14.8443 28.0237 13.7246 29.4128 13.4605Z" fill="#40A944"></path>
+	   </svg>
+           <svg class="logo-mobile" xmlns="http://www.w3.org/2000/svg" width="43" height="42" viewBox="0 0 43 42" fill="none">
+                    <path d="M27.3002 39.5829C33.1626 39.4561 38.4072 35.87 40.8842 30.5568C42.3208 27.4829 43.0444 24.013 42.8542 20.3582C42.2785 9.30395 33.1521 0.394029 22.082 0.0718569C9.95038 -0.282005 0 9.44655 0 21.5043C0 30.7099 5.80439 38.5583 13.9485 41.6004C13.1721 40.7871 12.6017 39.7941 12.2531 38.6217C11.7091 36.8101 11.725 34.6711 12.2954 32.2046L15.2319 19.8881H9.16343L10.1564 15.5837L10.4257 14.4429H16.5259L16.6368 13.9411L18.0628 7.76175L26.9727 6.05582L25.1506 13.9411L23.8408 19.8881L20.8197 33.2609C20.3602 35.2626 20.5398 36.8101 21.3743 37.8928C21.3743 37.8928 22.6207 39.6832 27.3002 39.5829ZM29.4128 13.4605C31.8951 12.9904 34.0288 15.1242 33.5588 17.6065C33.2947 18.9902 32.1803 20.1099 30.7912 20.374C28.3089 20.8441 26.1752 18.7103 26.6453 16.228C26.9093 14.8443 28.0237 13.7246 29.4128 13.4605Z" fill="#40A944"></path>
+           </svg>
+   </a>
+   <nav class="nav">
+       <ul class="nav__list">
+           <li class="nav__item dropdown">
+               <button aria-expanded="false" aria-controls="category"
+                   class="flex-group dropdown__toggle button-reset" style="--gap: .5rem;">
+                    <svg width="19" height="19" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <path d="M11.2512 6.89788C10.4984 6.89788 9.7457 6.89788 8.99253 6.89788C8.60903 6.89788 8.4112 6.70173 8.4112 6.32074C8.4112 4.8404 8.40995 3.36047 8.4112 1.88012C8.41204 0.85368 9.13294 0.13069 10.1569 0.129013C11.2495 0.126918 12.3422 0.126918 13.4348 0.129013C14.4512 0.131109 15.175 0.852842 15.1771 1.86754C15.1797 2.96607 15.1797 4.06418 15.1771 5.1627C15.1746 6.16818 14.4508 6.89369 13.4466 6.89746C12.7148 6.90039 11.9826 6.89788 11.2508 6.89788H11.2512ZM9.40495 5.90372H9.57092C10.8622 5.90372 12.1536 5.90413 13.4449 5.90372C13.908 5.90372 14.1838 5.62626 14.1842 5.16103C14.1846 4.06292 14.1846 2.96439 14.1842 1.86629C14.1842 1.40022 13.9089 1.12318 13.4457 1.12318C12.348 1.12234 11.2499 1.12276 10.1522 1.12318C9.67738 1.12318 9.40537 1.39687 9.40495 1.87299C9.40453 3.15971 9.40495 4.446 9.40495 5.73271V5.90455V5.90372Z" fill="var(--clr-text)"></path>
+                                <path d="M4.05447 6.89788C4.80722 6.89788 5.55997 6.89788 6.31313 6.89788C6.69663 6.89788 6.89446 6.70173 6.89446 6.32074C6.89446 4.8404 6.89572 3.36047 6.89446 1.88012C6.89362 0.85368 6.17273 0.13069 5.14881 0.129013C4.05615 0.126918 2.96349 0.126918 1.87083 0.129013C0.854452 0.131109 0.130623 0.852842 0.128527 1.86754C0.126012 2.96607 0.126012 4.06418 0.128527 5.1627C0.131042 6.16818 0.854871 6.89369 1.85909 6.89746C2.59089 6.90039 3.3231 6.89788 4.05489 6.89788H4.05447ZM5.90072 5.90372H5.73474C4.44342 5.90372 3.15209 5.90413 1.86077 5.90372C1.39764 5.90372 1.12185 5.62626 1.12143 5.16103C1.12102 4.06292 1.12102 2.96439 1.12143 1.86629C1.12143 1.40022 1.3968 1.12318 1.85993 1.12318C2.95762 1.12234 4.05573 1.12276 5.15342 1.12318C5.62828 1.12318 5.9003 1.39687 5.90072 1.87299C5.90113 3.15971 5.90072 4.446 5.90072 5.73271V5.90455V5.90372Z" fill="#40A944"></path>
+                                <path d="M6.89527 11.2576C6.89527 11.9794 6.89611 12.7011 6.89527 13.4228C6.89402 14.4677 6.17605 15.1836 5.12824 15.1844C4.05109 15.1853 2.97436 15.1853 1.89721 15.1844C0.851073 15.1836 0.130178 14.466 0.128921 13.4237C0.127664 12.3251 0.125987 11.227 0.129759 10.1285C0.132274 9.30619 0.648636 8.64565 1.43114 8.46291C1.577 8.42896 1.73124 8.41681 1.88128 8.41681C3.36079 8.41346 4.8403 8.41471 6.31981 8.41513C6.69996 8.41513 6.89527 8.61338 6.89527 8.99813C6.89569 9.7513 6.89527 10.5045 6.89527 11.2576ZM5.90153 9.4093H5.73388C4.44255 9.4093 3.15123 9.4093 1.85991 9.4093C1.39635 9.4093 1.12225 9.68592 1.12225 10.1524C1.12183 11.2505 1.12183 12.349 1.12225 13.4471C1.12225 13.9128 1.39761 14.1894 1.86116 14.1898C2.95885 14.1907 4.05696 14.1903 5.15465 14.1898C5.62826 14.1898 5.90111 13.9149 5.90111 13.4388C5.90153 12.152 5.90111 10.8658 5.90111 9.57904V9.40888L5.90153 9.4093Z" fill="var(--clr-text)"></path>
+                                <path d="M11.2551 8.41541C11.9764 8.41541 12.6982 8.41457 13.4195 8.41541C14.456 8.41709 15.1765 9.13505 15.1777 10.1694C15.179 11.2575 15.1794 12.3451 15.1777 13.4332C15.176 14.4596 14.456 15.1822 13.4317 15.1843C12.339 15.1864 11.2463 15.1864 10.1537 15.1843C9.13939 15.1822 8.41305 14.4579 8.41179 13.4449C8.4097 11.9595 8.41095 10.4742 8.41179 8.98877C8.41179 8.61533 8.61046 8.41541 8.98096 8.41541C9.73916 8.41457 10.4969 8.41541 11.2551 8.41541ZM9.40512 9.40958V9.58812C9.40512 10.8748 9.40512 12.1611 9.40512 13.4478C9.40512 13.9135 9.68048 14.1905 10.1436 14.191C11.2413 14.1918 12.3394 14.1914 13.4371 14.191C13.9107 14.191 14.184 13.916 14.184 13.4403C14.1844 12.3527 14.184 11.2646 14.184 10.177C14.184 9.67865 13.917 9.41 13.422 9.41C12.1466 9.41 10.8708 9.41 9.5954 9.41C9.53882 9.41 9.48224 9.41 9.4047 9.41L9.40512 9.40958Z" fill="var(--clr-text)"></path>
+                   </svg>
+                   <span class="flex-group" style="--gap: 0.25rem;">
+                       <span>Category</span>
+                       <svg class="chevron" width="16" height="16" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#000" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                   </span>
+               </button>
+               <div class="dropdown__list-wrapper">
+                                          <script>
+                            var isQA = true;
+                          </script>
+                     <ul id="category" class="dropdown__list dropdown__list--multi-column">
+                          <li class="dropdown__item"><a href="/articles/category/java8" class="dropdown-item"><i class="fal fa-angle-right"></i> Java</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/jsp" class="dropdown-item"><i class="fal fa-angle-right"></i> JSP</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/ios" class="dropdown-item"><i class="fal fa-angle-right"></i> iOS</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/html" class="dropdown-item"><i class="fal fa-angle-right"></i> HTML</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/android" class="dropdown-item"><i class="fal fa-angle-right"></i> Android</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/python" class="dropdown-item"><i class="fal fa-angle-right"></i> Python</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/c" class="dropdown-item"><i class="fal fa-angle-right"></i> C Programming</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/cplusplus" class="dropdown-item"><i class="fal fa-angle-right"></i> C++ Programming</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/csharp" class="dropdown-item"><i class="fal fa-angle-right"></i> C#</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/php" class="dropdown-item"><i class="fal fa-angle-right"></i> PHP</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/css" class="dropdown-item"><i class="fal fa-angle-right"></i> CSS</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/javascript" class="dropdown-item"><i class="fal fa-angle-right"></i> Javascript</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/jquery" class="dropdown-item"><i class="fal fa-angle-right"></i> jQuery</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/sap" class="dropdown-item"><i class="fal fa-angle-right"></i> SAP</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/sap-hana" class="dropdown-item"><i class="fal fa-angle-right"></i> SAP HANA</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/data-structure" class="dropdown-item"><i class="fal fa-angle-right"></i> Data Structure</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/rdbms" class="dropdown-item"><i class="fal fa-angle-right"></i> RDBMS</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/mysql" class="dropdown-item"><i class="fal fa-angle-right"></i> MySQL</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/mathematics" class="dropdown-item"><i class="fal fa-angle-right"></i> Mathematics</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/8085" class="dropdown-item"><i class="fal fa-angle-right"></i> 8085 Microprocessor</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/operating-system" class="dropdown-item"><i class="fal fa-angle-right"></i> Operating System</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/digital-electronics" class="dropdown-item"><i class="fal fa-angle-right"></i> Digital Electronics</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/analysis-of-algorithms" class="dropdown-item"><i class="fal fa-angle-right"></i> Analysis of Algorithms</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/mobile-development" class="dropdown-item"><i class="fal fa-angle-right"></i> Mobile Development</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/front-end-technology" class="dropdown-item"><i class="fal fa-angle-right"></i> Front End </a></li>
+                          <li class="dropdown__item"><a href="/articles/category/web-development" class="dropdown-item"><i class="fal fa-angle-right"></i> Web Development</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/selenium" class="dropdown-item"><i class="fal fa-angle-right"></i> Selenium</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/mongodb" class="dropdown-item"><i class="fal fa-angle-right"></i> MongoDB</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/computer-network" class="dropdown-item"><i class="fal fa-angle-right"></i> Computer Network</a></li>
+                          <li class="dropdown__item"><a href="/articles/category/general-topics" class="dropdown-item"><i class="fal fa-angle-right"></i> General Topics</a></li>
+                  </ul>
+                                 </div>
+           </li>
+           <li class="nav__search-wrapper">
+               <input type="text" class="nav__item nav__search gradient-input" placeholder="Search tutorials, courses and ebooks..." id="search-strings" name="key" data-result="search-results" aria-label="Search" autocomplete="off">
+               <button type="button" id="btnSearch" class="btn bg-transparent px-2 py-0 position-absolute top-50 end-0 translate-middle-y"><svg fill="rgb(44, 157, 48)" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M508.5 481.6l-129-129c-2.3-2.3-5.3-3.5-8.5-3.5h-10.3C395 312 416 262.5 416 208 416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c54.5 0 104-21 141.1-55.2V371c0 3.2 1.3 6.2 3.5 8.5l129 129c4.7 4.7 12.3 4.7 17 0l9.9-9.9c4.7-4.7 4.7-12.3 0-17zM208 384c-97.3 0-176-78.7-176-176S110.7 32 208 32s176 78.7 176 176-78.7 176-176 176z"/></svg></button>
+               <div class="search-box search-box-inn" id="search-results"></div>
+               <div class="clear"></div>
+           </li>
+           <li class="nav__item nav__item--left"><a class="nav__link" href="/tutorialslibrary.htm">Library</a>
+           </li>
+           <li class="nav__item"><a class="nav__link" href="/articles/index.php">Articles</a></li>
+           <li class="nav__item "><a class="nav__link" href="https://www.tutorialspoint.com/latest/certifications">Certifications</a>
+           </li>
+           <li class="nav__item nav__item--button"><a href="/market/login.jsp" class="button nav__signup-link fw-600">Login</a>
+           </li>
+       </ul>
+   </nav>
+   <button aria-expanded="false" class="tutorial-toc-toggle">
+       <span class="sr-only">Menu</span>
+   </button>
+   <div class="flex-group header__buttons" style="--gap: min(3vw, 1rem)">
+       <div class="nav__search-wrapper nav__search-wrapper--mobile">
+           <input type=" text" class="nav__item nav__search nav__search--mobile gradient-input" placeholder="Search tutorials, courses and ebooks..." id="mobile-search-strings" name="key" data-result="search-results" aria-label="Search" autocomplete="off"/>
+       </div>
+       <button aria-expanded="false"
+           class="button-reset mobile-search-button header__search-button search-button">
+           <span class="sr-only">Show search</span>
+       </button>
+       <button aria-expanded="false" class="nav-toggle"><span class="sr-only">Menu</span></button>
+   </div>
+</div>
+</header>
+<nav class="library-nav ">
+  <div class="library-nav__container">
+      <button style="display: block;" class="library-nav__prev-button library-nav__button button-reset" id="scroll_left_btn" onmousedown="initScroll(-1)" onmouseup="stopScrolling()" onmouseout="stopScrolling()"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 10 17" fill="none"><path d="M8.17969 15.459L0.963867 8.24316L8.17969 1.02734" stroke="white" stroke-width="1.79664" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
+      <div class="library-nav__slider">
+          <ul id="library-nav">
+              <li><a class="" href="/html/index.htm" title="HTML Tutorial">HTML</a></li>
+              <li><a class="" href="/css/index.htm" title="CSS Tutorial">CSS</a></li>
+              <li><a class="" href="/javascript/index.htm" title="JavaScript Tutorial">Javascript</a></li>
+              <li><a class="" href="/sql/index.htm" title="SQL Tutorial">SQL</a></li>
+              <li><a class="" href="/python/index.htm" title="Python Tutorial">Python</a></li>
+              <li><a class="" href="/java/index.htm" title="Java Tutorial">Java</a></li>
+              <li><a class="" href="/cprogramming/index.htm" title="C Tutorial">C</a></li>
+              <li><a class="" href="/cplusplus/index.htm" title="C++ Tutorial">C++</a></li>
+              <li><a class="" href="/php/index.htm" title="PHP Tutorial">PHP</a></li>
+              <li><a class="" href="/scala/index.htm" title="Scala Tutorial">Scala</a></li>
+              <li><a class="" href="/csharp/index.htm" title="C# Tutorial">C#</a></li>
+              <li><a class="" href="/nodejs/index.htm" title="Node.js Tutorial">Node.js</a></li>
+              <li><a class="" href="/mysql/index.htm" title="MySQL">MySQL</a></li>
+              <li><a class="" href="/mongodb/index.htm" title="MongoDB Tutorial">MongoDB</a></li>
+              <li><a class="" href="/plsql/index.htm" title="PL/SQL Tutorial">PL/SQL</a></li>
+              <li><a class="" href="/swift/index.htm" title="Swift Tutorial">Swift</a></li>
+              <li><a class="" href="/bootstrap/index.htm" title="Bootstrap Tutorial">Bootstrap</a></li>
+              <li><a class="" href="/r/index.htm" title="R Programming">R</a></li>
+              <li><a class="" href="/machine_learning/index.htm" title="Machine Learning">Machine Learning</a></li>
+              <li><a class="" href="/blockchain/index.htm" title="Blockchain Tutorial">Blockchain</a></li>
+              <li><a class="" href="/angular4/index.htm" title="Angular Tutorial">Angular</a></li>
+              <li><a class="" href="/react_native/index.htm" title="React Native Tutorial">React Native</a></li>
+              <li><a class="" href="/computer_fundamentals/index.htm" title="Computer Fundamentals Tutorial">Computer Fundamentals</a></li>
+              <li><a class="" href="/compiler_design/index.htm" title="Compiler Design Tutorial">Compiler Design</a></li>
+              <li><a class="" href="/operating_system/index.htm" title="Operating System Tutorial">Operating System</a></li>
+              <li><a class="" href="/data_structures_algorithms/index.htm" title="Data Structure and Algorithms Tutorial">Data Structure and Algorithms</a></li>
+              <li><a class="" href="/data_communication_computer_network/index.htm" title="Computer Network Tutorial">Computer Network</a></li>
+              <li><a class="" href="/dbms/index.htm" title="DBMS Tutorial">DBMS</a></li>
+              <li><a class="" href="/excel/index.htm" title="Excel Tutorial">Excel</a></li>
+          </ul>
+      </div>
+      <button class="library-nav__next-button library-nav__button button-reset" id="scroll_right_btn" onmousedown="initScroll(1)" onmouseup="stopScrolling()" onmouseout="stopScrolling()"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 10 17" fill="none"><path d="M1.27734 15.459L8.49316 8.24316L1.27734 1.02734" stroke="white" stroke-width="1.79664" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
+  </div>
+</nav>
+
+<main class="bg-light" style="overflow: unset;">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="tutorial-toc">
+				<div class="toc-nav">
+					<!-- Tutorial ToC Starts Here -->
+<div class="toc-nav">
+<div class="mini-logo text-center">
+<img src="/images/trending_categories.svg" class="light-mode-item" alt="Technical Questions and Answers" />
+</div>
+<ul class="toc chapters">
+<li class="heading big-font">Trending Categories</li>
+<li><a href="/articles/category/data-structure"><img alt="Data Structure" src="/images/Data-Structure.png" class="cat-img" /> Data Structure</a></li>
+<li><a href="/articles/category/computer-network"><img alt="Networking" src="/images/Networking.png" class="cat-img" /> Networking</a></li>
+<li><a href="/articles/category/rdbms"><img alt="RDBMS" src="/images/dbms.png" class="cat-img" /> RDBMS</a></li>
+<li><a href="/articles/category/operating-system"><img alt="Operating System" src="/images/Operating-System.png" class="cat-img" /> Operating System</a></li>
+<li><a href="/articles/category/Java"><img alt="Java" src="/images/java8.png" class="cat-img" /> Java</a></li>
+<li><a href="/articles/category/ms-excel"><img alt="MS Excel" src="/images/excel_icon.png" class="cat-img" /> MS Excel</a></li>
+<li><a href="/articles/category/ios"><img alt="iOS" src="/images/ios.png" class="cat-img" /> iOS</a></li>
+<li><a href="/articles/category/HTML"><img alt="HTML" src="/images/html.png" class="cat-img" /> HTML</a></li>
+<li><a href="/articles/category/CSS"><img alt="CSS" src="/images/css.png" class="cat-img" /> CSS</a></li>
+<li><a href="/articles/category/android"><img alt="Android" src="/images/Android.png" class="cat-img" /> Android</a></li>
+<li><a href="/articles/category/python"><img alt="Python" src="/images/Python.png" class="cat-img" /> Python</a></li>
+<li><a href="/articles/category/c"><img alt="C Programming" src="/images/C-programming.png" class="cat-img" /> C Programming</a></li>
+<li><a href="/articles/category/cplusplus"><img alt="C++" src="/images/C-PLUS.png" class="cat-img" /> C++</a></li>
+<li><a href="/articles/category/csharp"><img alt="C#" src="/images/C-hash.png" class="cat-img" /> C#</a></li>
+<li><a href="/articles/category/mongodb"><img alt="MongoDB" src="/images/mongodb.png" class="cat-img" /> MongoDB</a></li>
+<li><a href="/articles/category/mysql"><img alt="MySQL" src="/images/MySQL.png" class="cat-img" /> MySQL</a></li>
+<li><a href="/articles/category/Javascript"><img alt="Javascript" src="/images/Javascript.png" class="cat-img" /> Javascript</a></li>
+<li><a href="/articles/category/php"><img alt="PHP" src="/images/php.png" class="cat-img" /> PHP</a></li>
+<li><a href="/articles/category/physics"><img alt="Physics" src="/images/physics-tutorials_icon.svg" class="cat-img" /> Physics</a></li>
+<li><a href="/articles/category/chemistry"><img alt="Chemistry" src="/images/chemistry-tutorials_icon.svg" class="cat-img" /> Chemistry</a></li>
+<li><a href="/articles/category/biology"><img alt="Biology" src="/images/biology-tutorials_icon.svg" class="cat-img" /> Biology</a></li>
+<li><a href="/articles/category/mathematics"><img alt="Mathematics" src="/images/mathematics-tutorials_icon.svg" class="cat-img" /> Mathematics</a></li>
+<li><a href="/articles/category/english"><img alt="English" src="/images/english-tutorials_icon.svg" class="cat-img" /> English</a></li>
+<li><a href="/articles/category/economics"><img alt="Economics" src="/images/economics-tutorials_icon.svg" class="cat-img" /> Economics</a></li>
+<li><a href="/articles/category/psychology"><img alt="Psychology" src="/images/psychology-tutorials_icon.svg" class="cat-img" /> Psychology</a></li>
+<li><a href="/articles/category/social-studies"><img alt="Social Studies" src="/images/social-studies-tutorials_icon.svg" class="cat-img" /> Social Studies</a></li>
+<li><a href="/articles/category/fashion-studies"><img alt="Fashion Studies" src="/images/fashion-studies-tutorials_icon.svg" class="cat-img" /> Fashion Studies</a></li>
+<li><a href="/articles/category/legal-studies"><img alt="Legal Studies" src="/images/legal-studies-tutorials_icon.svg" class="cat-img" /> Legal Studies</a></li>
+</ul>
+<ul class="toc reading">
+<li class="sreading">Selected Reading</li>
+<li><a target="_top" href="/upsc_ias_exams.htm">UPSC IAS Exams Notes</a></li>
+<li><a target="_top" href="/developers_best_practices/index.htm">Developer's Best Practices</a></li>
+<li><a target="_top" href="/questions_and_answers.htm">Questions and Answers</a></li>
+<li><a target="_top" href="/effective_resume_writing.htm">Effective Resume Writing</a></li>
+<li><a target="_top" href="/hr_interview_questions/index.htm">HR Interview Questions</a></li>
+<li><a target="_top" href="/computer_glossary.htm">Computer Glossary</a></li>
+<li><a target="_top" href="/computer_whoiswho.htm">Who is Who</a></li>
+</ul>
+<div id="stickyparent" class="d-none d-sm-block">
+<div style="height:250px;width:300px;" id="sticky-ad">
+<div id="430c9911-782f-495d-88f9-69f58ca8c9a4" class="_ap_apex_ad" >
+<script>
+var adpushup = adpushup || {};
+adpushup.que = adpushup.que || [];
+adpushup.que.push(function() {
+adpushup.triggerAd("430c9911-782f-495d-88f9-69f58ca8c9a4");
+});
+</script>
+</div>
+</div>
+</div>
+</div>
+<!-- Tutorial ToC Ends Here -->
+				</div>
+			</div>
+			<!-- Tutorial ToC Ends Here -->
+
+			<!-- Tutorial Content Starts Here -->
+			<div class="tutorial-content qa-content" id="mainContent">
+				<h1 class="qa_title">What is Syntax Tree?</h1>
+<div class="qa_category">
+<div id="divCategories">
+<a href='https://www.tutorialspoint.com/articles/category/Compiler-Design' target='_blank'><span>Compiler Design</span></a><a href='https://www.tutorialspoint.com/articles/category/programming-languages' target='_blank'><span>Programming Languages</span></a><a href='https://www.tutorialspoint.com/articles/category/Computer-Programming' target='_blank'><span>Computer Programming</span></a></div>
+				<hr/>
+				<div id="adp_top_ads" style="text-align:center !important;overflow: hidden; max-height:99px;min-height:99px"></div>
+				<script>
+					 var adPos = document.getElementById('adp_top_ads');
+					 var ad_id_720 = "8014640d-fd34-4b2e-9b1b-cc67234a2325";
+					 var ad_id_650 = "2d1bb2c4-eb72-471d-9c80-1bf5514728c1";
+					 var ad_id_300 = "df94a1a9-ae2f-432d-9a92-d93823ff4503";
+					 var width = window.innerWidth;
+					 var ad_id = ad_id_720;
+					 if( width <= 768 ){
+						ad_id =  ad_id_300;
+						adPos.style.minHeight = "250px";
+						adPos.style.maxHeight = "250px";
+					 }else if( width <= 1435 ){
+						ad_id =  ad_id_650;
+					 }
+					 adPos.innerHTML = '<div id="' + ad_id + '" class="_ap_apex_ad"></div>';
+					 var adpushup = adpushup || {};
+					 adpushup.que = adpushup.que || [];
+					 adpushup.que.push(function() {
+					 adpushup.triggerAd(ad_id);
+					 });
+				</script>
+			</div>
+			<p>
+				<p style=""><a href="https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm" target="_blank">Tree</a> in which each leaf node describes an operand &amp; each interior node an operator. The syntax tree is shortened form of the <a href="https://www.tutorialspoint.com/what-are-parse-trees-derivation-trees" target="_blank">Parse Tree</a>.</p><p><strong>Example1</strong> &minus; Draw Syntax Tree for the string a + b &lowast; c &minus; d.</p><p><img src="https://www.tutorialspoint.com/assets/questions/media/58963/111a.jpg" class="fr-fic fr-dib" width="232" height="292"></p><p><strong>Rules for constructing a syntax tree</strong></p><p>Each node in a syntax tree can be executed as data with multiple fields. In the node for an operator, one field recognizes the operator and the remaining field includes a pointer to the nodes for the operands. The operator is known as the label of the node. The following functions are used to create the nodes of the syntax tree for the expressions with binary operators. Each function returns a pointer to the recently generated node.</p><ul class="list"><li><p><strong>mknode (op, left, right)</strong> &minus; It generates an operator node with label op and two field including pointers to left and right.</p></li><li><p><strong>mkleaf (id, entry)</strong> &minus; It generates an identifier node with label id and the field including the entry, a pointer to the symbol table entry for the identifier.</p></li><li><p><strong>mkleaf (num, val)</strong> &minus; It generates a number node with label num and a field including val, the value of the number. For example, construct a syntax tree for an expression a &minus; 4 + c. In this sequence, p<sub>1</sub>, p<sub>2</sub>, &hellip; . . p<sub>5</sub>are pointers to the symbol table entries for identifier &#39;a&#39; and &#39;c&#39; respectively.</p></li></ul><pre class="prettyprint notranslate">p<sub>1</sub>&minus; mkleaf (id, entry a);
+p<sub>2</sub>&minus; mkleaf (num, 4);
+p<sub>3</sub>&minus; mknode ( &prime;&minus;&prime;, p<sub>1</sub>, p<sub>2</sub>)
+p<sub>4</sub>&minus; mkleaf(id, entry c)
+p<sub>5</sub>&minus; mknode(&prime;+&prime;, p<sub>3</sub>, p<sub>4</sub>);</pre><p>The tree is generated in a bottom-up fashion. The function calls mkleaf (id, entry a) and mkleaf (num 4) construct the leaves for a and 4. The pointers to these nodes are stored using p<sub>1</sub>and p<sub>2</sub>. The call mknodes (&prime;&minus;&prime;, p<sub>1</sub>, p<sub>2</sub> ) then make the interior node with the leaves for a and 4 as children. The syntax tree will be</p><p><img src="https://www.tutorialspoint.com/assets/questions/media/58963/112.jpg" class="fr-fic fr-dib" width="592" height="364"></p><p><strong>Syntax Directed Translation of Syntax Trees</strong></p><table class="table table-bordered"><thead><tr><th style="text-align:center;"><strong>Production</strong></th><th style="text-align:center;"><strong>Semantic Action</strong></th></tr></thead><tbody><tr><td style="text-align:center;">E &rarr; E<sup>(1)</sup> + E<sup>(2)</sup></td><td>{E. VAL = Node (+, E<sup>(1)</sup>. VAL, E<sup>(2)</sup>. VAL)}</td></tr><tr><td style="text-align:center;">E &rarr; E<sup>(1)</sup> &lowast; E<sup>(2)</sup></td><td>{E. VAL = Node (&lowast;, E<sup>(1)</sup>. VAL, E<sup>(2)</sup>. VAL)})</td></tr><tr><td style="text-align:center;">E &rarr; (E<sup>(1)</sup>)</td><td>{E. VAL = E<sup>(1)</sup>. VAL}</td></tr><tr><td style="text-align:center;">E &rarr; E<sup>(1)</sup></td><td>{E. VAL = UNARY (&minus;, E<sup>(1)</sup>. VAL}</td></tr><tr><td style="text-align:center;">E &rarr; id</td><td>{E. VAL = Leaf (id)}</td></tr></tbody></table><p><strong>Node</strong> (+, 𝐄<sup>(𝟏)</sup>, 𝐕𝐀𝐋, 𝐄<sup>(𝟐)</sup>. 𝐕𝐀𝐋) will create a node labeled +.</p><p><img src="https://www.tutorialspoint.com/assets/questions/media/58963/112a.jpg" class="fr-fic fr-dib" width="201" height="122"></p><p style="">E<sup>(1)</sup>. VAL &amp;E<sup>(2)</sup>. VAL <strong>are left &amp; right children of this node.</strong></p><p><strong>Similarly, Node</strong> (&lowast;, E<sup>(1)</sup>. VAL, E<sup>(2)</sup>. VAL) will make the syntax as &minus;</p><p><img src="https://www.tutorialspoint.com/assets/questions/media/58963/112b.jpg" class="fr-fic fr-dib" width="201" height="122"></p><p>Function <strong>UNARY</strong> (&minus;, E<sup>(1)</sup>. VAL)will make a node &ndash; (unary minus) &amp; E<sup>(1)</sup>. VAL will be the only child of it.</p><p><img src="https://www.tutorialspoint.com/assets/questions/media/58963/112c.jpg" class="fr-fic fr-dib" width="127" height="122"></p><p>Function <strong>LEAF (id)</strong> will create a Leaf node with label id.</p><p><img src="https://www.tutorialspoint.com/assets/questions/media/58963/lastnode.jpg" class="fr-fic fr-dib" width="42" height="42"></p><p><strong>Example2</strong> &minus; Construct a syntax tree for the expression.</p><p style="text-align:center;">a = b &lowast; &minus;c + d</p><p><strong>Solution</strong></p><p><img src="https://www.tutorialspoint.com/assets/questions/media/58963/112d.jpg" class="fr-fic fr-dib" width="202" height="362"></p><p><strong>Example3</strong> &minus; Construct a syntax tree for a statement.</p><p>If a = b then b = 2 * c</p><p><strong>Solution</strong></p><p><img src="https://www.tutorialspoint.com/assets/questions/media/58963/112e.jpg" class="fr-fic fr-dib" width="282" height="262"></p><p><strong>Example4</strong> &minus; Consider the following code. Draw its syntax Tree</p><p>If x &gt; 0 then x = 2 * (a + 1) else x = x + 1.</p><p><img src="https://www.tutorialspoint.com/assets/questions/media/58963/112f.jpg" class="fr-fic fr-dib" width="552" height="342"></p><p><strong>Example5</strong> &minus; Draw syntax tree for following arithmetic expression a * (b + c) &ndash; d /2. Also, write given expression in postfix form.</p><p><img src="https://www.tutorialspoint.com/assets/questions/media/58963/112g.jpg" class="fr-fic fr-dib" width="302" height="334"></p><p><strong>Postfix Notation</strong></p><p>a b c + * d 2 / -</p>			</p>
+			<div class="clear"></div>
+			<div class="qa_widget mui-panel prof-view-artcle">
+				<div class="">
+					<a href='https://www.tutorialspoint.com/authors/ginni' target='_blank' title="Ginni" class="mui--pull-left"><img class="profile-img1" src='https://www.tutorialspoint.com/assets/profiles/315708/profile/60_2311-1620134876.jpg' alt='Ginni' /></a> 		
+					<div class="qa_author">
+						<a href='https://www.tutorialspoint.com/authors/ginni' target='_blank'><span>Ginni</span></a> 
+						<p class="prof-desigtn mb-0"><b></b></p>		
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="library-page-bottom-nav" id="divStats" data-qid="58963" data-quid = "315708" style="margin-block: 1rem !important;padding-top: 18px;align-items: center; border-top: 1px dashed #ccc;font-size: 14px;">
+					<div><span class="date">Updated on: </span>26-Oct-2023</div>
+					<div class="flex-group">
+						<div class="uthor-prof-social-icon mt-2">
+							<span class="share-options">
+								<a onclick="copyToClipboard();" title="Copy To Clipboard" class=""><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M301.148 394.702l-79.2 79.19c-50.778 50.799-133.037 50.824-183.84 0-50.799-50.778-50.824-133.037 0-183.84l79.19-79.2a132.833 132.833 0 0 1 3.532-3.403c7.55-7.005 19.795-2.004 20.208 8.286.193 4.807.598 9.607 1.216 14.384.481 3.717-.746 7.447-3.397 10.096-16.48 16.469-75.142 75.128-75.3 75.286-36.738 36.759-36.731 96.188 0 132.94 36.759 36.738 96.188 36.731 132.94 0l79.2-79.2.36-.36c36.301-36.672 36.14-96.07-.37-132.58-8.214-8.214-17.577-14.58-27.585-19.109-4.566-2.066-7.426-6.667-7.134-11.67a62.197 62.197 0 0 1 2.826-15.259c2.103-6.601 9.531-9.961 15.919-7.28 15.073 6.324 29.187 15.62 41.435 27.868 50.688 50.689 50.679 133.17 0 183.851zm-90.296-93.554c12.248 12.248 26.362 21.544 41.435 27.868 6.388 2.68 13.816-.68 15.919-7.28a62.197 62.197 0 0 0 2.826-15.259c.292-5.003-2.569-9.604-7.134-11.67-10.008-4.528-19.371-10.894-27.585-19.109-36.51-36.51-36.671-95.908-.37-132.58l.36-.36 79.2-79.2c36.752-36.731 96.181-36.738 132.94 0 36.731 36.752 36.738 96.181 0 132.94-.157.157-58.819 58.817-75.3 75.286-2.651 2.65-3.878 6.379-3.397 10.096a163.156 163.156 0 0 1 1.216 14.384c.413 10.291 12.659 15.291 20.208 8.286a131.324 131.324 0 0 0 3.532-3.403l79.19-79.2c50.824-50.803 50.799-133.062 0-183.84-50.802-50.824-133.062-50.799-183.84 0l-79.2 79.19c-50.679 50.682-50.688 133.163 0 183.851z"/></svg></a>
+								<a  id="ancFBShare" onClick="window.open('http://www.facebook.com/sharer/sharer.php?u=https://www.tutorialspoint.com/what-is-syntax-tree&t=What is Syntax Tree?&description=What is Syntax Tree - Tree in which each leaf node describes an operand & each interior node an operator. The syntax tree is shortened form of the Parse Tree.Example1 − Draw Syntax Tree for the string a + b ∗ c − d.Rules for constructing a syntax treeEach node in a syntax tree can be executed as data with multiple ','sharer','toolbar=0,status=0,width=580,height=325');" href="javascript: void(0)" title="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+								<a onClick="window.open('http://www.linkedin.com/shareArticle?url=https://www.tutorialspoint.com/what-is-syntax-tree&title=What is Syntax Tree?&summary=What is Syntax Tree - Tree in which each leaf node describes an operand & each interior node an operator. The syntax tree is shortened form of the Parse Tree.Example1 − Draw Syntax Tree for the string a + b ∗ c − d.Rules for constructing a syntax treeEach node in a syntax tree can be executed as data with multiple ','sharer','toolbar=0,status=0,width=580,height=325');" href="javascript: void(0)" title="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg></a>
+								<a onClick="window.open('http://www.twitter.com/intent/tweet?url=https://www.tutorialspoint.com/what-is-syntax-tree&text=What is Syntax Tree - Tree in which each leaf node describes an operand & each interior node an operator. The syntax tree is shortened form of the Parse Tree.Example1 − Draw Syntax Tree for the string a + b ∗ c − d.Rules for constructing a syntax treeEach node in a syntax tree can be executed as data with multiple ','sharer','toolbar=0,status=0,width=580,height=325');" href="javascript: void(0)" title="Share on Twitter"><svg fill="black" xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg></a>
+							</span>
+						</div>
+						<div>
+							<p class="views-count" title="Article Views"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M288 288a64 64 0 0 0 0-128c-1 0-1.88.24-2.85.29a47.5 47.5 0 0 1-60.86 60.86c0 1-.29 1.88-.29 2.85a64 64 0 0 0 64 64zm284.52-46.6C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 96a128 128 0 1 1-128 128A128.14 128.14 0 0 1 288 96zm0 320c-107.36 0-205.46-61.31-256-160a294.78 294.78 0 0 1 129.78-129.33C140.91 153.69 128 187.17 128 224a160 160 0 0 0 320 0c0-36.83-12.91-70.31-33.78-97.33A294.78 294.78 0 0 1 544 256c-50.53 98.69-148.64 160-256 160z"/></svg> <span id="spanViews">18K+ Views</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="related-articles">
+				<ul class="toc chapters">
+<li class="heading big-font" <i class="fal fa-money-check-edit me-2"></i>  Related Articles</li><li><a href="https://www.tutorialspoint.com/what-is-the-difference-between-parse-tree-and-the-syntax-tree"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is the difference between Parse Tree and the Syntax Tree?</a></li>
+<li><a href="https://www.tutorialspoint.com/what-is-testng-annotation-syntax"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is TestNG Annotation Syntax?</a></li>
+<li><a href="https://www.tutorialspoint.com/What-is-python-dot-dot-notation-syntax"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is python .. ("dot dot") notation syntax?</a></li>
+<li><a href="https://www.tutorialspoint.com/what-is-jdbc-sql-escape-syntax-explain"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is JDBC SQL Escape Syntax Explain?</a></li>
+<li><a href="https://www.tutorialspoint.com/what-is-the-syntax-directed-translation"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is the Syntax Directed Translation?\n</a></li>
+<li><a href="https://www.tutorialspoint.com/what-is-implementation-of-syntax-directed-translators"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is Implementation of Syntax Directed Translators?</a></li>
+<li><a href="https://www.tutorialspoint.com/what-is-a-scriptlet-in-jsp-and-what-is-its-syntax"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is a scriptlet in JSP and what is its syntax?</a></li>
+<li><a href="https://www.tutorialspoint.com/What-is-syntax-of-tuple-declaration-in-Python"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is syntax of tuple declaration in Python?</a></li>
+<li><a href="https://www.tutorialspoint.com/What-is-correct-syntax-to-create-Python-tuples"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is correct syntax to create Python tuples?</a></li>
+<li><a href="https://www.tutorialspoint.com/What-is-correct-syntax-to-create-Python-lists"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is correct syntax to create Python lists?</a></li>
+<li><a href="https://www.tutorialspoint.com/What-is-correct-syntax-to-create-Python-dictionary"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is correct syntax to create Python dictionary?</a></li>
+<li><a href="https://www.tutorialspoint.com/What-is-correct-syntax-of-Python-if-statement"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is correct syntax of Python if statement?</a></li>
+<li><a href="https://www.tutorialspoint.com/What-is-basic-syntax-of-Python-for-Loops"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is basic syntax of Python for Loops?</a></li>
+<li><a href="https://www.tutorialspoint.com/what-is-types-of-syntax-directed-translation-schemes"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is Types of Syntax Directed Translation Schemes?</a></li>
+<li><a href="https://www.tutorialspoint.com/what-is-the-syntax-for-boolean-values-in-mongodb"><svg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'><path d='M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z'/></svg>What is the syntax for boolean values in MongoDB?</a></li>
+</ul></ul>			</div>
+			<div class="library-cta">
+			<div>
+			   <h5 class="library-cta__title">Kickstart Your <span class="text-yellow-400">Career</span></h5>
+			   <p>Get certified by completing the course</p>
+			   <a target="_blank" href="https://www.tutorialspoint.com/latest/certifications" class="library-cta__button button button--yellow">Get Started</a>
+			   </div>
+			   <img src="/static/images/library-cta.svg" alt="">
+			</div>
+			<div class="library-page-bottom-nav ">
+				<button class="button button--blue" id="print-page"><svg fill="white" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M112 160V64c0-8.8 7.2-16 16-16H357.5c4.2 0 8.3 1.7 11.3 4.7l26.5 26.5c3 3 4.7 7.1 4.7 11.3V160h48V90.5c0-17-6.7-33.3-18.7-45.3L402.7 18.7C390.7 6.7 374.5 0 357.5 0H128C92.7 0 64 28.7 64 64v96h48zm16 208H384v96H128V368zm-16-48c-17.7 0-32 14.3-32 32H48V256c0-8.8 7.2-16 16-16H448c8.8 0 16 7.2 16 16v96H432c0-17.7-14.3-32-32-32H112zm320 80h48c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64V368c0 17.7 14.3 32 32 32H80v80c0 17.7 14.3 32 32 32H400c17.7 0 32-14.3 32-32V400z"/></svg>Print Page </button>
+				<div class="flex-group">
+					<a href="/articles/index.php"><button class="button button--neutral"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16" fill="none"><path d="M1.03117 8.48836C0.64065 8.09783 0.64065 7.46467 1.03117 7.07414L7.39514 0.710183C7.78566 0.319658 8.41883 0.319658 8.80935 0.710183C9.19987 1.10071 9.19987 1.73387 8.80935 2.1244L3.15249 7.78125L8.80935 13.4381C9.19987 13.8286 9.19987 14.4618 8.80935 14.8523C8.41882 15.2428 7.78566 15.2428 7.39513 14.8523L1.03117 8.48836ZM3.12109 8.78125L1.73828 8.78125L1.73828 6.78125L3.12109 6.78125L3.12109 8.78125Z" fill="black" /></svg>Previous </button></a>
+					<a href="https://www.tutorialspoint.com/What-is-correct-syntax-of-Python-if-statement"><button class="button ">Next <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16" fill="none"><path d="M8.87117 8.48836C9.26169 8.09783 9.26169 7.46467 8.87117 7.07414L2.50721 0.710183C2.11668 0.319658 1.48352 0.319658 1.09299 0.710183C0.70247 1.10071 0.70247 1.73387 1.09299 2.1244L6.74985 7.78125L1.093 13.4381C0.702471 13.8286 0.702471 14.4618 1.093 14.8523C1.48352 15.2428 2.11668 15.2428 2.50721 14.8523L8.87117 8.48836ZM6.78125 8.78125L8.16406 8.78125L8.16406 6.78125L6.78125 6.78125L6.78125 8.78125Z" fill="white" /></svg></button></a>
+				</div>
+			</div>
+			<div class="error-success" id="error-success" style="display: none;"></div>
+			<div class="error-warning" id="error-warning"></div>
+
+<script src="/articles/js/article.js?v=2.6"> </script>
+<div class="bottom-library-ads mt">
+   <div class="google-bottom-ads" id="google-bottom-ads">
+      <div>Advertisements</div>
+      <div>
+      <div id="adp_bottom_ads"></div>
+      <script>
+         var adPos = document.getElementById('adp_bottom_ads');
+         var mobile_ad_id = "6d621d7e-9531-4f26-810f-68af67dc6366";
+         var desktop_ad_id = "4951d1d6-24d4-4a31-afb7-2c22c489eae1";
+         var adpushup = adpushup || {};
+         adpushup.que = adpushup.que || [];
+         adpushup.que.push(function() {
+            var ad_id = window.innerWidth <= 768 ? mobile_ad_id : desktop_ad_id;
+            adPos.innerHTML = '<div id="' + ad_id + '" class="_ap_apex_ad"></div>';
+            adpushup.triggerAd(ad_id);
+         });
+      </script>
+   </div>
+</div>
+</div>
+</div>
+<div>
+<div class="data-sticky" id="google-right-ads">
+<div class="google-right-ad" style="margin: 0px auto !important;margin-top:5px;min-height:280px!important">
+   <div id="2557b9b8-4c1f-4586-a953-f123dbd2ed8e" class="_ap_apex_ad">
+      <script>
+         if( window.innerWidth > 768 ){
+            var adpushup = adpushup || {};
+            adpushup.que = adpushup.que || [];
+            adpushup.que.push(function() {
+            adpushup.triggerAd("2557b9b8-4c1f-4586-a953-f123dbd2ed8e");
+            });
+         }
+      </script>
+   </div>
+</div>
+<div class="google-right-ad" style="margin-top:16px;min-height:280px!important">
+   <div id="b078e6a3-e1b7-40fe-b690-11ac441ad2d5" class="_ap_apex_ad">
+      <script>
+         if( window.innerWidth > 768 ){
+            var adpushup = adpushup || {};
+            adpushup.que = adpushup.que || [];
+            adpushup.que.push(function() {
+            adpushup.triggerAd("b078e6a3-e1b7-40fe-b690-11ac441ad2d5");
+            });
+         }
+      </script>
+   </div>
+</div>
+<div class="google-right-ad" style="margin-top:16px;margin-bottom:15px;min-height:600px!important">
+   <div id="8f8814c2-d64c-4d26-9cb9-543653c0b48f" class="_ap_apex_ad">
+      <script>
+         if( window.innerWidth > 768 ){
+            var adpushup = adpushup || {};
+            adpushup.que = adpushup.que || [];
+            adpushup.que.push(function() {
+            adpushup.triggerAd("8f8814c2-d64c-4d26-9cb9-543653c0b48f");
+            });
+         }
+      </script>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="footer bg-neutral-800">
+<div class="footer__main container flow">
+   <div class="flow" style="align-items: flex-start;">
+      <img class="footer__logo" src="/static/images/logo-footer.svg" alt="tutorials point logo">
+      <p class="">Tutorials Point is a leading Ed Tech company striving to provide the best learning material on technical and non-technical subjects.</p>
+      <div class="flex-group">
+         <button class="button-reset">
+            <a href="https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer" target="_blank" title="Download Android App" rel="nofollow"><img src="/static/images/googleplay.svg" alt="Download Android App"></a>
+         </button>
+         <button class="button-reset">
+            <a href="https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&mt=8" target="_blank" title="Download IOS App" rel="nofollow"><img src="/static/images/appstore.svg" alt="Download IOS App"></a>
+         </button>
+      </div>
+   </div>
+   <div class="footer-nav">
+      <div>
+         <h5 class="fs-600 fw-600">About us</h5>
+         <ul class="footer-nav__list">
+            <li class="footer-nav__item"><a href="/about/index.htm" title="Company"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /> </svg>Company</a></li>
+            <li class="footer-nav__item"><a href="/about/about_team.htm" title="Our Team"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>Our Team</a></li>
+            <li class="footer-nav__item"><a href="/about/about_careers.htm" title="Careers"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /> </svg>Careers</a></li>
+            <li class="footer-nav__item"><a href="/job_search.php" title="Jobs"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>Jobs</a></li>
+            <li class="footer-nav__item"><a href="/market/teach-with-us.jsp" title="Become a Teacher"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>Become a Teacher</a></li>
+            <li class="footer-nav__item"><a href="/market/affiliates.jsp" title="Affiliates"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>Affiliates</a></li>
+            <li class="footer-nav__item"><a href="/about/contact_us.htm" title="Contact us"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>Contact Us</a></li>
+         </ul>
+      </div>
+      <div>
+         <h5 class="fs-600 fw-600">Terms</h5>
+         <ul class="footer-nav__list">
+            <li class="footer-nav__item"><a href="/about/about_terms_of_use.htm" title="Terms of Use"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>Terms of use</a></li>
+            <li class="footer-nav__item"><a href="/about/about_privacy.htm" title="Privacy Policy"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>Privacy Policy</a></li>
+            <li class="footer-nav__item"><a href="/about/return_refund_policy.htm" title="Refund Policy"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /> </svg>Refund Policy</a></li>
+            <li class="footer-nav__item"><a href="/about/about_cookies.htm" title="Cookies Policy"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /> </svg>Cookies Policy</a></li>
+            <li class="footer-nav__item"><a href="/about/faq.htm" title="FAQ's"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>FAQ's</a></li>
+         </ul>
+      </div>
+      <div>
+         <h5 class="fs-600 fw-600">Our Products</h5>
+         <ul class="footer-nav__list">
+            <li class="footer-nav__item"><a href="/tutorialslibrary.htm" title="Tutorials Library"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>Free Library</a></li>
+            <li class="footer-nav__item"><a href="/articles/index.php" title="Articles"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>Articles</a></li>
+            <li class="footer-nav__item"><a href="/codingground.htm" title="Coding Ground"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>Coding Ground</a></li>
+            <li class="footer-nav__item"><a href="/latest/certifications" title="Certifications"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /> </svg>Certifications</a></li>
+            <li class="footer-nav__item"><a href="/latest/courses" title="Video Courses"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /> </svg>Courses</a></li>
+            <li class="footer-nav__item"><a href="/latest/ebooks" title="e-Books"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg>eBooks</a></li>
+            <li class="footer-nav__item"><a href="/business/index.asp" title="Corporate Training"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg> Corporate Training</a></li>
+            <li class="footer-nav__item"><a href="/free_web_graphics.htm" title="Corporate Training"><svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" /></svg> Free Web Graphics</a></li>
+         </ul>
+      </div>
+      <div>
+         <h5 class="fs-600 fw-600">Contact Us</h5>
+         <ul class="footer-nav__list contact">
+            <li class="contact__item">
+                                                 <svg fill="white"  xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 384 512"><path d="M336 192c0-79.5-64.5-144-144-144S48 112.5 48 192c0 12.4 4.5 31.6 15.3 57.2c10.5 24.8 25.4 52.2 42.5 79.9c28.5 46.2 61.5 90.8 86.2 122.6c24.8-31.8 57.8-76.4 86.2-122.6c17.1-27.7 32-55.1 42.5-79.9C331.5 223.6 336 204.4 336 192zm48 0c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192zm-160 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-112 0a80 80 0 1 1 160 0 80 80 0 1 1 -160 0z"/></svg>
+               Tutorials Point India Private Limited, Incor9 Building,
+               Kavuri Hills, Madhapur, Hyderabad, Telangana - 500081, INDIA
+            </li>
+         </ul>
+         <ul class="social__list">
+            <li>
+               <a class="social__link" target="_blank" href="https://www.facebook.com/tutorialspointindia" rel="nofollow">
+                                                  <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+               </a>
+            </li>
+            <li>
+               <a class="social__link" target="_blank" href="https://www.instagram.com/tutorialspoint_/" rel="nofollow">
+                                                  <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+
+               </a>
+            </li>
+            <li>
+               <a class="social__link" target="_blank" href="https://twitter.com/tutorialspoint" rel="nofollow">
+                                                   <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+              </a>
+               </a>
+            </li>
+            <li>
+               <a class="social__link" target="_blank" href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" rel="nofollow">
+                                                    <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+               </a>
+            </li>
+            <li>
+               <a class="social__link" target="_blank" href="https://www.linkedin.com/company/tutorialspoint/" rel="nofollow">
+                                                  <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+
+               </a>
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+<div class="footer__legal-wrapper ">
+   <div class="footer__legal ff-nunito">
+      <p class="footer__copyright ">&copy; Copyright 2023. All Rights Reserved.</p>
+   </div>
+</div>
+</footer>
+<script async src="/static/js/lib-script.js?v7.054"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E4SW76VCNP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-E4SW76VCNP');
+</script>
+</body>
+</html>

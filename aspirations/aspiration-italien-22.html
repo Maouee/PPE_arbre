@@ -1,0 +1,258 @@
+<script>
+    chiamato = 0;
+    function relink() {
+        document.onclick=function(evt){
+            var target;
+            evt=evt||window.event;
+            target=evt.target||evt.srcElement;
+            if ((target.nodeName=='A' || target.parentNode.nodeName=='A' || target.onclick || target.parentNode.onclick) && (target.className!='search' && target.parentNode.className!='search')){
+                refresh();
+            }
+	}
+    }
+
+    myreg=new RegExp("web\.tiscali\.it","i");
+    if (!myreg.test("'"+top.location+"'")) {
+        top.location=self.location;
+    }
+
+    var shortuserdir="vigodarzere";
+    var bannercode="/banner-tiscali/banner.html";
+</script><script>
+function rescan() {
+    for (var i=0;i<6;i++) {
+        setTimeout("relink()", 1000);
+    }
+    if(window == window.top) {
+        top.document.getElementsByTagName('frameset').item(0).rows='100,*,0';
+    }
+}
+
+function refresh() {
+    top.frames[0].location='/banner-tiscali/banner.html';
+    top.frames[top.frames.length-1].location='/banner-tiscali/stats.html?userpage_'+shortuserdir;
+    chiamato = 1;
+}
+
+if(window == window.top) {
+        var address=window.location;
+        var s='<html><head><title>'+'</title></head>'+
+        '<frameset rows="100,*,0" frameborder="0" border="0" framespacing="0" onload="refresh();">'+
+        '<frame src="" marginwidth="0" marginheight="0" scrolling="no" noresize>'+
+        '<frame src="" marginwidth="0" marginheight="0" scrolling="auto" noresize>'+
+        '<frame src="" marginwidth="0" marginheight="0" scrolling="no" noresize>'+
+        '</frameset>'+
+        '</html>';
+        document.write(s);
+        top.frames[top.frames.length % 2].location=address;
+}
+</script>
+<html>
+<head>
+<title>Il mio albero</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#99FFCC">
+<blockquote> 
+  <blockquote> 
+    <p><font color="#006633" size="7">Il mio albero</font></p>
+    <p><font color="#003300"><img src="images/pianta.jpg" width="600" height="424"></font></p>
+  </blockquote>
+</blockquote>
+<p>&nbsp;</p>
+<table width="95%" border="0" height="2306" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="23%">&nbsp;</td>
+    <td width="37%">
+      <p><font color="#003300">Plan of scientific laboratory for Comenius project 
+        about the tree (a.s. 2000/2001) grade 2 and 4 - school F.Randi</font></p>
+      <p>&nbsp;</p>
+    </td>
+    <td width="40%"> 
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="23%" height="242"><font color="#003300"><img src="images/copertina.jpg" width="196" height="287"></font></td>
+    <td width="37%" height="242"> 
+      <p><font color="#003300"><b>I unit&agrave; </b></font></p>
+      <p><font color="#003300">A simple introducing of european friendship project. 
+        Pointing in a European map the involved countries from Padua to Paimio, 
+        to Blansko, etc. Art craft activity </font></p>
+      <p><font color="#003300"><b>II unità </b></font></p>
+      <p><font color="#003300">Individuazione sulla carta geografica europea dei 
+        paesi partecipanti, partendo da Padova e Italia. Problema (che dovrebbero 
+        porsi da soli): Come faremo a capire quello che ci scriveranno gli altri 
+        bambini? Soluzione (da soli): la lingua inglese. Conversazione: che cos'è 
+        un albero? Trascrizione degli interventi. Disegno su foglio dell'albero 
+        di Pittarello (v. sopra, senza averlo davanti agli occhi) come lo ricordo: 
+        "Il nostro albero di carta". Osservazione e confronto di tutti i disegni: 
+        "Tutti l'hanno disegnato simile al modello?" Conclusione: non esiste solo 
+        questo tipo di albero, perciò… Distruzione dell'albero di carta. Osservazione: 
+        i diversi tipi di albero del giardino della scuola. Palestra: un albero 
+        di corpi (si organizzano e lo ricostruiscono da soli). </font></p>
+      <p>&nbsp;</p>
+    </td>
+    <td width="40%" height="242"> 
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="23%" height="135"><font color="#003300"><img src="images/albero.jpg" width="195" height="279" align="top"></font></td>
+    <td width="37%" height="135"> 
+      <p><font color="#003300"><b>III unità </b></font></p>
+      <p><font color="#003300">Individuazione sulla carta geografica europea dei 
+        paesi partecipanti, partendo da Padova e Italia. Ricerca: ritagliare da 
+        giornali e riviste diversi tipi di alberi, da incollare su foglio. Conversazione: 
+        gli alberi hanno un nome? Quali? Trascrizione degli interventi.</font></p>
+      <p><font color="#003300"><b>IV unità </b></font></p>
+      <p><font color="#003300">Caccia al tesoro: i nomi degli alberi del giardino 
+        della scuola. (esplorare, osservare, cercare nel giardino della scuola 
+        alberi/piante dello stesso tipo: l'ins. ha la pianta e suggerisce "Di 
+        questo tipo ce ne sono…") In aula osservazione della pianta topografica: 
+        è una "pianta" anche questa? Ricerca nel vocabolario delle due definizioni 
+        di pianta. Ricerca nel vocabolario della definizione di albero da scrivere 
+        e confrontare con la scheda-trascrizione della II unità </font></p>
+      <p>&nbsp;</p>
+    </td>
+    <td width="40%" height="135"> 
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="23%" height="140"> 
+      <p><font color="#003300"><img src="images/carta.jpg" width="180" height="242" align="top"></font></p>
+    </td>
+    <td width="37%" valign="top" height="140"> 
+      <p><font color="#003300"><b>V unità </b></font></p>
+      <p><font color="#003300">Osservazione "sul campo" degli alberi del giardino 
+        della scuola e disegno a coppie in bianco e nero su foglio: "Chiunque 
+        deve riuscire a capire dal vostro disegno che si tratta proprio di quell'albero 
+        e non di un altro". Fotografia: "Il mio albero" (quello copiato). Individuare 
+        sulla pianta del giardino della scuola lo stesso. Scheda: Gli alberi hanno 
+        un nome? (v. conversazione III unità). "Battesimo" dell'albero copiato, 
+        ricavandone il nome dalla legenda latina. </font></p>
+      <p><font color="#003300"><b>VI unità </b></font></p>
+      <p><font color="#003300">Colorare fotocopia del disegno sopra. Frottage 
+        della corteccia dello stesso albero da allegare al disegno a colori personale. 
+        </font></p>
+      <p>&nbsp;</p>
+      </td>
+    <td width="40%" valign="top" height="140"> 
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="23%">&nbsp;</td>
+    <td width="37%" valign="top"> <font color="#003300"><b>VII unità</b> </font> 
+      <p><font color="#003300">Stesura dell'impegno e del regolamento. Scrivere 
+        l'impegno sotto la propria foto dell'albero. Lettura dell'insegnante di 
+        SHEL SILVERSTEIN, L'albero, Ed. Salani.</font></p>
+      <p>&nbsp;</p>
+      </td>
+    <td width="40%" valign="top">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="23%" valign="top"> 
+      <p><font color="#003300"><b>Gruppo BLU </b></font></p>
+      <p><font color="#003300">Che cos'è un albero? È una specie di pianta molto 
+        grande. (Matteo) L'albero è una pianta sempre attaccata alla terra. (Gianluca) 
+        Nasce da un seme. (Stella) Ha un tronco. (Federico) Attaccati al tronco 
+        ha i rami. Attaccate ai rami ha le foglie. (Giorgio) L'albero serve per 
+        fare la carta. (Federico) L'albero ci dà l'aria. (Gianluca) L'albero nasce, 
+        cresce, muore. (tutti) </font></p>
+      <p>&nbsp;</p>
+    </td>
+    <td width="37%" valign="top"><font color="#003300"><img src="images/ambienti.jpg" width="324" height="231" align="top"></font></td>
+    <td width="40%" valign="top"> 
+      <p><font color="#003300"><b>Gruppo BLU </b></font></p>
+      <p><font color="#003300">Gli alberi hanno un nome? </font></p>
+      <p><font color="#003300">MELO PERO ABETE CASTAGNO PALMA SALICE QUERCIA DA 
+        SUGHERO PINO PINO MARITTIMO PLATANO LARICE CEDRO DEL LIBANO LIMONE ALBICOCCO 
+        FICO NESPOLO PRUGNO QUERCIA MELOGRANO </font></p>
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="23%"> 
+      <p><font color="#003300"><b>Gruppo NERO </b></font></p>
+      <p><font color="#003300">Che cos'è un albero? È una pianta. (Alvise) È un 
+        essere naturale. (Giacomo) È un essere vivente. (Alvise) È fatto di legno 
+        e ha dei rami. (Sara) Ha le radici. (Annalisa) Può essere marrone e verde. 
+        (Irene) Ha le foglie. (Alvise) Ha anche il tronco e la chioma. (Stefano) 
+        Ci fa vivere perché ci dà l'ossigeno. (Erica) In genere, fiorisce in primavera. 
+        (Sara) Si nutre d'acqua e di sostanze che trova nella terra. (Stefano) 
+        È la forma evoluta di un seme. (Pietro) Col legno dell'albero si fa la 
+        pasta di carta. (Annalisa) Il suo legno ci può scaldare. (Giacomo) Qualche 
+        albero ci regala i suoi frutti. (Erica) Il suo legno ci serve per costruire 
+        e arredare la casa. (Clara) La sua ombra ci ripara dal sole. (Stefano) 
+        </font></p>
+      <p>&nbsp;</p>
+    </td>
+    <td width="37%" valign="top" align="center"><font color="#003300"><img src="images/bambini.jpg" width="184" height="273" align="top"></font></td>
+    <td width="40%" valign="top"> 
+      <p><font color="#003300"><b>Gruppo NERO </b></font></p>
+      <p><font color="#003300">Gli alberi hanno un nome? </font></p>
+      <p><font color="#003300">MELO PERO ABETE CASTAGNO PALMA GIUGGIOLO QUERCIA 
+        OLIVO PINO PLATANO ACERO PIOPPO LIMONE ALBICOCCO FICO TIGLIO PESCO ARANCIO 
+        MELOGRANO MAGNOLIA CIPRESSO MANDARINO CILIEGIO BANANO </font></p>
+      <p>&nbsp;</p>
+      </td>
+  </tr>
+  <tr> 
+    <td width="23%" valign="top"> 
+      <p><font color="#003300"><b>Gruppo VERDE </b></font></p>
+      <p><font color="#003300">Che cos'è un albero? </font></p>
+      <p><font color="#003300">È una pianta. (Elena) È naturale. (Ermanno) È un 
+        essere vivente. (Augusto) Ha delle radici, un tronco, la chioma di rami 
+        e foglie. (Dario) Produce l'ossigeno. (Daniela) Di notte, invece, produce 
+        anidride carbonica. (Alessandro) Purifica l'aria. (Ermanno) </font></p>
+      <p>&nbsp;</p>
+      <p><font color="#003300"><b>Gruppo ROSSO </b></font></p>
+      <p><font color="#003300">Che cos'è un albero? Un albero nasce da un seme. 
+        (Paolo) Il seme da cui nasce l'albero viene dal frutto. (Roberto) È una 
+        pianta. (Diletta) È un essere vivente. (Isabella) Ha le radici, il tronco, 
+        i rami e le foglie. (Veronica) Produce l'ossigeno. (M ario) Senza gli 
+        alberi non potremmo vivere. (Roberto) È naturale. (Alisa) Produce il legno 
+        da cui si ricavano la carta e gli arredi. (Diletta) Qualche volta anche 
+        le case, come le baite, sono di legno. (Alisa) Alcuni alberi producono 
+        i frutti. (Diletta) </font></p>
+      <font color="#003300"></font></td>
+    <td width="37%"><font color="#003300"><img src="images/corteccia.jpg" width="301" height="426"></font></td>
+    <td width="40%" valign="top"> 
+      <p><font color="#333333"><b>Gruppo VERDE </b></font></p>
+      <p><font color="#003300">Gli alberi hanno un nome? </font></p>
+      <p><font color="#003300">ABETE CASTAGNO PALMA SALICE QUERCIA OLIVO PINO 
+        CEDRO PRUNO PIOPPO MELOGRANO ALBICOCCO CIPRESSO TIGLIO SEQUOIA MAGNOLIA 
+        BAOBAB </font></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><font color="#003300"><b>Gruppo ROSSO </b></font></p>
+      <p><font color="#003300">Gli alberi hanno un nome? </font></p>
+      <p><font color="#003300">ABETE CASTAGNO PALMA SALICE QUERCIA ULIVO PINO 
+        PRUNO CILIEGIO FICO CIPRESSO TIGLIO MAGNOLIA </font><font color="#003300"></font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="23%"> 
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </td>
+    <td width="37%">&nbsp;</td>
+    <td width="40%" valign="top"> 
+      <p>&nbsp;</p>
+      </td>
+  </tr>
+</table>
+<p align="center">&nbsp;</p>
+</body>
+</html>
+<script>
+relink();
+setInterval("rescan()", 1000);
+top.document.title = top.frames[top.frames.length % 2].document.title;
+</script>

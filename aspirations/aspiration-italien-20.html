@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://micheledignazio.org/xmlrpc.php" />
+	<title>Che tipo di albero sei? E qual è la tua fotosintesi clorofilliana? &#8211; Michele D&#039;Ignazio</title>
+<meta name='robots' content='max-image-preview:large' />
+
+<!-- Async WordPress.com Remote Login -->
+<script id="wpcom_remote_login_js">
+var wpcom_remote_login_extra_auth = '';
+function wpcom_remote_login_remove_dom_node_id( element_id ) {
+	var dom_node = document.getElementById( element_id );
+	if ( dom_node ) { dom_node.parentNode.removeChild( dom_node ); }
+}
+function wpcom_remote_login_remove_dom_node_classes( class_name ) {
+	var dom_nodes = document.querySelectorAll( '.' + class_name );
+	for ( var i = 0; i < dom_nodes.length; i++ ) {
+		dom_nodes[ i ].parentNode.removeChild( dom_nodes[ i ] );
+	}
+}
+function wpcom_remote_login_final_cleanup() {
+	wpcom_remote_login_remove_dom_node_classes( "wpcom_remote_login_msg" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_validate" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_js" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_iframe" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_styles" );
+}
+
+// Watch for messages back from the remote login
+window.addEventListener( "message", function( e ) {
+	if ( e.origin === "https://r-login.wordpress.com" ) {
+		var data = {};
+		try {
+			data = JSON.parse( e.data );
+		} catch( e ) {
+			wpcom_remote_login_final_cleanup();
+			return;
+		}
+
+		if ( data.msg === 'LOGIN' ) {
+			// Clean up the login check iframe
+			wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+
+			var id_regex = new RegExp( /^[0-9]+$/ );
+			var token_regex = new RegExp( /^.*|.*|.*$/ );
+			if (
+				token_regex.test( data.token )
+				&& id_regex.test( data.wpcomid )
+			) {
+				// We have everything we need to ask for a login
+				var script = document.createElement( "script" );
+				script.setAttribute( "id", "wpcom_remote_login_validate" );
+				script.src = '/remote-login.php?wpcom_remote_login=validate'
+					+ '&wpcomid=' + data.wpcomid
+					+ '&token=' + encodeURIComponent( data.token )
+					+ '&host=' + window.location.protocol
+					+ '//' + window.location.hostname
+					+ '&postid=1785'
+					+ '&is_singular=1';
+				document.body.appendChild( script );
+			}
+
+			return;
+		}
+
+		// Safari ITP, not logged in, so redirect
+		if ( data.msg === 'LOGIN-REDIRECT' ) {
+			window.location = 'https://wordpress.com/log-in?redirect_to=' + window.location.href;
+			return;
+		}
+
+		// Safari ITP, storage access failed, remove the request
+		if ( data.msg === 'LOGIN-REMOVE' ) {
+			var css_zap = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } @media screen and ( max-width: 782px ) { html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } }';
+			var style_zap = document.createElement( 'style' );
+			style_zap.type = 'text/css';
+			style_zap.appendChild( document.createTextNode( css_zap ) );
+			document.body.appendChild( style_zap );
+
+			var e = document.getElementById( 'wpcom_request_access_iframe' );
+			e.parentNode.removeChild( e );
+
+			document.cookie = 'wordpress_com_login_access=denied; path=/; max-age=31536000';
+
+			return;
+		}
+
+		// Safari ITP
+		if ( data.msg === 'REQUEST_ACCESS' ) {
+			console.log( 'request access: safari' );
+
+			// Check ITP iframe enable/disable knob
+			if ( wpcom_remote_login_extra_auth !== 'safari_itp_iframe' ) {
+				return;
+			}
+
+			// If we are in a "private window" there is no ITP.
+			var private_window = false;
+			try {
+				var opendb = window.openDatabase( null, null, null, null );
+			} catch( e ) {
+				private_window = true;
+			}
+
+			if ( private_window ) {
+				console.log( 'private window' );
+				return;
+			}
+
+			var iframe = document.createElement( 'iframe' );
+			iframe.id = 'wpcom_request_access_iframe';
+			iframe.setAttribute( 'scrolling', 'no' );
+			iframe.setAttribute( 'sandbox', 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-top-navigation-by-user-activation' );
+			iframe.src = 'https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=request_access&origin=' + encodeURIComponent( data.origin ) + '&wpcomid=' + encodeURIComponent( data.wpcomid );
+
+			var css = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 46px !important; } * html body { margin-top: 46px !important; } @media screen and ( max-width: 660px ) { html { margin-top: 71px !important; } * html body { margin-top: 71px !important; } #wpcom_request_access_iframe { display: block; height: 71px !important; } } #wpcom_request_access_iframe { border: 0px; height: 46px; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 99999; background: #23282d; } ';
+
+			var style = document.createElement( 'style' );
+			style.type = 'text/css';
+			style.id = 'wpcom_request_access_styles';
+			style.appendChild( document.createTextNode( css ) );
+			document.body.appendChild( style );
+
+			document.body.appendChild( iframe );
+		}
+
+		if ( data.msg === 'DONE' ) {
+			wpcom_remote_login_final_cleanup();
+		}
+	}
+}, false );
+
+// Inject the remote login iframe after the page has had a chance to load
+// more critical resources
+window.addEventListener( "DOMContentLoaded", function( e ) {
+	var iframe = document.createElement( "iframe" );
+	iframe.style.display = "none";
+	iframe.setAttribute( "scrolling", "no" );
+	iframe.setAttribute( "id", "wpcom_remote_login_key" );
+	iframe.src = "https://r-login.wordpress.com/remote-login.php"
+		+ "?wpcom_remote_login=key"
+		+ "&origin=aHR0cHM6Ly9taWNoZWxlZGlnbmF6aW8ub3Jn"
+		+ "&wpcomid=83109132"
+		+ "&time=1702457837";
+	document.body.appendChild( iframe );
+}, false );
+</script>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//wordpress.com' />
+<link rel='dns-prefetch' href='//fonts-api.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Michele D&#039;Ignazio &raquo; Feed" href="https://micheledignazio.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Michele D&#039;Ignazio &raquo; Feed dei commenti" href="https://micheledignazio.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Michele D&#039;Ignazio &raquo; Che tipo di albero sei? E qual è la tua fotosintesi&nbsp;clorofilliana? Feed dei commenti" href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1677072837i&ver=6.5-alpha-57144"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='https://s0.wp.com/_static/??-eJzTLy/QTc7PK0nNK9HPLdUtyClNz8wr1s9KLSlITM6G8vVz8/NBREppTmqxflFqTmJJaopuQX5xCRpPL7m4WEcfu5E5mdmpCIPBPJBy+1xbQ3MDQzNLE1MTiywAYII03Q==&cssminify=yes' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s0.wp.com/wp-content/plugins/gutenberg-core/v17.2.1/build/block-library/style.css?m=1702422485i&cssminify=yes' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify {
+	text-align:justify;
+}
+.wp-block-cover__image-background.has-parallax {
+	background-size: cover;
+}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-4-1' href='https://s0.wp.com/_static/??-eJyVj0sOwjAMRC9E6hYqJBaIs6SJFdLmp9gR6u1xBQu6AInlaOaNPfAoyicTmkWCmSCi9RoDRky8EyXoFasK6LRZu+hTZ4gO8AsX71PvIJMTb5kSmvOJwDWRE1anppDNImXIRZtFydncWLnqLRCvAf+vqJp9cvQF57t8R1AqRt8iTKjFeWUJJAwygXN9l274LV6H83g69v1lGOcnn1l5TQ==&cssminify=yes' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-6-1' href='https://s0.wp.com/_static/??-eJx9y0sOwjAMRdENYUwRn04Qa2kSC4zq1IqdluVj5ojJGzzdg5tCXqpTdZQOOvcHV8O8NIpfdHKMQqjwRDNJZPtstsPfbNMwkJI2MoNY4S7gz4D2z63UUhcsbI5cC72/8V1uw/VwPA3jeL68Pk23Poc=&cssminify=yes' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;--wp--preset--font-family--alegreya: Alegreya, serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--commissioner: Commissioner, sans-serif;--wp--preset--font-family--cormorant: Cormorant, serif;--wp--preset--font-family--courier-prime: 'Courier Prime', monospace;--wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;--wp--preset--font-family--dm-mono: 'DM Mono', monospace;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--epilogue: Epilogue, sans-serif;--wp--preset--font-family--figtree: Figtree, sans-serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--fraunces: Fraunces, serif;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--jost: Jost, sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--literata: Literata, serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--newsreader: Newsreader, serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--piazzolla: Piazzolla, serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--sora: Sora, sans-serif;--wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;--wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;--wp--preset--font-family--space-mono: 'Space Mono', monospace;--wp--preset--font-family--texturina: Texturina, serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-albert-sans-font-family{font-family: var(--wp--preset--font-family--albert-sans) !important;}.has-alegreya-font-family{font-family: var(--wp--preset--font-family--alegreya) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-commissioner-font-family{font-family: var(--wp--preset--font-family--commissioner) !important;}.has-cormorant-font-family{font-family: var(--wp--preset--font-family--cormorant) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-crimson-pro-font-family{font-family: var(--wp--preset--font-family--crimson-pro) !important;}.has-dm-mono-font-family{font-family: var(--wp--preset--font-family--dm-mono) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-epilogue-font-family{font-family: var(--wp--preset--font-family--epilogue) !important;}.has-figtree-font-family{font-family: var(--wp--preset--font-family--figtree) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-fraunces-font-family{font-family: var(--wp--preset--font-family--fraunces) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-jost-font-family{font-family: var(--wp--preset--font-family--jost) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-literata-font-family{font-family: var(--wp--preset--font-family--literata) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-newsreader-font-family{font-family: var(--wp--preset--font-family--newsreader) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-piazzolla-font-family{font-family: var(--wp--preset--font-family--piazzolla) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-plus-jakarta-sans-font-family{font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-sora-font-family{font-family: var(--wp--preset--font-family--sora) !important;}.has-source-sans-3-font-family{font-family: var(--wp--preset--font-family--source-sans-3) !important;}.has-source-serif-4-font-family{font-family: var(--wp--preset--font-family--source-serif-4) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-texturina-font-family{font-family: var(--wp--preset--font-family--texturina) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='https://s0.wp.com/_static/??-eJxtjt0KwjAMhV/IGiZV9EJ8FJklzGxNWtaU4dsb3ZCh3p0fzpfAlF1IoigKXF2OtSMpEBKzRS7SgObKV7K1ZAMEkpRsXT5iLlZMvSMbIY/IVBlu2FoDRR9x4b7lz2z1So+a2zAsHjjZ/koSoEPBcT7/V76gFz43h+O+2Z289/0T64NYxg==&cssminify=yes' type='text/css' media='all' />
+<style id='beacon-style-inline-css'>
+.post-meta-data .author { clip: rect(1px, 1px, 1px, 1px); height: 1px; position: absolute; overflow: hidden; width: 1px; }
+</style>
+<link rel='stylesheet' id='beacon-fonts-css' href='https://fonts-api.wp.com/css?family=Montserrat%3A400%2C700%7CSource%2BSans%2BPro%3A400%2C700%2C400italic&#038;subset=latin%2Clatin-ext&#038;display=swap&#038;ver=1.0' media='all' />
+<style id='jetpack_facebook_likebox-inline-css'>
+.widget_facebook_likebox {
+	overflow: hidden;
+}
+
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-12-1' href='https://s0.wp.com/_static/??-eJzTLy/QTc7PK0nNK9HPLdUtyClNz8wr1k9PzdfNyU9OLMnMz0Ph6KblJGYW6SUXF+voY9dalJqUk58OZKbrA1UhcUGa7HNtDU1MLU1MLMwNTbIAmkQtqg==&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-14-1' href='https://s0.wp.com/_static/??-eJyNjcEKwjAQRH/IuFVDPYmfIulmSVI32eAmiH9vW7yIFy/DPBjewLMalNKoNMjdVO4hFYWZWnV4/zBkkTV8Z1LQ6B7knfevraYS9qi6g/9Nt1QQVDA5NixB9At+bC1SXn6jhcAyOV4H13w5nIejHcaTHec3UO1JHw==&cssminify=yes' type='text/css' media='all' />
+<script type="text/javascript" id="jetpack_related-posts-js-extra">
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/_static/??-eJxdjj0OwjAMhS+Ea8HQdEEcBaWpqRwSJ4odAbcnAwMwfu9PDx8VQhEjMYyKuaycCLpS8/vQgOVWpqgH/MrlDjX1nUUxklUf7h8e9SJ4ZQm4dk4bNkreaINa1PSXpszyPzwOtGRQW3m+hnfJ5+O8uNPinJvjG2l7Pn8='></script>
+<script type="text/javascript" id="rlt-proxy-js-after">
+/* <![CDATA[ */
+	window.addEventListener( 'DOMContentLoaded', function() {
+		rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+	} );
+/* ]]> */
+</script>
+<script type="text/javascript" crossorigin='anonymous' crossorigin='anonymous' src="https://s0.wp.com/wp-content/plugins/gutenberg-core/v17.2.1/build/modules/importmap-polyfill.min.js?m=1702422485i" id="es-module-shims-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="beacon-script-main-js-extra">
+/* <![CDATA[ */
+var js_i18n = {"next":"next","prev":"previous"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="media-video-jwt-bridge-js-extra">
+/* <![CDATA[ */
+var videopressAjax = {"ajaxUrl":"https:\/\/micheledignazio.wordpress.com\/wp-admin\/admin-ajax.php","bridgeUrl":"\/wp-content\/mu-plugins\/jetpack-plugin\/moon\/jetpack_vendor\/automattic\/jetpack-videopress\/build\/lib\/token-bridge.js","post_id":"1785"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="wpcom-actionbar-placeholder-js-extra">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"83109132","postID":"1785","siteURL":"https:\/\/micheledignazio.org","xhrURL":"https:\/\/micheledignazio.org\/wp-admin\/admin-ajax.php","nonce":"92b6c0cbeb","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","shortlink":"https:\/\/wp.me\/p5CItS-sN","i18n":{"followedText":"I nuovi articoli da questo sito saranno ora visibili nel tuo <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Riduci la barra","unfoldBar":"Espandi questa barra"}};
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/_static/??-eJx9jdEKwjAMRX/ILt2DDB/ET5GuDTNb09Y2nfj3djhEEIRASHJuDjySomB9dVhgbnWvmJ9765hCN5cD/IMU05SN4DdsYxAMAnJDbpGUkakyjGjaZfvA5hfmqpKvE4UmQEnGLvsMHLfUe3ddMbiYwVSJbETIfuiVHMbmKgXGSt6BpxEkLhjUmMlN2IwXPveD1nrojyc9vwDsvF7I'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://micheledignazio.wordpress.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/" />
+<link rel='shortlink' href='https://wp.me/p5CItS-sN' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fmicheledignazio.org%2F2018%2F05%2F30%2Fche-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fmicheledignazio.org%2F2018%2F05%2F30%2Fche-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Che tipo di albero sei? E qual è la tua fotosintesi clorofilliana?" />
+<meta property="og:url" content="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/" />
+<meta property="og:description" content="Prendendo spunto da alcune parti di &#8220;Storia di una matita. A casa&#8221; chiedo ai bambini di raccontarmi che tipo di albero si sentono di essere, ma soprattutto qual è la loro fotosintesi cl…" />
+<meta property="article:published_time" content="2018-05-30T08:24:37+00:00" />
+<meta property="article:modified_time" content="2020-07-14T07:12:31+00:00" />
+<meta property="og:site_name" content="Michele D&#039;Ignazio" />
+<meta property="og:image" content="https://micheledignazio.files.wordpress.com/2018/05/57.-albero-munari-2.jpg?w=1200" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="593" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="it_IT" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<meta name="twitter:text:title" content="Che tipo di albero sei? E qual è la tua fotosintesi&nbsp;clorofilliana?" />
+<meta name="twitter:image" content="https://micheledignazio.files.wordpress.com/2018/05/57.-albero-munari-2.jpg?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel='openid.server' href='https://micheledignazio.org/?openidserver=1' />
+<link rel='openid.delegate' href='https://micheledignazio.org/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://micheledignazio.org/osd.xml" title="Michele D&#039;Ignazio" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#ebe7e0" />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="Michele D&#039;Ignazio" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Michele D’Ignazio scrive libri e conduce laboratori in scuole e librerie. È autore di documentari e d’estate gestisce una piccola locanda culturale." /><meta name="msapplication-task" content="name=Iscriviti;action-uri=https://micheledignazio.org/feed/;icon-uri=https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=16" /><meta name="msapplication-task" content="name=Iscriviti per un blog gratis;action-uri=http://wordpress.com/signup/;icon-uri=https://s0.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Supporto WordPress.com;action-uri=http://support.wordpress.com/;icon-uri=https://s0.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Forums WordPress.com;action-uri=http://forums.wordpress.com/;icon-uri=https://s0.wp.com/i/favicon.ico" /><meta name="description" content="Prendendo spunto da alcune parti di &quot;Storia di una matita. A casa&quot; chiedo ai bambini di raccontarmi che tipo di albero si sentono di essere, ma soprattutto qual è la loro fotosintesi clorofilliana, ovvero quell&#039;azione utile per loro stessi, per la loro vita, ma anche e soprattutto per tutti quelli che li circondano. Gli alberi&hellip;" />
+<style>
+	.masthead .branding h1.logo a,
+	.masthead .branding h1.logo a:hover,
+	.masthead .branding h2.description {
+		color:#ffffff;
+	}
+</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ebe7e0; }
+</style>
+	<style type="text/css" id="custom-colors-css">	.main .contributor a.contributor-posts-link,
+	.main .contributor a.contributor-posts-link:hover {
+		background-image: none;
+	}
+input[type=submit], input[type=submit]:hover, .masthead .menu li.current_page_item > a, .masthead .menu li.current-menu-item > a, .main .contributor a.contributor-posts-link, .main .contributor a.contributor-posts-link:hover { color: #000000;}
+footer { background-color: #bed4df;}
+footer { background-color: rgba( 190, 212, 223, 0.1 );}
+.page-title { background-color: #bed4df;}
+.page-title { background-color: rgba( 190, 212, 223, 0.1 );}
+footer a, footer a:visited { color: #4C6375;}
+.dark, .dark:visited, .commentcount a, .commentcount a:visited, .main-tabs li.active a, a.post-edit-link:before, .page-title span.genericon { color: #292B2C;}
+.main .archive-pagination span.current { background-color: #292b2c;}
+.main .archive-pagination span.current { background-color: rgba( 41, 43, 44, 0.3 );}
+.sidebar .widget h3 span, .sidebar .widget h3.widgettitle:before { border-color: #292b2c;}
+.sidebar .widget h3 span, .sidebar .widget h3.widgettitle:before { border-color: rgba( 41, 43, 44, 0.3 );}
+a.post-edit-link:hover:before, .masthead .menu li ul li a, .masthead .menu li ul li a:visited, .masthead .menu li ul li a:hover, .masthead .menu li ul li a:active { color: #292B2C;}
+blockquote p, .contact-form label span { color: #606060;}
+body, caption { color: #2D2D2D;}
+table, td, th, ol.commentlist li.comment.bypostauthor > article, ol.commentlist li.trackback.bypostauthor > article, ol.commentlist li.pingback.bypostauthor > article, .tab-home .beacon-archive-featured { color: #2D2D2D;}
+ol.commentlist li.comment .comment-meta .comment-metadata a, ol.commentlist li.trackback .comment-meta .comment-metadata a, ol.commentlist li.pingback .comment-meta .comment-metadata a { color: #606060;}
+a.post-edit-link:hover { background-color: #d1d1d1;}
+a.post-edit-link:hover { background-color: rgba( 209, 209, 209, 0.3 );}
+table, td, th, .main .contributor-intro, a.post-edit-link, ol.commentlist li.comment, ol.commentlist li.trackback, ol.commentlist li.pingback, #respond, blockquote, .postnav, .postnav .left, .postnav, .sidebar .widget h3 { border-color: #d1d1d1;}
+table, td, th, .main .contributor-intro, a.post-edit-link, ol.commentlist li.comment, ol.commentlist li.trackback, ol.commentlist li.pingback, #respond, blockquote, .postnav, .postnav .left, .postnav, .sidebar .widget h3 { border-color: rgba( 209, 209, 209, 0.3 );}
+.grey, a.grey, a.grey:visited, .commentcount a, .commentcount a:visited, .main article .post-meta-data { color: #606060;}
+.content-comments, body.home, .main-tabs li.active, .main-tabs li.active:hover, body.archive, body.search { background-color: #ebe7e0;}
+a, a:visited, a.dark:hover, a.dark:active { color: #9B4730;}
+table a, table a:visited, .tab-home .beacon-archive-featured a, .tab-home .beacon-archive-featured a:visited { color: #B25238;}
+ol.commentlist li.comment.bypostauthor > article, ol.commentlist li.trackback.bypostauthor > article, ol.commentlist li.pingback.bypostauthor > article { border-left-color: #bf593c;}
+.masthead .menu li.current_page_item > a, input[type=submit], .masthead .menu li.current-menu-item > a { background-color: #bf593c;}
+.main .contributor a.contributor-posts-link { background-color: #bf593c;}
+.main .contributor a.contributor-posts-link:hover, input[type=submit]:hover { background-color: #AA4F35;}
+.main .contributor a.contributor-posts-link { border-color: #bf593c;}
+.main .contributor a.contributor-posts-link:hover { border-color: #AA4F35;}
+a:hover, a:active { color: #AD3514;}
+footer a:hover, footer a:active { color: #AD3514;}
+table a:active, table a:hover, .tab-home .beacon-archive-featured a:hover, .tab-home .beacon-archive-featured a:active, .summary-main .post-summary-1 a.dark:hover, .summary-main .post-summary-1 a.dark:active { color: #C73E18;}
+</style>
+<link rel="icon" href="https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=32" sizes="32x32" />
+<link rel="icon" href="https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=180" />
+<meta name="msapplication-TileImage" content="https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=270" />
+</head>
+
+<body class="post-template-default single single-post postid-1785 single-format-standard custom-background wp-custom-logo wp-embed-responsive customizer-styles-applied singular themes-sidebar1-active themes-sidebar2-active themes-no-featured-posts has-custom-header author-hidden has-site-logo">
+
+<div class="container hfeed" id="main-container">
+	<a href="#main-content" class="screen-reader-shortcut">Vai al contenuto</a>
+	<header class="masthead" role="banner">
+		<div class="row clearfix">
+			<div class="branding">
+				<a href="https://micheledignazio.org/" class="site-logo-link" rel="home" itemprop="url"><img width="62" height="80" src="https://micheledignazio.files.wordpress.com/2020/08/michele-dignazio_storia-di-una-matita.jpg?w=62" class="site-logo attachment-beacon-logo" alt="Michele D&#039;Ignazio" decoding="async" data-size="beacon-logo" itemprop="logo" srcset="https://micheledignazio.files.wordpress.com/2020/08/michele-dignazio_storia-di-una-matita.jpg?w=62 62w, https://micheledignazio.files.wordpress.com/2020/08/michele-dignazio_storia-di-una-matita.jpg?w=124 124w, https://micheledignazio.files.wordpress.com/2020/08/michele-dignazio_storia-di-una-matita.jpg?w=116 116w" sizes="(max-width: 62px) 100vw, 62px" data-attachment-id="2557" data-permalink="https://micheledignazio.org/michele-dignazio_storia-di-una-matita-2/" data-orig-file="https://micheledignazio.files.wordpress.com/2020/08/michele-dignazio_storia-di-una-matita.jpg" data-orig-size="764,989" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="michele-dignazio_storia-di-una-matita" data-image-description="" data-image-caption="" data-medium-file="https://micheledignazio.files.wordpress.com/2020/08/michele-dignazio_storia-di-una-matita.jpg?w=232" data-large-file="https://micheledignazio.files.wordpress.com/2020/08/michele-dignazio_storia-di-una-matita.jpg?w=764" /></a>				<h1 class="logo">
+					<a href="https://micheledignazio.org/" title="Home">
+						Michele D&#039;Ignazio					</a>
+				</h1>
+				<h2 class="site-desc">
+					Michele D’Ignazio scrive libri e conduce laboratori in scuole e librerie. È autore di documentari e d’estate gestisce una piccola locanda culturale.				</h2>
+			</div>
+			<div class="menu-social-links">
+<ul id="menu-menu-principale" class="menu"><li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="https://www.facebook.com/matita.lapo"><span class="screen-reader">f</span></a></li>
+<li id="menu-item-1669" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1669"><a href="https://www.instagram.com/michele_dignazio_libri/"><span class="screen-reader">Instagram</span></a></li>
+<li id="menu-item-1670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1670"><a href="https://www.youtube.com/channel/UCBGHbQTfNwVcaSn7qeP6gWw"><span class="screen-reader">Youtube</span></a></li>
+</ul>			</div>
+			<nav class="menu" role="navigation">
+				<h3 class="menu-toggle"><span class="genericon genericon-menu"></span>Menu</h3>
+<ul id="nav" class="menu-wrap"><li id="menu-item-1016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1016"><a href="https://micheledignazio.org/biografia/">Bio</a></li>
+<li id="menu-item-1021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1021"><a href="https://micheledignazio.org/libri/">Libri</a></li>
+<li id="menu-item-2389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2389"><a href="https://micheledignazio.org/prossimi-incontri/">Incontri e presentazioni</a></li>
+<li id="menu-item-1020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1020"><a href="https://micheledignazio.org/il-blog-della-matita/">Il Blog della Matita</a></li>
+<li id="menu-item-1024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1024"><a href="https://micheledignazio.org/per-le-scuole/">Per le scuole</a>
+<ul class="sub-menu">
+	<li id="menu-item-1068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1068"><a href="https://micheledignazio.org/incontro-con-lautore/">Incontro con l’autore</a></li>
+	<li id="menu-item-1023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1023"><a href="https://micheledignazio.org/storia-di-una-matita-lo-spettacolo-teatrale/">Storia di una matita – Lo spettacolo</a></li>
+	<li id="menu-item-1904" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1904"><a href="https://micheledignazio.org/2017/12/20/strumenti-per-gli-insegnanti/">Corsi di Formazione</a></li>
+	<li id="menu-item-1034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1034"><a href="https://micheledignazio.org/lettere-dai-bambini/">Lettere dai bambini</a></li>
+	<li id="menu-item-1074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1074"><a href="https://micheledignazio.org/schede-didattiche/">Schede didattiche</a></li>
+	<li id="menu-item-1899" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1899"><a href="https://micheledignazio.org/2018/11/25/spettacolo-luminoso/">Spettacolo Luminoso</a></li>
+	<li id="menu-item-1133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1133"><a href="https://micheledignazio.org/b-book/">B-Book</a></li>
+	<li id="menu-item-1162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1162"><a href="https://micheledignazio.org/la-radio-nello-zaino/">La radio nello zaino</a></li>
+	<li id="menu-item-1029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1029"><a href="https://micheledignazio.org/la-citta-librosa/">La Città Librosa</a></li>
+</ul>
+</li>
+<li id="menu-item-1015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1015"><a href="https://micheledignazio.org/il-vicolo-vineria/">“Il Vicolo”</a></li>
+<li id="menu-item-2424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2424"><a href="https://micheledignazio.org/la-linea-dellonda/">La linea dell&#8217;onda</a></li>
+<li id="menu-item-1018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1018"><a href="https://micheledignazio.org/documentari/">Documentari</a></li>
+<li id="menu-item-1019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1019"><a href="https://micheledignazio.org/foto-e-video/">Foto/Video</a></li>
+<li id="menu-item-1017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1017"><a title="Per info e richieste: micheledignazio@gmail.com" href="https://micheledignazio.org/contatti/">Contatti</a></li>
+</ul>			</nav>
+		</div>
+	</header>
+
+	<div class="main clearfix">
+		<a href="https://micheledignazio.org/" title="Michele D&#039;Ignazio" rel="home" class="header-image">
+			<img src="https://micheledignazio.files.wordpress.com/2020/04/cropped-michele-dignazio-3-1.jpg" width="1600" height="249" alt="" />
+		</a>
+		<section class="trending">
+			<div class="topics row clearfix">
+				<span class="trending-title">Trending Topics:</span> <a href="https://micheledignazio.org/category/libri/" class="category-1637">Libri</a><span class="sep">&bull;</span><a href="https://micheledignazio.org/tag/percorsi-di-lettura/" class="category-830022">Percorsi di Lettura</a><span class="sep">&bull;</span><a href="https://micheledignazio.org/category/per-la-scuola/" class="category-20002334">Per la scuola</a><span class="sep">&bull;</span><a href="https://micheledignazio.org/category/il-vicolo/" class="category-4771820">Il Vicolo</a><span class="sep">&bull;</span><a href="https://micheledignazio.org/category/storia-di-una-matita/" class="category-92745820">Storia di una matita</a>			</div>
+		</section>
+<div class="page-content">
+	<section class="row clearfix article">
+		<article id="post-1785" class="post-1785 post type-post status-publish format-standard has-post-thumbnail hentry category-libri category-per-la-scuola category-storia-di-una-matita tag-alberi tag-attivita tag-bambini tag-creativita tag-laboratorio tag-michele-dignazio tag-per-la-scuola tag-rizzoli tag-storia-di-una-matita-a-casa post-singular">
+<h1 class="entry-title">Che tipo di albero sei? E qual è la tua fotosintesi&nbsp;clorofilliana?</h1>			<div class="meta-stuff">
+					<div class="post-meta-data">
+
+		<span class="author vcard">
+			<span class="genericon genericon-user"></span>
+			<a class="url grey fn n" href="https://micheledignazio.org/author/micheledignazio/" title="Vedi tutti gli articoli di micheledignazio" rel="author">
+				micheledignazio			</a>
+		</span>
+
+		<span class="time-wrap">
+			<span class="genericon genericon-month"></span>
+			<a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/" title="8:24 am" rel="bookmark" class="grey">
+				<time class="entry-date" datetime="2018-05-30T08:24:37+00:00">
+					Maggio 30, 2018				</time>
+			</a>
+		</span>
+
+	<span class="commentcount"><span class="genericon genericon-chat"></span> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/#respond">Lascia un commento</a></span>
+
+	</div>
+			</div>
+
+			<section class="entry entry-single">
+<p style="text-align:justify;">Prendendo spunto da alcune parti di &#8220;<a href="https://micheledignazio.org/2018/01/14/storia-di-una-matita-a-casa/">Storia di una matita. A casa</a>&#8221; chiedo ai bambini di raccontarmi che tipo di albero si sentono di essere, ma soprattutto qual è la loro fotosintesi clorofilliana, ovvero quell&#8217;azione utile per loro stessi, per la loro vita, ma anche e soprattutto per tutti quelli che li circondano.</p>
+<p style="text-align:justify;">Gli alberi sono maestri capaci di trasmettere, con un linguaggio diverso da quello delle parole, saggezza, altruismo e, perché no, senso civico. La <strong>fotosintesi clorofilliana</strong> non è altro che questo: dalla luce del sole gli alberi traggono nutrimento e forza, quindi vivono e crescono ma, allo stesso tempo, rilasciano ossigeno. Fanno un bene a loro stessi, ma anche agli altri esseri viventi.</p>
+<p style="text-align:center;">“Maestro, vuoi dire che dobbiamo <em>essere ossigeno</em> per gli altri?”<br />
+“Sì, esattamente!”</p>
+<p style="text-align:justify;">“Non si starà mica trasformando in una quercia?” pensò Lapo, ricordandosi di quella<a href="https://micheledignazio.files.wordpress.com/2017/01/storia-di-una-matita-a-casa-copertina.jpg" target="_blank" rel="noopener"><img data-attachment-id="1651" data-permalink="https://micheledignazio.org/storia-di-una-matita-a-casa-copertina/" data-orig-file="https://micheledignazio.files.wordpress.com/2017/01/storia-di-una-matita-a-casa-copertina.jpg" data-orig-size="1549,2301" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1513954523&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Storia di una matita. A casa (Copertina)" data-image-description="" data-image-caption="" data-medium-file="https://micheledignazio.files.wordpress.com/2017/01/storia-di-una-matita-a-casa-copertina.jpg?w=202" data-large-file="https://micheledignazio.files.wordpress.com/2017/01/storia-di-una-matita-a-casa-copertina.jpg?w=689" class="alignright wp-image-1651" src="https://micheledignazio.files.wordpress.com/2017/01/storia-di-una-matita-a-casa-copertina.jpg?w=217&#038;h=322" alt="Storia di una matita. A casa (Copertina)" width="217" height="322" srcset="https://micheledignazio.files.wordpress.com/2017/01/storia-di-una-matita-a-casa-copertina.jpg?w=202 202w, https://micheledignazio.files.wordpress.com/2017/01/storia-di-una-matita-a-casa-copertina.jpg?w=217 217w, https://micheledignazio.files.wordpress.com/2017/01/storia-di-una-matita-a-casa-copertina.jpg?w=434 434w, https://micheledignazio.files.wordpress.com/2017/01/storia-di-una-matita-a-casa-copertina.jpg?w=101 101w" sizes="(max-width: 217px) 100vw, 217px" /></a> volta in cui, dopo un forte raffreddore, lui si era trasformato in matita. Forse, la metamorfosi era un vizio di famiglia.<br />
+Suo padre aveva fatto il contadino e il giardiniere per tutta la vita. In paese lo avevano soprannominato <em>Cespuglio di more</em> perché non si tagliava mai i capelli, che sembravano un folto groviglio di rovi.<br />
+Leggenda voleva che, quando <em>Cespuglio di more </em>si addormentava sotto le querce, poteva capitare che qualche uccello scambiasse la sua chioma per un nido.<br />
+Di notte, invece, toccava alle lucciole, che donavano alla sua capigliatura un tocco scintillante.<br />
+Lapo non riusciva a togliersi quel pensiero dalla testa: e se il suo babbo si stava trasformando davvero in un albero? Con le braccia che diventavano rami, la pelle corteccia e i piedi radici? (<em>da &#8220;Storia di una matita. A casa&#8221;, pagina 20</em>)</p>
+<p><a href="https://micheledignazio.files.wordpress.com/2018/05/57.-albero-munari-2.jpg" target="_blank" rel="noopener"><img data-attachment-id="1991" data-permalink="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/57-albero-munari-2/" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/57.-albero-munari-2.jpg" data-orig-size="1280,632" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="57. Albero Munari (2)" data-image-description="" data-image-caption="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/57.-albero-munari-2.jpg?w=300" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/57.-albero-munari-2.jpg?w=878" class="alignnone size-full wp-image-1991" src="https://micheledignazio.files.wordpress.com/2018/05/57.-albero-munari-2.jpg?w=878" alt="57. Albero Munari (2)"   srcset="https://micheledignazio.files.wordpress.com/2018/05/57.-albero-munari-2.jpg 1280w, https://micheledignazio.files.wordpress.com/2018/05/57.-albero-munari-2.jpg?w=150&amp;h=74 150w, https://micheledignazio.files.wordpress.com/2018/05/57.-albero-munari-2.jpg?w=300&amp;h=148 300w, https://micheledignazio.files.wordpress.com/2018/05/57.-albero-munari-2.jpg?w=768&amp;h=379 768w, https://micheledignazio.files.wordpress.com/2018/05/57.-albero-munari-2.jpg?w=1024&amp;h=506 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
+<p style="text-align:justify;"><strong>Prima di inoltrarmi nel laboratorio, cerco di orientarmi insieme ai bambini, quindi ragioniamo su come sono fatti gli alberi.</strong></p>
+<h2 style="text-align:center;"><span style="color:#ff6600;"><strong>Come sono fatti gli alberi?</strong></span></h2>
+<p><strong>Partiamo dalla struttura.</strong></p>
+<ol>
+<li><strong>Radici</strong></li>
+<li><strong>Tronco e rami</strong></li>
+<li><strong>Chioma (foglie, fiori, frutti)</strong></li>
+</ol>
+<p style="text-align:justify;">Continuo con le<strong> caratteristiche degli alberi</strong></p>
+<ul style="text-align:justify;">
+<li><strong> </strong>Vivono tantissimi anni, più degli esseri umani.</li>
+<li>Non si possono spostare. Si muovono solo in altezza (crescendo verso l’alto) o in profondità (con le radici)</li>
+</ul>
+<p><img data-attachment-id="1638" data-permalink="https://micheledignazio.org/2017/12/20/strumenti-per-gli-insegnanti/slide-albero-radici-1/" data-orig-file="https://micheledignazio.files.wordpress.com/2017/12/slide-albero-radici-1.jpg" data-orig-size="382,380" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Slide Albero &#8211; Radici 1" data-image-description="" data-image-caption="" data-medium-file="https://micheledignazio.files.wordpress.com/2017/12/slide-albero-radici-1.jpg?w=300" data-large-file="https://micheledignazio.files.wordpress.com/2017/12/slide-albero-radici-1.jpg?w=382" class="alignleft wp-image-1638" src="https://micheledignazio.files.wordpress.com/2017/12/slide-albero-radici-1.jpg?w=253&#038;h=251" alt="Slide Albero - Radici 1" width="253" height="251" srcset="https://micheledignazio.files.wordpress.com/2017/12/slide-albero-radici-1.jpg?w=300 300w, https://micheledignazio.files.wordpress.com/2017/12/slide-albero-radici-1.jpg?w=253 253w, https://micheledignazio.files.wordpress.com/2017/12/slide-albero-radici-1.jpg?w=150 150w, https://micheledignazio.files.wordpress.com/2017/12/slide-albero-radici-1.jpg 382w" sizes="(max-width: 253px) 100vw, 253px" /></p>
+<p style="text-align:justify;">“Perché gli alberi, a differenza delle persone, non possono muoversi: ci hai mai pensato? Se tu hai caldo ti sposti all’ombra, se arriva una tempesta cerchi riparo, se la terra su cui poggi è instabile cerchi un posto più sicuro. Gli alberi no, sono piantati lì dove sono nati. E’ per questo che sono più resistenti, più duttili, più intelligenti – mi viene da dire – degli uomini. Devono fare con quello che c’è, adattarsi all’esigenza. Pensa se ci riuscissimo anche noi, sempre. Loro ci vedono passare, ci guardano, sanno”.</p>
+<ul>
+<li style="text-align:justify;">A loro modo, gli alberi parlano. Ci parlano con il loro aspetto. Se non crescono, significa che c’è qualcosa che non va. Se non fanno frutti, pure. Un albero pieno di frutti è un albero sano. Anche con la loro forma ci parlano. Se sono rigogliosi sono in forma, se sono spelacchiati, sono fuori forma. Hanno bisogno di affetto, attenzione, a volte anche aiuto.</li>
+<li style="text-align:justify;">Anche la forma del tronco è indicativa. Ci sono degli alberi che, a metà del loro tronco, sono un po’ storti, piegati. Significa che hanno avuto qualche difficoltà, si stavano accasciando, ma poi si sono rialzati.</li>
+<li style="text-align:justify;"><strong> </strong>Gli alberi sono rispettosi, pieni di poesia, timidi.</li>
+</ul>
+<p style="text-align:justify;">&#8220;La timidezza delle chiome. Sai cos’è? Hai mai visto nei boschi quella lama di luce che passa tra una chioma e un’altra, quando alzi la testa? La chioma dell’albero cresce, ma sa – sente – dove cresce l’altra e non si azzarda a toccarla. È timida. Quando l’altra chioma è vicina smette di crescere nella sua direzione. Non la invade, non la tocca”.</p>
+<ul>
+<li>Simpatie tra gli alberi e le piante (e anche antipatie)</li>
+</ul>
+<p style="text-align:justify;">E’ vero che tra le piante nascono simpatie e antipatie, come tra gli esseri umani. Le sostanze chimiche prodotte dalle piante possono avere azione stimolante o inibente su altre piante che crescono vicine. Dalla monocoltura (cioè dalla coltivazione di una sola specie su ogni appezzamento di terreno), si sta passando in alcune zone a colture differenziate di più specie che si migliorano a vicenda. L’agricoltura potrebbe uscirne rivoluzionata. E la storia del pomodoro e della salvia la sai? Il pomodoro cresce meglio se accanto ha una pianta di salvia. Non so perché, ha le sue ragioni. Diciamo che al pomodoro piace avere la salvia vicina. Ma la cosa incredibile sai qual è? Che se tu metti una pianta di pomodoro e una di salvia sotto due campane di vetro, vicine, in un laboratorio – è un esperimento che hanno fatto – il pomodoro cresce lo stesso più rigoglioso, felice. Come fa a sapere che c’è la salvia? Non ha occhi, non vede. Allora come fa. E’ come quando tu senti che qualcuno ti pensa, credo.</p>
+<h2 style="text-align:center;"><strong><span style="color:#ff6600;">Tanti tipi di alberi</span></strong></h2>
+<p style="text-align:justify;">Inizio a descrivere alcuni alberi, partendo da caratteristiche vere, per scivolare gradualmente in descrizioni un po&#8217; fantasiose, prendendo qualche libertà narrativa.</p>
+<p><a href="https://micheledignazio.files.wordpress.com/2018/01/matita-a-romena.jpg" target="_blank" rel="noopener"><img data-attachment-id="1684" data-permalink="https://micheledignazio.org/matita-a-romena/" data-orig-file="https://micheledignazio.files.wordpress.com/2018/01/matita-a-romena.jpg" data-orig-size="1280,1043" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 7&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1512896753&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.99&quot;,&quot;iso&quot;:&quot;25&quot;,&quot;shutter_speed&quot;:&quot;0.03030303030303&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;latitude&quot;:&quot;43.774763888889&quot;,&quot;longitude&quot;:&quot;11.716213888889&quot;}" data-image-title="Matita a Romena" data-image-description="" data-image-caption="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/01/matita-a-romena.jpg?w=300" data-large-file="https://micheledignazio.files.wordpress.com/2018/01/matita-a-romena.jpg?w=878" loading="lazy" class="alignnone size-full wp-image-1684" src="https://micheledignazio.files.wordpress.com/2018/01/matita-a-romena.jpg?w=878" alt="Matita a Romena"   srcset="https://micheledignazio.files.wordpress.com/2018/01/matita-a-romena.jpg 1280w, https://micheledignazio.files.wordpress.com/2018/01/matita-a-romena.jpg?w=150&amp;h=122 150w, https://micheledignazio.files.wordpress.com/2018/01/matita-a-romena.jpg?w=300&amp;h=244 300w, https://micheledignazio.files.wordpress.com/2018/01/matita-a-romena.jpg?w=768&amp;h=626 768w, https://micheledignazio.files.wordpress.com/2018/01/matita-a-romena.jpg?w=1024&amp;h=834 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></p>
+<p style="text-align:justify;"><strong>Il Mandorlo</strong>, ad esempio, è il primo a fare i fiori, l’ultimo a fare i frutti.</p>
+<p style="text-align:justify;"><strong>La Quercia</strong> è uno degli alberi più longevi e saggi. Non è raro trovare esemplari dall&#8217;età di 500 anni. I suoi rami sono così robusti che diventano delle vere e proprie panchine sospese nel cielo, per chi è così temerario da arrampicarsi fino in cima.</p>
+<p><strong>Il Corbezzolo</strong> è un albero speciale. È sempreverde, quindi non perde mai le foglie, ma la sua caratteristica principale è che fa i frutti e i fiori, contemporaneamente. Foglie, frutti e fiori allo stesso tempo. Nessun albero ne è capace.</p>
+<p style="text-align:justify;"><strong>Il Platano</strong> è l&#8217;albero giraffa, perché ha delle macchie tonde su tutto il  tronco, così come le giraffe le hanno sul loro corpo. E poi è altissimo. Le sue punte riescono a vedere l’intera città e fanno invidia ai palazzi di sei piani.</p>
+<p style="text-align:justify;"><strong>Il Gelso</strong> è l&#8217;albero con le spalle alzate. Sembra dire “Che ci posso fare, se sono così bello, sinuoso e se, a maggio, faccio dei frutti così buoni? Però attenti che se vi macchiate con i miei gelsi neanche il migliore dei detersivi farà venire via il mio rosso intenso!”</p>
+<p style="text-align:justify;"><strong>L’ibiscus</strong> è l’albero più timido che c&#8217;è. Ed io, a guardarlo, mi <em>inibiscus</em>.</p>
+<p style="text-align:justify;"><strong>L’albicocco</strong> vuole essere coccolato, è il cocco di mamma. Si crea sempre un alibi per farsi coccolare: le sue foglie verdi e grandi, a forma di mani, pronte a raccogliere l’acqua o a dare una carezza, e i suoi rami con appesi tanti frutti succosi. Non c’è niente da fare, è così abile che a volte, per sbaglio, viene chiamato <em>abilecocco</em>.</p>
+<h2 style="text-align:center;"><span style="color:#ff6600;">Arriviamo al <strong>Binomio Fantastico</strong>.</span></h2>
+<p style="text-align:justify;">Ed eccolo lì! Di fronte a lui c’era l’<strong>albero della bicicletta</strong>.<br />
+“Uno di famiglia…” diceva <em>Cespuglio di more</em>.<br />
+Lapo era molto affezionato a quel groviglio di rami e pedali. Lo osservò da vicino: dal tronco sbucavano il manubrio di una bicicletta, un cerchione e un sellino. Quella strana simbiosi era nata, tantissimi anni prima, da una banale distrazione del suo bisnonno, che aveva scordato la bici appoggiata a un castagno. Poi era partito per un lungo viaggio e al suo ritorno aveva ritrovato la bicicletta avvolta in un abbraccio dai rami e dalle foglie della pianta: faceva ormai parte dell’albero.<a href="https://micheledignazio.files.wordpress.com/2018/05/lalbero-della-bicicletta.jpg" target="_blank" rel="noopener"><img data-attachment-id="1788" data-permalink="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/lalbero-della-bicicletta/" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/lalbero-della-bicicletta.jpg" data-orig-size="545,432" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="L&#8217;albero della bicicletta" data-image-description="" data-image-caption="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/lalbero-della-bicicletta.jpg?w=300" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/lalbero-della-bicicletta.jpg?w=545" loading="lazy" class=" wp-image-1788 alignleft" src="https://micheledignazio.files.wordpress.com/2018/05/lalbero-della-bicicletta.jpg?w=413&#038;h=327" alt="L'albero della bicicletta" width="413" height="327" srcset="https://micheledignazio.files.wordpress.com/2018/05/lalbero-della-bicicletta.jpg?w=413&amp;h=327 413w, https://micheledignazio.files.wordpress.com/2018/05/lalbero-della-bicicletta.jpg?w=150&amp;h=119 150w, https://micheledignazio.files.wordpress.com/2018/05/lalbero-della-bicicletta.jpg?w=300&amp;h=238 300w, https://micheledignazio.files.wordpress.com/2018/05/lalbero-della-bicicletta.jpg 545w" sizes="(max-width: 413px) 100vw, 413px" /></a><br />
+Era un vero e proprio simbolo per il paese, l’albero della bicicletta: l’unione tra l’uomo e la natura.<br />
+L’albero da cui, anziché fiori e petali, facevano capolino raggi e pedali. Con il tronco che ha le marce, ma non <em>marcisce</em>.</p>
+<p style="text-align:right;"><em>(da &#8220;Storia di una matita. A casa&#8221;, pagina 82)</em></p>
+<p style="text-align:justify;">L&#8217;albero della <strong>bicicletta</strong>, l&#8217;albero di <strong>matite</strong>, l&#8217;albero della <strong>matematica</strong>, dei <strong>quadri</strong>, dell&#8217;<strong>alimentazione</strong>, dei <strong>ricordi</strong>, degli <strong>aquiloni</strong>, della <strong>gioia</strong>, delle <strong>stagioni</strong>, del <strong>telescopio</strong>, dei <strong>bikini</strong>, delle <strong>valigie</strong>, dei <strong>libri</strong>, delle <strong>cravatte</strong>, dei <strong>martelli</strong>, delle <strong>stelle</strong>, delle <strong>emozioni</strong>, degli <strong>occhiali da sole</strong>, dei <strong>pantaloni</strong>, delle <strong>lettere</strong> e così via&#8230; (I disegni sono dei ragazzi della <strong>scuola primaria di Fossacesia</strong>, in provincia di Chieti)</p>
+<div class="tiled-gallery type-rectangular tiled-gallery-unresized" data-original-width="878" data-carousel-extra='{&quot;blog_id&quot;:83109132,&quot;permalink&quot;:&quot;https:\/\/micheledignazio.org\/2018\/05\/30\/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana\/&quot;,&quot;likes_blog_id&quot;:83109132}' itemscope itemtype="http://schema.org/ImageGallery" > <div class="gallery-row" style="width: 878px; height: 268px;" data-original-width="878" data-original-height="268" > <div class="gallery-group images-1" style="width: 301px; height: 268px;" data-original-width="301" data-original-height="268" > <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_2/" border="0" itemprop="url"> <meta itemprop="width" content="297"> <meta itemprop="height" content="264"> <img class="" data-attachment-id="1790" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_2.jpg" data-orig-size="1984,1760" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_2" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_2.jpg?w=300" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_2.jpg?w=878" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_2.jpg?w=297&#038;resize=297%2C264&#038;h=264#038;h=264" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_2.jpg?w=297&amp;h=264 297w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_2.jpg?w=594&amp;h=528 594w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_2.jpg?w=150&amp;h=133 150w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_2.jpg?w=300&amp;h=266 300w" width="297" height="264" loading="lazy" data-original-width="297" data-original-height="264" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_2" alt="Nuovo documento 2018-05-30 10.05.49_2" style="width: 297px; height: 264px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 191px; height: 268px;" data-original-width="191" data-original-height="268" > <div class="tiled-gallery-item tiled-gallery-item-small" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_3/" border="0" itemprop="url"> <meta itemprop="width" content="187"> <meta itemprop="height" content="264"> <img class="" data-attachment-id="1791" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_3.jpg" data-orig-size="1792,2528" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_3" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_3.jpg?w=213" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_3.jpg?w=726" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_3.jpg?w=187&#038;resize=187%2C264&#038;h=264#038;h=264" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_3.jpg?w=187&amp;h=264 187w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_3.jpg?w=374&amp;h=528 374w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_3.jpg?w=106&amp;h=150 106w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_3.jpg?w=213&amp;h=300 213w" width="187" height="264" loading="lazy" data-original-width="187" data-original-height="264" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_3" alt="Nuovo documento 2018-05-30 10.05.49_3" style="width: 187px; height: 264px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 194px; height: 268px;" data-original-width="194" data-original-height="268" > <div class="tiled-gallery-item tiled-gallery-item-small" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_13/" border="0" itemprop="url"> <meta itemprop="width" content="190"> <meta itemprop="height" content="264"> <img class="" data-attachment-id="1801" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_13.jpg" data-orig-size="1824,2528" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_13" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_13.jpg?w=216" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_13.jpg?w=739" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_13.jpg?w=190&#038;resize=190%2C264&#038;h=264#038;h=264" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_13.jpg?w=190&amp;h=264 190w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_13.jpg?w=380&amp;h=528 380w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_13.jpg?w=108&amp;h=150 108w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_13.jpg?w=216&amp;h=300 216w" width="190" height="264" loading="lazy" data-original-width="190" data-original-height="264" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_13" alt="Nuovo documento 2018-05-30 10.05.49_13" style="width: 190px; height: 264px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 192px; height: 268px;" data-original-width="192" data-original-height="268" > <div class="tiled-gallery-item tiled-gallery-item-small" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_4/" border="0" itemprop="url"> <meta itemprop="width" content="188"> <meta itemprop="height" content="264"> <img class="" data-attachment-id="1792" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_4.jpg" data-orig-size="1824,2560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_4" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_4.jpg?w=214" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_4.jpg?w=730" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_4.jpg?w=188&#038;resize=188%2C264&#038;h=264#038;h=264" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_4.jpg?w=188&amp;h=264 188w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_4.jpg?w=376&amp;h=528 376w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_4.jpg?w=107&amp;h=150 107w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_4.jpg?w=214&amp;h=300 214w" width="188" height="264" loading="lazy" data-original-width="188" data-original-height="264" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_4" alt="Nuovo documento 2018-05-30 10.05.49_4" style="width: 188px; height: 264px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> </div> <!-- close row --> <div class="gallery-row" style="width: 878px; height: 399px;" data-original-width="878" data-original-height="399" > <div class="gallery-group images-1" style="width: 296px; height: 399px;" data-original-width="296" data-original-height="399" > <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_5/" border="0" itemprop="url"> <meta itemprop="width" content="292"> <meta itemprop="height" content="395"> <img class="" data-attachment-id="1793" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_5.jpg" data-orig-size="1728,2336" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_5" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_5.jpg?w=222" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_5.jpg?w=757" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_5.jpg?w=292&#038;resize=292%2C395&#038;h=395#038;h=395" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_5.jpg?w=292&amp;h=395 292w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_5.jpg?w=584&amp;h=790 584w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_5.jpg?w=111&amp;h=150 111w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_5.jpg?w=222&amp;h=300 222w" width="292" height="395" loading="lazy" data-original-width="292" data-original-height="395" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_5" alt="Nuovo documento 2018-05-30 10.05.49_5" style="width: 292px; height: 395px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 296px; height: 399px;" data-original-width="296" data-original-height="399" > <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_6/" border="0" itemprop="url"> <meta itemprop="width" content="292"> <meta itemprop="height" content="395"> <img class="" data-attachment-id="1794" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_6.jpg" data-orig-size="1824,2464" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_6" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_6.jpg?w=222" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_6.jpg?w=758" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_6.jpg?w=292&#038;resize=292%2C395&#038;h=395#038;h=395" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_6.jpg?w=292&amp;h=395 292w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_6.jpg?w=584&amp;h=790 584w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_6.jpg?w=111&amp;h=150 111w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_6.jpg?w=222&amp;h=300 222w" width="292" height="395" loading="lazy" data-original-width="292" data-original-height="395" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_6" alt="Nuovo documento 2018-05-30 10.05.49_6" style="width: 292px; height: 395px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 286px; height: 399px;" data-original-width="286" data-original-height="399" > <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_7/" border="0" itemprop="url"> <meta itemprop="width" content="282"> <meta itemprop="height" content="395"> <img class="" data-attachment-id="1795" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_7.jpg" data-orig-size="1824,2560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_7" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_7.jpg?w=214" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_7.jpg?w=730" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_7.jpg?w=282&#038;resize=282%2C395&#038;h=395#038;h=395" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_7.jpg?w=282&amp;h=395 282w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_7.jpg?w=564&amp;h=790 564w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_7.jpg?w=107&amp;h=150 107w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_7.jpg?w=214&amp;h=300 214w" width="282" height="395" loading="lazy" data-original-width="282" data-original-height="395" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_7" alt="Nuovo documento 2018-05-30 10.05.49_7" style="width: 282px; height: 395px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> </div> <!-- close row --> <div class="gallery-row" style="width: 878px; height: 419px;" data-original-width="878" data-original-height="419" > <div class="gallery-group images-1" style="width: 542px; height: 419px;" data-original-width="542" data-original-height="419" > <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_8/" border="0" itemprop="url"> <meta itemprop="width" content="538"> <meta itemprop="height" content="415"> <img class="" data-attachment-id="1796" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_8.jpg" data-orig-size="2240,1728" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_8" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_8.jpg?w=300" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_8.jpg?w=878" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_8.jpg?w=538&#038;resize=538%2C415&#038;h=415#038;h=415" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_8.jpg?w=538&amp;h=415 538w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_8.jpg?w=1076&amp;h=830 1076w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_8.jpg?w=150&amp;h=116 150w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_8.jpg?w=300&amp;h=231 300w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_8.jpg?w=768&amp;h=592 768w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_8.jpg?w=1024&amp;h=790 1024w" width="538" height="415" loading="lazy" data-original-width="538" data-original-height="415" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_8" alt="Nuovo documento 2018-05-30 10.05.49_8" style="width: 538px; height: 415px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 336px; height: 419px;" data-original-width="336" data-original-height="419" > <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_9/" border="0" itemprop="url"> <meta itemprop="width" content="332"> <meta itemprop="height" content="415"> <img class="" data-attachment-id="1797" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_9.jpg" data-orig-size="1536,1920" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_9" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_9.jpg?w=240" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_9.jpg?w=819" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_9.jpg?w=332&#038;resize=332%2C415&#038;h=415#038;h=415" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_9.jpg?w=332&amp;h=415 332w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_9.jpg?w=664&amp;h=830 664w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_9.jpg?w=120&amp;h=150 120w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_9.jpg?w=240&amp;h=300 240w" width="332" height="415" loading="lazy" data-original-width="332" data-original-height="415" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_9" alt="Nuovo documento 2018-05-30 10.05.49_9" style="width: 332px; height: 415px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> </div> <!-- close row --> <div class="gallery-row" style="width: 878px; height: 307px;" data-original-width="878" data-original-height="307" > <div class="gallery-group images-1" style="width: 216px; height: 307px;" data-original-width="216" data-original-height="307" > <div class="tiled-gallery-item tiled-gallery-item-small" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_1/" border="0" itemprop="url"> <meta itemprop="width" content="212"> <meta itemprop="height" content="303"> <img class="" data-attachment-id="1789" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_1.jpg" data-orig-size="1792,2560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_1" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_1.jpg?w=210" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_1.jpg?w=717" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_1.jpg?w=212&#038;resize=212%2C303&#038;h=303#038;h=303" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_1.jpg?w=212&amp;h=303 212w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_1.jpg?w=424&amp;h=606 424w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_1.jpg?w=105&amp;h=150 105w" width="212" height="303" loading="lazy" data-original-width="212" data-original-height="303" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_1" alt="Nuovo documento 2018-05-30 10.05.49_1" style="width: 212px; height: 303px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 228px; height: 307px;" data-original-width="228" data-original-height="307" > <div class="tiled-gallery-item tiled-gallery-item-small" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_12/" border="0" itemprop="url"> <meta itemprop="width" content="224"> <meta itemprop="height" content="303"> <img class="" data-attachment-id="1800" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_12.jpg" data-orig-size="1888,2560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_12" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_12.jpg?w=221" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_12.jpg?w=755" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_12.jpg?w=224&#038;resize=224%2C303&#038;h=303#038;h=303" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_12.jpg?w=224&amp;h=303 224w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_12.jpg?w=448&amp;h=606 448w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_12.jpg?w=111&amp;h=150 111w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_12.jpg?w=221&amp;h=300 221w" width="224" height="303" loading="lazy" data-original-width="224" data-original-height="303" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_12" alt="Nuovo documento 2018-05-30 10.05.49_12" style="width: 224px; height: 303px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 225px; height: 307px;" data-original-width="225" data-original-height="307" > <div class="tiled-gallery-item tiled-gallery-item-small" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_15/" border="0" itemprop="url"> <meta itemprop="width" content="221"> <meta itemprop="height" content="303"> <img class="" data-attachment-id="1803" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_15.jpg" data-orig-size="1792,2464" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_15" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_15.jpg?w=218" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_15.jpg?w=745" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_15.jpg?w=221&#038;resize=221%2C303&#038;h=303#038;h=303" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_15.jpg?w=221&amp;h=303 221w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_15.jpg?w=442&amp;h=606 442w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_15.jpg?w=109&amp;h=150 109w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_15.jpg?w=218&amp;h=300 218w" width="221" height="303" loading="lazy" data-original-width="221" data-original-height="303" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_15" alt="Nuovo documento 2018-05-30 10.05.49_15" style="width: 221px; height: 303px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 209px; height: 307px;" data-original-width="209" data-original-height="307" > <div class="tiled-gallery-item tiled-gallery-item-small" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_10/" border="0" itemprop="url"> <meta itemprop="width" content="205"> <meta itemprop="height" content="303"> <img class="" data-attachment-id="1798" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_10.jpg" data-orig-size="1600,2368" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_10" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_10.jpg?w=203" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_10.jpg?w=692" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_10.jpg?w=205&#038;resize=205%2C303&#038;h=303#038;h=303" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_10.jpg?w=205&amp;h=303 205w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_10.jpg?w=410&amp;h=606 410w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_10.jpg?w=101&amp;h=150 101w" width="205" height="303" loading="lazy" data-original-width="205" data-original-height="303" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_10" alt="Nuovo documento 2018-05-30 10.05.49_10" style="width: 205px; height: 303px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> </div> <!-- close row --> <div class="gallery-row" style="width: 878px; height: 590px;" data-original-width="878" data-original-height="590" > <div class="gallery-group images-1" style="width: 447px; height: 590px;" data-original-width="447" data-original-height="590" > <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_14/" border="0" itemprop="url"> <meta itemprop="width" content="443"> <meta itemprop="height" content="586"> <img class="" data-attachment-id="1802" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_14.jpg" data-orig-size="1888,2496" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_14" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_14.jpg?w=227" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_14.jpg?w=775" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_14.jpg?w=443&#038;resize=443%2C586&#038;h=586#038;h=586" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_14.jpg?w=443&amp;h=586 443w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_14.jpg?w=886&amp;h=1172 886w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_14.jpg?w=113&amp;h=150 113w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_14.jpg?w=227&amp;h=300 227w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_14.jpg?w=768&amp;h=1015 768w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_14.jpg?w=775&amp;h=1024 775w" width="443" height="586" loading="lazy" data-original-width="443" data-original-height="586" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_14" alt="Nuovo documento 2018-05-30 10.05.49_14" style="width: 443px; height: 586px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 431px; height: 590px;" data-original-width="431" data-original-height="590" > <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_11/" border="0" itemprop="url"> <meta itemprop="width" content="427"> <meta itemprop="height" content="586"> <img class="" data-attachment-id="1799" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_11.jpg" data-orig-size="1888,2592" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_11" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_11.jpg?w=219" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_11.jpg?w=746" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_11.jpg?w=427&#038;resize=427%2C586&#038;h=586#038;h=586" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_11.jpg?w=427&amp;h=586 427w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_11.jpg?w=854&amp;h=1172 854w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_11.jpg?w=109&amp;h=150 109w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_11.jpg?w=219&amp;h=300 219w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_11.jpg?w=768&amp;h=1054 768w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_11.jpg?w=746&amp;h=1024 746w" width="427" height="586" loading="lazy" data-original-width="427" data-original-height="586" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_11" alt="Nuovo documento 2018-05-30 10.05.49_11" style="width: 427px; height: 586px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> </div> <!-- close row --> <div class="gallery-row" style="width: 878px; height: 401px;" data-original-width="878" data-original-height="401" > <div class="gallery-group images-1" style="width: 279px; height: 401px;" data-original-width="279" data-original-height="401" > <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_18/" border="0" itemprop="url"> <meta itemprop="width" content="275"> <meta itemprop="height" content="397"> <img class="" data-attachment-id="1806" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_18.jpg" data-orig-size="1728,2496" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_18" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_18.jpg?w=208" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_18.jpg?w=709" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_18.jpg?w=275&#038;resize=275%2C397&#038;h=397#038;h=397" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_18.jpg?w=275&amp;h=397 275w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_18.jpg?w=550&amp;h=794 550w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_18.jpg?w=104&amp;h=150 104w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_18.jpg?w=208&amp;h=300 208w" width="275" height="397" loading="lazy" data-original-width="275" data-original-height="397" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_18" alt="Nuovo documento 2018-05-30 10.05.49_18" style="width: 275px; height: 397px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 599px; height: 401px;" data-original-width="599" data-original-height="401" > <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_17/" border="0" itemprop="url"> <meta itemprop="width" content="595"> <meta itemprop="height" content="397"> <img class="" data-attachment-id="1805" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_17.jpg" data-orig-size="2400,1600" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_17" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_17.jpg?w=300" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_17.jpg?w=878" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_17.jpg?w=595&#038;resize=595%2C397&#038;h=397#038;h=397" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_17.jpg?w=595&amp;h=397 595w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_17.jpg?w=1190&amp;h=794 1190w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_17.jpg?w=150&amp;h=100 150w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_17.jpg?w=300&amp;h=200 300w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_17.jpg?w=768&amp;h=512 768w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_17.jpg?w=1024&amp;h=683 1024w" width="595" height="397" loading="lazy" data-original-width="595" data-original-height="397" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_17" alt="Nuovo documento 2018-05-30 10.05.49_17" style="width: 595px; height: 397px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> </div> <!-- close row --> <div class="gallery-row" style="width: 878px; height: 1272px;" data-original-width="878" data-original-height="1272" > <div class="gallery-group images-1" style="width: 878px; height: 1272px;" data-original-width="878" data-original-height="1272" > <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/nuovo-documento-2018-05-30-10-05-49_16/" border="0" itemprop="url"> <meta itemprop="width" content="874"> <meta itemprop="height" content="1268"> <img class="" data-attachment-id="1804" data-orig-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_16.jpg" data-orig-size="1632,2368" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nuovo documento 2018-05-30 10.05.49_16" data-image-description="" data-medium-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_16.jpg?w=207" data-large-file="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_16.jpg?w=706" src="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_16.jpg?w=874&#038;resize=874%2C1268&#038;h=1268#038;h=1268" srcset="https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_16.jpg?w=874&amp;h=1268 874w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_16.jpg?w=103&amp;h=150 103w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_16.jpg?w=207&amp;h=300 207w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_16.jpg?w=768&amp;h=1114 768w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_16.jpg?w=706&amp;h=1024 706w, https://micheledignazio.files.wordpress.com/2018/05/nuovo-documento-2018-05-30-10-05-49_16.jpg 1632w" width="874" height="1268" loading="lazy" data-original-width="874" data-original-height="1268" itemprop="http://schema.org/image" title="Nuovo documento 2018-05-30 10.05.49_16" alt="Nuovo documento 2018-05-30 10.05.49_16" style="width: 874px; height: 1268px;" data-recalc-dims="1" /> </a> </div> </div> <!-- close group --> </div> <!-- close row --> </div>
+<p><strong>Per arrivare infine a quello che probabilmente è l&#8217;aspetto più importante:</strong></p>
+<h2 style="text-align:center;"><span style="color:#ff6600;"><strong>Qual è la tua fotosintesi?</strong></span></h2>
+<p style="text-align:justify;">La fotosintesi è quel processo che trasforma la luce (foto) del sole in energia. Inizia con le foglie, che assorbono la luce, coinvolgendo poi tutta la pianta, che così cresce, vive, sempre con più energia.<br />
+<strong>Allora, qual è la tua fotosintesi? Cos’è che ti dà più energia?</strong></p>
+<p style="text-align:justify;">Ma l&#8217;aspetto più interessante è che, nel processo di fotosintesi, la pianta si nutre, prende l’energia che gli serve e, allo stesso tempo, trasforma l’anidride carbonica presente nell’aria in ossigeno, che ci fa bene, che ci fa respirare, rende l’aria più salubre e pulita.</p>
+<p style="text-align:justify;">Quindi, in un colpo solo, fa il bene suo e di tutti gli esseri viventi che la circondano. Non è incredibile?</p>
+<h2 style="text-align:center;">&#8230;</h2>
+<p style="text-align:right;">Per ulteriori informazioni e materiali, scrivetemi:</p>
+<p style="text-align:right;"><strong>micheledignazio@gmail.com</strong></p>
+<p style="text-align:right;"><strong>Messaggi WhatsApp: 3397072093</strong></p>
+<div id="jp-post-flair" class="sharedaddy sd-rating-enabled sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-1785" class="share-twitter sd-button share-icon" href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/?share=twitter" target="_blank" title="Fai clic qui per condividere su Twitter" ><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-1785" class="share-facebook sd-button share-icon" href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/?share=facebook" target="_blank" title="Fai clic per condividere su Facebook" ><span>Facebook</span></a></li><li><a href="#" class="sharing-anchor sd-button share-more"><span>Altro</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="mailto:?subject=%5BPost%20Condiviso%5D%20Che%20tipo%20di%20albero%20sei%3F%20E%20qual%20%C3%A8%20la%20tua%20fotosintesi%20clorofilliana%3F&body=https%3A%2F%2Fmicheledignazio.org%2F2018%2F05%2F30%2Fche-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana%2F&share=email" target="_blank" title="Fai clic per inviare un link a un amico via e-mail" data-email-share-error-title="Hai configurato l&#039;e-mail?" data-email-share-error-text="Se riscontri problemi con la condivisione via e-mail, potresti non aver configurato l&#039;e-mail per il browser. Potresti dover creare tu stesso una nuova e-mail." data-email-share-nonce="1b05bb8d6d" data-email-share-track-url="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/?share=email"><span>E-mail</span></a></li><li class="share-print"><a rel="nofollow noopener noreferrer" data-shared="" class="share-print sd-button share-icon" href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/#print" target="_blank" title="Fai clic qui per stampare" ><span>Stampa</span></a></li><li class="share-end"></li></ul></div></div></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-83109132-1785-657971ee146aa' data-src='//widgets.wp.com/likes/index.html?ver=20231208#blog_id=83109132&amp;post_id=1785&amp;origin=micheledignazio.wordpress.com&amp;obj_id=83109132-1785-657971ee146aa&amp;n=1&amp;domain=micheledignazio.org' data-name='like-post-frame-83109132-1785-657971ee146aa' data-title='Metti Mi piace o ripubblica'><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>&quot;Mi piace&quot;</span></span> <span class='loading'>Caricamento...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Correlati</em></h3>
+</div></div>	<div class="entry-author author-avatar-show">
+				<div class="author-avatar">
+			<img alt='' src='https://2.gravatar.com/avatar/e72a4d232d9fae68ea03cb000d34cf594121e2d61cd47a2c64e89bc4ed21f833?s=48&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/e72a4d232d9fae68ea03cb000d34cf594121e2d61cd47a2c64e89bc4ed21f833?s=48&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/e72a4d232d9fae68ea03cb000d34cf594121e2d61cd47a2c64e89bc4ed21f833?s=72&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/e72a4d232d9fae68ea03cb000d34cf594121e2d61cd47a2c64e89bc4ed21f833?s=96&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/e72a4d232d9fae68ea03cb000d34cf594121e2d61cd47a2c64e89bc4ed21f833?s=144&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/e72a4d232d9fae68ea03cb000d34cf594121e2d61cd47a2c64e89bc4ed21f833?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' />		</div><!-- .author-avatar -->
+		
+		<div class="author-heading">
+			<h2 class="author-title">Pubblicato da <span class="author-name">micheledignazio</span></h2>
+		</div><!-- .author-heading -->
+
+		<p class="author-bio">
+						<a class="author-link" href="https://micheledignazio.org/author/micheledignazio/" rel="author">
+				Mostra tutti gli articoli di micheledignazio			</a>
+		</p><!-- .author-bio -->
+	</div><!-- .entry-auhtor -->
+		<div class="taxonomies">
+			<div class="tax-categories taxonomy grey">
+				<span class="genericon genericon-category grey"></span> <a href="https://micheledignazio.org/category/libri/" rel="category tag">Libri</a>, <a href="https://micheledignazio.org/category/per-la-scuola/" rel="category tag">Per la scuola</a>, <a href="https://micheledignazio.org/category/storia-di-una-matita/" rel="category tag">Storia di una matita</a>			</div>
+<div class="tax-tags"><span class="genericon genericon-tag grey"></span>  <span class="tax-tags taxonomy grey"><a href="https://micheledignazio.org/tag/alberi/" rel="tag">alberi</a>, <a href="https://micheledignazio.org/tag/attivita/" rel="tag">attività</a>, <a href="https://micheledignazio.org/tag/bambini/" rel="tag">Bambini</a>, <a href="https://micheledignazio.org/tag/creativita/" rel="tag">Creatività</a>, <a href="https://micheledignazio.org/tag/laboratorio/" rel="tag">laboratorio</a>, <a href="https://micheledignazio.org/tag/michele-dignazio/" rel="tag">michele d'ignazio</a>, <a href="https://micheledignazio.org/tag/per-la-scuola/" rel="tag">Per la scuola</a>, <a href="https://micheledignazio.org/tag/rizzoli/" rel="tag">rizzoli</a>, <a href="https://micheledignazio.org/tag/storia-di-una-matita-a-casa/" rel="tag">storia di una matita a casa</a></span></div>		</div>
+			</section>
+
+			<div class="sidebar sidebar-main" role="complementary">
+<section id="facebook-likebox-5" class="widget widget_facebook_likebox"><div class="widget-wrap"><h3 class="widgettitle"><span><a href="https://www.facebook.com/ilmiosegnoparticolare">Il mio segno particolare</a></span></h3>		<div id="fb-root"></div>
+		<div class="fb-page" data-href="https://www.facebook.com/ilmiosegnoparticolare" data-width="340"  data-height="580" data-hide-cover="false" data-show-facepile="true" data-tabs="timeline" data-hide-cta="false" data-small-header="false">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/ilmiosegnoparticolare"><a href="https://www.facebook.com/ilmiosegnoparticolare">Il mio segno particolare</a></blockquote></div>
+		</div>
+		</div></section><section id="media_image-2" class="widget widget_media_image"><div class="widget-wrap"><h3 class="widgettitle"><span>Tra libri e mare</span></h3><style>.widget.widget_media_image { overflow: hidden; }.widget.widget_media_image img { height: auto; max-width: 100%; }</style><a href="https://micheledignazio.org/"><img width="878" height="548" src="https://micheledignazio.files.wordpress.com/2020/08/la-linea-delle28099onda-percorsi-di-scrittura-3-copia.jpg" class="image wp-image-2554 alignnone attachment-full size-full" alt="" decoding="async" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://micheledignazio.files.wordpress.com/2020/08/la-linea-delle28099onda-percorsi-di-scrittura-3-copia.jpg?w=878&amp;h=548 878w, https://micheledignazio.files.wordpress.com/2020/08/la-linea-delle28099onda-percorsi-di-scrittura-3-copia.jpg?w=150&amp;h=94 150w, https://micheledignazio.files.wordpress.com/2020/08/la-linea-delle28099onda-percorsi-di-scrittura-3-copia.jpg?w=300&amp;h=187 300w, https://micheledignazio.files.wordpress.com/2020/08/la-linea-delle28099onda-percorsi-di-scrittura-3-copia.jpg?w=768&amp;h=479 768w, https://micheledignazio.files.wordpress.com/2020/08/la-linea-delle28099onda-percorsi-di-scrittura-3-copia.jpg?w=1024&amp;h=639 1024w, https://micheledignazio.files.wordpress.com/2020/08/la-linea-delle28099onda-percorsi-di-scrittura-3-copia.jpg 1034w" sizes="(max-width: 878px) 100vw, 878px" data-attachment-id="2554" data-permalink="https://micheledignazio.org/la-linea-dellonda-percorsi-di-scrittura-3-copia/" data-orig-file="https://micheledignazio.files.wordpress.com/2020/08/la-linea-delle28099onda-percorsi-di-scrittura-3-copia.jpg" data-orig-size="1034,645" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="La linea dell’onda Percorsi di scrittura (3) &#8211; Copia" data-image-description="" data-image-caption="" data-medium-file="https://micheledignazio.files.wordpress.com/2020/08/la-linea-delle28099onda-percorsi-di-scrittura-3-copia.jpg?w=300" data-large-file="https://micheledignazio.files.wordpress.com/2020/08/la-linea-delle28099onda-percorsi-di-scrittura-3-copia.jpg?w=878" /></a></div></section>
+		<section id="recent-posts-2" class="widget widget_recent_entries"><div class="widget-wrap">
+		<h3 class="widgettitle"><span>Articoli recenti</span></h3><nav aria-label="Articoli recenti">
+		<ul>
+											<li>
+					<a href="https://micheledignazio.org/2023/11/25/nuovo-libro/">Nuovo libro!</a>
+									</li>
+											<li>
+					<a href="https://micheledignazio.org/2022/10/18/per-chi-volesse-una-copia-di-il-secondo-lavoro-di-babbo-natale-in-ucraino/">Per chi volesse una copia di &#8220;Il secondo lavoro di Babbo Natale&#8221; in&nbsp;ucraino</a>
+									</li>
+											<li>
+					<a href="https://micheledignazio.org/2022/07/23/il-mio-segno-particolare-podcast-e-spettacolo/">Il Mio Segno Particolare: podcast e&nbsp;spettacolo</a>
+									</li>
+											<li>
+					<a href="https://micheledignazio.org/2022/05/22/il-mio-segno-particolare/">Il Mio Segno&nbsp;Particolare</a>
+									</li>
+											<li>
+					<a href="https://micheledignazio.org/2022/05/10/alberi-maestri/">Alberi maestri</a>
+									</li>
+					</ul>
+
+		</nav></div></section><section id="categories-2" class="widget widget_categories"><div class="widget-wrap"><h3 class="widgettitle"><span>Categorie</span></h3><nav aria-label="Categorie">
+			<ul>
+					<li class="cat-item cat-item-4771820"><a href="https://micheledignazio.org/category/il-vicolo/">Il Vicolo</a> (8)
+</li>
+	<li class="cat-item cat-item-1637"><a href="https://micheledignazio.org/category/libri/">Libri</a> (34)
+</li>
+	<li class="cat-item cat-item-454950811"><a href="https://micheledignazio.org/category/pacunaimba/">Pacunaimba</a> (3)
+</li>
+	<li class="cat-item cat-item-20002334"><a href="https://micheledignazio.org/category/per-la-scuola/">Per la scuola</a> (10)
+</li>
+	<li class="cat-item cat-item-830022"><a href="https://micheledignazio.org/category/percorsi-di-lettura/">Percorsi di Lettura</a> (31)
+</li>
+	<li class="cat-item cat-item-92745820"><a href="https://micheledignazio.org/category/storia-di-una-matita/">Storia di una matita</a> (7)
+</li>
+	<li class="cat-item cat-item-157962"><a href="https://micheledignazio.org/category/traduzioni/">Traduzioni</a> (1)
+</li>
+			</ul>
+
+			</nav></div></section><section id="facebook-likebox-2" class="widget widget_facebook_likebox"><div class="widget-wrap">		<div id="fb-root"></div>
+		<div class="fb-page" data-href="https://www.facebook.com/StoriaDiUnaMatita" data-width="200"  data-height="432" data-hide-cover="false" data-show-facepile="true" data-tabs="false" data-hide-cta="false" data-small-header="false">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/StoriaDiUnaMatita"><a href="https://www.facebook.com/StoriaDiUnaMatita"></a></blockquote></div>
+		</div>
+		</div></section><section id="blog_subscription-2" class="widget widget_blog_subscription jetpack_subscription_widget"><div class="widget-wrap"><h3 class="widgettitle"><span><label for="subscribe-field">Segui il blog via email</label></span></h3>
+
+			<div class="wp-block-jetpack-subscriptions__container">
+			<form
+				action="https://subscribe.wordpress.com"
+				method="post"
+				accept-charset="utf-8"
+				data-blog="83109132"
+				data-post_access_level="everybody"
+				id="subscribe-blog"
+			>
+				<p>Inserisci il tuo indirizzo email per seguire questo blog e ricevere notifiche di nuovi messaggi via e-mail.</p>
+				<p id="subscribe-email">
+					<label
+						id="subscribe-field-label"
+						for="subscribe-field"
+						class="screen-reader-text"
+					>
+						Indirizzo email:					</label>
+
+					<input
+							type="email"
+							name="email"
+							
+							style="width: 95%; padding: 1px 10px"
+							placeholder="Indirizzo email"
+							value=""
+							id="subscribe-field"
+							required
+						/>				</p>
+
+				<p id="subscribe-submit"
+									>
+					<input type="hidden" name="action" value="subscribe"/>
+					<input type="hidden" name="blog_id" value="83109132"/>
+					<input type="hidden" name="source" value="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/"/>
+					<input type="hidden" name="sub-type" value="widget"/>
+					<input type="hidden" name="redirect_fragment" value="subscribe-blog"/>
+					<input type="hidden" id="_wpnonce" name="_wpnonce" value="9098a258da" />					<button type="submit"
+													class="wp-block-button__link"
+																	>
+						Iscriviti					</button>
+				</p>
+			</form>
+						</div>
+			
+</div></section><section id="facebook-likebox-4" class="widget widget_facebook_likebox"><div class="widget-wrap"><h3 class="widgettitle"><span><a href="https://www.facebook.com/ilsecondolavorodiBabboNatale">Il secondo lavoro di Babbo Natale</a></span></h3>		<div id="fb-root"></div>
+		<div class="fb-page" data-href="https://www.facebook.com/ilsecondolavorodiBabboNatale" data-width="340"  data-height="580" data-hide-cover="false" data-show-facepile="true" data-tabs="timeline" data-hide-cta="false" data-small-header="false">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/ilsecondolavorodiBabboNatale"><a href="https://www.facebook.com/ilsecondolavorodiBabboNatale">Il secondo lavoro di Babbo Natale</a></blockquote></div>
+		</div>
+		</div></section><section id="block-2" class="widget widget_block widget_text"><div class="widget-wrap">
+<p></p>
+</div></section><section id="search-2" class="widget widget_search"><div class="widget-wrap"><form method="get" class="search-form" action="https://micheledignazio.org/" role="search">
+	<label>
+		<span class="screen-reader">Search for...</span>
+		<input type="search" value="" name="s" class="search-field text" placeholder="Search..." />
+	</label>
+	<button class="search-submit">&#62464;<span class="screen-reader">Ricerca</span></button>
+</form>
+</div></section><section id="recent-comments-2" class="widget widget_recent_comments"><div class="widget-wrap"><h3 class="widgettitle"><span>Commenti recenti</span></h3>				<table class="recentcommentsavatar" cellspacing="0" cellpadding="0" border="0">
+					<tr><td title="Stephie" class="recentcommentsavatartop" style="height:48px; width:48px;"><a href="https://www.stephjones.com/" rel="nofollow"><img alt='' src='https://1.gravatar.com/avatar/44d385522b3c505a32631830babea4ade86c43147bc3dc0f13dd3e90c206ad3d?s=48&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/44d385522b3c505a32631830babea4ade86c43147bc3dc0f13dd3e90c206ad3d?s=48&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/44d385522b3c505a32631830babea4ade86c43147bc3dc0f13dd3e90c206ad3d?s=72&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/44d385522b3c505a32631830babea4ade86c43147bc3dc0f13dd3e90c206ad3d?s=96&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/44d385522b3c505a32631830babea4ade86c43147bc3dc0f13dd3e90c206ad3d?s=144&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/44d385522b3c505a32631830babea4ade86c43147bc3dc0f13dd3e90c206ad3d?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstexttop" style=""><a href="https://www.stephjones.com/" rel="nofollow">Stephie</a> su <a href="https://micheledignazio.org/2019/05/28/una-quasi-recensione-collettiva-dei-miei-libri-scritta-da-annamaria-gatti/comment-page-1/#comment-10072">Una “quasi recensione” collett&hellip;</a></td></tr><tr><td title="Per chi volesse una copia di &#8220;Il secondo lavoro di Babbo Natale&#8221; in ucraino &#8211; Michele D&#039;Ignazio" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://micheledignazio.org/2022/10/18/per-chi-volesse-una-copia-di-il-secondo-lavoro-di-babbo-natale-in-ucraino/" rel="nofollow"><img alt='' src='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48' srcset='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48 1x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=72 1.5x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=96 2x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=144 3x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=192 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="https://micheledignazio.org/2022/10/18/per-chi-volesse-una-copia-di-il-secondo-lavoro-di-babbo-natale-in-ucraino/" rel="nofollow">Per chi volesse una&hellip;</a> su <a href="https://micheledignazio.org/2020/10/09/babbo-natale-fa-gli-straordinari/comment-page-1/#comment-9843">Babbo Natale fa gli&nbsp;strao&hellip;</a></td></tr><tr><td title="Per chi volesse una copia di &#8220;Il secondo lavoro di Babbo Natale&#8221; in ucraino &#8211; Michele D&#039;Ignazio" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://micheledignazio.org/2022/10/18/per-chi-volesse-una-copia-di-il-secondo-lavoro-di-babbo-natale-in-ucraino/" rel="nofollow"><img alt='' src='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48' srcset='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48 1x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=72 1.5x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=96 2x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=144 3x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=192 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="https://micheledignazio.org/2022/10/18/per-chi-volesse-una-copia-di-il-secondo-lavoro-di-babbo-natale-in-ucraino/" rel="nofollow">Per chi volesse una&hellip;</a> su <a href="https://micheledignazio.org/2019/05/25/il-secondo-lavoro-di-babbo-natale/comment-page-1/#comment-9842">Il secondo lavoro di Babbo&hellip;</a></td></tr><tr><td title="3 proposte per teatri, associazioni, scuole &#8211; Michele D&#039;Ignazio" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://micheledignazio.org/2022/02/11/3-proposte-per-teatri-associazioni-scuole/" rel="nofollow"><img alt='' src='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48' srcset='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48 1x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=72 1.5x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=96 2x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=144 3x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=192 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="https://micheledignazio.org/2022/02/11/3-proposte-per-teatri-associazioni-scuole/" rel="nofollow">3 proposte per teatr&hellip;</a> su <a href="https://micheledignazio.org/2022/05/22/il-mio-segno-particolare/comment-page-1/#comment-7516">Il Mio Segno&nbsp;Particolare</a></td></tr><tr><td title="La trilogia di Babbo Natale &#8211; Michele D&#039;Ignazio" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://micheledignazio.org/2021/12/01/la-trilogia-di-babbo-natale/" rel="nofollow"><img alt='' src='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48' srcset='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48 1x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=72 1.5x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=96 2x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=144 3x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=192 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="https://micheledignazio.org/2021/12/01/la-trilogia-di-babbo-natale/" rel="nofollow">La trilogia di Babbo&hellip;</a> su <a href="https://micheledignazio.org/2021/09/27/babbo-natale-e-linaspettata-neve/comment-page-1/#comment-6644">Babbo Natale e l&#8217;inaspet&hellip;</a></td></tr>				</table>
+				</div></section><section id="archives-2" class="widget widget_archive"><div class="widget-wrap"><h3 class="widgettitle"><span>Archivi</span></h3><nav aria-label="Archivi">
+			<ul>
+					<li><a href='https://micheledignazio.org/2023/11/'>novembre 2023</a></li>
+	<li><a href='https://micheledignazio.org/2022/10/'>ottobre 2022</a></li>
+	<li><a href='https://micheledignazio.org/2022/07/'>luglio 2022</a></li>
+	<li><a href='https://micheledignazio.org/2022/05/'>Maggio 2022</a></li>
+	<li><a href='https://micheledignazio.org/2022/02/'>febbraio 2022</a></li>
+	<li><a href='https://micheledignazio.org/2021/12/'>dicembre 2021</a></li>
+	<li><a href='https://micheledignazio.org/2021/09/'>settembre 2021</a></li>
+	<li><a href='https://micheledignazio.org/2021/05/'>Maggio 2021</a></li>
+	<li><a href='https://micheledignazio.org/2021/01/'>gennaio 2021</a></li>
+	<li><a href='https://micheledignazio.org/2020/12/'>dicembre 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/10/'>ottobre 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/09/'>settembre 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/07/'>luglio 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/05/'>Maggio 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/04/'>aprile 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/03/'>marzo 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/01/'>gennaio 2020</a></li>
+	<li><a href='https://micheledignazio.org/2019/05/'>Maggio 2019</a></li>
+	<li><a href='https://micheledignazio.org/2019/03/'>marzo 2019</a></li>
+	<li><a href='https://micheledignazio.org/2019/02/'>febbraio 2019</a></li>
+	<li><a href='https://micheledignazio.org/2019/01/'>gennaio 2019</a></li>
+	<li><a href='https://micheledignazio.org/2018/12/'>dicembre 2018</a></li>
+	<li><a href='https://micheledignazio.org/2018/11/'>novembre 2018</a></li>
+	<li><a href='https://micheledignazio.org/2018/08/'>agosto 2018</a></li>
+	<li><a href='https://micheledignazio.org/2018/05/'>Maggio 2018</a></li>
+	<li><a href='https://micheledignazio.org/2018/03/'>marzo 2018</a></li>
+	<li><a href='https://micheledignazio.org/2018/02/'>febbraio 2018</a></li>
+	<li><a href='https://micheledignazio.org/2018/01/'>gennaio 2018</a></li>
+	<li><a href='https://micheledignazio.org/2017/12/'>dicembre 2017</a></li>
+	<li><a href='https://micheledignazio.org/2017/11/'>novembre 2017</a></li>
+	<li><a href='https://micheledignazio.org/2017/09/'>settembre 2017</a></li>
+	<li><a href='https://micheledignazio.org/2017/06/'>giugno 2017</a></li>
+	<li><a href='https://micheledignazio.org/2017/04/'>aprile 2017</a></li>
+	<li><a href='https://micheledignazio.org/2017/02/'>febbraio 2017</a></li>
+	<li><a href='https://micheledignazio.org/2017/01/'>gennaio 2017</a></li>
+	<li><a href='https://micheledignazio.org/2016/10/'>ottobre 2016</a></li>
+	<li><a href='https://micheledignazio.org/2016/09/'>settembre 2016</a></li>
+	<li><a href='https://micheledignazio.org/2016/07/'>luglio 2016</a></li>
+	<li><a href='https://micheledignazio.org/2016/05/'>Maggio 2016</a></li>
+	<li><a href='https://micheledignazio.org/2016/02/'>febbraio 2016</a></li>
+	<li><a href='https://micheledignazio.org/2016/01/'>gennaio 2016</a></li>
+	<li><a href='https://micheledignazio.org/2015/10/'>ottobre 2015</a></li>
+	<li><a href='https://micheledignazio.org/2015/09/'>settembre 2015</a></li>
+	<li><a href='https://micheledignazio.org/2015/05/'>Maggio 2015</a></li>
+	<li><a href='https://micheledignazio.org/2015/04/'>aprile 2015</a></li>
+	<li><a href='https://micheledignazio.org/2015/02/'>febbraio 2015</a></li>
+	<li><a href='https://micheledignazio.org/2015/01/'>gennaio 2015</a></li>
+			</ul>
+
+			</nav></div></section><section id="meta-2" class="widget widget_meta"><div class="widget-wrap"><h3 class="widgettitle"><span>Meta</span></h3><nav aria-label="Meta">
+		<ul>
+			<li><a href="https://wordpress.com/start/it?ref=wplogin">Registrati</a></li>			<li><a href="https://micheledignazio.wordpress.com/wp-login.php">Accedi</a></li>
+			<li><a href="https://micheledignazio.org/feed/">Flusso di pubblicazione</a></li>
+			<li><a href="https://micheledignazio.org/comments/feed/">Feed dei commenti</a></li>
+
+			<li><a href="https://wordpress.com/" title="Tecnologia WordPress, la piattaforma semantica di editoria personale di qualità">WordPress.com</a></li>
+		</ul>
+
+		</nav></div></section></div>
+
+		</article>
+
+	</section>
+
+</div>
+
+<nav class="postnav">
+	<h1 class="screen-reader">Navigazione articoli</h1>
+<div class="left prev"><h5>&lsaquo; Older</h5> <a href="https://micheledignazio.org/2018/03/14/il-gioco-dei-perche/" rel="prev"><span class="title">Il Gioco dei&nbsp;Perché</span></a></div><div class="next right"><h5>Newer &rsaquo; </h5> <a href="https://micheledignazio.org/2018/08/22/ogni-cosa-e-illuminata/" rel="next"><span class="title">Ogni cosa è&nbsp;illuminata</span></a></div></nav>
+<section class="content-comments">
+	<div class="respond-wrapper">
+	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Rispondi <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/#respond" style="display:none;">Cancella risposta</a></small></h3><form action="https://micheledignazio.org/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+
+
+<div id="comment-form__verbum" class="transparent"></div><div class="verbum-form-meta"><input type='hidden' name='comment_post_ID' value='1785' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+
+			<input type="hidden" name="highlander_comment_nonce" id="highlander_comment_nonce" value="b7f1f0b84a" />
+			<input type="hidden" name="verbum_show_subscription_modal" value="" /></div><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="6f2594356f" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="8"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+		</div>
+</section>
+	</div>
+</div>
+
+<footer class="site-footer" role="contentinfo" id="footer">
+	<div class="row foot-widgets clearfix">
+		<aside class="footer-widgets sidebar-footer">
+			
+		<section id="recent-posts-6" class="widget widget_recent_entries"><div class="widget-wrap">
+		<h3 class="widgettitle">Articoli recenti</h3><nav aria-label="Articoli recenti">
+		<ul>
+											<li>
+					<a href="https://micheledignazio.org/2023/11/25/nuovo-libro/">Nuovo libro!</a>
+									</li>
+											<li>
+					<a href="https://micheledignazio.org/2022/10/18/per-chi-volesse-una-copia-di-il-secondo-lavoro-di-babbo-natale-in-ucraino/">Per chi volesse una copia di &#8220;Il secondo lavoro di Babbo Natale&#8221; in&nbsp;ucraino</a>
+									</li>
+											<li>
+					<a href="https://micheledignazio.org/2022/07/23/il-mio-segno-particolare-podcast-e-spettacolo/">Il Mio Segno Particolare: podcast e&nbsp;spettacolo</a>
+									</li>
+											<li>
+					<a href="https://micheledignazio.org/2022/05/22/il-mio-segno-particolare/">Il Mio Segno&nbsp;Particolare</a>
+									</li>
+											<li>
+					<a href="https://micheledignazio.org/2022/05/10/alberi-maestri/">Alberi maestri</a>
+									</li>
+					</ul>
+
+		</nav></div></section><section id="recent-comments-6" class="widget widget_recent_comments"><div class="widget-wrap"><h3 class="widgettitle">Commenti recenti</h3>				<table class="recentcommentsavatar" cellspacing="0" cellpadding="0" border="0">
+					<tr><td title="Stephie" class="recentcommentsavatartop" style="height:48px; width:48px;"><a href="https://www.stephjones.com/" rel="nofollow"><img alt='' src='https://1.gravatar.com/avatar/44d385522b3c505a32631830babea4ade86c43147bc3dc0f13dd3e90c206ad3d?s=48&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/44d385522b3c505a32631830babea4ade86c43147bc3dc0f13dd3e90c206ad3d?s=48&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/44d385522b3c505a32631830babea4ade86c43147bc3dc0f13dd3e90c206ad3d?s=72&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/44d385522b3c505a32631830babea4ade86c43147bc3dc0f13dd3e90c206ad3d?s=96&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/44d385522b3c505a32631830babea4ade86c43147bc3dc0f13dd3e90c206ad3d?s=144&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/44d385522b3c505a32631830babea4ade86c43147bc3dc0f13dd3e90c206ad3d?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstexttop" style=""><a href="https://www.stephjones.com/" rel="nofollow">Stephie</a> su <a href="https://micheledignazio.org/2019/05/28/una-quasi-recensione-collettiva-dei-miei-libri-scritta-da-annamaria-gatti/comment-page-1/#comment-10072">Una “quasi recensione” collett&hellip;</a></td></tr><tr><td title="Per chi volesse una copia di &#8220;Il secondo lavoro di Babbo Natale&#8221; in ucraino &#8211; Michele D&#039;Ignazio" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://micheledignazio.org/2022/10/18/per-chi-volesse-una-copia-di-il-secondo-lavoro-di-babbo-natale-in-ucraino/" rel="nofollow"><img alt='' src='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48' srcset='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48 1x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=72 1.5x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=96 2x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=144 3x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=192 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="https://micheledignazio.org/2022/10/18/per-chi-volesse-una-copia-di-il-secondo-lavoro-di-babbo-natale-in-ucraino/" rel="nofollow">Per chi volesse una&hellip;</a> su <a href="https://micheledignazio.org/2020/10/09/babbo-natale-fa-gli-straordinari/comment-page-1/#comment-9843">Babbo Natale fa gli&nbsp;strao&hellip;</a></td></tr><tr><td title="Per chi volesse una copia di &#8220;Il secondo lavoro di Babbo Natale&#8221; in ucraino &#8211; Michele D&#039;Ignazio" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://micheledignazio.org/2022/10/18/per-chi-volesse-una-copia-di-il-secondo-lavoro-di-babbo-natale-in-ucraino/" rel="nofollow"><img alt='' src='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48' srcset='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48 1x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=72 1.5x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=96 2x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=144 3x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=192 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="https://micheledignazio.org/2022/10/18/per-chi-volesse-una-copia-di-il-secondo-lavoro-di-babbo-natale-in-ucraino/" rel="nofollow">Per chi volesse una&hellip;</a> su <a href="https://micheledignazio.org/2019/05/25/il-secondo-lavoro-di-babbo-natale/comment-page-1/#comment-9842">Il secondo lavoro di Babbo&hellip;</a></td></tr><tr><td title="3 proposte per teatri, associazioni, scuole &#8211; Michele D&#039;Ignazio" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://micheledignazio.org/2022/02/11/3-proposte-per-teatri-associazioni-scuole/" rel="nofollow"><img alt='' src='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48' srcset='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48 1x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=72 1.5x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=96 2x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=144 3x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=192 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="https://micheledignazio.org/2022/02/11/3-proposte-per-teatri-associazioni-scuole/" rel="nofollow">3 proposte per teatr&hellip;</a> su <a href="https://micheledignazio.org/2022/05/22/il-mio-segno-particolare/comment-page-1/#comment-7516">Il Mio Segno&nbsp;Particolare</a></td></tr><tr><td title="La trilogia di Babbo Natale &#8211; Michele D&#039;Ignazio" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://micheledignazio.org/2021/12/01/la-trilogia-di-babbo-natale/" rel="nofollow"><img alt='' src='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48' srcset='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=48 1x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=72 1.5x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=96 2x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=144 3x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=192 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="https://micheledignazio.org/2021/12/01/la-trilogia-di-babbo-natale/" rel="nofollow">La trilogia di Babbo&hellip;</a> su <a href="https://micheledignazio.org/2021/09/27/babbo-natale-e-linaspettata-neve/comment-page-1/#comment-6644">Babbo Natale e l&#8217;inaspet&hellip;</a></td></tr>				</table>
+				</div></section><section id="archives-6" class="widget widget_archive"><div class="widget-wrap"><h3 class="widgettitle">Archivi</h3><nav aria-label="Archivi">
+			<ul>
+					<li><a href='https://micheledignazio.org/2023/11/'>novembre 2023</a></li>
+	<li><a href='https://micheledignazio.org/2022/10/'>ottobre 2022</a></li>
+	<li><a href='https://micheledignazio.org/2022/07/'>luglio 2022</a></li>
+	<li><a href='https://micheledignazio.org/2022/05/'>Maggio 2022</a></li>
+	<li><a href='https://micheledignazio.org/2022/02/'>febbraio 2022</a></li>
+	<li><a href='https://micheledignazio.org/2021/12/'>dicembre 2021</a></li>
+	<li><a href='https://micheledignazio.org/2021/09/'>settembre 2021</a></li>
+	<li><a href='https://micheledignazio.org/2021/05/'>Maggio 2021</a></li>
+	<li><a href='https://micheledignazio.org/2021/01/'>gennaio 2021</a></li>
+	<li><a href='https://micheledignazio.org/2020/12/'>dicembre 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/10/'>ottobre 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/09/'>settembre 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/07/'>luglio 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/05/'>Maggio 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/04/'>aprile 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/03/'>marzo 2020</a></li>
+	<li><a href='https://micheledignazio.org/2020/01/'>gennaio 2020</a></li>
+	<li><a href='https://micheledignazio.org/2019/05/'>Maggio 2019</a></li>
+	<li><a href='https://micheledignazio.org/2019/03/'>marzo 2019</a></li>
+	<li><a href='https://micheledignazio.org/2019/02/'>febbraio 2019</a></li>
+	<li><a href='https://micheledignazio.org/2019/01/'>gennaio 2019</a></li>
+	<li><a href='https://micheledignazio.org/2018/12/'>dicembre 2018</a></li>
+	<li><a href='https://micheledignazio.org/2018/11/'>novembre 2018</a></li>
+	<li><a href='https://micheledignazio.org/2018/08/'>agosto 2018</a></li>
+	<li><a href='https://micheledignazio.org/2018/05/'>Maggio 2018</a></li>
+	<li><a href='https://micheledignazio.org/2018/03/'>marzo 2018</a></li>
+	<li><a href='https://micheledignazio.org/2018/02/'>febbraio 2018</a></li>
+	<li><a href='https://micheledignazio.org/2018/01/'>gennaio 2018</a></li>
+	<li><a href='https://micheledignazio.org/2017/12/'>dicembre 2017</a></li>
+	<li><a href='https://micheledignazio.org/2017/11/'>novembre 2017</a></li>
+	<li><a href='https://micheledignazio.org/2017/09/'>settembre 2017</a></li>
+	<li><a href='https://micheledignazio.org/2017/06/'>giugno 2017</a></li>
+	<li><a href='https://micheledignazio.org/2017/04/'>aprile 2017</a></li>
+	<li><a href='https://micheledignazio.org/2017/02/'>febbraio 2017</a></li>
+	<li><a href='https://micheledignazio.org/2017/01/'>gennaio 2017</a></li>
+	<li><a href='https://micheledignazio.org/2016/10/'>ottobre 2016</a></li>
+	<li><a href='https://micheledignazio.org/2016/09/'>settembre 2016</a></li>
+	<li><a href='https://micheledignazio.org/2016/07/'>luglio 2016</a></li>
+	<li><a href='https://micheledignazio.org/2016/05/'>Maggio 2016</a></li>
+	<li><a href='https://micheledignazio.org/2016/02/'>febbraio 2016</a></li>
+	<li><a href='https://micheledignazio.org/2016/01/'>gennaio 2016</a></li>
+	<li><a href='https://micheledignazio.org/2015/10/'>ottobre 2015</a></li>
+	<li><a href='https://micheledignazio.org/2015/09/'>settembre 2015</a></li>
+	<li><a href='https://micheledignazio.org/2015/05/'>Maggio 2015</a></li>
+	<li><a href='https://micheledignazio.org/2015/04/'>aprile 2015</a></li>
+	<li><a href='https://micheledignazio.org/2015/02/'>febbraio 2015</a></li>
+	<li><a href='https://micheledignazio.org/2015/01/'>gennaio 2015</a></li>
+			</ul>
+
+			</nav></div></section><section id="categories-6" class="widget widget_categories"><div class="widget-wrap"><h3 class="widgettitle">Categorie</h3><nav aria-label="Categorie">
+			<ul>
+					<li class="cat-item cat-item-4771820"><a href="https://micheledignazio.org/category/il-vicolo/">Il Vicolo</a>
+</li>
+	<li class="cat-item cat-item-1637"><a href="https://micheledignazio.org/category/libri/">Libri</a>
+</li>
+	<li class="cat-item cat-item-454950811"><a href="https://micheledignazio.org/category/pacunaimba/">Pacunaimba</a>
+</li>
+	<li class="cat-item cat-item-20002334"><a href="https://micheledignazio.org/category/per-la-scuola/">Per la scuola</a>
+</li>
+	<li class="cat-item cat-item-830022"><a href="https://micheledignazio.org/category/percorsi-di-lettura/">Percorsi di Lettura</a>
+</li>
+	<li class="cat-item cat-item-92745820"><a href="https://micheledignazio.org/category/storia-di-una-matita/">Storia di una matita</a>
+</li>
+	<li class="cat-item cat-item-157962"><a href="https://micheledignazio.org/category/traduzioni/">Traduzioni</a>
+</li>
+			</ul>
+
+			</nav></div></section>		</aside>
+	</div>
+
+	<section class="footer-wrap">
+		<div class="row">
+			<a href="https://wordpress.com/?ref=footer_blog" rel="nofollow">Blog su WordPress.com.</a>
+			
+			</span>
+		</div>
+		<div class="row">
+			<a href="#main-container">Sopra</a>
+		</div>
+	</section>
+</footer>
+
+<!--  -->
+<script type="text/javascript" src="//0.gravatar.com/js/hovercards/hovercards.min.js?ver=202350131f6b765e798866d728f95661b78bbf269c86482ffff0fa8c08e18a1a65cc89" id="grofiles-cards-js"></script>
+<script type="text/javascript" id="wpgroho-js-extra">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240i'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init(
+					'body',
+					'#wp-admin-bar-my-account',
+					{
+						i18n: {
+							'Edit your profile': 'Modifica il tuo profilo',
+							'View profile': 'View profile',
+							'Sorry, we are unable to load this Gravatar profile.': 'Sorry, we are unable to load this Gravatar profile.',
+							'Sorry, we are unable to load this Gravatar profile. Please check your internet connection.': 'Sorry, we are unable to load this Gravatar profile. Please check your internet connection.',
+						},
+					}
+				);
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-60d520040637642c369745bdd49fcfbe">
+	</div>
+	<div class="grofile-hash-map-9e22e5622c2eb0950dca816a044f582f">
+	</div>
+	</div>
+	<div id="actionbar" style="display: none;"
+			class="actnbr-premium-beacon actnbr-has-follow">
+		<ul>
+								<li class="actnbr-btn actnbr-hidden">
+						<a class="actnbr-action actnbr-actn-comment" href="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/#respond">
+							<svg class="gridicon gridicons-comment" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M12 16l-5 5v-5H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v9c0 1.1-.9 2-2 2h-7z"/></g></svg>							<span>Commento						</span>
+						</a>
+					</li>
+									<li class="actnbr-btn actnbr-hidden">
+								<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Segui</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Siti che segui</span>
+		</a>
+							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
+							<div class="tip-arrow"></div>
+							<div class="tip-inner actnbr-follow-bubble">
+															<ul>
+											<li class="actnbr-sitename">
+			<a href="https://micheledignazio.org">
+				<img alt='' src='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=50' srcset='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=50 1x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=75 1.5x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=100 2x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=150 3x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=200 4x' class='avatar avatar-50' height='50' width='50' />				Michele D&#039;Ignazio			</a>
+		</li>
+										<div class="actnbr-message no-display"></div>
+									<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																						<div class="actnbr-follow-count">Segui assieme ad altri 63 follower</div>
+																					<div>
+										<input type="email" name="email" placeholder="Inserisci il tuo indirizzo e-mail" class="actnbr-email-field" aria-label="Inserisci il tuo indirizzo e-mail" />
+										</div>
+										<input type="hidden" name="action" value="subscribe" />
+										<input type="hidden" name="blog_id" value="83109132" />
+										<input type="hidden" name="source" value="https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/" />
+										<input type="hidden" name="sub-type" value="actionbar-follow" />
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="9098a258da" />										<div class="actnbr-button-wrap">
+											<button type="submit" value="Registrami">
+												Registrami											</button>
+										</div>
+									</form>
+									<li class="actnbr-login-nudge">
+										<div>
+											Hai già un account WordPress.com? <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fmicheledignazio.org%252F2018%252F05%252F30%252Fche-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana%252F">Accedi ora.</a>										</div>
+									</li>
+								</ul>
+															</div>
+						</div>
+					</li>
+									<li class="actnbr-btn actnbr-hidden no-display" onclick="javascript:__tcfapi( 'showUi' );">
+						<a class="actnbr-action actnbr-actn-privacy" href="#">
+							<svg class="gridicon gridicons-info-outline" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M13 9h-2V7h2v2zm0 2h-2v6h2v-6zm-1-7c-4.41 0-8 3.59-8 8s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8m0-2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></g></svg>							<span>Privacy						</span>
+						</a>
+					</li>
+							<li class="actnbr-ellipsis actnbr-hidden">
+				<svg class="gridicon gridicons-ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z"/></g></svg>				<div class="actnbr-popover tip tip-top-left actnbr-more">
+					<div class="tip-arrow"></div>
+					<div class="tip-inner">
+						<ul>
+									<li class="actnbr-sitename">
+			<a href="https://micheledignazio.org">
+				<img alt='' src='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=50' srcset='https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=50 1x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=75 1.5x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=100 2x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=150 3x, https://micheledignazio.files.wordpress.com/2019/04/cropped-michele-dignazio5.jpg?w=200 4x' class='avatar avatar-50' height='50' width='50' />				Michele D&#039;Ignazio			</a>
+		</li>
+								<li class="actnbr-folded-customize">
+								<a href="https://micheledignazio.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fmicheledignazio.wordpress.com%2F2018%2F05%2F30%2Fche-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana%2F">
+									<svg class="gridicon gridicons-customize" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z"/></g></svg>									<span>Personalizza</span>
+								</a>
+							</li>
+																<li class="actnbr-folded-follow">
+												<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Segui</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Siti che segui</span>
+		</a>
+										</li>
+																	<li class="actnbr-signup"><a href="https://wordpress.com/start/">Registrati</a></li>
+									<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fmicheledignazio.org%252F2018%252F05%252F30%252Fche-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana%252F">Accedi</a></li>
+																	<li class="actnbr-shortlink"><a href="https://wp.me/p5CItS-sN">Copia shortlink</a></li>
+																	<li class="flb-report">
+										<a href="http://en.wordpress.com/abuse/?report_url=https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/" target="_blank">
+											Segnala questo contenuto										</a>
+									</li>
+																	<li class="actnbr-reader">
+										<a href="https://wordpress.com/read/blogs/83109132/posts/1785">
+											View post in Reader										</a>
+									</li>
+																	<li class="actnbr-subs">
+										<a href="https://subscribe.wordpress.com/">Gestisci gli abbonamenti</a>
+									</li>
+																		<li class="actnbr-fold"><a href="">Riduci la barra</a></li>
+															</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<script>
+window.addEventListener( "load", function( event ) {
+	var link = document.createElement( "link" );
+	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20231122";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	document.head.appendChild( link );
+
+	var script = document.createElement( "script" );
+	script.src = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20231122";
+	script.defer = true;
+	document.body.appendChild( script );
+} );
+</script>
+
+			<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading">&nbsp;</span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+		<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<h2 class="jp-carousel-photo-caption"></h2>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+						<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Attiva/disattiva visibilità dei metadata delle foto">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+												<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Attiva/disattiva visibilità dei commenti alle foto">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="Questa immagine ha dei commenti."></span>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<h2 class="jp-carousel-photo-title"></h2>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+															<div id="jp-carousel-comments-loading">
+									<span>Caricamento commenti...</span>
+								</div>
+								<div class="jp-carousel-comments"></div>
+								<div id="jp-carousel-comment-form-container">
+									<span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+									<div id="jp-carousel-comment-post-results"></div>
+																														<form id="jp-carousel-comment-form">
+												<label for="jp-carousel-comment-form-comment-field" class="screen-reader-text">Scrivi un Commento...</label>
+												<textarea
+													name="comment"
+													class="jp-carousel-comment-form-field jp-carousel-comment-form-textarea"
+													id="jp-carousel-comment-form-comment-field"
+													placeholder="Scrivi un Commento..."
+												></textarea>
+												<div id="jp-carousel-comment-form-submit-and-info-wrapper">
+													<div id="jp-carousel-comment-form-commenting-as">
+																													<fieldset>
+																<label for="jp-carousel-comment-form-email-field">E-mail (Obbligatorio)</label>
+																<input type="text" name="email" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-author-field">Nome (Obbligatorio)</label>
+																<input type="text" name="author" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-url-field">Sito web</label>
+																<input type="text" name="url" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" />
+															</fieldset>
+																											</div>
+													<input
+														type="submit"
+														name="submit"
+														class="jp-carousel-comment-form-button"
+														id="jp-carousel-comment-form-button-submit"
+														value="Pubblica un commento" />
+												</div>
+											</form>
+																											</div>
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+								</div>
+
+								<div class="jp-carousel-photo-description"></div>
+							</div>
+							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
+							<a class="jp-carousel-image-download" href="#" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/micheledignazio.org\/2018\/05\/30\/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana\/":1785};
+	</script>
+				<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-2' href='https://s0.wp.com/_static/??-eJyljUsKhDAQRC80mXZGDLiQOUsmaSTa+ZBOI95eBN260E3BK4pXsGRlU6wYKwRRmWT0kWHCmo2dD4aQ0h5OCBmsKUkYCXjxGYv6S3SEb8v8gge2c3QWd4XVEzo1GiIs6xXtB78wfHT/7Zu203raAHg3ZXE=&cssminify=yes' type='text/css' media='all' />
+<script type="text/javascript" id="comment-like-js-extra">
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Caricamento...","swipeUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/comment-likes\/js\/lib\/swipe.js?ver=20131008"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="jetpack-facebook-embed-js-extra">
+/* <![CDATA[ */
+var jpfbembed = {"appid":"249643311490","locale":"it_IT"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="jetpack-carousel-js-extra">
+/* <![CDATA[ */
+var jetpackSwiperLibraryPath = {"url":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/moon\/_inc\/build\/carousel\/swiper-bundle.min.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"it","ajaxurl":"https:\/\/micheledignazio.org\/wp-admin\/admin-ajax.php","nonce":"0139318fff","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Commento","post_comment":"Pubblica un commento","write_comment":"Scrivi un Commento...","loading_comments":"Caricamento commenti...","download_original":"Vedi immagine a grandezza originale<span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Assicurati di scrivere del testo nel commento.","no_comment_email":"Fornisci un indirizzo e-mail per commentare.","no_comment_author":"Fornisci il tuo nome per commentare.","comment_post_error":"Si \u00e8 verificato un problema durante la pubblicazione del commento. Riprova pi\u00f9 tardi.","comment_approved":"Il tuo commento \u00e8 stato approvato.","comment_unapproved":"Il tuo commento deve venire moderato.","camera":"Fotocamera","aperture":"Apertura","shutter_speed":"Velocit\u00e0 di scatto","focal_length":"Lunghezza focale","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/micheledignazio.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fmicheledignazio.org%2F2018%2F05%2F30%2Fche-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana%2F","blog_id":"83109132","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=83109132&v=wpcom&tz=0&user_id=0&subd=micheledignazio","is_public":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="sharing-js-js-extra">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="verbum-settings-js-before">
+/* <![CDATA[ */
+window.VerbumComments = {"Log in or provide your name and email to leave a reply.":"Accedi o fornisci il tuo nome o indirizzo e-mail per rispondere.","Receive web and mobile notifications for posts on this site.":"Ricevi notifiche tramite web e dispositivi mobili quando vengono pubblicati articoli su questo sito.","Name":"Nome","Email (address never made public)":"E-mail (l'indirizzo non verr\u00e0 pubblicato)","Website (optional)":"Sito web (facoltativo)","Leave a reply. (log in optional)":"Rispondi (accesso opzionale).","Log in to leave a reply.":"Accedi per lasciare una risposta.","Logged in via %s":"Accesso effettuato tramite %s","Log out":"Esci dall'account","Email":"E-mail","(Address never made public)":"(L'indirizzo non verr\u00e0 pubblicato)","Instantly":"Immediata","Daily":"Giornalmente","Reply":"Rispondi","WordPress":"WordPress","Weekly":"Settimanalmente","Notify me of new posts":"Notifiche per i nuovi articoli","Email me new posts":"Ricevi i nuovi articoli via e-mail","Email me new comments":"Notifiche via e-mail per i nuovi commenti","Cancel":"Annulla","Write a comment...":"Scrivi un Commento...","Website":"Sito web","Optional":"facoltativo","We'll keep you in the loop!":"Ti terremo al corrente delle novit\u00e0.","Loading your comment...":"Caricamento del commento in corso...","Never miss a beat!":"Non perdere mai un colpo.","Interested in getting blog post updates? Simply click the button below to stay in the loop!":"Ti interessa ricevere aggiornamenti sugli articoli del blog? Basta fare clic sul pulsante di seguito per essere sempre al corrente delle novit\u00e0.","Enter your email address":"Inserisci il tuo indirizzo e-mail","Subscribe":"Iscriviti","Comment sent successfully":"Commento inviato correttamente","Save my name, email, and website in this browser for the next time I comment.":"Do il mio consenso affinch\u00e9 un cookie salvi i miei dati  (nome, e-mail, sito web) per il prossimo commento.","siteId":83109132,"postId":1785,"mustLogIn":false,"requireNameEmail":true,"commentRegistration":false,"connectURL":"https:\/\/micheledignazio.wordpress.com\/public.api\/connect\/?action=request&domain=micheledignazio.org","logoutURL":"https:\/\/micheledignazio.wordpress.com\/wp-login.php?action=logout&_wpnonce=452c3ad398","homeURL":"https:\/\/micheledignazio.org\/","subscribeToBlog":true,"subscribeToComment":true,"isJetpackCommentsLoggedIn":false,"jetpackUsername":"","jetpackUserId":0,"jetpackSignature":"","jetpackAvatar":"https:\/\/0.gravatar.com\/avatar\/?s=96&amp;d=identicon&amp;r=G","enableBlocks":false,"enableSubscriptionModal":true,"currentLocale":"it","isJetpackComments":false,"allowedBlocks":["core\/paragraph","core\/list","core\/code","core\/list-item","core\/quote","core\/image","core\/quote","core\/code"]}
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/_static/??-eJydUdtuwyAM/aERN6q2ag/TPmVywE1JMGQYVuXvFyWlUqssk/KGD8fnAnAdlA4+kU/AWQ0ut9YLONuTwHemTBf0xlGsOnmBdfIPxSYzoAglATN6ZKuVC2g213RgniC1eHVPQFm0XrtsFoJlbElmYVOx9WscRgk+jn9dF49Ig3sgrQTsKA2o+9sMHIKHr0kMzqipCaFXxM2UZIdCk60zoDGGLOTuvALsDbbIJuvIqBbd9G3j1vSPDfZWmJI6VodFvgDnOJO3mpcm6jpMT/407q8mF4xk0JhxPlrf3jp88kd9OtSn+vj69t79AiFNECQ='></script>
+<script type="text/javascript" id="sharing-js-js-after">
+/* <![CDATA[ */
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-twitter' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-twitter' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-facebook' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+						return false;
+					}
+				} );
+			} )();
+/* ]]> */
+</script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<iframe src='https://widgets.wp.com/likes/master.html?ver=20231208#ver=20231208&amp;lang=it&amp;lang_ver=1701635850&amp;origin=https://micheledignazio.org&amp;n=1' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars' class='wpl-new-layout'>
+		<div class="likes-text">
+			<span>%d</span>		</div>
+		<ul class="wpl-avatars sd-like-gravatars"></ul>
+	</div>
+
+		<script src="//stats.wp.com/w.js?65" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'83109132','blog_tz':'0','user_lang':'it','blog_lang':'it','user_id':'0'}]);
+_stq.push(['view', {'blog':'83109132','v':'wpcom','tz':'0','user_id':'0','post':'1785','subd':'micheledignazio'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mNzc2NTVTamdsd0xoLz9RQkM2K298TXY9bERQMXc2MjhEaVZfb2wwakRoSj0mUkp1THptM1NdbkV1WjZIcU9mVWQmPUIvMlN6Jk8wW3NYVEJ3dWZOWExuWD9IdWdMYUlCK3l+anguW2lYam49bTcsJVJ0RG9LK25HOS1NdXNiZyV4a2hzWmZ2TkJuZFQzay9dRWNSczFIV3RicCVkcT1NLWxGNmhvS1k2TTRoMWk0bGtCQmg9P3VSflVVXThWODRieX5zWzhOK1pCTyY3M19uQTJKK0xkPUdBOGR8OFItL1hOMzhkM2dEVS18LWxfNl9qeDBveWktWU5ySEgsP2xDfnltL0VVZUcwd0hMdmJFVT81RTJTLUVDP0RaR1ldRXhmSUdjaU1oeEFmeENZJkZsJjg3YnVQK0o2X08tMHAtN1h3WmFINUFoZUpfYlt3bFlaVg=='}]);
+_stq.push([ 'clickTrackerInit', '83109132', '1785' ]);
+</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<script defer id="bilmur" data-customproperties="{&quot;enq_jquery&quot;:&quot;1&quot;,&quot;logged_in&quot;:&quot;0&quot;,&quot;wptheme&quot;:&quot;premium\/beacon&quot;,&quot;wptheme_is_block&quot;:&quot;0&quot;}" data-provider="wordpress.com" data-service="simple"  src="/wp-content/js/bilmur.min.js?i=11&m=202350"></script><script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+<script>
+(function() {
+	'use strict';
+
+	const fetches = {};
+	const promises = {};
+	const urls = {
+		'verbum': 'https://s0.wp.com/wp-content/mu-plugins/verbum/dist/index.js?m=1702434663i&ver=1702434663'
+	};
+	const loaders = {
+		'verbum': () => {
+			fetchExternalScript('verbum');
+			promises['verbum'] = promises['verbum'] || loadWPScript('verbum');
+			return promises['verbum'];
+		},
+		
+	};
+	const scriptExtras = {
+		
+	};
+
+	window.WP_Enqueue_Dynamic_Script = {
+		loadScript: (handle) => {
+			if (!loaders[handle]) {
+				console.error('WP_Enqueue_Dynamic_Script: unregistered script `' + handle + '`.');
+			}
+			return loaders[handle]();
+		}
+	};
+
+	function fetchExternalScript(handle) {
+		if (!urls[handle]) {
+			return Promise.resolve();
+		}
+
+		fetches[handle] = fetches[handle] || fetch(urls[handle], { mode: 'no-cors' });
+		return fetches[handle];
+	}
+
+	function runExtraScript(handle, type, index) {
+		const id = 'wp-enqueue-dynamic-script:' + handle + ':' + type + ':' + (index + 1);
+		const template = document.getElementById(id);
+		if (!template) {
+			return Promise.reject();
+		}
+
+		const script = document.createElement( 'script' );
+		script.innerHTML = template.innerHTML;
+		document.body.appendChild( script );
+		return Promise.resolve();
+	}
+
+	function loadExternalScript(handle) {
+		if (!urls[handle]) {
+			return Promise.resolve();
+		}
+
+		return fetches[handle].then(() => {
+			return new Promise((resolve, reject) => {
+				const script = document.createElement('script');
+				script.onload = () => resolve();
+				script.onerror = (e) => reject(e);
+				script.src = urls[handle];
+				document.body.appendChild(script);
+			});
+		});
+	}
+
+	function loadExtra(handle, pos) {
+		const count = (scriptExtras[handle] && scriptExtras[handle][pos]) || 0;
+		let promise = Promise.resolve();
+
+		for (let i = 0; i < count; i++) {
+			promise = promise.then(() => runExtraScript(handle, pos, i));
+		}
+
+		return promise;
+	}
+
+	function loadWPScript(handle) {
+		return loadExtra(handle, 'before')
+			.then(() => loadExternalScript(handle))
+			.then(() => loadExtra(handle, 'after'));
+	}
+} )();
+</script>
+
+</body>
+</html>

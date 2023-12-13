@@ -1,21 +1,26 @@
-   Link: license
+   secondo le linee guida sull'uso delle fonti. Segui i suggerimenti del
+   progetto di riferimento.
+   [IMG]Schema di un albero di maestra generico [IMG]Il vascello britannico
+   H.M.S. Victory alla fonda a Portsmouth: l'albero di maestra sta al centro
 
-                                albero da frutto
-
-   From Wiktionary, the free dictionary
---
-
-   Italian Wikipedia has an article on:
-   albero da frutto
-   Wikipedia ^it
+   L'albero di maestra è l'albero maggiore delle navi a vela. Solitamente è
+   costituito da quattro parti ben distinte; partendo dal basso si ha:
 
 --
-  Noun[edit]
+     * Alberetto di controvelaccio (4)
 
-   albero da frutto m (plural alberi da frutto)
+   In corrispondenza delle specifiche zone dell'albero appena descritte si
+   trovano i rispettivi pennoni (più uno volante); partendo sempre dal basso:
 
-    1. fruit tree
-   Retrieved from
-   "https://en.wiktionary.org/w/index.php?title=albero_da_frutto&oldid=69188175"
-   Categories:
-     * Italian terms with audio links
+--
+     * Pennone di controvelaccio (V)
+
+   I nomi delle vele inferite sull'albero di maestra prendono il nome dai
+   rispettivi pennoni:
+
+--
+
+     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
+       altri file su albero di maestra
+
+Collegamenti esterni[modifica | modifica wikitesto]

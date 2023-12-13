@@ -1,285 +1,1771 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html xml:lang="ru" lang="ru">
 
-    <title>Лекция Г2. Абстрактное синтаксическое дерево (AST)</title>
-    <meta name="title" content="Лекция Г2. Абстрактное синтаксическое дерево (AST)" />
-    <meta property="og:title" content="Лекция Г2. Абстрактное синтаксическое дерево (AST)" />
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="cmsmagazine" content="cdc79537f1d9f113c73cd2fd46ca0125"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <!--[if IE]>
 
-    <meta name="description" content="Лекция из цикла &quot;Создаём язык программирования&quot;" />
-    <meta property="og:description" content="Лекция из цикла &quot;Создаём язык программирования&quot;" />
+	<link rel="stylesheet" type="text/css" href="/local/templates/elki/style/ie.css" />
+	<![endif]-->
 
-    <meta property="og:site_name" content="Сайт Евгения Золотарева" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="ru" />
-    <meta property="og:image" content="https://eugenezolotarev.ru/images/previews/programming/creating-language/g-02-ast-5bb3d8ca.png" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="История новогоднего дерева  – от древних времен до наших дней " />
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
 
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:title" content="Лекция Г2. Абстрактное синтаксическое дерево (AST)" />
-    <meta property="twitter:description" content="Лекция из цикла &quot;Создаём язык программирования&quot;" />
-    <meta property="twitter:image" content="https://eugenezolotarev.ru/images/previews/programming/creating-language/g-02-ast-5bb3d8ca.png" />
 
-    <meta property="vk:image" content="https://eugenezolotarev.ru/images/previews/programming/creating-language/g-02-ast.vk-3efdddb3.png" />
+<link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.css?166979252623393" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/css/main/bootstrap.css?1665401895141508" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/css/main/font-awesome.css?166540189528777" type="text/css"  rel="stylesheet" />
+<link href="/local/templates/elki/components/bitrix/news.detail/flat/style.css?16654022914377" type="text/css"  rel="stylesheet" />
+<link href="/local/templates/elki/style/header.css?16693800397961" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/style/hamburgers.css?166540229222274" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/style/header-mobile.css?16709208209909" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/style/footer.css?16710256434196" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/styles/style.css?169538237523485" type="text/css"  data-template-style="true"  rel="stylesheet" />
+ 
+<link href="/local/templates/elki/components/bitrix/search.title/search/style.css?1665402292185" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/components/bitrix/menu/top_menu/style.css?16654022914418" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/components/bitrix/sale.basket.basket.line/elki/style.css?16654022923683" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/components/bitrix/breadcrumb/.default/style.css?16654022911210" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/style/pages/others.css?16654022925426" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/components/bitrix/menu/bottom_menu/style.css?16654022911930" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/components/bitrix/sale.basket.basket.line/header-mobile/style.css?1665402292771" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/components/demo/main.feedback/oneclick/style.css?1665402292297" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/components/demo/main.feedback/callback/style.css?16654022923433" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/elki/template_styles.css?167567737728242" type="text/css"  data-template-style="true"  rel="stylesheet" />
 
-    <script src="/javascripts/jquery-3.3.0.min-c924cdb1.js"></script>
-    <script src="/javascripts/popper.min-6dbce88a.js"></script>
-    <script src="/javascripts/bootstrap.min-6778fed3.js"></script>
-    <script src="/javascripts/highlight.pack-f39cc4df.js"></script>
 
-    <link href="/stylesheets/site-4f7d2e94.css" rel="stylesheet" />
-    <script src="/javascripts/site-da39a3ee.js"></script>
 
-    <!-- ВК: виджет комментариев -->
-    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
-    <script type="text/javascript">
-      VK.init({apiId: 7436884, onlyWidgets: true});
+
+
+
+
+    <title>
+        История новогоднего дерева  – от древних времен до наших дней — Статьи | Интернет-магазин Елки-Ели    </title>
+        <meta name="yandex-verification" content="8cae87180d843772"/>
+    <meta name="google-site-verification" content="mtv3AKzU3QvRhU4vopIUgh2fjlLmYgVc3_vwG5QfrFM"/>
+    <!-- Google tag (gtag.js) -->
+    <!-- Google Tag Manager -->
+<script data-skip-moving="true">
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MFBD7NF');
+</script>
+<!-- End Google Tag Manager -->
+</head>
+<body class="display123">
+<div class="void-mobile" style="height:50px;"></div>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__top">
+                <div class="header__logo header-logo">
+                    <div class="snow_effect"></div>
+                                            <a class="header-logo__link" href="/">
+                            <img src="/local/templates/elki/img/logo.svg" alt="" class="header-logo__img">
+                        </a>
+                                    </div>
+                <div class="header__main header-main">
+                    <div class="header-main__row">
+						<!--<div class="header-main__location header-location">
+								<span class="header-location__value">Москва</span>
+						</div>-->
+                        <div class="header-main__user header-user">
+                                                            <a class="header-user__profile" href="/auth/">
+									<img src="/local/templates/elki/img/header_account.svg">
+                                    <!--<svg class="header-user__icon">
+                                        <use xlink:href="/local/templates/elki/img/sprite.svg#profile"></use>
+                                    </svg>-->
+                                </a>
+                            							<a class="header-user__favorite" href="/favorites/">
+								<img src="/local/templates/elki/img/header_favorites.svg">
+                                <!--<svg class="header-user__icon">
+                                    <use xlink:href="/local/templates/elki/img/sprite.svg#heart"></use>
+                                </svg>-->
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-main__row">
+                        <div class="header-main__callback header-callback">
+                            <a class="header-callback__button" href="#openModalFormCallBack">Заказать звонок</a>
+                        </div>
+                        <div class="header-main__phone header-phone">
+                            <a class="header-phone__value" href="tel:74991104093">8 (499) 110 40 93</a>
+                            <!--<a class="header-phone__value" href="tel:79858200301">8 (985) 820 03 01</a>-->
+                        </div>
+                    </div>
+                    <div class="header-main__row">
+                        <div class="header-main__search header-search">
+    <form autocomplete="off" class="header-search__form" id="searchDesktopForm" action="/search" method="get">
+        <input autocomplete="false" name="hidden" type="text" style="display:none;">
+        <input class="header-search__input" id="searchDesktopInput" type="text" name="q" placeholder="Поиск">
+        <button class="header-search__submit" type="submit">
+            <svg class="header-search__icon">
+                <use xlink:href="/local/templates/elki/img/sprite.svg#search"></use>
+            </svg>
+        </button>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="tops" class="default">
+                <div class="navigation_bask">
+    
+        
+    
+    <div class="in_mob_show log" id="in_mob_showbask2" style="display: none;">
+        <a href="/" style="display: block;">
+            <img class="logoImg" src="/local/templates/elki/img/onlyLogo.webp" alt="logo"/>
+        </a>
+    </div>
+    <nav class="menu" id="menu">
+        <ul class="menu__list">
+                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="menu__item">
+                                                    <a class="menu__link " href="/catalog/novogodnie-elki/"
+                               rel="nofollow">Елки новогодние срезанные</a>
+                                                							
+                            <ul class="menu__sub-list">
+                                																		<li class="menu__sub-title">
+										<span class="menu__sub-text">
+										Пихты										</span>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/pikhta-nordmana/"
+											rel="nofollow">
+												Пихта Нордмана										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/lasiokarpa/"
+											rel="nofollow">
+												Пихта Скандинавская										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/pikhta-kavkazskaya/"
+											rel="nofollow">
+												Пихта Кавказская										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/pikhta-frazera/"
+											rel="nofollow">
+												Пихта Фразера										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/pikhta-nobilis/"
+											rel="nofollow">
+												Пихта Нобилис										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/pikhta-sibirskaya-srez/"
+											rel="nofollow">
+												Пихта сибирская										</a>
+									</li>
+									                                																		<li class="menu__sub-title">
+										<span class="menu__sub-text">
+										Елки										</span>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/el-datskaya/"
+											rel="nofollow">
+												Датская елка										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/el-amerikanskaya-golubaya/"
+											rel="nofollow">
+												Голубая елка										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/elka-amerikanskaya-zelenaya/"
+											rel="nofollow">
+												Зеленая елка										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/el-norvezhskaya/"
+											rel="nofollow">
+												Норвежская елка										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/el-serbskaya/"
+											rel="nofollow">
+												Сербская елка										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/el-russkaya/"
+											rel="nofollow">
+												Русская Елка										</a>
+									</li>
+									                                																		<li class="menu__sub-title">
+										<span class="menu__sub-text">
+										Сосны										</span>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/sosna-krymskaya/"
+											rel="nofollow">
+												Сосна крымская										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/sosna-russkaya/"
+											rel="nofollow">
+												Сосна обыкновенная										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-elki/sosna-kanadskaya/"
+											rel="nofollow">
+												Сосна канадская										</a>
+									</li>
+									                                                            </ul>
+                                            </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="menu__item">
+                                                    <a class="menu__link " href="/catalog/elki-v-gorshkah/"
+                               rel="nofollow">Елки в горшках</a>
+                                                							
+                            <ul class="menu__sub-list">
+                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/podarochnie-elki/"
+											rel="nofollow">
+												Настольные елки										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/elki-v-gorshkah/"
+											rel="nofollow">
+												Елки в горшках										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/elki-dlya-visadki/"
+											rel="nofollow">
+												Хвойные деревья для высадки										</a>
+									</li>
+									                                                            </ul>
+                                            </li>
+                                                                                                                                                    <li class="menu__item">
+                                                    <a class="menu__link " href="/catalog/lapnik/"
+                               rel="nofollow">Лапник и венки</a>
+                                                							
+                            <ul class="menu__sub-list">
+                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/lapnik/"
+											rel="nofollow">
+												Лапник										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/novogodnie-venki/"
+											rel="nofollow">
+												Дизайнерские венки										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/wreaths-blanks/"
+											rel="nofollow">
+												Венки и заготовки										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/elochki-iz-lapnika-dizain/"
+											rel="nofollow">
+												Елочки из лапника дизайнерские										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/elochki-iz-lapnika/"
+											rel="nofollow">
+												Елочки из лапника										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/kompozicii-iz-lapnika/"
+											rel="nofollow">
+												Композиции из лапника										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/bukety/"
+											rel="nofollow">
+												Букеты										</a>
+									</li>
+									                                                            </ul>
+                                            </li>
+                                                                                                                                                                                                                                                                    <li class="menu__item">
+                                                    <a class="menu__link " href="/catalog/podstavki/"
+                               rel="nofollow">Подставки и кашпо</a>
+                                                							
+                            <ul class="menu__sub-list">
+                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/podstavki/"
+											rel="nofollow">
+												Подставки										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/kashpo/"
+											rel="nofollow">
+												Кашпо										</a>
+									</li>
+									                                                            </ul>
+                                            </li>
+                                                                                                                        <li class="menu__item">
+                                                    <a class="menu__link " href="/catalog/ukrashenia/"
+                               rel="nofollow">Игрушки и аксессуары</a>
+                                                							
+                            <ul class="menu__sub-list">
+                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/ukrashenia/podarochnyy-sertifikat/"
+											rel="nofollow">
+												Подарочный сертификат										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/himiya/"
+											rel="nofollow">
+												Химия										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/designer-toys/"
+											rel="nofollow">
+												Дизайнерские игрушки										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/elochnie-igrushki/"
+											rel="nofollow">
+												Елочные игрушки										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/girlyandy/"
+											rel="nofollow">
+												Гирлянды										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/svechi/"
+											rel="nofollow">
+												Электрические свечи										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/fonariki/"
+											rel="nofollow">
+												Фонарики										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/shishki/"
+											rel="nofollow">
+												Шишки										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/moh/"
+											rel="nofollow">
+												Мох										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/iskustvenniy-sneg/"
+											rel="nofollow">
+												Искусственный снег										</a>
+									</li>
+									                                                            </ul>
+                                            </li>
+                                                                <li class="menu__item">
+                                                    <a class="menu__link " href="/catalog/listvennye_rasteniya/"
+                               rel="nofollow">Лиственные растения</a>
+                                                							
+                            <ul class="menu__sub-list">
+                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/kustarniky/"
+											rel="nofollow">
+												Кустарники										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/Mnogoletnye_listvennye_rastenya/"
+											rel="nofollow">
+												Многолетние лиственные растения										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/catalog/listvennye_dereviya/"
+											rel="nofollow">
+												Лиственные деревья										</a>
+									</li>
+									                                                            </ul>
+                                            </li>
+                                                                <li class="menu__item">
+                                                    <a class="menu__link " href="/about/delivery/"
+                               rel="nofollow">Доставка и оплата</a>
+                                                							
+                            <ul class="menu__sub-list">
+                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/uslugi/delivery/"
+											rel="nofollow">
+												Доставка										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/about/payment/"
+											rel="nofollow">
+												Оплата										</a>
+									</li>
+									                                                            </ul>
+                                            </li>
+                                                                                                                        <li class="menu__item">
+                                                    <a class="menu__link " href="/uslugi/"
+                               rel="nofollow">УСЛУГИ</a>
+                                                							
+                            <ul class="menu__sub-list">
+                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/uslugi/ustanovka/"
+											rel="nofollow">
+												Установка елки										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/uslugi/demontazh/"
+											rel="nofollow">
+												Демонтаж и утилизация										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/uslugi/neskolko-elok-na-vybor/"
+											rel="nofollow">
+												Доп. дерево на выбор										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/uslugi/strakhovka/"
+											rel="nofollow">
+												Страховка елки										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/uslugi/foto-yelki-lichnyy-menedzher/"
+											rel="nofollow">
+												Личный менеджер										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/uslugi/dostavka_dedom_morozom/"
+											rel="nofollow">
+												Доставка елки дедом морозом										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/uslugi/arenda_elki/"
+											rel="nofollow">
+												Аренда елки в горшке										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/uslugi/podyem_na_etazh/"
+											rel="nofollow">
+												Подъем на этаж										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/uslugi/posadka-derevev/"
+											rel="nofollow">
+												Посадка и уход										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/uslugi/strizhka_i_ukhod_za_zhivymi_izgorodyami/"
+											rel="nofollow">
+												Стрижка и уход за живыми изгородями										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/uslugi/delivery/"
+											rel="nofollow">
+												Доставка										</a>
+									</li>
+									                                                            </ul>
+                                            </li>
+                                                                                                                                                                                                                                                                                                                                                                                    <li class="menu__item">
+                                                    <a class="menu__link " href="/elochnye-bazary/"
+                               rel="nofollow">ЕЛОЧНЫЕ БАЗАРЫ</a>
+                                                                    </li>
+                                                                <li class="menu__item">
+                                                    <a class="menu__link " href="/about/"
+                               rel="nofollow">О нас</a>
+                                                							
+                            <ul class="menu__sub-list">
+                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/about/contacts/"
+											rel="nofollow">
+												Контакты										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/about/dlya-optovikov/"
+											rel="nofollow">
+												Для оптовиков										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/about/articles/"
+											rel="nofollow">
+												Статьи										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/about/novosti/"
+											rel="nofollow">
+												Новости										</a>
+									</li>
+									                                									                                    <li class="menu__sub-item">
+										<a 
+											class="menu__sub-link
+																						"
+											href="/about/fotogalereya/"
+											rel="nofollow">
+												Фотогалерея										</a>
+									</li>
+									                                                            </ul>
+                                            </li>
+                                                                                                                                                                        			<li class="menu__item-more">
+				<svg class="menu__ico-more" viewBox="0 0 100 100">
+					<use xlink:href="/include/img/symbol-defs.svg#icon-arrow"> </use>
+				</svg>
+				<ul class="menu__sub-list menu__sub-list-more"></ul>
+			</li>
+        </ul>
+    </nav>
+	
+<a href="/personal/order/make/" id="bx_basketFKauiI" class="bask" rel="nofollow"><!--'start_frame_cache_bx_basketFKauiI'--><figure  class="bask__figure">
+<!--<img src="/include/img/bask.png" alt="Корзина"  class="bask__img"/>-->
+	<svg class="bask__img" >
+		<use xlink:href="/include/img/symbol-defs.svg#icon-basket"> </use>
+	</svg>
+<span class="bask__quantity">0</span>
+</figure>
+<!--<div>
+	<p class="cart__name">Корзина</p>
+</div>-->
+					<span class="bask__total-price">0 руб.</span>
+					
+		<!--'end_frame_cache_bx_basketFKauiI'--></a>
+</div>
+            </div>
+        </div>
+    </header>
+<main class="main">
+                <div class="beards_crums" itemprop="http://schema.org/breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+			<div class="bx-breadcrumb-item" id="bx_breadcrumb_0" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				
+				<a href="/about/" title="О нас" itemprop="item">
+					<span itemprop="name">О нас</span>
+				</a>
+				<meta itemprop="position" content="1" />
+			</div>
+			<div class="bx-breadcrumb-item" id="bx_breadcrumb_1" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				
+				<a href="/about/articles/" title="Статьи" itemprop="item">
+					<span itemprop="name">Статьи</span>
+				</a>
+				<meta itemprop="position" content="2" />
+			</div>
+			<div class="bx-breadcrumb-item">
+				
+				<span>История новогоднего дерева  – от древних времен до наших дней</span>
+			</div><div style="clear:both"></div></div>        <div class="oplata about-articles">
+                
+
+
+
+<!-- p class="title_elka">
+    <img src="/include/img/elka.png" width="62" height="62">
+</p> -->
+<div class="customContainer artcle_container">
+	<h1 class="title_elka">История новогоднего дерева  – от древних времен до наших дней</h1>
+<div class="bx-newsdetail">
+	<div class="bx-newsdetail-block" id="bx_1878455859_5315">
+
+				
+	
+	<div class="bx-newsdetail-content">
+			<style>
+
+.articleBlock {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .articleImg {
+    flex: 0 0 400px;
+    position: relative;
+    margin-right: 15px;
+  }
+  /* .articleImg img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      object-position: center;
+    } */
+
+  .articleP {
+    font-size: 14px;
+    text-align: justify;
+	text-indent: 30px;
+  }
+
+   li p.articleP {
+	text-indent: 0px;
+	text-aligh: left;
+  }
+
+  .articleP img {
+      float: left;
+      max-width: 26%;
+      margin: 5px 10px 0 0;
+    } 
+
+  .indent {
+    text-indent: 50px;
+  }
+
+  .articleText .articleP:last-child {
+    margin: 0;
+  }
+  .articleHeader {
+    font-size: 20px;
+    /* text-transform: uppercase; */
+  }
+  .articleBlock li {
+    font-size: 20px;
+  line-height: 1.2;
+  }
+  #anchors li a {
+    color: #719cff;
+    font-size: 14px;
+  }
+  .articleBlock ul {
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+  .articleImgHorisontal {
+    height: 600px;
+    margin: 0;
+  }
+
+  .img {
+    max-height: 250px;
+  }
+/*
+  img {
+    margin: 10px 0 0 0;
+    max-width: 100%;
+  }
+*/
+
+   .title_elka {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: arsenal_bold;
+    font-family: Arial;
+    font-weight: bold;
+    color: #719cff;
+}
+  h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 0 15px 0;
+    line-height: 1.2;
+  }
+  h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 20px 0 15px 0;
+    line-height: 1.2;
+  }
+  .imgWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .imgWrap img {
+    margin: 10px 0 0 0;
+    max-width: 100%;
+  }
+  .imgTitle {
+    font-style: italic;
+    font-size: 14px;
+    margin: 1px 0 10px 0;
+  }
+
+  .customContainer {
+   font-size: 14px;
+   margin: 15px;
+   }
+
+   /*непосещенная ссылка*/
+    .articleBlock a:link {
+     color:#719cff;
+    }
+
+    /* visited link */
+    .articleBlock a:visited {
+    color: #719cff;
+     }
+
+     /*курсор на ссылке*/
+     .articleBlock a:hover {
+     color:#719cff;
+     }
+
+     /*выбранная ссылка */
+     .articleBlock a:active {
+     color: #719cff;
+      }
+
+
+  @media screen and (max-width: 768px) {
+    .no-mobile {
+      display: none;
+    }
+    .img {
+      max-height: 250px;
+    }
+    .articleText {
+      order: 1;
+    }
+    .articleImg {
+      order: 2;
+      flex: 0 0 400px;
+      margin: 0;
+    }
+    .articleBlock {
+      flex-direction: column;
+      padding: 0 15px;
+    }
+    h2,
+    h3 {
+      padding: 0 15px;
+      font-weight: 600;
+      margin: 20px 0 15px 0;
+    }
+    .title_elka {
+    font-size: 28px;
+    margin-bottom: 27px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 17px;
+    }
+    .articleBlock h2,
+    h3 {
+      padding: 0;
+    }
+    .articleImg img {
+      object-fit: contain;
+    }
+    .articleP {
+      font-size: 15px;
+    }
+    .articleImgHorisontal {
+      height: 300px;
+      margin: 0;
+    }
+  }
+</style>
+<div class="articleBlock" id="anchors">
+	<div class="articleText">
+		<p class="articleP">
+			 Содержание:
+		</p>
+		<ul>
+			<li><a href="#block-1">Все начиналось с культа</a> </li>
+			<li><a href="#block-2">Почему ель?</a> </li>
+			<li><a href="#block-3">Мы наш, мы Новый Год построим!</a> </li>
+			<li><a href="#block-4">Перипетии ХХ столетия</a> </li>
+		</ul>
+		<p class="articleP">
+			 История появления в наших домах такого привычного атрибута веселых зимних праздников, как нарядная елочка, напоминает захватывающий сериал, где драма перемежается с легендами и настоящими сказками.
+		</p>
+	</div>
+</div>
+<h2 id="block-1">Все начиналось с культа</h2>
+<div class="articleBlock">
+	<div class="articleText">
+		<p class="articleP">
+			 Познавая окружающий мир, люди с давних времен стремились найти подтверждение идее бессмертия. Поэтому обычай приветствовать возрождение жизни – такой же древний, как и само человечество. В сказаниях и легендах наших далеких предков символом наступления Нового года стало вечнозеленое дерево, как надежда на изменения к лучшему. Ствол рассматривался как человеческое общество, крона – пантеон богов, а корни – место, где собираются темные силы. Древу поклонялись как маленькой копии неисчерпаемого мироздания. Не зря римляне и греки тысячелетия назад наряжали туи, можжевельники, ели, приветствуя обновленный мир..
+		</p>
+		<p class="articleP">
+			 Но не только хвойные красавицы были важными знаками Новолетия. С этой ролью прекрасно справлялись пальмы, березы и вишни! В Средние века во многих уголках Европы Новый год встречали в марте, когда зимняя стужа сменялась долгожданной весной. Именно березу, - олицетворение любви, жизни и благополучия, - обряжали как праздничное дерево. Позже, в XV-XVI вв., смену лет стали отмечать 1 сентября, и почетное место досталось вишне, приносящей сладкие плоды.
+		</p>
+	</div>
+</div>
+<h2 id="block-2">Почему ель?</h2>
+<div class="articleBlock">
+	<div class="articleText">
+		<p class="articleP">
+			 Как видите, пушистая лесная гостья с мягкими ароматными лапами не так давно по историческим меркам вытеснила остальных конкуренток с новогоднего Олимпа. Хотя, справедливости ради, стоит упомянуть древних кельтов, которые поклонялись именно ей, как знаку вечной жизни. А вот дальнейший путь нашей героини к сердцам людей скрыт за тайной столетий. Она появляется в своей обновленной роли сакрального украшения лишь в конце первого тысячелетия. Красивая и почти сказочная легенда говорит о том, как в VII веке некий набожный монах Бонифаций, обращая германских язычников в христианство, на глазах изумленной публики взял и срубил дуб, дабы доказать, что это вовсе не священный атрибут. Могучий красавец рухнул, сломав по пути всю растительность, за исключением ели! И проповедник якобы воскликнул: «Вот настоящий символ Христа, древо самого Бога!» С тех пор именно эта зеленая скромница стала главным олицетворением возрождения.
+		</p>
+		<div class="imgWrap">
+ <img alt="Отечественные новогодние деревья: 1. Русская елка, 2. Русская Сосна, 3. Сибирская пихта" src="/upload/medialibrary/05e/05e4370e2b8c46ced014435fcc903a07.jpg"> <span class="imgTitle">Отечественные новогодние деревья: 1. Русская елка, 2. Русская Сосна, 3. Сибирская пихта</span>
+		</div>
+		<p class="articleP">
+			 Революционные времена протестантской Реформации принесли средневековому европейскому жителю новшество в виде украшенной яблоками и восьмиконечной Вифлеемской звездой ели, которую устанавливали в храмах на Рождество. Простые граждане приносили домой ветви и целые деревца, чтобы подготовить жилье к главному христианскому торжеству.
+		</p>
+		<p class="articleP">
+			 А вот в ритуалах наших славянских предков елочка играла довольно печальную роль – ее ветви традиционно использовалась в похоронных обрядах. А ельник и вовсе не привлекал своей постоянной затененностью и мрачностью.
+		</p>
+	</div>
+</div>
+<h2 id="block-3">Мы наш, мы Новый Год построим!</h2>
+<div class="articleBlock">
+	<div class="articleText">
+		<p class="articleP">
+			 Возможно, такое отношение к пушистому чуду сохранялось бы еще долго, если бы не Петр I с его неуемной энергией и желанием ломать устаревшие стереотипы. Знаменитый Указ от 16 декабря 1699 года повелевал отмечать Новый год 1 января, по примеру христианской Европы. Царь призвал украшать в этот день улицы и дома зеленой хвоей. Так что вместе с еловыми, на фасадах зданий красовались также сосновые и можжевеловые ветки. У входа в дом многие городские жители ставили живые елки.
+		</p>
+		<p class="articleP">
+			 Рождественские гулянья проводились с истинно петровским размахом. Но после кончины правителя энтузиазм немного поутих, и почти на сто лет красивая традиция приносить в жилье душистые игольчатые лапы была забыта. Не так-то просто изменить сознание людей и навязать им непривычные новшества.
+		</p>
+		<p class="articleP">
+			 Лишь к концу царствования Екатерины II елки постепенно стали возвращать доверие как признак Нового года и Рождества. Их приносили в дом уже не из страха перед гневом высоких покровителей, а для создания радостной атмосферы.
+		</p>
+		<div class="imgWrap">
+ <img alt="Необычные новогодние деревья, которые выращиваются в России и зарубежом: 1. Крымская сосна, 2. Ель Норвежская, 3. Пихта Нордмана (Ель датская)" src="/upload/medialibrary/803/80311c6796a7ea6b278d592a1ed5685a.jpg"> <span class="imgTitle">Необычные новогодние деревья из России: 1. Крымская сосна, 2. Ель Норвежская, 3. Пихта Нордмана (Ель датская)</span>
+		</div>
+		<p class="articleP">
+			 Окончательно возродили традицию в XIX веке петербургские немцы, активно привлекаемые в Россию еще со времен царя-реформатора. Именно эти педантичные переселенцы наряжали колючих прелестниц в своих особняках, подавая пример всем остальным горожанам, которые тоже спешили купить елки. Правда, организация веселых торжеств была довольно дорогой, и позволить ее себе могли только весьма состоятельные люди. С подачи великой княгини Александры Федоровны, урождённой принцессы прусской Фридерики Луизы, начиная с 1818 года «Ёлки» (а именно так стали называть празднование Нового года), стали ежегодно устраивать для питерской знати.
+		</p>
+		<p class="articleP">
+			 К середине столетия нарядная живая ель стала уже традиционной гостьей в домах не только богатых аристократов, но и обычных граждан. В этой истории наша елочка напоминает сказочную скромницу-падчерицу, которая, благодаря доброжелательной поддержке волшебной Феи, превратилась в прекрасную королевну.
+		</p>
+		<p class="articleP">
+			 Жители Российской империи постепенно так свыклись с мыслью, что Рождество должно пахнуть хвоей, что уже не представляли себе главный зимний праздник без окутанного гирляндами и веселыми игрушками разлапистого деревца, за которым с удовольствием шли на елочные базары.
+		</p>
+	</div>
+</div>
+<h2 id="block-4">Перипетии ХХ столетия</h2>
+<div class="articleBlock">
+	<div class="articleText">
+		<div class="imgWrap">
+ <img alt="Новогодние украшения на елку во времена СССР" src="/upload/medialibrary/4e3/4e3e4a847aa9ca30321b91d88b4e02fe.JPG"> <span class="imgTitle">Новогодние украшения на елку во времена СССР</span>
+		</div>
+		<p class="articleP">
+			 Грозные потрясения беспокойного века не минули и чудесную лесную гостью. По России одна за другой прокатились революции, народы бросило в пучину Первой мировой, унесшей миллионы жизней. Кровавая гражданская война катком прошлась не только по судьбам людей и целых наций, но и смела с повестки дня такую радостную отдушину, как встреча Нового года. Рождественская елка в 1929 году была объявлена советскими властями вне закона, как символ планомерно уничтожаемой религиозности в сознании простых граждан.
+		</p>
+		<p class="articleP">
+			 Так сказка стала драмой. Но, к счастью, в подполье пушистая чаровница пробыла недолго. В 1935 году, дабы подтвердить сомнительный для тех времен лозунг «Жить стало лучше, жить стало веселее!» было предписано повсеместно организовывать новогодние утренники для ребятни, с песнями, хороводами, забавами в окружении блестящих шаров и сверкающих огоньков. Елочка вернулась в дома людей, чтобы наполнять сердца предвкушением чуда и ожиданием счастья в наступающем году. Композиторы и поэты стали сочинять про нее песни (помните – «В лесу родилась …»), а на сцены театров вернулся «Щелкунчик».
+		</p>
+		<div class="imgWrap">
+ <img alt="Зарубежные новогодние деревья: 1. Ель Американская, 2. Ель сербская, 3. Скандинавская пихта" src="/upload/medialibrary/80b/80bfd9f523c7a91050559629c44f7310.jpg"> <span class="imgTitle">Зарубежные новогодние деревья: 1. Сосна Канадская, 2. Пихта Нобилис, 3. Пихта Фрайзера</span>
+		</div>
+		<p class="articleP">
+			 Даже в непростые времена СССР уже никто не отнимал у советского человека веселый новогодний праздник. Правда, для его организации использовались только обычные лесные елки, и очень редко – сосны. А когда рухнул «Железный занавес», в стране начались долгожданные социально-экономические преобразования, и открылись границы, в Россию потянулись удивительные европейские красавицы – пихты Нордмана, Фразера. На смену вырубке елочек в лесу пришла культура выращивания новогодних деревьев в специальных питомниках.
+		</p>
+		<div class="imgWrap">
+ <img alt="Зарубежные новогодние деревья: 1. Ель Американская, 2. Ель сербская, 3. Скандинавская пихта" src="/upload/medialibrary/f77/f770a8ff3f41c0698e7f87d973ee2592.jpg"> <span class="imgTitle">Зарубежные новогодние деревья: 1. Ель Американская, 2. Ель сербская, 3. Скандинавская пихта</span>
+		</div>
+		<p class="articleP">
+			 И сегодня каждый из нас может купить новогоднюю елку на свой вкус и кошелек. Елочный интернет-базар Елки-елки предлагает широчайший ассортимент елочек, сосен и пихт. На нашем сайте Вы сможете выбрать понравившееся <a href="/catalog/novogodnie-elki/">срезанное дерево</a>, <a href="/catalog/podarochnie-elki/">подарочный вариант</a> зеленой красавицы, оригинальную <a href="/catalog/elki-v-dekorativnom-kaspo/">елочку в декоративном кашпо</a> или <a href="/catalog/elki-v-gorshkah/">в промышленном горшке</a>.
+		</p>
+		<p class="articleP">
+			 Вот такая непростая, но счастливая судьба у любимицы миллионов детей и взрослых по всей нашей планете!
+		</p>
+	</div>
+</div>
+ <br>
+ <br>
+<div class="articleBlock">
+	<div class="articleText">
+		<p class="articleP">
+			 Похожие статьи:
+		</p>
+		<ul>
+			<li> <a href="/articles/946/" style="color: #719cff; font-size: 16px" target="_blank">История нового года </a> </li>
+			<li> <a href="/articles/947/" style="color: #719cff; font-size: 16px" target="_blank">История елочных украшений </a> </li>
+			<li> <a href="/articles/4524/" style="color: #719cff; font-size: 16px" target="_blank">Современные тенденции оформления Нового года 2021-2022.</a> </li>
+		</ul>
+	</div>
+</div>
+ 		</div>
+
+		
+		
+	<div class="row">
+		<div class="col-xs-5">
+		</div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+<br>
+    <br>    </div>
+</div>
+</main>
+
+<footer>
+
+<center><a href="/personal/order/make/"><div class="knopochka-zakaz-vezde" id="zakazvezde"><span>Оформить заказ</span></div></a></center>
+    <div class="footer-contacts">
+
+		<nav class="nav-contacts">
+			<ul class="nav-contacts__list">
+				<li class="nav-contacts__item">
+					<a class="nav-contacts__phone" href="tel:84991104093">8 (499) 110 40 93</a>
+				</li>
+				<li class="nav-contacts__item">
+					<span class="nav-contacts__email nav-contacts__email--text">E-mail:</span>
+					<a class="nav-contacts__email" href="mailto:info@elki-eli.com">
+
+						info@elki-eli.com
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<nav class="nav-social">
+			<ul class="nav-social__list">
+				<li class="nav-social__item">
+
+
+          <a class="nav-social__link" href="https://wa.me/79858200301" >
+            <svg class="nav-social__img nav-social__img--wathsap" viewBox="0 0 100 100">
+              <use xlink:href="/include/img/symbol-defs.svg#icon-wathsap"> </use>
+            </svg>
+          </a>
+				</li>
+				<li class="nav-social__item">
+
+          <a class="nav-social__link" href="http://t.me/elki_eli" >
+						<svg class="nav-social__img nav-social__img--telega" viewBox="0 0 100 100">
+						<use xlink:href="/include/img/symbol-defs.svg#icon-telega"> </use>
+						</svg>
+					</a >
+
+				</li>
+				<li class="nav-social__item">
+					<a class="nav-social__link" href="https://instagram.com/elki_eli?igshid=YmMyMTA2M2Y=" >
+						<svg class="nav-social__img nav-social__img--insta" viewBox="0 0 100 100">
+							<use xlink:href="/include/img/symbol-defs.svg#icon-insta"> </use>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="footer-contacts__adress">
+			Адрес склада самовывоза: г. Москва, шоссе Энтузиастов, дом 70
+		</div>
+    <button style="background-color:#4470CA;border: 0;border-radius: 0;color:#719cff;" onclick="window.refreshOrder=function(){return false;};">Для оптовиков</button>
+
+        <!--<div class="vhod_reg">
+                            <p><a href="/auth/" class="act" rel="nofollow">Вход</a>|<a href="/auth/?register=yes" rel="nofollow">Регистрация</a>
+                </p>
+                    </div>-->
+    </div>
+	  <div class="footer-menu bottom-menu" >
+	<div class="footer-menu__wrap">
+			
+			<nav class="footer-menu__nav footer-menu__nav--1">
+				<h4 class="footer-menu__title">Каталог товаров</h4>
+				<ul class="footer-menu__list">
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/catalog/novogodnie-elki/">
+								Живые новогодние елки							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="https://elki-eli.com/catalog/podarochnie-elki/">
+								Подарочные елки							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/catalog/elki-v-gorshkah/">
+								Елки в горшках							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/catalog/elki-dlya-visadki/">
+								Хвойные деревья для высадки							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/catalog/lapnik/">
+								Лапник							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/catalog/novogodnie-venki/">
+								Новогодние венки							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/catalog/elochki-iz-lapnika/">
+								Елочки из лапника							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/catalog/elochki-iz-lapnika-dizain/">
+								Елочки из лапника дизайнерские							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/catalog/wreaths-blanks/">
+								Венки и заготовки							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/catalog/podstavki/">
+								Подставки для елки							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/catalog/kashpo/">
+								Кашпо							</a>
+						</li>
+										
+				</ul>
+			
+							</nav>
+	
+			
+			<nav class="footer-menu__nav footer-menu__nav--2">
+				<h4 class="footer-menu__title">Услуги</h4>
+				<ul class="footer-menu__list">
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/about/delivery/">
+								Доставка 							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/uslugi/ustanovka/">
+								Установка елки 							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/uslugi/demontazh/">
+								Демонтаж и утилизация							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/uslugi/strizhka_i_ukhod_za_zhivymi_izgorodyami/">
+								Стрижка и уход за живыми изгородями							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/uslugi/neskolko-elok-na-vybor/">
+								Доп. дерево на выбор							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/uslugi/strakhovka/">
+								Страховка елки							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/uslugi/podyem_na_etazh/">
+								Подъем на этаж							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/uslugi/posadka-derevev/">
+								Посадка и уход							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/uslugi/arenda_elki/">
+								Аренда елки в горшке							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/uslugi/dostavka_dedom_morozom/">
+								Доставка елки дедом морозом							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/uslugi/foto-yelki-lichnyy-menedzher/">
+								Личный менеджер							</a>
+						</li>
+										
+				</ul>
+			
+							</nav>
+	
+			
+			<nav class="footer-menu__nav footer-menu__nav--3">
+				<h4 class="footer-menu__title">Информация</h4>
+				<ul class="footer-menu__list">
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/elochnye-bazary/">
+								Елочные базары 							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/about/articles/">
+								Статьи							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/about/novosti/">
+								Новости							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/about/fotogalereya/index.php">
+								Фотогалерея							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/about/">
+								О компании							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/about/dlya-optovikov/">
+								Информация для оптовиков							</a>
+						</li>
+											<li class="footer-menu__item">
+							<a class="footer-menu__link" href="/about/contacts/">
+								Контакты 							</a>
+						</li>
+										
+				</ul>
+			
+									<div class="footer-menu__item police">
+						<span class="footer-menu__link footer-menu__link--text">
+							Заполняя любую форму на нашем сайте,<br> 
+							Вы соглашаетесь с 
+						</span>
+						<a class="footer-menu__link footer-menu__link--police" href="/about/contacts/politika-konfidentsialnosti.php" rel="nofollow">
+							политикой конфиденциальности компании 
+						</a>
+					</div>
+							</nav>
+	
+				
+	</div>
+</div>
+</footer>
+<!--TODO ИСПРАВИТЬ ЭТО НА АСИНХРОННУЮ ЗАГРУЗКУ-->
+<div class="header-mobile">
+    <div class="header-mobile__top">
+        <div class="header-mobile__col">
+            <button class="hamburger hamburger--collapse" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+            </button>
+            <div class="header-mobile__logo mobile-logo">
+                <a class="mobile-logo__link" href="/">
+                    <img class="mobile-logo__img" src="/local/templates/elki/img/svg/logo.svg" alt="logo"/>
+                </a>
+            </div>
+        </div>
+        <div class="header-mobile__col header-mobile__col--end">
+            <div class="header-mobile__function mobile-function">
+                <span class="mobile-function__search"
+                      style="background-image: url(/local/templates/elki/img/svg/search.svg);"></span>
+                <span class="mobile-function__search"
+                      style="background-image: url(/local/templates/elki/img/svg/phone.svg);"></span>
+            </div>
+            <div class="header-mobile__basket mobile-basket">
+                
+<a href="/personal/order/make/" id="bx_basketT0kNhm" class="mobile-basket__link" rel="nofollow">
+	<!--'start_frame_cache_bx_basketT0kNhm'--><div class="mobile-basket__img" style="background-image: url(/local/templates/elki/img/svg/basket.svg);">
+    </div>
+<!--'end_frame_cache_bx_basketT0kNhm'--></a>
+            </div>
+        </div>
+        <div class="mobile-search">
+            <div class="header-main__search header-search">
+    <form autocomplete="off" class="header-search__form" id="searchDesktopForm" action="/search" method="get">
+        <input autocomplete="false" name="hidden" type="text" style="display:none;">
+        <input class="header-search__input" id="searchDesktopInput" type="text" name="q" placeholder="Поиск">
+        <button class="header-search__submit" type="submit">
+            <svg class="header-search__icon">
+                <use xlink:href="/local/templates/elki/img/sprite.svg#search"></use>
+            </svg>
+        </button>
+    </form>
+</div>
+
+        </div>
+
+    </div>
+    <div class="header-mobile__bottom">
+        <div class="header-mobile__contact mobile-contact">
+            <a class="mobile-contact__link" href="tel:+74991104093"><span class="mobile-contact__phone">+7 (499) 110-40-93</span></a>
+            <!--<a class="mobile-contact__link" href="tel:+79858200301"><span class="mobile-contact__phone">+7 (985) 820-03-01</span></a>-->
+            <a class="mobile-contact__link" href="//wa.me/+79858200301">
+                <svg class="mobile-contact__icon">
+                    <use xlink:href="/local/templates/elki/img/sprite.svg#whatsApp"></use>
+                </svg>
+                <span class="mobile-contact__whatsapp">WhatsApp</span>
+            </a>
+            <a class="mobile-contact__link" href="//t.me/Elki_Eli">
+                <svg class="mobile-contact__icon">
+                    <use xlink:href="/local/templates/elki/img/sprite.svg#telegram"></use>
+                </svg>
+                <span class="mobile-contact__telegram">Telegram</span>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+<div id="openModalFormOneClick" class="modalDialog">
+
+<div class="mfeedback">
+
+<a href="#close" title="Закрыть" class="close"><img src="/include/img/close_modal.png" alt=""/></a>
+		<p>БЫСТРЫЙ ЗАКАЗ</p>
+
+<form method="POST">
+<input type="hidden" name="sessid" id="sessid" value="c7f21857bd80f756a77d101c375bb390" />	<div class="">
+		<div class="">
+			Ваше имя<span class="mf-req">*</span>		</div>
+		<input type="text" name="user_name" value="">
+	</div>
+			
+		<div class="">
+			<div class="">
+				Телефон			</div>
+			<input type="text" name="custom[]" value="">
+		</div>
+			<input type="submit" name="submit" value="Отправить">
+</form>
+</div>
+
+</div>
+
+
+<div id="openModalFormCallBack" class="modalDialog">
+
+<div class="mfeedback">
+
+<a href="#close" title="Закрыть" class="close"><img src="/include/img/close_modal.png" alt=""/></a>
+		<p>Заказать звонок</p>
+
+<form method="POST">
+<input type="hidden" name="sessid" id="sessid_1" value="c7f21857bd80f756a77d101c375bb390" />	<div class="">
+		<div class="">
+			Ваше имя<span class="mf-req">*</span>		</div>
+		<input type="text" name="user_name" value="">
+	</div>
+			
+		<div class="">
+			<div class="">
+				Телефон			</div>
+			<input type="text" class="phone-number" name="custom[]" value="">
+		</div>
+			<input type="submit" name="submit" onclick="ym(55590175, 'reachGoal', 'otpravka'); return true;" value="Отправить">
+</form>
+</div>
+
+</div>
+<div class="preloader"></div>
+    
+
+    <script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script type="text/javascript" src="/bitrix/js/main/core/core.js?1669792524488274"></script><script> 
+</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1702457785','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'c7f21857bd80f756a77d101c375bb390'});</script><script type="text/javascript"  src="/bitrix/cache/js/s1/elki/kernel_main/kernel_main_v1.js?1702214363225691"></script>
+<script type="text/javascript" src="/bitrix/js/ui/dexie/dist/dexie3.bundle.js?1669792475188902"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_ls.js?166540189810430"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.js?166540189817069"></script>
+<script type="text/javascript"> </script>
+<script>;window.ww_metrics_check=false;setInterval(function(){window.ww_metrics_check=false;},5000);function ww_metrics_postcheck(){if(!window.ww_metrics_check){window.ww_metrics_check=true;let request=new XMLHttpRequest();let formData='sessid='+BX.bitrix_sessid()+'&cur_page=/about/articles/5315/index.php&use_chat='+window.ww_is_webchat_show;request.responseType='json';request.open('POST','/bitrix/components/webway/metrics.simple/wwcheckmetrics.php',true);request.setRequestHeader('Content-type','application/x-www-form-urlencoded');request.addEventListener('readystatechange',function(){if(request.readyState===4 && request.status===200){let data=request.response;}});request.send(formData);}};document.addEventListener('mousemove',function(){ww_metrics_postcheck();});document.addEventListener('touchmove',function(){ww_metrics_postcheck();});document.addEventListener('scroll',function(){ww_metrics_postcheck();});window.addEventListener('beforeunload',function(){window.ww_metrics_check=false;ww_metrics_postcheck();});window.ww_metrics_check=false;setInterval(function(){window.ww_metrics_check=false;},5000);document.cookie="WW_BX_USER_ID=bx6685eeaf6502a21bbbaa267f3e753f2c;path=/;max-age=946857600";</script>
+
+
+
+<script type="text/javascript"  src="/bitrix/cache/js/s1/elki/template_eaa6851fccf2e584207f286d6a808d3d/template_eaa6851fccf2e584207f286d6a808d3d_v1.js?1702203802176498"></script>
+<script type="text/javascript"  src="/bitrix/cache/js/s1/elki/page_986f195a21ddc96e2113330308567fd7/page_986f195a21ddc96e2113330308567fd7_v1.js?17022039035357"></script>
+
+
+<script defer src="/local/templates/elki/js/jquery.maskedinput.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NZ75XSGB5D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NZ75XSGB5D');
+</script>
+<script>
+	BX.ready(function(){
+		new JCTitleSearch({
+			'AJAX_PAGE' : '/about/articles/5315/',
+			'CONTAINER_ID': 'searchDesktopForm',
+			'INPUT_ID': 'searchDesktopInput',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+</script><script>
+var bx_basketFKauiI = new BitrixSmallCart;
+</script><script type="text/javascript">
+	//refresh ajax
+	bx_basketFKauiI.siteId       = 's1';
+	bx_basketFKauiI.cartId       = 'bx_basketFKauiI';
+	bx_basketFKauiI.ajaxPath     = '/local/components/bitrix/sale.basket.basket.line/ajax.php';
+	bx_basketFKauiI.templateName = 'elki';
+	bx_basketFKauiI.arParams     =  {'PATH_TO_BASKET':'/personal/order/make/','PATH_TO_PERSONAL':'/personal/','SHOW_PERSONAL_LINK':'N','SHOW_TOTAL_PRICE':'Y','PATH_TO_REGISTER':'/login/','PATH_TO_PROFILE':'/personal/','COMPONENT_TEMPLATE':'elki','PATH_TO_ORDER':'/personal/order/make/','SHOW_NUM_PRODUCTS':'Y','SHOW_EMPTY_VALUES':'Y','SHOW_AUTHOR':'N','SHOW_PRODUCTS':'N','POSITION_FIXED':'N','HIDE_ON_BASKET_PAGES':'N','CACHE_TYPE':'A','SHOW_REGISTRATION':'N','PATH_TO_AUTHORIZE':'/login/','SHOW_DELAY':'Y','SHOW_NOTAVAIL':'Y','SHOW_IMAGE':'Y','SHOW_PRICE':'Y','SHOW_SUMMARY':'Y','POSITION_VERTICAL':'top','POSITION_HORIZONTAL':'right','MAX_IMAGE_SIZE':'70','AJAX':'N','~PATH_TO_BASKET':'/personal/order/make/','~PATH_TO_PERSONAL':'/personal/','~SHOW_PERSONAL_LINK':'N','~SHOW_TOTAL_PRICE':'Y','~PATH_TO_REGISTER':'/login/','~PATH_TO_PROFILE':'/personal/','~COMPONENT_TEMPLATE':'elki','~PATH_TO_ORDER':'/personal/order/make/','~SHOW_NUM_PRODUCTS':'Y','~SHOW_EMPTY_VALUES':'Y','~SHOW_AUTHOR':'N','~SHOW_PRODUCTS':'Y','~POSITION_FIXED':'N','~HIDE_ON_BASKET_PAGES':'N','~CACHE_TYPE':'A','~SHOW_REGISTRATION':'N','~PATH_TO_AUTHORIZE':'/login/','~SHOW_DELAY':'Y','~SHOW_NOTAVAIL':'Y','~SHOW_IMAGE':'Y','~SHOW_PRICE':'Y','~SHOW_SUMMARY':'Y','~POSITION_VERTICAL':'top','~POSITION_HORIZONTAL':'right','~MAX_IMAGE_SIZE':'70','~AJAX':'N','cartId':'bx_basketFKauiI'}; // TODO \Bitrix\Main\Web\Json::encode
+	bx_basketFKauiI.closeMessage = 'Скрыть';
+	bx_basketFKauiI.openMessage  = 'Раскрыть';
+	bx_basketFKauiI.activate();
+</script><script>
+$(function(){
+  $(".menu__sub-title").nextAll(".menu__sub-item").css({"margin-left": "20px"});
+
+  
+	var sub_item_active = $('.menu__sub-link.active');
+	sub_item_active.parent().parent().parent().find('.menu__link').addClass('active');
+
+	setTimeout(function(){render_big();},0);
+	setTimeout(function(){render_big();},1);
+
+	$( window ).resize(function() {	render_big();	});
+
+function render_big(){
+	var counter = calc_counter();
+	var menu_list_class = '.menu__list';
+	var menu_list = $('.menu__list');
+	var menu_item = $('.menu__list > .menu__item');
+	var menu_item_more = $('.menu__sub-list-more > .menu__sub-item-more');
+	var menu_item_count = menu_item.length;
+	var step = 0;
+	var button_more = $('.menu__item-more')
+	var list_more = $('.menu__sub-list-more')
+	
+
+		if($( window ).width() >= 1920){
+			button_more.hide();
+			menu_item_more.each(function(){
+				$(this).appendTo(menu_list);
+			});
+		}else{
+			setTimeout(function(){button_more.show();},0);
+			
+		}
+	
+	if(menu_item_count < counter){
+		step = counter - menu_item_count;
+		for (var i = 0; i < step; i++) {
+
+			menu_item_plus = menu_item_more.eq(0);
+			menu_item_plus.removeClass('menu__sub-item-more');
+			button_more.before(menu_item_plus);
+		}
+
+	}
+
+	if (menu_item_count > counter) {
+		step = menu_item_count - counter;
+		//console.log(step);
+		for (var y = 0; y < step; y++) {
+		
+			menu_item_minus = menu_item.eq(-1);
+			menu_item_minus.addClass('menu__sub-item-more');
+			list_more.prepend(menu_item_minus);
+		}
+	}
+
+//console.log(menu_item_count, 'step='+step, counter);
+}
+
+function calc_counter(){
+	var counter = 7;
+	var window_width = $(window ).width();
+		
+		if(window_width >= 1920){
+			counter = 9;
+		}
+		else if(window_width < 1920 && window_width >= 1024){
+			counter = 7;
+		}
+		
+		else if(window_width < 1024 && window_width >=768){
+			counter = 5;
+		}else{
+			counter = 3;
+		}		
+		
+		return counter;
+}
+
+	
+});
+
+</script><script type="text/javascript">
+  $(document).ready(function () {
+    $("#anchors").on("click", "a", function (event) {
+      event.preventDefault();
+      var id = $(this).attr("href"),
+        heightMenu = $("#tops").height(),
+        top = $(id).offset().top - heightMenu;
+
+      if (!$("#tops").hasClass("fixed")) {
+        top = top - 50;
+      }
+      $("body,html").animate(
+        {
+          scrollTop: top,
+        },
+        500
+      );
+    });
+  });
+</script><script type="text/javascript">
+	BX.ready(function() {
+		var slider = new JCNewsSlider('bx_1878455859_5315', {
+			imagesContainerClassName: 'bx-newsdetail-slider-container',
+			leftArrowClassName: 'bx-newsdetail-slider-arrow-container-left',
+			rightArrowClassName: 'bx-newsdetail-slider-arrow-container-right',
+			controlContainerClassName: 'bx-newsdetail-slider-control'
+		});
+	});
+</script>
+<script id="scriptzakazik">
+var isMobileVersion = document.getElementsByClassName('mobile-basket__quantity')
+var zakazvezde = document.getElementById('zakazvezde');
+if (isMobileVersion.length > 0) {
+zakazvezde.style.display = 'block';}
+</script>
+<script>
+
+let name = document.querySelectorAll('.sku_input_qty');
+for (var i = 0, element; element = name[i]; i++) {
+    element.oninput = function(){
+      this.value = this.value.substr(0, 3);
+    }
+}
+
+
+
+</script>
+
+<script>
+    var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy"
+    });
+</script>
+<script>
+	var bx_basketT0kNhm = new BitrixSmallCart;
+</script><script type="text/javascript">
+	//refresh ajax
+	bx_basketT0kNhm.siteId = 's1';
+	bx_basketT0kNhm.cartId = 'bx_basketT0kNhm';
+	bx_basketT0kNhm.ajaxPath = '/local/components/bitrix/sale.basket.basket.line/ajax.php';
+	bx_basketT0kNhm.templateName = 'header-mobile';
+	bx_basketT0kNhm.arParams = {'PATH_TO_BASKET':'/personal/order/make/','PATH_TO_PERSONAL':'/personal/','SHOW_PERSONAL_LINK':'N','SHOW_TOTAL_PRICE':'Y','PATH_TO_REGISTER':'/login/','PATH_TO_PROFILE':'/personal/','COMPONENT_TEMPLATE':'header-mobile','PATH_TO_ORDER':'/personal/order/make/','SHOW_NUM_PRODUCTS':'Y','SHOW_EMPTY_VALUES':'Y','SHOW_AUTHOR':'N','SHOW_PRODUCTS':'N','POSITION_FIXED':'N','HIDE_ON_BASKET_PAGES':'N','CACHE_TYPE':'A','SHOW_REGISTRATION':'N','PATH_TO_AUTHORIZE':'/login/','SHOW_DELAY':'Y','SHOW_NOTAVAIL':'Y','SHOW_IMAGE':'Y','SHOW_PRICE':'Y','SHOW_SUMMARY':'Y','POSITION_VERTICAL':'top','POSITION_HORIZONTAL':'right','MAX_IMAGE_SIZE':'70','AJAX':'N','~PATH_TO_BASKET':'/personal/order/make/','~PATH_TO_PERSONAL':'/personal/','~SHOW_PERSONAL_LINK':'N','~SHOW_TOTAL_PRICE':'Y','~PATH_TO_REGISTER':'/login/','~PATH_TO_PROFILE':'/personal/','~COMPONENT_TEMPLATE':'header-mobile','~PATH_TO_ORDER':'/personal/order/make/','~SHOW_NUM_PRODUCTS':'Y','~SHOW_EMPTY_VALUES':'Y','~SHOW_AUTHOR':'N','~SHOW_PRODUCTS':'Y','~POSITION_FIXED':'N','~HIDE_ON_BASKET_PAGES':'N','~CACHE_TYPE':'A','~SHOW_REGISTRATION':'N','~PATH_TO_AUTHORIZE':'/login/','~SHOW_DELAY':'Y','~SHOW_NOTAVAIL':'Y','~SHOW_IMAGE':'Y','~SHOW_PRICE':'Y','~SHOW_SUMMARY':'Y','~POSITION_VERTICAL':'top','~POSITION_HORIZONTAL':'right','~MAX_IMAGE_SIZE':'70','~AJAX':'N','cartId':'bx_basketT0kNhm'}; // TODO \Bitrix\Main\Web\Json::encode
+	bx_basketT0kNhm.closeMessage = 'Скрыть';
+	bx_basketT0kNhm.openMessage = 'Раскрыть';
+	bx_basketT0kNhm.activate();
+</script><script>
+	BX.ready(function(){
+		new JCTitleSearch({
+			'AJAX_PAGE' : '/about/articles/5315/',
+			'CONTAINER_ID': 'searchDesktopForm',
+			'INPUT_ID': 'searchDesktopInput',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+</script><script>
+    window.onload = () => {
+        setTimeout(() => {
+            $.ajax({
+                url:'/local/templates/elki/inc/mobileMenu.html',
+                type:'GET',
+                success: function(data){
+                    $('.header-mobile__col--end').append(data);
+                }
+            });
+        }, 100);
+    };
+</script>
+
+<script>
+        $("#user-phone-number").submit(function(){
+            let $that = $(this),
+            formData = new FormData($that.get(0));
+            $('#hiddenPhoneNumber').val($('#phoneNumVal').val());
+            $.ajax({
+                contentType: false,
+                processData: false,
+                type: "POST",
+				url: "/include/ajax/sms-send-pass.php",
+                data: formData,
+                dataType: 'json',
+                success: function(result){
+                    //if(result.type=='success'){
+                        $('.first-js').removeClass("active");
+                        $('.second-js').addClass("active");
+                        $('input[name=LkEnterPhone-2]').val('');
+                        $('#hiddenPhoneNumber').val(result.phone);
+                        //alert(result.phone);
+                /*    }else{
+                       alert(result.mess);
+                    }*/
+                }
+            });
+            return false;
+        });
+
+        $("#sms-form-auth").submit(function(){
+            let $that = $(this),
+            formData = new FormData($that.get(0));
+            $.ajax({
+                contentType: false,
+                processData: false,
+                type: "POST",
+                url: "/include/ajax/sms-send-auth.php",
+                data: formData,
+                dataType: 'json',
+                success: function(result){
+                    //if(result.type=='success'){
+                        $('#sign-in-modal').css("display","none");
+                        $('#sms-form-auth').css("display","none");
+                        window.location.reload();
+                    /*}else{
+                       alert(result.mess);
+                    }*/
+                }
+            });
+            return false;
+        });
+
+
+        $("#companiesForm, #personForm").submit(function(){
+            let $that = $(this),
+            formData = new FormData($that.get(0));
+            $.ajax({
+                contentType: false,
+                processData: false,
+                type: "POST",
+                url: "/include/ajax/file-send.php",
+                data: formData,
+                dataType: 'json',
+                success: function(result){
+                    alert(result.mess);
+                    window.location.reload();
+                }
+            });
+            return false;
+        });
+
+        $(".addToCartCustom").submit(function(){
+            let $that = $(this),
+            formData = new FormData($that.get(0));
+            $.ajax({
+                contentType: false,
+                processData: false,
+                type: "POST",
+                url: "/include/ajax/add-to-basket.php",
+                data: formData,
+                dataType: 'json',
+                success: function(result){
+                    //if(result.type=='success'){
+                        window.location.reload();
+                    /*}else{
+                       alert(result.mess);
+                    }*/
+                }
+            });
+            return false;
+        });
+
+        $(document).ready(function() {
+            /* Favorites */
+            $('.favoriteProduct').on('click', function(e) {
+                var favorID = $(this).attr('data-item');
+                if($(this).hasClass('active'))
+                    var doAction = 'delete';
+                else
+                    var doAction = 'add';
+
+                addFavorite(favorID, doAction);
+
+            });
+            /* Favorites */
+            $('.favorite-close').on('click', function(e) {
+                var favorID = $(this).attr('data-item');
+
+                addFavorite(favorID, 'delete');
+                window.location.reload();
+            });
+
+        });
+        /* Избранное */
+            function addFavorite(id, action)
+            {
+                var param = 'id='+id+"&action="+action;
+                $.ajax({
+                    url:     '/include/ajax/favorites.php', // URL отправки запроса
+                    type:     "GET",
+                    dataType: "html",
+                    data: param,
+                    success: function(response) { // Если Данные отправлены успешно
+                        var result = $.parseJSON(response);
+                        if(result == 1){ // Если всё чётко, то выполняем действия, которые показывают, что данные отправлены :)
+                             $('.favoriteProduct[data-item="'+id+'"]').addClass('active');
+                             //var wishCount = parseInt($('#want .col').html()) + 1;
+							//$('#want .col').html(wishCount); // Визуально меняем количество у иконки
+                        }
+                        if(result == 2){
+                             $('.favoriteProduct[data-item="'+id+'"]').removeClass('active');
+                             //var wishCount = parseInt($('#want .col').html()) - 1;
+							// $('#want .col').html(wishCount); // Визуально меняем количество у иконки
+                        }
+                    },
+                    error: function(jqXHR, textStatus, errorThrown){ // Если ошибка, то выкладываем печаль в консоль
+                        console.log('Error: '+ errorThrown);
+                    }
+                 });
+            }
+        /* end Избранное */
+
+		if(window.location.pathname == "/favorites/"){
+			let totalSum = 0;
+			$(".hiddenPrice").each( function( index, element ){
+				totalSum += parseInt(element.innerHTML);
+			});
+			$(".favoritesTotalSum").html(totalSum);
+		}
     </script>
 
-    <!-- ВК: пиксель ретаргетинга -->
-    <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?168",t.onload=function(){VK.Retargeting.Init("VK-RTRG-485018-etG6W"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-485018-etG6W" style="position:fixed; left:-999px;" alt=""/></noscript>
-  </head>
-  <body class="d-flex flex-column h-100">
-    <script>hljs.initHighlightingOnLoad();</script>
+</body>
 
-    <div class="d-flex flex-column flex-xl-row">
-      <aside class="py-3 px-2 sidebar bg-primary text-white d-flex flex-row justify-content-center flex-xl-column flex-wrap flex-xl-nowrap m-0">
-        <img src="/images/eugzol-small-a04cfa6e.png" class="img-fluid d-none d-xl-block rounded-circle avatar mb-3 align-self-center" alt="Eugzol small" />
 
-        
-<hr class="hr">
-<p class="py-xl-3 my-0 px-3 text-muted sidebar-header"><a href="/programming">Программирование</a></p>
-<p class="py-xl-3 my-0 px-3 sidebar-item"><a href="/programming/creating-language">Создаём язык программирования</a></p>
-<hr class="hr">
-<p class="py-xl-3 my-0 px-3 text-muted sidebar-header"><a href="/psychology">Психология</a></p>
-<p class="py-xl-3 my-0 px-3 sidebar-item"><a href="/psychology/the-greatest-psychotherapists">Великие психотерапевты</a></p>
-
-
-        <div class="w-100 mt-2 mt-xl-auto"></div>
-        <div class="py-xl-3 my-0 px-3 align-self-center">
-          <a href="mailto:eugzol@gmail.com">eugzol@gmail.com</a>
-        </div>
-        <div class="py-xl-3 my-0 px-3 align-self-center">
-          <a href="https://vk.com/eugzol">vk.com/eugzol</a>
-        </div>
-      </aside>
-      <div class="d-flex flex-column flex-lg-row flex-grow-1 right-part m-0">
-        <div class="px-5 pt-3 pb-4 main-content">
-          <div class="mb-4">  <a href="/">Главная</a>
-
-  / <a href="/programming">Программирование</a>
-
-    &#8594; <a href="/programming/creating-language">Создаём язык программирования</a>
-
-  &#8594; Лекция Г2. Абстрактное синтаксическое дерево (AST)
-</div>
-
-          <h2 id="определение">Определение</h2>
-
-<p>Начнём сразу с примера.</p>
-
-<p>Возьмём арифметическое выражение <code>1 + (2 * 3)</code>.</p>
-
-<p>Абстрактным синтаксическим деревом (<em>abstract syntax tree, AST</em>) для него будет следующее:</p>
-
-<p class="text-center"><img src="/images/programming/creating-language/ast-9aab8c54.png" class="img-fluid mt-2 mb-3" alt="Ast" /></p>
-
-<p class="text-center mb-4 mt-n4 small">Абстрактное синтаксическое дерево выражения <code>1 + (2 * 3)</code>.</p>
-
-<p>Объясним словосочетание «абстрактное синтаксическое дерево» по частям.</p>
-
-<p>«Дерево» — см. рисунок.</p>
-
-<p>«Синтаксическое» — значит, отражает структуру (синтаксис) исходного выражения. А именно, узлы дерева соответствуют операциям (сложению и умножению), а листья соответствуют операндам (числам). Каждый узел дерева отражает конкретную операцию исходного выражения (и наоборот).</p>
-
-<p>«Абстрактное» — дерево «очищено» от вспомогательных символов, использующихся в исходной строке (для данного примера  — отсутствуют скобки).</p>
-
-<p>Итак, абстрактное синтаксическое дерево — дерево, отражающее структурные связи между существенными элементами исходного выражения (строкой <a href="/programming/creating-language/l-01-arithmetic-expressions.html">рассматриваемого языка</a>), но не отражающее вспомогательные языковые средства.</p>
-
-<h2 id="ast-и-естественный-язык">AST и естественный язык</h2>
-
-<p>Несколько упрощая, абстрактным синтаксическим деревом предложения</p>
-
-<pre><code>Мама мыла раму
-</code></pre>
-
-<p>является</p>
-
-<p class="text-center"><img src="/images/programming/creating-language/ast_natural-580d2185.png" class="img-fluid mt-2 mb-3" alt="Ast natural" /></p>
-
-<p class="text-center mb-4 mt-n4 small">«Абстрактное синтаксическое дерево» предложения на русском языке</p>
-
-<p>Предикат (то есть глагол) стоит в узле. Его референты (в математике мы их называли «операнды», а в лингвистике «актанты»: объект и субъект) отходят от предиката листьями.</p>
-
-<h2 id="ast-vs-parse-tree">AST vs parse tree</h2>
-
-<p>Важно не путать «абстрактное синтаксическое дерево» и «дерево парсинга» (<em>parse tree</em>).</p>
-
-<p>Собственно, у них одно отличие: дерево парсинга «конкретно», то есть содержит все вспомогательные языковые средства.</p>
-
-<p>А <em>абстрактное</em> (= очищенное) синтаксическое дерево содержит то и только то, что существенно для понимания предложения (в языках программирования под «пониманием» имеется в виду вычисление/выполнение).</p>
-
-<p>Например, в языке <code>Ruby</code> можно получить «parse tree» с помощью следующей команды:</p>
-
-<pre><code>require 'ripper'
-
-code = "1 + (2 * 3)"
-pp Ripper.sexp(code)
-</code></pre>
-
-<p>На выходе мы получим вот такой массив, являющийся <a href="/programming/creating-language/l-03-sexp.html">префиксным выражением</a> (<em>S-expression</em>):</p>
-
-<pre><code>[:program,
- [[:binary,
-   [:@int, "1", [1, 0]],
-   :+,
-   [:paren, [[:binary, [:@int, "2", [1, 5]], :*, [:@int, "3", [1, 9]]]]]]]]
-</code></pre>
-
-<p>В виде дерева вот как выглядит:</p>
-
-<p class="text-center"><img src="/images/programming/creating-language/ripper_parse_tree-af2732a4.png" class="img-fluid mt-2 mb-3" alt="Ripper parse tree" /></p>
-
-<p class="text-center mb-4 mt-n4 small">Ruby-специфичный <em>parse tree</em> выражения <code>1 + (2 * 3)</code>.</p>
-
-<p>Нас здесь интересует следующее: в <em>parse tree</em> нашёл отражение тот факт, что <code>(2 * 3)</code> была взята в скобки (получился узел <code>:paren</code>).</p>
-
-<p>Нужна ли эта информация для вычисления выражения? Нет, не нужна, так как в дереве и так видно, что первым выполняется умножение (оно стоит на более низком уровне дерева), а следом сложение (которое использует в правой ветке результат умножения).</p>
-
-<p>Логика такая: детали языковых средств записи попали в дерево. Значит, это не «абстрактное» дерево. Значит, это не <em>AST</em>, а <em>parse tree</em>.</p>
-
-<p>На <em>AST</em> <a href="#определение">смотри выше</a>.</p>
-
-<h2 id="как-изобразить-ast">Как изобразить AST</h2>
-
-<p>Предложение «мама мыла раму» можно написать мелом на доске, можно печатным текстом в книге, можно ручкой в тетради. Это будет всё то же предложение.</p>
-
-<p>Точно также и <em>AST</em> можно изобразить в виде рисунка (как здесь), можно записать на бумаге (или в тексте) линейно как <a href="/programming/creating-language/l-03-sexp.html">префиксное выражение</a>, а можно сохранить на жёсткий диск в виде последовательности байтов.</p>
-
-<p>А можно в виде структуры на каком-нибудь языке программирования, например:</p>
-
-<pre><code>["мыла", ["мама", "раму"]]
-</code></pre>
-
-<p>Концептуальной разницы это не создаёт. Без ограничения общности мы все такие варианты будем назвывать «абстрактными синтаксическими деревьями», хотя это может быть не буквальный рисунок дерева, а массив (структура данных внутри языка разработки парсера), линейный текст, либо последовательность зарядов электронов на SSD-диске.</p>
-
-<h2 id="ast-и-парсинг">AST и парсинг</h2>
-
-<p>На этапе <a href="/programming/creating-language/p-02-interpreter-architecture.html#парсер">парсинга</a> наша задача — получить из выражения (из программы) именно AST (для дальнейшей обработки и/или вычисления).</p>
-
-<p>При этом <a href="/programming/creating-language/a-03-recursive-descent.html">алгоритмы парсинга</a> и <a href="/programming/creating-language/p-03-racc.html">средства автогенерации парсеров</a> создают, изначально, <em>parse tree</em>. Получается, возникает дополнительная задача специально отметить те узлы <em>parse tree</em>, которые должны попасть в <em>AST</em>.</p>
-
-<p>Рассмотрим на примере. Пусть дана следующая <a href="/programming/creating-language/g-01-bnf.html">грамматика</a>:</p>
-
-<pre><code class="language-bnf">&lt;function_call&gt; ::=
-  &lt;variable&gt; '(' &lt;arguments_or_nothing&gt; ')'
-
-&lt;arguments_or_nothing&gt; ::= &lt;arguments&gt; | ε
-
-&lt;arguments&gt; ::=
-  number ',' &lt;arguments&gt;
-  | number
-
-&lt;variable&gt; ::= string
-</code></pre>
-
-<p>Где <code>string</code> это строка, соответствующая регулярному выражению <code>[a-z]</code>.</p>
-
-<p>Данная грамматика соответствует строкам типа <code>f(1)</code>, <code>multiply(2,5)</code>, <code>now()</code> и т. п.</p>
-
-<p>Рассмотрим строку <code>multiply(2,5)</code>. <em>Parse tree</em>, соответствующее этой строке, следующее:</p>
-
-<p class="text-center"><img src="/images/programming/creating-language/function_call_parse_tree-218fad7a.png" class="img-fluid mt-2 mb-3" alt="Function call parse tree" /></p>
-
-<p class="text-center mb-4 mt-n4 small">Дерево парсинга для строки “multiply(2,5)” в заданной грамматике</p>
-
-<p>Итак, дерево парсинга (<em>parse tree</em>) однозначно отображает, какие <a href="/programming/creating-language/g-01-bnf.html#нормальная-форма-бэкуса-bnf">правила вывода</a> и в каком порядки были применены и каким терминалам исходной строки сопоставлены.</p>
-
-<p>В методе <a href="/programming/creating-language/a-03-recursive-descent.html">рекурсивного нисходящего парсинга</a> синие узлы соответствуют вызову функции, обрабатывающей указанный нетерминал, а белые узлы — «снятию» (<code>shift</code>) символа с входной ленты. Обход дерева сверху вниз и слева направо соответствует порядку операций при данном методе парсинге.</p>
-
-<p>Возникает вопрос: <s>нафига козе боян</s> а зачем нам такое избыточное количество информации, все «потроха» синтаксического разбора, если мы хотим просто «понять», что видим перед собой «вызов функции со списком таких-то аргументов»?</p>
-
-<p>Мы хотим получить <em>AST</em>. Например, что-то вроде такого:</p>
-
-<p class="text-center"><img src="/images/programming/creating-language/function_call_ast-f14c4aeb.png" class="img-fluid mt-2 mb-3" alt="Function call ast" /></p>
-
-<p class="text-center mb-4 mt-n4 small">Абстрактное синтаксическое дерево для строки “multiply(2,5)” выбранной структуры</p>
-
-<p>Отметим, что структуру AST разработчик языка выбирает исходя из соображений облегчения дальнейшего выполнения кода, «зафиксированного» в виде AST.</p>
-
-<h2 id="трансформация-parse-tree-в-ast">Трансформация parse tree в AST</h2>
-
-<p>Для преобразования <em>parse tree</em> в некий заранее спроектированный вариант <em>AST</em> требуется сделать ряд типовых операций:</p>
-
-<ul>
-  <li>переименовать некоторые узлы;</li>
-  <li>удалить «служебные» узлы;</li>
-  <li>свернуть порождённое рекурсией поддерево <code>&lt;arguments&gt;</code> в линейный список/массив.</li>
-</ul>
-
-<p>Рассмотрим, для примера, следующую грамматику (упрощённый оператор присвоения):</p>
-
-<pre><code>&lt;assignment&gt; ::= letter "=" number
-</code></pre>
-
-<p>Где <code>letter</code> — буква латинского алфавита, <code>number</code> — число.</p>
-
-<p>Данная грамматика будет соответствовать строкам типа <code>x=5</code>, <code>y=21</code> и т. д.</p>
-
-<p>Предположим, что в нашем варианте <em>AST</em> мы для каждого присвоения хотим сохранять массив вида <code>["x", 5]</code>, <code>["y", 21]</code> и т. д. (В данном случае мы, говоря <em>AST</em>, имеем в виду в первую очередь внутреннюю структуру данных языка разработки, а не её графическое изображение.)</p>
-
-<p>Тогда мы можем добавить код (в фигурных скобках) к данному правилу в следующей манере:</p>
-
-<pre><code>&lt;assigment&gt; ::= letter "=" number ; { [$1, $3] }
-</code></pre>
-
-<p>В системах <a href="/programming/creating-language/p-03-racc.html">автоматической генерации парсеров</a> подобный код даёт следующее указанию парсеру: «когда обработаешь данное правило вывода (построишь соответствующее ему <em>parse tree</em>), возьми первый символ (<code>letter</code>) и третий (<code>number</code>) и выполни с ними указанный код (объедини в массив из двух элементов) — это и будет AST».</p>
-
-
-          <div class="mt-5">
-  <div class="d-flex flex-wrap flex-row justify-content-between">
-      <span class="ml-n4 mr-3">&larr; <a href="/programming/creating-language/g-01-bnf.html">Лекция Г1. Нормальная форма Бэкуса (BNF)</a></span>
-      <span class="ml-auto mr-n4"><a href="/programming/creating-language/g-03-grammar-classes.html">Лекция Г3. Классы грамматик [готовится]</a> &rarr;</span>
-  </div>
-</div>
-          <div class="mt-5">  <div class="mb-3">
-    <a href="#vk_comments" data-toggle="collapse" class="underline-dashed">Задать вопрос или сообщить об опечатке</a>
-  </div>
-  <div id="vk_comments" class="collapse"></div>
-  <script type="text/javascript">
-    VK.Widgets.Comments("vk_comments", {limit: 5, attach: "photo"});
-  </script>
-</div>
-        </div>
-        <div class="sidebar-right mt-5 mt-lg-0 full-height-lg p-3">
-          <p>Алгоритмы и программы:</p>
-
-<p>• <a href="/programming/creating-language/a-03-recursive-descent.html">А3: Рекурсивный нисходящий парсинг</a><br />
-• <a href="/programming/creating-language/a-04-micro-lisp.html">А4: Калькулятор с переменными (micro-LISP)</a><br />
-• <a href="/programming/creating-language/a-05-model-interpreter-1.html">А5: Интерпретатор учебного процедурного языка: парсер</a><br /></p>
-
-<p>Грамматика:</p>
-
-<p>• <a href="/programming/creating-language/g-01-bnf.html">Г1: Нормальная форма Бэкуса (BNF)</a><br />
-• Г2: Абстрактное синтаксическое дерево (AST)</p>
-
-<p>Языки:</p>
-
-<p>• <a href="/programming/creating-language/l-01-arithmetic-expressions.html">Я1: Язык арифметических выражений</a><br />
-• <a href="/programming/creating-language/l-02-rpn.html">Я2: Обратная польская запись (RPN)</a><br />
-• <a href="/programming/creating-language/l-03-sexp.html">Я3: Префиксная запись (S-expressions)</a><br />
-• <a href="/programming/creating-language/l-04-model-language.html">Я4: Учебный процедурный язык</a><br /></p>
-
-<p>Паттерны и инструменты:</p>
-
-<p>• <a href="/programming/creating-language/p-02-interpreter-architecture.html">П2: Архитектура интерпретатора</a><br />
-• <a href="/programming/creating-language/p-03-racc.html">П3: Автогенераторы парсеров. Racc</a></p>
-
-        </div>
-      </div>
-    </div>
-  </body>
 </html>

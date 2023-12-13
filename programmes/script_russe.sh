@@ -116,7 +116,6 @@ do
                     </td>
                     </tr>
     " >> ../tableaux/tableau_${langue}.html
-    compteur=$(expr $compteur + 1)
     #incrémente le compteur de 1 avant de passer au fichier suivant
     ((compteur++))
 done < $file

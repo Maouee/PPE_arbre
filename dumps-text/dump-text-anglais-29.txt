@@ -1,0 +1,282 @@
+   Link: canonical
+   Link: alternate en
+   [ Submit ]
+     * Home
+     * Coding Ground
+     * Jobs
+     * Whiteboard
+     * Tools
+   Menu Login
+     * Switch theme
+     * Teach with us
+     * *  *  *  *   *  Category 
+          * Java
+          * JSP
+          * iOS
+          * HTML
+          * Android
+          * Python
+          * C Programming
+          * C++ Programming
+          * C#
+          * PHP
+          * CSS
+          * Javascript
+          * jQuery
+          * SAP
+          * SAP HANA
+          * Data Structure
+          * RDBMS
+          * MySQL
+          * Mathematics
+          * 8085 Microprocessor
+          * Operating System
+          * Digital Electronics
+          * Analysis of Algorithms
+          * Mobile Development
+          * Front End
+          * Web Development
+          * Selenium
+          * MongoDB
+          * Computer Network
+          * General Topics
+     * _____________________
+     * Library
+     * Articles
+     * Certifications
+     * Login
+   Menu
+   _____________________
+   Show search Menu
+   [ Submit ]
+     * HTML
+     * CSS
+     * Javascript
+     * SQL
+     * Python
+     * Java
+     * C
+     * C++
+     * PHP
+     * Scala
+     * C#
+     * Node.js
+     * MySQL
+     * MongoDB
+     * PL/SQL
+     * Swift
+     * Bootstrap
+     * R
+     * Machine Learning
+     * Blockchain
+     * Angular
+     * React Native
+     * Computer Fundamentals
+     * Compiler Design
+     * Operating System
+     * Data Structure and Algorithms
+     * Computer Network
+     * DBMS
+     * Excel
+   [ Submit ]
+   Technical Questions and Answers
+     * Trending Categories
+     * Data Structure Data Structure
+     * Networking Networking
+     * RDBMS RDBMS
+     * Operating System Operating System
+     * Java Java
+     * MS Excel MS Excel
+     * iOS iOS
+     * HTML HTML
+     * CSS CSS
+     * Android Android
+     * Python Python
+     * C Programming C Programming
+     * C++ C++
+     * C# C#
+     * MongoDB MongoDB
+     * MySQL MySQL
+     * Javascript Javascript
+     * PHP PHP
+     * Physics Physics
+     * Chemistry Chemistry
+     * Biology Biology
+     * Mathematics Mathematics
+     * English English
+     * Economics Economics
+     * Psychology Psychology
+     * Social Studies Social Studies
+     * Fashion Studies Fashion Studies
+     * Legal Studies Legal Studies
+     * Selected Reading
+     * UPSC IAS Exams Notes
+     * Developer's Best Practices
+     * Questions and Answers
+     * Effective Resume Writing
+     * HR Interview Questions
+     * Computer Glossary
+     * Who is Who
+
+                              What is Syntax Tree?
+
+   Compiler DesignProgramming LanguagesComputer Programming
+
+     ----------------------------------------------------------------------
+
+   Tree in which each leaf node describes an operand & each interior node an
+   operator. The syntax tree is shortened form of the Parse Tree.
+
+   Example1 − Draw Syntax Tree for the string a + b ∗ c − d.
+
+   Rules for constructing a syntax tree
+
+   Each node in a syntax tree can be executed as data with multiple fields.
+   In the node for an operator, one field recognizes the operator and the
+   remaining field includes a pointer to the nodes for the operands. The
+   operator is known as the label of the node. The following functions are
+   used to create the nodes of the syntax tree for the expressions with
+   binary operators. Each function returns a pointer to the recently
+   generated node.
+
+     * mknode (op, left, right) − It generates an operator node with label op
+       and two field including pointers to left and right.
+
+     * mkleaf (id, entry) − It generates an identifier node with label id and
+       the field including the entry, a pointer to the symbol table entry for
+       the identifier.
+
+     * mkleaf (num, val) − It generates a number node with label num and a
+       field including val, the value of the number. For example, construct a
+       syntax tree for an expression a − 4 + c. In this sequence, p_1, p_2, …
+       . . p_5are pointers to the symbol table entries for identifier 'a' and
+       'c' respectively.
+
+ p_1− mkleaf (id, entry a);
+ p_2− mkleaf (num, 4);
+ p_3− mknode ( ′−′, p_1, p_2)
+ p_4− mkleaf(id, entry c)
+ p_5− mknode(′+′, p_3, p_4);
+
+   The tree is generated in a bottom-up fashion. The function calls mkleaf
+   (id, entry a) and mkleaf (num 4) construct the leaves for a and 4. The
+   pointers to these nodes are stored using p_1and p_2. The call mknodes
+   (′−′, p_1, p_2 ) then make the interior node with the leaves for a and 4
+   as children. The syntax tree will be
+
+   Syntax Directed Translation of Syntax Trees
+
+   Production        Semantic Action                              
+   E → E^(1) + E^(2) {E. VAL = Node (+, E^(1). VAL, E^(2). VAL)}  
+   E → E^(1) ∗ E^(2) {E. VAL = Node (∗, E^(1). VAL, E^(2). VAL)}) 
+   E → (E^(1))       {E. VAL = E^(1). VAL}                        
+   E → E^(1)         {E. VAL = UNARY (−, E^(1). VAL}              
+   E → id            {E. VAL = Leaf (id)}                         
+
+   Node (+, 𝐄^(𝟏), 𝐕𝐀𝐋, 𝐄^(𝟐). 𝐕𝐀𝐋) will create a node labeled +.
+
+   E^(1). VAL &E^(2). VAL are left & right children of this node.
+
+   Similarly, Node (∗, E^(1). VAL, E^(2). VAL) will make the syntax as −
+
+   Function UNARY (−, E^(1). VAL)will make a node – (unary minus) & E^(1).
+   VAL will be the only child of it.
+
+   Function LEAF (id) will create a Leaf node with label id.
+
+   Example2 − Construct a syntax tree for the expression.
+
+   a = b ∗ −c + d
+
+   Solution
+
+   Example3 − Construct a syntax tree for a statement.
+
+   If a = b then b = 2 * c
+
+   Solution
+
+   Example4 − Consider the following code. Draw its syntax Tree
+
+   If x > 0 then x = 2 * (a + 1) else x = x + 1.
+
+   Example5 − Draw syntax tree for following arithmetic expression a * (b +
+   c) – d /2. Also, write given expression in postfix form.
+
+   Postfix Notation
+
+   a b c + * d 2 / -
+
+   Ginni
+   Ginni
+
+   Updated on: 26-Oct-2023
+
+   18K+ Views
+
+     * Related Articles
+     * What is the difference between Parse Tree and the Syntax Tree?
+     * What is TestNG Annotation Syntax?
+     * What is python .. ("dot dot") notation syntax?
+     * What is JDBC SQL Escape Syntax Explain?
+     * What is the Syntax Directed Translation?\n
+     * What is Implementation of Syntax Directed Translators?
+     * What is a scriptlet in JSP and what is its syntax?
+     * What is syntax of tuple declaration in Python?
+     * What is correct syntax to create Python tuples?
+     * What is correct syntax to create Python lists?
+     * What is correct syntax to create Python dictionary?
+     * What is correct syntax of Python if statement?
+     * What is basic syntax of Python for Loops?
+     * What is Types of Syntax Directed Translation Schemes?
+     * What is the syntax for boolean values in MongoDB?
+
+      Kickstart Your Career
+
+   Get certified by completing the course
+
+   Get Started
+   Print Page
+   Previous Next
+   Advertisements
+   tutorials point logo
+
+   Tutorials Point is a leading Ed Tech company striving to provide the best
+   learning material on technical and non-technical subjects.
+
+   Download Android App Download IOS App
+
+      About us
+
+     * Company
+     * Our Team
+     * Careers
+     * Jobs
+     * Become a Teacher
+     * Affiliates
+     * Contact Us
+
+      Terms
+
+     * Terms of use
+     * Privacy Policy
+     * Refund Policy
+     * Cookies Policy
+     * FAQ's
+
+      Our Products
+
+     * Free Library
+     * Articles
+     * Coding Ground
+     * Certifications
+     * Courses
+     * eBooks
+     * Corporate Training
+     * Free Web Graphics
+
+      Contact Us
+
+     * Tutorials Point India Private Limited, Incor9 Building, Kavuri Hills,
+       Madhapur, Hyderabad, Telangana - 500081, INDIA
+     * *  *  *  * © Copyright 2023. All Rights Reserved.
