@@ -1,0 +1,228 @@
+   [ ] Toggle the table of contents
+
+                                  Family tree
+
+   [ ] 52 languages
+--
+     * Wikimedia Commons
+   From Wikipedia, the free encyclopedia
+   For other uses, see Family tree (disambiguation).
+   [IMG]Example of a family tree. Reading left to right Lucas Grey is the
+   father of three children, the grandfather of five grandchildren and the
+   great-grandfather of three siblings Joseph, John and Laura Wetter.
+   [IMG]Family tree showing the relationship of each person to the orange
+   person, including cousins and gene share
+
+   A family tree, also called a genealogy or a pedigree chart, is a chart
+   representing family relationships in a conventional tree structure. More
+   detailed family trees, used in medicine and social work, are known as
+   genograms.
+
+--
+
+   Genealogical data can be represented in several formats, for example, as a
+   pedigree or ancestry chart. Family trees are often presented with the
+   oldest generations at the top of the tree and the younger generations at
+   the bottom. An ancestry chart, which is a tree showing the ancestors of an
+   individual and not all members of a family, will more closely resemble a
+   tree in shape, being wider at the top than at the bottom. In some ancestry
+   charts, an individual appears on the left and his or her ancestors appear
+   to the right. Conversely, a descendant chart, which depicts all the
+   descendants of an individual, will be narrowest at the top. Beyond these
+   formats, some family trees might include all members of a particular
+   surname (e.g., male-line descendants). Yet another approach is to include
+   all holders of a certain office, such as the Kings of Germany, which
+--
+   children branch off to grandchildren, and so on. Great-grandparents are
+   often in the center to portray four or five generations, which reflect the
+   natural growth pattern of a tree as seen from the top but sometimes there
+   can be great great grandparents or more. In a descendant tree, living
+   relatives are common on the outer branches and contemporary cousins appear
+   adjacent to each other. Privacy should be considered when preparing a
+   living family tree.^[citation needed]
+
+   The image of the tree probably originated with that of the Tree of Jesse
+   in medieval art,^[1] used to illustrate the Genealogy of Christ in terms
+   of a prophecy of Isaiah (Isaiah 11:1). Possibly the first non-biblical
+   use, and the first to show full family relationships rather than a purely
+   patrilineal scheme, was that involving family trees of the classical gods
+   in Boccaccio's Genealogia Deorum Gentilium ("On the Genealogy of the Gods
+   of the Gentiles"), whose first version dates to 1360.^[2]
+--
+
+   In addition to familiar representations of family history and genealogy as
+   a tree structure, there are other notable systems used to illustrate and
+   document ancestry and descent.
+
+--
+
+   Main article: Ahnentafel
+   [IMG]An ahnentafel family tree displaying an ancestor chart of Sigmund
+   Christoph, Graf von Zeil und Trauchburg
+
+--
+   person's father is double the person's number, and a person's mother is
+   double the person's number plus one. This system can also be displayed as
+   a tree:
+
+   [IMG]An ahnentafel family tree, showing three generations of the Kennedy
+   family
+
+--
+Graph theory[edit]
+
+   While family trees are depicted as trees, family relations do not in
+   general form a tree in the strict sense used in graph theory, since
+   distant relatives can mate. Therefore, a person can have a common ancestor
+   on both their mother's and father's side. However, because a parent must
+--
+   acyclic graph. Nevertheless, graphs depicting matrilineal descent
+   (mother-daughter relationships) and patrilineal descent (father-son
+   relationships) do form trees. Assuming no common ancestor, an ancestry
+   chart is a perfect binary tree, as each person has exactly one mother and
+   one father; these thus have a regular structure. A Descendant chart, on
+   the other hand, does not, in general, have a regular structure, as a
+--
+Notable examples[edit]
+
+   [IMG]Family trees are an age-old phenomenon. This example dates from the
+   sixteenth century.^[3]
+
+   Family trees have been used to document family histories across time and
+   cultures throughout the world.
+
+--
+
+   There are extensive genealogies for the ruling dynasties of China, but
+   these do not form a single, unified family tree. Additionally, it is
+   unclear at which point(s) the most ancient historical figures named become
+   mythological.
+--
+   established historical record only begins in the mid-first millennium AD.
+
+   The longest family tree in the world is that of the Chinese philosopher
+   and educator Confucius (551–479 BC), who is descended from King Tang
+   (1675–1646 BC). The tree spans more than 80 generations from him and
+   includes more than 2 million members. An international effort involving
+   more than 450 branches around the world was started in 1998 to retrace and
+   revise this family tree. A new edition of the Confucius genealogy was
+   printed in September 2009 by the Confucius Genealogy Compilation
+   Committee, to coincide with the 2560th anniversary of the birth of the
+--
+   Adam, through the sons of Noah.
+
+   Another very old and extensive tree is that of the Lurie lineage—which
+   includes Sigmund Freud and Martin Buber—and traces back to Lurie, a
+   13th-century rabbi in Brest-Litovsk, and from there to Rashi and
+--
+   today.^[7]
+
+   Family trees and representations of lineages are also important in
+   religious traditions. The biblical genealogies of Jesus also claim descent
+   from the House of David, covering a period of approximately 1000 years. In
+--
+   the Torah, the Kohanim are descended from Aaron. Genetic testing performed
+   at the Technion has shown that most modern Kohanim share common
+   Y-chromosome origins, although there is no complete family tree of the
+   Kohanim. In the Islamic world, claimed descent from the prophet Muhammad
+   greatly enhanced the status of political and religious leaders; new
+--
+  Global[edit]
+
+   Forms of family trees are also used in genetic genealogy. In 2022,
+   scientists reported the largest detailed human genetic genealogy, that
+   unifies human genomes from many sources for insights about human history,
+   ancestry and evolution and demonstrates a novel computational method for
+   estimating how human DNA is related via a series of 13 million linked
+   trees along the genome, a tree-sequence,^[clarification needed] which has
+   been described as the largest "human family tree".^[8]^[9]^[10]
+
+Other uses[edit]
+
+   The author Pete Frame is notable for having produced "family trees" of
+   rock bands. In this instance, the entries represent a membership of
+   certain groups, and personnel changes within them, rather than family
+   relationships. Several books have been produced with his family
+   trees,^[11] which in turn have led to a BBC television series about them,
+   including interviews from the bands depicted in the trees.^[12]
+
+   Another common use is in the creation of episcopal trees in Christian
+   traditions that believe in apostolic succession. In this case, the
+   connection is not made through blood, but through the order of succession
+--
+     * Genealogy software
+     * Genogram
+     * List of family trees
+     * Pedigree chart
+     * Tree of life (biology)
+--
+    4. ^ "What Is A Griot And Why Are They Important". theculturetrip.com. 24
+       May 2018.
+    5. ^ Confucius family tree has two million members from China Daily,
+       unknown date, updated February 16, 2008
+    6. ^ Neil Rosenstein, Ranan R. Lurie. The Lurie Legacy: The House of
+--
+    7. ^ Bill Gladstone (October 24, 2004). "The oldest family in the world".
+       JTA.
+    8. ^ Guy, Jack. "DNA reveals biggest-ever human family tree, dating back
+       100,000 years". CNN. Retrieved 10 March 2022.
+    9. ^ Wong, Yan; Wohns, Anthony Wilder. "We're analysing DNA from ancient
+       and modern humans to create a 'family tree of everyone'". Retrieved 21
+       March 2022.
+   10. ^ Wohns, Anthony Wilder; Wong, Yan; Jeffery, Ben; Akbari, Ali;
+--
+       bioRxiv 10.1101/2021.02.16.431497v2. doi:10.1126/science.abi8264.
+       ISSN 0036-8075. PMC 10027547. PMID 35201891. S2CID 247106458.
+   11. ^ Amazon – Even More Rock Family trees. ASIN 1844490076.
+   12. ^ "BBC Four : Rock Family Trees". Retrieved 20 September 2012.
+
+External links[edit]
+
+     * [IMG] Media related to Family trees at Wikimedia Commons
+
+     * v    
+     * t    
+     * e    
+   Royal and noble family trees
+              * Pharaonic dynasties                      
+                   * 1st                                 
+--
+                      * Šubić                            
+                      * Zrinski                          
+              * Family tree                              
+              * Ahnentafel                               
+   See also        * genealogical numbering systems      
+--
+     * t        
+     * e        
+   Religious family trees
+                         Book of          * Descendants of Noah               
+                         Genesis          * Abraham's family tree             
+                                        Adam &              * Cain            
+                                        Eve      Children   * Abel            
+--
+                         Before          * Adam and Hawwa                     
+                         Ibrahim         * Family of Nuh                      
+                                         * Family tree of Ibrahim (Ibrahim,   
+                         Ibrahim           Hajar, Sarah, Ismail, Ishaq,       
+                                           Ya'qub)                            
+--
+                         House of Daud     Sulayman)                          
+                                         * Al Imran (Imran, Maryam, Isa)      
+                         Muhammad        * Family tree of Muhammad            
+                                         * Abu Bakr                           
+                                         * Umar                               
+--
+                                          * Genogram                          
+                                          * Ahnentafel                        
+                           Family trees        * Genealogical numbering       
+                                                 systems                      
+                                               * Seize quartiers              
+--
+
+   Retrieved from
+   "https://en.wikipedia.org/w/index.php?title=Family_tree&oldid=1187518900"
+   Categories:
+     * Family trees
+     * Genealogy
+     * Charts

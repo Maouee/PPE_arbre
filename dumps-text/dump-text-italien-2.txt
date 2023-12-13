@@ -1,0 +1,281 @@
+   Link: alternate
+   Link: canonical
+   Link: license
+
+                                 Albero a camme
+
+   Da Wikipedia, l'enciclopedia libera.
+   Vai alla navigazione Vai alla ricerca
+   Niente fonti!
+   Questa voce o sezione  sull'argomento meccanica non cita le fonti
+   necessarie o quelle presenti sono insufficienti.
+
+     ----------------------------------------------------------------------
+
+   Puoi migliorare questa voce aggiungendo citazioni da fonti attendibili
+   secondo le linee guida sull'uso delle fonti.
+   [IMG]Distribuzione bialbero a 4 valvole per cilindro per motore
+   quadricilindrico in linea [IMG]Albero a camme per motore o bancata
+   quadricilidrici
+
+   L'albero a camme, nella meccanica, è un albero motore con parti
+   eccentriche calettate, atto a trasmettere particolari leggi di moto agli
+   elementi che vi sono a contatto. Nei motori a scoppio è l'albero
+   responsabile della distribuzione su cui sono montati degli eccentrici,
+   detti "camme", forzate su un tubo in acciaio cementato (generalmente
+   acciaio 18NiCrMo5) o costituenti un tutt'uno forgiato o realizzati tramite
+   idroformatura, che comandano l'apertura e la chiusura delle valvole.
+   L'albero a camme si trova solo nel motore a 4 tempi sia benzina
+   (accensione comandata) che diesel (accensione spontanea) ed in alcuni
+   motori a due tempi unidirezionali.
+
+Indice
+
+     * 1 Albero a camme
+     * 2 L'importanza dell'albero a camme
+     * 3 Messa in fase dell'albero a camme
+     * 4 Voci correlate
+     * 5 Altri progetti
+     * 6 Collegamenti esterni
+
+Albero a camme[modifica | modifica wikitesto]
+
+   [IMG]Animazione rappresentante il funzionamento delle camme
+
+   L'albero a camme viene azionato dall'albero motore rispetto al quale ruota
+   (nel motore a quattro tempi) a velocità angolare dimezzata e al quale è
+   generalmente collegato tramite catena o cinghia. In alcuni motori il
+   collegamento viene effettuato tramite meccanismi costituiti da una cascata
+   di ingranaggi, alberelli con coppie coniche o coppia di bielle.
+
+   Il profilo delle camme è caratterizzato da un'eccentricità più o meno
+   marcata (alzo). La forma degli eccentrici è determinante ai fini delle
+   prestazioni in quanto regola il diagramma di apertura, fasature e
+   ampiezze, e anche ai fini della rumorosità in quanto regola l'impatto tra
+   valvole e sedi delle stesse.
+
+   Lo stesso argomento in dettaglio: Camma.
+
+   Nei motori attuali l'albero a camme è situato generalmente al di sopra
+   della testata. Con tale disposizione prende il nome di "albero a camme in
+   testa" e comanda le valvole mediante punterie a bicchiere. In altri motori
+   l'albero a camme era situato lateralmente alla testata del motore.
+
+   A seconda del numero di valvole per cilindro e della disposizione dei
+   cilindri ci possono essere più alberi a camme, anche se generalmente non
+   superano i due per bancata (doppio albero a camme in testa). Altri sistemi
+   prevedono prima delle valvole vari rimandi meccanici quali aste o
+   bilancieri, sistemi comunque progressivamente abbandonati per il maggior
+   numero di parti in movimento.
+
+L'importanza dell'albero a camme[modifica | modifica wikitesto]
+
+   Gli alberi a camme, dato che decidono quando e quanto devono aprirsi le
+   valvole, sono di grande importanza per le prestazioni dei motori. Il
+   variatore della fase di distribuzione, infatti, posto di norma su entrambi
+   i lati, permette di variare il tempo di apertura della valvola.
+   Aumentandolo, si ha un maggiore riempimento della camera di combustione
+   con conseguente aumento di potenza e coppia motrice.
+
+   La variazione della fase di scarico, invece, permette di aumentare
+   l'incrocio valvole, ovvero la fase in cui sono aperte contemporaneamente
+   (dopo lo scoppio della miscela) sia le valvole di aspirazione sia quelle
+   di scarico, in modo che i gas incombusti vengano espulsi dalla camera
+   grazie all'entrata della nuova miscela. In questa fase si perde una
+   piccola percentuale di miscela, ma il vantaggio che se ne ricava è un
+   forte lavaggio della camera di combustione, che così ad ogni scoppio è
+   sempre "pulita" e raffreddata a dovere.
+
+   Se a questo associamo anche il variatore d'alzata, che modifica
+   l'escursione in millimetri della valvola, otteniamo un motore in grado di
+   erogare più di 100 cv/l.
+
+   Queste ultime considerazioni ci fanno capire quanto sia importante l'asse
+   a camme, un elemento tante volte trascurato tuttavia uno dei primi su cui
+   si va ad agire quando si vuole aumentare la potenza di un motore in modo
+   meccanico e non elettronico.
+
+Messa in fase dell'albero a camme[modifica | modifica wikitesto]
+
+   L'albero a camme può essere messo in fase tramite sistemi diversi:
+
+     * fori asolati i fori presenti sull'ingranaggio da accoppiare
+       sull'albero sono asolati, in modo da poter variare facilmente e
+       velocemente la fasatura;
+     * chiavetta di Woodruff sfalsata, l'ingranaggio viene accoppiato tramite
+       questa chiavetta, oppure ogni lobo è provvisto di una chiavetta
+       propria;
+     * nonio o verniero, prevede l'unione dell'albero all'ingranaggio tramite
+       dei fori presenti su entrambi, ma che hanno numero diversi tra loro
+       (20 a 19, ecc...)
+
+Voci correlate[modifica | modifica wikitesto]
+
+     * Distribuzione (meccanica)
+     * Fasatura di distribuzione
+     * Camma
+     * Singolo albero a camme in testa
+     * Doppio albero a camme in testa
+     * Albero a gomiti
+     * Albero di trasmissione
+     * Giunto cardanico
+
+Altri progetti[modifica | modifica wikitesto]
+
+     * Collabora a Wikizionario Wikizionario contiene il lemma di dizionario
+       «albero a camme»
+     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
+       altri file su albero a camme
+
+Collegamenti esterni[modifica | modifica wikitesto]
+
+     * * (EN) camshaft, su Enciclopedia Britannica, Encyclopædia Britannica,
+       Inc. Modifica su Wikidata
+
+   Controllo di autorità LCCN (EN) sh85010302 · GND (DE) 4120808-0 · J9U      
+                         (EN, HE) 987007295701905171                          
+
+   Estratto da
+   "https://it.wikipedia.org/w/index.php?title=Albero_a_camme&oldid=136146588"
+   Categorie:
+     * Componenti meccanici
+     * Parti di motore
+   Categorie nascoste:
+     * Senza fonti - meccanica
+     * Senza fonti - giugno 2012
+     * P1417 letta da Wikidata
+     * Voci con codice LCCN
+     * Voci con codice GND
+     * Voci con codice J9U
+     * Voci non biografiche con codici di controllo di autorità
+
+Menu di navigazione
+
+  Strumenti personali
+
+     * Accesso non effettuato
+     * discussioni
+     * contributi
+     * registrati
+     * entra
+
+  Namespace
+
+     * Voce
+     * Discussione
+   [ ] italiano
+
+  Visite
+
+     * Leggi
+     * Modifica
+     * Modifica wikitesto
+     * Cronologia
+   [ ] Altro
+
+  Ricerca
+
+   _____________________ [ Ricerca ] [ Vai ]
+   Visita la pagina principale
+
+  Navigazione
+
+     * Pagina principale
+     * Ultime modifiche
+     * Una voce a caso
+     * Nelle vicinanze
+     * Vetrina
+     * Aiuto
+     * Sportello informazioni
+
+  Comunità
+
+     * Portale Comunità
+     * Bar
+     * Il Wikipediano
+     * Fai una donazione
+     * Contatti
+
+  Strumenti
+
+     * Puntano qui
+     * Modifiche correlate
+     * Pagine speciali
+     * Link permanente
+     * Informazioni pagina
+     * Cita questa voce
+     * Ottieni URL breve
+     * Elemento Wikidata
+
+  Stampa/esporta
+
+     * Crea un libro
+     * Scarica come PDF
+     * Versione stampabile
+
+  In altri progetti
+
+     * Wikimedia Commons
+
+  In altre lingue
+
+     * Afrikaans
+     * العربية
+     * Azərbaycanca
+     * Беларуская
+     * བོད་ཡིག
+     * Català
+     * Čeština
+     * Dansk
+     * Deutsch
+     * English
+     * Esperanto
+     * Español
+     * Eesti
+     * Euskara
+     * فارسی
+     * Suomi
+     * Français
+     * Gaeilge
+     * Galego
+     * עברית
+     * Hrvatski
+     * Magyar
+     * Bahasa Indonesia
+     * Íslenska
+     * 日本語
+     * ქართული
+     * 한국어
+     * Bahasa Melayu
+     * မြန်မာဘာသာ
+     * Nederlands
+     * Norsk bokmål
+     * Polski
+     * Português
+     * Română
+     * Русский
+     * Scots
+     * Slovenčina
+     * Slovenščina
+     * Српски / srpski
+     * Svenska
+     * Türkçe
+     * Українська
+     * Tiếng Việt
+     * 中文
+   Modifica collegamenti
+     * Questa pagina è stata modificata per l'ultima volta il 26 ott 2023
+       alle 06:21.
+     * Il testo è disponibile secondo la licenza Creative Commons
+       Attribuzione-Condividi allo stesso modo; possono applicarsi condizioni
+       ulteriori. Vedi le condizioni d'uso per i dettagli.
+     * Informativa sulla privacy
+     * Informazioni su Wikipedia
+     * Avvertenze
+     * Codice di condotta
+     * Sviluppatori
+     * Statistiche
+     * Dichiarazione sui cookie
+     * Versione mobile
+     * Wikimedia Foundation
+     * Powered by MediaWiki

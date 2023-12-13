@@ -1,0 +1,49 @@
+
+   Tree in which each leaf node describes an operand & each interior node an
+   operator. The syntax tree is shortened form of the Parse Tree.
+
+   Example1 − Draw Syntax Tree for the string a + b ∗ c − d.
+
+   Rules for constructing a syntax tree
+
+   Each node in a syntax tree can be executed as data with multiple fields.
+   In the node for an operator, one field recognizes the operator and the
+   remaining field includes a pointer to the nodes for the operands. The
+   operator is known as the label of the node. The following functions are
+   used to create the nodes of the syntax tree for the expressions with
+   binary operators. Each function returns a pointer to the recently
+   generated node.
+--
+     * mkleaf (num, val) − It generates a number node with label num and a
+       field including val, the value of the number. For example, construct a
+       syntax tree for an expression a − 4 + c. In this sequence, p_1, p_2, …
+       . . p_5are pointers to the symbol table entries for identifier 'a' and
+       'c' respectively.
+--
+ p_5− mknode(′+′, p_3, p_4);
+
+   The tree is generated in a bottom-up fashion. The function calls mkleaf
+   (id, entry a) and mkleaf (num 4) construct the leaves for a and 4. The
+   pointers to these nodes are stored using p_1and p_2. The call mknodes
+   (′−′, p_1, p_2 ) then make the interior node with the leaves for a and 4
+   as children. The syntax tree will be
+
+   Syntax Directed Translation of Syntax Trees
+--
+   Function LEAF (id) will create a Leaf node with label id.
+
+   Example2 − Construct a syntax tree for the expression.
+
+   a = b ∗ −c + d
+--
+   Solution
+
+   Example3 − Construct a syntax tree for a statement.
+
+   If a = b then b = 2 * c
+--
+   If x > 0 then x = 2 * (a + 1) else x = x + 1.
+
+   Example5 − Draw syntax tree for following arithmetic expression a * (b +
+   c) – d /2. Also, write given expression in postfix form.
+
