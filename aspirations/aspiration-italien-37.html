@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<HTML LANG=ita>
+ <HEAD>
+ <TITLE>Alberi sintattittici</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html">
+<META NAME="GENERATOR" CONTENT="ReadyGo WCB, V2.301000">
+<META NAME="Author" CONTENT="ReadyGo WCB: 1-15-2">
+</HEAD>
+ <BODY BGCOLOR="#FFFFFF" BACKGROUND="../images/mainbkg.png" LINK="#1238D6" ALINK="#1238D6"  >
+ <SCRIPT LANGUAGE = "JavaScript"><!-- 
+  if (document.images) {            // Active Images
+    img1on = new Image();
+    img1on.src = "../images/backbtn1.png"; 
+    img2on = new Image();
+    img2on.src = "../images/nextbtn1.png"; 
+    img3on = new Image();
+    img3on.src = "../images/backbtn1.png"; 
+    img4on = new Image(); 
+    img4on.src = "../images/nextbtn1.png"; 
+    img5on = new Image(); 
+    img5on.src = "../images/tellbtn1.png"; 
+    img6on = new Image(); 
+    img6on.src = "../images/stepbtn1.png"; 
+    img7on = new Image(); 
+    img7on.src = "../images/quizbtn1.png"; 
+    img8on = new Image(); 
+    img8on.src = "../images/trybtn1.png"; 
+    img9on = new Image(); 
+    img9on.src = "../images/tstbtn1.png"; 
+    img10on = new Image(); 
+    img10on.src = "../images/srvbtn1.png"; 
+    img1off = new Image();
+    img1off.src = "../images/backbtn0.png";
+    img2off = new Image();
+    img2off.src = "../images/nextbtn0.png";
+    img3off = new Image();
+    img3off.src = "../images/backbtn0.png";
+    img4off = new Image();
+    img4off.src = "../images/nextbtn0.png";
+    img5off = new Image();
+    img5off.src = "../images/tellbtn0.png";
+    img6off = new Image(); 
+    img6off.src = "../images/stepbtn0.png"; 
+    img7off = new Image(); 
+    img7off.src = "../images/quizbtn0.png"; 
+    img8off = new Image(); 
+    img8off.src = "../images/trybtn0.png"; 
+    img9off = new Image(); 
+    img9off.src = "../images/tstbtn0.png"; 
+    img10off = new Image(); 
+    img10off.src = "../images/srvbtn0.png"; 
+ }
+
+// Function to activate images.
+  function imgOn(imgName) { 
+    if (document.images) {
+      document[imgName].src = eval(imgName + "on.src");
+    }
+  }
+// Function to deactivate images.
+  function imgOff(imgName) { 
+    if (document.images) {
+      document[imgName].src = eval(imgName + "off.src");
+    }
+  }
+// --></SCRIPT>
+<!--- Start Head Banner --->
+<UL><TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="560" >
+<TR><TD rowspan=2> </TD>
+  <TD VALIGN="TOP" ROWSPAN="2">
+    <IMG SRC="../images/lcap.png" > 
+  </TD>
+  <TD VALIGN="TOP"  BGCOLOR="#b8fffa"  WIDTH="500" NOWRAP><TABLE HSPACE=1><TR><TD VALIGN="TOP"><FONT SIZE="+1"><B>2.3</B></FONT></TD><TD VALIGN="TOP"><FONT SIZE="+1"><B>Alberi sintattittici</B></FONT></TD></TR></TABLE></TD>
+  <TD VALIGN="TOP" VALIGN="TOP"><!-- BACK LINK --><A HREF="02lin02.htm" accesskey="P" onMouseOver="imgOn('img1')"
+       onMouseOut="imgOff('img1')"><IMG SRC="../images/backbtn0.png" NAME="img1" ALT="Indietro" BORDER="0" ></A></TD>
+<TD VALIGN="TOP"><A HREF="04lin02.htm" onMouseOver="imgOn('img2')"
+      onMouseOut="imgOff('img2')" accesskey="N" ><IMG SRC="../images/nextbtn0.png" NAME="img2" ALT="Avanti" BORDER="0" ></A></TD>
+</TR>
+<TR>
+  <TD COLSPAN="1" WIDTH="500" VALIGN="TOP" >
+    <IMG SRC="../images/drpshad.png" HEIGHT="12"   WIDTH="500" ALIGN="TOP">  </TD><TD COLSPAN="2"></TD>
+</TR>
+</TABLE>
+</UL>
+<UL>
+<P>
+Un albero sintattico e' una rappresentazione di come una particolare frase puo` essere derivata da una grammatica, a partire dall' assioma. <BR><BR>
+L' albero sintattico assegna alle frasi una struttura chwe puo` essere utilizzata per operaziomni successive quali l' interpretazione della frase, la sua traduzione etc.<BR><BR>
+Anche i traduttori o compilatori analizzano il linguaggio sorgente, producono un albero sintattico del programma e lo utilizzano per tradurlo in linguaggio macchina.<BR><BR>
+<BR><BR>
+<BR><BR>
+
+
+</P>
+
+<TABLE WIDTH="90%">
+<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%">Dato un insieme di regole, esse possono essere utilizzate per derivare o produrre una proposizione applicando il metodo riportato qui di seguito.
+</TD><TD ROWSPAN="3" VALIGN="TOP">
+  <IMG SRC="../graphics/Alb_sint.GIF" ALT="Grammatica
+" >
+</TD>
+</TR>
+<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%"> Si parte dal simbolo non terminale proposizione, si cerca una regola avente proposizione come parte sinistra, e si sostituisce la sua parte destra al posto di proposizione. In questo modo si rimpiazza un simbolo non terminale con una delle stringhe di cui puo` essere composto.
+</TD></TR>
+<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%"> Visualizziamo questa operazione utilizzando opportuni diagrammi, detti alberi sintattici, che permettono di descrivere la struttura di un regola scomponendola nelle sue parti costituenti:
+</TD></TR>
+</TR></TABLE><TABLE WIDTH="90%">
+<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%">Si ripete il processo applicandolo ad uno dei simboli non terminali, ad esempio sintagma_nominale.
+</TD></TR>
+<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%">La derivazione e' completa quando la frontiera  dell' albero (le foglie) contiene solo simbolo terminali. 
+</TD></TR>
+<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%">Il simbolo non terminale proposizione viene chiamato radice dell'albero, mentre i simboli terminali foglie
+Espandendo il vocabolario dei simboli terminali, e` possibile descrivere un numero maggiore di proposizioni.
+</TD></TR>
+</TABLE></UL>
+<!-- Begin Options and Navigation -->
+
+<BR><BR>
+<UL><TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="560">
+<TR><TD WIDTH=50></TD><!-- Link to Quiz Page --><TD VALIGN="CENTER" WIDTH="150"><A HREF="03lin02q.htm" accesskey="Q" onMouseOver="imgOn('img7')" onMouseOut="imgOff('img7')"><IMG SRC="../images/quizbtn0.png" NAME="img7" ALT="Quiz" BORDER="0"></A></TD>
+<!-- PREVIOUS LINK -->
+</TR></TABLE><BR>
+<TABLE WIDTH="600"><TR><TD> &nbsp;</TD><TD WIDTH="570"></TD><TD VALIGN="BOTTOM" NOWRAP><A HREF="02lin02.htm" accesskey="P"  onMouseOver="imgOn('img3')" onMouseOut="imgOff('img3')"><IMG SRC="../images/backbtn0.png" NAME="img3" ALT="Indietro" BORDER="0"></A><!-- NEXT LINK --><A HREF="04lin02.htm" onMouseOver="imgOn('img4')" accesskey="N"     onMouseOut="imgOff('img4')"><IMG SRC="../images/nextbtn0.png" NAME="img4" ALT="Avanti"  BORDER="0"></A></TD></TR>
+</TABLE>
+</BODY>
+</HTML>

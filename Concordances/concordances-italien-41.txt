@@ -1,35 +1,34 @@
-	alberi	 di natale
-comprare un 	albero	 di natale vero
-consigli per un 	albero	 di natale vero
-	albero	-di-natale
-supporto per 	albero	 di natale in metallo
-supporto per 	albero	 di natale in metallo
-il nostro supporto per 	albero	 di natale
-tutti gli 	alberi	 di natale fino a 300
-	albero	-di-natale
-	albero	-di-natale
-	albero	-di-natale
-abete 	albero	
-	albero	 di natale
-	albero	 di natale
-un 	albero	 incantevole simbolo della lunga vita
-un 	albero	 appartenente alla famiglia delle pinaceace
-scegli l’	albero	
-un 	albero	 sempreverde
-un 	albero	 che pu
-un 	albero	 che simboleggia la vita eterna
-contraddistingue questo 	albero	
-	albero	-di-natale
-	albero	-di-natale
-	albero	-di-natale
-	albero	-di-natale
-	albero	-di-natale
-	albero	-di-natale
-	albero	-di-natale
-	albero	-di-natale
-	albero	-di-natale
-supporto per 	albero	 di natale in metallo
-supporto per 	albero	 di natale in metallo
-il nostro supporto per 	albero	 di natale
-tutti gli 	alberi	 di natale fino a 300
-	alberi	 di natale
+associato un §albero§ di costruzione
+o §albero§ sintattico
+un §albero§
+un §albero§ finito
+l’§albero§ si dice binario se
+la rappresentazione usuale di un §albero§ binario
+in alto e l’§albero§ cresce verso il basso
+esempio di rappresentazione di §albero§ binario
+l’altezza dell’§albero§
+un §albero§ si dice etichettato se ad
+costruzione dell’§albero§ sintattico
+algoritmo per costruire l’§albero§ sintattico l’§albero§ sintattico di
+permette di costruire l’§albero§ sintattico
+l’§albero§ sintattico di
+l’§albero§
+le etichette dei nodi dell’§albero§ di costruzione di una proposizione
+algoritmo per costruire l’§albero§ sintattico l’§albero§ sintattico di
+quindi per costruire il suo §albero§ sintattico
+quindi per costruire il suo §albero§ sintattico
+algoritmo per costruire l’§albero§ sintattico l’§albero§ sintattico di
+l’§albero§ sintattico di
+algoritmo per la costruzione dell’§albero§ sintattico permette di
+l’§albero§ sintattico permette anche di determinare
+con l’altezza del suo §albero§
+che il suo §albero§ sintattico
+§albero§ sintattico della proposizione
+siccome l’altezza dell’§albero§
+costruendone l’§albero§ sintattico e spiegando dove eventualmente
+l’§albero§ sintattico si pu
+l’§albero§ sintattico di
+l’§albero§ sintattico pu
+l’§albero§ sintattico di
+costruire l’§albero§ sintattico delle seguenti formule
+anche l’altezza di ciascun §albero§ e l’altezza della formula

@@ -1,0 +1,13 @@
+un §albero§ sintattico astratto
+o semplicemente §albero§
+una rappresentazione ad §albero§ della struttura sintattica
+ogni nodo dell'§albero§ denota un costrutto che si
+struttura ad §albero§ quindi non devono essere rappresentate
+questo distingue gli §alberi§ sintattici astratti da quelli concreti
+tradizionalmente designati come §alberi§ di analisi che sono tipicamente
+gli §alberi§ sintattici astratti vengono utilizzati anche
+gli §alberi§ sintattici astratti sono strutture dati
+dell'§albero§ permette di verificare la correttezza
+famiglia di linguaggi basati su §alberi§
+§albero§ sintattico
+detto anche §albero§ sintattico concreto

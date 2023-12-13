@@ -1,0 +1,92 @@
+
+   Salve a tutti,
+   come da titolo sto sviluppando un albero per effettuare ricerche sui
+   prodotti in stile Ecommerce. Image
+   Mi sono bloccato però su una questione apparentemente banale. Io vorrei
+--
+--
+   prodotti in stile Ecommerce. Image
+   Mi sono bloccato però su una questione apparentemente banale. Io vorrei
+   che appena clicco su GIACCHE l'albero mi attivi il nodo giacche e mi
+   espandesse eventuali figli.
+   Ho provato di tutto: Active doc , set document, set active node passando
+--
+--
+
+   Provo a darti alcune dritte
+   1) Se l'albero è documentale non esiste nessuna chiave di HASH (è usata
+   solo per alberi di tipo DB)
+   2) Nell'albero devi usare solo eventi Documentali
+   3) Se per l'albero imposti -> Albero.ActivateOnExpand := True il framework
+   attiva il nodo quando l'utente espande il ramo
+--
+   attiva il nodo quando l'utente espande il ramo
+   4) I documenti presenti nell'albero hanno riferimenti diversi (sono
+   istanze diverse) da quelli che tu potresti avere in un pannello o caricare
+   successivamente
+--
+--
+
+   Se vuoi che nel pannello o libro documentale sia visualizzato il documento
+   selezionato nell'albero, intercettando l'evento OnActivateDoc qui hai il
+   documento selezionato e lo puoi applicare al pannello/libro.
+
+--
+--
+   Quando fai la ricerca del prodotto, tu vai a caricare i prodotti e ottieni
+   una collection di prodotti, ma questi documenti hanno una istanza diversa
+   nell'albero e quindi non li troverai mai.
+   Per sopperire a cio' dovresti avere una variabile globale di videata di
+--
+   Per sopperire a cio' dovresti avere una variabile globale di videata di
+   tutti i tuoi prodotti, questa variabile globale associata all'albero con
+   setCollection; quando fai le ricerche non devi ricaricare i dati ma
+   cercare nella variabile globale e avendo trovato il documento usare la
+--
+--
+
+   Grazie mille Pietro. Probabilmente mi sono spiegato male. Io vorrei che
+   quando l'utente clicca sull'icona delle giacche a destra l'albero a
+   sinistra mi attivi il documento giacche e mi espanda eventuali figli.
+
+--
+--
+   stessi); che puoi avere se ti crei la variabile globale
+   Quando l'utente seleziona una giacca allora si cattura il documento sul
+   libro e si attiva il nodo sull'albero
+   Ma ritorno a dirti che funziona se i documenti sono gli stessi e non altre
+   istanze documenti
+--
+--
+   Postby m.sirri » 14 March 2016, 15:52
+
+   Dopo aver chiamato il metodo setCollection sull'albero chiama il metodo
+   updateControls.
+--
+   updateControls.
+   Questo serve perché i nodi dell'albero vengono fisicamente
+   creati/aggiornati a fine rischiesta.
+
+--
+--
+   Grazie mille a tutti per le cortesi risposte. Alla fine ho seguito il
+   consiglio di Pietro e ce l'ho fatta.
+   Correggetemi se sbaglio, in un albero DO non è necessario creare un
+   Elemento albero giusto?
+   Se la mia supposizione fosse corretta, come faccio ad assegnare uno stile
+--
+   Se la mia supposizione fosse corretta, come faccio ad assegnare uno stile
+   css all'albero? Non mi torna molto questa cosa.
+
+   Grazie mille e scusate se sono andato un pò fuori topic.
+--
+--
+   Postby eurekapv » 15 March 2016, 13:08
+
+   Se l'albero è DO, puoi intercettare l'evento OnGetName del documento
+   Questo evento serve a personalizzare il nome dell'oggetto quando si trova
+--
+   Questo evento serve a personalizzare il nome dell'oggetto quando si trova
+   in diversi ambiti (quali anche un albero)
+   Se non ricordo male, il Name puo' essere costruito con sintassi HTML, dove
+   quindi puoi applicare una class CSS desiderata.

@@ -1,41 +1,41 @@
-l’	albero	
-tabella contenente i tipi di 	albero	 divisi per
-importante suddividere gli 	alberi	 in
-	alberi	 a crescita rapida
-nomi di 	alberi	 dalla a alla z
-nomi dei vari tipi di 	alberi	 in italia e all’estero
-nomi degli 	alberi	|acacia di costantinopoli
-nomi degli 	alberi	|bagolaro
-nomi degli 	alberi	|carpino
-nomi degli 	alberi	|davidia involucrata
-nomi degli 	alberi	|eucalipto
-nomi degli 	alberi	|faggio
-nomi degli 	alberi	|ginkgo biloba
-nomi degli 	alberi	|helianthocereus huascha
-nomi degli 	alberi	|ippocastano
-nomi degli 	alberi	|jacaranda mimosifolia
-nomi degli 	alberi	|koelreuteria paniculata
-nomi degli 	alberi	|larice
-nomi degli 	alberi	|maclura pomifera
-nomi degli 	alberi	|noce
-nomi degli 	alberi	|olmo
-nomi degli 	alberi	|palma
-nomi degli 	alberi	|quercia
-nomi degli 	alberi	|rabarbaro
-nomi degli 	alberi	|siliquastro
-	albero	 di giuda
-nomi degli 	alberi	|taxodium distichum
-nomi degli 	alberi	
-nomi degli 	alberi	
-nomi degli 	alberi	|washingtonia filifera
-nomi degli 	alberi	
-sapevi che il sinonimo di 	albero	
-oltre ai nomi di 	albero	
-un piccolo 	albero	
-un 	albero	 dalle grandi
-un 	albero	 della famiglia delle betulaceae molto
-sviluppa sia sotto forma di 	alberi	 che di arbusti producendo frutti
-l’	albero	 simbolo dell’italia
-corso dei secoli attorno agli 	alberi	 di ciliegio si sono sviluppate
-di 150 specie di 	alberi	 originari
-un 	albero	 di prima grandezza
+l’§albero§
+tabella contenente i tipi di §albero§ divisi per
+importante suddividere gli §alberi§ in
+§alberi§ a crescita rapida
+nomi di §alberi§ dalla a alla z
+nomi dei vari tipi di §alberi§ in italia e all’estero
+nomi degli §alberi§|acacia di costantinopoli
+nomi degli §alberi§|bagolaro
+nomi degli §alberi§|carpino
+nomi degli §alberi§|davidia involucrata
+nomi degli §alberi§|eucalipto
+nomi degli §alberi§|faggio
+nomi degli §alberi§|ginkgo biloba
+nomi degli §alberi§|helianthocereus huascha
+nomi degli §alberi§|ippocastano
+nomi degli §alberi§|jacaranda mimosifolia
+nomi degli §alberi§|koelreuteria paniculata
+nomi degli §alberi§|larice
+nomi degli §alberi§|maclura pomifera
+nomi degli §alberi§|noce
+nomi degli §alberi§|olmo
+nomi degli §alberi§|palma
+nomi degli §alberi§|quercia
+nomi degli §alberi§|rabarbaro
+nomi degli §alberi§|siliquastro
+§albero§ di giuda
+nomi degli §alberi§|taxodium distichum
+nomi degli §alberi§
+nomi degli §alberi§
+nomi degli §alberi§|washingtonia filifera
+nomi degli §alberi§
+sapevi che il sinonimo di §albero§
+oltre ai nomi di §albero§
+un piccolo §albero§
+un §albero§ dalle grandi
+un §albero§ della famiglia delle betulaceae molto
+sviluppa sia sotto forma di §alberi§ che di arbusti producendo frutti
+l’§albero§ simbolo dell’italia
+corso dei secoli attorno agli §alberi§ di ciliegio si sono sviluppate
+di 150 specie di §alberi§ originari
+un §albero§ di prima grandezza

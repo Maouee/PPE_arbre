@@ -1,173 +1,196 @@
-   Shop Categories
-     * Alberi di Natale
-          * Perchè comprare un albero di Natale vero?
-          * Consigli per un albero di Natale vero
-     * Conifere
-          * Consigli per la cura delle conifere
---
---
-    Anteprima
-
-      albero-di-natale
-
-   Supporto per Albero di Natale in Metallo
---
---
-
-   Supporto per Albero di Natale in Metallo
-   Il nostro supporto per albero di Natale è abbastanza robusto da contenere
-   tutti gli alberi di Natale fino a 300 cm di altezza e 50 kg di peso con...
-   35,00 € Prezzo
-   Picea Pungens Glauca VASO
---
---
-    Anteprima
-
-      albero-di-natale
-
-   Abete di Serbia VASO
---
---
-    Anteprima
-
-      albero-di-natale
-
-   Abete Rosso VASO
---
---
-    Anteprima
-
-      albero-di-natale
-
-   Abete del Caucaso VASO
---
---
-   38,00 € Prezzo
-   Tutti i nuovi prodotti
-   Abete albero - abies - tipi di abete - Trentino Garden
-
-                                Albero di Natale
---
---
-                                Albero di Natale
-
-Abete (Abies), un albero incantevole simbolo della lunga vita
-
---
-
-   L’abete è un albero appartenente alla famiglia delle Pinaceace Abies,
-   diffuso ampiamente nel territorio delle Alpi e soprattutto in Trentino
-   Alto Adige, anche nell’Appennino e nell’Europa del Nord. Esistono
---
---
-   cinque specie per la vendita online.
-   Abete del Caucaso, Abete del Colorado, Abete delle rocce dell’Arizona,
-   Abete di Serbia e l’Abete da vaso sono disponibili online. Scegli l’albero
-   che stai cercando per il tuo giardino, oppure per festeggiare il Natale e
-   acquistalo: lo faremo arrivare velocemente e in piena salute a casa tua.
---
---
-   Resteremo a tua disposizione anche nel post vendita, per domande e per
-   garantirti consigli utili e indicazioni sulla coltivazione e crescita del
-   tuo abete. Un albero sempreverde, un abete vero, è il miglior modo per
-   portare ombra, aria pura e benessere nel tuo parco o sul tuo terrazzo.
+   Una proposizione è una lista di simboli, ma è anche passibile di una
+   rappresentazione con una diversa struttura. A ogni proposizione è
+   associato un albero di costruzione, o albero sintattico, che è un albero
+   etichettato finito binario.
 
 --
 --
-  Caratteristiche dell’abete
+   etichettato finito binario.
 
-   L’abete è un albero che può raggiungere i 100 metri di altezza (in Italia
-   è mediamente alto intorno ai 40), con tronco dritto, chioma solitamente
-   piramidale e corteccia sottile. Le foglie sono aghiformi, cioè costituite
+   Un albero finito è un insieme \(X\) parzialmente ordinato, cioè con una
+   relazione binaria \(\preceq\) definita su \(X\), con le seguenti
+   proprietà:
 --
 --
-   forme varie.
+       radice.
 
-   L’abete è un albero che simboleggia la vita eterna e che fin
-   dall’antichità viene celebrato per la sua maestosità. Secondo alcuni,
-   infatti, la parola latina “abies” potrebbe derivare dal greco “longevo”
---
---
-   (può vivere fino a 600 anni), mentre secondo altri da “abire”, che
-   significa “andarsene dal terreno”, metafora per descrivere l’altezza che
-   contraddistingue questo albero.
+   L’albero si dice binario se
 
-   La crescita dell’abete è lenta e per questo la sua coltivazione è famosa
+     * Ogni nodo che non sia una foglia ha uno o al massimo due successori
 --
 --
-   visibilityAnteprima
+       \preceq c \preceq b\), con \(c \neq a\) e \(c \neq b\).
 
-      albero-di-natale
+   La rappresentazione usuale di un albero binario è di questo tipo, dove la
+   radice è in alto e l’albero cresce verso il basso:
 
-   Abete del Caucaso
+--
+
+   Didascalia figura: Esempio di rappresentazione di albero binario. I nodi
+   sono disposti su quattro righe. Nell prima riga si trova la radice (un
+   unico nodo). Nella seconda riga ci sono due nodi connessi con la radice.
 --
 --
-   visibilityAnteprima
+   Un ramo è un insieme totalmente ordinato di nodi che va dalla radice a una
+   foglia. La sua lunghezza è il numero di nodi che vi appartengono.
+   L’altezza dell’albero è la massima lunghezza dei suoi rami.
 
-      albero-di-natale
+--
 
-   Abete del Colorado
+   Un albero si dice etichettato se ad ogni nodo è associato un elemento di
+   qualche insieme prefissato, che si chiama etichetta (label). Le etichette
+   si possono sovrapporre ed identificare con i nodi.
 --
 --
-   visibilityAnteprima
+   si possono sovrapporre ed identificare con i nodi.
 
-      albero-di-natale
+   Costruzione dell’albero sintattico
 
-   Abete di Serbia
 --
---
-   visibilityAnteprima
 
-      albero-di-natale
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
 
-   Abete delle rocce dell'Arizona
---
---
-   visibilityAnteprima
-
-      albero-di-natale
-
-   Picea Pungens Super Blue (ex Baby Blue) VASO
---
---
-   visibilityAnteprima
-
-      albero-di-natale
-
-   Abete del Caucaso VASO
---
---
-   visibilityAnteprima
-
-      albero-di-natale
-
-   Abete Rosso VASO
---
---
-   visibilityAnteprima
-
-      albero-di-natale
-
-   Abete di Serbia VASO
---
---
-   visibilityAnteprima
-
-      albero-di-natale
-
-   Supporto per Albero di Natale in Metallo
 --
 --
 
-   Supporto per Albero di Natale in Metallo
-   Il nostro supporto per albero di Natale è abbastanza robusto da contenere
-   tutti gli alberi di Natale fino a 300 cm di altezza e 50 kg di peso con...
-   35,00 € Prezzo
-   Visualizzati 1-9 su 9 articoli
+   Questo descrive un algoritmo che, partendo dalla radice etichettata con la
+   proposizione iniziale, permette di costruire l’albero sintattico
+   applicando ripetutamente la condizione 2 ai nodi costruiti al passo
+   precedente.
 --
 --
-   deserunt aliquip nisi ex deserunt.
-   vivaio piante trentino garden
-   Vivai piante specializzato in abeti (alberi di natale), conifere nane,
-   aceri giapponesi e piante per giardini rocciosi.
+   Esempio
 
+   L’albero sintattico di \(( ( ( \mathrm{A} ) \wedge ( \neg ( \mathrm{B} ) )
+   ) \rightarrow ( \neg ( \mathrm{A} ) ) )\) è il seguente:
+
+--
+--
+   \neg ( \mathrm {B} ) ) ) \rightarrow ( \neg ( \mathrm {A} ) ) ) \)
+
+   L’albero è completo perchè tutte le sue foglie sono etichettate con
+   proposizioni atomiche (quindi l’algoritmo termina).
+
+--
+--
+   proposizioni atomiche (quindi l’algoritmo termina).
+
+     * Le etichette dei nodi dell’albero di costruzione di una proposizione
+       sono le sue sottoproposizioni.
+
+--
+--
+       sono le lettere che occorrono nella proposizione.
+
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
+
+--
+--
+
+   Le parentesi sono essenziali per individuare il connettivo principale di
+   una proposizione, e quindi per costruire il suo albero sintattico.
+
+   Contatore di parentesi Consideriamo la stringa \[(((\neg ( \mathrm{A} ))
+--
+--
+
+   Le parentesi sono essenziali per individuare il connettivo principale di
+   una proposizione, e quindi per costruire il suo albero sintattico.
+
+   Come si individua il connettivo principale? Sia \(P\) una proposizione non
+--
+--
+       )))\)
+
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
+
+--
+--
+   Se invece questo non accade mai, dopo un certo numero di passi tutti i
+   nodi privi di successori saranno etichettati con proposizioni atomiche:
+   l’algoritmo quindi termina e quello costruito è l’albero sintattico di
+   \(\mathrm{P}\).
+
+--
+--
+   \(\mathrm{P}\).
+
+   Dunque l’algoritmo per la costruzione dell’albero sintattico permette di
+
+     * determinare se la stringa \(\mathrm{P}\) che viene data come input è
+--
+--
+       \(\mathrm{P}\).
+
+   Inoltre, l’albero sintattico permette anche di determinare l’altezza della
+   proposizione \(\mathrm{P}\): infatti, si dimostra facilmente per induzione
+--
+   proposizione \(\mathrm{P}\): infatti, si dimostra facilmente per induzione
+   strutturale che \(ht(\mathrm{P})\) coincide con l’altezza del suo albero
+   di costruzione diminuita di una unità, ovvero con la massima lunghezza di
+   un cammino che congiunga la radice a un nodo terminale.
+--
+--
+   Sia \(\mathrm{P}\) la proposizione \(( ( ( \mathrm{A} ) \wedge ( \neg (
+   \mathrm{B} ) ) ) \rightarrow ( \neg ( \mathrm{A} ) ) )\). Abbiamo visto
+   che il suo albero sintattico è il seguente:
+
+   Didascalia figura: Albero sintattico della proposizione \( ( ( ( \mathrm
+--
+--
+   ) ) \)
+
+   Siccome l’altezza dell’albero è \(4\), l’altezza della proposizione
+   \(ht(\mathrm{P})\) è \(4-1\), ovvero \(3\).
+
+--
+--
+
+   Esercizio Verificare quali delle seguenti stringhe sono proposizioni e
+   quali no, costruendone l’albero sintattico e spiegando dove eventualmente
+   la costruzione fallisce e per quale ragione:
+
+--
+--
+       (\neg ( \mathrm{C} ) ) ) ) ) )\)
+
+   L’albero sintattico si può costruire direttamente anche per le espressioni
+   in cui sono state omesse le parentesi seguendo le convenzioni stabilite.
+
+--
+--
+   Esempio
+
+   L’albero sintattico di \(\mathrm{A} \wedge \neg \mathrm{B} \rightarrow
+   \neg \mathrm{A}\) è il seguente, essendo \(\rightarrow\) il connettivo
+   principale:
+--
+--
+   \mathrm{B} \rightarrow \neg \mathrm{A}\)
+
+   L’albero sintattico può essere ulteriormente semplificato etichettando le
+   foglie con le formule atomiche, e tutti gli altri nodi con il solo
+   connettivo che serve per costruire la (sotto)proposizione corrispondente a
+--
+--
+   Esempio
+
+   L’albero sintattico di \((\mathrm{A} \wedge \neg \mathrm{B}) \vee \neg
+   \mathrm{A}\)
+
+--
+--
+       \mathrm{B}\)
+
+   Costruire l’albero sintattico delle seguenti formule (in cui sono state
+   omesse alcune parentesi secondo le convenzioni adottate).
+
+--
+--
+       \mathrm{D})]\)
+
+   Calcolare anche l’altezza di ciascun albero e l’altezza della formula a
+   cui è associato.

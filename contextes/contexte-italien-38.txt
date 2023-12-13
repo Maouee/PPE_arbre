@@ -1,0 +1,57 @@
+   Vai alla navigazione Vai alla ricerca
+
+   In informatica, un albero sintattico astratto (AST) o semplicemente albero
+   sintattico è una rappresentazione ad albero della struttura sintattica
+   astratta del testo (spesso codice sorgente) scritto in un linguaggio
+--
+   astratta del testo (spesso codice sorgente) scritto in un linguaggio
+   formale. Ogni nodo dell'albero denota un costrutto che si verifica nel
+   testo.
+
+--
+--
+   presente nella sintassi reale, ma solo quelli strutturali o relativi al
+   contenuto. Ad esempio, le parentesi di raggruppamento sono implicite nella
+   struttura ad albero quindi non devono essere rappresentate da nodi
+   separati. Similmente, un costrutto solitamente sintattico come
+   l'istruzione se-condizione-allora può essere denotato per mezzo di un
+--
+--
+   singolo nodo con tre rami.
+
+   Questo distingue gli alberi sintattici astratti da quelli concreti,
+   tradizionalmente designati come alberi di analisi che sono tipicamente
+   costruiti da un parser durante la traduzione del codice sorgente e il
+   processo di compilazione. Una volta costruiti, ulteriori informazioni
+--
+--
+   contestuali.
+
+   Gli alberi sintattici astratti vengono utilizzati anche nell'analisi del
+   programma e nei sistemi di trasformazione del programma.
+
+--
+--
+Applicazione nei compilatori[modifica | modifica wikitesto]
+
+   Gli alberi sintattici astratti sono strutture dati ampiamente utilizzate
+   dai compilatori per rappresentare la struttura del codice sorgente. Un AST
+   è in genere il risultato della fase di analisi sintattica del compilatore.
+--
+--
+   del linguaggio. Il compilatore genera anche la tabella dei simboli in base
+   all'AST durante l'analisi semantica. Un attraversamento completo
+   dell'albero permette di verificare la correttezza del programma.
+
+   Dopo aver verificato la correttezza, l'AST funge da base per la
+--
+--
+
+     * Document Object Model (DOM)
+     * Lisp, famiglia di linguaggi basati su alberi (chiamati liste) e macro
+       per la loro manipolazione
+--
+       per la loro manipolazione
+     * Albero sintattico, detto anche albero sintattico concreto
+
+Altri progetti[modifica | modifica wikitesto]
