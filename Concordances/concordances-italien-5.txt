@@ -12,6 +12,7 @@ numerosi 	alberi	 poi fanno parte dei sistemi
 trovano impieghi di 	alberi	
 l'	albero	 dal punto di vista meccanico
 img]	albero	 sollecitato a flessione
+img]	albero	 sollecitato a flessione
 l'	albero	 trasmette un moto rotatorio
 di masse collegate all'	albero	 stesso
 mostra l'inflessione di un 	albero	
