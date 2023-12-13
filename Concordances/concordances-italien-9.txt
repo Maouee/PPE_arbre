@@ -1,10 +1,10 @@
-	albero	
-	albero	
-	albero	 di natale
-	albero	 della cuccagna
-	albero	 genealogico
-	albero	 a gomiti/camme
-	albero	 di trasmissione
-	albero	 maestro
-	albero	
-	albero	
+§albero§
+§albero§
+§albero§ di natale
+§albero§ della cuccagna
+§albero§ genealogico
+§albero§ a gomiti/camme
+§albero§ di trasmissione
+§albero§ maestro
+§albero§
+§albero§

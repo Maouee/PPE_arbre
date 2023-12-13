@@ -1,0 +1,213 @@
+   Link: alternate
+   Link: canonical
+   Link: license
+
+                               Albero sintattico
+
+   Da Wikipedia, l'enciclopedia libera.
+   Vai alla navigazione Vai alla ricerca
+
+   Un albero sintattico o concreto è un albero che rappresenta la struttura
+   sintattica di una stringa in accordo a determinate forme grammaticali. Un
+   programma che produce quest'albero viene chiamato parser. Gli alberi
+   sintattici possono essere generati per frasi delle lingue naturali
+   attraverso l'elaborazione del linguaggio naturale, così come durante
+   l'elaborazione di linguaggi formali e di linguaggi di programmazione.
+
+   La struttura ad albero è stata mutuata dalla teoria dei grafi per
+   rappresentare l'idea intuitiva che le frasi delle lingue naturali possono
+   essere segmentate in unità più piccole.^[1] È detto "indicatore
+   sintagmatico" ogni rappresentazione (ad albero o per mezzo di parentesi)
+   dei sintagmi di una frase.^[2]
+
+Indice
+
+     * 1 Caratteristiche
+     * 2 Note
+     * 3 Bibliografia
+     * 4 Voci correlate
+     * 5 Altri progetti
+     * 6 Collegamenti esterni
+
+Caratteristiche[modifica | modifica wikitesto]
+
+   [IMG]Un semplice albero sintattico della frase inglese «John ha colpito la
+   palla».
+
+   Un albero sintattico è composto da nodi e rami. La figura a fianco è un
+   albero sintattico linguistico che permette di creare determinate frasi in
+   lingua inglese. Nel disegno, l'albero sintattico è l'intera struttura che
+   parte da S e termina in ognuna delle foglie (John, ball, the, hit).
+
+   Nell'albero sono usate le seguenti abbreviazioni:
+
+     * S sta per la frase, la struttura top-level in questo esempio;
+     * NP sta per sintagma nominale. Il primo ramo (quello a sinistra) è il
+       soggetto John. L'altro è l'oggetto della frase;
+     * VP sta per sintagma verbale, che serve il predicato;
+     * V per verbo. In questo caso, hit («ha colpito»);
+     * Det sta per aggettivo determinativo, in questo caso the («la»);
+     * N sta per sostantivo.
+
+   Nell'albero sintattico, ogni nodo può essere un nodo radice, un nodo ramo
+   o un nodo foglia. Nell'esempio precedente, S è il nodo radice, NP e VP
+   sono nodi rami, mentre John, ball, the e hit sono tutti foglie.
+
+   I nodi si possono anche riferire ai genitori e ai figli di nodi. Un
+   genitore è quel nodo che ha almeno un altro nodo collegato con un ramo
+   sotto di lui. Nell'esempio, S è genitore sia di NP che di VP. Un figlio è
+   quel nodo che ha almeno un ramo collegato a un nodo sopra di lui;
+   nell'esempio, hit è un figlio del nodo V.
+
+Note[modifica | modifica wikitesto]
+
+    1. ^ Beccaria, Lemma albero.
+    2. ^ Cfr. il lemma corrispondente sul dizionario De Mauro.
+
+Bibliografia[modifica | modifica wikitesto]
+
+     * Gian Luigi Beccaria (a cura di), Dizionario di linguistica, Torino,
+       Einaudi, 2004, ISBN 978-88-06-16942-8.
+
+Voci correlate[modifica | modifica wikitesto]
+
+     * Linguistica computazionale
+     * Linguaggi formali matematici
+     * Parsing
+     * Sintagma
+     * Teoria x-barra
+
+Altri progetti[modifica | modifica wikitesto]
+
+     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
+       altri file sull'albero sintattico
+
+Collegamenti esterni[modifica | modifica wikitesto]
+
+     * (EN) syntax tree, in Free On-line Dictionary of Computing, Denis Howe.
+       Disponibile con licenza GFDL
+     * (EN) Linguistic Tree Constructor, su ltc.sourceforge.net.
+     * (EN) phpSyntaxTree — Online parse tree drawing site
+     * (EN) Qtree — LaTeX package for drawing parse trees
+     * (EN) Syntax Tree Drawer in SVG, su linguiste.org. URL consultato il 4
+       febbraio 2007 (archiviato dall'url originale il 4 ottobre 2006).
+     * (EN) TreeForm Syntax Tree Drawing Software, su mapsofspeech.com.
+   [IMG] Portale Informatica: accedi alle voci di Wikipedia che trattano di
+   informatica
+   Estratto da
+   "https://it.wikipedia.org/w/index.php?title=Albero_sintattico&oldid=136768219"
+   Categorie:
+     * Compilatori
+     * Teoria dei linguaggi formali
+     * Alberi (strutture dati)
+
+Menu di navigazione
+
+  Strumenti personali
+
+     * Accesso non effettuato
+     * discussioni
+     * contributi
+     * registrati
+     * entra
+
+  Namespace
+
+     * Voce
+     * Discussione
+   [ ] italiano
+
+  Visite
+
+     * Leggi
+     * Modifica
+     * Modifica wikitesto
+     * Cronologia
+   [ ] Altro
+
+  Ricerca
+
+   _____________________ [ Ricerca ] [ Vai ]
+   Visita la pagina principale
+
+  Navigazione
+
+     * Pagina principale
+     * Ultime modifiche
+     * Una voce a caso
+     * Nelle vicinanze
+     * Vetrina
+     * Aiuto
+     * Sportello informazioni
+
+  Comunità
+
+     * Portale Comunità
+     * Bar
+     * Il Wikipediano
+     * Fai una donazione
+     * Contatti
+
+  Strumenti
+
+     * Puntano qui
+     * Modifiche correlate
+     * Pagine speciali
+     * Link permanente
+     * Informazioni pagina
+     * Cita questa voce
+     * Ottieni URL breve
+     * Elemento Wikidata
+
+  Stampa/esporta
+
+     * Crea un libro
+     * Scarica come PDF
+     * Versione stampabile
+
+  In altri progetti
+
+     * Wikimedia Commons
+
+  In altre lingue
+
+     * العربية
+     * Bosanski
+     * Čeština
+     * Deutsch
+     * English
+     * فارسی
+     * Français
+     * Hrvatski
+     * Bahasa Indonesia
+     * 日本語
+     * 한국어
+     * Latina
+     * Lombard
+     * Nederlands
+     * Polski
+     * Português
+     * Srpskohrvatski / српскохрватски
+     * Српски / srpski
+     * Svenska
+     * தமிழ்
+     * Українська
+     * Tiếng Việt
+     * 中文
+     * 粵語
+   Modifica collegamenti
+     * Questa pagina è stata modificata per l'ultima volta il 6 dic 2023 alle
+       21:22.
+     * Il testo è disponibile secondo la licenza Creative Commons
+       Attribuzione-Condividi allo stesso modo; possono applicarsi condizioni
+       ulteriori. Vedi le condizioni d'uso per i dettagli.
+     * Informativa sulla privacy
+     * Informazioni su Wikipedia
+     * Avvertenze
+     * Codice di condotta
+     * Sviluppatori
+     * Statistiche
+     * Dichiarazione sui cookie
+     * Versione mobile
+     * Wikimedia Foundation
+     * Powered by MediaWiki

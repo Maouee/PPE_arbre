@@ -1,0 +1,39 @@
+       2.3 Alberi sintattittici                               Indietro Avanti 
+
+     Un albero sintattico e' una rappresentazione di come una particolare
+     frase puo` essere derivata da una grammatica, a partire dall' assioma.
+
+     L' albero sintattico assegna alle frasi una struttura chwe puo` essere
+     utilizzata per operaziomni successive quali l' interpretazione della
+     frase, la sua traduzione etc.
+
+     Anche i traduttori o compilatori analizzano il linguaggio sorgente,
+     producono un albero sintattico del programma e lo utilizzano per
+     tradurlo in linguaggio macchina.
+
+      Dato un insieme di regole, esse possono essere       Grammatica 
+      utilizzate per derivare o produrre una proposizione  
+      applicando il metodo riportato qui di seguito.       
+      Si parte dal simbolo non terminale proposizione, si  
+      cerca una regola avente proposizione come parte      
+      sinistra, e si sostituisce la sua parte destra al    
+      posto di proposizione. In questo modo si rimpiazza   
+      un simbolo non terminale con una delle stringhe di   
+      cui puo` essere composto.                            
+      Visualizziamo questa operazione utilizzando          
+      opportuni diagrammi, detti alberi sintattici, che    
+      permettono di descrivere la struttura di un regola   
+      scomponendola nelle sue parti costituenti:           
+
+      Si ripete il processo applicandolo ad uno dei simboli non       
+      terminali, ad esempio sintagma_nominale.                        
+      La derivazione e' completa quando la frontiera dell' albero (le 
+      foglie) contiene solo simbolo terminali.                        
+      Il simbolo non terminale proposizione viene chiamato radice     
+      dell'albero, mentre i simboli terminali foglie Espandendo il    
+      vocabolario dei simboli terminali, e` possibile descrivere un   
+      numero maggiore di proposizioni.                                
+
+                                   Quiz                                       
+
+                                                               IndietroAvanti 

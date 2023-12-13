@@ -131,11 +131,11 @@ Mots proches
 
      ----------------------------------------------------------------------
 
-   Choisissez la bonne traduction.
+   Cochez la bonne traduction.
 
-     * voici
+     * Pour 3 nuits.
 
-          * [ ] ecco
-          * [ ] prego
+          * [ ] Per tre notti.
+          * [ ] Per tre giorni.
    Applications mobiles Index Mentions légales et crédits CGU CGV Charte de
    confidentialité Cookies Contact © Larousse

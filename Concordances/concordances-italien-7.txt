@@ -1,7 +1,7 @@
-img]schema di un 	albero	 di maestra generico
-l'	albero	 di maestra sta al centro
-l'	albero	 di maestra
-l'	albero	 maggiore delle navi a vela
-corrispondenza delle specifiche zone dell'	albero	 appena descritte si
-nomi delle vele inferite sull'	albero	 di maestra prendono il nome
-altri file su 	albero	 di maestra
+img]schema di un §albero§ di maestra generico
+l'§albero§ di maestra sta al centro
+l'§albero§ di maestra
+l'§albero§ maggiore delle navi a vela
+corrispondenza delle specifiche zone dell'§albero§ appena descritte si
+nomi delle vele inferite sull'§albero§ di maestra prendono il nome
+altri file su §albero§ di maestra

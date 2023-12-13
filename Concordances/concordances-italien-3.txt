@@ -1,24 +1,25 @@
-l'	albero	
-2 l'	albero	 dal punto di vista meccanico
-l'	albero	 ha una grandissima quantit
-all'	albero	 di un motore elettrico
-di 	alberi	
-pistoni abbiamo l'	albero	 motore
-detto anche 	albero	 a gomiti o 	albero	
-alloggiano l'	albero	 primario e l'	albero	 secondario
-quindi il moto a un 	albero	 di trasmissione che
-lo trasmette agli 	alberi	 delle ruote detti anche semiassi
-numerosi 	alberi	 poi fanno parte dei sistemi
-trovano impieghi di 	alberi	
-l'	albero	 dal punto di vista meccanico
-img]	albero	 sollecitato a flessione
-l'	albero	 trasmette un moto rotatorio
-di masse collegate all'	albero	 stesso
-mostra l'inflessione di un 	albero	
-l'	albero	
-	albero	
-per evitare che l'	albero	 sia sottoposto a una coppia
-si rompe e svincola l'	albero	 motore dal
-l'	albero	 motore pu
-nel caso di un 	albero	 motore dritto
-l'	albero	 motore ruotando in senso
+l'§albero§
+2 l'§albero§ dal punto di vista meccanico
+l'§albero§ ha una grandissima quantit
+all'§albero§ di un motore elettrico
+di §alberi§
+pistoni abbiamo l'§albero§ motore
+detto anche §albero§ a gomiti o §albero§
+alloggiano l'§albero§ primario e l'§albero§ secondario
+quindi il moto a un §albero§ di trasmissione che
+lo trasmette agli §alberi§ delle ruote detti anche semiassi
+numerosi §alberi§ poi fanno parte dei sistemi
+trovano impieghi di §alberi§
+l'§albero§ dal punto di vista meccanico
+img]§albero§ sollecitato a flessione
+img]§albero§ sollecitato a flessione
+l'§albero§ trasmette un moto rotatorio
+di masse collegate all'§albero§ stesso
+mostra l'inflessione di un §albero§
+l'§albero§
+§albero§
+per evitare che l'§albero§ sia sottoposto a una coppia
+si rompe e svincola l'§albero§ motore dal
+l'§albero§ motore pu
+nel caso di un §albero§ motore dritto
+l'§albero§ motore ruotando in senso
