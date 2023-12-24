@@ -1,131 +1,196 @@
-   Comprimi il menu
-
-Albero sintattico Un albero sintattico o concreto è un albero che rappresenta la
-                     struttura sintattica di una stringa in
-
---
---
-Albero sintattico
-
-   Un albero sintattico o concreto è un albero che rappresenta la struttura
-   sintattica di una stringa in accordo a determinate forme grammaticali. Un
---
-   sintattica di una stringa in accordo a determinate forme grammaticali. Un
-   programma che produce quest'albero viene chiamato parser. Gli alberi
-   sintattici possono essere generati per frasi delle lingue naturali
-   attraverso l'elaborazione del linguaggio naturale, così come durante
---
---
-   l'elaborazione di linguaggi formali e di linguaggi di programmazione.
-
-   La struttura ad albero è stata mutuata dalla teoria dei grafi per
-   rappresentare l'idea intuitiva che le frasi delle lingue naturali possono
-   essere segmentate in unità più piccole. È detto "indicatore sintagmatico"
---
---
-   rappresentare l'idea intuitiva che le frasi delle lingue naturali possono
-   essere segmentate in unità più piccole. È detto "indicatore sintagmatico"
-   ogni rappresentazione (ad albero o per mezzo di parentesi) dei sintagmi di
-   una frase.
+   Una proposizione è una lista di simboli, ma è anche passibile di una
+   rappresentazione con una diversa struttura. A ogni proposizione è
+   associato un albero di costruzione, o albero sintattico, che è un albero
+   etichettato finito binario.
 
 --
 --
-Caratteristiche Modifica
+   etichettato finito binario.
 
-   Un semplice albero sintattico della frase inglese «John ha colpito la
-   palla».
-
+   Un albero finito è un insieme \(X\) parzialmente ordinato, cioè con una
+   relazione binaria \(\preceq\) definita su \(X\), con le seguenti
+   proprietà:
 --
 --
-   palla».
+       radice.
 
-   Un albero sintattico è composto da nodi e rami. La figura a fianco è un
-   albero sintattico linguistico che permette di creare determinate frasi in
-   lingua inglese. Nel disegno, l'albero sintattico è l'intera struttura che
-   parte da S e termina in ognuna delle foglie (John, ball, the, hit).
+   L’albero si dice binario se
 
+     * Ogni nodo che non sia una foglia ha uno o al massimo due successori
 --
 --
-   parte da S e termina in ognuna delle foglie (John, ball, the, hit).
+       \preceq c \preceq b\), con \(c \neq a\) e \(c \neq b\).
 
-   Nell'albero sono usate le seguenti abbreviazioni:
-
-     * S sta per la frase, la struttura top-level in questo esempio;
---
---
-     * N sta per sostantivo.
-
-   Nell'albero sintattico, ogni nodo può essere un nodo radice, un nodo ramo
-   o un nodo foglia. Nell'esempio precedente, S è il nodo radice, NP e VP
-   sono nodi rami, mentre John, ball, the e hit sono tutti foglie.
---
---
-Note Modifica
-
-    1. Beccaria, Lemma albero.
-    2. Cfr. il lemma corrispondente sul dizionario De Mauro.
+   La rappresentazione usuale di un albero binario è di questo tipo, dove la
+   radice è in alto e l’albero cresce verso il basso:
 
 --
---
-Altri progetti Modifica
 
-     * Wikimedia Commons contiene immagini o altri file sull'albero
-       sintattico
+   Didascalia figura: Esempio di rappresentazione di albero binario. I nodi
+   sono disposti su quattro righe. Nell prima riga si trova la radice (un
+   unico nodo). Nella seconda riga ci sono due nodi connessi con la radice.
+--
+--
+   Un ramo è un insieme totalmente ordinato di nodi che va dalla radice a una
+   foglia. La sua lunghezza è il numero di nodi che vi appartengono.
+   L’altezza dell’albero è la massima lunghezza dei suoi rami.
+
+--
+
+   Un albero si dice etichettato se ad ogni nodo è associato un elemento di
+   qualche insieme prefissato, che si chiama etichetta (label). Le etichette
+   si possono sovrapporre ed identificare con i nodi.
+--
+--
+   si possono sovrapporre ed identificare con i nodi.
+
+   Costruzione dell’albero sintattico
+
+--
+
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
 
 --
 --
-     | 
-   NiNa.Az
-   Un albero sintattico o concreto e un albero che rappresenta la struttura
-   sintattica di una stringa in accordo a determinate forme grammaticali Un
---
-   sintattica di una stringa in accordo a determinate forme grammaticali Un
-   programma che produce quest albero viene chiamato parser Gli alberi
-   sintattici possono essere generati per frasi delle lingue naturali
-   attraverso l elaborazione del linguaggio naturale cosi come durante l
+
+   Questo descrive un algoritmo che, partendo dalla radice etichettata con la
+   proposizione iniziale, permette di costruire l’albero sintattico
+   applicando ripetutamente la condizione 2 ai nodi costruiti al passo
+   precedente.
 --
 --
-   attraverso l elaborazione del linguaggio naturale cosi come durante l
-   elaborazione di linguaggi formali e di linguaggi di programmazione La
-   struttura ad albero e stata mutuata dalla teoria dei grafi per
-   rappresentare l idea intuitiva che le frasi delle lingue naturali possono
-   essere segmentate in unita piu piccole 1 E detto indicatore sintagmatico
+   Esempio
+
+   L’albero sintattico di \(( ( ( \mathrm{A} ) \wedge ( \neg ( \mathrm{B} ) )
+   ) \rightarrow ( \neg ( \mathrm{A} ) ) )\) è il seguente:
+
 --
 --
-   rappresentare l idea intuitiva che le frasi delle lingue naturali possono
-   essere segmentate in unita piu piccole 1 E detto indicatore sintagmatico
-   ogni rappresentazione ad albero o per mezzo di parentesi dei sintagmi di
-   una frase 2 Indice 1 Caratteristiche 2 Note 3 Bibliografia 4 Voci
-   correlate 5 Altri progetti 6 Collegamenti esterniCaratteristiche Modifica
+   \neg ( \mathrm {B} ) ) ) \rightarrow ( \neg ( \mathrm {A} ) ) ) \)
+
+   L’albero è completo perchè tutte le sue foglie sono etichettate con
+   proposizioni atomiche (quindi l’algoritmo termina).
+
 --
 --
-   una frase 2 Indice 1 Caratteristiche 2 Note 3 Bibliografia 4 Voci
-   correlate 5 Altri progetti 6 Collegamenti esterniCaratteristiche Modifica
-   nbsp Un semplice albero sintattico della frase inglese John ha colpito la
-   palla Un albero sintattico e composto da nodi e rami La figura a fianco e
-   un albero sintattico linguistico che permette di creare determinate frasi
-   in lingua inglese Nel disegno l albero sintattico e l intera struttura che
-   parte da S e termina in ognuna delle foglie John ball the hit Nell albero
-   sono usate le seguenti abbreviazioni S sta per la frase la struttura top
-   level in questo esempio NP sta per sintagma nominale Il primo ramo quello
+   proposizioni atomiche (quindi l’algoritmo termina).
+
+     * Le etichette dei nodi dell’albero di costruzione di una proposizione
+       sono le sue sottoproposizioni.
+
 --
 --
-   sintagma verbale che serve il predicato V per verbo In questo caso hit ha
-   colpito Det sta per aggettivo determinativo in questo caso the la N sta
-   per sostantivo Nell albero sintattico ogni nodo puo essere un nodo radice
-   un nodo ramo o un nodo foglia Nell esempio precedente S e il nodo radice
-   NP e VP sono nodi rami mentre John ball the e hit sono tutti foglie I nodi
+       sono le lettere che occorrono nella proposizione.
+
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
+
 --
 --
-   Nell esempio S e genitore sia di NP che di VP Un figlio e quel nodo che ha
-   almeno un ramo collegato a un nodo sopra di lui nell esempio hit e un
-   figlio del nodo V Note Modifica Beccaria Lemma albero Cfr il lemma
-   corrispondente sul dizionario De Mauro Bibliografia ModificaGian Luigi
-   Beccaria a cura di Dizionario di linguistica Torino Einaudi 2004 ISBN 978
+
+   Le parentesi sono essenziali per individuare il connettivo principale di
+   una proposizione, e quindi per costruire il suo albero sintattico.
+
+   Contatore di parentesi Consideriamo la stringa \[(((\neg ( \mathrm{A} ))
 --
 --
-   formali matematici Parsing Sintagma Teoria x barraAltri progetti
-   ModificaAltri progettiWikimedia Commons nbsp Wikimedia Commons contiene
-   immagini o altri file sull albero sintatticoCollegamenti esterni Modifica
-   EN Linguistic Tree Constructor su ltc sourceforge net EN phpSyntaxTree
-   Online parse tree drawing site EN Qtree LaTeX package for drawing parse
+
+   Le parentesi sono essenziali per individuare il connettivo principale di
+   una proposizione, e quindi per costruire il suo albero sintattico.
+
+   Come si individua il connettivo principale? Sia \(P\) una proposizione non
+--
+--
+       )))\)
+
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
+
+--
+--
+   Se invece questo non accade mai, dopo un certo numero di passi tutti i
+   nodi privi di successori saranno etichettati con proposizioni atomiche:
+   l’algoritmo quindi termina e quello costruito è l’albero sintattico di
+   \(\mathrm{P}\).
+
+--
+--
+   \(\mathrm{P}\).
+
+   Dunque l’algoritmo per la costruzione dell’albero sintattico permette di
+
+     * determinare se la stringa \(\mathrm{P}\) che viene data come input è
+--
+--
+       \(\mathrm{P}\).
+
+   Inoltre, l’albero sintattico permette anche di determinare l’altezza della
+   proposizione \(\mathrm{P}\): infatti, si dimostra facilmente per induzione
+--
+   proposizione \(\mathrm{P}\): infatti, si dimostra facilmente per induzione
+   strutturale che \(ht(\mathrm{P})\) coincide con l’altezza del suo albero
+   di costruzione diminuita di una unità, ovvero con la massima lunghezza di
+   un cammino che congiunga la radice a un nodo terminale.
+--
+--
+   Sia \(\mathrm{P}\) la proposizione \(( ( ( \mathrm{A} ) \wedge ( \neg (
+   \mathrm{B} ) ) ) \rightarrow ( \neg ( \mathrm{A} ) ) )\). Abbiamo visto
+   che il suo albero sintattico è il seguente:
+
+   Didascalia figura: Albero sintattico della proposizione \( ( ( ( \mathrm
+--
+--
+   ) ) \)
+
+   Siccome l’altezza dell’albero è \(4\), l’altezza della proposizione
+   \(ht(\mathrm{P})\) è \(4-1\), ovvero \(3\).
+
+--
+--
+
+   Esercizio Verificare quali delle seguenti stringhe sono proposizioni e
+   quali no, costruendone l’albero sintattico e spiegando dove eventualmente
+   la costruzione fallisce e per quale ragione:
+
+--
+--
+       (\neg ( \mathrm{C} ) ) ) ) ) )\)
+
+   L’albero sintattico si può costruire direttamente anche per le espressioni
+   in cui sono state omesse le parentesi seguendo le convenzioni stabilite.
+
+--
+--
+   Esempio
+
+   L’albero sintattico di \(\mathrm{A} \wedge \neg \mathrm{B} \rightarrow
+   \neg \mathrm{A}\) è il seguente, essendo \(\rightarrow\) il connettivo
+   principale:
+--
+--
+   \mathrm{B} \rightarrow \neg \mathrm{A}\)
+
+   L’albero sintattico può essere ulteriormente semplificato etichettando le
+   foglie con le formule atomiche, e tutti gli altri nodi con il solo
+   connettivo che serve per costruire la (sotto)proposizione corrispondente a
+--
+--
+   Esempio
+
+   L’albero sintattico di \((\mathrm{A} \wedge \neg \mathrm{B}) \vee \neg
+   \mathrm{A}\)
+
+--
+--
+       \mathrm{B}\)
+
+   Costruire l’albero sintattico delle seguenti formule (in cui sono state
+   omesse alcune parentesi secondo le convenzioni adottate).
+
+--
+--
+       \mathrm{D})]\)
+
+   Calcolare anche l’altezza di ciascun albero e l’altezza della formula a
+   cui è associato.

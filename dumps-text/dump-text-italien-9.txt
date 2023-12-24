@@ -131,11 +131,11 @@ Mots proches
 
      ----------------------------------------------------------------------
 
-   Savez-vous écrire en lettres ce nombre ? Cochez la bonne réponse.
+   Cochez la bonne traduction.
 
-     * 8
+     * Mi dispiace ma parlo molto poco italiano.
 
-          * [ ] otto
-          * [ ] quattro
+          * [ ] Je suis désolé, mais je ne parle pas très bien italien.
+          * [ ] Je suis désolé, mais je parle très peu italien.
    Applications mobiles Index Mentions légales et crédits CGU CGV Charte de
    confidentialité Cookies Contact © Larousse

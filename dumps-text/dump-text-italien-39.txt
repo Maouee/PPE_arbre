@@ -1,308 +1,592 @@
-   Link: canonical
-   Link: shortlink
-   Link: alternate af-za
-   Link: alternate be-by
-   Link: alternate da-dk
-   Link: alternate de-de
-   Link: alternate fr-fr
-   Link: alternate id-id
-   Link: alternate it-it
-   Link: alternate kk-kz
-   Link: alternate nl-nl
-   Link: alternate pt-pt
-   Link: alternate ru-ru
-   Link: alternate uk-ua
-   www.wikidata.it-it.nina.az
-     * Categorie
-     * Quotidiano
-     * Casuale
-     * Contattaci
-     * DMCA
-     * Rss Feed
-     * Altro
-          * SiteMap
-          * SiteMap TXT
-          * Rss 0
-          * Rss 1
-          * Rss 2
-          * Rss 3
-          * Rss 4
-          * Rss 5
-          * Rss 6
-          * Rss 7
-          * Rss 8
-          * Rss 9
-          * Rss 10
-          * Rss 11
-          * Rss 12
-          * Rss 13
-          * Rss 14
-          * Rss 15
-          * Rss 16
-          * Rss 17
-          * Rss 18
-          * Rss 19
-          * Rss 20
-          * Rss 21
-          * Rss 22
-          * Rss 23
-          * Rss 24
-          * Rss 25
-          * Rss 26
-          * Rss 27
-          * Rss 28
-          * Rss 29
-          * Rss 30
-          * Rss 31
-          * Rss 32
-          * Rss 33
-          * Rss 34
-          * Rss 35
-          * Rss 36
-          * Rss 37
-          * Rss 38
-          * Rss 39
-          * Rss 40
-          * Rss 41
-          * Rss 42
-          * Rss 43
-          * Rss 44
-          * Rss 45
-          * Rss 46
-          * Rss 47
-          * Rss 48
-          * Rss 49
-          * Rss 50
-          * Rss 51
-          * Rss 52
-          * Rss 53
-          * Rss 54
-          * Rss 55
-          * Rss 56
-          * Rss 57
-          * Rss 58
-          * Rss 59
-          * Rss 60
-          * Rss 61
-          * Rss 62
-          * Rss 63
-          * Rss 64
-          * Rss 65
-          * Rss 66
-          * Rss 67
-          * Rss 68
-          * Rss 69
-          * Rss 70
-          * Rss 71
-          * Rss 72
-          * Rss 73
-          * Rss 74
-          * Rss 75
-          * Rss 76
-          * Rss 77
-          * Rss 78
-          * Rss 79
-          * Rss 80
-          * Rss 81
-          * Rss 82
-          * Rss 83
-          * Rss 84
-          * Rss 85
-          * Rss 86
-          * Rss 87
-          * Rss 88
-          * Rss 89
-          * Rss 90
-          * Rss 91
-          * Rss 92
-          * Rss 93
-          * Rss 94
-          * Rss 95
-          * Rss 96
-          * Rss 97
-          * Rss 98
-          * Rss 99
-          * Rss 100
-          * Rss 101
-          * Rss 102
-          * Rss 103
-          * Rss 104
-          * Rss 105
-          * Ping
-          * Ping TXT
-   Comprimi il menu
+                                    Sintassi
+                   4.1 – Sintassi della logica proposizionale
 
-Albero sintattico Un albero sintattico o concreto è un albero che rappresenta la
-                     struttura sintattica di una stringa in
+     * Proposizioni
+          * Proposizioni atomiche e connettivi principali
+          * Misure di complessità
+          * Esempi
+     * Albero sintattico di una proposizione
+     * Convenzioni sulle parentesi
 
-Albero sintattico
+                                  Proposizioni
 
-   Un albero sintattico o concreto è un albero che rappresenta la struttura
-   sintattica di una stringa in accordo a determinate forme grammaticali. Un
-   programma che produce quest'albero viene chiamato parser. Gli alberi
-   sintattici possono essere generati per frasi delle lingue naturali
-   attraverso l'elaborazione del linguaggio naturale, così come durante
-   l'elaborazione di linguaggi formali e di linguaggi di programmazione.
+   Sintassi Fissiamo un insieme \(L\) non vuoto i cui elementi si dicono
+   lettere proposizionali. Le lettere proposizionali sono indicate dalle
+   prime lettere dell’alfabeto \(\mathrm{A} , \mathrm{B} , \mathrm{C} ,
+   \dots\) (eventualmente con pedici e apici, come \(\mathrm{A}_{0},
+   \mathrm{A}_{1}, \dotsc\) o \(\mathrm{A}' , \mathrm{A}'', \dotsc\)).
+   L’insieme \(Prop ( L )\) delle proposizioni (o formule proposizionali) su
+   \(L\) è un sottoinsieme di \[( L \cup \left \{ {(}, {)} , {\neg} , {\vee}
+   , {\wedge} , {\to} , {\leftrightarrow} \right \} ) ^* ,\] l’insieme di
+   tutte le stringhe finite di simboli che sono elementi di \(L\) oppure
+   connettivi o parentesi. \(Prop ( L )\) è definito dalle clausole
 
-   La struttura ad albero è stata mutuata dalla teoria dei grafi per
-   rappresentare l'idea intuitiva che le frasi delle lingue naturali possono
-   essere segmentate in unità più piccole. È detto "indicatore sintagmatico"
-   ogni rappresentazione (ad albero o per mezzo di parentesi) dei sintagmi di
-   una frase.
+     * Se \(\mathrm{A} \in L\) allora \(( \mathrm{A} ) \in Prop ( L )\).
 
-Caratteristiche Modifica
+     * Se \(\mathrm{P} \in Prop ( L )\) allora \(( \neg \mathrm{P} ) \in Prop
+       ( L )\).
 
-   Un semplice albero sintattico della frase inglese «John ha colpito la
-   palla».
+     * Se \(\Box\) è un connettivo binario (ovvero \(\Box \in \left \{ {\vee}
+       , {\wedge} , {\to} , {\leftrightarrow} \right \}\)), e se \(\mathrm{P}
+       , \mathrm{Q} \in Prop ( L )\) allora \(( \mathrm{P} \mathrel{\Box}
+       \mathrm{Q} ) \in Prop ( L )\).
 
-   Un albero sintattico è composto da nodi e rami. La figura a fianco è un
-   albero sintattico linguistico che permette di creare determinate frasi in
-   lingua inglese. Nel disegno, l'albero sintattico è l'intera struttura che
-   parte da S e termina in ognuna delle foglie (John, ball, the, hit).
+   Le clausole della definizione sono anche regole di costruzione: s’intende
+   che ogni proposizione si ottiene applicando un numero finito di volte le
+   clausole della definizione.
 
-   Nell'albero sono usate le seguenti abbreviazioni:
+   Formalmente
 
-     * S sta per la frase, la struttura top-level in questo esempio;
-     * NP sta per sintagma nominale. Il primo ramo (quello a sinistra) è il
-       soggetto John. L'altro è l'oggetto della frase;
-     * VP sta per sintagma verbale, che serve il predicato;
-     * V per verbo. In questo caso, hit («ha colpito»);
-     * Det sta per aggettivo determinativo, in questo caso the («la»);
-     * N sta per sostantivo.
+   Definizione Per \(n \in \mathbb{N}\) definiamo \(Prop_{n}( L )\) un
+   sottoinsieme di \(( L \cup \left \{{(}, {)} , {\neg} , {\vee} , {\wedge} ,
+   {\to} , {\leftrightarrow} \right \} ) ^*\) per ricorsione mediante le
+   clausole
 
-   Nell'albero sintattico, ogni nodo può essere un nodo radice, un nodo ramo
-   o un nodo foglia. Nell'esempio precedente, S è il nodo radice, NP e VP
-   sono nodi rami, mentre John, ball, the e hit sono tutti foglie.
+   \[Prop_{0} ( L )\] \[=\] \[\left \{ ( \mathrm{A} ) \boldsymbol\mid         
+                            \mathrm{A }\in L \right\}\]                       
+                            \[Prop_{n} ( L ) \cup \left \{( \neg \mathrm{P} ) 
+                            \boldsymbol\mid \mathrm{P} \in Prop_{n} ( L )     
+   \[Prop_{n + 1} ( L       \right\} \cup \left \{( \mathrm{P} \mathrel{\Box} 
+   )\]                \[=\] \mathrm{Q} ) \boldsymbol\mid \mathrm{P} ,         
+                            \mathrm{Q} \in Prop_{n} ( L ) , \; \Box \in \left 
+                            \{ {\vee} , {\wedge} , {\to} , {\leftrightarrow}  
+                            \right \} \right\}\]                              
 
-   I nodi si possono anche riferire ai genitori e ai figli di nodi. Un
-   genitore è quel nodo che ha almeno un altro nodo collegato con un ramo
-   sotto di lui. Nell'esempio, S è genitore sia di NP che di VP. Un figlio è
-   quel nodo che ha almeno un ramo collegato a un nodo sopra di lui;
-   nell'esempio, hit è un figlio del nodo V.
+   Quindi \(Prop_{0} ( L ) \subseteq Prop_{1} ( L ) \subseteq \dotsc\) e
+   \[Prop ( L ) = \bigcup_{n \in \mathbb{N}} Prop_{n} ( L )\]
 
-Note Modifica
+   Le lettere \(\mathrm{P}, \mathrm{Q} , \mathrm{R} , \dots\) (eventualmente
+   con pedici e apici) variano su elementi di \(Prop ( L )\).
 
-    1. Beccaria, Lemma albero.
-    2. Cfr. il lemma corrispondente sul dizionario De Mauro.
+Proposizioni atomiche e connettivi principali
 
-Bibliografia Modifica
+   Le proposizioni della forma \(( \mathrm{A} )\) (per qualche \(A \in L\))
+   si dicono proposizioni atomiche.
 
-     * Gian Luigi Beccaria (a cura di), Dizionario di linguistica, Torino,
-       Einaudi, 2004, ISBN 978-88-06-16942-8.
+   Se una proposizione è invece della forma \((\neg \mathrm{P} )\) o della
+   forma \(( \mathrm{P} \mathrel{\Box} \mathrm{Q} )\), \(\neg\) e \(\Box\)
+   sono rispettivamente il suo connettivo principale, e \(\mathrm{P}\) e
+   \(\mathrm{Q}\) le sottoproposizioni immediate.
 
-Voci correlate Modifica
+   Una proposizione non atomica \(\mathrm{P}\) viene detta negazione,
+   congiunzione, disgiunzione, implicazione oppure bi-implicazione quando il
+   suo connettivo principale è \(\neg\), \(\wedge\), \(\vee\),
+   \(\rightarrow\) o \(\leftrightarrow\), rispettivamente.
 
-     * Linguistica computazionale
-     * Linguaggi formali matematici
-     * Parsing
-     * Sintagma
-     * Teoria x-barra
+Misure di complessità
 
-Altri progetti Modifica
+   La lunghezza di una proposizione \(\mathrm{P}\) è la lunghezza di
+   \(\mathrm{P}\) vista come stringa, \[lh \colon ( L \cup \left \{ {(}, {)}
+   , {\neg} , {\vee} , {\wedge} , {\to} , {\leftrightarrow} \right \} ) ^*
+   \to \mathbb{N}\] mentre l’altezza di una proposizione \(ht ( \mathrm{P}
+   )\) è definita da \[ht \colon Prop ( L ) \to \mathbb{N}, \qquad ht (
+   \mathrm{P} ) = \min \left \{n \in \mathbb{N} \boldsymbol\mid \mathrm{P}
+   \in Prop_{n} ( L ) \right\} ,\] Per esempio se \(\mathrm{P} = ( \mathrm{A}
+   )\), allora \(lh ( \mathrm{P} ) = 3\) e \(ht ( \mathrm{P} ) = 0\), mentre
+   se \(\mathrm{P} = ((\neg(\mathrm{A})) \wedge ((\mathrm{B})\to
+   (\neg(\mathrm{A}))))\), allora \(lh (\mathrm{P} ) = 21\) e \(ht (
+   \mathrm{P} ) = 3\).
 
-     * Wikimedia Commons contiene immagini o altri file sull'albero
-       sintattico
+   La lunghezza e l’altezza di una proposizione si dicono misure di
+   complessità e ci permettono di dimostrare fatti sulle proposizioni per
+   induzione strutturale sull’insieme di stringhe \(( L \cup \left \{ {(},
+   {)} , {\neg} , {\vee} , {\wedge} , {\to} , {\leftrightarrow} \right \} )
+   ^*\) (usando \(lh\)) oppure sull’insieme \(Prop(L)\) delle proposizioni
+   (usando \(ht\)).
 
-Collegamenti esterni Modifica
+   Per ogni \(\mathrm{P} \in Prop ( L )\)
 
-     * (EN) Linguistic Tree Constructor, su ltc.sourceforge.net.
-     * (EN) phpSyntaxTree — Online parse tree drawing site
-     * (EN) Qtree — LaTeX package for drawing parse trees
-     * (EN) , su linguiste.org. URL consultato il 4 febbraio 2007 (archiviato
-       dall'url originale il 4 ottobre 2006).
-     * (EN) TreeForm Syntax Tree Drawing Software, su mapsofspeech.com.
-   Portale Informatica: accedi alle voci di Wikipedia che trattano di
-   informatica
-   wikipedia, wiki, libro, libri, biblioteca, articolo, lettura, download,
-   scarica, gratuito, download gratuito, mp3, video, mp4, 3gp, jpg, jpeg,
-   gif, png, immagine, musica, canzone, film, libro, gioco, giochi.
-   Data di pubblicazione: Ottobre 01, 2023, 11:08 am
-   I più letti
-     * Dicembre 13, 2023
+     * \(\mathrm{P}\) inizia con una parentesi sinistra “\((\)”, termina con
+       una parentesi destra “\()\)”,
 
-  Joint Base Myer-Henderson Hall
+     * ogni parentesi sinistra ha una sua parentesi di chiusura destra,
 
-     * Dicembre 13, 2023
+     * \(lh ( \mathrm{P} )\) è divisibile per \(3\).
 
-  Johnny Risko
+   Dimostrazione. (Per induzione strutturale sull’altezza di \(\mathrm{P}\))
+   Se \(\mathrm{P} \in Prop_{0} ( L )\) (ossia \(ht(\mathrm{P})=0\)), allora
+   \(\mathrm{P} = ( \mathrm{A} )\) per qualche \(\mathrm{A} \in L\) e il
+   risultato segue immediatamente.
 
-     * Dicembre 13, 2023
+   Supponiamo ora che il risultato valga per ogni proposizione in \(Prop_{n}
+   ( L )\) (ossia ogni \(\mathrm{P}\) tale che \(ht(\mathrm{P})=n\)) e
+   dimostriamo che allora vale anche per ogni proposizione in \(Prop_{n + 1}
+   ( L )\) (ossia ogni \(\mathrm{P}\) tale che \(ht(\mathrm{P})=n+1\)).
+   Fissiamo dunque una generica \(\mathrm{P} \in Prop_{n + 1} ( L )\).
 
-  John W. Noble
+     * Se \(\mathrm{P} \in Prop_{n} ( L )\) il risultato segue immediatamente
+       dall’ipotesi induttiva.
 
-     * Dicembre 13, 2023
+     * Se \(\mathrm{P} = ( \mathrm{Q} \mathrel{\Box} \mathrm{R} )\) con
+       \(\mathrm{Q} , \mathrm{R} \in Prop_{n} ( L )\), allora chiaramente
+       \(\mathrm{P}\) inizia con una parentesi sinistra “\(\; (\)” e termina
+       con una parentesi destra “\(\; )\)”. Inoltre, per ipotesi induttiva
+       ogni parentesi sinistra che compare in \(\mathrm{Q}\) ha la sua
+       parentesi di chiusura destra in \(\mathrm{Q}\) stesso, e la stessa
+       cosa vale per \(\mathrm{R}\); poichè l’unica parentesi sinistra di
+       \(\mathrm{P}\) che compare fuori da \(\mathrm{Q}\) e \(\mathrm{R}\) è
+       quella iniziale, la cui parentesi destra di chiusura è la parentesi
+       finale, si ha che il medesimo risultato vale per \(P\). Infine, se
+       \(lh ( \mathrm{Q} ) = 3i\) e \(lh ( R ) = 3j\), allora \(lh (
+       \mathrm{P} ) = 1 + 3i + 1 + 3j + 1 = 3 ( i + j + 1 )\).
 
-  John Veldman
+     * Se \(\mathrm{P} = ( \neg \mathrm{Q} )\) con \(\mathrm{Q} \in Prop_{n}
+       ( L )\), allora chiaramente \(\mathrm{P}\) inizia con una parentesi
+       sinistra “\(\; (\)” e termina con una parentesi destra “\(\; )\)”. Per
+       ipotesi induttiva, ogni parentesi sinistra che compare in
+       \(\mathrm{Q}\) ha la sua parentesi destra di chiusura in
+       \(\mathrm{Q}\) stesso; poichè l’unica parentesi sinistra di
+       \(\mathrm{P}\) che compare fuori da \(\mathrm{Q}\) è quella iniziale,
+       la cui parentesi destra di chiusura è la parentesi finale, si ha che
+       il medesimo risultato vale per \(P\). Infine, se \(lh ( \mathrm{Q} ) =
+       3i\), allora \(lh ( \mathrm{P} ) = 1 + 1 + 3i + 1 = 3 ( i + 1 )\).
 
-     * Dicembre 13, 2023
+Esempi
 
-  John Shasky
+   Siano \(\mathrm{A} , \mathrm{B} \in L\).
 
-     * Dicembre 13, 2023
+    1. \(\mathrm{A} \wedge \mathrm{B}\) è una proposizione? No, perchè ogni
+       proposizione contiene almeno una parentesi.
 
-  John P. Dulaney
+    2. \() \mathrm{A} (\) è una proposizione? No, come non lo sono
+       \(\mathrm{A}\) o \() \mathrm{A} )\), perchè ogni proposizione inizia
+       con una parentesi \((\) e termina con una parentesi \()\).
 
-     * Dicembre 13, 2023
+    3. \(( ( \mathrm{A} ) \to ( \mathrm{B} ) )\) è una proposizione? Sì,
+       perchè ottenuta dalle \(( \mathrm{A} )\) e \(( \mathrm{B} )\) con una
+       applicazione della clausola induttiva relativa a \(\rightarrow\).
 
-  John Montagu Douglas Scott, II barone Montagu di Beaulieu
+    4. \(( \neg ( ( \mathrm{A} ) \to ( \mathrm{B} ) ) )\) è una proposizione?
+       Sì, perchè ottenuta da \(( \mathrm{A} )\) e \(( \mathrm{B} )\) con una
+       prima applicazione della clausola induttiva relativa a \(\rightarrow\)
+       e una seconda applicazione della clausola relativa a \(\neg\).
 
-     * Dicembre 13, 2023
+    5. \(( ( \mathrm{A} )\) è una proposizione? No, perchè c’è una parentesi
+       sinistra che non ha la sua parentesi destra di chiusura.
 
-  John McConathy
+    6. \(( \mathrm{A} \mathrm{B} )\) è una proposizione? No, perchè non è
+       atomica e non contiene nessun connettivo.
 
-     * Dicembre 13, 2023
+                     Albero sintattico di una proposizione
 
-  John Holmes (disambigua)
+   Una proposizione è una lista di simboli, ma è anche passibile di una
+   rappresentazione con una diversa struttura. A ogni proposizione è
+   associato un albero di costruzione, o albero sintattico, che è un albero
+   etichettato finito binario.
 
-     * Dicembre 13, 2023
+   Un albero finito è un insieme \(X\) parzialmente ordinato, cioè con una
+   relazione binaria \(\preceq\) definita su \(X\), con le seguenti
+   proprietà:
 
-  John DeWitt
+     * \(\preceq\) è una relazione di ordine su \(X\) tale che per ogni \(x
+       \in X\) l’insieme \(\left \{y \in X \boldsymbol\mid y \preceq x
+       \right\}\) dei predecessori di \(x\) è finito e linearmente ordinato
+       da \(\preceq\). Gli elementi di \(X\) vengono detti nodi. Se \(x
+       \preceq y\), si dice che \(y\) è un successore, o un discendente di
+       \(x\). I nodi \(a\) tali che non esiste \(b \neq a\) per cui \(a
+       \preceq b\) si chiamano foglie.
 
-   © Diritto d`autore 2021, tutti i diritti riservati
-     | 
-   NiNa.Az
-   Un albero sintattico o concreto e un albero che rappresenta la struttura
-   sintattica di una stringa in accordo a determinate forme grammaticali Un
-   programma che produce quest albero viene chiamato parser Gli alberi
-   sintattici possono essere generati per frasi delle lingue naturali
-   attraverso l elaborazione del linguaggio naturale cosi come durante l
-   elaborazione di linguaggi formali e di linguaggi di programmazione La
-   struttura ad albero e stata mutuata dalla teoria dei grafi per
-   rappresentare l idea intuitiva che le frasi delle lingue naturali possono
-   essere segmentate in unita piu piccole 1 E detto indicatore sintagmatico
-   ogni rappresentazione ad albero o per mezzo di parentesi dei sintagmi di
-   una frase 2 Indice 1 Caratteristiche 2 Note 3 Bibliografia 4 Voci
-   correlate 5 Altri progetti 6 Collegamenti esterniCaratteristiche Modifica
-   nbsp Un semplice albero sintattico della frase inglese John ha colpito la
-   palla Un albero sintattico e composto da nodi e rami La figura a fianco e
-   un albero sintattico linguistico che permette di creare determinate frasi
-   in lingua inglese Nel disegno l albero sintattico e l intera struttura che
-   parte da S e termina in ognuna delle foglie John ball the hit Nell albero
-   sono usate le seguenti abbreviazioni S sta per la frase la struttura top
-   level in questo esempio NP sta per sintagma nominale Il primo ramo quello
-   a sinistra e il soggetto John L altro e l oggetto della frase VP sta per
-   sintagma verbale che serve il predicato V per verbo In questo caso hit ha
-   colpito Det sta per aggettivo determinativo in questo caso the la N sta
-   per sostantivo Nell albero sintattico ogni nodo puo essere un nodo radice
-   un nodo ramo o un nodo foglia Nell esempio precedente S e il nodo radice
-   NP e VP sono nodi rami mentre John ball the e hit sono tutti foglie I nodi
-   si possono anche riferire ai genitori e ai figli di nodi Un genitore e
-   quel nodo che ha almeno un altro nodo collegato con un ramo sotto di lui
-   Nell esempio S e genitore sia di NP che di VP Un figlio e quel nodo che ha
-   almeno un ramo collegato a un nodo sopra di lui nell esempio hit e un
-   figlio del nodo V Note Modifica Beccaria Lemma albero Cfr il lemma
-   corrispondente sul dizionario De Mauro Bibliografia ModificaGian Luigi
-   Beccaria a cura di Dizionario di linguistica Torino Einaudi 2004 ISBN 978
-   88 06 16942 8 Voci correlate ModificaLinguistica computazionale Linguaggi
-   formali matematici Parsing Sintagma Teoria x barraAltri progetti
-   ModificaAltri progettiWikimedia Commons nbsp Wikimedia Commons contiene
-   immagini o altri file sull albero sintatticoCollegamenti esterni Modifica
-   EN Linguistic Tree Constructor su ltc sourceforge net EN phpSyntaxTree
-   Online parse tree drawing site EN Qtree LaTeX package for drawing parse
-   trees EN Syntax Tree Drawer in SVG su linguiste org URL consultato il 4
-   febbraio 2007 archiviato dall url originale il 4 ottobre 2006 EN TreeForm
-   Syntax Tree Drawing Software su mapsofspeech com nbsp Portale Informatica
-   accedi alle voci di Wikipedia che trattano di informatica Estratto da
-   https it wikipedia org w index php title Albero sintattico amp oldid
-   134293950
-   www.wikidata.af-za.nina.azwww.wikidata.be-by.nina.azwww.wikidata.da-dk.nina.azwww.wikidata.de-de.nina.azwww.wikidata.fr-fr.nina.azwww.wikidata.id-id.nina.azwww.wikidata.it-it.nina.azwww.wikidata.kk-kz.nina.azwww.wikidata.nl-nl.nina.azwww.wikidata.pt-pt.nina.azwww.wikidata.ru-ru.nina.azwww.wikidata.uk-ua.nina.az
+     * Esiste un nodo minimo rispetto a \(\preceq\), ovvero un nodo \(r\)
+       tale che \(r \preceq x\) per ogni nodo di \(X\). Tale nodo si chiama
+       radice.
+
+   L’albero si dice binario se
+
+     * Ogni nodo che non sia una foglia ha uno o al massimo due successori
+       immediati, dove si dice che \(b\) è un successore immediato di \(a\)
+       se \(a \preceq b\), \(a \neq b\) e non esiste un \(c\) tale che \(a
+       \preceq c \preceq b\), con \(c \neq a\) e \(c \neq b\).
+
+   La rappresentazione usuale di un albero binario è di questo tipo, dove la
+   radice è in alto e l’albero cresce verso il basso:
+
+   Didascalia figura: Esempio di rappresentazione di albero binario. I nodi
+   sono disposti su quattro righe. Nell prima riga si trova la radice (un
+   unico nodo). Nella seconda riga ci sono due nodi connessi con la radice.
+   Nella terza riga ci sono tre nodi: due nodi connessi con il nodo di
+   sinistra della riga precedente, un nodo connesso con il nodo di destra
+   della riga precedente. Nella quarta riga c’è un solo nodo connesso con il
+   secondo nodo della riga precedente.
+
+   Un ramo è un insieme totalmente ordinato di nodi che va dalla radice a una
+   foglia. La sua lunghezza è il numero di nodi che vi appartengono.
+   L’altezza dell’albero è la massima lunghezza dei suoi rami.
+
+   Un albero si dice etichettato se ad ogni nodo è associato un elemento di
+   qualche insieme prefissato, che si chiama etichetta (label). Le etichette
+   si possono sovrapporre ed identificare con i nodi.
+
+   Costruzione dell’albero sintattico
+
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
+
+    1. la radice è (etichettata con) la proposizione data;
+
+    2. ogni nodo ha nessuno, uno o due successori immediati a seconda che la
+       proposizione etichetta del nodo sia atomica, della forma \(( \neg
+       \mathrm{Q} )\) (ovvero il suo connettivo principale è \(\neg\)), o
+       della forma \(( \mathrm{Q} \mathrel{\Box} \mathrm{R} )\) (ovvero il
+       suo connettivo principale è un connettivo binario \(\Box\)),
+       rispettivamente. Nel secondo caso il successore è etichettato con
+       \(\mathrm{Q}\), nel terzo caso i due successori sono etichettati
+       rispettivamente con \(\mathrm{Q}\) e con \(\mathrm{R}\).
+
+   Questo descrive un algoritmo che, partendo dalla radice etichettata con la
+   proposizione iniziale, permette di costruire l’albero sintattico
+   applicando ripetutamente la condizione 2 ai nodi costruiti al passo
+   precedente.
+
+   Esempio
+
+   L’albero sintattico di \(( ( ( \mathrm{A} ) \wedge ( \neg ( \mathrm{B} ) )
+   ) \rightarrow ( \neg ( \mathrm{A} ) ) )\) è il seguente:
+
+   Didascalia figura: Albero sintattico di \( ( ( ( \mathrm {A} ) \wedge (
+   \neg ( \mathrm {B} ) ) ) \rightarrow ( \neg ( \mathrm {A} ) ) ) \)
+
+   L’albero è completo perchè tutte le sue foglie sono etichettate con
+   proposizioni atomiche (quindi l’algoritmo termina).
+
+     * Le etichette dei nodi dell’albero di costruzione di una proposizione
+       sono le sue sottoproposizioni.
+
+     * Si dice che un simbolo occorre in una proposizione se è un elemento
+       della stringa (che è la proposizione). Le occorrenze di un simbolo in
+       una proposizione sono i vari posti della stringa in cui il simbolo si
+       presenta, e il numero di occorrenze di un simbolo è il numero di volte
+       che compare nella stringa.
+
+     * Le lettere che compaiono nelle (proposizioni atomiche nelle) foglie
+       sono le lettere che occorrono nella proposizione.
+
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
+
+    1. la radice è (etichettata con) la proposizione data;
+
+    2. ogni nodo ha nessuno, uno o due successori immediati a seconda che la
+       proposizione etichetta del nodo sia atomica, della forma \(( \neg
+       \mathrm{Q} )\) (ovvero il suo connettivo principale è \(\neg\)), o
+       della forma \(( \mathrm{Q} \mathrel{\Box} \mathrm{R} )\) (ovvero il
+       suo connettivo principale è un connettivo binario \(\Box\)),
+       rispettivamente. Nel secondo caso il successore è etichettato con
+       \(\mathrm{Q}\), nel terzo caso i due successori sono etichettati
+       rispettivamente con \(\mathrm{Q}\) e con \(\mathrm{R}\).
+
+   Per eseguire lo step 2 è necessario avere un metodo (= algoritmo) che
+   permetta di determinare, se esiste, qual è il connettivo principale della
+   proposizione nell’etichetta del nodo in esame: ad esempio, come si fa a
+   determinare il connettivo principale della proposizione seguente?
+   \[(((\neg(((\mathrm{A})\to (\mathrm{B})) \vee (\mathrm{C}))) \to
+   ((\mathrm{A}) \wedge ((\mathrm{B}) \to (\mathrm{C})))) \wedge
+   (\neg((\mathrm{A}) \leftrightarrow ((\mathrm{A}) \vee (\mathrm{B})))))\]
+
+   Le parentesi sono essenziali per individuare il connettivo principale di
+   una proposizione, e quindi per costruire il suo albero sintattico.
+
+   Contatore di parentesi Consideriamo la stringa \[(((\neg ( \mathrm{A} ))
+   \to (\mathrm{B})) \wedge (\neg(\mathrm{B})))\] e supponiamo di voler
+   trovare la parentesi che chiude la parentesi sinistra evidenziata in
+   azzurro. Possiamo allora utilizzare un contatore che scorre la lista da
+   sinistra verso destra partendo dalla parentesi cui siamo interessati, e
+   scatta di \(+1\) quando incontra una parentesi sinistra, di \(-1\) quando
+   incontra una parentesi destra. La prima parentesi su cui il contatore
+   torna a \(0\) è proprio la parentesi di chiusura cercata. Nel nostro
+   esempio:
+
+   Contatore: 0/1/2/3
+
+   Le parentesi sono essenziali per individuare il connettivo principale di
+   una proposizione, e quindi per costruire il suo albero sintattico.
+
+   Come si individua il connettivo principale? Sia \(P\) una proposizione non
+   atomica. Il primo simbolo di \(P\) sarà sempre (, mentre il secondo
+   simbolo sarà o \(\neg\) oppure un’altra parentesi (.
+
+     * Nel primo caso il connettivo principale è proprio \(\neg\) e ciò che
+       lo segue esclusa l’ultima parentesi ) è la sua sottoproposizione
+       principale.
+
+       Esempio: \(( \neg ( \neg (\mathrm{A}) \to (\mathrm{B})))\).
+
+     * Nel secondo caso, occorre trovare innanzitutto la parentesi che chiude
+       quella che si trova al secondo posto: il simbolo che lo segue è il
+       connettivo principale e le due sottoproposizioni principali sono tutto
+       ciò che precede e segue tale connettivo escluse le parentesi iniziali
+       e finali.
+
+       Esempio: \(((( \mathrm{B}) \to ( \mathrm{A})) \vee ( \neg ( \mathrm{B}
+       )))\)
+
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
+
+    1. la radice è (etichettata con) la proposizione data;
+
+    2. ogni nodo ha nessuno, uno o due successori immediati a seconda che la
+       proposizione etichetta del nodo sia atomica, della forma \(( \neg
+       \mathrm{Q} )\) (ovvero il suo connettivo principale è \(\neg\)), o
+       della forma \(( \mathrm{Q} \mathrel{\Box} \mathrm{R} )\) (ovvero il
+       suo connettivo principale è un connettivo binario \(\Box\)),
+       rispettivamente. Nel secondo caso il successore è etichettato con
+       \(\mathrm{Q}\), nel terzo caso i due successori sono etichettati
+       rispettivamente con \(\mathrm{Q}\) e con \(\mathrm{R}\).
+
+   Attenzione! Se si raggiunge un nodo etichettato con una stringa che non è
+   una formula atomica e non è nemmeno della forma \((\neg \mathrm{Q})\) o
+   \((\mathrm{Q} \mathrel{\Box} \mathrm{R})\), l’algoritmo termina
+   immediatamente e si conclude che \(\mathrm{P}\) NON era una proposizione
+   ben formata (ovvero \(\mathrm{P} \notin Prop(L)\)).
+
+   Se invece questo non accade mai, dopo un certo numero di passi tutti i
+   nodi privi di successori saranno etichettati con proposizioni atomiche:
+   l’algoritmo quindi termina e quello costruito è l’albero sintattico di
+   \(\mathrm{P}\).
+
+   Dunque l’algoritmo per la costruzione dell’albero sintattico permette di
+
+     * determinare se la stringa \(\mathrm{P}\) che viene data come input è
+       una proposizione ben formata (ovvero un elemento di \(Prop(L)\))
+       oppure no;
+
+     * nel caso in cui \(\mathrm{P} \in Prop(L)\), individuarne tutte le
+       sottoproposizioni e l’ordine con cui le regole di costruzione delle
+       proposizioni sono state applicate ad esse per costruire
+       \(\mathrm{P}\).
+
+   Inoltre, l’albero sintattico permette anche di determinare l’altezza della
+   proposizione \(\mathrm{P}\): infatti, si dimostra facilmente per induzione
+   strutturale che \(ht(\mathrm{P})\) coincide con l’altezza del suo albero
+   di costruzione diminuita di una unità, ovvero con la massima lunghezza di
+   un cammino che congiunga la radice a un nodo terminale.
+
+   Esempio
+
+   Sia \(\mathrm{P}\) la proposizione \(( ( ( \mathrm{A} ) \wedge ( \neg (
+   \mathrm{B} ) ) ) \rightarrow ( \neg ( \mathrm{A} ) ) )\). Abbiamo visto
+   che il suo albero sintattico è il seguente:
+
+   Didascalia figura: Albero sintattico della proposizione \( ( ( ( \mathrm
+   {A} ) \wedge ( \neg ( \mathrm {B} ) ) ) \rightarrow ( \neg ( \mathrm {A} )
+   ) ) \)
+
+   Siccome l’altezza dell’albero è \(4\), l’altezza della proposizione
+   \(ht(\mathrm{P})\) è \(4-1\), ovvero \(3\).
+
+   Esercizio Verificare quali delle seguenti stringhe sono proposizioni e
+   quali no, costruendone l’albero sintattico e spiegando dove eventualmente
+   la costruzione fallisce e per quale ragione:
+
+     * \(( ( \mathrm{A} ) \rightarrow ( ( \mathrm{B} ) \vee (\neg (
+       \mathrm{C} ) ) ) )\)
+
+     * \(( ( \neg ( \mathrm{A} ) ) \wedge ( \mathrm{B} ) ) \vee ( \mathrm{C}
+       ) )\)
+
+     * \((\neg \neg (( \mathrm{A} ) \rightarrow ( \mathrm{B} ) ) )\)
+
+     * \(( ( ( ( \mathrm{A} ) \rightarrow ( \mathrm{B} ) ) \wedge (
+       \mathrm{A} ) ) \rightarrow ( \mathrm{B} ) )\)
+
+     * \(( ( ( \neg ( \mathrm{A} )) \wedge ( \mathrm{B} ) ) \vee ( \mathrm{C}
+       ) )\)
+
+     * \((\neg (\neg \mathrm{A} ) )\)
+
+     * \((( \mathrm{A} ) \wedge ( \mathrm{B} ) \wedge ( \mathrm{C} ) )\).
+
+                          Convenzioni sulle parentesi
+
+   Alcune parentesi sono sovrabbondanti: ad esempio, quelle della coppia più
+   esterna e quelle nelle proposizioni atomiche, dove sono usate sia per
+   uniformità sia per sottolineare la differenza tra una lettera come
+   elemento dell’alfabeto e la lettera come proposizione.
+
+   Per comodità di scrittura e lettura riduciamo il numero di parentesi con
+   le convenzioni seguenti.
+
+     * Non si scrivono le parentesi nelle proposizioni atomiche e non si
+       scrivono le parentesi più esterne.
+
+     * Si eliminano alcune coppie di parentesi intorno ad alcune
+       sottoproposizioni, utilizzando il criterio di priorità tra connettivi
+       dato dalla seguente graduatoria: \[\neg\] \[\wedge \quad \vee\]
+       \[\rightarrow\] \[\leftrightarrow\]
+
+     * Per occorrenze multiple dello stesso connettivo si prende in esame
+       l’ultima, quella più a destra; questo significa che per formule
+       composte con uno stesso connettivo ripetuto si conviene l’associazione
+       a destra, cioè ad esempio con \(\mathrm{A} \rightarrow \mathrm{B}
+       \rightarrow \mathrm{C}\) si intende \(\mathrm{A} \rightarrow
+       (\mathrm{B} \rightarrow \mathrm{C})\), e con \(\mathrm{A} \wedge
+       \mathrm{B} \wedge \mathrm{C}\) si intende \(\mathrm{A} \wedge
+       (\mathrm{B} \wedge \mathrm{C} )\).
+
+   Non tutte le parentesi si possono eliminare da una proposizione!
+
+   Esempio
+
+   Non si possono eliminare le parentesi da \(\neg (\mathrm{A} \vee
+   \mathrm{B})\). Togliendole si avrebbe infatti \(\neg \mathrm{A} \vee
+   \mathrm{B}\) che, per la priorità tra connettivi che abbiamo convenuto,
+   rappresenta a formula \((\neg \mathrm{A}) \vee \mathrm{B}\).
+
+   Similmente, la scrittura \(\mathrm{A} \wedge \mathrm{B} \vee \mathrm{C}\)
+   non ha una lettura univoca e quindi è considerata priva di significato: le
+   convenzioni sulle parentesi date non permette di capire se si intenda
+   considerare la formula \((\mathrm{A} \wedge \mathrm{B}) \vee \mathrm{C}\)
+   oppure \(\mathrm{A} \wedge (\mathrm{B} \vee \mathrm{C} )\) (poichè
+   \(\wedge\) e \(\vee\) hanno la stessa priorità!).
+
+   Riassumendo: si possono eliminare parentesi fin tanto che il significato
+   dell’espressione risultante resta univocamente determinato ed identico a
+   quello della proposizione originale (ovvero alla versione formale con
+   tutte le parentesi). Questo vuol dire che, utilizzando le convenzioni
+   date, si devono poter reintrodurre le parentesi senza ambiguità, fino a
+   ricostruire la proposizione originale.
+
+   Esempi
+
+   Data \(\mathrm{A} \wedge \neg \mathrm{B} \rightarrow \neg \mathrm{A}\), la
+   reintroduzione delle parentesi avviene attraverso questa successione di
+   passi:
+
+    1. \((\mathrm{A} ) \wedge \neg (\mathrm{B} ) \rightarrow \neg (
+       \mathrm{A} )\)
+
+    2. \((\mathrm{A}) \wedge \neg (\mathrm{B}) \rightarrow (\neg
+       (\mathrm{A}))\)
+
+    3. \((\mathrm{A}) \wedge (\neg (\mathrm{B})) \rightarrow (\neg
+       (\mathrm{A}))\)
+
+    4. \(((\mathrm{A}) \wedge (\neg (\mathrm{B}))) \rightarrow (\neg
+       (\mathrm{A}))\)
+
+    5. \((((\mathrm{A}) \wedge (\neg (\mathrm{B}))) \rightarrow (\neg
+       (\mathrm{A})))\).
+
+   I passi 2 e 3 si possono naturalmente fare in parallelo.
+
+   Reintrodurre le parentesi in \(\mathrm{A} \rightarrow \neg (\mathrm{B}
+   \wedge \neg \neg \mathrm{C} )\)
+
+    1. \((\mathrm{A}) \rightarrow \neg ( ( \mathrm{B} ) \wedge \neg \neg (
+       \mathrm{C} ) )\)
+
+    2. \((\mathrm{A}) \rightarrow \neg ( ( \mathrm{B} ) \wedge \neg (\neg (
+       \mathrm{C} ) ) )\)
+
+    3. \((\mathrm{A}) \rightarrow \neg ( ( \mathrm{B} ) \wedge (\neg (\neg (
+       \mathrm{C} ) ) ) )\)
+
+    4. \(( \mathrm{A}) \rightarrow ( \neg ( ( \mathrm{B} ) \wedge (\neg (\neg
+       ( \mathrm{C} ) ) ) ) )\)
+
+    5. \(( ( \mathrm{A} ) \rightarrow ( \neg ( ( \mathrm{B} ) \wedge (\neg
+       (\neg ( \mathrm{C} ) ) ) ) ) )\)
+
+   oppure, per rendere più chiara la lettura
+
+    1. \(\mathrm{A} \rightarrow \neg (\mathrm{B} \wedge \neg (\neg \mathrm{C}
+       ) )\)
+
+    2. \(\mathrm{A} \rightarrow \neg (\mathrm{B} \wedge (\neg ( \neg
+       \mathrm{C} ) ) )\)
+
+    3. \(\mathrm{A} \rightarrow (\neg (\mathrm{B} \wedge (\neg (\neg
+       \mathrm{C} ) ) ) )\)
+
+    4. \(( \mathrm{A} \rightarrow ( \neg (\mathrm{B} \wedge (\neg (\neg
+       \mathrm{C} ) ) ) ) )\)
+
+   rimettendo infine le parentesi intorno alle lettere
+
+    1. \(( ( \mathrm{A} ) \rightarrow ( \neg ( ( \mathrm{B} ) \wedge (\neg
+       (\neg ( \mathrm{C} ) ) ) ) ) )\)
+
+   L’albero sintattico si può costruire direttamente anche per le espressioni
+   in cui sono state omesse le parentesi seguendo le convenzioni stabilite.
+
+   Il connettivo principale è sempre quello di priorità più bassa tra quelli
+   non contenuti in alcuna coppia di parentesi; se ve n’è più di uno con
+   queste caratteristiche, il connettivo principale è quello più a sinistra
+   tra di essi.
+
+   Esempio
+
+   L’albero sintattico di \(\mathrm{A} \wedge \neg \mathrm{B} \rightarrow
+   \neg \mathrm{A}\) è il seguente, essendo \(\rightarrow\) il connettivo
+   principale:
+
+   Didascalia figura: Albero sintattico di \(\mathrm{A} \wedge \neg
+   \mathrm{B} \rightarrow \neg \mathrm{A}\)
+
+   L’albero sintattico può essere ulteriormente semplificato etichettando le
+   foglie con le formule atomiche, e tutti gli altri nodi con il solo
+   connettivo che serve per costruire la (sotto)proposizione corrispondente a
+   partire dalle (sotto)proposizioni nei suoi successori immediati.
+
+   Esempio
+
+   L’albero sintattico di \((\mathrm{A} \wedge \neg \mathrm{B}) \vee \neg
+   \mathrm{A}\)
+
+   Per semplificare la lettura di alcune formule, nella pratica ometteremo
+   spesso molte parentesi (ma non tutte) e useremo anche le parentesi quadre
+   \[[ \qquad ]\] al posto di quelle tonde.
+
+   Esempio
+
+   Per esempio scriveremo espressioni come \[(\mathrm{A}\wedge\neg
+   \mathrm{B})\rightarrow[\neg \mathrm{C}\leftrightarrow (\mathrm{B}\vee \neg
+   \mathrm{D})].\]
+
+   Tale espressione non è altro che una “semplificazione” della proposizione
+   che si ottiene sostituendo le parentesi quadre con le parentesi tonde e
+   reintroducendo tutte le parentesi nella maniera opportuna, ovvero della
+   proposizione \[(((\mathrm{A})\wedge(\neg
+   (\mathrm{B})))\rightarrow((\neg(\mathrm{C}))\leftrightarrow
+   ((\mathrm{B})\vee (\neg (\mathrm{D}))))).\]
+
+   Esercizio
+
+   Reintrodurre le parentesi nelle seguenti stringhe in modo da ottenere, se
+   possibile, proposizioni, o se no spiegare il perchè.
+
+     * \(\mathrm{A} \rightarrow \mathrm{B} \vee \neg \mathrm{C}\)
+
+     * \(\mathrm{A} \wedge (\rightarrow \mathrm{C} \vee \mathrm{A})\)
+
+     * \(( \mathrm{A} \rightarrow \mathrm{B} ) \wedge \mathrm{A} \rightarrow
+       \mathrm{B}\)
+
+     * \(\mathrm{A} \rightarrow \mathrm{B} \wedge \mathrm{A} \rightarrow
+       \mathrm{B}\)
+
+     * \(\mathrm{A} \vee \mathrm{B} \wedge \mathrm{C} \rightarrow \neg
+       \mathrm{A}\)
+
+     * \(\mathrm{A} \wedge \mathrm{B} \wedge \mathrm{C} \vee \neg
+       \mathrm{C}\)
+
+     * \(\neg \neg \mathrm{A}\)
+
+     * \(\neg \mathrm{A} \wedge \mathrm{B} \vee \mathrm{C}\)
+
+     * \(\mathrm{A} \vee \neg \mathrm{B} \rightarrow \neg \mathrm{A} \vee
+       \mathrm{B}\)
+
+   Costruire l’albero sintattico delle seguenti formule (in cui sono state
+   omesse alcune parentesi secondo le convenzioni adottate).
+
+     * \(\neg \mathrm{A} \rightarrow \neg [(\mathrm{B}\leftrightarrow \neg
+       (\mathrm{A}\vee \mathrm{C})) \vee \neg \mathrm{A}]\)
+
+     * \((\mathrm{A} \leftrightarrow \neg \mathrm{B}) \rightarrow [\neg
+       (\mathrm{A}\wedge\neg \mathrm{B})\rightarrow \neg(\mathrm{C}\wedge\neg
+       \mathrm{D})]\)
+
+   Calcolare anche l’altezza di ciascun albero e l’altezza della formula a
+   cui è associato.

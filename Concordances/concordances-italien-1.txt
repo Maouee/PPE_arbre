@@ -1,12 +1,13 @@
 §albero§
 §albero§
 §alberi§
-§albero§ piantato su un mucchio di
-img]un §albero§ in
+img]un §albero§
+consiste in un §albero§ piantato su un mucchio di
+img]un §albero§ in mezzo al fiume
 img]un §albero§ solitario con foglie
-img]un §albero§ senza
+img]un §albero§ senza foglie
 img]§alberi§ di una nave
-img]struttura ad §albero§
+§albero§
 §albero§
 ogni §albero§ buono produce frutti buoni e
 §albero§ cattivo produce frutti cattivi
@@ -27,4 +28,4 @@ un §albero§ in piedi vale pi
 wikiquote wikiquote contiene citazioni sull'§albero§
 wikipedia contiene una voce sull'§albero§
 immagini o altri file sull'§albero§
-org/w/index.php?title=§albero§&oldid=3927841
+org/w/index.php?title=§albero§&oldid=3966573

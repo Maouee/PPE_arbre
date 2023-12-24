@@ -1,347 +1,157 @@
-   secondo le linee guida sull'uso delle fonti. Segui i suggerimenti del
-   progetto di riferimento.
-   [IMG]Un albero binario
+   [ ]
+
+           Differenza tra albero binario e albero di ricerca binario
+
+   Scritto il
+--
+--
+   LinkedIn
+
+           Differenza tra albero binario e albero di ricerca binario
+
+  Albero binario
+--
+--
+  Albero binario
+
+   In informatica, un albero binario (in inglese a binary tree) è una
+   struttura di dati gerarchica in cui ogni nodo ha al massimo due figli
+   generalmente indicati come figlio sinistro e figlio destro. Ciascun nodo
+--
+--
+   struttura di dati gerarchica in cui ogni nodo ha al massimo due figli
+   generalmente indicati come figlio sinistro e figlio destro. Ciascun nodo
+   in un albero binario contiene tre nodi che includono puntatore al
+   sottoalbero sinistro , e puntatore al sottoalbero e dati elemento di
+   destra . Il nodo più in alto nell’albero è indicato come radice. Di solito
+   un albero vuoto è rappresentato dal puntatore NULL .
 
 --
 
-   In informatica un albero binario è un albero i cui nodi hanno grado
-   compreso tra 0 e 2. Per albero si intende un grafo non diretto, connesso e
-   aciclico mentre per grado di un nodo si intende il numero di sotto alberi
-   del nodo, che è uguale al numero di figli del nodo.
+   Tipi di alberi binari basati sulla struttura
 
+     * Albero binario radicato (ha un nodo radice e ogni nodo non ha più di
 --
 --
-   del nodo, che è uguale al numero di figli del nodo.
+     * Albero binario radicato (ha un nodo radice e ogni nodo non ha più di
+       due figli).
+     * Albero binario completo (ogni nodo dell’albero non ha nessuno o almeno
+       2 figli).
+     * Albero degenerato (ogni nodo padre ha un solo nodo figlio. Si comporta
+--
+--
+  Albero di ricerca binario
 
-   Anche l'albero costituito da un solo nodo e nessun arco si considera un
-   albero binario valido, sebbene il grado del nodo in questo caso sia nullo.
-
+   In informatica, gli alberi binari di ricerca  (in inglese binary search
+   trees) sono una struttura di dati utile per l’aggiunta e la rimozione
 --
-
-   Come nel caso generale degli alberi è possibile individuare (in maniera
-   non unica) un nodo radice: qualunque nodo di grado minore di 3 può essere
---
-   non unica) un nodo radice: qualunque nodo di grado minore di 3 può essere
-   scelto come radice dell'albero binario. Stabilito un nodo radice è
-   possibile costruire delle relazioni di parentela tra nodi: il nodo radice
-   non ha padre e può avere 0, 1 o 2 figli, ed ogni nodo è ovviamente padre
+   trees) sono una struttura di dati utile per l’aggiunta e la rimozione
+   rapida dei dati. L’albero di ricerca binario è un albero binario
+   organizzato in cui esiste un ordine relativo in cui i nodi dovrebbero
+   essere disposti. È composto da nodi, che memorizza i dati e si collega
 --
 --
-   dei suoi figli. Poiché tutti i nodi tranne la radice hanno un padre, per
-   via della limitazione sul grado dei nodi ogni nodo può avere al massimo 2
-   figli (da qui il nome "albero binario").
-
-   I nodi senza figli vengono detti foglie o nodi terminali; un nodo non
+   organizzato in cui esiste un ordine relativo in cui i nodi dovrebbero
+   essere disposti. È composto da nodi, che memorizza i dati e si collega
+   anche a un massimo di altri due nodi figlio. Affinché un albero binario
+   sia un albero di ricerca binario, i dati di tutti i nodi nel sottoalbero
+   sinistro del nodo radice devono essere inferiori ai dati della radice. I
 --
+   sinistro del nodo radice devono essere inferiori ai dati della radice. I
+   dati di tutti i nodi nel sottoalbero destro del nodo radice dovrebbero
+   essere maggiori di quelli uguali ai dati della radice. A questo proposito,
 --
-Indice
-
-     * 1 Implementare gli alberi binari
-     * 2 Implementare gli alberi di ricerca binari su array
-     * 3 Implementare gli alberi binari tramite puntatori
-          * 3.1 Una semplice implementazione in C
---
-          * 3.1 Una semplice implementazione in C
-     * 4 Algoritmi elementari su alberi binari
-          * 4.1 Determinazione numero nodi in un albero binario
-          * 4.2 Determinazione dell'altezza
-          * 4.3 Determinazione della larghezza
---
---
-     * 7 Collegamenti esterni
-
-Implementare gli alberi binari[modifica | modifica wikitesto]
+   essere maggiori di quelli uguali ai dati della radice. A questo proposito,
+   le foglie più a sinistra dell’albero hanno i valori più bassi, mentre le
+   foglie a destra dell’albero hanno i valori più alti.
 
 --
 
-   In questa sezione trattiamo l'implementazione degli alberi binari dal
-   punto di vista teorico, facendo ricorso a strutture di programmazione
-   generiche; sarà poi compito del programmatore decidere come implementare
---
---
+   Tipi di albero di ricerca binario
 
-   Esistono vari sistemi, ma il più semplice risulta essere quello che
-   utilizza un array che contiene i nodi dell'albero secondo questa logica:
-   la radice occupa la prima posizione dell'array e i figli di questa radice
-   sono a loro volta nell'array e occupano come posizione (2i) e (2i+1) dove
+     * T-trees
 --
 --
-   i è la posizione della radice, del padre, dei due figli.
+     * Red-black trees
 
-   Si fa notare che questa implementazione è ottimale se l'albero è pieno
-   cioè se tutti gli elementi che costituiscono l'albero hanno esattamente
-   due figli, tranne ovviamente le foglie, altrimenti è necessario un flag
-   booleano, in realtà un array di accompagnamento, che ci indica se la
---
---
-   accesso e la semplicità di gestione degli elementi della lista, al
-   contrario, le operazioni di inserimento e in generale la dimensione
-   considerevole di un array di un grande albero giocano a sfavore di questa
-   implementazione che risulta essere di conseguenza sconveniente da usare.
-
---
---
-   ricolleghiamo all'immagine di accompagnamento alle due tabelle precedenti.
-
-   Profondità di un albero: La radice r ha profondità 0, i suoi figli
-   sinistro e destro, hanno profondità 1, i nipoti profondità 2 e così via.
-   Quindi se la profondità di un nodo è p i suoi figli non vuoti hanno
---
---
-   profondità p+1
-
-   Per quanto riguarda l'altezza h di un albero binario è data dalla massima
-   profondità raggiunta dalle sue foglie. Quindi, l'altezza misura la massima
---
-   profondità raggiunta dalle sue foglie. Quindi, l'altezza misura la massima
-   distanza di una foglia dalla radice dell'albero, in termini di numero di
-   archi attraversati. Poiché la definizione di alberi si applica anche ai
-   sotto alberi, è più efficiente e semplice trovare l'altezza di un albero
-   binario osservando che l'albero composto da un solo nodo ha altezza pari a
-   0, mentre un albero con almeno due nodi ha altezza pari all'altezza del
-   suo sottoalbero più alto, incrementata di uno in quanto la radice
-   introduce un ulteriore livello
-
---
---
-   h=profondità del più lungo cammino
-
-   Nel caso dell'albero nella figura qui sopra, l'altezza h è
-   0(foglie)+1(figli radice)+1(radice)=2.
-
---
---
-   0(foglie)+1(figli radice)+1(radice)=2.
-
-   Esistono alcune formule per calcolare le caratteristiche degli alberi:
+   Differenza tra albero binario e albero di ricerca binario
 
 --
 
-   Log_{2}(n+1)-1 Altezza di un albero binario bilanciato pieno di n nodi    
-   2^{{h+1}}-1    Numero massimo di nodi in un albero binario di altezza h   
-   h              Altezza o numero minimo di nodi di un albero con altezza h 
-   2^{l}          Numero massimo di nodi ad un livello l (elle)              
+  Differenza tra albero binario e albero di ricerca binario
 
+   CONFRONTO DI ALBERO BINARIO                   ALBERO DI RICERCA BINARIO    
 --
 --
-   2^{l}          Numero massimo di nodi ad un livello l (elle)              
+   CONFRONTO DI ALBERO BINARIO                   ALBERO DI RICERCA BINARIO    
+   BASE         
+                L’albero binario è una struttura                              
+                di dati gerarchica in cui un                                  
+--
+                di dati gerarchica in cui un                                  
+                bambino può avere zero, uno o    L’albero di ricerca binario  
+                massimo due nodi figlio, ogni    è un albero binario          
+   Descrizione  nodo contiene un puntatore a     organizzato in cui esiste un 
+                sinistra, un puntatore a destra  ordine relativo in cui i     
+--
+--
+                esiste una struttura             disposti.  
+                organizzativa specifica dei nodi 
+                nell’albero.                     
+                Esistono diversi tipi di alberi  I tipi più popolari di       
+                binari, i più popolari           albero di ricerca binario    
+   Tipi         includono: albero binario        includono: alberi a T,       
+                completo, albero binario         alberi AVL, alberi splay,    
+                completo, albero binario esteso  alberi tango, alberi         
+                e albero binario perfetto.       rosso-neri ecc.              
+                                                 Gli alberi di ricerca        
+                                                 binaria mantengono ordinate  
+                                                 le chiavi, quindi la ricerca 
+--
+--
+                                                 le chiavi, quindi la ricerca 
+                Le operazioni comuni che possono di solito implementa la      
+                essere eseguite su un albero     ricerca binaria per le       
+   Operazioni   binario sono la cancellazione,   operazioni. Gli alberi       
+   comuni       l’inserimento e il trasversale.  binari di ricerca sono       
+--
+   comuni       l’inserimento e il trasversale.  binari di ricerca sono       
+                                                 alberi binari più ordinati   
+                                                 che consentono una rapida ed 
+                                                 efficiente ricerca,          
+--
+--
+                                                 inserimento e cancellazione  
+                                                 di elementi.                 
+                L’albero binario può anche       L’albero di ricerca binario  
+                essere descritto come una forma  può anche essere descritto   
+--
+                essere descritto come una forma  può anche essere descritto   
+                di albero specializzata che      come un tipo di albero       
+                rappresenta i dati in una        binario in cui tutti i nodi  
+--
+                rappresenta i dati in una        binario in cui tutti i nodi  
+   Descrizione  struttura ad albero. In un       nel sottoalbero di sinistra  
+   alternativa  albero binario, il nodo più in   sono minori o uguali al      
+                alto rappresenta il puntatore    valore del nodo radice e     
+--
+                alto rappresenta il puntatore    valore del nodo radice e     
+                alla radice mentre i puntatori   quelli del sottoalbero di    
+                alla radice destro e sinistro    destra sono maggiori o       
+                rappresentano i dati in una      uguali a il valore del nodo  
+--
+--
+                alla radice destro e sinistro    destra sono maggiori o       
+                rappresentano i dati in una      uguali a il valore del nodo  
+                struttura ad albero.             radice.                      
 
-Implementare gli alberi di ricerca binari su array[modifica | modifica
-wikitesto]
+   Pubblicato inDifferenze , Ingegneria
+--
+--
+  ARTICOLI CORRELATI
 
---
---
-   Se non è necessario effettuare frequentemente operazioni di inserimento e
-   cancellazioni o non è affatto necessario effettuarle e non si vuole usare
-   troppa memoria è possibile implementare un albero di ricerca binario su un
-   array ordinato, con la restrizione che il numero degli elementi sia
-   2^{{n}}-1 con n\in \mathbb{N}.
---
---
-   [IMG]
-
-   L'immagine sopra mostra un albero di ricerca binario implementato su un
-   array ordinato di 15 elementi, si comincia ponendo il centro dell'array
---
-   array ordinato di 15 elementi, si comincia ponendo il centro dell'array
-   come radice dell'albero e come sue foglie rispettivamente il centro della
-   parte destra dell'array e il centro della parte sinistra dell'array, si
-   continua applicando ricorsivamente il procedimento fino a che non sono
---
---
-   continua applicando ricorsivamente il procedimento fino a che non sono
-   stati coperti tutti gli elementi. Si ottiene quindi l'equivalente
-   dell'albero
-
-   [IMG]
---
---
-
- Ricerca di una chiave
-    N:= numero di elementi dell'albero (2^k-1)
-    A:= array delle N chiavi ordinate in ordine crescente, A[0], A[1] .. A[N - 1]
-    key:= chiave da cercare
---
---
-    nessun risultato
-
-   Suddetta modalità di visualizzazione di un albero binario sfrutta la
-   definizione di skip-list, ossia di albero binario i cui elementi sono
-   ordinati e si sfrutta una algoritmo randomizzato. In una skip list per
-   cercare un elemento non facciamo altro che creare nuove liste a partire da
---
---
-   un elemento.
-
-Implementare gli alberi binari tramite puntatori[modifica | modifica wikitesto]
-
---
-
-   Un modo semplice per implementare gli alberi binari di ricerca è quello di
-   usare i puntatori. Nell'implementazione classica ogni nodo dell'albero
-   oltre al suo valore ha un puntatore al figlio destro ed uno al figlio
-   sinistro, in questo modo è possibile, partendo dalla radice, discendere
---
---
-   oltre al suo valore ha un puntatore al figlio destro ed uno al figlio
-   sinistro, in questo modo è possibile, partendo dalla radice, discendere
-   nell'albero fino ad arrivare alle foglie. Tutti i nodi sono uguali,
-   l'unica differenza è che nessun nodo punterà alla radice (infatti la
-   radice non è né un figlio destro, né un figlio sinistro), e le foglie non
---
---
-
- /*************************************************************************************************************
- * In questo file verranno incluse le funzioni necessarie a costruire un albero binario,
- * e gestirlo tramite
- * i puntatori che ogni radice ha verso il figlio destro e il figlio sinistro.
---
---
-     struct T *T_l, *T_r;  //E l'altro al figlio destro
- }*tree, dim;
- tree mergetree(int el, tree t1, tree t2){  //Mergetree unisce due alberi
-     tree t0 = (tree)malloc(sizeof(dim));
-     t0->T_l = t1;
---
---
-     return mergetree(el, NULL, NULL);  //Ogni foglia è formata da un valore e due puntatori nulli
- }
- int isvoidtree(tree t){  //Verifico che un albero sia vuoto
-     return (t == NULL);  //Se non c'è nulla è ovvio che è un albero vuoto...
- }
- tree leftchild(tree t){  //Restituisce il figlio sinistro accedendo alla struttura tree
---
---
-     return t->value;
- }
- tree insert(int el, tree t){  //Si inserisce un intero el, nell'albero t
-     if(isvoidtree(t)){  //Se l'albero è vuoto, allora verrà creata una foglia
-         return createleaf(el);
-     }
---
---
-    
-     int num; //Scansiono il file di interi
-     tree albero = NULL;  //Inizializzo l'albero vuoto
-    
-     while(fscanf(intfile,"%d", &num) != EOF){
---
---
-    
-     while(fscanf(intfile,"%d", &num) != EOF){
-         albero=insert(num,albero);
-     }
-    
---
---
-     }
-    
-     printf("*Ho costruito l'albero binario\n\n");
-     printf("Cosa vuoi fare adesso?\n");
---
-     printf("Cosa vuoi fare adesso?\n");
-     printf("[s]tampare l'albero\n");
-     printf("Cercare il [m]inimo\n");
-     printf("Cercare il [M]assimo\n");
---
---
-     while((tmp = getchar()) != 'u'){
-         switch (tmp){
-             case 's':  //Serve a mostrare l'albero
-                  showtree(albero);
-                  printf("\n");
-             break;
---
---
-            
-             case 'm':  //Stampa a video il valore minimo
-                  printf("Il valore minimo dell'albero binario è %d\n", mintree(albero));
-             break;
-            
---
---
-            
-             case 'M':  //Stampa a video il valore massimo
-                  printf("Il valore massimo dell'albero binario è %d\n", maxtree(albero));
-             break;
-            
---
---
- }
-
-Algoritmi elementari su alberi binari[modifica | modifica wikitesto]
-
---
-
-  Determinazione numero nodi in un albero binario[modifica | modifica wikitesto]
-
- INIZIO
---
---
- INIZIO
-
- NumeroNodi (radice albero)
-     Se radice albero == NULL (l'albero è vuoto)
-        return 0;
-     return (NumeroNodi(figlio sinistro)+NumeroNodi(figlio destro))+1;
---
---
- INIZIO
-
- Altezza (radice albero)
-
---
-
-     Se radice albero  ==  NULL  ( se l'albero è vuoto)
-            return 0;
-     valoreAltezzaSinistra = Altezza(figlio sinistro);
---
---
-  Determinazione della larghezza[modifica | modifica wikitesto]
-
-   La larghezza di un albero binario corrisponde al numero massimo di nodi
-   giacenti al medesimo livello.
-
---
---
-   uguali a zero; la funzione WrapperLarghezza è deputata al passaggio
-   corretto dei parametri alla funzione ricorsiva Larghezza , che ritorna il
-   valore massimo contenuto nel vettore, cioè la larghezza dell'albero.
-
- INIZIO
---
---
- INIZIO
-
- WrapperLarghezza(radice albero)
-
-     Inizializzazione array livelli;
---
---
-
-     Inizializzazione array livelli;
-     Larghezza(radice albero,array livelli,0);
-     larghezza = CercaMassimoVettore(array livelli);
-     return larghezza;
---
---
-     return larghezza;
-
- Larghezza (radice albero,array livelli,livellocorrente)
-    Se radice albero == NULL (se l'albero è vuoto)
-         return;
-    
---
---
-
-     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
-       altri file sull'albero binario
-
-Collegamenti esterni[modifica | modifica wikitesto]
---
---
-Collegamenti esterni[modifica | modifica wikitesto]
-
-     * * albero binario, in Enciclopedia della Matematica, Istituto
-       dell'Enciclopedia Italiana, 2013. Modifica su Wikidata
-     * (EN) Eric W. Weisstein, Albero binario, su MathWorld, Wolfram
+    1. Differenza tra grafo e albero in informatica
+    2. Differenza tra albero e grafo nella struttura dei dati informatici
+    3. Caratteristiche degli alberi di decisione (decision tree) in
+       informatica
+    4. Differenza tra Tabella decisionale e Albero decisionale

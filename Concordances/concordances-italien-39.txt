@@ -1,30 +1,34 @@
-§albero§ sintattico un §albero§ sintattico o concreto
-un §albero§ che rappresenta la
-§albero§ sintattico
-un §albero§ sintattico o concreto
-un §albero§ che rappresenta la struttura
-programma che produce quest'§albero§ viene chiamato parser
-gli §alberi§
-la struttura ad §albero§
-ad §albero§ o per mezzo di parentesi
-un semplice §albero§ sintattico della frase inglese
-un §albero§ sintattico
-§albero§ sintattico linguistico che permette di
-l'§albero§ sintattico
-nell'§albero§ sono usate le seguenti abbreviazioni
-nell'§albero§ sintattico
-lemma §albero§
-immagini o altri file sull'§albero§
-un §albero§ sintattico o concreto e un
-§albero§ che rappresenta la struttura
-programma che produce quest §albero§ viene chiamato parser gli §alberi§
-struttura ad §albero§ e stata mutuata dalla teoria
-ogni rappresentazione ad §albero§ o per mezzo di parentesi
-nbsp un semplice §albero§ sintattico della frase inglese john
-palla un §albero§ sintattico e composto da nodi
-un §albero§ sintattico linguistico che permette di
-lingua inglese nel disegno l §albero§ sintattico e l intera struttura
-john ball the hit nell §albero§
-per sostantivo nell §albero§ sintattico ogni nodo puo essere
-v note modifica beccaria lemma §albero§ cfr il lemma
-immagini o altri file sull §albero§ sintatticocollegamenti esterni modifica
+associato un §albero§ di costruzione
+o §albero§ sintattico
+un §albero§
+un §albero§ finito
+l’§albero§ si dice binario se
+la rappresentazione usuale di un §albero§ binario
+in alto e l’§albero§ cresce verso il basso
+esempio di rappresentazione di §albero§ binario
+l’altezza dell’§albero§
+un §albero§ si dice etichettato se ad
+costruzione dell’§albero§ sintattico
+algoritmo per costruire l’§albero§ sintattico l’§albero§ sintattico di
+permette di costruire l’§albero§ sintattico
+l’§albero§ sintattico di
+l’§albero§
+le etichette dei nodi dell’§albero§ di costruzione di una proposizione
+algoritmo per costruire l’§albero§ sintattico l’§albero§ sintattico di
+quindi per costruire il suo §albero§ sintattico
+quindi per costruire il suo §albero§ sintattico
+algoritmo per costruire l’§albero§ sintattico l’§albero§ sintattico di
+l’§albero§ sintattico di
+algoritmo per la costruzione dell’§albero§ sintattico permette di
+l’§albero§ sintattico permette anche di determinare
+con l’altezza del suo §albero§
+che il suo §albero§ sintattico
+§albero§ sintattico della proposizione
+siccome l’altezza dell’§albero§
+costruendone l’§albero§ sintattico e spiegando dove eventualmente
+l’§albero§ sintattico si pu
+l’§albero§ sintattico di
+l’§albero§ sintattico pu
+l’§albero§ sintattico di
+costruire l’§albero§ sintattico delle seguenti formule
+anche l’altezza di ciascun §albero§ e l’altezza della formula

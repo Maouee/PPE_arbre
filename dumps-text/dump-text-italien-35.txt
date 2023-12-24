@@ -1,272 +1,213 @@
+   Link: alternate
    Link: canonical
-   Link: shortlink
-   Skip to content
-   Holyart Premium Holyart Premium Holyblog
+   Link: license
 
-   Il Blog di Holyart.it
+                               Albero sintattico
 
-   Toggle Navigation
-     * Holyart.it
-     * Liturgia
-     * Santi e beati
-     * Religione
-     * Monasteri e Confraternite
-     * Occasioni speciali
-     * Natale
-     * _____________________
+   Da Wikipedia, l'enciclopedia libera.
+   Vai alla navigazione Vai alla ricerca
 
-   Homepage | Religione | L’Albero della Vita esiste davvero?
+   Un albero sintattico o concreto è un albero che rappresenta la struttura
+   sintattica di una stringa in accordo a determinate forme grammaticali. Un
+   programma che produce quest'albero viene chiamato parser. Gli alberi
+   sintattici possono essere generati per frasi delle lingue naturali
+   attraverso l'elaborazione del linguaggio naturale, così come durante
+   l'elaborazione di linguaggi formali e di linguaggi di programmazione.
 
-                      L’Albero della Vita esiste davvero?
+   La struttura ad albero è stata mutuata dalla teoria dei grafi per
+   rappresentare l'idea intuitiva che le frasi delle lingue naturali possono
+   essere segmentate in unità più piccole.^[1] È detto "indicatore
+   sintagmatico" ogni rappresentazione (ad albero o per mezzo di parentesi)
+   dei sintagmi di una frase.^[2]
 
-   19 Febbraio 2020
-   Tempo di lettura: 5 minuti
-   FacebookLinkedInTwitter
-   L’Albero della Vita esiste davvero?
+Indice
 
-    L’albero della vita è citato nelle Sacre Scritture, dalla Genesi
-    all’Apocalisse, come simbolo della vita per eccellenza. Ma esiste veramente
-    un albero così speciale?
+     * 1 Caratteristiche
+     * 2 Note
+     * 3 Bibliografia
+     * 4 Voci correlate
+     * 5 Altri progetti
+     * 6 Collegamenti esterni
 
-   Da sempre gli uomini attribuiscono a determinati alberi un valore
-   simbolico e religioso. Basti pensare a tutte le religioni che li hanno
-   messi al centro del proprio pantheon.
+Caratteristiche[modifica | modifica wikitesto]
 
-   Comprendere le ragioni di questo legame profondo tra uomo a alberi non è
-   facile. Forse nasce dal fatto che, fin dalle epoche più remote, gli uomini
-   cercavano negli alberi riparo e protezione, finendo con il rivestirli del
-   ruolo di giganti protettori, saggi, amici. Sicuramente la forma stessa
-   dell’albero, il suo sviluppo verticale ha contribuito all’approfondirsi di
-   questo legame spirituale. L’albero unisce il cielo alla terra, il mondo
-   degli dei a quello degli uomini, e nel farlo si fa divinità esso stesso, e
-   come tale portatore delle risposte a tutte le domande, a tutte le
-   contraddizioni che dominano la vita degli uomini da sempre: il Bene e il
-   Male, la Vita e la Morte, la Conoscenza, la Trasmutazione, l’Umano e il
-   Divino.
+   [IMG]Un semplice albero sintattico della frase inglese «John ha colpito la
+   palla».
 
-   albero-della-vita-150x100
+   Un albero sintattico è composto da nodi e rami. La figura a fianco è un
+   albero sintattico linguistico che permette di creare determinate frasi in
+   lingua inglese. Nel disegno, l'albero sintattico è l'intera struttura che
+   parte da S e termina in ognuna delle foglie (John, ball, the, hit).
 
-   Leggi anche:
+   Nell'albero sono usate le seguenti abbreviazioni:
 
-   Il giardino dell’Eden nella Genesi
-   Il giardino dell’Eden rappresenta il primo, immenso dono che Dio fece
-   all’uomo e alla donna…
+     * S sta per la frase, la struttura top-level in questo esempio;
+     * NP sta per sintagma nominale. Il primo ramo (quello a sinistra) è il
+       soggetto John. L'altro è l'oggetto della frase;
+     * VP sta per sintagma verbale, che serve il predicato;
+     * V per verbo. In questo caso, hit («ha colpito»);
+     * Det sta per aggettivo determinativo, in questo caso the («la»);
+     * N sta per sostantivo.
 
-   Molte religioni arcaiche parlano di un asse cosmico intorno al quale si
-   sarebbe formato l’intero universo, e che unisce attraversandoli cielo,
-   terra e mondo sotterraneo. Un asse che spesso ha la forma di un albero.
+   Nell'albero sintattico, ogni nodo può essere un nodo radice, un nodo ramo
+   o un nodo foglia. Nell'esempio precedente, S è il nodo radice, NP e VP
+   sono nodi rami, mentre John, ball, the e hit sono tutti foglie.
 
-   Comunque la vogliamo interpretare, la mitologia legata agli alberi, in
-   generale, e all’albero della vita in particolare è affascinante a affonda
-   le sue radici – è il caso di dirlo… – nelle origini stesse della storia
-   umana.
+   I nodi si possono anche riferire ai genitori e ai figli di nodi. Un
+   genitore è quel nodo che ha almeno un altro nodo collegato con un ramo
+   sotto di lui. Nell'esempio, S è genitore sia di NP che di VP. Un figlio è
+   quel nodo che ha almeno un ramo collegato a un nodo sopra di lui;
+   nell'esempio, hit è un figlio del nodo V.
 
-   In un articolo precedente ci siamo soffermati sul significato dell’albero
-   della vita in ambito cristiano. Abbiamo esaminato come esso sia citato nei
-   testi sacri, e come la sua simbologia ricorra nella cultura ebraica e
-   successivamente in quella cristiana. Secondo la Bibbia esso sorgeva in
-   mezzo al giardino dell’Eden, accanto all’albero della conoscenza del bene
-   e del male.
+Note[modifica | modifica wikitesto]
 
-   albero-della-vita-2
+    1. ^ Beccaria, Lemma albero.
+    2. ^ Cfr. il lemma corrispondente sul dizionario De Mauro.
 
-   Leggi anche:
+Bibliografia[modifica | modifica wikitesto]
 
-   Il significato dell’albero della vita
-   Tutte le religioni, dalle origini della storia dell’uomo, sono legate in
-   qualche modo agli alberi…
+     * Gian Luigi Beccaria (a cura di), Dizionario di linguistica, Torino,
+       Einaudi, 2004, ISBN 978-88-06-16942-8.
 
-   Era grazie ai suoi frutti che Adamo ed Eva erano immortali, immuni allo
-   scorrere del tempo, alla vecchiaia e alle malattie. Con il peccato
-   originale Adamo ed Eva perdono il diritto di nutrirsi dei frutti di questo
-   albero miracoloso. Anche in questa parte della storia risiede una
-   simbologia profonda: mangiando i frutti dell’albero della conoscenza del
-   bene e del male, il primo uomo e la prima donna hanno perso il diritto a
-   godere i benefici dell’albero della vita. Il loro peccato è stato
-   dettato dall’orgoglio e dall’arroganza. La conoscenza del bene e del male
-   fece loro perdere l’innocenza, li rese coscienti di tutti quei sentimenti
-   e desideri che prima non provavano, per il semplice fatto che nel Paradiso
-   Terrestre avevano tutto ciò di cui necessitavano per essere felici,
-   completi. L’uomo non era pronto per far fronte a quei sentimenti, a quelle
-   emozioni, a quei bisogni: odio, menzogna, vergogna, invidia, ricatto,
-   guerra.
+Voci correlate[modifica | modifica wikitesto]
 
-   storia-adamo-ed-eva
+     * Linguistica computazionale
+     * Linguaggi formali matematici
+     * Parsing
+     * Sintagma
+     * Teoria x-barra
 
-   Leggi anche:
+Altri progetti[modifica | modifica wikitesto]
 
-   La storia di Adamo ed Eva
-   Chi non conosce la storia di Adamo ed Eva, il primo uomo e la prima donna?
+     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
+       altri file sull'albero sintattico
 
-   Tuttavia, nonostante la cacciata dal Paradiso terrestre, l’albero della
-   vita rimane nei testi sacri come promessa di salvezza e speranza di
-   riconciliazione con Dio, che seguita a promettere i suoi frutti in premio
-   a chi saprà seguire la retta via. L’avvento di Cristo, il nuovo Adamo, il
-   Figlio che, anziché sfidare per orgoglio la volontà del Padre, si
-   sottomette ad essa fino alle estreme conseguenze, rappresenta un punto di
-   svolta fondamentale per la storia spirituale dell’uomo. Ed ecco che
-   la Croce su cui Gesù muore per la salvezza di tutti diviene il nuovo
-   albero della vita, simbolo di una salvezza promessa a tutti coloro i quali
-   sapranno seguire l’esempio di Cristo.
+Collegamenti esterni[modifica | modifica wikitesto]
 
-               croce albero della vita ambiente design valgardena
-   Croce Albero della Vita Ambiente Design in legno d'acero della Valgardena,
-   finitura cerata filo oro. Finitura con cera incolore, decorato con un filo
-dipinto. Scultura in legno d'acero dipinto, realizzata manualmente da artigiani
-della Valgardena, secondo la migliore tradizione artistica locale. Gli artigiani
-e gli artisti scolpiscono il legno dei boschi alpini e lo dipingono con maestria
-in ogni minimo particolare. E' realizzato in legno d'acero della Valgardena, da
-                            artigiani specializzati.
-                              Acquista su Holyart
-                   decina rosario bracciale albero della vita
-  Decina rosario con grani in legno palissandro da 10 mm con albero della vita
-                         placcato in argento pendente.
-                              Acquista su Holyart
-                            icona albero della vita
-  Icona stampata su legno e fondo oro la cui immagine raffigura l'Albero della
-   vita. Oggetto realizzato a mano, ideale come regalo o ricordo di occasioni
-speciali e sacramenti. L'icona si può comodamente appendere alla parete grazie a
-                               un pratico gancio.
-                              Acquista su Holyart
-                     collana amen albero della vita argento
-   Collana Amen con doppia catenina e doppio ciondolo. Un ciondolo racchiude
- l'Albero della Vita rodiato e rosè, l'altro ciondolo è in argento rosè a forma
- di angioletto ricoperto di zirconi bianchi. La collana ha circonferenza 80 cm,
-chiusura con moschettone e catenella regolabile per 4 cm. Peso del gioiello: 10
-                                    grammi.
-                              Acquista su Holyart
-                         albero della vita legno ulivo
-                         albero della vita legno ulivo
-Albero della vita decorazione legno ulivo 15x10x1 cm. Decorazione in elegante e
-  pregiato legno di ulivo, sagomato a formare il profilo bidimensionale di un
-                               albero della vita.
-                              Acquista su Holyart
-                          orecchini albero della vita
-Orecchini pendenti con medaglietta rappresentato l'Albero della Vita in finitura
- rosè su cerchio rodio, con angioletto a lobo impreziosito da zirconi bianchi.
-   Orecchini interamente in argento 925 finitura rosè e rodio con chiusura a
-     farfalla. Orecchini di diametro 12 mm, realizzati in Italia da azienda
-      specializzata con qualità garantita. Peso del gioiello: 4,24 grammi.
-                              Acquista su Holyart
-    
+     * (EN) syntax tree, in Free On-line Dictionary of Computing, Denis Howe.
+       Disponibile con licenza GFDL
+     * (EN) Linguistic Tree Constructor, su ltc.sourceforge.net.
+     * (EN) phpSyntaxTree — Online parse tree drawing site
+     * (EN) Qtree — LaTeX package for drawing parse trees
+     * (EN) Syntax Tree Drawer in SVG, su linguiste.org. URL consultato il 4
+       febbraio 2007 (archiviato dall'url originale il 4 ottobre 2006).
+     * (EN) TreeForm Syntax Tree Drawing Software, su mapsofspeech.com.
+   [IMG] Portale Informatica: accedi alle voci di Wikipedia che trattano di
+   informatica
+   Estratto da
+   "https://it.wikipedia.org/w/index.php?title=Albero_sintattico&oldid=136768219"
+   Categorie:
+     * Compilatori
+     * Teoria dei linguaggi formali
+     * Alberi (strutture dati)
 
-   La simbologia dell’albero rimane una costante per i credenti, e ancora
-   oggi è molto diffusa. La filosofia New age l’ha rilanciata, recuperando
-   soprattutto aspetti folklorici e mitologici, ma l’essenza della tradizione
-   cristiana continua a renderlo in simbolo molto caro e utilizzato. Per
-   esempio, la bomboniera albero della vita è molto apprezzata e utilizzata
-   soprattutto per la prima comunione e il battesimo, mentre indossare un
-   gioiello che raffigura questo particolare simbolo, come una collana albero
-   della vita o un bracciale albero della vita, è un modo per manifestare la
-   propria fede verso questo albero mistico, e tutto ciò che
-   rappresenta. Regalare un gioiello che lo raffigura è un augurio sentito
-   per una vita prospera e felice, con radici solide, rigogliosa come il
-   fogliame, intensa e ricca di buoni frutti. Per le donne diventa anche un
-   simbolo di fecondità. Donato a un bambino appena nato è un modo per
-   celebrare una nuova vita che ha inizio.
+Menu di navigazione
 
-Il ‘vero’ albero della vita
+  Strumenti personali
 
-   Ma esiste davvero un albero della vita, da qualche parte nel mondo? In
-   mezzo al deserto del Bahrain, poco lontano dal Djebel Dukhan (la Montagna
-   del Fumo) e a 40 km da Manama, sorge un albero antico. Sembra sia qui da
-   più di quattrocento anni, cresciuto in una terra brulla, desertica, priva
-   di vegetazione.
+     * Accesso non effettuato
+     * discussioni
+     * contributi
+     * registrati
+     * entra
 
-   albero della vita
-                               Albero della Vita
+  Namespace
 
-   E tuttavia esso vive e prospera, e ha superato i dieci metri di altezza,
-   tanto da meritare la fama di albero leggendario e aver reso l’oasi in cui
-   sorge uno dei luoghi più mistici al mondo. Gli abitanti della regione gli
-   hanno dato il nome di nome di Shajarat-al-Hayat, “albero della vita”, e
-   credono che l’albero sia stato piantato qui nel 1583 per indicare il luogo
-   in cui in origine si estendeva il Paradiso Terrestre. Un’affermazione
-   ardita, considerando che al giorno d’oggi la zona è completamente
-   desertica! Ma alcuni rilevamenti avrebbero dimostrato che, in epoche
-   remote, questa regione fosse ricca d’acqua, e vi si estendesse un’immensa
-   oasi rigogliosa e popolata da una moltitudine di animali di ogni tipo.
-   L’albero in questione è una Prosopis cineraria, un arbusto in grado di
-   sopravvivere in condizioni oltremodo ostili, grazie alle sue radici capaci
-   di scendere fino a 50 metri di profondità. Questo gli permette di trarre
-   il suo nutrimento anche dal terreno arido e brullo. Con la sua resina si
-   producono gomma, candele e profumi. Viene visitato da più di 50.000
-   turisti ogni anno, tanto che è stato necessario proteggerlo con un recinto
-   di ferro per evitare che venisse danneggiato da qualche vandalo. Infatti
-   molti visitatori avevano preso la brutta abitudine di strappare foglie e
-   rametti per portarseli via come portafortuna o souvenir, o si divertivano
-   a lasciare il proprio messaggio inciso nel suo tronco secolare. Per
-   ora Shajarat-al-Hayat sembra godere di ottima salute, con ampi rami
-   aggrovigliati, foglie cangianti che vanno dal verde al marrone in
-   sfumature splendide e vivide, un tronco maestoso. È così da oltre
-   quattrocento anni, e ci auguriamo che possa continuare a stare bene ancora
-   molto a lungo.
+     * Voce
+     * Discussione
+   [ ] italiano
 
-     ----------------------------------------------------------------------
+  Visite
 
-   Ti potrebbe interessare anche...
-     * Il significato dell'albero della vitaIl significato dell'albero della
-       vita
-     * Gioielli con albero della vita: perché e quando si regalaGioielli con
-       albero della vita: perché e quando si regala
-     * Gli Articoli natalizi per riscoprire il vero valore del NataleGli
-       Articoli natalizi per riscoprire il vero valore del…
-     * Il giardino dell'Eden nella GenesiIl giardino dell'Eden nella Genesi
-     * 5 Alberi di Natale strani5 Alberi di Natale strani
-     * I figli di Adamo ed Eva: da Caino e Abele fino all'intero genere
-       umanoI figli di Adamo ed Eva: da Caino e Abele fino all'intero…
-     * I colori del Natale: rosso, verde, bianco, oro e argentoI colori del
-       Natale: rosso, verde, bianco, oro e argento
-     * Albero di natale artificiale o vero? Pro e controAlbero di natale
-       artificiale o vero? Pro e contro
-     * Gli alberi di Natale a spirale: l’eleganza dello stile scandinavoGli
-       alberi di Natale a spirale: l’eleganza dello stile…
+     * Leggi
+     * Modifica
+     * Modifica wikitesto
+     * Cronologia
+   [ ] Altro
 
-     ----------------------------------------------------------------------
+  Ricerca
 
-   Santissima Trinità: significato e rappresentazione iconografica
-   Che cos’è il martedì grasso
-                             Statue in Vetroresina
+   _____________________ [ Ricerca ] [ Vai ]
+   Visita la pagina principale
 
-                                Bomboniere sacre
+  Navigazione
 
-                               Camicie Clergyman
+     * Pagina principale
+     * Ultime modifiche
+     * Una voce a caso
+     * Nelle vicinanze
+     * Vetrina
+     * Aiuto
+     * Sportello informazioni
 
-                                   Crocefissi
+  Comunità
 
-                               Ostie e Particole
+     * Portale Comunità
+     * Bar
+     * Il Wikipediano
+     * Fai una donazione
+     * Contatti
 
-                                Rimedi Naturali
+  Strumenti
 
-                             Statue in Vetroresina
+     * Puntano qui
+     * Modifiche correlate
+     * Pagine speciali
+     * Link permanente
+     * Informazioni pagina
+     * Cita questa voce
+     * Ottieni URL breve
+     * Elemento Wikidata
 
-                                Bomboniere sacre
+  Stampa/esporta
 
-                               Camicie Clergyman
+     * Crea un libro
+     * Scarica come PDF
+     * Versione stampabile
 
-                                   Crocefissi
+  In altri progetti
 
-                               Ostie e Particole
+     * Wikimedia Commons
 
-                                Rimedi Naturali
+  In altre lingue
 
-     ----------------------------------------------------------------------
-
-   Copyright © 2023 Holyart - articoli Religiosi
-   ×
-
-Entra nel mondo Holyart: buono sconto €20 valido su oltre 60.000 articoli
-
-   Vieni a scoprire Holyart, l'e-commerce di articoli religiosi più grande
-   d'Europa e utilizza subito il buono da 20€ che ti abbiamo riservato per il
-   primo acquisto.
-
-   Nome* _____________________
-   Email* _____________________
-   [ ] Ho preso visione e accetto le condizioni d'uso e l'informativa sulla
-   privacy fornita ai sensi dell'art 13 DL 196/2003*
-   Ricevi lo Sconto
-
-Controlla la tua casella mail: riceverai il tuo sconto entro 5 minuti
-
-   Scopri ora Holyart Torna all'articolo
+     * العربية
+     * Bosanski
+     * Čeština
+     * Deutsch
+     * English
+     * فارسی
+     * Français
+     * Hrvatski
+     * Bahasa Indonesia
+     * 日本語
+     * 한국어
+     * Latina
+     * Lombard
+     * Nederlands
+     * Polski
+     * Português
+     * Srpskohrvatski / српскохрватски
+     * Српски / srpski
+     * Svenska
+     * தமிழ்
+     * Українська
+     * Tiếng Việt
+     * 中文
+     * 粵語
+   Modifica collegamenti
+     * Questa pagina è stata modificata per l'ultima volta il 6 dic 2023 alle
+       21:22.
+     * Il testo è disponibile secondo la licenza Creative Commons
+       Attribuzione-Condividi allo stesso modo; possono applicarsi condizioni
+       ulteriori. Vedi le condizioni d'uso per i dettagli.
+     * Informativa sulla privacy
+     * Informazioni su Wikipedia
+     * Avvertenze
+     * Codice di condotta
+     * Sviluppatori
+     * Statistiche
+     * Dichiarazione sui cookie
+     * Versione mobile
+     * Wikimedia Foundation
+     * Powered by MediaWiki

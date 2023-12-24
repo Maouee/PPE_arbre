@@ -1,437 +1,126 @@
-<!DOCTYPE html>
-<html class="client-nojs" lang="it" dir="ltr">
-<head>
-<meta charset="UTF-8">
-<title>Albero sintattico - Wikipedia</title>
-<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"],"wgRequestId":"11719be5-e1d9-45c2-b92c-9c2e58c43539","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Albero_sintattico","wgTitle":"Albero sintattico","wgCurRevisionId":136768219,"wgRevisionId":136768219,"wgArticleId":813825,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Compilatori","Teoria dei linguaggi formali","Alberi (strutture dati)"],"wgPageViewLanguage":"it","wgPageContentLanguage":"it","wgPageContentModel":"wikitext","wgRelevantPageName":"Albero_sintattico","wgRelevantArticleId":813825,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":
-true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":6,"wgVisualEditor":{"pageLanguageCode":"it","pageLanguageDir":"ltr","pageVariantFallbacks":"it"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":4000,"wgULSCurrentAutonym":"italiano","wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q627921","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={
-"ext.gadget.PDCStriker":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","mediawiki.page.media","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.InterProject","ext.gadget.MainPageWikiList","ext.gadget.stru-commonsupload","ext.gadget.HiddenCat","ext.gadget.OpenStreetMap","ext.gadget.ReferenceTooltips","ext.gadget.WikiMiniAtlas","ext.gadget.Form-valutazione-enc","ext.gadget.NewSection","ext.gadget.RichiediRevisioneBozza","ext.gadget.Requests-Wizard","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.head",
-"mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.checkUser.clientHints","ext.quicksurveys.init","ext.growthExperiments.SuggestedEditSession"];</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
-}];});});</script>
-<link rel="stylesheet" href="/w/load.php?lang=it&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector">
-<script async="" src="/w/load.php?lang=it&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
-<meta name="ResourceLoaderDynamicStyles" content="">
-<link rel="stylesheet" href="/w/load.php?lang=it&amp;modules=ext.gadget.PDCStriker&amp;only=styles&amp;skin=vector">
-<link rel="stylesheet" href="/w/load.php?lang=it&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
-<meta name="generator" content="MediaWiki 1.42.0-wmf.7">
-<meta name="referrer" content="origin">
-<meta name="referrer" content="origin-when-cross-origin">
-<meta name="robots" content="max-image-preview:standard">
-<meta name="format-detection" content="telephone=no">
-<meta name="viewport" content="width=1000">
-<meta property="og:title" content="Albero sintattico - Wikipedia">
-<meta property="og:type" content="website">
-<link rel="preconnect" href="//upload.wikimedia.org">
-<link rel="alternate" media="only screen and (max-width: 720px)" href="//it.m.wikipedia.org/wiki/Albero_sintattico">
-<link rel="alternate" type="application/x-wiki" title="Modifica" href="/w/index.php?title=Albero_sintattico&amp;action=edit">
-<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
-<link rel="icon" href="/static/favicon/wikipedia.ico">
-<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (it)">
-<link rel="EditURI" type="application/rsd+xml" href="//it.wikipedia.org/w/api.php?action=rsd">
-<link rel="canonical" href="https://it.wikipedia.org/wiki/Albero_sintattico">
-<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">
-<link rel="alternate" type="application/atom+xml" title="Feed Atom di Wikipedia" href="/w/index.php?title=Speciale:UltimeModifiche&amp;feed=atom">
-<link rel="dns-prefetch" href="//meta.wikimedia.org" />
-<link rel="dns-prefetch" href="//login.wikimedia.org">
-</head>
-<body class="skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Albero_sintattico rootpage-Albero_sintattico skin-vector action-view"><div id="mw-page-base" class="noprint"></div>
-<div id="mw-head-base" class="noprint"></div>
-<div id="content" class="mw-body" role="main">
-	<a id="top"></a>
-	<div id="siteNotice"><!-- CentralNotice --></div>
-	<div class="mw-indicators">
-	</div>
-	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Albero sintattico</span></h1>
-	<div id="bodyContent" class="vector-body">
-		<div id="siteSub" class="noprint">Da Wikipedia, l&#039;enciclopedia libera.</div>
-		<div id="contentSub"><div id="mw-content-subtitle"></div></div>
-		<div id="contentSub2"></div>
-		
-		<div id="jump-to-nav"></div>
-		<a class="mw-jump-link" href="#mw-head">Vai alla navigazione</a>
-		<a class="mw-jump-link" href="#searchInput">Vai alla ricerca</a>
-		<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="it" dir="ltr"><p>Un <b>albero sintattico</b> o <b>concreto</b> è un <a href="/wiki/Albero_(informatica)" title="Albero (informatica)">albero</a> che rappresenta la struttura sintattica di una <a href="/wiki/Stringa_(linguaggi_formali)" title="Stringa (linguaggi formali)">stringa</a> in accordo a determinate forme grammaticali. Un programma che produce quest'albero viene chiamato <a href="/wiki/Parsing" title="Parsing">parser</a>. Gli alberi sintattici possono essere generati per frasi delle <a href="/wiki/Lingue_naturali" class="mw-redirect" title="Lingue naturali">lingue naturali</a> attraverso l'<a href="/wiki/Elaborazione_del_linguaggio_naturale" title="Elaborazione del linguaggio naturale">elaborazione del linguaggio naturale</a>, così come durante l'elaborazione di <a href="/wiki/Linguaggi_formali" class="mw-redirect" title="Linguaggi formali">linguaggi formali</a> e di <a href="/wiki/Linguaggi_di_programmazione" class="mw-redirect" title="Linguaggi di programmazione">linguaggi di programmazione</a>.
-</p><p>La struttura ad albero è stata mutuata dalla <a href="/wiki/Teoria_dei_grafi" title="Teoria dei grafi">teoria dei grafi</a> per rappresentare l'idea intuitiva che le frasi delle lingue naturali possono essere segmentate in unità più piccole.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> È detto "indicatore sintagmatico" ogni rappresentazione (ad albero o per mezzo di parentesi) dei sintagmi di una frase.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup>
-</p>
-<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="it" dir="ltr"><h2 id="mw-toc-heading">Indice</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
-<ul>
-<li class="toclevel-1 tocsection-1"><a href="#Caratteristiche"><span class="tocnumber">1</span> <span class="toctext">Caratteristiche</span></a></li>
-<li class="toclevel-1 tocsection-2"><a href="#Note"><span class="tocnumber">2</span> <span class="toctext">Note</span></a></li>
-<li class="toclevel-1 tocsection-3"><a href="#Bibliografia"><span class="tocnumber">3</span> <span class="toctext">Bibliografia</span></a></li>
-<li class="toclevel-1 tocsection-4"><a href="#Voci_correlate"><span class="tocnumber">4</span> <span class="toctext">Voci correlate</span></a></li>
-<li class="toclevel-1 tocsection-5"><a href="#Altri_progetti"><span class="tocnumber">5</span> <span class="toctext">Altri progetti</span></a></li>
-<li class="toclevel-1 tocsection-6"><a href="#Collegamenti_esterni"><span class="tocnumber">6</span> <span class="toctext">Collegamenti esterni</span></a></li>
-</ul>
-</div>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<HTML LANG=ita>
+ <HEAD>
+ <TITLE>Alberi sintattittici</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html">
+<META NAME="GENERATOR" CONTENT="ReadyGo WCB, V2.301000">
+<META NAME="Author" CONTENT="ReadyGo WCB: 1-15-2">
+</HEAD>
+ <BODY BGCOLOR="#FFFFFF" BACKGROUND="../images/mainbkg.png" LINK="#1238D6" ALINK="#1238D6"  >
+ <SCRIPT LANGUAGE = "JavaScript"><!-- 
+  if (document.images) {            // Active Images
+    img1on = new Image();
+    img1on.src = "../images/backbtn1.png"; 
+    img2on = new Image();
+    img2on.src = "../images/nextbtn1.png"; 
+    img3on = new Image();
+    img3on.src = "../images/backbtn1.png"; 
+    img4on = new Image(); 
+    img4on.src = "../images/nextbtn1.png"; 
+    img5on = new Image(); 
+    img5on.src = "../images/tellbtn1.png"; 
+    img6on = new Image(); 
+    img6on.src = "../images/stepbtn1.png"; 
+    img7on = new Image(); 
+    img7on.src = "../images/quizbtn1.png"; 
+    img8on = new Image(); 
+    img8on.src = "../images/trybtn1.png"; 
+    img9on = new Image(); 
+    img9on.src = "../images/tstbtn1.png"; 
+    img10on = new Image(); 
+    img10on.src = "../images/srvbtn1.png"; 
+    img1off = new Image();
+    img1off.src = "../images/backbtn0.png";
+    img2off = new Image();
+    img2off.src = "../images/nextbtn0.png";
+    img3off = new Image();
+    img3off.src = "../images/backbtn0.png";
+    img4off = new Image();
+    img4off.src = "../images/nextbtn0.png";
+    img5off = new Image();
+    img5off.src = "../images/tellbtn0.png";
+    img6off = new Image(); 
+    img6off.src = "../images/stepbtn0.png"; 
+    img7off = new Image(); 
+    img7off.src = "../images/quizbtn0.png"; 
+    img8off = new Image(); 
+    img8off.src = "../images/trybtn0.png"; 
+    img9off = new Image(); 
+    img9off.src = "../images/tstbtn0.png"; 
+    img10off = new Image(); 
+    img10off.src = "../images/srvbtn0.png"; 
+ }
 
-<h2><span class="mw-headline" id="Caratteristiche">Caratteristiche</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_sintattico&amp;veaction=edit&amp;section=1" title="Modifica la sezione Caratteristiche" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_sintattico&amp;action=edit&amp;section=1" title="Edit section&#039;s source code: Caratteristiche"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
-<figure class="mw-default-size mw-halign-right" typeof="mw:File/Thumb"><a href="/wiki/File:ParseTree.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/ParseTree.svg/220px-ParseTree.svg.png" decoding="async" width="220" height="220" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/ParseTree.svg/330px-ParseTree.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6e/ParseTree.svg/440px-ParseTree.svg.png 2x" data-file-width="120" data-file-height="120" /></a><figcaption>Un semplice albero sintattico della frase inglese «<i>John ha colpito la palla</i>».</figcaption></figure>
-<p>Un albero sintattico è composto da nodi e rami. La figura a fianco è un albero sintattico linguistico che permette di creare determinate frasi in lingua inglese. Nel disegno, l'albero sintattico è l'intera struttura che parte da S e termina in ognuna delle foglie (<i>John, ball, the, hit</i>).
-</p><p>Nell'albero sono usate le seguenti abbreviazioni:
-</p>
-<ul><li>S sta per la <a href="/wiki/Frase" title="Frase">frase</a>, la struttura top-level in questo esempio;</li>
-<li>NP sta per <a href="/wiki/Sintagma#Sintagmi_nominali" title="Sintagma">sintagma nominale</a>. Il primo ramo (quello a sinistra) è il soggetto <i>John</i>. L'altro è l'oggetto della frase;</li>
-<li>VP sta per <a href="/wiki/Sintagma_verbale" title="Sintagma verbale">sintagma verbale</a>, che serve il predicato;</li>
-<li>V per <a href="/wiki/Verbo" title="Verbo">verbo</a>. In questo caso, <i>hit</i> («ha colpito»);</li>
-<li>Det sta per <a href="/wiki/Aggettivo_determinativo" class="mw-redirect" title="Aggettivo determinativo">aggettivo determinativo</a>, in questo caso <i>the</i> («la»);</li>
-<li>N sta per <a href="/wiki/Sostantivo" title="Sostantivo">sostantivo</a>.</li></ul>
-<p>Nell'albero sintattico, ogni nodo può essere un nodo radice, un nodo ramo o un nodo foglia. Nell'esempio precedente, S è il nodo radice, NP e VP sono nodi rami, mentre <i>John</i>, <i>ball</i>, <i>the</i> e <i>hit</i> sono tutti foglie.
-</p><p>I nodi si possono anche riferire ai genitori e ai figli di nodi. Un genitore è quel nodo che ha almeno un altro nodo collegato con un ramo sotto di lui. Nell'esempio, S è genitore sia di NP che di VP. Un figlio è quel nodo che ha almeno un ramo collegato a un nodo sopra di lui; nell'esempio, <i>hit</i> è un figlio del nodo V.
-</p>
-<h2><span class="mw-headline" id="Note">Note</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_sintattico&amp;veaction=edit&amp;section=2" title="Modifica la sezione Note" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_sintattico&amp;action=edit&amp;section=2" title="Edit section&#039;s source code: Note"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
-<div class="mw-references-wrap"><ol class="references">
-<li id="cite_note-1"><a href="#cite_ref-1"><b>^</b></a> <span class="reference-text"><cite class="citation cita" style="font-style:normal"><a href="#CITEREFBeccaria">Beccaria</a>,&#160;Lemma <i>albero</i></cite>.</span>
-</li>
-<li id="cite_note-2"><a href="#cite_ref-2"><b>^</b></a> <span class="reference-text">Cfr. il <a rel="nofollow" class="external text" href="https://dizionario.internazionale.it/parola/indicatore-sintagmatico">lemma corrispondente</a> sul dizionario De Mauro.</span>
-</li>
-</ol></div>
-<h2><span class="mw-headline" id="Bibliografia">Bibliografia</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_sintattico&amp;veaction=edit&amp;section=3" title="Modifica la sezione Bibliografia" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_sintattico&amp;action=edit&amp;section=3" title="Edit section&#039;s source code: Bibliografia"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
-<ul><li><cite id="CITEREFBeccaria" class="citation libro" style="font-style:normal"> <a href="/wiki/Gian_Luigi_Beccaria" title="Gian Luigi Beccaria">Gian Luigi Beccaria</a> (a cura di), <span style="font-style:italic;">Dizionario di linguistica</span>, Torino, Einaudi, 2004, <a href="/wiki/ISBN" title="ISBN">ISBN</a>&#160;<a href="/wiki/Speciale:RicercaISBN/978-88-06-16942-8" title="Speciale:RicercaISBN/978-88-06-16942-8">978-88-06-16942-8</a>.</cite></li></ul>
-<h2><span class="mw-headline" id="Voci_correlate">Voci correlate</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_sintattico&amp;veaction=edit&amp;section=4" title="Modifica la sezione Voci correlate" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_sintattico&amp;action=edit&amp;section=4" title="Edit section&#039;s source code: Voci correlate"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
-<ul><li><a href="/wiki/Linguistica_computazionale" title="Linguistica computazionale">Linguistica computazionale</a></li>
-<li><a href="/wiki/Linguaggi_formali_matematici" class="mw-redirect" title="Linguaggi formali matematici">Linguaggi formali matematici</a></li>
-<li><a href="/wiki/Parsing" title="Parsing">Parsing</a></li>
-<li><a href="/wiki/Sintagma" title="Sintagma">Sintagma</a></li>
-<li><a href="/wiki/Teoria_x-barra" class="mw-redirect" title="Teoria x-barra">Teoria x-barra</a></li></ul>
-<h2><span class="mw-headline" id="Altri_progetti">Altri progetti</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_sintattico&amp;veaction=edit&amp;section=5" title="Modifica la sezione Altri progetti" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_sintattico&amp;action=edit&amp;section=5" title="Edit section&#039;s source code: Altri progetti"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
-<div id="interProject" class="toccolours" style="display: none; clear: both; margin-top: 2em"><p id="sisterProjects" style="background-color: #efefef; font-weight: bold; margin: 0"><span>Altri progetti</span></p><ul title="Collegamenti verso gli altri progetti Wikimedia">
-<li class="" title=""><span class="plainlinks" title="commons:Category:Syntax trees"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Syntax_trees?uselang=it">Wikimedia Commons</a></span></li></ul></div>
-<ul><li><span typeof="mw:File"><a href="https://commons.wikimedia.org/wiki/?uselang=it" title="Collabora a Wikimedia Commons"><img alt="Collabora a Wikimedia Commons" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png" decoding="async" width="18" height="24" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/27px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/36px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a></span> <span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/?uselang=it">Wikimedia Commons</a></span> contiene immagini o altri file sull'<b><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Syntax_trees?uselang=it">albero sintattico</a></span></b></li></ul>
-<h2><span class="mw-headline" id="Collegamenti_esterni">Collegamenti esterni</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_sintattico&amp;veaction=edit&amp;section=6" title="Modifica la sezione Collegamenti esterni" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_sintattico&amp;action=edit&amp;section=6" title="Edit section&#039;s source code: Collegamenti esterni"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
-<ul><li><cite class="citation testo" style="font-style:normal">(<span style="font-weight:bolder; font-size:80%"><abbr title="inglese">EN</abbr></span>) <span style="font-style:italic;"><a href="http://foldoc.org/syntax_tree" class="extiw" title="foldoc:syntax tree">syntax tree</a></span>, in <span style="font-style:italic;"><a href="/wiki/Free_On-line_Dictionary_of_Computing" title="Free On-line Dictionary of Computing">Free On-line Dictionary of Computing</a></span>, Denis Howe.</cite> Disponibile con licenza <a href="/wiki/GNU_Free_Documentation_License" title="GNU Free Documentation License">GFDL</a></li>
-<li><cite class="citation web" style="font-style:normal">(<span style="font-weight:bolder; font-size:80%"><abbr title="inglese">EN</abbr></span>) <a rel="nofollow" class="external text" href="https://ltc.sourceforge.net/"><span style="font-style:italic;">Linguistic Tree Constructor</span></a>, su <span style="font-style:italic;">ltc.sourceforge.net</span>.</cite></li>
-<li>(<span style="font-weight:bolder; font-size:80%"><abbr title="inglese">EN</abbr></span>)  <a rel="nofollow" class="external text" href="http://www.ironcreek.net/phpsyntaxtree/">phpSyntaxTree</a> — Online parse tree drawing site</li>
-<li>(<span style="font-weight:bolder; font-size:80%"><abbr title="inglese">EN</abbr></span>)  <a rel="nofollow" class="external text" href="https://www.ling.upenn.edu/advice/latex/qtree/">Qtree</a> — <a href="/wiki/LaTeX" title="LaTeX">LaTeX</a> package for drawing parse trees</li>
-<li><cite class="citation web" style="font-style:normal">(<span style="font-weight:bolder; font-size:80%"><abbr title="inglese">EN</abbr></span>) <a rel="nofollow" class="external text" href="https://web.archive.org/web/20061004043350/http://linguiste.org/syntax/tree/drawer/"><span style="font-style:italic;">Syntax Tree Drawer in SVG</span></a>, su <span style="font-style:italic;">linguiste.org</span>. <small>URL consultato il 4 febbraio 2007</small> <small>(archiviato dall'<abbr title="http&#58;//linguiste.org/syntax/tree/drawer/">url originale</abbr> il 4 ottobre 2006)</small>.</cite></li>
-<li><cite class="citation web" style="font-style:normal">(<span style="font-weight:bolder; font-size:80%"><abbr title="inglese">EN</abbr></span>) <a rel="nofollow" class="external text" href="http://www.mapsofspeech.com/treeform/"><span style="font-style:italic;">TreeForm Syntax Tree Drawing Software</span></a>, su <span style="font-style:italic;">mapsofspeech.com</span>.</cite></li></ul>
-<div class="noprint" style="width:100%; padding: 3px; display: flex; flex-wrap: wrap; row-gap: 4px; column-gap: 8px; box-sizing: border-box;"><div style="flex-grow: 1"><div style="width:100%; line-height:25px; background-color: #F0EEFF; border:1px solid #CCF;"><span class="noviewer" typeof="mw:File"><a href="/wiki/File:Computer_n_screen.svg" class="mw-file-description" title="Informatica"><img alt="&#160;" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Computer_n_screen.svg/24px-Computer_n_screen.svg.png" decoding="async" width="24" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Computer_n_screen.svg/37px-Computer_n_screen.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/77/Computer_n_screen.svg/48px-Computer_n_screen.svg.png 2x" data-file-width="119" data-file-height="123" /></a></span>&#32;<b><a href="/wiki/Portale:Informatica" title="Portale:Informatica">Portale Informatica</a></b>&#58; accedi alle voci di Wikipedia che trattano di informatica</div></div></div>
-<!-- 
-NewPP limit report
-Parsed by mw1428
-Cached time: 20231206202225
-Cache expiry: 2592000
-Reduced expiry: false
-Complications: [show‐toc]
-CPU time usage: 0.088 seconds
-Real time usage: 0.125 seconds
-Preprocessor visited node count: 1266/1000000
-Post‐expand include size: 7286/2097152 bytes
-Template argument size: 301/2097152 bytes
-Highest expansion depth: 9/100
-Expensive parser function count: 1/500
-Unstrip recursion depth: 0/20
-Unstrip post‐expand size: 730/5000000 bytes
-Lua time usage: 0.047/10.000 seconds
-Lua memory usage: 2423029/52428800 bytes
-Number of Wikibase entities loaded: 1/400
--->
-<!--
-Transclusion expansion time report (%,ms,calls,template)
-100.00%   98.049      1 -total
- 23.24%   22.784      1 Template:Cita_libro
- 21.65%   21.232      1 Template:Interprogetto
- 17.56%   17.222      1 Template:Portale
- 16.05%   15.733      1 Template:FOLDOC
- 14.95%   14.658      3 Template:Cita_web
- 14.27%   13.991      1 Template:Cita_testo
- 11.37%   11.144      1 Template:Icona_argomento
-  3.00%    2.945      2 Template:En
-  1.83%    1.796      1 Template:Cita
--->
+// Function to activate images.
+  function imgOn(imgName) { 
+    if (document.images) {
+      document[imgName].src = eval(imgName + "on.src");
+    }
+  }
+// Function to deactivate images.
+  function imgOff(imgName) { 
+    if (document.images) {
+      document[imgName].src = eval(imgName + "off.src");
+    }
+  }
+// --></SCRIPT>
+<!--- Start Head Banner --->
+<UL><TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="560" >
+<TR><TD rowspan=2> </TD>
+  <TD VALIGN="TOP" ROWSPAN="2">
+    <IMG SRC="../images/lcap.png" > 
+  </TD>
+  <TD VALIGN="TOP"  BGCOLOR="#b8fffa"  WIDTH="500" NOWRAP><TABLE HSPACE=1><TR><TD VALIGN="TOP"><FONT SIZE="+1"><B>2.3</B></FONT></TD><TD VALIGN="TOP"><FONT SIZE="+1"><B>Alberi sintattittici</B></FONT></TD></TR></TABLE></TD>
+  <TD VALIGN="TOP" VALIGN="TOP"><!-- BACK LINK --><A HREF="02lin02.htm" accesskey="P" onMouseOver="imgOn('img1')"
+       onMouseOut="imgOff('img1')"><IMG SRC="../images/backbtn0.png" NAME="img1" ALT="Indietro" BORDER="0" ></A></TD>
+<TD VALIGN="TOP"><A HREF="04lin02.htm" onMouseOver="imgOn('img2')"
+      onMouseOut="imgOff('img2')" accesskey="N" ><IMG SRC="../images/nextbtn0.png" NAME="img2" ALT="Avanti" BORDER="0" ></A></TD>
+</TR>
+<TR>
+  <TD COLSPAN="1" WIDTH="500" VALIGN="TOP" >
+    <IMG SRC="../images/drpshad.png" HEIGHT="12"   WIDTH="500" ALIGN="TOP">  </TD><TD COLSPAN="2"></TD>
+</TR>
+</TABLE>
+</UL>
+<UL>
+<P>
+Un albero sintattico e' una rappresentazione di come una particolare frase puo` essere derivata da una grammatica, a partire dall' assioma. <BR><BR>
+L' albero sintattico assegna alle frasi una struttura chwe puo` essere utilizzata per operaziomni successive quali l' interpretazione della frase, la sua traduzione etc.<BR><BR>
+Anche i traduttori o compilatori analizzano il linguaggio sorgente, producono un albero sintattico del programma e lo utilizzano per tradurlo in linguaggio macchina.<BR><BR>
+<BR><BR>
+<BR><BR>
 
-<!-- Saved in parser cache with key itwiki:pcache:idhash:813825-0!canonical and timestamp 20231206202225 and revision id 136768219. Rendering was triggered because: api-parse
- -->
-</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
-<div class="printfooter" data-nosnippet="">Estratto da "<a dir="ltr" href="https://it.wikipedia.org/w/index.php?title=Albero_sintattico&amp;oldid=136768219">https://it.wikipedia.org/w/index.php?title=Albero_sintattico&amp;oldid=136768219</a>"</div></div>
-		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Categoria:Categorie" title="Categoria:Categorie">Categorie</a>: <ul><li><a href="/wiki/Categoria:Compilatori" title="Categoria:Compilatori">Compilatori</a></li><li><a href="/wiki/Categoria:Teoria_dei_linguaggi_formali" title="Categoria:Teoria dei linguaggi formali">Teoria dei linguaggi formali</a></li><li><a href="/wiki/Categoria:Alberi_(strutture_dati)" title="Categoria:Alberi (strutture dati)">Alberi (strutture dati)</a></li></ul></div></div>
-	</div>
-</div>
 
-<div id="mw-navigation">
-	<h2>Menu di navigazione</h2>
-	<div id="mw-head">
-		
-<nav id="p-personal" class="mw-portlet mw-portlet-personal vector-user-menu-legacy vector-menu" aria-labelledby="p-personal-label" role="navigation"  >
-	<h3
-		id="p-personal-label"
-		
-		class="vector-menu-heading "
-	>
-		<span class="vector-menu-heading-label">Strumenti personali</span>
-	</h3>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list">
-			
-			<li id="pt-anonuserpage" class="mw-list-item"><span title="La pagina utente di questo indirizzo IP">Accesso non effettuato</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Speciale:MieDiscussioni" title="Discussioni sulle modifiche fatte da questo indirizzo IP [n]" accesskey="n"><span>discussioni</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Speciale:MieiContributi" title="Un elenco delle modifiche fatte da questo indirizzo IP [y]" accesskey="y"><span>contributi</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Speciale:CreaUtenza&amp;returnto=Albero+sintattico" title="Si consiglia di registrarsi e di effettuare l&#039;accesso, anche se non è obbligatorio"><span>registrati</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Speciale:Entra&amp;returnto=Albero+sintattico" title="Si consiglia di effettuare l&#039;accesso, anche se non è obbligatorio [o]" accesskey="o"><span>entra</span></a></li>
-		</ul>
-		
-	</div>
-</nav>
+</P>
 
-		<div id="left-navigation">
-			
-<nav id="p-namespaces" class="mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy vector-menu" aria-labelledby="p-namespaces-label" role="navigation"  >
-	<h3
-		id="p-namespaces-label"
-		
-		class="vector-menu-heading "
-	>
-		<span class="vector-menu-heading-label">Namespace</span>
-	</h3>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list">
-			
-			<li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/Albero_sintattico" title="Vedi la voce [c]" accesskey="c"><span>Voce</span></a></li><li id="ca-talk" class="mw-list-item"><a href="/wiki/Discussione:Albero_sintattico" rel="discussion" title="Vedi le discussioni relative a questa pagina [t]" accesskey="t"><span>Discussione</span></a></li>
-		</ul>
-		
-	</div>
-</nav>
+<TABLE WIDTH="90%">
+<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%">Dato un insieme di regole, esse possono essere utilizzate per derivare o produrre una proposizione applicando il metodo riportato qui di seguito.
+</TD><TD ROWSPAN="3" VALIGN="TOP">
+  <IMG SRC="../graphics/Alb_sint.GIF" ALT="Grammatica
+" >
+</TD>
+</TR>
+<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%"> Si parte dal simbolo non terminale proposizione, si cerca una regola avente proposizione come parte sinistra, e si sostituisce la sua parte destra al posto di proposizione. In questo modo si rimpiazza un simbolo non terminale con una delle stringhe di cui puo` essere composto.
+</TD></TR>
+<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%"> Visualizziamo questa operazione utilizzando opportuni diagrammi, detti alberi sintattici, che permettono di descrivere la struttura di un regola scomponendola nelle sue parti costituenti:
+</TD></TR>
+</TR></TABLE><TABLE WIDTH="90%">
+<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%">Si ripete il processo applicandolo ad uno dei simboli non terminali, ad esempio sintagma_nominale.
+</TD></TR>
+<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%">La derivazione e' completa quando la frontiera  dell' albero (le foglie) contiene solo simbolo terminali. 
+</TD></TR>
+<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%">Il simbolo non terminale proposizione viene chiamato radice dell'albero, mentre i simboli terminali foglie
+Espandendo il vocabolario dei simboli terminali, e` possibile descrivere un numero maggiore di proposizioni.
+</TD></TR>
+</TABLE></UL>
+<!-- Begin Options and Navigation -->
 
-			
-<nav id="p-variants" class="mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown vector-menu" aria-labelledby="p-variants-label" role="navigation"  >
-	<input type="checkbox"
-		id="p-variants-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-variants"
-		class="vector-menu-checkbox"
-		aria-labelledby="p-variants-label"
-	>
-	<label
-		id="p-variants-label"
-		
-		class="vector-menu-heading "
-	>
-		<span class="vector-menu-heading-label">italiano</span>
-	</label>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list">
-			
-			
-		</ul>
-		
-	</div>
-</nav>
-
-		</div>
-		<div id="right-navigation">
-			
-<nav id="p-views" class="mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy vector-menu" aria-labelledby="p-views-label" role="navigation"  >
-	<h3
-		id="p-views-label"
-		
-		class="vector-menu-heading "
-	>
-		<span class="vector-menu-heading-label">Visite</span>
-	</h3>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list">
-			
-			<li id="ca-view" class="selected mw-list-item"><a href="/wiki/Albero_sintattico"><span>Leggi</span></a></li><li id="ca-ve-edit" class="mw-list-item"><a href="/w/index.php?title=Albero_sintattico&amp;veaction=edit" title="Modifica questa pagina [v]" accesskey="v"><span>Modifica</span></a></li><li id="ca-edit" class="collapsible mw-list-item"><a href="/w/index.php?title=Albero_sintattico&amp;action=edit" title="Modifica il wikitesto di questa pagina [e]" accesskey="e"><span>Modifica wikitesto</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=Albero_sintattico&amp;action=history" title="Versioni precedenti di questa pagina [h]" accesskey="h"><span>Cronologia</span></a></li>
-		</ul>
-		
-	</div>
-</nav>
-
-			
-<nav id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown vector-menu" aria-labelledby="p-cactions-label" role="navigation"  title="Altre opzioni" >
-	<input type="checkbox"
-		id="p-cactions-checkbox"
-		role="button"
-		aria-haspopup="true"
-		data-event-name="ui.dropdown-p-cactions"
-		class="vector-menu-checkbox"
-		aria-labelledby="p-cactions-label"
-	>
-	<label
-		id="p-cactions-label"
-		
-		class="vector-menu-heading "
-	>
-		<span class="vector-menu-heading-label">Altro</span>
-	</label>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list">
-			
-			
-		</ul>
-		
-	</div>
-</nav>
-
-			
-<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
-	<h3 >Ricerca</h3>
-	<form action="/w/index.php" id="searchform" class="vector-search-box-form">
-		<div id="simpleSearch"
-			class="vector-search-box-inner"
-			 data-search-loc="header-navigation">
-			<input class="vector-search-box-input"
-				 type="search" name="search" placeholder="Cerca in Wikipedia" aria-label="Cerca in Wikipedia" autocapitalize="sentences" title="Cerca in Wikipedia [f]" accesskey="f" id="searchInput"
-			>
-			<input type="hidden" name="title" value="Speciale:Ricerca">
-			<input id="mw-searchButton"
-				 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Cerca il testo indicato nelle pagine" value="Ricerca">
-			<input id="searchButton"
-				 class="searchButton" type="submit" name="go" title="Vai a una pagina con il titolo indicato, se esiste" value="Vai">
-		</div>
-	</form>
-</div>
-
-		</div>
-	</div>
-	
-<div id="mw-panel" class="vector-legacy-sidebar">
-	<div id="p-logo" role="banner">
-		<a class="mw-wiki-logo" href="/wiki/Pagina_principale"
-			title="Visita la pagina principale"></a>
-	</div>
-	
-<nav id="p-navigation" class="mw-portlet mw-portlet-navigation vector-menu-portal portal vector-menu" aria-labelledby="p-navigation-label" role="navigation"  >
-	<h3
-		id="p-navigation-label"
-		
-		class="vector-menu-heading "
-	>
-		<span class="vector-menu-heading-label">Navigazione</span>
-	</h3>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list">
-			
-			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Pagina_principale" title="Visita la pagina principale [z]" accesskey="z"><span>Pagina principale</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Speciale:UltimeModifiche" title="Elenco delle ultime modifiche del sito [r]" accesskey="r"><span>Ultime modifiche</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Speciale:PaginaCasuale" title="Mostra una pagina a caso [x]" accesskey="x"><span>Una voce a caso</span></a></li><li id="n-nearby-pages-title" class="mw-list-item"><a href="/wiki/Speciale:NelleVicinanze"><span>Nelle vicinanze</span></a></li><li id="n-vetrina" class="mw-list-item"><a href="/wiki/Wikipedia:Vetrina"><span>Vetrina</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Aiuto:Aiuto" title="Pagine di aiuto"><span>Aiuto</span></a></li><li id="n-Sportello-informazioni" class="mw-list-item"><a href="/wiki/Aiuto:Sportello_informazioni"><span>Sportello informazioni</span></a></li>
-		</ul>
-		
-	</div>
-</nav>
-
-	
-<nav id="p-Comunità" class="mw-portlet mw-portlet-Comunità vector-menu-portal portal vector-menu" aria-labelledby="p-Comunità-label" role="navigation"  >
-	<h3
-		id="p-Comunità-label"
-		
-		class="vector-menu-heading "
-	>
-		<span class="vector-menu-heading-label">Comunità</span>
-	</h3>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list">
-			
-			<li id="n-portal" class="mw-list-item"><a href="/wiki/Portale:Comunit%C3%A0" title="Descrizione del progetto, cosa puoi fare, dove trovare le cose"><span>Portale Comunità</span></a></li><li id="n-villagepump" class="mw-list-item"><a href="/wiki/Wikipedia:Bar"><span>Bar</span></a></li><li id="n-wikipediano" class="mw-list-item"><a href="/wiki/Wikipedia:Wikipediano"><span>Il Wikipediano</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_it.wikipedia.org&amp;uselang=it" title="Sostienici"><span>Fai una donazione</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="/wiki/Wikipedia:Contatti"><span>Contatti</span></a></li>
-		</ul>
-		
-	</div>
-</nav>
-
-<nav id="p-tb" class="mw-portlet mw-portlet-tb vector-menu-portal portal vector-menu" aria-labelledby="p-tb-label" role="navigation"  >
-	<h3
-		id="p-tb-label"
-		
-		class="vector-menu-heading "
-	>
-		<span class="vector-menu-heading-label">Strumenti</span>
-	</h3>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list">
-			
-			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Speciale:PuntanoQui/Albero_sintattico" title="Elenco di tutte le pagine che sono collegate a questa [j]" accesskey="j"><span>Puntano qui</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Speciale:ModificheCorrelate/Albero_sintattico" rel="nofollow" title="Elenco delle ultime modifiche alle pagine collegate a questa [k]" accesskey="k"><span>Modifiche correlate</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Speciale:PagineSpeciali" title="Elenco di tutte le pagine speciali [q]" accesskey="q"><span>Pagine speciali</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Albero_sintattico&amp;oldid=136768219" title="Collegamento permanente a questa versione di questa pagina"><span>Link permanente</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Albero_sintattico&amp;action=info" title="Ulteriori informazioni su questa pagina"><span>Informazioni pagina</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Speciale:Cita&amp;page=Albero_sintattico&amp;id=136768219&amp;wpFormIdentifier=titleform" title="Informazioni su come citare questa pagina"><span>Cita questa voce</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Speciale:UrlShortener&amp;url=https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FAlbero_sintattico"><span>Ottieni URL breve</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q627921" title="Collegamento all&#039;elemento connesso dell&#039;archivio dati [g]" accesskey="g"><span>Elemento Wikidata</span></a></li>
-		</ul>
-		
-	</div>
-</nav>
-
-<nav id="p-coll-print_export" class="mw-portlet mw-portlet-coll-print_export vector-menu-portal portal vector-menu" aria-labelledby="p-coll-print_export-label" role="navigation"  >
-	<h3
-		id="p-coll-print_export-label"
-		
-		class="vector-menu-heading "
-	>
-		<span class="vector-menu-heading-label">Stampa/esporta</span>
-	</h3>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list">
-			
-			<li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Speciale:Libro&amp;bookcmd=book_creator&amp;referer=Albero+sintattico"><span>Crea un libro</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Speciale:DownloadAsPdf&amp;page=Albero_sintattico&amp;action=show-download-screen"><span>Scarica come PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Albero_sintattico&amp;printable=yes" title="Versione stampabile di questa pagina [p]" accesskey="p"><span>Versione stampabile</span></a></li>
-		</ul>
-		
-	</div>
-</nav>
-
-<nav id="p-wikibase-otherprojects" class="mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal vector-menu" aria-labelledby="p-wikibase-otherprojects-label" role="navigation"  >
-	<h3
-		id="p-wikibase-otherprojects-label"
-		
-		class="vector-menu-heading "
-	>
-		<span class="vector-menu-heading-label">In altri progetti</span>
-	</h3>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list">
-			
-			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Syntax_trees" hreflang="en"><span>Wikimedia Commons</span></a></li>
-		</ul>
-		
-	</div>
-</nav>
-
-	
-<nav id="p-lang" class="mw-portlet mw-portlet-lang vector-menu-portal portal vector-menu" aria-labelledby="p-lang-label" role="navigation"  >
-	<h3
-		id="p-lang-label"
-		
-		class="vector-menu-heading "
-	>
-		<span class="vector-menu-heading-label">In altre lingue</span>
-	</h3>
-	<div class="vector-menu-content">
-		
-		<ul class="vector-menu-content-list">
-			
-			<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%B4%D8%AC%D8%B1%D8%A9_%D8%A7%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84" title="شجرة التحليل - arabo" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a href="https://bs.wikipedia.org/wiki/Stablo_parsiranja" title="Stablo parsiranja - bosniaco" lang="bs" hreflang="bs" class="interlanguage-link-target"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Deriva%C4%8Dn%C3%AD_strom" title="Derivační strom - ceco" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Syntaxbaum" title="Syntaxbaum - tedesco" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/Parse_tree" title="Parse tree - inglese" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D9%86%D9%85%D9%88%D8%AF%D8%A7%D8%B1_%D8%AF%D8%B1%D8%AE%D8%AA%DB%8C_%D8%AA%D8%AC%D8%B2%DB%8C%D9%87" title="نمودار درختی تجزیه - persiano" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Arbre_syntaxique" title="Arbre syntaxique - francese" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Stablo_parsiranja" title="Stablo parsiranja - croato" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Pohon_urai" title="Pohon urai - indonesiano" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E6%A7%8B%E6%96%87%E6%9C%A8" title="構文木 - giapponese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%8A%A4_%ED%8A%B8%EB%A6%AC" title="파스 트리 - coreano" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Arbor_syntactica_concreta" title="Arbor syntactica concreta - latino" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lmo mw-list-item"><a href="https://lmo.wikipedia.org/wiki/Alber_sintattich" title="Alber sintattich - lombardo" lang="lmo" hreflang="lmo" class="interlanguage-link-target"><span>Lombard</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Syntaxisboom" title="Syntaxisboom - olandese" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Drzewo_wyprowadzenia" title="Drzewo wyprowadzenia - polacco" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/%C3%81rvore_de_an%C3%A1lise_sint%C3%A1tica" title="Árvore de análise sintática - portoghese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Stablo_parsiranja" title="Stablo parsiranja - serbo-croato" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%94%D1%80%D0%B2%D0%BE_%D0%B8%D0%B7%D0%B2%D0%BE%D1%92%D0%B5%D1%9A%D0%B0" title="Дрво извођења - serbo" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Parsetr%C3%A4d" title="Parseträd - svedese" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a href="https://ta.wikipedia.org/wiki/%E0%AE%87%E0%AE%B2%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%A3%E0%AE%95%E0%AF%82%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81_%E0%AE%AE%E0%AE%B0%E0%AE%AE%E0%AF%8D" title="இலக்கணகூற்று மரம் - tamil" lang="ta" hreflang="ta" class="interlanguage-link-target"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-uk badge-Q70893996 mw-list-item" title=""><a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D1%82%D0%B0%D0%BA%D1%81%D0%B8%D1%87%D0%BD%D0%B5_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE" title="Синтаксичне дерево - ucraino" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/C%C3%A2y_ph%C3%A2n_t%C3%ADch_c%C3%BA_ph%C3%A1p" title="Cây phân tích cú pháp - vietnamita" lang="vi" hreflang="vi" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E5%88%86%E6%9E%90%E6%A0%91" title="分析树 - cinese" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a href="https://zh-yue.wikipedia.org/wiki/%E5%88%86%E6%9E%90%E6%A8%B9" title="分析樹 - cantonese" lang="yue" hreflang="yue" class="interlanguage-link-target"><span>粵語</span></a></li>
-		</ul>
-		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q627921#sitelinks-wikipedia" title="Modifica collegamenti interlinguistici" class="wbc-editpage">Modifica collegamenti</a></span></div>
-	</div>
-</nav>
-
-</div>
-
-</div>
-
-<footer id="footer" class="mw-footer" role="contentinfo" >
-	<ul id="footer-info">
-	<li id="footer-info-lastmod"> Questa pagina è stata modificata per l'ultima volta il&#160;6 dic 2023 alle 21:22.</li>
-	<li id="footer-info-copyright">Il testo è disponibile secondo la <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">licenza Creative Commons Attribuzione-Condividi allo stesso modo</a>; possono applicarsi condizioni ulteriori. Vedi le <a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use/it">condizioni d'uso</a> per i dettagli.</li>
-</ul>
-
-	<ul id="footer-places">
-	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/it">Informativa sulla privacy</a></li>
-	<li id="footer-places-about"><a href="/wiki/Wikipedia:Sala_stampa/Wikipedia">Informazioni su Wikipedia</a></li>
-	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:Avvertenze_generali">Avvertenze</a></li>
-	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Codice di condotta</a></li>
-	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Sviluppatori</a></li>
-	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/it.wikipedia.org">Statistiche</a></li>
-	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Dichiarazione sui cookie</a></li>
-	<li id="footer-places-mobileview"><a href="//it.m.wikipedia.org/w/index.php?title=Albero_sintattico&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versione mobile</a></li>
-</ul>
-
-	<ul id="footer-icons" class="noprint">
-	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
-	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
-</ul>
-
-</footer>
-
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1487","wgBackendResponseTime":120,"wgPageParseReport":{"limitreport":{"cputime":"0.088","walltime":"0.125","ppvisitednodes":{"value":1266,"limit":1000000},"postexpandincludesize":{"value":7286,"limit":2097152},"templateargumentsize":{"value":301,"limit":2097152},"expansiondepth":{"value":9,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":730,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%   98.049      1 -total"," 23.24%   22.784      1 Template:Cita_libro"," 21.65%   21.232      1 Template:Interprogetto"," 17.56%   17.222      1 Template:Portale"," 16.05%   15.733      1 Template:FOLDOC"," 14.95%   14.658      3 Template:Cita_web"," 14.27%   13.991      1 Template:Cita_testo"," 11.37%   11.144      1 Template:Icona_argomento","  3.00%    2.945      2 Template:En","  1.83%    1.796      1 Template:Cita"]},"scribunto":{"limitreport-timeusage":{"value":"0.047","limit":"10.000"},"limitreport-memusage":{"value":2423029,"limit":52428800}},"cachereport":{"origin":"mw1428","timestamp":"20231206202225","ttl":2592000,"transientcontent":false}}});});</script>
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Albero sintattico","url":"https:\/\/it.wikipedia.org\/wiki\/Albero_sintattico","sameAs":"http:\/\/www.wikidata.org\/entity\/Q627921","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q627921","author":{"@type":"Organization","name":"Contributori ai progetti Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-02-04T09:40:13Z","dateModified":"2023-12-06T20:22:24Z"}</script>
-</body>
-</html>
+<BR><BR>
+<UL><TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="560">
+<TR><TD WIDTH=50></TD><!-- Link to Quiz Page --><TD VALIGN="CENTER" WIDTH="150"><A HREF="03lin02q.htm" accesskey="Q" onMouseOver="imgOn('img7')" onMouseOut="imgOff('img7')"><IMG SRC="../images/quizbtn0.png" NAME="img7" ALT="Quiz" BORDER="0"></A></TD>
+<!-- PREVIOUS LINK -->
+</TR></TABLE><BR>
+<TABLE WIDTH="600"><TR><TD> &nbsp;</TD><TD WIDTH="570"></TD><TD VALIGN="BOTTOM" NOWRAP><A HREF="02lin02.htm" accesskey="P"  onMouseOver="imgOn('img3')" onMouseOut="imgOff('img3')"><IMG SRC="../images/backbtn0.png" NAME="img3" ALT="Indietro" BORDER="0"></A><!-- NEXT LINK --><A HREF="04lin02.htm" onMouseOver="imgOn('img4')" accesskey="N"     onMouseOut="imgOff('img4')"><IMG SRC="../images/nextbtn0.png" NAME="img4" ALT="Avanti"  BORDER="0"></A></TD></TR>
+</TABLE>
+</BODY>
+</HTML>
