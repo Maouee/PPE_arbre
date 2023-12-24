@@ -1,270 +1,518 @@
    Link: canonical
-   Link:
-   //vitolavecchia.altervista.org/_av_share/master/static/wordpress/dist/
-   Link: shortlink
+   HTML logo
+   Learn
+   Download
+   Magazine
+   Forum
    [ Submit ]
+   _____________________
+   in  
+   [ ] Tutto il Forum
+   [ ] Tutto HTML.it
+   [ ] Software
+   [ ] News
+   [ ] Video
+   [ ] Guide
+   [ ] Approfondimenti
+   [ ] Faq
+   Utility
+   Home Messaggi odierni FAQ Ricerca avanzata Lo staff del forum Regolamento
+   Utenti Archivio
+   ___________
+   ___________
+   Entra
+    Recupero password
+   [ ] Ricordami
+     * Aiuto
+     * Registrazione
+     * Home Page
+     * Forum
+     * Forum di interesse generale
+     * Discussioni off-topic
+     * quale albero piantare?
 
-   Informatica e Ingegneria Online
+     ----------------------------------------------------------------------
 
-   La creatività è senza dubbio la risorsa umana più importante
+    1. Se questa è la tua prima visita, controlla la sezione FAQ cliccando
+       sul link soprastante. Devi registrarti prima di poter postare: clicca
+       sul link soprastante per procedere con la registrazione. Per
+       visualizzare i messaggi, seleziona la sezione che desideri visitare,
+       dall'elenco sottostante.
+   Pagina 1 di 4 1 2 3 ... Seguente ultimoultimo
+     * Vai alla pagina _____ [ Prosegui ]
+   Visualizzazione dei risultati da 1 a 10 su 37
 
-   Informatica e Ingegneria Online
-     * HOME
-     * LE MIE PUBBLICAZIONI
-     * SERVIZI E ATTIVITÀ
-          * Sanità digitale
-          * Sicurezza informatica
-          * Software Testing
-          * Project Management
-          * Azienda e tecnologie ICT
-     * RISORSE E ALTRO
-          * Risorse
-          * Test di informatica
-          * Glossario Informatica
-          * Collaborazioni e Guest Post
-          * Notifiche push
-          * Disclaimer
-     * CONSULENZA E ASSISTENZA
-          * Assistenza informatica
-     * PROFILO PERSONALE
-   _____________________ _____________________ [ Start search ]
-   [ Submit ]
-   Generic selectors
-   [ ]
-   Exact matches only
-   [ ]
-   Search in title
-   [ ]
-   Search in content
-   [ ]
-   Post Type Selectors
-   [ ]
-   [ ]
+                      Discussione: quale albero piantare?
 
-           Differenza tra albero binario e albero di ricerca binario
+   Navigazione veloce Discussioni off-topic Vai in cima
+     * Aree del sito
+     * Impostazioni
+     * Messaggi privati
+     * Sottoscrizioni
+     * Utenti collegati
+     * Cerca nei forum
+     * Indice dei forum
+     * forum
+     * Lato client
+         1. XHTML e HTML
+         2. HTML 5
+         3. XML, XSL, Smil
+         4. CSS
+         5. JavaScript
+     * Lato server
+         1. Programmazione
+              1. Visual Basic e .Net Framework
+              2. Java
+         2. PHP
+         3. ASP
+         4. ASP.Net
+         5. CMS
+         6. Server
+              1. Apache
+              2. Microsoft Server
+              3. Altri server
+         7. Database
+     * Grafica e Flash
+         1. Grafica
+              1. Flash e tecnologie annesse
+     * Webmarketing
+         1. Motori di Ricerca e Web Marketing
+              1. Copywriting
+     * Telecomunicazioni
+         1. Adsl e connettività
+         2. VoIP
+     * Sistemi operativi e software
+         1. Windows e software
+         2. Linux e software
+         3. Macintosh e software
+         4. Sicurezza informatica e virus
+     * Hardware
+         1. Hardware Desktop
+         2. Hardware Laptop
+         3. Reti LAN e Wireless
+         4. Makers
+     * Hi-Tech
+         1. Videogiochi
+         2. Telefonia cellulare
+         3. Fotocamere e videocamere digitali, elettronica e Hi-Tech
+     * Annunci
+         1. Annunci siti Web e App
+         2. Offro lavoro/collaborazione
+              1. Professionisti/studi professionali
+              2. Privati /ricerca dipendenti/ collaborazioni gratuite
+         3. Cerco un lavoro
+     * Forum di interesse generale
+         1. Discussioni off-topic
+              1. Kickstarter
+     *  Strumenti discussione
 
-   Scritto il
-   Facebook
-   Twitter
-   LinkedIn
+          * Visualizza la versione stampabile
+          * Invia questa pagina tramite email…
+          * Sottoscrivi questa discussione…
+     *  Ricerca discussione
 
-           Differenza tra albero binario e albero di ricerca binario
+          * _____________________ [ Cerca ] 
+          *  
+            Ricerca avanzata
+     *  Visualizza
 
-  Albero binario
+          * Modalità lineare
+          * Passa al modo ibrido
+          * Passa alla modalità elencata
+    1. 14-07-2010, 17:57 #1
+       sparwari
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       sparwari non è in linea
+       Moderatore di foto/videocamere digitali ed elettronica hi-tech
+       L'avatar di sparwari
 
-   In informatica, un albero binario (in inglese a binary tree) è una
-   struttura di dati gerarchica in cui ogni nodo ha al massimo due figli
-   generalmente indicati come figlio sinistro e figlio destro. Ciascun nodo
-   in un albero binario contiene tre nodi che includono puntatore al
-   sottoalbero sinistro , e puntatore al sottoalbero e dati elemento di
-   destra . Il nodo più in alto nell’albero è indicato come radice. Di solito
-   un albero vuoto è rappresentato dal puntatore NULL .
+     ----------------------------------------------------------------------
 
-   Tipi di alberi binari basati sulla struttura
+            Registrato dal
+                    Jun 2004
 
-     * Albero binario radicato (ha un nodo radice e ogni nodo non ha più di
-       due figli).
-     * Albero binario completo (ogni nodo dell’albero non ha nessuno o almeno
-       2 figli).
-     * Albero degenerato (ogni nodo padre ha un solo nodo figlio. Si comporta
-       come un elenco collegato).
-     * Albero binario perfetto (tutti i nodi interni hanno 2 figli e le
-       foglie hanno la stessa profondità o lo stesso livello.
-     * Albero binario completo (ogni livello ad eccezione dell’ultimo livello
-       è completamente riempito e tutti i nodi si trovano alla periferia
-       sinistra.
+            Messaggi
+                    7,671
 
-  Albero di ricerca binario
+[taddeus] quale albero piantare?
 
-   In informatica, gli alberi binari di ricerca  (in inglese binary search
-   trees) sono una struttura di dati utile per l’aggiunta e la rimozione
-   rapida dei dati. L’albero di ricerca binario è un albero binario
-   organizzato in cui esiste un ordine relativo in cui i nodi dovrebbero
-   essere disposti. È composto da nodi, che memorizza i dati e si collega
-   anche a un massimo di altri due nodi figlio. Affinché un albero binario
-   sia un albero di ricerca binario, i dati di tutti i nodi nel sottoalbero
-   sinistro del nodo radice devono essere inferiori ai dati della radice. I
-   dati di tutti i nodi nel sottoalbero destro del nodo radice dovrebbero
-   essere maggiori di quelli uguali ai dati della radice. A questo proposito,
-   le foglie più a sinistra dell’albero hanno i valori più bassi, mentre le
-   foglie a destra dell’albero hanno i valori più alti.
+         in una aiula di dimensioni circa 4x3 vicino ad una casa in campagna,
+         potete consigliarmi un albero con crescita veloce?
 
-   Tipi di albero di ricerca binario
+         avevo pensato ad un pioppo.
+         cosa dite?
+         però non vorrei che le radici del pioppo possano "disturbare" un
+         vicino muro a secco che fa da terrapieno sottostante.
 
-     * T-trees
-     * AVL trees
-     * Splay trees
-     * Tango trees
-     * Red-black trees
+         pareri? suggerimenti?
 
-   Differenza tra albero binario e albero di ricerca binario
+         1... 2... 3... prova
 
-  Differenza tra albero binario e albero di ricerca binario
+       Rispondi quotando Rispondi quotando 
 
-   CONFRONTO DI ALBERO BINARIO                   ALBERO DI RICERCA BINARIO    
-   BASE         
-                L’albero binario è una struttura                              
-                di dati gerarchica in cui un                                  
-                bambino può avere zero, uno o    L’albero di ricerca binario  
-                massimo due nodi figlio, ogni    è un albero binario          
-   Descrizione  nodo contiene un puntatore a     organizzato in cui esiste un 
-                sinistra, un puntatore a destra  ordine relativo in cui i     
-                e un elemento di dati. Non       nodi dovrebbero essere
-                esiste una struttura             disposti.  
-                organizzativa specifica dei nodi 
-                nell’albero.                     
-                Esistono diversi tipi di alberi  I tipi più popolari di       
-                binari, i più popolari           albero di ricerca binario    
-   Tipi         includono: albero binario        includono: alberi a T,       
-                completo, albero binario         alberi AVL, alberi splay,    
-                completo, albero binario esteso  alberi tango, alberi         
-                e albero binario perfetto.       rosso-neri ecc.              
-                                                 Gli alberi di ricerca        
-                                                 binaria mantengono ordinate  
-                                                 le chiavi, quindi la ricerca 
-                Le operazioni comuni che possono di solito implementa la      
-                essere eseguite su un albero     ricerca binaria per le       
-   Operazioni   binario sono la cancellazione,   operazioni. Gli alberi       
-   comuni       l’inserimento e il trasversale.  binari di ricerca sono       
-                                                 alberi binari più ordinati   
-                                                 che consentono una rapida ed 
-                                                 efficiente ricerca,          
-                                                 inserimento e cancellazione  
-                                                 di elementi.                 
-                L’albero binario può anche       L’albero di ricerca binario  
-                essere descritto come una forma  può anche essere descritto   
-                di albero specializzata che      come un tipo di albero       
-                rappresenta i dati in una        binario in cui tutti i nodi  
-   Descrizione  struttura ad albero. In un       nel sottoalbero di sinistra  
-   alternativa  albero binario, il nodo più in   sono minori o uguali al      
-                alto rappresenta il puntatore    valore del nodo radice e     
-                alla radice mentre i puntatori   quelli del sottoalbero di    
-                alla radice destro e sinistro    destra sono maggiori o       
-                rappresentano i dati in una      uguali a il valore del nodo  
-                struttura ad albero.             radice.                      
+     ----------------------------------------------------------------------
 
-   Pubblicato inDifferenze , Ingegneria
+    2. 14-07-2010, 18:18 #2
+       krakovia
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       krakovia non è in linea
+       Utente di HTML.it L'avatar di krakovia
 
-    Pubblicato da Vito Lavecchia
+     ----------------------------------------------------------------------
 
-   Lavecchia Vito Ingegnere Informatico (Politecnico di Bari) Email:
-   [email protected] Sito Web: https://vitolavecchia.altervista.org Mostra
-   altri articoli
+            Registrato dal
+                    Aug 2001
 
-Navigazione articoli
+            Messaggi
+                    75
 
-   ← Post Precedente Post precedente:Differenza tra Preemptive e
-   Non-Preemptive Scheduling nella CPU
-   Post Successivo → Post successivo:Differenza tra eBook ed ePub in
-   informatica
+         ciliegio, a prescindere.
+         com'è il terreno? ombra? intendi lavorarci su o preferisci qualcosa
+         che poi non perda troppe foglie/frutti?
 
-   Mostra Commenti  Nascondi Commenti
+       Rispondi quotando Rispondi quotando 
 
-  Lascia un commento
+     ----------------------------------------------------------------------
 
-   Il tuo indirizzo email non sarà pubblicato. I campi obbligatori sono
-   contrassegnati *
+    3. 14-07-2010, 18:26 #3
+       sparwari
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       sparwari non è in linea
+       Moderatore di foto/videocamere digitali ed elettronica hi-tech
+       L'avatar di sparwari
 
-   Commento *
-   ______________________________________________
-   ______________________________________________
-   ______________________________________________
-   ______________________________________________
-   ______________________________________________
-   ______________________________________________
-   ______________________________________________
-   ______________________________________________
+     ----------------------------------------------------------------------
 
-   Nome * _______________________________
+            Registrato dal
+                    Jun 2004
 
-   Email * _______________________________
+            Messaggi
+                    7,671
 
-   Sito web _______________________________
+         Originariamente inviato da krakovia
+         ciliegio, a prescindere.
+         com'è il terreno? ombra? intendi lavorarci su o preferisci qualcosa
+         che poi non perda troppe foglie/frutti?
+         il terreno non è mio ma di un amico.
+         a prima vista mi è sembrato un buon terreno: la casa è stata
+         realizzata molti anni fa praticamente dentro un uliveto e tutto
+         attorno ci sono ulivi. anche un fico ed un albicocco.
+         tranne in questa grande aiula che è vuota..
+         l'iaula è in zona ombrata (da albero vicino) in alcune opre del
+         giorno.
 
-   [ Invia commento ]
+         cercavo un albero veloce nella crescita e che richieda poche
+         attenzioni.
+         clima mediterraneo (sud italia).
 
-  PAGINA FACEBOOK
+         questa aiula (vicino la casa) è pianeggiante ed rettangolare ha:
+         - da un lato il muretto in cemento di confine proprietà
+         - da un lato un muretto a secco di confine proprietà
+         - da un lato un dislivello sotto cui passa una strada (c'è un muro
+         che fa da terrapieno)
 
-  Cerca articoli…
+         io avrei consigliato un pioppo (cresce veloce ed è bello da vedere)
+         ma poi mi è sorto un dubbio:
+         il mio timore è che magari tra 7-8 anni il pioppo con le sue radici
+         inizi a danneggiare o la casa o uno dei muri vicini o il muro che fa
+         da terrapieno!!
+         che ne pensi?
 
-   _____________________ _____________________ [ Start search ]
-   [ Submit ]
-   Generic selectors
-   [ ]
-   Exact matches only
-   [ ]
-   Search in title
-   [ ]
-   Search in content
-   [ ]
-   Post Type Selectors
-   [ ]
-   [ ]
+         ciliegio? mmm... ma sbaglio o è lento?
 
-  Ultimi Articoli
+         1... 2... 3... prova
 
-     * Caratteristiche e differenza tra apprendimento per rinforzo e
-       supervisionato
-       4 giorni fa
+       Rispondi quotando Rispondi quotando 
 
-    Caratteristiche e differenza tra apprendimento per rinforzo e supervisionato
+     ----------------------------------------------------------------------
 
-     * Caratteristiche e differenza tra strategie di social media B2B e B2C
-       in azienda
-       6 giorni fa
+    4. 14-07-2010, 18:30 #4
+       galz
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+          * Vai alla Home Page
+       galz non è in linea
+       Gay And Lesbian Zimbabwe L'avatar di galz
 
-    Caratteristiche e differenza tra strategie di social media B2B e B2C in
-    azienda
+     ----------------------------------------------------------------------
 
-     * Caratteristiche e differenza tra costruttore e distruttore
-       nella programmazione orientata agli oggetti
-       1 settimana fa
+            Registrato dal
+                    Jun 2001
 
-    Caratteristiche e differenza tra costruttore e distruttore
-    nella programmazione orientata agli oggetti
+            Messaggi
+                    240
 
-     * Differenza tra sicurezza delle applicazioni cloud, web e mobile in
-       informatica
-       3 settimane fa
+         La parola AIUOLA ti sta proprio sul culo, eh.. non l'hai azzeccata
+         una volta
 
-    Differenza tra sicurezza delle applicazioni cloud, web e mobile in
-    informatica
+         Le mie ferie negli States: le foto!
 
-     * Che cos'è, best practice e strumenti per AppSec (sicurezza delle
-       applicazioni) in informatica
-       4 settimane fa
+       Rispondi quotando Rispondi quotando 
 
-    Che cos'è, best practice e strumenti per AppSec (sicurezza delle
-    applicazioni) in informatica
+     ----------------------------------------------------------------------
 
-  ARTICOLI CORRELATI
+    5. 14-07-2010, 18:35 #5
+       nihil
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       nihil non è in linea
+       Utente di HTML.it L'avatar di nihil
 
-    1. Differenza tra grafo e albero in informatica
-    2. Differenza tra albero e grafo nella struttura dei dati informatici
-    3. Caratteristiche degli alberi di decisione (decision tree) in
-       informatica
-    4. Differenza tra Tabella decisionale e Albero decisionale
+     ----------------------------------------------------------------------
 
-   Tema Seamless Keith, sviluppato da Altervista
+            Registrato dal
+                    Jul 2009
 
-   Apri un sito e guadagna con Altervista - Disclaimer - Segnala abuso -
-   Notifiche Push - Privacy Policy - Personalizza tracciamento pubblicitario
+            Messaggi
+                    1
 
-     * HOME
-     * LE MIE PUBBLICAZIONI
-     * SERVIZI E ATTIVITÀ
-          * Sanità digitale
-          * Sicurezza informatica
-          * Software Testing
-          * Project Management
-          * Azienda e tecnologie ICT
-     * RISORSE E ALTRO
-          * Risorse
-          * Test di informatica
-          * Glossario Informatica
-          * Collaborazioni e Guest Post
-          * Notifiche push
-          * Disclaimer
-     * CONSULENZA E ASSISTENZA
-          * Assistenza informatica
-     * PROFILO PERSONALE
+         cipresso?
+         Le radici si sviluppano in profondità, molto difficilmente si secca,
+         cresce anche su un terreno sassoso e ingrandisce in modo veloce
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    6. 14-07-2010, 18:36 #6
+       sparwari
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       sparwari non è in linea
+       Moderatore di foto/videocamere digitali ed elettronica hi-tech
+       L'avatar di sparwari
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jun 2004
+
+            Messaggi
+                    7,671
+
+         Originariamente inviato da galz
+         La parola AIUOLA ti sta proprio sul culo, eh.. non l'hai azzeccata
+         una volta
+         pensa che dopo aver postato l'intervento, ho editato altri errori ma
+         AIUOLA no. erano troppe parole altrimenti da corregere
+
+         1... 2... 3... prova
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    7. 14-07-2010, 18:37 #7
+       sparwari
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       sparwari non è in linea
+       Moderatore di foto/videocamere digitali ed elettronica hi-tech
+       L'avatar di sparwari
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jun 2004
+
+            Messaggi
+                    7,671
+
+         Originariamente inviato da nihil
+         cipresso?
+         Le radici si sviluppano in profondità, molto difficilmente si secca,
+         cresce anche su un terreno sassoso e ingrandisce in modo veloce
+         mmm... cipresso non mi convince. ha una chioma che non mi convince.
+
+         1... 2... 3... prova
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    8. 14-07-2010, 18:45 #8
+       nihil
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       nihil non è in linea
+       Utente di HTML.it L'avatar di nihil
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jul 2009
+
+            Messaggi
+                    1
+
+         Originariamente inviato da sparwari
+         mmm... cipresso non mi convince. ha una chioma che non mi convince.
+         betulla?
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    9. 14-07-2010, 18:47 #9
+       quaestio
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       quaestio non è in linea
+       Umarell di HTML.it L'avatar di quaestio
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    May 2005
+
+            Messaggi
+                    55
+
+         io so che il pioppo ama l'acqua......
+
+         "ci vorrebbero anche più persone come quaestio (a reb verrà un
+         brivido)" wallrider, 22/10/2012
+
+         "Se hai una vita di merda facebook non può essere molto meglio...".
+         kalosjo, 16/10/2012
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+   10. 14-07-2010, 18:48 #10
+       robertetti
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       robertetti non è in linea
+       Utente di HTML.it L'avatar di robertetti
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Dec 2007
+
+            Messaggi
+                    16
+
+         Il kaki:è il frutto più buono che c*è e fruttifica in abbondanza.Ma
+         non so se è veloce.
+         Il ginko è veloce, è bellissimo (d*autunno quando è tutto giallo è
+         commovente), ma diventa più grosso del pioppo.
+         Quindi il kaki
+
+         La vita è un fiume
+         (G. Scialpi)
+
+         Siamo isole
+         (G. Scialpi)
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+   Pagina 1 di 4 1 2 3 ... Seguente ultimoultimo
+     * Vai alla pagina _____ [ Prosegui ]
+   Navigazione veloce Discussioni off-topic Vai in cima
+     * Aree del sito
+     * Impostazioni
+     * Messaggi privati
+     * Sottoscrizioni
+     * Utenti collegati
+     * Cerca nei forum
+     * Indice dei forum
+     * forum
+     * Lato client
+         1. XHTML e HTML
+         2. HTML 5
+         3. XML, XSL, Smil
+         4. CSS
+         5. JavaScript
+     * Lato server
+         1. Programmazione
+              1. Visual Basic e .Net Framework
+              2. Java
+         2. PHP
+         3. ASP
+         4. ASP.Net
+         5. CMS
+         6. Server
+              1. Apache
+              2. Microsoft Server
+              3. Altri server
+         7. Database
+     * Grafica e Flash
+         1. Grafica
+              1. Flash e tecnologie annesse
+     * Webmarketing
+         1. Motori di Ricerca e Web Marketing
+              1. Copywriting
+     * Telecomunicazioni
+         1. Adsl e connettività
+         2. VoIP
+     * Sistemi operativi e software
+         1. Windows e software
+         2. Linux e software
+         3. Macintosh e software
+         4. Sicurezza informatica e virus
+     * Hardware
+         1. Hardware Desktop
+         2. Hardware Laptop
+         3. Reti LAN e Wireless
+         4. Makers
+     * Hi-Tech
+         1. Videogiochi
+         2. Telefonia cellulare
+         3. Fotocamere e videocamere digitali, elettronica e Hi-Tech
+     * Annunci
+         1. Annunci siti Web e App
+         2. Offro lavoro/collaborazione
+              1. Professionisti/studi professionali
+              2. Privati /ricerca dipendenti/ collaborazioni gratuite
+         3. Cerco un lavoro
+     * Forum di interesse generale
+         1. Discussioni off-topic
+              1. Kickstarter
+   « Discussione precedente | Prossima discussione »
+
+    [IMG] Permessi di invio
+
+     * Non puoi inserire discussioni
+     * Non puoi inserire repliche
+     * Non puoi inserire allegati
+     * Non puoi modificare i tuoi messaggi
+     *  
+     * Il codice BB è attivo
+     * Le smilie sono attive
+     * Il codice [IMG] attivo
+     * [VIDEO] code is disattivato
+     * il codice HTML è disattivato
+
+   Regole del Forum
+
+     * Pubblicità
+     * Contatti
+     * Chi siamo
+     * Privacy policy
+     * Cookie policy
+     * Gestisci consenso
+     * * Ricerca avanzata
+     * Contatta lo Staff
+     * Archivio
+     * Vai in cima
+   © HTML.it 2022 - TUB Network Srl - P. IVA 16454421005
+   Powered by vBulletin® Version 4.2.1
+   Copyright © 2023 vBulletin Solutions, Inc. All rights reserved.

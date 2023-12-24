@@ -1,92 +1,122 @@
+     * Contatti
 
-   Salve a tutti,
-   come da titolo sto sviluppando un albero per effettuare ricerche sui
-   prodotti in stile Ecommerce. Image
-   Mi sono bloccato però su una questione apparentemente banale. Io vorrei
---
---
-   prodotti in stile Ecommerce. Image
-   Mi sono bloccato però su una questione apparentemente banale. Io vorrei
-   che appena clicco su GIACCHE l'albero mi attivi il nodo giacche e mi
-   espandesse eventuali figli.
-   Ho provato di tutto: Active doc , set document, set active node passando
---
---
-
-   Provo a darti alcune dritte
-   1) Se l'albero è documentale non esiste nessuna chiave di HASH (è usata
-   solo per alberi di tipo DB)
-   2) Nell'albero devi usare solo eventi Documentali
-   3) Se per l'albero imposti -> Albero.ActivateOnExpand := True il framework
-   attiva il nodo quando l'utente espande il ramo
---
-   attiva il nodo quando l'utente espande il ramo
-   4) I documenti presenti nell'albero hanno riferimenti diversi (sono
-   istanze diverse) da quelli che tu potresti avere in un pannello o caricare
-   successivamente
---
---
-
-   Se vuoi che nel pannello o libro documentale sia visualizzato il documento
-   selezionato nell'albero, intercettando l'evento OnActivateDoc qui hai il
-   documento selezionato e lo puoi applicare al pannello/libro.
+    Frutticoltura: le protezioni per alberi da frutto da utilizzare durante
+                              l’inverno e non solo
 
 --
 --
-   Quando fai la ricerca del prodotto, tu vai a caricare i prodotti e ottieni
-   una collection di prodotti, ma questi documenti hanno una istanza diversa
-   nell'albero e quindi non li troverai mai.
-   Per sopperire a cio' dovresti avere una variabile globale di videata di
---
-   Per sopperire a cio' dovresti avere una variabile globale di videata di
-   tutti i tuoi prodotti, questa variabile globale associata all'albero con
-   setCollection; quando fai le ricerche non devi ricaricare i dati ma
-   cercare nella variabile globale e avendo trovato il documento usare la
+   attenzione a ogni dettaglio, specialmente durante i rigidi mesi invernali.
+   Uno dei metodi più efficaci per salvaguardare i fusti si concretizza
+   nell’utilizzo delle protezioni per alberi da frutto proposte da Tubex. Con
+   questi presupposti, oggi parliamo dell’importanza di proteggere queste
+   piante durante l’inverno (e non solo) e di come gli shelter Tubex possono
 --
 --
+L’importanza della protezione nei mesi più freddi
 
-   Grazie mille Pietro. Probabilmente mi sono spiegato male. Io vorrei che
-   quando l'utente clicca sull'icona delle giacche a destra l'albero a
-   sinistra mi attivi il documento giacche e mi espanda eventuali figli.
+   Durante l’inverno, gli alberi da frutto sono particolarmente vulnerabili
+   ad una serie di fattori avversi. Tra questi, primi fra tutti troviamo:
 
 --
 --
-   stessi); che puoi avere se ti crei la variabile globale
-   Quando l'utente seleziona una giacca allora si cattura il documento sul
-   libro e si attiva il nodo sull'albero
-   Ma ritorno a dirti che funziona se i documenti sono gli stessi e non altre
-   istanze documenti
---
---
-   Postby m.sirri » 14 March 2016, 15:52
+   ad una serie di fattori avversi. Tra questi, primi fra tutti troviamo:
 
-   Dopo aver chiamato il metodo setCollection sull'albero chiama il metodo
-   updateControls.
+     * Basse temperature – Il gelo può danneggiare seriamente gli alberi,
+       causando il congelamento del legno e delle radici.
+     * Venti freddi – I venti invernali possono provocare la disidratazione
 --
-   updateControls.
-   Questo serve perché i nodi dell'albero vengono fisicamente
-   creati/aggiornati a fine rischiesta.
+--
+     * Animali selvatici – Gli animali selvatici, come i conigli, i caprioli
+       e i topi, possono mordere e danneggiare la corteccia e i rami degli
+       alberi.
+     * Malattie e parassiti – Molti agenti patogeni e insetti dannosi sono
+       ancora attivi durante i mesi invernali. Senza usare delle buone
+--
+--
+     * Malattie e parassiti – Molti agenti patogeni e insetti dannosi sono
+       ancora attivi durante i mesi invernali. Senza usare delle buone
+       protezioni per alberi da frutto, agenti patogeni e insetti possono
+       attaccare e danneggiare rami e tronchi.
 
 --
 --
-   Grazie mille a tutti per le cortesi risposte. Alla fine ho seguito il
-   consiglio di Pietro e ce l'ho fatta.
-   Correggetemi se sbaglio, in un albero DO non è necessario creare un
-   Elemento albero giusto?
-   Se la mia supposizione fosse corretta, come faccio ad assegnare uno stile
---
-   Se la mia supposizione fosse corretta, come faccio ad assegnare uno stile
-   css all'albero? Non mi torna molto questa cosa.
+       attaccare e danneggiare rami e tronchi.
 
-   Grazie mille e scusate se sono andato un pò fuori topic.
+   Proteggere gli alberi da frutto da tutti questi fattori può aiutare a
+   prevenire danni significativi e garantire una produzione frutticola sana e
+   abbondante.
 --
 --
-   Postby eurekapv » 15 March 2016, 13:08
+   abbondante.
 
-   Se l'albero è DO, puoi intercettare l'evento OnGetName del documento
-   Questo evento serve a personalizzare il nome dell'oggetto quando si trova
+   protezioni per alberi da frutto
+
+    
 --
-   Questo evento serve a personalizzare il nome dell'oggetto quando si trova
-   in diversi ambiti (quali anche un albero)
-   Se non ricordo male, il Name puo' essere costruito con sintassi HTML, dove
-   quindi puoi applicare una class CSS desiderata.
+--
+    
+
+Le protezioni per alberi da frutto a marchio Tubex: perfette in inverno e non
+solo
+
+--
+--
+
+   Gli shelter Tubex Fruitwrap si presentano come una soluzione affidabile e
+   comprovata per chi necessita di proteggere gli alberi da frutto durante
+   l’inverno. Queste protezioni tubolari flessibili agiscono come una
+   barriera protettiva contro il freddo e i diversi agenti climatici,
+--
+--
+   e malattie.
+
+   Grazie alla struttura tubolare delle protezioni per alberi da frutto a
+   marchio Tubex, gli alberi sono meno esposti alle raffiche di vento e al
+   conseguente rischio di disidratazione. Inoltre, all’interno di questi
+   shelter si crea un microclima umido in grado di favorire l’attecchimento e
+--
+--
+
+   Per utilizzare gli shelter Tubex in modo efficace, la prima cosa da fare è
+   scegliere gli shelter delle dimensioni adatte ai propri alberi. Sarà
+   importante assicurarsi che il tubo sia abbastanza alto da coprire una
+   parte significativa dell’area inferiore del tronco. Grazie alla loro
+--
+--
+   suolo per ottenere benefici nel breve e nel lungo termine.
+
+   Queste protezioni per alberi da frutto si dilatano autonomamente nel
+   tempo, seguendo lo sviluppo della pianta. Quando non saranno più
+   necessarie potranno essere tolte. Qualora cadessero e rimanessero sul
+--
+--
+   confronti dell’ambiente.
+
+Come acquistare le protezioni per alberi da frutto a marchio Tubex
+
+--
+
+   Per ottenere una fornitura di protezioni per alberi da frutto Tubex,
+   potete affidarvi al team di Nowotec: siamo rivenditori unici per l’Italia
+   e rivenditori ufficiali per vari paesi europei dei prodotti Tubex. Per
+--
+--
+       perché scegliere Tubex
+       30 Novembre 2023
+     * protezione per alberiProtezione per alberi: ad ogni pianta il suo
+       shelter Tubex
+       20 Novembre 2023
+--
+--
+       shelter Tubex
+       20 Novembre 2023
+     * protezioni per alberi da fruttoFrutticoltura: le protezioni per alberi
+       da frutto da utilizzare durante l’inverno e non solo
+       13 Novembre 2023
+--
+--
+   Noi di Nowotec siamo rivenditori unici per l’Italia e rivenditori
+   ufficiali per vari paesi europei dei prodotti Tubex. Tubex produce
+   protezioni per alberi e piante dagli anni Ottanta. Con il tempo, è stata
+   ampliata la gamma di prodotti, arrivando a rispondere perfettamente alle
+   esigenze di chi opera nell’ambito di paesaggistica, silvicoltura,

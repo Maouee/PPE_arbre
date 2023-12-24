@@ -1,288 +1,193 @@
-   Board index
-
-   Skip to content
-
-     * Board index
-     * * User Control Panel
-     * * FAQ
-     * * Register
-     * * Login
-     * View unanswered posts
-     * * View active topics
-     * It is currently 13 December 2023, 10:56 Advanced search
-
-   Board index ‹ Forum di Instant Developer - ITA ‹ Tips & Tricks -
-   Foundation
-   _____________________
-
-Albero DO Aiuto attivazione nodo
-
-   Topic locked
-   _____________________ [ Search ]
-   7 posts • Page 1 of 1
-     * Edit post
-
-  Albero DO Aiuto attivazione nodo
-
-   Postby matteo.banchetti » 14 March 2016, 11:17
-
-   Salve a tutti,
-   come da titolo sto sviluppando un albero per effettuare ricerche sui
-   prodotti in stile Ecommerce. Image
-   Mi sono bloccato però su una questione apparentemente banale. Io vorrei
-   che appena clicco su GIACCHE l'albero mi attivi il nodo giacche e mi
-   espandesse eventuali figli.
-   Ho provato di tutto: Active doc , set document, set active node passando
-   l'id del documento ( l'hash key non mi funziona e non credo nemmeno di
-   averla capita bene).
-
-   Io nella load del documento carico una collection ricorsiva
-   Image
-   Esiste solo una tabella Categorie. Le sottocategorie sono sempre categorie
-   ma con L'IDPADRE valorizzato che tramite collection gestisce la
-   ricorsività.
-
-   Dove sbaglio?
-   Grazie mille
-
-   Attachments
-
-                Load.png
-                        Load.png (21.83 KiB) Viewed 1173 times
-
-                Albero.png
-                        Albero.png (142.77 KiB) Viewed 1173 times
-
-   matteo.banchetti
-            
-           Posts: 121
-           Joined: 25 October 2011, 15:40
-
-   Top
-
-     ----------------------------------------------------------------------
-
-     * Edit post
-
-  Re: Albero DO Aiuto attivazione nodo
-
-   Postby eurekapv » 14 March 2016, 11:29
-
-   Provo a darti alcune dritte
-   1) Se l'albero è documentale non esiste nessuna chiave di HASH (è usata
-   solo per alberi di tipo DB)
-   2) Nell'albero devi usare solo eventi Documentali
-   3) Se per l'albero imposti -> Albero.ActivateOnExpand := True il framework
-   attiva il nodo quando l'utente espande il ramo
-   4) I documenti presenti nell'albero hanno riferimenti diversi (sono
-   istanze diverse) da quelli che tu potresti avere in un pannello o caricare
-   successivamente
-
-   Se vuoi che nel pannello o libro documentale sia visualizzato il documento
-   selezionato nell'albero, intercettando l'evento OnActivateDoc qui hai il
-   documento selezionato e lo puoi applicare al pannello/libro.
-
-   Quando fai la ricerca del prodotto, tu vai a caricare i prodotti e ottieni
-   una collection di prodotti, ma questi documenti hanno una istanza diversa
-   nell'albero e quindi non li troverai mai.
-   Per sopperire a cio' dovresti avere una variabile globale di videata di
-   tutti i tuoi prodotti, questa variabile globale associata all'albero con
-   setCollection; quando fai le ricerche non devi ricaricare i dati ma
-   cercare nella variabile globale e avendo trovato il documento usare la
-   Albero.ActivateDoc(documento)
-
-   Pietro
-   Alchimisti Lab by Cavallini Pietro
-   https://www.alchimistilab.it
-
-   Image
-
-   User avatar
-   eurekapv
-            
-           Posts: 2404
-           Joined: 2 November 2010, 22:16
-           Location: Vigevano
-              * Website
-
-   Top
-
-     ----------------------------------------------------------------------
-
-     * Edit post
-
-  Re: Albero DO Aiuto attivazione nodo
-
-   Postby matteo.banchetti » 14 March 2016, 12:23
-
-   Grazie mille Pietro. Probabilmente mi sono spiegato male. Io vorrei che
-   quando l'utente clicca sull'icona delle giacche a destra l'albero a
-   sinistra mi attivi il documento giacche e mi espanda eventuali figli.
-
-   matteo.banchetti
-            
-           Posts: 121
-           Joined: 25 October 2011, 15:40
-
-   Top
-
-     ----------------------------------------------------------------------
-
-     * Edit post
-
-  Re: Albero DO Aiuto attivazione nodo
-
-   Postby eurekapv » 14 March 2016, 14:48
-
-   Ti sei spiegato bene e la soluzione sta nel mix delle cose che ti ho detto
-   Se nella parte Destra hai un libro, deve essere documentale, e i documenti
-   devono essere GLI STESSI dell'Albero (non altre istanze ma proprio gli
-   stessi); che puoi avere se ti crei la variabile globale
-   Quando l'utente seleziona una giacca allora si cattura il documento sul
-   libro e si attiva il nodo sull'albero
-   Ma ritorno a dirti che funziona se i documenti sono gli stessi e non altre
-   istanze documenti
-
-   P.s. L'argomento è un po complesso e magari macchinoso da forum :-)
-
-   Pietro
-   Alchimisti Lab by Cavallini Pietro
-   https://www.alchimistilab.it
-
-   Image
-
-   User avatar
-   eurekapv
-            
-           Posts: 2404
-           Joined: 2 November 2010, 22:16
-           Location: Vigevano
-              * Website
-
-   Top
-
-     ----------------------------------------------------------------------
-
-     * Edit post
-
-  Re: Albero DO Aiuto attivazione nodo
-
-   Postby m.sirri » 14 March 2016, 15:52
-
-   Dopo aver chiamato il metodo setCollection sull'albero chiama il metodo
-   updateControls.
-   Questo serve perché i nodi dell'albero vengono fisicamente
-   creati/aggiornati a fine rischiesta.
-
-   User avatar
-   m.sirri
-           Pro Gamma
-           Pro Gamma
-            
-           Posts: 8569
-           Joined: 30 September 2010, 17:01
-           Location: Ozzano dell'Emilia (BO)
-
-   Top
-
-     ----------------------------------------------------------------------
-
-     * Edit post
-
-  Re: Albero DO Aiuto attivazione nodo
-
-   Postby matteo.banchetti » 15 March 2016, 10:49
-
-   Grazie mille a tutti per le cortesi risposte. Alla fine ho seguito il
-   consiglio di Pietro e ce l'ho fatta.
-   Correggetemi se sbaglio, in un albero DO non è necessario creare un
-   Elemento albero giusto?
-   Se la mia supposizione fosse corretta, come faccio ad assegnare uno stile
-   css all'albero? Non mi torna molto questa cosa.
-
-   Grazie mille e scusate se sono andato un pò fuori topic.
-
-   matteo.banchetti
-            
-           Posts: 121
-           Joined: 25 October 2011, 15:40
-
-   Top
-
-     ----------------------------------------------------------------------
-
-     * Edit post
-
-  Re: Albero DO Aiuto attivazione nodo
-
-   Postby eurekapv » 15 March 2016, 13:08
-
-   Se l'albero è DO, puoi intercettare l'evento OnGetName del documento
-   Questo evento serve a personalizzare il nome dell'oggetto quando si trova
-   in diversi ambiti (quali anche un albero)
-   Se non ricordo male, il Name puo' essere costruito con sintassi HTML, dove
-   quindi puoi applicare una class CSS desiderata.
-   Fai una prova :-)
-
-   Pietro
-   Alchimisti Lab by Cavallini Pietro
-   https://www.alchimistilab.it
-
-   Image
-
-   User avatar
-   eurekapv
-            
-           Posts: 2404
-           Joined: 2 November 2010, 22:16
-           Location: Vigevano
-              * Website
-
-   Top
-
-     ----------------------------------------------------------------------
-
-   Display posts from previous:
-   [ ] All posts
-   [ ] 1 day
-   [ ] 7 days
-   [ ] 2 weeks
-   [ ] 1 month
-   [ ] 3 months
-   [ ] 6 months
-   [ ] 1 year Sort by
-   [ ] Author
-   [ ] Post time
-   [ ] Subject
-   [ ] Ascending
-   [ ] Descending [ Go ]
-
-     ----------------------------------------------------------------------
-
-   Topic locked
-   7 posts • Page 1 of 1
-
-   Return to Tips & Tricks - Foundation
-
-   Jump to:
-   [ ] Select a forum
-   [ ] ------------------
-   [ ] Instant Developer Forum - ENG
-   [ ]    Improvement Suggestions
-   [ ]    Tips & Tricks
-   [ ] Forum di Instant Developer - ITA
-   [ ]    Proposte di modifica
-   [ ]    Tips & Tricks - Foundation
-   [ ]    Tips & Tricks - Cloud
-   [ ]    Cerco/Offro [ Go ]
-
-  Who is online
-
-   Users browsing this forum: r.bianco and 24 guests
+   Link: profile
+   Link: canonical
+   Link: shortlink
+   [IMG]
+     * Home
+     * Cos'è Tubex
+     * Prodotti
+     * Blog
+     * NOWOTEC
+     * Contatti
+     * * Home
+     * Cos'è Tubex
+     * Prodotti
+     * Blog
+     * NOWOTEC
+     * Contatti
+
+    Frutticoltura: le protezioni per alberi da frutto da utilizzare durante
+                              l’inverno e non solo
+
+   13 Nov 2023 | Redazione Tubex |
+
+   La frutticoltura è un’arte antica che richiede una cura costante e
+   attenzione a ogni dettaglio, specialmente durante i rigidi mesi invernali.
+   Uno dei metodi più efficaci per salvaguardare i fusti si concretizza
+   nell’utilizzo delle protezioni per alberi da frutto proposte da Tubex. Con
+   questi presupposti, oggi parliamo dell’importanza di proteggere queste
+   piante durante l’inverno (e non solo) e di come gli shelter Tubex possono
+   aiutare a raggiungere questo scopo.
+
+L’importanza della protezione nei mesi più freddi
+
+   Durante l’inverno, gli alberi da frutto sono particolarmente vulnerabili
+   ad una serie di fattori avversi. Tra questi, primi fra tutti troviamo:
+
+     * Basse temperature – Il gelo può danneggiare seriamente gli alberi,
+       causando il congelamento del legno e delle radici.
+     * Venti freddi – I venti invernali possono provocare la disidratazione
+       delle piante: la corretta idratazione è essenziale per la crescita e
+       la fruttificazione.
+     * Animali selvatici – Gli animali selvatici, come i conigli, i caprioli
+       e i topi, possono mordere e danneggiare la corteccia e i rami degli
+       alberi.
+     * Malattie e parassiti – Molti agenti patogeni e insetti dannosi sono
+       ancora attivi durante i mesi invernali. Senza usare delle buone
+       protezioni per alberi da frutto, agenti patogeni e insetti possono
+       attaccare e danneggiare rami e tronchi.
+
+   Proteggere gli alberi da frutto da tutti questi fattori può aiutare a
+   prevenire danni significativi e garantire una produzione frutticola sana e
+   abbondante.
+
+   protezioni per alberi da frutto
 
     
-     * Board index - Privacy policy - Cookie policy
-     * The team • Reset • Delete all board cookies • All times are UTC
-   Designed by RocketTheme
 
-   Powered by phpBB © 2000, 2002, 2005, 2007 phpBB Group
+Le protezioni per alberi da frutto a marchio Tubex: perfette in inverno e non
+solo
+
+   Gli shelter Tubex Fruitwrap si presentano come una soluzione affidabile e
+   comprovata per chi necessita di proteggere gli alberi da frutto durante
+   l’inverno. Queste protezioni tubolari flessibili agiscono come una
+   barriera protettiva contro il freddo e i diversi agenti climatici,
+   mantenendo una temperatura più elevata all’interno del tubo rispetto
+   all’esterno. Aiutano a prevenire efficacemente i danni causati da animali,
+   come roditori e conigli, e insetti dannosi, e anche a prevenire infezioni
+   e malattie.
+
+   Grazie alla struttura tubolare delle protezioni per alberi da frutto a
+   marchio Tubex, gli alberi sono meno esposti alle raffiche di vento e al
+   conseguente rischio di disidratazione. Inoltre, all’interno di questi
+   shelter si crea un microclima umido in grado di favorire l’attecchimento e
+   la crescita dei fusti.
+
+Come utilizzare gli shelter Tubex
+
+   Per utilizzare gli shelter Tubex in modo efficace, la prima cosa da fare è
+   scegliere gli shelter delle dimensioni adatte ai propri alberi. Sarà
+   importante assicurarsi che il tubo sia abbastanza alto da coprire una
+   parte significativa dell’area inferiore del tronco. Grazie alla loro
+   struttura avvolgibile, usare i Tubex Fruitwrap è molto semplice: basta
+   avvolgere il tubo protettivo attorno al fusto e ancorarlo saldamente al
+   suolo per ottenere benefici nel breve e nel lungo termine.
+
+   Queste protezioni per alberi da frutto si dilatano autonomamente nel
+   tempo, seguendo lo sviluppo della pianta. Quando non saranno più
+   necessarie potranno essere tolte. Qualora cadessero e rimanessero sul
+   terreno, non ci sarà da preoccuparsi: sono eco-friendly, e quindi in grado
+   di degradarsi in modo naturale senza creare un impatto negativo nei
+   confronti dell’ambiente.
+
+Come acquistare le protezioni per alberi da frutto a marchio Tubex
+
+   Per ottenere una fornitura di protezioni per alberi da frutto Tubex,
+   potete affidarvi al team di Nowotec: siamo rivenditori unici per l’Italia
+   e rivenditori ufficiali per vari paesi europei dei prodotti Tubex. Per
+   ottenere maggiori informazioni, cliccate QUI.
+
+     ----------------------------------------------------------------------
+
+   Facebook
+   fb-share-icon
+   Twitter
+   Tweet
+   LinkedIn
+   Share
+
+Cerca
+
+   Ricerca per: _____________________ [ Cerca ]
+
+Articoli recenti
+
+     * protezione delle giovani pianteProtezione delle giovani piante: i
+       consigli per la stagione fredda
+       5 Dicembre 2023
+     * shelter per attecchimento pianteShelter per attecchimento piante:
+       perché scegliere Tubex
+       30 Novembre 2023
+     * protezione per alberiProtezione per alberi: ad ogni pianta il suo
+       shelter Tubex
+       20 Novembre 2023
+     * protezioni per alberi da fruttoFrutticoltura: le protezioni per alberi
+       da frutto da utilizzare durante l’inverno e non solo
+       13 Novembre 2023
+     * shelter per silvicolturaShelter per silvicoltura: cosa sono e a cosa
+       servono
+       10 Novembre 2023
+
+   Noi di Nowotec siamo rivenditori unici per l’Italia e rivenditori
+   ufficiali per vari paesi europei dei prodotti Tubex. Tubex produce
+   protezioni per alberi e piante dagli anni Ottanta. Con il tempo, è stata
+   ampliata la gamma di prodotti, arrivando a rispondere perfettamente alle
+   esigenze di chi opera nell’ambito di paesaggistica, silvicoltura,
+   frutticoltura e viticoltura. Ad oggi, il marchio Tubex viene prodotto
+   dalla società Fiberweb Geosynthetics Ltd., parte del gruppo Berry.
+
+Pagine
+
+     * Cos’è Tubex
+     * Prodotti
+     * Blog
+     * Sitemap
+     * Cookie Policy
+     * Dichiarazione sulla Privacy
+     * Imprint
+     * Disconoscimento
+
+NOWOTEC SRL
+
+   Via Sardegna 1
+   42122 – Reggio Emilia
+   Tel: 0522 431167
+   E-mail: tubex@nowotec.it
+   P.IVA 00719600157
+
+   © 2023 Tubex - Nowotec - All rights reserved | Powered by Seo Siti
+   Marketing
+   Tubex Italia | Il tubo shelter per coltivazioni e paesaggistica
+   Gestisci Consenso Cookie
+   Per fornire le migliori esperienze, utilizziamo tecnologie come i cookie
+   per memorizzare e/o accedere alle informazioni del dispositivo. Il
+   consenso a queste tecnologie ci permetterà di elaborare dati come il
+   comportamento di navigazione o ID unici su questo sito. Non acconsentire o
+   ritirare il consenso può influire negativamente su alcune caratteristiche
+   e funzioni.
+   Funzionale [ ] Funzionale Sempre attivo 
+   L'archiviazione tecnica o l'accesso sono strettamente necessari al fine
+   legittimo di consentire l'uso di un servizio specifico esplicitamente
+   richiesto dall'abbonato o dall'utente, o al solo scopo di effettuare la
+   trasmissione di una comunicazione su una rete di comunicazione
+   elettronica.
+   Preferenze [ ] Preferenze 
+   L'archiviazione tecnica o l'accesso sono necessari per lo scopo legittimo
+   di memorizzare le preferenze che non sono richieste dall'abbonato o
+   dall'utente.
+   Statistiche [ ] Statistiche 
+   L'archiviazione tecnica o l'accesso che viene utilizzato esclusivamente
+   per scopi statistici. L'archiviazione tecnica o l'accesso che viene
+   utilizzato esclusivamente per scopi statistici anonimi. Senza un mandato
+   di comparizione, una conformità volontaria da parte del vostro Fornitore
+   di Servizi Internet, o ulteriori registrazioni da parte di terzi, le
+   informazioni memorizzate o recuperate per questo scopo da sole non possono
+   di solito essere utilizzate per l'identificazione.
+   Marketing [ ] Marketing 
+   L'archiviazione tecnica o l'accesso sono necessari per creare profili di
+   utenti per inviare pubblicità, o per tracciare l'utente su un sito web o
+   su diversi siti web per scopi di marketing simili.
+   Gestisci opzioni Gestisci servizi Gestisci {vendor_count} fornitori Per
+   saperne di più su questi scopi
+   Accetta Nega Visualizza preferenze Salva preferenze Visualizza preferenze
+   {title} {title} {title}
+   Gestisci consenso
