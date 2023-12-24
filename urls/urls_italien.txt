@@ -7,7 +7,6 @@ https://www.batteriaper.com/it/notizie/albero-di-una-barca-a-vela-tutti-nomi-del
 https://it.wikipedia.org/wiki/Albero_di_maestra
 https://it.wikipedia.org/wiki/Albero_genealogico
 https://www.larousse.fr/dictionnaires/italien-francais/albero/2168
-https://www.centrepompidou.fr/fr/ressources/oeuvre/zbjOg5E
 https://www.collinsdictionary.com/dictionary/italian-english/albero
 https://www.piante.it/alberi/
 https://www.ecologica.it/giardinaggio/alberi/
@@ -37,11 +36,9 @@ https://it.wikipedia.org/wiki/Albero_sintattico
 https://www.ce.unipr.it/people/bianchi/Teaching/IntelligenzaArtificiale/Trattamento%20del%20linguaggio%20naturale/lin02/03lin02.htm
 https://it.wikipedia.org/wiki/Albero_sintattico_astratto
 https://www.wikidata.it-it.nina.az/Albero_sintattico.html
-albero
 http://www.integr-abile.unito.it/Libri/Logica/4.1-Sintassi%20della%20logica%20proposizionale.html
 https://it.wikipedia.org/wiki/Albero_binario
 https://pages.di.unipi.it/romani/DIDATTICA/LSD/LSD/UsoStruttureDati/Trees/main.html
 https://vitolavecchia.altervista.org/differenza-tra-albero-binario-e-albero-di-ricerca-binario/
 https://www.python.it/doc/Howtothink/Howtothink-html-it/chap20.htm
-https://forum.instantdeveloper.com/viewtopic.php?f=5&t=70781
 https://forum.html.it/forum/showthread.php?threadid=1413749
