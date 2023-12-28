@@ -40,7 +40,6 @@ http://www.integr-abile.unito.it/Libri/Logica/4.1-Sintassi%20della%20logica%20pr
 https://it.wikipedia.org/wiki/Albero_binario
 https://pages.di.unipi.it/romani/DIDATTICA/LSD/LSD/UsoStruttureDati/Trees/main.html
 https://vitolavecchia.altervista.org/differenza-tra-albero-binario-e-albero-di-ricerca-binario/
-https://www.python.it/doc/Howtothink/Howtothink-html-it/chap20.htm
 https://forum.html.it/forum/showthread.php?threadid=1413749
 https://www.tubexitalia.it/momento-ideale-per-piantare-un-albero/
 https://www.tubexitalia.it/frutticoltura-protezioni-alberi-da-frutto/

@@ -96,13 +96,6 @@ do
     fi
 
 
-
-
-
-    ## Concordancier
-    
-
-
     echo "            <tr>
                     <td>$compteur</td>
                     <td><a href=$URL>URL</a></td>
