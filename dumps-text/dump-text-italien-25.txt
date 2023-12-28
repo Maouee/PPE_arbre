@@ -11,14 +11,14 @@
    [IMG]Un albero di Natale
 
    L'albero di Natale è un simbolo allestito in casa o in luoghi pubblici
-   durante il periodo natalizio, ha solitamente una conifera sempreverde come
-   un abete o un pino (o una sua imitazione in alluminio) che viene decorato
-   con luci natalizie, palline, festoni, fiocchi e spesso una stella (che
-   ricorda la stella di Betlemme^[1]) in cima.^[2]^[3] Originario della
-   Germania e associato a san Bonifacio,^[4]^[5]^[6] è una delle più diffuse
-   usanze della celebrazione del Natale in molti paesi. Un tempo l'albero era
-   sempre di origine naturale, di solito un piccolo abete che veniva tagliato
-   nel bosco e portato in casa come addobbo natalizio. In epoca industriale
+   durante il periodo natalizio, solitamente una conifera sempreverde come un
+   abete o un pino (o una sua imitazione in alluminio) che viene decorato con
+   luci natalizie, palline, festoni, fiocchi e spesso una stella (che ricorda
+   la stella di Betlemme^[1]) in cima.^[2]^[3] Originario della Germania e
+   associato a san Bonifacio,^[4]^[5]^[6] è una delle più diffuse usanze
+   della celebrazione del Natale in molti paesi. Un tempo l'albero era sempre
+   di origine naturale, di solito un piccolo abete che veniva tagliato nel
+   bosco e portato in casa come addobbo natalizio. In epoca industriale
    iniziarono il commercio degli abeti coltivati e degli abeti di materiale
    plastico, in vari formati e colori.^[7]
 
@@ -211,57 +211,61 @@ Storia[modifica | modifica wikitesto]
 
   Origine e significato[modifica | modifica wikitesto]
 
-   Alla base dell'albero natalizio ci sono gli antichissimi usi, tipici di
-   varie culture, di adorare o di avere alberi sacri, come gli Alberi del
-   Paradiso con nastri e oggetti colorati, fiaccole, piccole campane,
-   animaletti votivi, e la credenza che le luci, che li illuminavano,
-   corrispondessero ad altrettante anime. Allo stesso modo venivano ornati
-   anche i vari Alberi cosmici con simboli del Sole, della Luna, dei pianeti
-   e delle stelle. In particolare l'abete era sacro a Odino, potente dio dei
-   Germani.^[9]
+   Lo stesso argomento in dettaglio: Culto dell'albero.
+   [IMG]San Bonifacio abbatte l'albero di Thor in'un'incisione di Bernhard
+   Rode.
 
-   L'abitudine di decorare alcuni alberi sempreverdi era diffusa già tra i
-   Celti durante le celebrazioni relative al solstizio
-   d'inverno.^[senza fonte] Gli abitanti dell'estremo Nord dell'Europa, per
-   esempio, dove il sole “spariva” per settimane nel pieno dell'inverno,
-   nella settimana precedente e successiva al giorno con la notte più lunga,
-   officiavano le solennità per auspicare il ritorno del sole e credevano che
-   l'abete rosso fosse in grado di esprimere poteri magici, poiché non
-   perdeva le foglie nemmeno nei geli dell'inverno: alberi di abete venivano
-   tagliati e portati a casa, decorati con frutti, ricordando la fertilità
-   che la primavera avrebbe ridato agli alberi. I Romani usavano decorare le
-   loro case con rami di pino durante le Calende di gennaio.
+   Una leggenda fa risalire l'usanza al 724, quando nel territorio della
+   tribù germanica dei Catti, presso l'attuale Fritzlar, il missionario
+   anglosassone Winfrid - poi conosciuto come San Bonifacio - abbattè a colpi
+   d'ascia una quercia sacra al dio Thor con l’intento di fermare i sacrifici
+   umani che vi avvenivano e convertire quei popoli al cristianesimo e al suo
+   posto crebbe un'abete triangolare, che fu associato alla figura di Gesù
+   Cristo come simbolo di immortalità e della Trinità (vista la
+   forma).^[9]^[10]^[1]^[11]
 
-   Con l'avvento del Cristianesimo l'uso dell'albero di Natale si affermò
-   anche nelle tradizioni cristiane, anche se la Chiesa delle origini ne
-   vietò l'uso sostituendolo con l'agrifoglio, per simboleggiare con le spine
-   la corona di Cristo e con le bacche le gocce di sangue che escono dal
-   capo.^[10] Inoltre questo albero fu associato alla figura di Gesù, come
-   simbolo di immortalità e della Trinità (vista la forma triangolare).^[11]
+   Alla base dell'albero natalizio ci sono tuttavia gli antichissimi usi,
+   tipici di varie culture, di adorare o di avere alberi sacri, come gli
+   Alberi del Paradiso con nastri e oggetti colorati, fiaccole, piccole
+   campane, animaletti votivi, e la credenza che le luci, che li
+   illuminavano, corrispondessero ad altrettante anime. Allo stesso modo
+   venivano ornati anche i vari Alberi cosmici con simboli del Sole, della
+   Luna, dei pianeti e delle stelle. In particolare l'abete era sacro a
+   Odino, potente dio dei Germani.^[12]
+
+   Gli abitanti dell'estremo Nord dell'Europa, per esempio, dove il sole
+   “spariva” per settimane nel pieno dell'inverno, nella settimana precedente
+   e successiva al giorno con la notte più lunga, officiavano le solennità
+   per auspicare il ritorno del sole e credevano che l'abete rosso fosse in
+   grado di esprimere poteri magici, poiché non perdeva le foglie nemmeno nei
+   geli dell'inverno: alberi di abete venivano tagliati e portati a casa,
+   decorati con frutti, ricordando la fertilità che la primavera avrebbe
+   ridato agli alberi. I Romani usavano decorare le loro case con rami di
+   pino durante le Calende di gennaio.
 
    Nel Medioevo i culti pagani vennero generalmente intesi come una
    prefigurazione della rivelazione cristiana. Oltre a significare la potenza
    offerta alla natura da Dio, l'albero divenne quindi simbolo di Cristo,
    inteso come linfa vitale, e della Chiesa, rappresentata come un giardino
-   voluto da Dio sulla terra^[12]. Nella Bibbia il simbolo dell'albero è
+   voluto da Dio sulla terra^[13]. Nella Bibbia il simbolo dell'albero è
    peraltro presente più volte e con più significati, a cominciare
    dall'Albero della vita posto al centro del paradiso terrestre (Genesi,
-   2.9^[13]) per arrivare all'albero della Croce, passando per l'Albero di
-   Jesse^[14]. L'albero natalizio ha una valenza cosmica che lo collega alla
+   2.9^[14]) per arrivare all'albero della Croce, passando per l'Albero di
+   Jesse^[15]. L'albero natalizio ha una valenza cosmica che lo collega alla
    rinascita della vita dopo l'inverno e al ritorno della fertilità della
    natura. L'albero cosmico o albero della vita è stato anche associato alla
    figura salvifica di Cristo e alla croce della Redenzione, fatta appunto di
    legno. Secondo una pia leggenda, il legno della croce sarebbe stato
    ricavato da un ramoscello dell'Albero della Vita del Paradiso Terrestre
    che l'arcangelo Michele avrebbe donato a Set per portare conforto al padre
-   Adamo moribondo.^[15] L'abete, sin dall'epoca egizia è stato posto in
+   Adamo moribondo.^[16] L'abete, sin dall'epoca egizia è stato posto in
    relazione con la nascita del dio di Biblo, dai Greci fu consacrato ad
    Artemide, protettrice delle nascite e sempre dai Greci era ritenuto
-   simbolo della rinascita rappresentata dal nuovo anno.^[16] Sarà poi
+   simbolo della rinascita rappresentata dal nuovo anno.^[17] Sarà poi
    venerato dai popoli dell'Asia settentrionale e, in particolare, dai Celti
    e dai Germani che lo associavano alla nascita del fanciullo divino e a sua
    volta alla festività del solstizio invernale. Per il Cristianesimo l'abete
-   diventò simbolo di Cristo e della sua immortalità.^[17]
+   diventò simbolo di Cristo e della sua immortalità.^[18]
 
    [IMG]Il grande albero di Natale allestito in piazza San Pietro a Roma
    (2011)
@@ -292,51 +296,53 @@ Storia[modifica | modifica wikitesto]
    direttamente esso trae la sua origine dagli alberi innalzati, e ornati di
    frutti e altri simboli cristiani, davanti alle cattedrali cristiane:
    durante queste cerimonie, quasi liturgiche, si mettevano in scena episodi
-   biblici, come il Genesiaco nel albero della vita racconto dell'antro della
-   vita nel versetto dell'apocalisse di Giovanni.
+   biblici.
+
+   Alle origini dell'usanza si può però trovare anche un gioco religioso
+   medioevale celebrato proprio in Germania il 24 dicembre, il "gioco di
+   Adamo e di Eva" (Adam und Eva Spiele), in cui venivano riempite le piazze
+   e le chiese di alberi di frutta e simboli dell'abbondanza per ricreare
+   l'immagine del Paradiso. Successivamente gli alberi da frutto vennero
+   sostituiti da abeti poiché questi ultimi avevano una profonda valenza
+   "magica" per il popolo. Avevano specialmente il dono di essere
+   sempreverdi, dono che secondo la tradizione gli venne dato proprio dallo
+   stesso Gesù come ringraziamento per averlo protetto mentre era inseguito
+   da nemici. Non a caso, sempre in Germania, l'abete era anche il posto in
+   cui venivano posati i bambini portati dalla cicogna.
 
   Diffusione in Europa e nel mondo[modifica | modifica wikitesto]
 
+   [IMG]L’albero di Natale di Martin Lutero (1860), incisione di J.
+   Bannister.
+
    L'uso moderno dell'albero nelle celebrazioni pubbliche nasce, secondo lo
    storico amatoriale livone Friedrich Amelung, a Tallinn, in Estonia, nel
-   1441,^[18] quando fu eretto un grande abete nella piazza Raekoja, la
+   1441,^[19] quando fu eretto un grande abete nella piazza Raekoja, la
    piazza del Municipio, attorno al quale giovani scapoli, uomini e donne,
    ballavano insieme alla ricerca dell'anima gemella. Anche la città di Riga,
    in Lettonia, è fra quelle che si proclamano sedi del primo albero di
    Natale della storia (vi si trova una targa scritta in otto lingue, secondo
    cui il "primo albero di Capodanno" fu addobbato nella città nel 1510).
    Entrambe le rivendicazioni in realtà sono probabilmente errate e non si
-   trattava con certezza di alberi^[19]^[20].
+   trattava con certezza di alberi^[20]^[21].
 
-   La tradizione fu poi ripresa dalla Germania del XVI secolo. Ingeborg
-   Weber-Kellermann, professoressa di etnologia a Marburgo, ha identificato,
-   fra i primi riferimenti storici alla tradizione, una cronaca di Brema del
-   1570, secondo cui un albero veniva decorato con mele, noci, datteri e
-   fiori di carta.^[senza fonte]
-
-   Precedentemente a questa prima apparizione "ufficiale" dell'albero di
-   Natale si può però trovare anche un gioco religioso medioevale celebrato
-   proprio in Germania il 24 dicembre, il "gioco di Adamo e di Eva" (Adam und
-   Eva Spiele), in cui venivano riempite le piazze e le chiese di alberi di
-   frutta e simboli dell'abbondanza per ricreare l'immagine del Paradiso.
-   Successivamente gli alberi da frutto vennero sostituiti da abeti poiché
-   questi ultimi avevano una profonda valenza "magica" per il popolo. Avevano
-   specialmente il dono di essere sempreverdi, dono che secondo la tradizione
-   gli venne dato proprio dallo stesso Gesù come ringraziamento per averlo
-   protetto mentre era inseguito da nemici. Non a caso, sempre in Germania,
-   l'abete era anche il posto in cui venivano posati i bambini portati dalla
-   cicogna.
-
-   Secondo altre fonti^[21] l'albero di natale come è conosciuto sarebbe
+   Secondo altre fonti^[22] l'albero di Natale come è conosciuto sarebbe
    originario della regione di Basilea in Svizzera dove se ne trovano tracce
    risalenti al XIII secolo.
 
    L'usanza, originariamente intesa come legata alla vita pubblica, entrò
-   nelle case nel XVII secolo e agli inizi del secolo successivo era già
-   pratica comune in tutte le città della Renania. L'uso di candele per
-   addobbare i rami dell'albero è attestato già nel XVIII secolo.
-
-   [IMG]Francobolli natalizi del 2007 (Ucraina)
+   nelle case a partire dal XVI secolo^[10]. Ingeborg Weber-Kellermann,
+   professoressa di etnologia a Marburgo, ha identificato, fra i primi
+   riferimenti storici alla tradizione, una cronaca di Brema del 1570,
+   secondo cui un albero veniva decorato con mele, noci, datteri e fiori di
+   carta^[10]. La leggenda vuole che sia stata una trovata del fondatore del
+   protestantesimo, Martin Lutero, rimasto incantato da un abete nel bosco la
+   notte di Natale tanto da portarlo a casa propria dai suoi bambini come
+   simbolo della nascita di Cristo, e agli inizi del XVIII secolo era già
+   pratica comune in tutte le città della Renania^[23]. L'uso di candele per
+   addobbare i rami dell'albero è attestato già in quel secolo e la leggenda
+   ne attribuisce l'origine pure a Lutero, che con esse volle simboleggiare
+   le stelle create da Dio.^[23]
 
    Per molto tempo, la tradizione dell'albero di Natale rimase tipica delle
    regioni a nord del Reno, mentre era meno diffusa nelle regioni germaniche
@@ -344,16 +350,30 @@ Storia[modifica | modifica wikitesto]
    gli ufficiali prussiani, dopo il Congresso di Vienna, a contribuire alla
    sua diffusione negli anni successivi. A Vienna l'albero di Natale apparve
    nel 1816, per volere della principessa Henrietta von Nassau-Weilburg, ed
-   in Francia nel 1840, introdotto dalla Duchessa d'Orléans. Nei primi anni
-   del secolo, inoltre, in Svizzera e Germania si iniziò a produrre e a
-   commerciare gli alberi di Natale, che divennero così parte del consumismo.
+   in Francia nel 1840, introdotto da Elena di Meclemburgo-Schwerin duchessa
+   d'Orléans. Nei primi anni del secolo, inoltre, in Svizzera e Germania si
+   iniziò a produrre e a commerciare gli alberi di Natale, che divennero così
+   parte del consumismo.
+
+   [IMG]Illustrazione raffigurante la regina Vittoria, il principe Alberto e
+   i loro bambini mentre ammirano il Reale Albero di Natale nel dicembre
+   1848.
 
    Un contributo decisivo alla sua diffusione venne anche dalla Gran
    Bretagna: a metà del XIX secolo, infatti, il principe Alberto di
    Sassonia-Coburgo-Gotha, marito della regina Vittoria, date le sue origini
    germaniche volle introdurre nelle proprie residenze l'uso a lui familiare
    dell'albero di Natale; la novità si estese presto come una moda in tutto
-   il Regno Unito, e da lì a tutto il mondo anglosassone.^[22]
+   il Regno Unito, e da lì a tutto il mondo anglosassone.^[24]
+
+   Il primo albero di Natale elettricamente illuminato fu creato da Edward H.
+   Johnson, un socio dell'inventore Thomas Edison. Mostrò con orgoglio il suo
+   albero di Natale, che era cablato a mano con 80 lampadine a incandescenza
+   elettriche rosse, bianche e blu, da una misura simila a noce, il 22
+   dicembre 1882 nella sua casa sulla Fifth Avenue a New York City.^[25] Nel
+   1895, il presidente degli Stati Uniti Grover Cleveland sponsorizzò con
+   orgoglio alla Casa Bianca il primo albero di Natale illuminato
+   elettricamente con centinaia di lampadine elettriche multicolori.^[26]
 
    In Italia la prima ad addobbare un albero di Natale fu la regina
    Margherita nella seconda metà dell'Ottocento al Quirinale, e da lei la
@@ -382,7 +402,7 @@ La coltivazione dell'albero di Natale[modifica | modifica wikitesto]
 
    La prima azienda specializzata nella coltivazione di alberi natalizi
    nacque nel 1901 negli Stati Uniti, più precisamente nello Stato del New
-   Jersey^[23]. Tuttavia sino a circa il 1940 la quasi totalità dei cittadini
+   Jersey^[27]. Tuttavia sino a circa il 1940 la quasi totalità dei cittadini
    americani continuò, durante le festività, a tagliare i propri alberi dalle
    foreste. Questo poiché, nell'immaginario collettivo di allora, gli alberi
    coltivati dalle aziende private erano percepiti come alberi di medio-bassa
@@ -440,7 +460,7 @@ La coltivazione dell'albero di Natale[modifica | modifica wikitesto]
    (NCTA) ha dichiarato che ogni ettaro di alberi natalizi in coltivazione
    produce giornalmente una quantità di ossigeno bastevole per circa 39
    persone, e che la produzione americana (circa 200.000 ettari) produce
-   ossigeno giornaliero per circa 9 milioni di cittadini^[24].
+   ossigeno giornaliero per circa 9 milioni di cittadini^[28].
 
 Il Chichilaki[modifica | modifica wikitesto]
 
@@ -478,31 +498,31 @@ Alberi natalizi famosi[modifica | modifica wikitesto]
    vademecum per selezionare al meglio l'albero da tagliare. Per esempio
    l'albero non deve superare l'altezza di 16 metri e non deve provenire da
    un'azienda di coltivazione privata, ma deve essere tagliato nella
-   foresta^[25].
+   foresta^[29].
 
    Il giorno del taglio dell'albero si svolge una vera e propria cerimonia
    che vede la presenza di decine di scolaresche locali, del console degli
-   Stati Uniti in Nuova Scozia e della Polizia Montana Canadese^[26].
+   Stati Uniti in Nuova Scozia e della Polizia Montana Canadese^[30].
 
    Dopo il taglio l'albero viaggia per circa 1200 km prima di giungere a
    Boston. Parte del viaggio è fatto su un apposito camion, la restante parte
-   avviene invece a bordo di un traghetto^[27].
+   avviene invece a bordo di un traghetto^[31].
 
    Non appena entrato a Boston l'albero viene simbolicamente "scortato" dalla
    Polizia cittadina, durante una piccola parata per le vie cittadine a cui
-   assistono numerose scolaresche^[28].
+   assistono numerose scolaresche^[32].
 
    Alla fine l'albero giunge nel suo luogo definitivo, ovvero nel parco
    pubblico Boston Common. L'evento della deposizione dell'albero attira
-   annualmente circa 20 000 visitatori^[29], a cui si aggiungono le circa
+   annualmente circa 20 000 visitatori^[33], a cui si aggiungono le circa
    200 000 persone che assistono all'evento grazie alla diretta
-   televisiva^[30].
+   televisiva^[34].
 
    La decorazione dell'albero richiede poi l'impiego di molti uomini e
    centinaia di ore di lavoro. Per fare un esempio, nel 1998 furono necessari
    7 km di cavi elettrici per illuminare l'intera superficie
-   dell'albero^[31], e nel 2006 furono utilizzati circa 8.000 bulbi
-   luminosi^[32].
+   dell'albero^[35], e nel 2006 furono utilizzati circa 8.000 bulbi
+   luminosi^[36].
 
     L'albero della città di Chicago[modifica | modifica wikitesto]
 
@@ -525,21 +545,21 @@ Alberi natalizi famosi[modifica | modifica wikitesto]
    L'albero che annualmente viene addobbato a Los Angeles (California),
    chiamato Grove Christmas Tree, è un albero vivo di circa 30 metri di
    altezza che sul finire di novembre viene posizionato all'interno del
-   centro commerciale The Grove^[33].
+   centro commerciale The Grove^[37].
 
    La sua presenza a Los Angeles si attesta solo dal 2002, anno in cui il
    magnate Rick J. Caruso acquista il grande lotto terriero in cui poi
    sorgerà il centro commerciale The Grove. Tuttavia, la spettacolarità delle
    sue luci ha fatto sì che questo albero rivaleggi per bellezza con lo
    storico albero natalizio del Rockefeller Center di Manhattan a New
-   York^[34]. Tradizionalmente, l'albero del The Grove proviene dalle foreste
+   York^[38]. Tradizionalmente, l'albero del The Grove proviene dalle foreste
    presente nel Nord della California.
 
    Ogni anno l'albero viene inaugurato con l'accensione delle luci, durante
    una solenne celebrazione accompagnata da un grande spettacolo. Negli anni,
    all'interno del centro commerciale The Grove, hanno offerto la loro
    performance attori del cinema e cantanti internazionali, tra cui i The
-   Backstreet Boys^[35].
+   Backstreet Boys^[39].
 
     L'albero della città di Milwaukee[modifica | modifica wikitesto]
 
@@ -554,7 +574,7 @@ Alberi natalizi famosi[modifica | modifica wikitesto]
    di un team di specialisti addetti all'individuazione dell'albero natalizio
    per la città. Questi ultimi, devono obbligatoriamente scegliere un albero
    dello Stato del Colorado, che abbia un'altezza compresa tra i 10 e i 15
-   metri e la cui cima sia facilmente raggiungibile con una gru^[36].
+   metri e la cui cima sia facilmente raggiungibile con una gru^[40].
 
    Tradizione vuole che l'albero venga accesso durante una cerimonia alle ore
    17:15 in punto.
@@ -568,7 +588,7 @@ Alberi natalizi famosi[modifica | modifica wikitesto]
 
    Ogni Presidente degli Stati Uniti, a partire da Franklin D. Roosevelt, ha
    tenuto un discorso durante la cerimonia di accensione delle luci
-   dell'albero natalizio^[37].
+   dell'albero natalizio^[41].
 
     L'albero del Rockefeller Center a New York[modifica | modifica wikitesto]
 
@@ -582,11 +602,11 @@ Alberi natalizi famosi[modifica | modifica wikitesto]
    cerimonia pubblica, e dal 1997 l'evento è onorato della diretta TV negli
    Stati Uniti. Tradizionalmente il tasto di accensione delle luci viene
    pigiato dal Sindaco di New York, accompagnato per l'occasione da ospiti di
-   fama internazionale^[38]. Si stima che ogni anni circa 125 milioni di
-   persone visitino l'albero di Rockefeller Center^[39].
+   fama internazionale^[42]. Si stima che ogni anni circa 125 milioni di
+   persone visitino l'albero di Rockefeller Center^[43].
 
    Tradizionalmente il grande pino utilizzato proviene dalle foreste
-   norvegesi ed ha un'altezza compresa tra i 21 ed 30 metri^[40].
+   norvegesi ed ha un'altezza compresa tra i 21 ed 30 metri^[44].
 
   Europa[modifica | modifica wikitesto]
 
@@ -609,7 +629,7 @@ Alberi natalizi famosi[modifica | modifica wikitesto]
    dell'Eden (cf. Gn 2, 9), sia l’albero della croce, e assume quindi un
    significato cristologico. Sotto l'albero si possono aggiungere dei "doni";
    tuttavia, tra i doni posti non dovrà mancare quello per i poveri: essi
-   fanno parte di ogni famiglia cristiana".^[41]
+   fanno parte di ogni famiglia cristiana".^[45]
 
    In piazza San Pietro l'albero e il presepe vengono solitamente inaugurati
    la sera del 7 dicembre, vigilia della festa dell’Immacolata Concezione, e
@@ -623,7 +643,7 @@ Alberi natalizi famosi[modifica | modifica wikitesto]
 
    Nella capitale del Regno Unito l'albero natalizio è tradizionalmente
    posizionato a Trafalgar Square. Sin dal 1947 l'albero è donato ai
-   cittadini britannici dagli abitanti di Oslo, in Norvegia^[42], come
+   cittadini britannici dagli abitanti di Oslo, in Norvegia^[46], come
    ringraziamento per l'aiuto ricevuto durante la seconda guerra mondiale.
 
    Dal giorno in cui viene eretto l'albero Trafalgar Square diviene per circa
@@ -645,14 +665,14 @@ Alberi natalizi famosi[modifica | modifica wikitesto]
    dal 1947".
 
    L'albero è infine acceso durante una cerimonia pubblica il primo giovedì
-   di Dicembre, a cui assistono centinaia di persone.^[43]
+   di Dicembre, a cui assistono centinaia di persone.^[47]
 
     L'albero della città di Bruxelles[modifica | modifica wikitesto]
 
    L'albero è tradizionalmente posto nella Grand Place della città, è alto
-   all'incirca 20 metri e proviene dalle foreste delle Ardenne^[44].
+   all'incirca 20 metri e proviene dalle foreste delle Ardenne^[48].
    Dall'anno 2000, la piazza ospita anche i mercatini di Natale della
-   capitale belga.^[45]
+   capitale belga.^[49]
 
     L'Albero di Natale di Gubbio[modifica | modifica wikitesto]
 
@@ -697,7 +717,7 @@ Galleria di immagini[modifica | modifica wikitesto]
 
 Note[modifica | modifica wikitesto]
 
-    1. ^ Andrea Aversa, Perché si fa l'albero di Natale, significato e
+    1. ^ ^a ^b Andrea Aversa, Perché si fa l'albero di Natale, significato e
        tradizione dell'abete più amato di sempre, su L'Unità, 7 dicembre
        2023. URL consultato il 10 dicembre 2023.
     2. ^ (IT) albero² in Vocabolario, su Treccani. URL consultato il 2 luglio
@@ -715,78 +735,87 @@ Note[modifica | modifica wikitesto]
        febbraio 2017. URL consultato l'11 agosto 2021.
     8. ^ Mircea– “Axis Mundi”, in di storia delle religioni, Torino,
        Boringhieri
-    9. ^ Luciano Pelliccioni di Poli, L'albero di Natale ed altri miti
-       arborei, Libri del Graal, Libreria romana, 1993, pp. 11-12.
-   10. ^ Gli alberi di Natale: storia, simbologia, cultura, su
-       rivistasherwood.it. URL consultato il 30 dicembre 2014 (archiviato
-       dall'url originale il 30 dicembre 2014).
-   11. ^ Matteo Liberti, Chi l'ha inventato? L'albero di Natale, in Focus
+    9. ^ Matteo Liberti, Chi l'ha inventato? L'albero di Natale, in Focus
        storia, gennaio 2020, n. 159, p. 12.
-   12. ^ Cfr. voce ”Albero" in Edouard Urech, Dizionario dei simboli
+   10. ^ ^a ^b ^c Perché ogni anno facciamo l'albero di Natale? Ecco da dove
+       nasce questa tradizione, su La Stampa, 4 dicembre 2018. URL consultato
+       il 24 dicembre 2023.
+   11. ^ (IT) San Bonifacio e la storia dell’Albero di Natale, su Acistampa,
+       28 dicembre 2017. URL consultato il 13 agosto 2022.
+   12. ^ Luciano Pelliccioni di Poli, L'albero di Natale ed altri miti
+       arborei, Libri del Graal, Libreria romana, 1993, pp. 11-12.
+   13. ^ Cfr. voce ”Albero" in Edouard Urech, Dizionario dei simboli
        cristiani, edizioni Arkeios, 1972.
-   13. ^ Gn 2.9, su La Parola - La Sacra Bibbia in italiano in Internet.
-   14. ^ Pascale Marson, Conoscere le religioni e le loro feste, Ed. Paoline,
+   14. ^ Gn 2.9, su La Parola - La Sacra Bibbia in italiano in Internet.
+   15. ^ Pascale Marson, Conoscere le religioni e le loro feste, Ed. Paoline,
        2001, pp. 80-81.
-   15. ^ Jacopo da Varazze, L'invenzione della Croce in Leggenda Aurea, trad.
+   16. ^ Jacopo da Varazze, L'invenzione della Croce in Leggenda Aurea, trad.
        it., libreria Editrice Fiorentina, Firenze, 1990, vol. 1, p. 360 ss.)
-   16. ^ Alfredo Cattabiani, Florari. Miti, leggende e simboli di fiori e
+   17. ^ Alfredo Cattabiani, Florari. Miti, leggende e simboli di fiori e
        piante, Mondadori, Milano, 1996, pp. 303 ss.
-   17. ^ Claudio Bonvecchio, Filosofia del Natale. L'itinerario di un
+   18. ^ Claudio Bonvecchio, Filosofia del Natale. L'itinerario di un
        simbolo, edizioni Albo Versorio, Milano, 2014, p. 45.
-   18. ^ Amelung, Friedrich Verfasser, Geschichte der Revaler
+   19. ^ Amelung, Friedrich Verfasser, Geschichte der Revaler
        Schwarzenhäupter ein Beitrag zur Geschichte des deutschen Kaufmanns im
        Osten, Wassermann, 1930, OCLC 1070790886. URL consultato il 21
        dicembre 2022.
-   19. ^ (EN) Shall we abandon the Christmas Tree?, su sundaytimes.lk.
-   20. ^ (EN) Tallinn's Christmas tree — the oldest Christmas tree in
+   20. ^ (EN) Shall we abandon the Christmas Tree?, su sundaytimes.lk.
+   21. ^ (EN) Tallinn's Christmas tree — the oldest Christmas tree in
        Europe?, su visitestonia.com.
-   21. ^ O Tannenbaum, su bazonline.ch. URL consultato il 21 dicembre 2016.
-   22. ^ Storia, su diocesi.milano.it. URL consultato il 7 gennaio 2014
+   22. ^ O Tannenbaum, su bazonline.ch. URL consultato il 21 dicembre 2016.
+   23. ^ ^a ^b Albero di Natale ex pagano, su La Stampa, 18 dicembre 2009.
+       URL consultato il 25 dicembre 2023.
+   24. ^ Storia, su diocesi.milano.it. URL consultato il 7 gennaio 2014
        (archiviato dall'url originale l'11 dicembre 2003).
-   23. ^ (EN) Off to the Farm for a Christmas Tree, su nytimes.com, 2
+   25. ^ A New York un ingegnere accende le prime luci elettriche su un
+       albero di Natale, su la Repubblica, 22 dicembre 2021. URL consultato
+       il 25 dicembre 2023.
+   26. ^ A chi è venuta l'idea delle lucine natalizie?, su Agi. URL
+       consultato il 25 dicembre 2023.
+   27. ^ (EN) Off to the Farm for a Christmas Tree, su nytimes.com, 2
        dicembre 1990. URL consultato il 7 marzo 2021.
-   24. ^ National Christmas Tree Association, Real Christmas Trees are a
+   28. ^ National Christmas Tree Association, Real Christmas Trees are a
        Benefit to the Environment.
-   25. ^ Oh, Christmas Tree!, su archive.boston.com.
-   26. ^ (EN) Jack Julian, Here's the breakdown of the Christmas tree for
+   29. ^ Oh, Christmas Tree!, su archive.boston.com.
+   30. ^ (EN) Jack Julian, Here's the breakdown of the Christmas tree for
        Boston costs, su cbc.ca, 15 novembre 2016. URL consultato il 7 marzo
        2021.
-   27. ^ Dalla Nuova Scozia con amore: l'albero di Boston inizia il suo
+   31. ^ Dalla Nuova Scozia con amore: l'albero di Boston inizia il suo
        viaggio, su boston.com.
-   28. ^ L'arrivo a Boston dell'albero di Natale 2017, su bostoncentral.com.
-   29. ^ 2014 Boston Tree Location A First - Government of Nova Scotia,
+   32. ^ L'arrivo a Boston dell'albero di Natale 2017, su bostoncentral.com.
+   33. ^ 2014 Boston Tree Location A First - Government of Nova Scotia,
        Canada, su novascotia.ca.
-   30. ^ L'abbattimento dell'albero natalizio per la città di Boston, su
+   34. ^ L'abbattimento dell'albero natalizio per la città di Boston, su
        cbc.ca.
-   31. ^ Boston's Prudential Christmas Tree Has A History Of Its Own, su
+   35. ^ Boston's Prudential Christmas Tree Has A History Of Its Own, su
        prnewswire.com, 3 dicembre 1998. URL consultato il 7 marzo 2021
        (archiviato dall'url originale il 7 novembre 2017).
-   32. ^ L'albero del ringraziamento, su southshorenow.ca (archiviato
+   36. ^ L'albero del ringraziamento, su southshorenow.ca (archiviato
        dall'url originale il 2 gennaio 2015).
-   33. ^ Los Angeles Times, su latimes.com.
-   34. ^ Gli alberi natalizi più alti in America, su nbcnews.com.
-   35. ^ Phillip Phillips at The Grove’s Tenth Annual tree Lighting – Phillip
+   37. ^ Los Angeles Times, su latimes.com.
+   38. ^ Gli alberi natalizi più alti in America, su nbcnews.com.
+   39. ^ Phillip Phillips at The Grove’s Tenth Annual tree Lighting – Phillip
        Phillips Online, su phillphill.com (archiviato dall'url originale il
        12 novembre 2013).
-   36. ^ La ricerca della città per l'albero natalizio (PDF), su
+   40. ^ La ricerca della città per l'albero natalizio (PDF), su
        city.milwaukee.gov.
-   37. ^ (EN) David Domke e Kevin Coe, The God Strategy: How Religion Became
+   41. ^ (EN) David Domke e Kevin Coe, The God Strategy: How Religion Became
        a Political Weapon in America, p. 89.
-   38. ^ A Christmas Tree That Manhattan’s Can Look Up To, su nytimes.com.
-   39. ^ La storia dell'albero natalizio di Rockfeller Center: una tradizione
+   42. ^ A Christmas Tree That Manhattan’s Can Look Up To, su nytimes.com.
+   43. ^ La storia dell'albero natalizio di Rockfeller Center: una tradizione
        delle festività a New York, su 6sqft.com.
-   40. ^ Domande e risposte sull'albero natalizio di New York, su
+   44. ^ Domande e risposte sull'albero natalizio di New York, su
        thetreenyc.org.
-   41. ^ Si veda il punto 109 di questo documento redatto nel 2002 dalla
+   45. ^ Si veda il punto 109 di questo documento redatto nel 2002 dalla
        congregazione per il culto divino e la disciplina dei sacramenti., su
        vatican.va.
-   42. ^ Margaret Baker, Discovering Christmas Customs and Folklore: A Guide
+   46. ^ Margaret Baker, Discovering Christmas Customs and Folklore: A Guide
        to Seasonal Rites, Shire Publications, 1992, ISBN 978-0-7478-0175-7.
-   43. ^ Hannah Strange, The Trafalgar Christmas Tree ^[collegamento
+   47. ^ Hannah Strange, The Trafalgar Christmas Tree ^[collegamento
        interrotto], in The Times.
-   44. ^ Abstract Christmas tree sparks protests in Brussels, su bbc.com, BBC
+   48. ^ Abstract Christmas tree sparks protests in Brussels, su bbc.com, BBC
        News.
-   45. ^ (EN) Paul Waldie, Brussels’ modern-art Christmas ‘tree’ triggers
+   49. ^ (EN) Paul Waldie, Brussels’ modern-art Christmas ‘tree’ triggers
        outcry, tensions, petition [Proteste in Belgio contro l'installazione
        dell'albero natalizio artificiale], su theglobeandmail.com, 14
        dicembre 2012.
@@ -864,7 +893,8 @@ Collegamenti esterni[modifica | modifica wikitesto]
                      Fouettard · Pupazzo di neve ·            
                      Silvesterkläuse · Sneguročka ·           
                      Sinterklaas · Zwarte Piet · Capra di     
-                     Natale · Calza di Natale · Schiaccianoci 
+                     Natale · Calza di Natale ·               
+                     Schiaccianoci · Parol                    
                      Australia · Austria · Canada ·           
                      Danimarca · Filippine · Finlandia ·      
                      Francia · Germania · Grecia · Islanda ·  
@@ -882,7 +912,7 @@ Collegamenti esterni[modifica | modifica wikitesto]
    [IMG] Portale Cristianesimo
    [IMG] Portale Festività
    Estratto da
-   "https://it.wikipedia.org/w/index.php?title=Albero_di_Natale&oldid=137004943"
+   "https://it.wikipedia.org/w/index.php?title=Albero_di_Natale&oldid=137049796"
    Categoria:
      * Decorazioni di Natale
    Categorie nascoste:
@@ -1070,8 +1100,8 @@ Menu di navigazione
      * 中文
      * 粵語
    Modifica collegamenti
-     * Questa pagina è stata modificata per l'ultima volta il 22 dic 2023
-       alle 22:05.
+     * Questa pagina è stata modificata per l'ultima volta il 26 dic 2023
+       alle 12:25.
      * Il testo è disponibile secondo la licenza Creative Commons
        Attribuzione-Condividi allo stesso modo; possono applicarsi condizioni
        ulteriori. Vedi le condizioni d'uso per i dettagli.
