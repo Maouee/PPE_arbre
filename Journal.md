@@ -65,7 +65,7 @@ C'est pratique de pouvoir travailler en groupe lors des séances !
 
 * Nous avons les 5O URLs pour nos trois langues.
 * Problème italien et anglais
-  - Nous avons remarqué un problème au niveau des URLS, il ne garde pas le dernier lien. Par exemple, pour l'italien nous avons 56 URLs dans notre fichier texte, cependant dans notre tableau nous n'avons que les 55 premiers URLs... Ce problème n'existant pas dans le script russe, nous allons le regarder attentivement. 
+  - Nous avons remarqué un problème au niveau des URLS, il ne garde pas le dernier lien. Par exemple, pour l'italien nous avons 55 URLs dans notre fichier texte, cependant dans notre tableau nous n'avons que les 54 premiers URLs... Ce problème n'existant pas dans le script russe, nous allons le regarder attentivement. 
 
 
 
