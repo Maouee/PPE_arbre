@@ -990,6 +990,7 @@
      * Hrvatski
      * Magyar
      * Հայերեն
+     * Արեւմտահայերէն
      * Interlingua
      * Bahasa Indonesia
      * Íslenska
