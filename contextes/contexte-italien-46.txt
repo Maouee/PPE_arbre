@@ -1,92 +1,116 @@
+     * Contatti
 
-   Salve a tutti,
-   come da titolo sto sviluppando un albero per effettuare ricerche sui
-   prodotti in stile Ecommerce. Image
-   Mi sono bloccato però su una questione apparentemente banale. Io vorrei
---
---
-   prodotti in stile Ecommerce. Image
-   Mi sono bloccato però su una questione apparentemente banale. Io vorrei
-   che appena clicco su GIACCHE l'albero mi attivi il nodo giacche e mi
-   espandesse eventuali figli.
-   Ho provato di tutto: Active doc , set document, set active node passando
---
---
+           Protezione per alberi: ad ogni pianta il suo shelter Tubex
 
-   Provo a darti alcune dritte
-   1) Se l'albero è documentale non esiste nessuna chiave di HASH (è usata
-   solo per alberi di tipo DB)
-   2) Nell'albero devi usare solo eventi Documentali
-   3) Se per l'albero imposti -> Albero.ActivateOnExpand := True il framework
-   attiva il nodo quando l'utente espande il ramo
---
-   attiva il nodo quando l'utente espande il ramo
-   4) I documenti presenti nell'albero hanno riferimenti diversi (sono
-   istanze diverse) da quelli che tu potresti avere in un pannello o caricare
-   successivamente
+   20 Nov 2023 | Redazione Tubex |
 --
 --
+   20 Nov 2023 | Redazione Tubex |
 
-   Se vuoi che nel pannello o libro documentale sia visualizzato il documento
-   selezionato nell'albero, intercettando l'evento OnActivateDoc qui hai il
-   documento selezionato e lo puoi applicare al pannello/libro.
+   Ogni albero dovrebbe avere il suo shelter. Quest’ultimo è un vero e
+   proprio rifugio: una protezione per alberi e piante che si rivela semplice
+   da usare e, allo stesso tempo, all’avanguardia.
 
 --
 --
-   Quando fai la ricerca del prodotto, tu vai a caricare i prodotti e ottieni
-   una collection di prodotti, ma questi documenti hanno una istanza diversa
-   nell'albero e quindi non li troverai mai.
-   Per sopperire a cio' dovresti avere una variabile globale di videata di
+
+   Tubex propone varie soluzioni, e i suoi prodotti sono i più venduti in
+   Italia. Gli shelter del marchio proteggono l’albero e ne favoriscono la
+   crescita, rispettano l’ambiente e ottimizzano le attività di coloro che
+   operano nel mondo dell’agricoltura, della paesaggistica e/o della
 --
-   Per sopperire a cio' dovresti avere una variabile globale di videata di
-   tutti i tuoi prodotti, questa variabile globale associata all'albero con
-   setCollection; quando fai le ricerche non devi ricaricare i dati ma
-   cercare nella variabile globale e avendo trovato il documento usare la
+--
+   offre Tubex.
+
+Tubex Fruitwrap: la protezione per alberi da frutto
+
+   Le protezioni Fruitwrap si presentano come shelter dalla struttura
 --
 --
 
-   Grazie mille Pietro. Probabilmente mi sono spiegato male. Io vorrei che
-   quando l'utente clicca sull'icona delle giacche a destra l'albero a
-   sinistra mi attivi il documento giacche e mi espanda eventuali figli.
+   Presentano un diametro di 65 millimetri, dilatabile fino a 80 millimetri
+   (che si allargherà in relazione alla crescita dell’albero). Questa
+   tipologia di protezione per alberi da frutto è di colore verde e protegge
+   la pianta dagli attacchi degli animali, dalle sfavorevoli condizioni
+   climatiche e ambientali, dagli impianti di manutenzione meccanizzata e
+--
+--
+
+   All’interno dello shelter si crea una sorta di microclima in grado di
+   favorire l’attecchimento e la crescita dell’albero.
+
+Per la vite c’è Tubex Ecovine
+--
+--
+Per la vite c’è Tubex Ecovine
+
+   Di certo la vite non è un albero, ma si tratta comunque di un vegetale
+   particolare che necessita di una protezione altrettanto particolare. Con
+--
+   particolare che necessita di una protezione altrettanto particolare. Con
+   questi presupposti, oltre alla protezione per alberi disponibile in varie
+   tipologie, Tubex propone Ecovine. Questo prodotto rappresenta una delle
+   soluzioni più economiche ed efficaci per favorire l’attecchimento e la
+--
+--
+   protezione stessa e che regala importanti risorse al giovane arbusto.
+
+   protezione per alberi
+
+    
+--
+--
+La protezione ventilata: Tubex Ventex
+
+   Come dicevamo, per ogni albero esiste lo shelter più adatto. Dopo anni di
+   osservazione e studio, Tubex ha creato anche le protezioni Ventex, ovvero
+   degli shelter ventilati. Questi shelter sono muniti di un sistema di
+--
+--
+   degli shelter ventilati. Questi shelter sono muniti di un sistema di
+   ventilazione brevettato che potenzia ancor più il microclima che si crea
+   all’interno del tubo stesso. Usare questo tipo di protezione per alberi
+   comporta una serie di vantaggi, tra cui:
 
 --
 --
-   stessi); che puoi avere se ti crei la variabile globale
-   Quando l'utente seleziona una giacca allora si cattura il documento sul
-   libro e si attiva il nodo sull'albero
-   Ma ritorno a dirti che funziona se i documenti sono gli stessi e non altre
-   istanze documenti
---
---
-   Postby m.sirri » 14 March 2016, 15:52
+       rispetto a quella delle piante non provviste di shelter.
 
-   Dopo aver chiamato il metodo setCollection sull'albero chiama il metodo
-   updateControls.
---
-   updateControls.
-   Questo serve perché i nodi dell'albero vengono fisicamente
-   creati/aggiornati a fine rischiesta.
+Cercate una protezione per alberi? Nowotec è il distributore dei prodotti Tubex
+unico in Italia
 
 --
 --
-   Grazie mille a tutti per le cortesi risposte. Alla fine ho seguito il
-   consiglio di Pietro e ce l'ho fatta.
-   Correggetemi se sbaglio, in un albero DO non è necessario creare un
-   Elemento albero giusto?
-   Se la mia supposizione fosse corretta, come faccio ad assegnare uno stile
---
-   Se la mia supposizione fosse corretta, come faccio ad assegnare uno stile
-   css all'albero? Non mi torna molto questa cosa.
 
-   Grazie mille e scusate se sono andato un pò fuori topic.
+   Se desiderate sapere di più sulle caratteristiche delle diverse tipologie
+   di protezione per alberi e piante fornite da Tubex, potete contattarci e
+   affidarvi a Nowotec: rivenditore unico per l’Italia e rivenditore
+   ufficiale per vari paesi europei. Vi aspettiamo!
 --
 --
-   Postby eurekapv » 15 March 2016, 13:08
+Articoli recenti
 
-   Se l'albero è DO, puoi intercettare l'evento OnGetName del documento
-   Questo evento serve a personalizzare il nome dell'oggetto quando si trova
+     * shelter per fruttetoShelter per frutteto: la protezione per alberi da
+       frutta
+       27 Dicembre 2023
 --
-   Questo evento serve a personalizzare il nome dell'oggetto quando si trova
-   in diversi ambiti (quali anche un albero)
-   Se non ricordo male, il Name puo' essere costruito con sintassi HTML, dove
-   quindi puoi applicare una class CSS desiderata.
+--
+       perché scegliere Tubex
+       30 Novembre 2023
+     * protezione per alberiProtezione per alberi: ad ogni pianta il suo
+       shelter Tubex
+       20 Novembre 2023
+--
+--
+       shelter Tubex
+       20 Novembre 2023
+     * protezioni per alberi da fruttoFrutticoltura: le protezioni per alberi
+       da frutto da utilizzare durante l’inverno e non solo
+       13 Novembre 2023
+--
+--
+   Noi di Nowotec siamo rivenditori unici per l’Italia e rivenditori
+   ufficiali per vari paesi europei dei prodotti Tubex. Tubex produce
+   protezioni per alberi e piante dagli anni Ottanta. Con il tempo, è stata
+   ampliata la gamma di prodotti, arrivando a rispondere perfettamente alle
+   esigenze di chi opera nell’ambito di paesaggistica, silvicoltura,

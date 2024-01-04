@@ -1,13 +1,30 @@
-un §albero§ sintattico astratto
-o semplicemente §albero§
-una rappresentazione ad §albero§ della struttura sintattica
-ogni nodo dell'§albero§ denota un costrutto che si
-struttura ad §albero§ quindi non devono essere rappresentate
-questo distingue gli §alberi§ sintattici astratti da quelli concreti
-tradizionalmente designati come §alberi§ di analisi che sono tipicamente
-gli §alberi§ sintattici astratti vengono utilizzati anche
-gli §alberi§ sintattici astratti sono strutture dati
-dell'§albero§ permette di verificare la correttezza
-famiglia di linguaggi basati su §alberi§
+§albero§ sintattico un §albero§ sintattico o concreto
+un §albero§ che rappresenta la
 §albero§ sintattico
-detto anche §albero§ sintattico concreto
+un §albero§ sintattico o concreto
+un §albero§ che rappresenta la struttura
+programma che produce quest'§albero§ viene chiamato parser
+gli §alberi§
+la struttura ad §albero§
+ad §albero§ o per mezzo di parentesi
+un semplice §albero§ sintattico della frase inglese
+un §albero§ sintattico
+§albero§ sintattico linguistico che permette di
+l'§albero§ sintattico
+nell'§albero§ sono usate le seguenti abbreviazioni
+nell'§albero§ sintattico
+lemma §albero§
+immagini o altri file sull'§albero§
+un §albero§ sintattico o concreto e un
+§albero§ che rappresenta la struttura
+programma che produce quest §albero§ viene chiamato parser gli §alberi§
+struttura ad §albero§ e stata mutuata dalla teoria
+ogni rappresentazione ad §albero§ o per mezzo di parentesi
+nbsp un semplice §albero§ sintattico della frase inglese john
+palla un §albero§ sintattico e composto da nodi
+un §albero§ sintattico linguistico che permette di
+lingua inglese nel disegno l §albero§ sintattico e l intera struttura
+john ball the hit nell §albero§
+per sostantivo nell §albero§ sintattico ogni nodo puo essere
+v note modifica beccaria lemma §albero§ cfr il lemma
+immagini o altri file sull §albero§ sintatticocollegamenti esterni modifica

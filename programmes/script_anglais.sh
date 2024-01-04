@@ -110,8 +110,17 @@ do
                     <td>
                     <a href='../dumps-text/dump-text-${langue}-${compteur}.txt'>dump-text</a>
                     </td>
-                    <td>$compte</td>
+                    <td>$compte</td>" >> ../tableaux/tableau_${langue}.html
+if [ "$contexte" == "NA" ];then
+    echo "              <td>
+                    ${contexte}
+                    </td>
                     <td>
+                    ${concordancier}
+                    </td>
+                    </tr>" >> ../tableaux/tableau_${langue}.html
+else
+    echo "               <td>
                     <a href='../contextes/contexte-${langue}-${compteur}.txt'>${contexte}</a>
                     </td>
                     <td>
@@ -120,7 +129,9 @@ do
                     </tr>
     " >> ../tableaux/tableau_${langue}.html
     #incrémente le compteur de 1 avant de passer au fichier suivant
-    ((compteur++))
+fi
+((compteur++))
+
 done < $file
 
 echo "</table></div></body></html>" >> ../tableaux/tableau_${langue}.html

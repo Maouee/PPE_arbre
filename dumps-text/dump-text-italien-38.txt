@@ -1,256 +1,246 @@
-   Link: alternate
    Link: canonical
-   Link: license
+   Link: shortlink
+   Link: alternate af-za
+   Link: alternate be-by
+   Link: alternate da-dk
+   Link: alternate de-de
+   Link: alternate fr-fr
+   Link: alternate id-id
+   Link: alternate it-it
+   Link: alternate kk-kz
+   Link: alternate nl-nl
+   Link: alternate pt-pt
+   Link: alternate ru-ru
+   Link: alternate uk-ua
+   www.wikidata.it-it.nina.az
+     * Categorie
+     * Quotidiano
+     * Casuale
+     * Contattaci
+     * DMCA
+     * Rss Feed
+     * Altro
+          * SiteMap
+          * SiteMap TXT
+          * Rss 0
+          * Rss 1
+          * Rss 2
+          * Rss 3
+          * Rss 4
+          * Rss 5
+          * Rss 6
+          * Rss 7
+          * Rss 8
+          * Rss 9
+          * Rss 10
+          * Rss 11
+          * Rss 12
+          * Rss 13
+          * Rss 14
+          * Rss 15
+          * Rss 16
+          * Rss 17
+          * Rss 18
+          * Rss 19
+          * Rss 20
+          * Rss 21
+          * Rss 22
+          * Rss 23
+          * Rss 24
+          * Rss 25
+          * Rss 26
+          * Rss 27
+          * Rss 28
+          * Rss 29
+          * Rss 30
+          * Rss 31
+          * Rss 32
+          * Rss 33
+          * Rss 34
+          * Rss 35
+          * Rss 36
+          * Rss 37
+          * Rss 38
+          * Rss 39
+          * Rss 40
+          * Ping
+          * Ping TXT
+   Comprimi il menu
 
-                           Albero sintattico astratto
+Albero sintattico Un albero sintattico o concreto è un albero che rappresenta la
+                     struttura sintattica di una stringa in
 
-   Da Wikipedia, l'enciclopedia libera.
-   Vai alla navigazione Vai alla ricerca
+Albero sintattico
 
-   In informatica, un albero sintattico astratto (AST) o semplicemente albero
-   sintattico è una rappresentazione ad albero della struttura sintattica
-   astratta del testo (spesso codice sorgente) scritto in un linguaggio
-   formale. Ogni nodo dell'albero denota un costrutto che si verifica nel
-   testo.
+   Un albero sintattico o concreto è un albero che rappresenta la struttura
+   sintattica di una stringa in accordo a determinate forme grammaticali. Un
+   programma che produce quest'albero viene chiamato parser. Gli alberi
+   sintattici possono essere generati per frasi delle lingue naturali
+   attraverso l'elaborazione del linguaggio naturale, così come durante
+   l'elaborazione di linguaggi formali e di linguaggi di programmazione.
 
-   La sintassi è "astratta" nel senso che non rappresenta ogni dettaglio
-   presente nella sintassi reale, ma solo quelli strutturali o relativi al
-   contenuto. Ad esempio, le parentesi di raggruppamento sono implicite nella
-   struttura ad albero quindi non devono essere rappresentate da nodi
-   separati. Similmente, un costrutto solitamente sintattico come
-   l'istruzione se-condizione-allora può essere denotato per mezzo di un
-   singolo nodo con tre rami.
+   La struttura ad albero è stata mutuata dalla teoria dei grafi per
+   rappresentare l'idea intuitiva che le frasi delle lingue naturali possono
+   essere segmentate in unità più piccole. È detto "indicatore sintagmatico"
+   ogni rappresentazione (ad albero o per mezzo di parentesi) dei sintagmi di
+   una frase.
 
-   Questo distingue gli alberi sintattici astratti da quelli concreti,
-   tradizionalmente designati come alberi di analisi che sono tipicamente
-   costruiti da un parser durante la traduzione del codice sorgente e il
-   processo di compilazione. Una volta costruiti, ulteriori informazioni
-   vengono aggiunte all'AST mediante elaborazioni successive come le analisi
-   contestuali.
+Caratteristiche modifica
 
-   Gli alberi sintattici astratti vengono utilizzati anche nell'analisi del
-   programma e nei sistemi di trasformazione del programma.
+   Un semplice albero sintattico della frase inglese «John ha colpito la
+   palla».
 
-Indice
+   Un albero sintattico è composto da nodi e rami. La figura a fianco è un
+   albero sintattico linguistico che permette di creare determinate frasi in
+   lingua inglese. Nel disegno, l'albero sintattico è l'intera struttura che
+   parte da S e termina in ognuna delle foglie (John, ball, the, hit).
 
-     * 1 Applicazione nei compilatori
-          * 1.1 Motivazioni
-          * 1.2 Design
-          * 1.3 Utilizzo
-     * 2 Voci correlate
-     * 3 Altri progetti
+   Nell'albero sono usate le seguenti abbreviazioni:
 
-Applicazione nei compilatori[modifica | modifica wikitesto]
+     * S sta per la frase, la struttura top-level in questo esempio;
+     * NP sta per sintagma nominale. Il primo ramo (quello a sinistra) è il
+       soggetto John. L'altro è l'oggetto della frase;
+     * VP sta per sintagma verbale, che serve il predicato;
+     * V per verbo. In questo caso, hit («ha colpito»);
+     * Det sta per aggettivo determinativo, in questo caso the («la»);
+     * N sta per sostantivo.
 
-   Gli alberi sintattici astratti sono strutture dati ampiamente utilizzate
-   dai compilatori per rappresentare la struttura del codice sorgente. Un AST
-   è in genere il risultato della fase di analisi sintattica del compilatore.
-   Spesso funge da rappresentazione intermedia del programma attraverso le
-   diverse fasi di compilazione e ha un forte impatto sul risultato finale.
+   Nell'albero sintattico, ogni nodo può essere un nodo radice, un nodo ramo
+   o un nodo foglia. Nell'esempio precedente, S è il nodo radice, NP e VP
+   sono nodi rami, mentre John, ball, the e hit sono tutti foglie.
 
-  Motivazioni[modifica | modifica wikitesto]
+   I nodi si possono anche riferire ai genitori e ai figli di nodi. Un
+   genitore è quel nodo che ha almeno un altro nodo collegato con un ramo
+   sotto di lui. Nell'esempio, S è genitore sia di NP che di VP. Un figlio è
+   quel nodo che ha almeno un ramo collegato a un nodo sopra di lui;
+   nell'esempio, hit è un figlio del nodo V.
 
-   Un AST ha diverse proprietà che aiutano nelle varie fasi del processo di
-   compilazione:
+Note modifica
 
-     * Può essere modificato e migliorato con informazioni quali proprietà e
-       annotazioni per ogni elemento che contiene, impossibile da fare con il
-       codice sorgente di un programma, poiché implicherebbe cambiarlo.
-     * Rispetto al codice sorgente, un AST non include punteggiatura e
-       delimitatori non essenziali (parentesi, punto e virgola, ecc.).
-     * Di solito contiene informazioni extra sul programma, a causa delle
-       varie fasi di analisi da parte del compilatore. Ad esempio, può
-       memorizzare la posizione di ciascun elemento nel codice sorgente,
-       consentendo al compilatore di stampare utili messaggi di errore.
+    1. Beccaria, Lemma albero.
+    2. Cfr. il lemma corrispondente sul dizionario De Mauro.
 
-   Gli AST sono necessari a causa della natura intrinseca dei linguaggi di
-   programmazione e della relativa documentazione. Le lingue sono spesso
-   ambigue per natura. Per evitare questa ambiguità, i linguaggi di
-   programmazione sono spesso specificati come grammatica libera dal contesto
-   (CFG). Tuttavia, ci sono spesso aspetti dei linguaggi di programmazione
-   che una CFG non può esprimere, ma fanno parte del linguaggio e sono
-   documentati nelle sue specifiche. Questi sono dettagli che richiedono un
-   contesto per determinarne la validità e il comportamento. Ad esempio, se
-   un linguaggio consente la dichiarazione di nuovi tipi, una CFG non può
-   prevedere i nomi di tali tipi né il modo in cui debbano essere utilizzati.
-   Anche se un linguaggio ha un insieme predefinito di tipi, il modo corretto
-   di utilizzarli di norma richiede un contesto. Un altro esempio è il duck
-   typing, in cui il tipo di un elemento può cambiare a seconda del contesto.
-   L'overloading degli operatori è un altro caso in cui l'utilizzo corretto e
-   la funzione finale dipendono dal contesto.
+Bibliografia modifica
 
-  Design[modifica | modifica wikitesto]
+     * Gian Luigi Beccaria (a cura di), Dizionario di linguistica, Torino,
+       Einaudi, 2004, ISBN 978-88-06-16942-8.
 
-   La progettazione di un AST è spesso strettamente collegata alla
-   progettazione di un compilatore e alle sue caratteristiche.
+Voci correlate modifica
 
-   I requisiti fondamentali includono quanto segue:
+     * Linguistica computazionale
+     * Linguaggi formali matematici
+     * Parsing
+     * Sintagma
+     * Teoria x-barra
 
-     * I tipi di variabile devono essere preservati, così come la posizione
-       di ogni dichiarazione nel codice sorgente.
-     * L'ordine delle istruzioni eseguibili deve essere rappresentato in modo
-       esplicito e ben definito.
-     * I componenti sinistro e destro delle operazioni binarie devono essere
-       memorizzati e identificati correttamente.
-     * Gli identificatori e i relativi valori devono essere memorizzati per
-       le istruzioni di assegnazione.
+Altri progetti modifica
 
-   Questi requisiti possono essere usati per progettare la struttura dati per
-   l'AST.
+     * Wikimedia Commons contiene immagini o altri file sull'albero
+       sintattico
 
-   Alcune operazioni richiedono sempre due elementi, come i due termini per
-   l'addizione. Tuttavia, alcuni costrutti di linguaggio richiedono un numero
-   arbitrariamente elevato di elementi figlio, come l'elenco di argomenti
-   passati ai programmi dalla shell. Di conseguenza, un AST utilizzato per
-   rappresentare il codice scritto in tale linguaggio deve anche essere
-   sufficientemente flessibile da consentire l'aggiunta rapida di una
-   quantità sconosciuta di figli.
+Collegamenti esterni modifica
 
-   Per supportare la verifica del compilatore, dovrebbe essere possibile
-   riconvertire l'AST in un codice sorgente sufficientemente simile
-   all'originale nell'aspetto e identico nell'esecuzione dopo la
-   ricompilazione.
+     * (EN) syntax tree, in Free On-line Dictionary of Computing, Denis Howe.
+       Disponibile con licenza GFDL
+     * (EN) Linguistic Tree Constructor, su ltc.sourceforge.net.
+     * (EN) phpSyntaxTree — Online parse tree drawing site
+     * (EN) Qtree — LaTeX package for drawing parse trees
+     * (EN) , su linguiste.org. URL consultato il 4 febbraio 2007 (archiviato
+       dall'url originale il 4 ottobre 2006).
+     * (EN) TreeForm Syntax Tree Drawing Software, su mapsofspeech.com.
+   Portale Informatica: accedi alle voci di Wikipedia che trattano di
+   informatica
+   wikipedia, wiki, libro, libri, biblioteca, articolo, lettura, download,
+   scarica, gratuito, download gratuito, mp3, video, mp4, 3gp, jpg, jpeg,
+   gif, png, immagine, musica, canzone, film, libro, gioco, giochi.
+   Data di pubblicazione: Dicembre 17, 2023, 15:29 pm
+   I più letti
+     * Dicembre 28, 2023
 
-  Utilizzo[modifica | modifica wikitesto]
+  Khan dei Bulgari
 
-   L'AST viene utilizzato intensamente durante l'analisi semantica, dove il
-   compilatore verifica il corretto utilizzo degli elementi del programma e
-   del linguaggio. Il compilatore genera anche la tabella dei simboli in base
-   all'AST durante l'analisi semantica. Un attraversamento completo
-   dell'albero permette di verificare la correttezza del programma.
+     * Dicembre 28, 2023
 
-   Dopo aver verificato la correttezza, l'AST funge da base per la
-   generazione del codice la quale spesso avviene per mezzo di una
-   rappresentazione intermedia (IR) talvolta detta linguaggio intermedio.
+  Khan Chittenden
 
-Voci correlate[modifica | modifica wikitesto]
+     * Dicembre 28, 2023
 
-     * Document Object Model (DOM)
-     * Lisp, famiglia di linguaggi basati su alberi (chiamati liste) e macro
-       per la loro manipolazione
-     * Albero sintattico, detto anche albero sintattico concreto
+  Khalid (cantante)
 
-Altri progetti[modifica | modifica wikitesto]
+     * Dicembre 28, 2023
 
-     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
-       altri file su Albero sintattico astratto
+  Khadgar
 
-   Controllo di autorità GND (DE) 4702177-9 
+     * Dicembre 28, 2023
 
-   Estratto da
-   "https://it.wikipedia.org/w/index.php?title=Albero_sintattico_astratto&oldid=131664000"
-   Categorie:
-     * Alberi (strutture dati)
-     * Teoria dei linguaggi formali
-     * Compilatori
-   Categorie nascoste:
-     * Voci con codice GND
-     * Voci non biografiche con codici di controllo di autorità
+  Kgoronyane
 
-Menu di navigazione
+     * Dicembre 28, 2023
 
-  Strumenti personali
+  Kerman
 
-     * Accesso non effettuato
-     * discussioni
-     * contributi
-     * registrati
-     * entra
+     * Dicembre 27, 2023
 
-  Namespace
+  Kenneth Rexroth
 
-     * Voce
-     * Discussione
-   [ ] italiano
+     * Dicembre 27, 2023
 
-  Visite
+  Kenneth Hale
 
-     * Leggi
-     * Modifica
-     * Modifica wikitesto
-     * Cronologia
-   [ ] Altro
+     * Dicembre 28, 2023
 
-  Ricerca
+  Kenneth Foster
 
-   _____________________ [ Ricerca ] [ Vai ]
-   Visita la pagina principale
+     * Dicembre 27, 2023
 
-  Navigazione
+  Kenneth Faried
 
-     * Pagina principale
-     * Ultime modifiche
-     * Una voce a caso
-     * Nelle vicinanze
-     * Vetrina
-     * Aiuto
-     * Sportello informazioni
-
-  Comunità
-
-     * Portale Comunità
-     * Bar
-     * Il Wikipediano
-     * Fai una donazione
-     * Contatti
-
-  Strumenti
-
-     * Puntano qui
-     * Modifiche correlate
-     * Pagine speciali
-     * Link permanente
-     * Informazioni pagina
-     * Cita questa voce
-     * Ottieni URL breve
-     * Elemento Wikidata
-
-  Stampa/esporta
-
-     * Crea un libro
-     * Scarica come PDF
-     * Versione stampabile
-
-  In altri progetti
-
-     * Wikimedia Commons
-
-  In altre lingue
-
-     * العربية
-     * Bosanski
-     * Čeština
-     * Deutsch
-     * English
-     * Español
-     * فارسی
-     * Français
-     * Hrvatski
-     * Հայերեն
-     * Ido
-     * 日本語
-     * 한국어
-     * Lombard
-     * Polski
-     * Português
-     * Русский
-     * Українська
-     * Tiếng Việt
-     * 中文
-     * 粵語
-   Modifica collegamenti
-     * Questa pagina è stata modificata per l'ultima volta il 21 gen 2023
-       alle 20:58.
-     * Il testo è disponibile secondo la licenza Creative Commons
-       Attribuzione-Condividi allo stesso modo; possono applicarsi condizioni
-       ulteriori. Vedi le condizioni d'uso per i dettagli.
-     * Informativa sulla privacy
-     * Informazioni su Wikipedia
-     * Avvertenze
-     * Codice di condotta
-     * Sviluppatori
-     * Statistiche
-     * Dichiarazione sui cookie
-     * Versione mobile
-     * Wikimedia Foundation
-     * Powered by MediaWiki
+   © Diritto d`autore 2021, tutti i diritti riservati
+     | 
+   NiNa.Az
+   Un albero sintattico o concreto e un albero che rappresenta la struttura
+   sintattica di una stringa in accordo a determinate forme grammaticali Un
+   programma che produce quest albero viene chiamato parser Gli alberi
+   sintattici possono essere generati per frasi delle lingue naturali
+   attraverso l elaborazione del linguaggio naturale cosi come durante l
+   elaborazione di linguaggi formali e di linguaggi di programmazione La
+   struttura ad albero e stata mutuata dalla teoria dei grafi per
+   rappresentare l idea intuitiva che le frasi delle lingue naturali possono
+   essere segmentate in unita piu piccole 1 E detto indicatore sintagmatico
+   ogni rappresentazione ad albero o per mezzo di parentesi dei sintagmi di
+   una frase 2 Indice 1 Caratteristiche 2 Note 3 Bibliografia 4 Voci
+   correlate 5 Altri progetti 6 Collegamenti esterniCaratteristiche modifica
+   nbsp Un semplice albero sintattico della frase inglese John ha colpito la
+   palla Un albero sintattico e composto da nodi e rami La figura a fianco e
+   un albero sintattico linguistico che permette di creare determinate frasi
+   in lingua inglese Nel disegno l albero sintattico e l intera struttura che
+   parte da S e termina in ognuna delle foglie John ball the hit Nell albero
+   sono usate le seguenti abbreviazioni S sta per la frase la struttura top
+   level in questo esempio NP sta per sintagma nominale Il primo ramo quello
+   a sinistra e il soggetto John L altro e l oggetto della frase VP sta per
+   sintagma verbale che serve il predicato V per verbo In questo caso hit ha
+   colpito Det sta per aggettivo determinativo in questo caso the la N sta
+   per sostantivo Nell albero sintattico ogni nodo puo essere un nodo radice
+   un nodo ramo o un nodo foglia Nell esempio precedente S e il nodo radice
+   NP e VP sono nodi rami mentre John ball the e hit sono tutti foglie I nodi
+   si possono anche riferire ai genitori e ai figli di nodi Un genitore e
+   quel nodo che ha almeno un altro nodo collegato con un ramo sotto di lui
+   Nell esempio S e genitore sia di NP che di VP Un figlio e quel nodo che ha
+   almeno un ramo collegato a un nodo sopra di lui nell esempio hit e un
+   figlio del nodo V Note modifica Beccaria Lemma albero Cfr il lemma
+   corrispondente sul dizionario De Mauro Bibliografia modificaGian Luigi
+   Beccaria a cura di Dizionario di linguistica Torino Einaudi 2004 ISBN 978
+   88 06 16942 8 Voci correlate modificaLinguistica computazionale Linguaggi
+   formali matematici Parsing Sintagma Teoria x barraAltri progetti
+   modificaAltri progettiWikimedia Commons nbsp Wikimedia Commons contiene
+   immagini o altri file sull albero sintatticoCollegamenti esterni modifica
+   EN syntax tree in Free On line Dictionary of Computing Denis Howe
+   Disponibile con licenza GFDL EN Linguistic Tree Constructor su ltc
+   sourceforge net EN phpSyntaxTree Online parse tree drawing site EN Qtree
+   LaTeX package for drawing parse trees EN Syntax Tree Drawer in SVG su
+   linguiste org URL consultato il 4 febbraio 2007 archiviato dall url
+   originale il 4 ottobre 2006 EN TreeForm Syntax Tree Drawing Software su
+   mapsofspeech com nbsp Portale Informatica accedi alle voci di Wikipedia
+   che trattano di informatica Estratto da https it wikipedia org w index php
+   title Albero sintattico amp oldid 136768219
+   www.wikidata.af-za.nina.azwww.wikidata.be-by.nina.azwww.wikidata.da-dk.nina.azwww.wikidata.de-de.nina.azwww.wikidata.fr-fr.nina.azwww.wikidata.id-id.nina.azwww.wikidata.it-it.nina.azwww.wikidata.kk-kz.nina.azwww.wikidata.nl-nl.nina.azwww.wikidata.pt-pt.nina.azwww.wikidata.ru-ru.nina.azwww.wikidata.uk-ua.nina.az

@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="it" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Albero binario - Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"],"wgRequestId":"e192eef8-ba5b-4295-90d1-8affccd9d0be","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Albero_binario","wgTitle":"Albero binario","wgCurRevisionId":136696880,"wgRevisionId":136696880,"wgArticleId":256114,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Senza fonti - informatica","Senza fonti - ottobre 2015","P9621 letta da Wikidata","P2812 letta da Wikidata","P7554 letta da Wikidata","Voci con codice GND","Voci non biografiche con codici di controllo di autorità","Alberi binari"],"wgPageViewLanguage":"it","wgPageContentLanguage":"it",
+"wgPageContentModel":"wikitext","wgRelevantPageName":"Albero_binario","wgRelevantArticleId":256114,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":6,"wgVisualEditor":{"pageLanguageCode":"it","pageLanguageDir":"ltr","pageVariantFallbacks":"it"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgULSCurrentAutonym":"italiano","wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q380172","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":
+true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"ext.gadget.PDCStriker":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","ext.pygments":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["mediawiki.page.media","mediawiki.toggleAllCollapsibles","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.InterProject","ext.gadget.MainPageWikiList","ext.gadget.stru-commonsupload","ext.gadget.HiddenCat","ext.gadget.OpenStreetMap","ext.gadget.ReferenceTooltips","ext.gadget.WikiMiniAtlas","ext.gadget.Form-valutazione-enc",
+"ext.gadget.NewSection","ext.gadget.RichiediRevisioneBozza","ext.gadget.Requests-Wizard","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=it&amp;modules=ext.math.styles%7Cext.pygments%2CwikimediaBadges%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector">
+<script async="" src="/w/load.php?lang=it&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=it&amp;modules=ext.gadget.PDCStriker&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/w/load.php?lang=it&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<meta name="generator" content="MediaWiki 1.42.0-wmf.10">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/1200px-Binary_tree.svg.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1000">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/800px-Binary_tree.svg.png">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="667">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/640px-Binary_tree.svg.png">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="533">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Albero binario - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//it.m.wikipedia.org/wiki/Albero_binario">
+<link rel="alternate" type="application/x-wiki" title="Modifica" href="/w/index.php?title=Albero_binario&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (it)">
+<link rel="EditURI" type="application/rsd+xml" href="//it.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://it.wikipedia.org/wiki/Albero_binario">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">
+<link rel="alternate" type="application/atom+xml" title="Feed Atom di Wikipedia" href="/w/index.php?title=Speciale:UltimeModifiche&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org">
+</head>
+<body class="skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Albero_binario rootpage-Albero_binario skin-vector action-view"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"><!-- CentralNotice --></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Albero binario</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">Da Wikipedia, l&#039;enciclopedia libera.</div>
+		<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Vai alla navigazione</a>
+		<a class="mw-jump-link" href="#searchInput">Vai alla ricerca</a>
+		<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="it" dir="ltr"><style data-mw-deduplicate="TemplateStyles:r133964453">.mw-parser-output .avviso .mbox-text-div>div,.mw-parser-output .avviso .mbox-text-full-div>div{font-size:90%}.mw-parser-output .avviso .mbox-image{flex-basis:52px;flex-grow:0;flex-shrink:0}.mw-parser-output .avviso .mbox-text-full-div .hide-when-compact{display:block}</style><div style="" class="ambox metadata plainlinks avviso avviso-contenuto">
+<div class="avviso-immagine mbox-image noprint"><span typeof="mw:File"><a href="/wiki/File:Question_book-4.svg" class="mw-file-description" title="Niente fonti!"><img alt="Niente fonti!" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Question_book-4.svg/45px-Question_book-4.svg.png" decoding="async" width="45" height="35" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Question_book-4.svg/68px-Question_book-4.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/64/Question_book-4.svg/90px-Question_book-4.svg.png 2x" data-file-width="262" data-file-height="204" /></a></span></div>
+<div class="avviso-testo mbox-text">
+<div class="mbox-text-div"><b>Questa voce o sezione &#32;sull'argomento informatica <a href="/wiki/Wikipedia:Uso_delle_fonti" title="Wikipedia:Uso delle fonti">non cita le fonti necessarie</a> o quelle presenti sono insufficienti</b>.
+<div class="hide-when-compact">
+<div class="noprint"><hr />Puoi <a class="external text" href="https://it.wikipedia.org/w/index.php?title=Albero_binario&amp;action=edit">migliorare questa voce</a> aggiungendo citazioni da <a href="/wiki/Wikipedia:Fonti_attendibili" title="Wikipedia:Fonti attendibili">fonti attendibili</a> secondo le <a href="/wiki/Wikipedia:Uso_delle_fonti" title="Wikipedia:Uso delle fonti">linee guida sull'uso delle fonti</a>. Segui i suggerimenti del <a href="/wiki/Progetto:Informatica" title="Progetto:Informatica">progetto di riferimento</a>.</div>
+</div>
+</div>
+</div>
+</div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/wiki/File:Binary_tree.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/220px-Binary_tree.svg.png" decoding="async" width="220" height="183" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/330px-Binary_tree.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/440px-Binary_tree.svg.png 2x" data-file-width="300" data-file-height="250" /></a><figcaption>Un albero binario</figcaption></figure>
+<p>In <a href="/wiki/Informatica" title="Informatica">informatica</a> un <b>albero binario</b> è un <a href="/wiki/Albero_(grafo)" title="Albero (grafo)">albero</a> i cui <a href="/wiki/Nodo_(grafi)" class="mw-redirect" title="Nodo (grafi)">nodi</a> hanno <a href="/wiki/Glossario_di_teoria_dei_grafi#Grado_di_un_vertice" title="Glossario di teoria dei grafi">grado</a> compreso tra 0 e 2. Per <i>albero</i> si intende un <a href="/wiki/Grafo" title="Grafo">grafo</a> non diretto, connesso e aciclico mentre per <i>grado</i> di un nodo si intende il numero di sotto alberi del nodo, che è uguale al numero di figli del nodo.
+</p><p>Anche l'albero costituito da un solo nodo e nessun <a href="/wiki/Arco_(teoria_dei_grafi)" class="mw-redirect" title="Arco (teoria dei grafi)">arco</a> si considera un albero binario valido, sebbene il grado del nodo in questo caso sia nullo.
+</p><p>Come nel caso generale degli alberi è possibile individuare (in maniera <b>non</b> unica) un nodo radice: qualunque nodo di grado minore di 3 può essere scelto come radice dell'albero binario. Stabilito un nodo radice è possibile costruire delle relazioni di parentela tra nodi: il nodo radice non ha padre e può avere 0, 1 o 2 figli, ed ogni nodo è ovviamente padre dei suoi figli. Poiché tutti i nodi tranne la radice hanno un padre, per via della limitazione sul grado dei nodi ogni nodo può avere al massimo 2 figli (da qui il nome "albero binario").
+</p><p>I nodi senza figli vengono detti <i>foglie</i> o nodi terminali; un nodo non foglia è un nodo interno.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="it" dir="ltr"><h2 id="mw-toc-heading">Indice</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Implementare_gli_alberi_binari"><span class="tocnumber">1</span> <span class="toctext">Implementare gli alberi binari</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Implementare_gli_alberi_di_ricerca_binari_su_array"><span class="tocnumber">2</span> <span class="toctext">Implementare gli alberi di ricerca binari su array</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Implementare_gli_alberi_binari_tramite_puntatori"><span class="tocnumber">3</span> <span class="toctext">Implementare gli alberi binari tramite puntatori</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Una_semplice_implementazione_in_C"><span class="tocnumber">3.1</span> <span class="toctext">Una semplice implementazione in C</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Algoritmi_elementari_su_alberi_binari"><span class="tocnumber">4</span> <span class="toctext">Algoritmi elementari su alberi binari</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Determinazione_numero_nodi_in_un_albero_binario"><span class="tocnumber">4.1</span> <span class="toctext">Determinazione numero nodi in un albero binario</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Determinazione_dell&#39;altezza"><span class="tocnumber">4.2</span> <span class="toctext">Determinazione dell'altezza</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Determinazione_della_larghezza"><span class="tocnumber">4.3</span> <span class="toctext">Determinazione della larghezza</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Voci_correlate"><span class="tocnumber">5</span> <span class="toctext">Voci correlate</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Altri_progetti"><span class="tocnumber">6</span> <span class="toctext">Altri progetti</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Collegamenti_esterni"><span class="tocnumber">7</span> <span class="toctext">Collegamenti esterni</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Implementare_gli_alberi_binari">Implementare gli alberi binari</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_binario&amp;veaction=edit&amp;section=1" title="Modifica la sezione Implementare gli alberi binari" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_binario&amp;action=edit&amp;section=1" title="Edit section&#039;s source code: Implementare gli alberi binari"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In questa sezione trattiamo l'implementazione degli alberi binari dal punto di vista teorico, facendo ricorso a strutture di programmazione generiche; sarà poi compito del <a href="/wiki/Programmatore" title="Programmatore">programmatore</a> decidere come implementare queste strutture sulla base del <a href="/wiki/Linguaggio_di_programmazione" title="Linguaggio di programmazione">linguaggio di programmazione</a> che si troverà ad usare.
+</p><p>Esistono vari sistemi, ma il più semplice risulta essere quello che utilizza un <a href="/wiki/Array" title="Array">array</a> che contiene i nodi dell'albero secondo questa logica: la radice occupa la prima posizione dell'array e i figli di questa radice sono a loro volta nell'array e occupano come posizione (2i) e (2i+1) dove i è la posizione della radice, del padre, dei due figli.
+</p><p>Si fa notare che questa implementazione è ottimale se l'albero è pieno cioè se tutti gli elementi che costituiscono l'albero hanno esattamente due figli, tranne ovviamente le foglie, altrimenti è necessario un flag <a href="/wiki/Variabile_booleana" class="mw-redirect" title="Variabile booleana">booleano</a>, in realtà un array di accompagnamento, che ci indica se la posizione è valida o meno.
+</p>
+<figure class="mw-halign-center" typeof="mw:File"><a href="/wiki/File:Mg744Albero1.PNG" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mg744Albero1.PNG/200px-Mg744Albero1.PNG" decoding="async" width="200" height="152" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mg744Albero1.PNG/300px-Mg744Albero1.PNG 1.5x, //upload.wikimedia.org/wikipedia/commons/2/27/Mg744Albero1.PNG 2x" data-file-width="360" data-file-height="274" /></a><figcaption></figcaption></figure>
+<p>Interpretiamola: in A, posizione 1, c'è sempre la radice, in posizione 2 e 3 troviamo i figli B e C. Prendiamo il figlio B, posizione 2, i suoi figli sono in 4 e 5, ma, la colonna dei flag ci dice che le posizioni 4 e 5 sono disattivate, infatti B non ha figli, al contrario, C posizione 3, in 6 e 7 ha proprio i valori cercati e cioè i suoi due figli D, E.
+</p><p>I vantaggi dell'utilizzo di questa implementazione sono la semplicità di accesso e la semplicità di gestione degli elementi della lista, al contrario, le operazioni di inserimento e in generale la dimensione considerevole di un <a href="/wiki/Array" title="Array">array</a> di un grande albero giocano a sfavore di questa implementazione che risulta essere di conseguenza sconveniente da usare.
+</p><p>Un'altra implementazione che prevede l'uso di array è quello della <i>rappresentazione collegata con array</i>, in cui, in una tabella a tre colonne abbiamo, rispettivamente per riga, in quella centrale il valore, in quella sinistra l'indirizzo del figlio sinistro e in quella destra l'indirizzo di quello destro.
+È necessario aggiungere una variabile inizio per indicare il punto in cui dobbiamo iniziare l'analisi, al contrario, se un indirizzo è a zero è da considerarsi <a href="/wiki/NULL" title="NULL">NULL</a>.
+</p>
+<figure class="mw-halign-center" typeof="mw:File"><a href="/wiki/File:Mg744Albero2.PNG" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mg744Albero2.PNG/200px-Mg744Albero2.PNG" decoding="async" width="200" height="138" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mg744Albero2.PNG/300px-Mg744Albero2.PNG 1.5x, //upload.wikimedia.org/wikipedia/commons/3/35/Mg744Albero2.PNG 2x" data-file-width="396" data-file-height="274" /></a><figcaption></figcaption></figure>
+<div style="text-align:center;"><b>Inizio = 1</b></div> 			
+<p>Iniziando da 1, A ha figli che sono in 2 e 3, il figlio B non ha discendenti, quello C invece ha come discendenti 4 a sinistra e 5 a destra, cioè D ed E.
+</p><p>Lo stesso risultato si può ottenere prendendo in considerazione anziché un <a href="/wiki/Array" title="Array">array</a>, un semplice nodo strutturato a tre campi, etichetta, figlio sinistro, figlio destro e con un puntatore al primo nodo, e di fatto ci ricolleghiamo all'immagine di accompagnamento alle due tabelle precedenti.
+</p><p><b>Profondità di un albero</b>: La radice r ha profondità 0, i suoi figli sinistro e destro, hanno profondità 1, i nipoti profondità 2 e così via. Quindi se la profondità di un nodo è p i suoi figli non vuoti hanno profondità p+1
+</p><p>Per quanto riguarda l&#39;<b>altezza</b> h di un albero binario è data dalla massima profondità raggiunta dalle sue foglie. Quindi, l'altezza misura la massima distanza di una foglia dalla radice dell'albero, in termini di numero di archi attraversati.
+Poiché la definizione di alberi si applica anche ai sotto alberi, è più efficiente e semplice trovare l'altezza di un albero binario osservando che l'albero composto da un solo nodo ha altezza pari a 0, mentre un albero con almeno due nodi ha altezza pari all'altezza del suo sottoalbero più alto, incrementata di uno in quanto la radice introduce un ulteriore livello
+</p>
+<div style="text-align:center;"><i><b>h=profondità del più lungo cammino</b></i></div>
+<p>Nel caso dell'albero nella figura qui sopra, l'altezza h è 0(foglie)+1(figli radice)+1(radice)=2.
+</p><p>Esistono alcune formule per calcolare le caratteristiche degli alberi:
+</p>
+<table>
+<tbody><tr>
+<td><b><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle Log_{2}(n+1)-1}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>L</mi>
+        <mi>o</mi>
+        <msub>
+          <mi>g</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msub>
+        <mo stretchy="false">(</mo>
+        <mi>n</mi>
+        <mo>+</mo>
+        <mn>1</mn>
+        <mo stretchy="false">)</mo>
+        <mo>&#x2212;<!-- − --></mo>
+        <mn>1</mn>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle Log_{2}(n+1)-1}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/dd795c580f763c7dc7340b493fd55eddd2c70004" class="mwe-math-fallback-image-inline mw-invert" aria-hidden="true" style="vertical-align: -0.838ex; width:16.083ex; height:2.843ex;" alt="Log_{2}(n+1)-1"></span></b></td>
+<td>Altezza di un albero binario bilanciato pieno di n nodi
+</td></tr>
+<tr>
+<td><b><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle 2^{h+1}-1}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msup>
+          <mn>2</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>h</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+          </mrow>
+        </msup>
+        <mo>&#x2212;<!-- − --></mo>
+        <mn>1</mn>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle 2^{h+1}-1}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/942650818fce75c77b1e2b0941ca54e01434bdbf" class="mwe-math-fallback-image-inline mw-invert" aria-hidden="true" style="vertical-align: -0.505ex; width:8.445ex; height:2.843ex;" alt="2^{{h+1}}-1"></span></b></td>
+<td>Numero massimo di nodi in un albero binario di altezza h
+</td></tr>
+<tr>
+<td><b><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle h}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>h</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle h}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b26be3e694314bc90c3215047e4a2010c6ee184a" class="mwe-math-fallback-image-inline mw-invert" aria-hidden="true" style="vertical-align: -0.338ex; width:1.339ex; height:2.176ex;" alt="h"></span></b></td>
+<td>Altezza o numero minimo di nodi di un albero con altezza h
+</td></tr>
+<tr>
+<td><b><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle 2^{l}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msup>
+          <mn>2</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>l</mi>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle 2^{l}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d99018c1b3139cf29ec7d875e018f3188350ada1" class="mwe-math-fallback-image-inline mw-invert" aria-hidden="true" style="vertical-align: -0.338ex; width:1.885ex; height:2.676ex;" alt="2^{l}"></span></b></td>
+<td>Numero massimo di nodi ad un livello l (elle)
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Implementare_gli_alberi_di_ricerca_binari_su_array">Implementare gli alberi di ricerca binari su array</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_binario&amp;veaction=edit&amp;section=2" title="Modifica la sezione Implementare gli alberi di ricerca binari su array" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_binario&amp;action=edit&amp;section=2" title="Edit section&#039;s source code: Implementare gli alberi di ricerca binari su array"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Se non è necessario effettuare frequentemente operazioni di inserimento e cancellazioni o non è affatto necessario effettuarle e non si vuole usare troppa memoria è possibile implementare un albero di ricerca binario su un array ordinato, con la restrizione che il numero degli elementi sia <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle 2^{n}-1}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msup>
+          <mn>2</mn>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msup>
+        <mo>&#x2212;<!-- − --></mo>
+        <mn>1</mn>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle 2^{n}-1}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/51e4bd4ef2f9549d026cbf643a91c0d12a8c6794" class="mwe-math-fallback-image-inline mw-invert" aria-hidden="true" style="vertical-align: -0.505ex; width:6.384ex; height:2.509ex;" alt="2^{{n}}-1"></span> con <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle n\in \mathbb {N} }">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>n</mi>
+        <mo>&#x2208;<!-- ∈ --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="double-struck">N</mi>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle n\in \mathbb {N} }</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d059936e77a2d707e9ee0a1d9575a1d693ce5d0b" class="mwe-math-fallback-image-inline mw-invert" aria-hidden="true" style="vertical-align: -0.338ex; width:5.913ex; height:2.176ex;" alt="n\in \mathbb{N} "></span>.
+</p><p><span class="mw-default-size" typeof="mw:File"><a href="/wiki/File:Albero-su-array.png" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/5/59/Albero-su-array.png" decoding="async" width="551" height="133" class="mw-file-element" data-file-width="551" data-file-height="133" /></a></span>
+</p><p>L'immagine sopra mostra un albero di ricerca binario implementato su un array ordinato di 15 elementi, si comincia ponendo il centro dell'array come radice dell'albero e come sue foglie rispettivamente il centro della parte destra dell'array e il centro della parte sinistra dell'array, si continua applicando ricorsivamente il procedimento fino a che non sono stati coperti tutti gli elementi. Si ottiene quindi l'equivalente dell'albero
+</p><p><span class="mw-default-size" typeof="mw:File"><a href="/wiki/File:Albero-di-ricerca-binario.png" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/2/25/Albero-di-ricerca-binario.png" decoding="async" width="534" height="191" class="mw-file-element" data-file-width="534" data-file-height="191" /></a></span>
+</p><p>lo pseudo-algoritmo per la ricerca di una chiave è
+</p>
+<pre>Ricerca di una chiave
+   N:= numero di elementi dell'albero (2^k-1)
+   A:= array delle N chiavi ordinate in ordine crescente, A[0], A[1] .. A[N - 1]
+   key:= chiave da cercare
+   jump:= (N + 1)/4
+   i: = (N - 1)/2
+   while jump &#62; 0 do
+       if key == A[i] then
+           ricerca finita
+       else if key &#60; A[i] then
+           i = i - jump
+       else if key &#62; A[i] then
+           i = i + jump
+       endif
+       jump = jump / 2
+   done
+   nessun risultato
+</pre>
+<p>Suddetta modalità di visualizzazione di un albero binario sfrutta la definizione di <i>skip-list</i>, ossia di albero binario i cui elementi sono ordinati e si sfrutta una <a href="/wiki/Algoritmo_randomizzato" title="Algoritmo randomizzato">algoritmo randomizzato</a>.
+In una <a href="/wiki/Skip_list" title="Skip list">skip list</a> per cercare un elemento non facciamo altro che creare nuove liste a partire da quella di partenza L0, dimezzando ogni volta gli elementi seguendo la regola (n/2^i)=2, cioè sappiamo che possiamo creare Li liste fino a che non arriviamo alla lista con il minor numero di elementi, ossia 2. La skip list è molto utile se vogliamo trovare un elemento in quanto nella ricerca dobbiamo partire dalla lista L(lgn) e scendere cercando sempre il primo elemento più grande del valore cercato x; è un buon algoritmo anche se è costoso in termini di spazio, ma è più difficile aggiungere o cancellare un elemento.
+</p>
+<h2><span class="mw-headline" id="Implementare_gli_alberi_binari_tramite_puntatori">Implementare gli alberi binari tramite puntatori</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_binario&amp;veaction=edit&amp;section=3" title="Modifica la sezione Implementare gli alberi binari tramite puntatori" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_binario&amp;action=edit&amp;section=3" title="Edit section&#039;s source code: Implementare gli alberi binari tramite puntatori"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Un modo semplice per implementare gli alberi binari di ricerca è quello di usare i puntatori.
+Nell'implementazione classica ogni nodo dell'albero oltre al suo valore ha un puntatore al figlio destro ed uno al figlio sinistro, in questo modo è possibile, partendo dalla radice, discendere nell'albero fino ad arrivare alle foglie.
+Tutti i nodi sono uguali, l'unica differenza è che nessun nodo punterà alla radice (infatti la radice non è né un figlio destro, né un figlio sinistro), e le foglie non avendo figli non punteranno a nulla (nil, NULL value).
+</p>
+<h3><span class="mw-headline" id="Una_semplice_implementazione_in_C">Una semplice implementazione in C</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_binario&amp;veaction=edit&amp;section=4" title="Modifica la sezione Una semplice implementazione in C" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_binario&amp;action=edit&amp;section=4" title="Edit section&#039;s source code: Una semplice implementazione in C"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-highlight-lang-c mw-content-ltr mw-highlight-lines" dir="ltr"><pre><span></span><span class="linenos" data-line="1"></span><span class="cm">/*************************************************************************************************************</span>
+<span class="linenos" data-line="2"></span><span class="cm">* In questo file verranno incluse le funzioni necessarie a costruire un albero binario, </span>
+<span class="linenos" data-line="3"></span><span class="cm">* e gestirlo tramite</span>
+<span class="linenos" data-line="4"></span><span class="cm">* i puntatori che ogni radice ha verso il figlio destro e il figlio sinistro.</span>
+<span class="linenos" data-line="5"></span><span class="cm">* L&#39;interfaccia è abbastanza semplice, una volta avviato si arriva ad un menu.</span>
+<span class="linenos" data-line="6"></span><span class="cm">* Si consiglia per compilarlo sotto *nix di usare &quot;gcc -o btree binarytree.c&quot; , </span>
+<span class="linenos" data-line="7"></span><span class="cm">* Per avviarlo invece, come suggerisce l&#39;ERRORE di parametri</span>
+<span class="linenos" data-line="8"></span><span class="cm">* sarà utile seguire la forma ./btree &lt;nomefile&gt;, in cui nomefile può anche contenere il path completo.</span>
+<span class="linenos" data-line="9"></span><span class="cm">* i dati presenti in nomefile devono essere degli interi separati da spazi.</span>
+<span class="linenos" data-line="10"></span><span class="cm">**************************************************************************************************************/</span>
+<span class="linenos" data-line="11"></span>
+<span class="linenos" data-line="12"></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+<span class="linenos" data-line="13"></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span>
+<span class="linenos" data-line="14"></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdbool.h&gt;</span>
+<span class="linenos" data-line="15"></span>
+<span class="linenos" data-line="16"></span><span class="kt">FILE</span><span class="w"> </span><span class="o">*</span><span class="n">intfile</span><span class="p">;</span>
+<span class="linenos" data-line="17"></span>
+<span class="linenos" data-line="18"></span><span class="k">typedef</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nc">T</span><span class="p">{</span><span class="w">  </span><span class="c1">//Comincio a definire la struttura che mi servirà</span>
+<span class="linenos" data-line="19"></span><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">value</span><span class="p">;</span><span class="w">  </span><span class="c1">//Come posso notare ho il valore attuale e due puntatori: uno al figlio sinistro</span>
+<span class="linenos" data-line="20"></span><span class="w">    </span><span class="k">struct</span><span class="w"> </span><span class="nc">T</span><span class="w"> </span><span class="o">*</span><span class="n">T_l</span><span class="p">,</span><span class="w"> </span><span class="o">*</span><span class="n">T_r</span><span class="p">;</span><span class="w">  </span><span class="c1">//E l&#39;altro al figlio destro</span>
+<span class="linenos" data-line="21"></span><span class="p">}</span><span class="o">*</span><span class="n">tree</span><span class="p">,</span><span class="w"> </span><span class="n">dim</span><span class="p">;</span>
+<span class="linenos" data-line="22"></span>
+<span class="linenos" data-line="23"></span><span class="n">tree</span><span class="w"> </span><span class="nf">mergetree</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">el</span><span class="p">,</span><span class="w"> </span><span class="n">tree</span><span class="w"> </span><span class="n">t1</span><span class="p">,</span><span class="w"> </span><span class="n">tree</span><span class="w"> </span><span class="n">t2</span><span class="p">){</span><span class="w">  </span><span class="c1">//Mergetree unisce due alberi</span>
+<span class="linenos" data-line="24"></span><span class="w">    </span><span class="n">tree</span><span class="w"> </span><span class="n">t0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">tree</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="n">dim</span><span class="p">));</span>
+<span class="linenos" data-line="25"></span><span class="w">    </span><span class="n">t0</span><span class="o">-&gt;</span><span class="n">T_l</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">t1</span><span class="p">;</span>
+<span class="linenos" data-line="26"></span><span class="w">    </span><span class="n">t0</span><span class="o">-&gt;</span><span class="n">T_r</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">t2</span><span class="p">;</span>
+<span class="linenos" data-line="27"></span><span class="w">    </span><span class="n">t0</span><span class="o">-&gt;</span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">el</span><span class="p">;</span>
+<span class="linenos" data-line="28"></span><span class="w">    </span><span class="k">return</span><span class="p">(</span><span class="n">t0</span><span class="p">);</span>
+<span class="linenos" data-line="29"></span><span class="p">}</span>
+<span class="linenos" data-line="30"></span>
+<span class="linenos" data-line="31"></span><span class="n">tree</span><span class="w"> </span><span class="nf">createleaf</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">el</span><span class="p">){</span>
+<span class="linenos" data-line="32"></span><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">mergetree</span><span class="p">(</span><span class="n">el</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="nb">NULL</span><span class="p">);</span><span class="w">  </span><span class="c1">//Ogni foglia è formata da un valore e due puntatori nulli</span>
+<span class="linenos" data-line="33"></span><span class="p">}</span>
+<span class="linenos" data-line="34"></span>
+<span class="linenos" data-line="35"></span><span class="kt">int</span><span class="w"> </span><span class="nf">isvoidtree</span><span class="p">(</span><span class="n">tree</span><span class="w"> </span><span class="n">t</span><span class="p">){</span><span class="w">  </span><span class="c1">//Verifico che un albero sia vuoto</span>
+<span class="linenos" data-line="36"></span><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="n">t</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nb">NULL</span><span class="p">);</span><span class="w">  </span><span class="c1">//Se non c&#39;è nulla è ovvio che è un albero vuoto...</span>
+<span class="linenos" data-line="37"></span><span class="p">}</span>
+<span class="linenos" data-line="38"></span>
+<span class="linenos" data-line="39"></span><span class="n">tree</span><span class="w"> </span><span class="nf">leftchild</span><span class="p">(</span><span class="n">tree</span><span class="w"> </span><span class="n">t</span><span class="p">){</span><span class="w">  </span><span class="c1">//Restituisce il figlio sinistro accedendo alla struttura tree</span>
+<span class="linenos" data-line="40"></span><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">t</span><span class="o">-&gt;</span><span class="n">T_l</span><span class="p">;</span>
+<span class="linenos" data-line="41"></span><span class="p">}</span>
+<span class="linenos" data-line="42"></span>
+<span class="linenos" data-line="43"></span><span class="n">tree</span><span class="w"> </span><span class="nf">rightchild</span><span class="p">(</span><span class="n">tree</span><span class="w"> </span><span class="n">t</span><span class="p">){</span><span class="w">  </span><span class="c1">//Restituisce il figlio destro, accedendo alla struttura tree</span>
+<span class="linenos" data-line="44"></span><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">t</span><span class="o">-&gt;</span><span class="n">T_r</span><span class="p">;</span>
+<span class="linenos" data-line="45"></span><span class="p">}</span>
+<span class="linenos" data-line="46"></span>
+<span class="linenos" data-line="47"></span><span class="kt">int</span><span class="w"> </span><span class="nf">root</span><span class="p">(</span><span class="n">tree</span><span class="w"> </span><span class="n">t</span><span class="p">){</span><span class="w">  </span><span class="c1">//Restituisce la radice, sempre facendo accesso alla struttura</span>
+<span class="linenos" data-line="48"></span><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">t</span><span class="o">-&gt;</span><span class="n">value</span><span class="p">;</span>
+<span class="linenos" data-line="49"></span><span class="p">}</span>
+<span class="linenos" data-line="50"></span>
+<span class="linenos" data-line="51"></span><span class="n">tree</span><span class="w"> </span><span class="nf">insert</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">el</span><span class="p">,</span><span class="w"> </span><span class="n">tree</span><span class="w"> </span><span class="n">t</span><span class="p">){</span><span class="w">  </span><span class="c1">//Si inserisce un intero el, nell&#39;albero t</span>
+<span class="linenos" data-line="52"></span><span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">isvoidtree</span><span class="p">(</span><span class="n">t</span><span class="p">)){</span><span class="w">  </span><span class="c1">//Se l&#39;albero è vuoto, allora verrà creata una foglia</span>
+<span class="linenos" data-line="53"></span><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">createleaf</span><span class="p">(</span><span class="n">el</span><span class="p">);</span>
+<span class="linenos" data-line="54"></span><span class="w">    </span><span class="p">}</span>
+<span class="linenos" data-line="55"></span><span class="w">    </span>
+<span class="linenos" data-line="56"></span><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">root</span><span class="p">(</span><span class="n">t</span><span class="p">)</span><span class="o">&gt;=</span><span class="n">el</span><span class="p">){</span><span class="w">  </span><span class="c1">//Altrimenti si procede da direttive, ovvero se il valore della radice è &gt;= dell&#39;elemento</span>
+<span class="linenos" data-line="57"></span><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">mergetree</span><span class="p">(</span><span class="n">root</span><span class="p">(</span><span class="n">t</span><span class="p">),</span><span class="w"> </span><span class="n">insert</span><span class="p">(</span><span class="n">el</span><span class="p">,</span><span class="n">leftchild</span><span class="p">(</span><span class="n">t</span><span class="p">)),</span><span class="w"> </span><span class="n">rightchild</span><span class="p">(</span><span class="n">t</span><span class="p">));</span><span class="w">  </span><span class="c1">//Andrà a sinistra</span>
+<span class="linenos" data-line="58"></span><span class="w">    </span><span class="p">}</span>
+<span class="linenos" data-line="59"></span><span class="w">    </span>
+<span class="linenos" data-line="60"></span><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">root</span><span class="p">(</span><span class="n">t</span><span class="p">)</span><span class="o">&lt;</span><span class="n">el</span><span class="p">){</span><span class="w">  </span><span class="c1">//Ae la radice è invece minore dell&#39;elemento, verrà inserita a destra.</span>
+<span class="linenos" data-line="61"></span><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">mergetree</span><span class="p">(</span><span class="n">root</span><span class="p">(</span><span class="n">t</span><span class="p">),</span><span class="w"> </span><span class="n">leftchild</span><span class="p">(</span><span class="n">t</span><span class="p">),</span><span class="w"> </span><span class="n">insert</span><span class="p">(</span><span class="n">el</span><span class="p">,</span><span class="w"> </span><span class="n">rightchild</span><span class="p">(</span><span class="n">t</span><span class="p">)));</span>
+<span class="linenos" data-line="62"></span><span class="w">    </span><span class="p">}</span><span class="k">else</span><span class="p">{</span>
+<span class="linenos" data-line="63"></span><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">t</span><span class="p">;</span>
+<span class="linenos" data-line="64"></span><span class="w">    </span><span class="p">}</span>
+<span class="linenos" data-line="65"></span><span class="p">}</span>
+<span class="linenos" data-line="66"></span>
+<span class="linenos" data-line="67"></span><span class="kt">int</span><span class="w"> </span><span class="nf">mintree</span><span class="p">(</span><span class="n">tree</span><span class="w"> </span><span class="n">t</span><span class="p">){</span><span class="w">  </span><span class="c1">//Trovo il minimo per dicotomia: sapendo che più mi muovo in basso</span>
+<span class="linenos" data-line="68"></span><span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">isvoidtree</span><span class="p">(</span><span class="n">leftchild</span><span class="p">(</span><span class="n">t</span><span class="p">))){</span>
+<span class="linenos" data-line="69"></span><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">root</span><span class="p">(</span><span class="n">t</span><span class="p">);</span><span class="w">  </span><span class="c1">//Ed a sinistra, più ho un numero piccolo.</span>
+<span class="linenos" data-line="70"></span><span class="w">    </span><span class="p">}</span><span class="k">else</span><span class="p">{</span>
+<span class="linenos" data-line="71"></span><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">mintree</span><span class="p">(</span><span class="n">leftchild</span><span class="p">(</span><span class="n">t</span><span class="p">));</span><span class="w">  </span><span class="c1">//Ripeto la procedura ricorsivamente.</span>
+<span class="linenos" data-line="72"></span><span class="w">    </span><span class="p">}</span>
+<span class="linenos" data-line="73"></span><span class="p">}</span>
+<span class="linenos" data-line="74"></span>
+<span class="linenos" data-line="75"></span><span class="kt">int</span><span class="w"> </span><span class="nf">maxtree</span><span class="p">(</span><span class="n">tree</span><span class="w"> </span><span class="n">t</span><span class="p">){</span>
+<span class="linenos" data-line="76"></span><span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">isvoidtree</span><span class="p">(</span><span class="n">rightchild</span><span class="p">(</span><span class="n">t</span><span class="p">))){</span>
+<span class="linenos" data-line="77"></span><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">root</span><span class="p">(</span><span class="n">t</span><span class="p">);</span><span class="w">  </span><span class="c1">//Come per il minimo, solo che in questo caso</span>
+<span class="linenos" data-line="78"></span><span class="w">    </span><span class="p">}</span><span class="k">else</span><span class="p">{</span>
+<span class="linenos" data-line="79"></span><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">maxtree</span><span class="p">(</span><span class="n">rightchild</span><span class="p">(</span><span class="n">t</span><span class="p">));</span><span class="w">  </span><span class="c1">//Mi muovo in basso a destra</span>
+<span class="linenos" data-line="80"></span><span class="w">    </span><span class="p">}</span>
+<span class="linenos" data-line="81"></span><span class="p">}</span>
+<span class="linenos" data-line="82"></span>
+<span class="linenos" data-line="83"></span><span class="kt">void</span><span class="w"> </span><span class="nf">showtree</span><span class="p">(</span><span class="n">tree</span><span class="w"> </span><span class="n">t</span><span class="p">){</span>
+<span class="linenos" data-line="84"></span><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<span class="linenos" data-line="85"></span><span class="w">    </span>
+<span class="linenos" data-line="86"></span><span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">isvoidtree</span><span class="p">(</span><span class="n">t</span><span class="p">)</span><span class="o">==</span><span class="nb">false</span><span class="p">){</span>
+<span class="linenos" data-line="87"></span><span class="w">        </span><span class="n">showtree</span><span class="p">(</span><span class="n">leftchild</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+<span class="linenos" data-line="88"></span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%d &quot;</span><span class="p">,</span><span class="w"> </span><span class="n">root</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+<span class="linenos" data-line="89"></span><span class="w">        </span><span class="n">showtree</span><span class="p">(</span><span class="n">rightchild</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+<span class="linenos" data-line="90"></span><span class="w">    </span><span class="p">}</span>
+<span class="linenos" data-line="91"></span><span class="p">}</span>
+<span class="linenos" data-line="92"></span>
+<span class="linenos" data-line="93"></span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">argv</span><span class="p">[]){</span>
+<span class="linenos" data-line="94"></span><span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">argc</span><span class="o">&lt;</span><span class="mi">2</span><span class="p">){</span><span class="w">  </span><span class="c1">//Controllo che ci siano tutti i parametri</span>
+<span class="linenos" data-line="95"></span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;ERRORE: Per avviare il programma la sintassi è ./btree &lt;file&gt;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="linenos" data-line="96"></span><span class="w">        </span>
+<span class="linenos" data-line="97"></span><span class="w">        </span><span class="k">return</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="linenos" data-line="98"></span><span class="w">    </span><span class="p">}</span>
+<span class="linenos" data-line="99"></span><span class="w">    </span>
+<span class="linenos" data-line="100"></span><span class="w">    </span><span class="k">if</span><span class="p">((</span><span class="n">intfile</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fopen</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="s">&quot;r&quot;</span><span class="p">))</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nb">NULL</span><span class="p">){</span><span class="w">  </span><span class="c1">//Apro il file che mi serve</span>
+<span class="linenos" data-line="101"></span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;ERRORE: Non riesco ad aprire il file %s</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+<span class="linenos" data-line="102"></span><span class="w">        </span>
+<span class="linenos" data-line="103"></span><span class="w">        </span><span class="k">return</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+<span class="linenos" data-line="104"></span><span class="w">    </span><span class="p">}</span>
+<span class="linenos" data-line="105"></span><span class="w">    </span>
+<span class="linenos" data-line="106"></span><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;*Ho aperto il file %s.</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+<span class="linenos" data-line="107"></span><span class="w">    </span>
+<span class="linenos" data-line="108"></span><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">num</span><span class="p">;</span><span class="w"> </span><span class="c1">//Scansiono il file di interi</span>
+<span class="linenos" data-line="109"></span><span class="w">    </span><span class="n">tree</span><span class="w"> </span><span class="n">albero</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">NULL</span><span class="p">;</span><span class="w">  </span><span class="c1">//Inizializzo l&#39;albero vuoto</span>
+<span class="linenos" data-line="110"></span><span class="w">    </span>
+<span class="linenos" data-line="111"></span><span class="w">    </span><span class="k">while</span><span class="p">(</span><span class="n">fscanf</span><span class="p">(</span><span class="n">intfile</span><span class="p">,</span><span class="s">&quot;%d&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">num</span><span class="p">)</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">EOF</span><span class="p">){</span>
+<span class="linenos" data-line="112"></span><span class="w">        </span><span class="n">albero</span><span class="o">=</span><span class="n">insert</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="n">albero</span><span class="p">);</span>
+<span class="linenos" data-line="113"></span><span class="w">    </span><span class="p">}</span>
+<span class="linenos" data-line="114"></span><span class="w">    </span>
+<span class="linenos" data-line="115"></span><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;*Ho costruito l&#39;albero binario</span><span class="se">\n\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="linenos" data-line="116"></span><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Cosa vuoi fare adesso?</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="linenos" data-line="117"></span><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;[s]tampare l&#39;albero</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="linenos" data-line="118"></span><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Cercare il [m]inimo</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="linenos" data-line="119"></span><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Cercare il [M]assimo</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="linenos" data-line="120"></span><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;[u]scire.</span><span class="se">\n\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="linenos" data-line="121"></span><span class="w">    </span>
+<span class="linenos" data-line="122"></span><span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">tmp</span><span class="p">;</span>
+<span class="linenos" data-line="123"></span><span class="w">    </span>
+<span class="linenos" data-line="124"></span><span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;&gt;&quot;</span><span class="p">);</span>
+<span class="linenos" data-line="125"></span><span class="w">    </span>
+<span class="linenos" data-line="126"></span><span class="w">    </span><span class="k">while</span><span class="p">((</span><span class="n">tmp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">getchar</span><span class="p">())</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="sc">&#39;u&#39;</span><span class="p">){</span>
+<span class="linenos" data-line="127"></span><span class="w">        </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">tmp</span><span class="p">){</span>
+<span class="linenos" data-line="128"></span><span class="w">            </span><span class="k">case</span><span class="w"> </span><span class="sc">&#39;s&#39;</span><span class="p">:</span><span class="w">  </span><span class="c1">//Serve a mostrare l&#39;albero</span>
+<span class="linenos" data-line="129"></span><span class="w">                 </span><span class="n">showtree</span><span class="p">(</span><span class="n">albero</span><span class="p">);</span>
+<span class="linenos" data-line="130"></span><span class="w">                 </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="linenos" data-line="131"></span><span class="w">            </span><span class="k">break</span><span class="p">;</span>
+<span class="linenos" data-line="132"></span><span class="w">            </span>
+<span class="linenos" data-line="133"></span><span class="w">            </span><span class="k">case</span><span class="w"> </span><span class="sc">&#39;m&#39;</span><span class="p">:</span><span class="w">  </span><span class="c1">//Stampa a video il valore minimo</span>
+<span class="linenos" data-line="134"></span><span class="w">                 </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Il valore minimo dell&#39;albero binario è %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">mintree</span><span class="p">(</span><span class="n">albero</span><span class="p">));</span>
+<span class="linenos" data-line="135"></span><span class="w">            </span><span class="k">break</span><span class="p">;</span>
+<span class="linenos" data-line="136"></span><span class="w">            </span>
+<span class="linenos" data-line="137"></span><span class="w">            </span><span class="k">case</span><span class="w"> </span><span class="sc">&#39;M&#39;</span><span class="p">:</span><span class="w">  </span><span class="c1">//Stampa a video il valore massimo</span>
+<span class="linenos" data-line="138"></span><span class="w">                 </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Il valore massimo dell&#39;albero binario è %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">maxtree</span><span class="p">(</span><span class="n">albero</span><span class="p">));</span>
+<span class="linenos" data-line="139"></span><span class="w">            </span><span class="k">break</span><span class="p">;</span>
+<span class="linenos" data-line="140"></span><span class="w">            </span>
+<span class="linenos" data-line="141"></span><span class="w">            </span><span class="k">default</span><span class="o">:</span>
+<span class="linenos" data-line="142"></span><span class="w">                </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;&gt;&quot;</span><span class="p">);</span>
+<span class="linenos" data-line="143"></span><span class="w">            </span><span class="k">break</span><span class="p">;</span>
+<span class="linenos" data-line="144"></span><span class="w">        </span><span class="p">}</span>
+<span class="linenos" data-line="145"></span><span class="w">    </span><span class="p">}</span>
+<span class="linenos" data-line="146"></span><span class="w">    </span><span class="n">fclose</span><span class="p">(</span><span class="n">intfile</span><span class="p">);</span>
+<span class="linenos" data-line="147"></span><span class="w">    </span>
+<span class="linenos" data-line="148"></span><span class="w">    </span><span class="k">return</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+<span class="linenos" data-line="149"></span><span class="p">}</span>
+</pre></div>
+<h2><span class="mw-headline" id="Algoritmi_elementari_su_alberi_binari">Algoritmi elementari su alberi binari</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_binario&amp;veaction=edit&amp;section=5" title="Modifica la sezione Algoritmi elementari su alberi binari" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_binario&amp;action=edit&amp;section=5" title="Edit section&#039;s source code: Algoritmi elementari su alberi binari"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Determinazione_numero_nodi_in_un_albero_binario">Determinazione numero nodi in un albero binario</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_binario&amp;veaction=edit&amp;section=6" title="Modifica la sezione Determinazione numero nodi in un albero binario" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_binario&amp;action=edit&amp;section=6" title="Edit section&#039;s source code: Determinazione numero nodi in un albero binario"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-highlight-lang-actionscript mw-content-ltr" dir="ltr"><pre><span></span><span class="nx">INIZIO</span>
+
+<span class="nx">NumeroNodi</span><span class="w"> </span><span class="p">(</span><span class="nx">radice</span><span class="w"> </span><span class="nx">albero</span><span class="p">)</span><span class="w"> </span>
+<span class="w">    </span><span class="nx">Se</span><span class="w"> </span><span class="nx">radice</span><span class="w"> </span><span class="nx">albero</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nx">NULL</span><span class="w"> </span><span class="p">(</span><span class="nx">l</span><span class="err">&#39;</span><span class="nx">albero</span><span class="w"> </span><span class="err">è</span><span class="w"> </span><span class="nx">vuoto</span><span class="p">)</span>
+<span class="w">       </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="o">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="nx">NumeroNodi</span><span class="p">(</span><span class="nx">figlio</span><span class="w"> </span><span class="nx">sinistro</span><span class="p">)</span><span class="o">+</span><span class="nx">NumeroNodi</span><span class="p">(</span><span class="nx">figlio</span><span class="w"> </span><span class="nx">destro</span><span class="p">))</span><span class="o">+</span><span class="mi">1</span><span class="o">;</span>
+<span class="w">    </span>
+<span class="nx">FINE</span>
+</pre></div>
+<h3><span id="Determinazione_dell.27altezza"></span><span class="mw-headline" id="Determinazione_dell'altezza">Determinazione dell'altezza</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_binario&amp;veaction=edit&amp;section=7" title="Modifica la sezione Determinazione dell&#039;altezza" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_binario&amp;action=edit&amp;section=7" title="Edit section&#039;s source code: Determinazione dell&#039;altezza"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-highlight-lang-ada mw-content-ltr" dir="ltr"><pre><span></span><span class="n">INIZIO</span>
+
+<span class="n">Altezza</span> <span class="p">(</span><span class="n">radice</span> <span class="n">albero</span><span class="p">)</span>
+
+    <span class="n">Se</span> <span class="n">radice</span> <span class="n">albero</span>  <span class="o">==</span>  <span class="kc">NULL</span>  <span class="p">(</span> <span class="n">se</span> <span class="n">l</span><span class="p">&#39;</span><span class="na">albero</span> <span class="n">è</span> <span class="n">vuoto</span><span class="p">)</span>
+           <span class="kr">return</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">valoreAltezzaSinistra</span> <span class="o">=</span> <span class="n">Altezza</span><span class="p">(</span><span class="n">figlio</span> <span class="n">sinistro</span><span class="p">);</span>
+    <span class="n">valoreAltezzaDestra</span>   <span class="o">=</span> <span class="n">Altezza</span><span class="p">(</span><span class="n">figlio</span> <span class="n">destro</span><span class="p">);</span>
+    <span class="kr">return</span> <span class="mi">1</span> <span class="o">+</span> <span class="n">max</span><span class="p">(</span><span class="n">valoreAltezzaDestra</span><span class="p">,</span> <span class="n">valoreAltezzaSinistra</span><span class="p">);</span>
+
+<span class="n">FINE</span>
+</pre></div>
+<h3><span class="mw-headline" id="Determinazione_della_larghezza">Determinazione della larghezza</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_binario&amp;veaction=edit&amp;section=8" title="Modifica la sezione Determinazione della larghezza" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_binario&amp;action=edit&amp;section=8" title="Edit section&#039;s source code: Determinazione della larghezza"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>La larghezza di un albero binario corrisponde al numero massimo di nodi giacenti al medesimo livello.
+</p><p>
+La determinazione di suddetta grandezza può essere ottenuta attraverso un'opportuna modifica della <a href="/wiki/Visita_in-order" title="Visita in-order">Visita in-order</a>: si fa uso di un vettore, dimensionato al pari del numero di nodi, inizialmente con valori tutti uguali a zero; la funzione <code>WrapperLarghezza</code> è deputata al passaggio corretto dei parametri alla funzione ricorsiva <code>Larghezza</code> , che ritorna il valore massimo contenuto nel vettore, cioè la larghezza dell'albero.</p><div class="mw-highlight mw-highlight-lang-actionscript mw-content-ltr" dir="ltr"><pre><span></span><span class="nx">INIZIO</span>
+
+<span class="nx">WrapperLarghezza</span><span class="p">(</span><span class="nx">radice</span><span class="w"> </span><span class="nx">albero</span><span class="p">)</span>
+
+<span class="w">    </span><span class="nx">Inizializzazione</span><span class="w"> </span><span class="nx">array</span><span class="w"> </span><span class="nx">livelli</span><span class="o">;</span>
+<span class="w">    </span><span class="nx">Larghezza</span><span class="p">(</span><span class="nx">radice</span><span class="w"> </span><span class="nx">albero</span><span class="o">,</span><span class="nx">array</span><span class="w"> </span><span class="nx">livelli</span><span class="o">,</span><span class="mi">0</span><span class="p">);</span>
+<span class="w">    </span><span class="nx">larghezza</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">CercaMassimoVettore</span><span class="p">(</span><span class="nx">array</span><span class="w"> </span><span class="nx">livelli</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">larghezza</span><span class="o">;</span>
+
+<span class="nx">Larghezza</span><span class="w"> </span><span class="p">(</span><span class="nx">radice</span><span class="w"> </span><span class="nx">albero</span><span class="o">,</span><span class="nx">array</span><span class="w"> </span><span class="nx">livelli</span><span class="o">,</span><span class="nx">livellocorrente</span><span class="p">)</span>
+<span class="w">   </span><span class="nx">Se</span><span class="w"> </span><span class="nx">radice</span><span class="w"> </span><span class="nx">albero</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nx">NULL</span><span class="w"> </span><span class="p">(</span><span class="nx">se</span><span class="w"> </span><span class="nx">l</span><span class="err">&#39;</span><span class="nx">albero</span><span class="w"> </span><span class="err">è</span><span class="w"> </span><span class="nx">vuoto</span><span class="p">)</span>
+<span class="w">        </span><span class="k">return</span><span class="o">;</span>
+<span class="w">    </span>
+<span class="w">   </span><span class="nx">livelli</span><span class="p">[</span><span class="nx">livellocorrente</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">livelli</span><span class="p">[</span><span class="nx">livellocorrente</span><span class="p">]</span><span class="o">+</span><span class="mi">1</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nx">Larghezza</span><span class="p">(</span><span class="nx">figlio</span><span class="w"> </span><span class="nx">sinistro</span><span class="o">,</span><span class="nx">array</span><span class="w"> </span><span class="nx">livelli</span><span class="o">,</span><span class="nx">livellocorrente</span><span class="o">+</span><span class="mi">1</span><span class="p">);</span>
+<span class="w">   </span><span class="nx">Larghezza</span><span class="p">(</span><span class="nx">figlio</span><span class="w"> </span><span class="nx">destro</span><span class="o">,</span><span class="nx">array</span><span class="w"> </span><span class="nx">livelli</span><span class="o">,</span><span class="nx">livellocorrente</span><span class="o">+</span><span class="mi">1</span><span class="p">);</span>
+
+<span class="w">   </span><span class="k">return</span><span class="o">;</span>
+
+<span class="nx">FINE</span>
+</pre></div>
+<h2><span class="mw-headline" id="Voci_correlate">Voci correlate</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_binario&amp;veaction=edit&amp;section=9" title="Modifica la sezione Voci correlate" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_binario&amp;action=edit&amp;section=9" title="Edit section&#039;s source code: Voci correlate"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Heap_binario" title="Heap binario">Heap binario</a></li>
+<li><a href="/wiki/Albero_AVL" title="Albero AVL">Albero AVL</a></li>
+<li><a href="/wiki/Animal_(videogioco)" title="Animal (videogioco)">Animal (videogioco)</a></li>
+<li><a href="/wiki/Albero_binario_di_ricerca" title="Albero binario di ricerca">Albero binario di ricerca</a></li></ul>
+<h2><span class="mw-headline" id="Altri_progetti">Altri progetti</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_binario&amp;veaction=edit&amp;section=10" title="Modifica la sezione Altri progetti" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_binario&amp;action=edit&amp;section=10" title="Edit section&#039;s source code: Altri progetti"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<div id="interProject" class="toccolours" style="display: none; clear: both; margin-top: 2em"><p id="sisterProjects" style="background-color: #efefef; font-weight: bold; margin: 0"><span>Altri progetti</span></p><ul title="Collegamenti verso gli altri progetti Wikimedia">
+<li class="" title=""><span class="plainlinks" title="commons:Category:Binary trees"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Binary_trees?uselang=it">Wikimedia Commons</a></span></li></ul></div>
+<ul><li><span typeof="mw:File"><a href="https://commons.wikimedia.org/wiki/?uselang=it" title="Collabora a Wikimedia Commons"><img alt="Collabora a Wikimedia Commons" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png" decoding="async" width="18" height="24" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/27px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/36px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a></span> <span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/?uselang=it">Wikimedia Commons</a></span> contiene immagini o altri file sull'<b><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Binary_trees?uselang=it">albero binario</a></span></b></li></ul>
+<h2><span class="mw-headline" id="Collegamenti_esterni">Collegamenti esterni</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Albero_binario&amp;veaction=edit&amp;section=11" title="Modifica la sezione Collegamenti esterni" class="mw-editsection-visualeditor"><span>modifica</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Albero_binario&amp;action=edit&amp;section=11" title="Edit section&#039;s source code: Collegamenti esterni"><span>modifica wikitesto</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li class="mw-empty-elt"></li>
+<li><cite id="CITEREFEnciclopedia_della_Matematica" class="citation libro" style="font-style:normal"> <a rel="nofollow" class="external text" href="https://www.treccani.it/enciclopedia/albero-binario_(Enciclopedia-della-Matematica)/"><span style="font-style:italic;">albero binario</span></a>, in <span style="font-style:italic;">Enciclopedia della Matematica</span>, <a href="/wiki/Istituto_dell%27Enciclopedia_Italiana" title="Istituto dell&#39;Enciclopedia Italiana">Istituto dell'Enciclopedia Italiana</a>, 2013.</cite> <span class="mw-valign-text-top noprint" typeof="mw:File/Frameless"><a href="https://www.wikidata.org/wiki/Q380172#P9621" title="Modifica su Wikidata"><img alt="Modifica su Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></li>
+<li><cite id="CITEREFMathWorld" class="citation web" style="font-style:normal">(<span style="font-weight:bolder; font-size:80%"><abbr title="inglese">EN</abbr></span>) Eric W. Weisstein, <a rel="nofollow" class="external text" href="http://mathworld.wolfram.com/BinaryTree.html"><span style="font-style:italic;">Albero binario</span></a>, su <span style="font-style:italic;"><a href="/wiki/MathWorld" title="MathWorld">MathWorld</a></span>, Wolfram Research.</cite> <span class="mw-valign-text-top noprint" typeof="mw:File/Frameless"><a href="https://www.wikidata.org/wiki/Q380172#P2812" title="Modifica su Wikidata"><img alt="Modifica su Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></li>
+<li><cite id="CITEREFSpringerEOM" class="citation web" style="font-style:normal">(<span style="font-weight:bolder; font-size:80%"><abbr title="inglese">EN</abbr></span>) <a rel="nofollow" class="external text" href="https://encyclopediaofmath.org/wiki/Binary_tree"><span style="font-style:italic;">Albero binario</span></a>, su <span style="font-style:italic;"><a href="/wiki/Encyclopaedia_of_Mathematics" title="Encyclopaedia of Mathematics">Encyclopaedia of Mathematics</a></span>, Springer e European Mathematical Society.</cite> <span class="mw-valign-text-top noprint" typeof="mw:File/Frameless"><a href="https://www.wikidata.org/wiki/Q380172#P7554" title="Modifica su Wikidata"><img alt="Modifica su Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></li>
+<li><cite class="citation testo" style="font-style:normal">(<span style="font-weight:bolder; font-size:80%"><abbr title="inglese">EN</abbr></span>) <span style="font-style:italic;"><a href="http://foldoc.org/binary_tree" class="extiw" title="foldoc:binary tree">binary tree</a></span>, in <span style="font-style:italic;"><a href="/wiki/Free_On-line_Dictionary_of_Computing" title="Free On-line Dictionary of Computing">Free On-line Dictionary of Computing</a></span>, Denis Howe.</cite> Disponibile con licenza <a href="/wiki/GNU_Free_Documentation_License" title="GNU Free Documentation License">GFDL</a></li></ul>
+<style data-mw-deduplicate="TemplateStyles:r126285437">.mw-parser-output .CdA{border:1px solid #aaa;width:100%;margin:auto;font-size:90%;padding:2px}.mw-parser-output .CdA th{background-color:#f2f2f2;font-weight:bold;width:20%}</style><table class="CdA"><tbody><tr><th><a href="/wiki/Aiuto:Controllo_di_autorit%C3%A0" title="Aiuto:Controllo di autorità">Controllo di autorità</a></th><td><a href="/wiki/Gemeinsame_Normdatei" title="Gemeinsame Normdatei">GND</a> <span class="uid">(<span style="font-weight:bolder; font-size:80%"><abbr title="tedesco">DE</abbr></span>)&#160;<a rel="nofollow" class="external text" href="https://d-nb.info/gnd/4145532-0">4145532-0</a></span></td></tr></tbody></table>
+<div class="noprint" style="width:100%; padding: 3px; display: flex; flex-wrap: wrap; row-gap: 4px; column-gap: 8px; box-sizing: border-box;"><div style="flex-basis: calc( 100% / 2 - 8px / 2 );"><div style="width:100%; line-height:25px; background-color: #F0EEFF; border:1px solid #CCF;"><span class="noviewer" typeof="mw:File"><a href="/wiki/File:Computer_n_screen.svg" class="mw-file-description" title="Informatica"><img alt="&#160;" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Computer_n_screen.svg/24px-Computer_n_screen.svg.png" decoding="async" width="24" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Computer_n_screen.svg/37px-Computer_n_screen.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/77/Computer_n_screen.svg/48px-Computer_n_screen.svg.png 2x" data-file-width="119" data-file-height="123" /></a></span>&#32;<b><a href="/wiki/Portale:Informatica" title="Portale:Informatica">Portale Informatica</a></b></div></div><div style="flex-basis: calc( 100% / 2 - 8px / 2 );"><div style="width:100%; line-height:25px; background-color: #F0EEFF; border:1px solid #CCF;"><span class="noviewer" typeof="mw:File"><a href="/wiki/File:Crystal128-kmplot.svg" class="mw-file-description" title="Matematica"><img alt="&#160;" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Crystal128-kmplot.svg/25px-Crystal128-kmplot.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Crystal128-kmplot.svg/38px-Crystal128-kmplot.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/af/Crystal128-kmplot.svg/50px-Crystal128-kmplot.svg.png 2x" data-file-width="245" data-file-height="244" /></a></span>&#32;<b><a href="/wiki/Portale:Matematica" title="Portale:Matematica">Portale Matematica</a></b></div></div></div>
+<!-- 
+NewPP limit report
+Parsed by mw2369
+Cached time: 20231225053024
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.229 seconds
+Real time usage: 0.361 seconds
+Preprocessor visited node count: 4924/1000000
+Post‐expand include size: 12141/2097152 bytes
+Template argument size: 1561/2097152 bytes
+Highest expansion depth: 15/100
+Expensive parser function count: 10/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 38470/5000000 bytes
+Lua time usage: 0.115/10.000 seconds
+Lua memory usage: 5536532/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  250.916      1 -total
+ 51.74%  129.819      1 Template:Collegamenti_esterni
+ 16.63%   41.733      1 Template:F
+ 16.08%   40.348      1 Template:Avviso
+ 14.16%   35.520      1 Template:Interprogetto
+ 11.91%   29.882      1 Template:Categorie_avviso
+  9.99%   25.063      3 Template:Rp
+  9.02%   22.623      1 Template:Portale
+  6.34%   15.906      2 Template:Icona_argomento
+  4.31%   10.806      1 Template:Controllo_di_autorità
+-->
+
+<!-- Saved in parser cache with key itwiki:pcache:idhash:256114-0!canonical and timestamp 20231225053023 and revision id 136696880. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Estratto da "<a dir="ltr" href="https://it.wikipedia.org/w/index.php?title=Albero_binario&amp;oldid=136696880">https://it.wikipedia.org/w/index.php?title=Albero_binario&amp;oldid=136696880</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Categoria:Categorie" title="Categoria:Categorie">Categoria</a>: <ul><li><a href="/wiki/Categoria:Alberi_binari" title="Categoria:Alberi binari">Alberi binari</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Categorie nascoste: <ul><li><a href="/wiki/Categoria:Senza_fonti_-_informatica" title="Categoria:Senza fonti - informatica">Senza fonti - informatica</a></li><li><a href="/wiki/Categoria:Senza_fonti_-_ottobre_2015" title="Categoria:Senza fonti - ottobre 2015">Senza fonti - ottobre 2015</a></li><li><a href="/wiki/Categoria:P9621_letta_da_Wikidata" title="Categoria:P9621 letta da Wikidata">P9621 letta da Wikidata</a></li><li><a href="/wiki/Categoria:P2812_letta_da_Wikidata" title="Categoria:P2812 letta da Wikidata">P2812 letta da Wikidata</a></li><li><a href="/wiki/Categoria:P7554_letta_da_Wikidata" title="Categoria:P7554 letta da Wikidata">P7554 letta da Wikidata</a></li><li><a href="/wiki/Categoria:Voci_con_codice_GND" title="Categoria:Voci con codice GND">Voci con codice GND</a></li><li><a href="/wiki/Categoria:Voci_non_biografiche_con_codici_di_controllo_di_autorit%C3%A0" title="Categoria:Voci non biografiche con codici di controllo di autorità">Voci non biografiche con codici di controllo di autorità</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Menu di navigazione</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="mw-portlet mw-portlet-personal vector-user-menu-legacy vector-menu" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Strumenti personali</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="La pagina utente di questo indirizzo IP">Accesso non effettuato</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Speciale:MieDiscussioni" title="Discussioni sulle modifiche fatte da questo indirizzo IP [n]" accesskey="n"><span>discussioni</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Speciale:MieiContributi" title="Un elenco delle modifiche fatte da questo indirizzo IP [y]" accesskey="y"><span>contributi</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Speciale:CreaUtenza&amp;returnto=Albero+binario" title="Si consiglia di registrarsi e di effettuare l&#039;accesso, anche se non è obbligatorio"><span>registrati</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Speciale:Entra&amp;returnto=Albero+binario" title="Si consiglia di effettuare l&#039;accesso, anche se non è obbligatorio [o]" accesskey="o"><span>entra</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy vector-menu" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespace</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/Albero_binario" title="Vedi la voce [c]" accesskey="c"><span>Voce</span></a></li><li id="ca-talk" class="mw-list-item"><a href="/wiki/Discussione:Albero_binario" rel="discussion" title="Vedi le discussioni relative a questa pagina [t]" accesskey="t"><span>Discussione</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown vector-menu" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">italiano</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy vector-menu" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Visite</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/wiki/Albero_binario"><span>Leggi</span></a></li><li id="ca-ve-edit" class="mw-list-item"><a href="/w/index.php?title=Albero_binario&amp;veaction=edit" title="Modifica questa pagina [v]" accesskey="v"><span>Modifica</span></a></li><li id="ca-edit" class="collapsible mw-list-item"><a href="/w/index.php?title=Albero_binario&amp;action=edit" title="Modifica il wikitesto di questa pagina [e]" accesskey="e"><span>Modifica wikitesto</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=Albero_binario&amp;action=history" title="Versioni precedenti di questa pagina [h]" accesskey="h"><span>Cronologia</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown vector-menu" aria-labelledby="p-cactions-label" role="navigation"  title="Altre opzioni" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Altro</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<h3 >Ricerca</h3>
+	<form action="/w/index.php" id="searchform" class="vector-search-box-form">
+		<div id="simpleSearch"
+			class="vector-search-box-inner"
+			 data-search-loc="header-navigation">
+			<input class="vector-search-box-input"
+				 type="search" name="search" placeholder="Cerca in Wikipedia" aria-label="Cerca in Wikipedia" autocapitalize="sentences" title="Cerca in Wikipedia [f]" accesskey="f" id="searchInput"
+			>
+			<input type="hidden" name="title" value="Speciale:Ricerca">
+			<input id="mw-searchButton"
+				 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Cerca il testo indicato nelle pagine" value="Ricerca">
+			<input id="searchButton"
+				 class="searchButton" type="submit" name="go" title="Vai a una pagina con il titolo indicato, se esiste" value="Vai">
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/wiki/Pagina_principale"
+			title="Visita la pagina principale"></a>
+	</div>
+	
+<nav id="p-navigation" class="mw-portlet mw-portlet-navigation vector-menu-portal portal vector-menu" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigazione</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Pagina_principale" title="Visita la pagina principale [z]" accesskey="z"><span>Pagina principale</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Speciale:UltimeModifiche" title="Elenco delle ultime modifiche del sito [r]" accesskey="r"><span>Ultime modifiche</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Speciale:PaginaCasuale" title="Mostra una pagina a caso [x]" accesskey="x"><span>Una voce a caso</span></a></li><li id="n-nearby-pages-title" class="mw-list-item"><a href="/wiki/Speciale:NelleVicinanze"><span>Nelle vicinanze</span></a></li><li id="n-vetrina" class="mw-list-item"><a href="/wiki/Wikipedia:Vetrina"><span>Vetrina</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Aiuto:Aiuto" title="Pagine di aiuto"><span>Aiuto</span></a></li><li id="n-Sportello-informazioni" class="mw-list-item"><a href="/wiki/Aiuto:Sportello_informazioni"><span>Sportello informazioni</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Comunità" class="mw-portlet mw-portlet-Comunità vector-menu-portal portal vector-menu" aria-labelledby="p-Comunità-label" role="navigation"  >
+	<h3
+		id="p-Comunità-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Comunità</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/wiki/Portale:Comunit%C3%A0" title="Descrizione del progetto, cosa puoi fare, dove trovare le cose"><span>Portale Comunità</span></a></li><li id="n-villagepump" class="mw-list-item"><a href="/wiki/Wikipedia:Bar"><span>Bar</span></a></li><li id="n-wikipediano" class="mw-list-item"><a href="/wiki/Wikipedia:Wikipediano"><span>Il Wikipediano</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_it.wikipedia.org&amp;uselang=it" title="Sostienici"><span>Fai una donazione</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="/wiki/Wikipedia:Contatti"><span>Contatti</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="mw-portlet mw-portlet-tb vector-menu-portal portal vector-menu" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Strumenti</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Speciale:PuntanoQui/Albero_binario" title="Elenco di tutte le pagine che sono collegate a questa [j]" accesskey="j"><span>Puntano qui</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Speciale:ModificheCorrelate/Albero_binario" rel="nofollow" title="Elenco delle ultime modifiche alle pagine collegate a questa [k]" accesskey="k"><span>Modifiche correlate</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Speciale:PagineSpeciali" title="Elenco di tutte le pagine speciali [q]" accesskey="q"><span>Pagine speciali</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Albero_binario&amp;oldid=136696880" title="Collegamento permanente a questa versione di questa pagina"><span>Link permanente</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Albero_binario&amp;action=info" title="Ulteriori informazioni su questa pagina"><span>Informazioni pagina</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Speciale:Cita&amp;page=Albero_binario&amp;id=136696880&amp;wpFormIdentifier=titleform" title="Informazioni su come citare questa pagina"><span>Cita questa voce</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Speciale:UrlShortener&amp;url=https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FAlbero_binario"><span>Ottieni URL breve</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q380172" title="Collegamento all&#039;elemento connesso dell&#039;archivio dati [g]" accesskey="g"><span>Elemento Wikidata</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-coll-print_export" class="mw-portlet mw-portlet-coll-print_export vector-menu-portal portal vector-menu" aria-labelledby="p-coll-print_export-label" role="navigation"  >
+	<h3
+		id="p-coll-print_export-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Stampa/esporta</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Speciale:Libro&amp;bookcmd=book_creator&amp;referer=Albero+binario"><span>Crea un libro</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Speciale:DownloadAsPdf&amp;page=Albero_binario&amp;action=show-download-screen"><span>Scarica come PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Albero_binario&amp;printable=yes" title="Versione stampabile di questa pagina [p]" accesskey="p"><span>Versione stampabile</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-wikibase-otherprojects" class="mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal vector-menu" aria-labelledby="p-wikibase-otherprojects-label" role="navigation"  >
+	<h3
+		id="p-wikibase-otherprojects-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">In altri progetti</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Binary_trees" hreflang="en"><span>Wikimedia Commons</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-lang" class="mw-portlet mw-portlet-lang vector-menu-portal portal vector-menu" aria-labelledby="p-lang-label" role="navigation"  >
+	<h3
+		id="p-lang-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">In altre lingue</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%B4%D8%AC%D8%B1%D8%A9_%D8%AB%D9%86%D8%A7%D8%A6%D9%8A%D8%A9" title="شجرة ثنائية - arabo" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a href="https://az.wikipedia.org/wiki/%C4%B0kilik_a%C4%9Fac" title="İkilik ağac - azerbaigiano" lang="az" hreflang="az" class="interlanguage-link-target"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D0%B8%D1%87%D0%BD%D0%BE_%D0%B4%D1%8A%D1%80%D0%B2%D0%BE" title="Двоично дърво - bulgaro" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a href="https://bs.wikipedia.org/wiki/Binarno_stablo" title="Binarno stablo - bosniaco" lang="bs" hreflang="bs" class="interlanguage-link-target"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Arbre_binari" title="Arbre binari - catalano" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Bin%C3%A1rn%C3%AD_strom" title="Binární strom - ceco" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Bin%C3%A4rbaum" title="Binärbaum - tedesco" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%94%CF%85%CE%B1%CE%B4%CE%B9%CE%BA%CF%8C_%CE%B4%CE%AD%CE%BD%CF%84%CF%81%CE%BF" title="Δυαδικό δέντρο - greco" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/Binary_tree" title="Binary tree - inglese" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Duuma_arbo" title="Duuma arbo - esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/%C3%81rbol_binario" title="Árbol binario - spagnolo" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a href="https://et.wikipedia.org/wiki/Kahendpuu" title="Kahendpuu - estone" lang="et" hreflang="et" class="interlanguage-link-target"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D8%AF%D8%B1%D8%AE%D8%AA_%D8%AF%D9%88%D8%AF%D9%88%DB%8C%DB%8C" title="درخت دودویی - persiano" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Bin%C3%A4%C3%A4ripuu" title="Binääripuu - finlandese" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Arbre_binaire" title="Arbre binaire - francese" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%A2%D7%A5_%D7%91%D7%99%D7%A0%D7%90%D7%A8%D7%99" title="עץ בינארי - ebraico" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a href="https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BE%E0%A4%87%E0%A4%A8%E0%A4%B0%E0%A5%80_%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80" title="बाइनरी ट्री - hindi" lang="hi" hreflang="hi" class="interlanguage-link-target"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Binarno_stablo" title="Binarno stablo - croato" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Pohon_biner" title="Pohon biner - indonesiano" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a href="https://is.wikipedia.org/wiki/Tv%C3%ADundatr%C3%A9" title="Tvíundatré - islandese" lang="is" hreflang="is" class="interlanguage-link-target"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E4%BA%8C%E5%88%86%E6%9C%A8" title="二分木 - giapponese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84_%ED%8A%B8%EB%A6%AC" title="이진 트리 - coreano" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-lmo mw-list-item"><a href="https://lmo.wikipedia.org/wiki/Alber_binari" title="Alber binari - lombardo" lang="lmo" hreflang="lmo" class="interlanguage-link-target"><span>Lombard</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a href="https://mn.wikipedia.org/wiki/%D0%A5%D0%BE%D1%91%D1%80%D1%82%D1%8B%D0%BD_%D0%BC%D0%BE%D0%B4" title="Хоёртын мод - mongolo" lang="mn" hreflang="mn" class="interlanguage-link-target"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Drzewo_binarne" title="Drzewo binarne - polacco" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria" title="Árvore binária - portoghese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Arbore_binar" title="Arbore binar - rumeno" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D0%B8%D1%87%D0%BD%D0%BE%D0%B5_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE" title="Двоичное дерево - russo" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Binarno_stablo" title="Binarno stablo - serbo-croato" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a href="https://simple.wikipedia.org/wiki/Binary_tree" title="Binary tree - Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/Bin%C3%A1rny_strom_(te%C3%B3ria_grafov)" title="Binárny strom (teória grafov) - slovacco" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wikipedia.org/wiki/Dvoji%C5%A1ko_drevo" title="Dvojiško drevo - sloveno" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a href="https://sq.wikipedia.org/wiki/Pem%C3%ABt_binare" title="Pemët binare - albanese" lang="sq" hreflang="sq" class="interlanguage-link-target"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%91%D0%B8%D0%BD%D0%B0%D1%80%D0%BD%D0%BE_%D1%81%D1%82%D0%B0%D0%B1%D0%BB%D0%BE" title="Бинарно стабло - serbo" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Bin%C3%A4rtr%C3%A4d" title="Binärträd - svedese" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a href="https://th.wikipedia.org/wiki/%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%97%E0%B8%A7%E0%B8%B4%E0%B8%A0%E0%B8%B2%E0%B8%84" title="ต้นไม้แบบทวิภาค - thailandese" lang="th" hreflang="th" class="interlanguage-link-target"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%94%D0%B2%D1%96%D0%B9%D0%BA%D0%BE%D0%B2%D0%B5_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE" title="Двійкове дерево - ucraino" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/C%C3%A2y_nh%E1%BB%8B_ph%C3%A2n" title="Cây nhị phân - vietnamita" lang="vi" hreflang="vi" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%8F%89%E6%A0%91" title="二叉树 - cinese" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a href="https://zh-yue.wikipedia.org/wiki/%E4%BA%8C%E5%85%83%E6%A8%B9" title="二元樹 - cantonese" lang="yue" hreflang="yue" class="interlanguage-link-target"><span>粵語</span></a></li>
+		</ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q380172#sitelinks-wikipedia" title="Modifica collegamenti interlinguistici" class="wbc-editpage">Modifica collegamenti</a></span></div>
+	</div>
+</nav>
+
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> Questa pagina è stata modificata per l'ultima volta il&#160;2 dic 2023 alle 12:52.</li>
+	<li id="footer-info-copyright">Il testo è disponibile secondo la <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">licenza Creative Commons Attribuzione-Condividi allo stesso modo</a>; possono applicarsi condizioni ulteriori. Vedi le <a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use/it">condizioni d'uso</a> per i dettagli.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/it">Informativa sulla privacy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:Sala_stampa/Wikipedia">Informazioni su Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:Avvertenze_generali">Avvertenze</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Codice di condotta</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Sviluppatori</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/it.wikipedia.org">Statistiche</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Dichiarazione sui cookie</a></li>
+	<li id="footer-places-mobileview"><a href="//it.m.wikipedia.org/w/index.php?title=Albero_binario&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versione mobile</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1479","wgBackendResponseTime":143,"wgPageParseReport":{"limitreport":{"cputime":"0.229","walltime":"0.361","ppvisitednodes":{"value":4924,"limit":1000000},"postexpandincludesize":{"value":12141,"limit":2097152},"templateargumentsize":{"value":1561,"limit":2097152},"expansiondepth":{"value":15,"limit":100},"expensivefunctioncount":{"value":10,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":38470,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  250.916      1 -total"," 51.74%  129.819      1 Template:Collegamenti_esterni"," 16.63%   41.733      1 Template:F"," 16.08%   40.348      1 Template:Avviso"," 14.16%   35.520      1 Template:Interprogetto"," 11.91%   29.882      1 Template:Categorie_avviso","  9.99%   25.063      3 Template:Rp","  9.02%   22.623      1 Template:Portale","  6.34%   15.906      2 Template:Icona_argomento","  4.31%   10.806      1 Template:Controllo_di_autorità"]},"scribunto":{"limitreport-timeusage":{"value":"0.115","limit":"10.000"},"limitreport-memusage":{"value":5536532,"limit":52428800}},"cachereport":{"origin":"mw2369","timestamp":"20231225053024","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Albero binario","url":"https:\/\/it.wikipedia.org\/wiki\/Albero_binario","sameAs":"http:\/\/www.wikidata.org\/entity\/Q380172","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q380172","author":{"@type":"Organization","name":"Contributori ai progetti Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-12-10T13:00:54Z","dateModified":"2023-12-02T11:52:12Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f7\/Binary_tree.svg","headline":"struttura ad albero in cui ogni nodo ha al pi\u00f9 due figli"}</script>
+</body>
+</html>

@@ -1,93 +1,255 @@
-                                     Alberi
+   Richiedi Informazioni
 
-   Tipi, nomi e immagini degli alberi più ricercati o che possiamo trovare
-   quotidianamente
-
---
---
-
-   Il Ficus benjamina è una specie che appartiene alla famiglia delle
-   Moraceae; il genere Ficus conta 800 specie di alberi e arbusti sempreverdi
-   e a foglie decidue, delicati o rustici, e di piante rampicai e
-   striscianti. Vengono coltivate in particolare per il loro fogliame, molto
---
---
-   [IMG]
-
-   Il Tiglio selvatico è un albero dalla crescita spontanea, appartenente
-   alla famiglia delle Tiliaceae. Esso è utilizzato per adornare parchi e
-   parcheggi, soprattutto nelle zone a Nord dell’Europa. Il Tiglio Selvatico
---
---
-   [IMG]
-
-   Il Susino è un noto albero da frutto appartenente alla famiglia delle
-   Rosaceae. Noto per le prugne,ossia i frutti che produce, esso è un
-   alimento che può essere consumato in diverse varianti: al naturale, come
---
---
-   [IMG]
-
-   Il Salice piangente è un albero molto noto nella nostra penisola,
-   appartenente alla famiglia delle Salicaceae. Esso è molto utilizzato a
-   scopi ornamentali, in lunghi viali, soprattutto per via della
---
---
-   scopi ornamentali, in lunghi viali, soprattutto per via della
-   caratteristica disposizione del suo fogliame. Il Salice piangente è un
-   albero caduceo e la sua altezza può raggiungere anche i 9 – 10 metri, in …
-
-   Leggi
---
---
-   [IMG]
-
-   Il Cerro è un albero caducifoglio, appartenente alla famiglia delle
-   Fagaceae. Il suo legno è molto utilizzato, in quanto è un ottimo materiale
-   combustibile: è duro, ma non eccessivamente resistente. Il Cerro può
---
---
-   [IMG]
-
-   Il Nespolo è un albero da frutto appartenente alla famiglia delle
-   Rosaceae. Esso, denominato Nespolo comune, è spesso confuso con il nespolo
---
-   Rosaceae. Esso, denominato Nespolo comune, è spesso confuso con il nespolo
-   del Giappone. Tale albero è, in genere, di grosse dimensioni e dal
-   portamento molto irregolare. Esso, infatti, può raggiungere anche i 5
-   metri in totale. Le ramificazioni, specie se giovani, posseggono estremità
---
---
-   Cipressus sempervirens
-
-   Il Cipresso è un albero sempreverde appartenente alla famiglia delle
-   Cupressaceae. Fanno parte di quest’ultima circa 100 specie diverse. Nel
-   complesso sono piante molto resistente e note per le caratteristiche
---
---
-   complesso sono piante molto resistente e note per le caratteristiche
-   possenti ed raffinate che le contraddistinguono. E’ presente anche come
-   bonsai. Il Cipresso, qualità specifica di conifera, è un albero che può
-   raggiungere un’altezza di …
+     L’albero è una pianta, in grado di svilupparsi in altezza grazie ad un
+     fusto legnoso chiamato “tronco“.
 
 --
 --
-   cannella bastoncini
+     fusto legnoso chiamato “tronco“.
 
-   La Cannella è un genere di albero di natura sempreverde appartenente alla
-   famiglia delle Lauraceae. Essa è molto conosciuta per l’uso che se ne fa
-   in ambito culinario della spezia che se ne ricava. Tale genere ne
+   Prima di andare alla tabella contenente i tipi di albero divisi per
+   lettera, ed in ordine alfabetico, è importante suddividere gli alberi in:
+
+     * Alberi a crescita rapida
 --
 --
-   in ambito culinario della spezia che se ne ricava. Tale genere ne
-   comprende 2 specie, la Cinnamomum zeylanicum  e la Cinnamomum cassia, più
-   comunemente nota come cannella cinese . L’altezza dell’albero della
-   Cannella …
+  Nomi di Alberi dalla A alla Z
+
+   Leggiamo insieme i nomi dei vari tipi di alberi in Italia e all’Estero
+
+   +------------------------------------------------------------------------+
+--
+--
+   |                 |bianco, Abete del Canada – Tsuga canadensis, Abete del|
+   |                 |Colorado – Picea pungens, Abete rosso, Abies Koreana, |
+   |Nomi degli alberi|Acacia di Costantinopoli – Albizia julibrissin, Acer  |
+   |con la A         |saccharum, Acero, Acero bianco – Acer negundo, Acero  |
+   |                 |giapponese, Acero giapponese, Acero grigio – Acer     |
+--
+--
+   |-----------------+------------------------------------------------------|
+   |                 |Brussonetia papyrifera, Brachychiton acerifolius,     |
+   |Nomi degli alberi|Bagolaro, Banano del Paranà, Baobab, Betulla, Betulla |
+   |con la B         |bianca, Bismarckia nobilis, Buxus sempervirens, Brahea|
+   |                 |armata,                                               |
+--
+--
+   |                 |Catalpa bignonioides, Catalpa bungei, Celtis          |
+   |                 |australis, Canfora, Cinnamomo – Cinnamomum camphora,  |
+   |Nomi degli alberi|Carpino – Carpinus betulus, Carpino nero, Carrubo,    |
+   |con la C         |Ceratonia siliqua, Castagno, Catalpa, Cedro, Cedrus   |
+   |                 |libani, Calocedrus decurrens, Chamaecyparis           |
+--
+--
+   |                 |sempervirens, Corbezzolo, Corylus avellana            |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Davidia involucrata, Dicksonia antartica              |
+   |con la D         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la D         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Eucalipto – Eucalyptus                                |
+   |con la E         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la E         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Faggio, Fagus sylvatica, Faggio Rosso, Faggio         |
+   |con la F         |tricolor, Falso pepe, Feijoa, Frassino, Fraxinus      |
+   |                 |excelsior, Faggio americano, Faggio australe          |
+--
+--
+   |                 |excelsior, Faggio americano, Faggio australe          |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Ginkgo biloba, Gelso                                  |
+   |con la G         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la G         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Helianthocereus huascha, Hymenocallis, Hypocyrta,     |
+   |con la H         |Hypoestes                                             |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la H         |Hypoestes                                             |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Ippocastano                                           |
+   |con la I         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la I         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Jacaranda mimosifolia                                 |
+   |con la J         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la J         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Koelreuteria Paniculata, Kaki, Kako, Karitè, Karkadè  |
+   |con la K         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la K         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Larice, Lagerstroemia, Larix decidua, Leccio,         |
+   |con la L         |Liquidambar, Liriodendro                              |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la L         |Liquidambar, Liriodendro                              |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Maclura pomifera, Morus Alba, Maggiociondolo,         |
+   |con la M         |Magnolia, Magnolia acuminata, Magnolia grandiflora,   |
+   |                 |Magnolia stellata, Melo da fiore, Michelia,           |
+--
+--
+   |                 |Magnolia stellata, Melo da fiore, Michelia,           |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Noce, Noce bianco d’america, Nothofagus betuloides,   |
+   |con la N         |Nyssa sylvatica                                       |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la N         |Nyssa sylvatica                                       |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Olmo, Ontano nero, Ontano, Orniello                   |
+   |con la O         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la O         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Palma, Phoenix canariensis, Paulonia, Paulownia       |
+   |con la P         |tomentosa, Pino argentato, Pinus halepensis           |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la P         |tomentosa, Pino argentato, Pinus halepensis           |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Quercia, Quercus, Quercus bonsai, Quercus ilex,       |
+   |con la Q         |Quisqualis indica                                     |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la Q         |Quisqualis indica                                     |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Rabarbaro, Radermachera, Radicchio                    |
+   |con la R         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la R         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Siliquastro (albero di Giuda), Schinus molle,         |
+   |con la S         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la S         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Taxodium distichum,                                   |
+   |con la T         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la T         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|                                                      |
+   |con la U         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la U         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|                                                      |
+   |con la V         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la V         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|Washingtonia filifera,                                |
+   |con la W         |                                                      |
+   |-----------------+------------------------------------------------------|
+--
+--
+   |con la W         |                                                      |
+   |-----------------+------------------------------------------------------|
+   |Nomi degli alberi|                                                      |
+   |con la Z         |                                                      |
+   +------------------------------------------------------------------------+
+--
+--
+    
+
+   *lo sapevi che il sinonimo di albero è pianta perenne legnosa?
+
+--
+
+     Oltre ai nomi di albero, leggi anche: Tutti i nomi dei fiori dalla A
+     alla Z!
 
 --
 --
-   Prunus dulcis
+   Corbezzolo
 
-   Il Mandorlo è un albero da frutto, appartenente alla famiglia delle
-   Rosaceae; si tratta di una pianta particolarmente apprezzata per la sua
-   abbondante e splendida fioritura. E’ molto longeva, di medie dimensioni:
+   Il Corbezzolo è un piccolo albero, è anche un altro nome del leccio,  alto
+   sino a 5 m, a rami eretti e corteccia bruna rugosa,
+
+--
+--
+   Olmo
+
+   L’olmo appartenente alla famiglia delle Ulmacee, è un albero dalle grandi
+   dimensioni, originario dell’Europa, dell’Asia e del Nord America, a
+   seconda delle diverse specie. Nel
+--
+--
+   Carpino
+
+   Il carpino è un albero della famiglia delle Betulaceae molto diffuso
+   nell’Europa occidentale. Pianta molto longeva, il carpino ha due
+   conosciute varietà: il carpino bianco
+--
+--
+
+   Il sorbo è un genere di piante appartenenti alla famiglia delle Rosaceae
+   che si sviluppa sia sotto forma di alberi che di arbusti producendo frutti
+   simili
+
+--
+--
+   Pino
+
+   Il pino è un po’ l’albero simbolo dell’Italia, essendo molto diffuso nella
+   penisola. E’ associato all’idea di immortalità e di inflessibilità, per
+   via del suo
+--
+--
+   Ciliegio
+
+   Nel corso dei secoli attorno agli alberi di ciliegio si sono sviluppate
+   tante leggende e i suoi fiori sono diventati sinonimo di
+   fortuna nella mitologia greca e di bellezza femminile in Cina mentre
+--
+--
+   Acero
+
+   Il genere Acer, o Acero, conta più di 150 specie di alberi originari
+   dell’Europa, del Giappone, della Cina e dell’America del Nord. Possiamo
+   collocare gli
+--
+--
+   Abete bianco
+
+   L’Abete Bianco è un albero di prima grandezza, alto sino a 40-60(75) m, a
+   tronco diritto e colonnare, corona piramidale, corteccia liscia e
+   bianco-cenerina da

@@ -1,203 +1,518 @@
-   --------------------------------------------------------------------------
+   Link: canonical
+   HTML logo
+   Learn
+   Download
+   Magazine
+   Forum
+   [ Submit ]
+   _____________________
+   in  
+   [ ] Tutto il Forum
+   [ ] Tutto HTML.it
+   [ ] Software
+   [ ] News
+   [ ] Video
+   [ ] Guide
+   [ ] Approfondimenti
+   [ ] Faq
+   Utility
+   Home Messaggi odierni FAQ Ricerca avanzata Lo staff del forum Regolamento
+   Utenti Archivio
+   ___________
+   ___________
+   Entra
+    Recupero password
+   [ ] Ricordami
+     * Aiuto
+     * Registrazione
+     * Home Page
+     * Forum
+     * Forum di interesse generale
+     * Discussioni off-topic
+     * quale albero piantare?
 
-                              Gli alberi                              [IMG][IMG] 
+     ----------------------------------------------------------------------
 
-   --------------------------------------------------------------------------
+    1. Se questa è la tua prima visita, controlla la sezione FAQ cliccando
+       sul link soprastante. Devi registrarti prima di poter postare: clicca
+       sul link soprastante per procedere con la registrazione. Per
+       visualizzare i messaggi, seleziona la sezione che desideri visitare,
+       dall'elenco sottostante.
+   Pagina 1 di 4 1 2 3 ... Seguente ultimoultimo
+     * Vai alla pagina _____ [ Prosegui ]
+   Visualizzazione dei risultati da 1 a 10 su 37
 
-Organizzazioni di dati:                                                          
-  * Lineari: ogni elemento ha un solo predecessore e un solo successore.         
-  * Non lineare o gerarchico: ad esempio gli alberi. Un albero si compone di due 
-    componenti: il nodo (che contiene le informazioni) e l'arco (che collega     
-    gerarchicamente coppie di nodi). Un nodo in un albero possiede un solo       
-    predecessore, ma può avere molti successori.                                 
-                                                                                 
-Come in botanica, un albero ha una radice, un tronco che si può dividere in due  
-o più rami, che a loro volta possono ridividersi. Si rappresenta tuttavia con la 
-radice in alto (come un albero genealogico). Nell'esempio vediamo un albero i    
-cui nodi contengono valori interi (la radice contiene il valore 10).             
-Un albero può essere vuoto (se non ha nessun nodo), oppure ha un nodo radice che 
-ha una sequenza di zero o più nodi figli, i quali sono a loro volta radici di    
-altrettanti sotto-alberi .                                                       
-                                                                                 
-Gli alberi si prestano per rappresentare organizzazioni gerarchiche di           
-informazioni, ad esempio: file system.                                           
-                                                                                 
+                      Discussione: quale albero piantare?
 
-   --------------------------------------------------------------------------
+   Navigazione veloce Discussioni off-topic Vai in cima
+     * Aree del sito
+     * Impostazioni
+     * Messaggi privati
+     * Sottoscrizioni
+     * Utenti collegati
+     * Cerca nei forum
+     * Indice dei forum
+     * forum
+     * Lato client
+         1. XHTML e HTML
+         2. HTML 5
+         3. XML, XSL, Smil
+         4. CSS
+         5. JavaScript
+     * Lato server
+         1. Programmazione
+              1. Visual Basic e .Net Framework
+              2. Java
+         2. PHP
+         3. ASP
+         4. ASP.Net
+         5. CMS
+         6. Server
+              1. Apache
+              2. Microsoft Server
+              3. Altri server
+         7. Database
+     * Grafica e Flash
+         1. Grafica
+              1. Flash e tecnologie annesse
+     * Webmarketing
+         1. Motori di Ricerca e Web Marketing
+              1. Copywriting
+     * Telecomunicazioni
+         1. Adsl e connettività
+         2. VoIP
+     * Sistemi operativi e software
+         1. Windows e software
+         2. Linux e software
+         3. Macintosh e software
+         4. Sicurezza informatica e virus
+     * Hardware
+         1. Hardware Desktop
+         2. Hardware Laptop
+         3. Reti LAN e Wireless
+         4. Makers
+     * Hi-Tech
+         1. Videogiochi
+         2. Telefonia cellulare
+         3. Fotocamere e videocamere digitali, elettronica e Hi-Tech
+     * Annunci
+         1. Annunci siti Web e App
+         2. Offro lavoro/collaborazione
+              1. Professionisti/studi professionali
+              2. Privati /ricerca dipendenti/ collaborazioni gratuite
+         3. Cerco un lavoro
+     * Forum di interesse generale
+         1. Discussioni off-topic
+              1. Kickstarter
+     *  Strumenti discussione
 
-   --------------------------------------------------------------------------
+          * Visualizza la versione stampabile
+          * Invia questa pagina tramite email…
+          * Sottoscrivi questa discussione…
+     *  Ricerca discussione
 
-[IMG][IMG]                    Alberi: terminologia                    [IMG][IMG] 
+          * _____________________ [ Cerca ] 
+          *  
+            Ricerca avanzata
+     *  Visualizza
 
-   --------------------------------------------------------------------------
+          * Modalità lineare
+          * Passa al modo ibrido
+          * Passa alla modalità elencata
+    1. 14-07-2010, 17:57 #1
+       sparwari
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       sparwari non è in linea
+       Moderatore di foto/videocamere digitali ed elettronica hi-tech
+       L'avatar di sparwari
 
-Per chiamare i nodi di un albero e le relazioni tra di essi si usano termini     
-botanici e genealogici o di parentela.                                           
-Il predecessore di un nodo è detto padre, mentre i successori sono detti figli.  
-                                                                                 
-La relazione antenato-discendente generalizza quella di padre-figlio nel modo    
-intuitivo. Un nodo che non ha predecessori è detto radice ed è l'unico per       
-l'albero.                                                                        
-Un nodo senza successori è detto foglia.                                         
-Si parla di profondità (ovvero l'altezza dell'albero) e ampiezza (ovvero la      
-larghezza).                                                                      
-                                                                                 
--------------------------------------------------------------------------------- 
-                                                                                 
--------------------------------------------------------------------------------- 
-                                                                                 
-[IMG][IMG]                      Gli alberi binari                     [IMG][IMG] 
-                                                                                 
--------------------------------------------------------------------------------- 
-                                                                                 
-Un albero binario è un albero in cui ogni nodo ha al massimo due figli. Se il    
-sottoalbero sinistro (risp. destro) di un albero non è vuoto, la sua radice      
-viene detta figlio sinistro (risp. destro) della radice dell'intero albero (che  
-è il padre).                                                                     
-                                                                                 
-Ad esempio, nell'albero seguente [il nodo contenente] 10 è la radice             
-dell'albero, ed ha sia un figlio sinistro (20) che un figlio destro (2). I nodi  
-1, 29 e 7 sono foglie. Il nodo 20 è il padre di 3 e un antenato di 29, che è un  
-discendente di 10. Il nodo 3 ha soltanto il figlio sinistro, perché il suo       
-sottoalbero destro è vuoto.                                                      
-                                                                                 
-                                                                                 
-++                                                                               
-++                                                                               
-                                                                                 
-Gli alberi binari hanno una elegante definizione ricorsiva:                      
-                                                                                 
-                                                                                 
-+------------------------------------------------------------------------------+ 
-| Un albero binario è una struttura definita su un insieme di nodi che:        | 
-|   * non contiene nessun nodo (albero vuoto), oppure                          | 
-|   * contiene un nodo radice, un albero binario detto sottoalbero sinistro ed | 
-|     un albero binario detto sottoalbero destro.                              | 
-+------------------------------------------------------------------------------+ 
-                                                                                 
-Molti algoritmi su alberi binari possono essere descritti in modo naturale       
-sfruttando questa definizione ricorsiva, comprendendo un caso base (per l'albero 
-vuoto) e una clausola ricorsiva (con due chiamate ricorsive, per i due           
-sottoalberi).                                                                    
-                                                                                 
-                                                                                 
+     ----------------------------------------------------------------------
 
-   --------------------------------------------------------------------------
+            Registrato dal
+                    Jun 2004
 
-   --------------------------------------------------------------------------
+            Messaggi
+                    7,671
 
-[IMG][IMG]                 Visita di un albero binario                [IMG][IMG] 
+[taddeus] quale albero piantare?
 
-   --------------------------------------------------------------------------
+         in una aiula di dimensioni circa 4x3 vicino ad una casa in campagna,
+         potete consigliarmi un albero con crescita veloce?
 
-"Visitare" un albero significa esaminare sequenzialmente tutti i suoi nodi. Ci   
-sono tre tipi principali di visite:                                              
-  * Nella visita in ordine simmetrico si visita il sottoalbero sinistro, quindi  
-    si esamina la radice e infine si visita il sottoalbero destro.               
-  * Nella visita in ordine anticipato si esamina prima la radice e quindi si     
-    visitano il sottoalbero sinistro e quello destro.                            
-  * Nella visita in ordine posticipato si visitano prima il sottoalbero sinistro 
-    poi quello destro e infine si esamina la radice.                             
-Altri tre tipi di visite si ottengono dai precedenti scambiando "sinistro" con   
-"destro".                                                                        
-                                                                                 
-Ricerca in un albero binario: usando una visita in ordine qualsiasi, si può      
-stabilire se un certo oggetto appartiene o meno ad un dato albero binario. Si    
-noti che:                                                                        
-  * il caso base è banale (come sempre): se l'albero è vuoto, si restituisce     
-    false;                                                                       
-  * la visita viene interrotta non appena si trova l'oggetto cercato.            
+         avevo pensato ad un pioppo.
+         cosa dite?
+         però non vorrei che le radici del pioppo possano "disturbare" un
+         vicino muro a secco che fa da terrapieno sottostante.
 
-   --------------------------------------------------------------------------
+         pareri? suggerimenti?
 
-   --------------------------------------------------------------------------
+         1... 2... 3... prova
 
-[IMG][IMG]                  Alberi binari di ricerca                  [IMG][IMG] 
+       Rispondi quotando Rispondi quotando 
 
-   --------------------------------------------------------------------------
+     ----------------------------------------------------------------------
 
-Un albero binario di ricerca (ABR)  è un albero binario tale che:                
-  * sui valori delle chiavi dei suoi nodi è definito un ordinamento totale;      
-  * soddisfa la seguente proprietà:                                              
-                                                                                 
-+--------------------------------------------------------------+                 
-|  Per ogni nodo n dell'albero:                                |                 
-|                                                              |                 
-|   * tutte le chiavi dei nodi contenuti nel sottoalbero       |                 
-|     sinistro di n hanno valore strettamente minore della     |                 
-|     chiave contenuta in n,                                   |                 
-|   * tutte le chiavi dei nodi contenuti nel sottoalbero       |                 
-|     destro di n hanno valore strettamente maggiore della     |                 
-|     chiave contenuta in n.                                   |                 
-+--------------------------------------------------------------+                 
-                                                                                 
-Un esempio, in cui le chiavi sono interi con l'ovvio ordinamento...              
-                                                                                 
-Si noti che in un ABR non ci possono essere due nodi con la stessa chiave.       
-                                                                                 
-Un'importante proprietà di un ABR è la seguente:                                 
-                                                                                 
-                                                                                 
-+--------------------------------------------------------------+                 
-|                                                              |                 
-|   La visita in ordine simmetrico di un albero binario di     |                 
-|   ricerca genera una sequenza crescente di tutte le sue      |                 
-|   chiavi.                                                    |                 
-+--------------------------------------------------------------+                 
-                                                                                 
--------------------------------------------------------------------------------- 
-                                                                                 
--------------------------------------------------------------------------------- 
-                                                                                 
-[IMG][IMG]                          Ricerca in un ABR                            
-                                                                                 
--------------------------------------------------------------------------------- 
-                                                                                 
-Per la ricerca di un elemento in un albero binario di ricerca vediamo il primo   
-esempio di algoritmo che sfrutta la proprietà (ABR). Come nel caso della ricerca 
-binaria su un array, ogni indagine nell'ABR permette di eliminare metà degli     
-elementi su cui continuare la ricerca. Tecnicamente questo permette di ridurre   
-la ricorsione doppia, tipica degli algoritmi su alberi binari, ad una ricorsione 
-singola.                                                                         
-                                                                                 
-L'algoritmo è il seguente:                                                       
-                                                                                 
-                                                                                 
-+--------------------------------------------------------------+                 
-|   * Se l'albero è vuoto la ricerca termina subito con        |                 
-|     fallimento.                                              |                 
-|   * Se l'albero non è vuoto, si confronta il valore cercato  |                 
-|     con quello contenuto nella radice dell'albero:           |                 
-|        * Se i due valori coincidono la ricerca termina con   |                 
-|          successo.                                           |                 
-|        * Se il valore cercato è minore di quello contenuto   |                 
-|          nella radice la ricerca prosegue ricorsivamente nel |                 
-|          sottoalbero sinistro.                               |                 
-|        * Se è invece maggiore la ricerca prosegue nel        |                 
-|          sottoalbero destro.                                 |                 
-+--------------------------------------------------------------+                 
-                                                                                 
--------------------------------------------------------------------------------- 
-                                                                                 
-                        Sulla complessità della ricerca                          
-                                                                                 
-Si confrontino gli algoritmi di ricerca visti. In un albero binario, nel caso    
-pessimo (ad esempio, se la chiave cercata non esiste) dobbiamo visitare tutti i  
-nodi, quindi la complessità è lineare nel numero dei nodi.                       
-                                                                                 
-                                                                                 
-In un albero binario di ricerca, ad ogni passo si visita un solo sottoalbero:    
-infatti le due chiamate ricorsive compaiono nel metodo in rami mutuamente        
-esclusivi. Di conseguenza nel caso pessimo la ricerca ha una complessità         
-proporzionale alla massima profondità dell'albero.                               
-                                                                                 
-Se l'ABR è bilanciato si dimostra che la sua profondità è logaritmica nel numero 
-di nodi e quindi anche la complessità della ricerca diviene logaritmica.         
-                                                                                 
-Ad esempio, per scoprire che 45 non è presente nel seguente albero, con il primo 
-algoritmo bisogna visitare 10 nodi, con il secondo solo tre.                     
-                                                                                 
-Su di un albero ben bilanciato di 1000 nodi, il secondo algoritmo richiede al    
-massimo una decina di passi.                                                     
-                                                                                 
--------------------------------------------------------------------------------- 
+    2. 14-07-2010, 18:18 #2
+       krakovia
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       krakovia non è in linea
+       Utente di HTML.it L'avatar di krakovia
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Aug 2001
+
+            Messaggi
+                    75
+
+         ciliegio, a prescindere.
+         com'è il terreno? ombra? intendi lavorarci su o preferisci qualcosa
+         che poi non perda troppe foglie/frutti?
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    3. 14-07-2010, 18:26 #3
+       sparwari
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       sparwari non è in linea
+       Moderatore di foto/videocamere digitali ed elettronica hi-tech
+       L'avatar di sparwari
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jun 2004
+
+            Messaggi
+                    7,671
+
+         Originariamente inviato da krakovia
+         ciliegio, a prescindere.
+         com'è il terreno? ombra? intendi lavorarci su o preferisci qualcosa
+         che poi non perda troppe foglie/frutti?
+         il terreno non è mio ma di un amico.
+         a prima vista mi è sembrato un buon terreno: la casa è stata
+         realizzata molti anni fa praticamente dentro un uliveto e tutto
+         attorno ci sono ulivi. anche un fico ed un albicocco.
+         tranne in questa grande aiula che è vuota..
+         l'iaula è in zona ombrata (da albero vicino) in alcune opre del
+         giorno.
+
+         cercavo un albero veloce nella crescita e che richieda poche
+         attenzioni.
+         clima mediterraneo (sud italia).
+
+         questa aiula (vicino la casa) è pianeggiante ed rettangolare ha:
+         - da un lato il muretto in cemento di confine proprietà
+         - da un lato un muretto a secco di confine proprietà
+         - da un lato un dislivello sotto cui passa una strada (c'è un muro
+         che fa da terrapieno)
+
+         io avrei consigliato un pioppo (cresce veloce ed è bello da vedere)
+         ma poi mi è sorto un dubbio:
+         il mio timore è che magari tra 7-8 anni il pioppo con le sue radici
+         inizi a danneggiare o la casa o uno dei muri vicini o il muro che fa
+         da terrapieno!!
+         che ne pensi?
+
+         ciliegio? mmm... ma sbaglio o è lento?
+
+         1... 2... 3... prova
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    4. 14-07-2010, 18:30 #4
+       galz
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+          * Vai alla Home Page
+       galz non è in linea
+       Gay And Lesbian Zimbabwe L'avatar di galz
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jun 2001
+
+            Messaggi
+                    240
+
+         La parola AIUOLA ti sta proprio sul culo, eh.. non l'hai azzeccata
+         una volta
+
+         Le mie ferie negli States: le foto!
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    5. 14-07-2010, 18:35 #5
+       nihil
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       nihil non è in linea
+       Utente di HTML.it L'avatar di nihil
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jul 2009
+
+            Messaggi
+                    1
+
+         cipresso?
+         Le radici si sviluppano in profondità, molto difficilmente si secca,
+         cresce anche su un terreno sassoso e ingrandisce in modo veloce
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    6. 14-07-2010, 18:36 #6
+       sparwari
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       sparwari non è in linea
+       Moderatore di foto/videocamere digitali ed elettronica hi-tech
+       L'avatar di sparwari
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jun 2004
+
+            Messaggi
+                    7,671
+
+         Originariamente inviato da galz
+         La parola AIUOLA ti sta proprio sul culo, eh.. non l'hai azzeccata
+         una volta
+         pensa che dopo aver postato l'intervento, ho editato altri errori ma
+         AIUOLA no. erano troppe parole altrimenti da corregere
+
+         1... 2... 3... prova
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    7. 14-07-2010, 18:37 #7
+       sparwari
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       sparwari non è in linea
+       Moderatore di foto/videocamere digitali ed elettronica hi-tech
+       L'avatar di sparwari
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jun 2004
+
+            Messaggi
+                    7,671
+
+         Originariamente inviato da nihil
+         cipresso?
+         Le radici si sviluppano in profondità, molto difficilmente si secca,
+         cresce anche su un terreno sassoso e ingrandisce in modo veloce
+         mmm... cipresso non mi convince. ha una chioma che non mi convince.
+
+         1... 2... 3... prova
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    8. 14-07-2010, 18:45 #8
+       nihil
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       nihil non è in linea
+       Utente di HTML.it L'avatar di nihil
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jul 2009
+
+            Messaggi
+                    1
+
+         Originariamente inviato da sparwari
+         mmm... cipresso non mi convince. ha una chioma che non mi convince.
+         betulla?
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    9. 14-07-2010, 18:47 #9
+       quaestio
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       quaestio non è in linea
+       Umarell di HTML.it L'avatar di quaestio
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    May 2005
+
+            Messaggi
+                    55
+
+         io so che il pioppo ama l'acqua......
+
+         "ci vorrebbero anche più persone come quaestio (a reb verrà un
+         brivido)" wallrider, 22/10/2012
+
+         "Se hai una vita di merda facebook non può essere molto meglio...".
+         kalosjo, 16/10/2012
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+   10. 14-07-2010, 18:48 #10
+       robertetti
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       robertetti non è in linea
+       Utente di HTML.it L'avatar di robertetti
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Dec 2007
+
+            Messaggi
+                    16
+
+         Il kaki:è il frutto più buono che c*è e fruttifica in abbondanza.Ma
+         non so se è veloce.
+         Il ginko è veloce, è bellissimo (d*autunno quando è tutto giallo è
+         commovente), ma diventa più grosso del pioppo.
+         Quindi il kaki
+
+         La vita è un fiume
+         (G. Scialpi)
+
+         Siamo isole
+         (G. Scialpi)
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+   Pagina 1 di 4 1 2 3 ... Seguente ultimoultimo
+     * Vai alla pagina _____ [ Prosegui ]
+   Navigazione veloce Discussioni off-topic Vai in cima
+     * Aree del sito
+     * Impostazioni
+     * Messaggi privati
+     * Sottoscrizioni
+     * Utenti collegati
+     * Cerca nei forum
+     * Indice dei forum
+     * forum
+     * Lato client
+         1. XHTML e HTML
+         2. HTML 5
+         3. XML, XSL, Smil
+         4. CSS
+         5. JavaScript
+     * Lato server
+         1. Programmazione
+              1. Visual Basic e .Net Framework
+              2. Java
+         2. PHP
+         3. ASP
+         4. ASP.Net
+         5. CMS
+         6. Server
+              1. Apache
+              2. Microsoft Server
+              3. Altri server
+         7. Database
+     * Grafica e Flash
+         1. Grafica
+              1. Flash e tecnologie annesse
+     * Webmarketing
+         1. Motori di Ricerca e Web Marketing
+              1. Copywriting
+     * Telecomunicazioni
+         1. Adsl e connettività
+         2. VoIP
+     * Sistemi operativi e software
+         1. Windows e software
+         2. Linux e software
+         3. Macintosh e software
+         4. Sicurezza informatica e virus
+     * Hardware
+         1. Hardware Desktop
+         2. Hardware Laptop
+         3. Reti LAN e Wireless
+         4. Makers
+     * Hi-Tech
+         1. Videogiochi
+         2. Telefonia cellulare
+         3. Fotocamere e videocamere digitali, elettronica e Hi-Tech
+     * Annunci
+         1. Annunci siti Web e App
+         2. Offro lavoro/collaborazione
+              1. Professionisti/studi professionali
+              2. Privati /ricerca dipendenti/ collaborazioni gratuite
+         3. Cerco un lavoro
+     * Forum di interesse generale
+         1. Discussioni off-topic
+              1. Kickstarter
+   « Discussione precedente | Prossima discussione »
+
+    [IMG] Permessi di invio
+
+     * Non puoi inserire discussioni
+     * Non puoi inserire repliche
+     * Non puoi inserire allegati
+     * Non puoi modificare i tuoi messaggi
+     *  
+     * Il codice BB è attivo
+     * Le smilie sono attive
+     * Il codice [IMG] attivo
+     * [VIDEO] code is disattivato
+     * il codice HTML è disattivato
+
+   Regole del Forum
+
+     * Pubblicità
+     * Contatti
+     * Chi siamo
+     * Privacy policy
+     * Cookie policy
+     * Gestisci consenso
+     * * Ricerca avanzata
+     * Contatta lo Staff
+     * Archivio
+     * Vai in cima
+   © HTML.it 2022 - TUB Network Srl - P. IVA 16454421005
+   Powered by vBulletin® Version 4.2.1
+   Copyright © 2023 vBulletin Solutions, Inc. All rights reserved.
