@@ -1,28 +1,14 @@
-abstract syntax §tree§
-for the §trees§ used in linguistics
-see parse §tree§
-img]an abstract syntax §tree§ for the following code for
-an abstract syntax §tree§
-it is a §tree§
-each node of the §tree§ denotes a
-§tree§
-in the §tree§ structure
-this distinguishes abstract syntax §trees§ from concrete syntax §trees§
-traditionally designated parse §trees§
-parse §trees§ are typically built by a
-abstract syntax §trees§ are also used in program
-abstract syntax §trees§ are data structures widely used
-a complete traversal of the §tree§ allows
-or for short §tree§ differencing
-expression §tree§
-family of languages written in §trees§
-manipulate code §trees§
+§tree§ in which each leaf node
+the syntax §tree§ is shortened form of the
 parse §tree§
-also known as concrete syntax §tree§
-semantic resolution §tree§
-media related to abstract syntax §trees§
-visualize a java abstract syntax §tree§
-abstract syntax §tree§ and java code manipulation in
-parse §tree§
-§tree§&oldid=1187819862
-§trees§
+draw syntax §tree§ for the string a
+rules for constructing a syntax §tree§
+each node in a syntax §tree§ can be executed as data
+the nodes of the syntax §tree§ for the expressions with
+syntax §tree§ for an expression a
+the §tree§ is generated in a bottom
+the syntax §tree§ will be
+syntax directed translation of syntax §trees§
+construct a syntax §tree§ for the expression
+construct a syntax §tree§ for a statement
+draw syntax §tree§ for following arithmetic expression a

@@ -1,0 +1,12 @@
+
+   The html package provides an HTML5-compliant tokenizer and parser for
+   parsing and manipulating HTML documents, traversing the parse tree, and
+   manipulating the tree structure. The html package is a built-in package of
+   Go’s standard library.
+
+   One of the main features of the html package is the Parse function that
+   can parse HTML documents and return the root node of the parse tree, from
+   where you can use functions like the FirstChild and NextSibling to
+   navigate the tree and extract information from the document. The package
+   also provides the ParseFragment function for parsing fragments of HTML
+   documents.

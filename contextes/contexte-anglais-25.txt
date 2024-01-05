@@ -1,90 +1,143 @@
-   [ ] Toggle the table of contents
+                      How Database B-Tree Indexing Works 
 
-                              Abstract syntax tree
-
-   [ ] 21 languages
+   B-tree is used for indexing and is a data structure that provides sorted
+   data and allows searches, sequential access, attachments and removals in
+   sorted order. 
 --
-     * Wikimedia Commons
-   From Wikipedia, the free encyclopedia
-   For the trees used in linguistics, see parse tree.
-
-    This article includes a list of references, related reading, or external  
---
-    message)                                                                  
-
-   [IMG]An abstract syntax tree for the following code for the Euclidean
-   algorithm:
+   worked as a developer since 2015 and has previously served as a software
+   engineer for Zeptolytics.
+   Image of an oak tree representing b-tree indexing [IMG]
+   Image: Shutterstock / Built In
 
 --
- return a
+B-Tree Indexing Explained
 
-   An abstract syntax tree (AST) is a data structure used in computer science
-   to represent the structure of a program or code snippet. It is a tree
-   representation of the abstract syntactic structure of text (often source
-   code) written in a formal language. Each node of the tree denotes a
-   construct occurring in the text. It is sometimes called just a syntax
-   tree.
-
-   The syntax is "abstract" in the sense that it does not represent every
-   detail appearing in the real syntax, but rather just the structural or
-   content-related details. For instance, grouping parentheses are implicit
-   in the tree structure, so these do not have to be represented as separate
-   nodes. Likewise, a syntactic construct like an if-condition-then statement
-   may be denoted by means of a single node with three branches.
-
-   This distinguishes abstract syntax trees from concrete syntax trees,
-   traditionally designated parse trees. Parse trees are typically built by a
-   parser during the source code translation and compiling process. Once
-   built, additional information is added to the AST by means of subsequent
-   processing, e.g., contextual analysis.
-
-   Abstract syntax trees are also used in program analysis and program
-   transformation systems.
-
-Application in compilers[edit]
-
-   Abstract syntax trees are data structures widely used in compilers to
-   represent the structure of program code. An AST is usually the result of
-   the syntax analysis phase of a compiler. It often serves as an
+   B-tree indexing is the process of sorting large blocks of data to make
+   searching through that data faster and easier. A B-tree stores data such
+   that each node contains keys in ascending order. Each of these keys has
+   two references to another two child nodes. The left side child node keys
 --
-   the compiler checks for correct usage of the elements of the program and
-   the language. The compiler also generates symbol tables based on the AST
-   during semantic analysis. A complete traversal of the tree allows
-   verification of the correctness of the program.
+    
 
---
-  AST differencing[edit]
+What Is B-tree?
 
-   AST differencing, or for short tree differencing, consists of computing
-   the list of differences between two ASTs.^[1] This list of differences is
-   typically called an edit script. The edit script directly refers to the
---
-     * Directed acyclic graph (DAG)
-     * Document Object Model (DOM)
-     * Expression tree
-     * Extended Backus–Naur form
-     * Lisp, a family of languages written in trees, with macros to
-       manipulate code trees
-     * Parse tree, also known as concrete syntax tree
-     * Semantic resolution tree (SRT)
-     * Shunting-yard algorithm
-     * Symbol table
---
-External links[edit]
+   A B-tree is a data structure that provides sorted data and allows
+   searches, sequential access, attachments and removals in sorted order. The
+   B-tree is highly capable of storing systems that write large blocks of
+   data. The B-tree simplifies the binary search tree by allowing nodes with
+   more than two children. Below is a B-tree example.
 
-   Wikimedia Commons has media related to Abstract syntax trees.
-     * AST View: an Eclipse plugin to visualize a Java abstract syntax tree
-     * "Abstract Syntax Tree and Java Code Manipulation in the Eclipse IDE".
-       eclipse.org.
+   Illustration of a b-treeIllustration of a B-tree index. | Image: Dhanushka
+   Madushan
+
+   B-tree stores data such that each node contains keys in ascending order.
+   Each of these keys has two references to another two child nodes. The left
+   side child node keys are less than the current keys, and the right side
 --
-                    * Parser generator                   
-   Related topics        * LALR                          
-                    * Parse tree                         
-                    * AST                                
-                    * Scannerless parsing                
+   search to all elements. | Image: Dhanushka Madushan
+
+   Look familiar? It’s a binary tree. This is the simplest form of the
+   B-tree. For a binary tree, we can use pointers instead of keeping data in
+   a sorted array. Mathematically, we can prove that the worst case search
+   time for a binary tree is O(log(n)). 
+
+   The concept of Binary tree can be extended into a more generalized form,
+   which is known as B-tree. Instead of having a single entry for a single
+   node, B-tree uses an array of entries for a single node and has references
+   to a child node for each of these entries. Below are some time complexity
+   comparisons of each pre-described method.
+--
+B+Tree vs. B-Tree: What’s the Difference?
+
+   B+ tree is another data structure that’s used to store data and looks
+   almost the same as the B-tree. The only difference is that B+ tree stores
+   data on the leaf nodes. This means that all non-leaf node values are
+   duplicated in leaf nodes again. Below is a sample B+tree.
+
+   An illustration of a B+treeAn illustration of a B+tree. | Image: Dhanushka
+   Madushan
+
 --
 
-   Retrieved from
-   "https://en.wikipedia.org/w/index.php?title=Abstract_syntax_tree&oldid=1187819862"
-   Categories:
-     * Trees (data structures)
+   Leaf nodes include all values and all of the records are in sorted order.
+   B+tree allows you to do the same search as B-tree, but it also allows you
+   to  travel through all the values in a leaf node if we put a pointer to
+   each leaf node as follows.
+
+   Illustration of a B+tree with leaf node referencingIllustration of a
+   B+tree with leaf node referencing. | Image: Dhanushka Madushan
+
+    
+--
+How Is B-Tree Indexing Used in a Database?
+
+   When B-tree comes to the database indexing, this data structure gets a
+   little complicated because it doesn’t just have a key, it also has a value
+   associated with the key. This value is a reference to the actual data
+--
+   each of the given records and converts the relevant rows into a byte
+   stream. Then, it stores each of the keys and record byte streams on a
+   B+tree. Here, the random index used as the key for indexing. The key and
+   record byte stream is altogether known as Payload. The resulting B+tree
+   could be represented as follows.
+
+   A B+tree on database pagesA B+tree on database pages. | Image: Dhanushka
+   Madushan
+
+   Here you can see that all records are stored in the leaf nodes of the
+   B+tree and index and are used as the key to create a B+tree. No records
+   are stored on non-leaf nodes. Each of the leaf nodes references the next
+   record in the tree. A database can perform a binary search by using the
+   index or sequential search by searching through every element by only
+   traveling through the leaf nodes.
+--
+   If no indexing is used, then the database reads each of these records to
+   find the given record. When indexing is enabled, the database creates
+   three B-trees for each of the columns in the table, as follows. Here the
+   key is the B-tree key used to index. The index is the reference to the
+   actual data record:
+
+   B-tree used as an index to the actual recordB-tree used as an index to the
+   actual record. | Image: Dhanushka Madushan
+
+   When indexing is used first, the database searches a given key in
+   correspondence to B-tree and gets the index in O(log(n)) time. Then, it
+   performs another search in B+tree by using the already found index in
+   O(log(n)) time and gets the record.
+
+   Each of these nodes in B-tree and B+tree is stored inside the pages. Pages
+   are fixed in size. Pages have a unique number starting from one. A page
+   can be a reference to another page by using a page number. At the
+--
+Using SQLite B-Tree Indexing
+
+   The basic syntax to create a B-tree index as follows:
+
+ CREATE INDEX index_name ON table_name;
+--
+  1. Single Column Index
+
+   Here, indexes are created based on one table column. Only a single B-tree
+   is created for indexes. The syntax is as follows.
+
+--
+
+   This type of index can have multiple indexes. For each of the index
+   columns, There exists a Btree. The following is the syntax for composite
+   index:
+
+--
+   Unable to execute JavaScript. Try watching this video on www.youtube.com,
+   or enable JavaScript if it is disabled in your browser.
+   An introductory tutorial on B-tree indexes. | Video: Fullstack Academy
+
+   More on Data ScienceWhat Is a Data Set?
+--
+
+   Databases should have an efficient way to store, read, and modify data.
+   B-tree provides an efficient way to insert and read data. In actual
+   database implementation, the database uses both B-tree and B+tree together
+   to store data. B-tree used for indexing and B+tree used to store the
+   actual records. B+tree provides sequential search capabilities in addition
+   to the binary search, which gives the database more control to search
+   non-index values in a database.

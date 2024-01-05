@@ -1,282 +1,594 @@
    Link: canonical
    Link: alternate en
-   [ Submit ]
-     * Home
-     * Coding Ground
-     * Jobs
-     * Whiteboard
-     * Tools
-   Menu Login
-     * Switch theme
-     * Teach with us
-     * *  *  *  *   *  Category 
-          * Java
-          * JSP
-          * iOS
-          * HTML
-          * Android
-          * Python
-          * C Programming
-          * C++ Programming
-          * C#
-          * PHP
-          * CSS
-          * Javascript
-          * jQuery
-          * SAP
-          * SAP HANA
-          * Data Structure
-          * RDBMS
-          * MySQL
-          * Mathematics
-          * 8085 Microprocessor
-          * Operating System
-          * Digital Electronics
-          * Analysis of Algorithms
-          * Mobile Development
-          * Front End
-          * Web Development
-          * Selenium
-          * MongoDB
-          * Computer Network
-          * General Topics
-     * _____________________
-     * Library
-     * Articles
-     * Certifications
-     * Login
-   Menu
+   Link: alternate en-GB
+   Link: alternate en-US
+   Link: alternate en-MX
+   Link: alternate en-PH
+   Link: alternate en-BR
+   Link: alternate en-CO
+   Link: alternate es
+   Link: alternate es-ES
+   Link: alternate ru
+   Link: alternate pt
+   Link: alternate pt-BR
+   Link: alternate de
+   Link: alternate fr
+   Link: alternate it
+   Link: alternate zh-Hans
+   Link: alternate zh-Hant
+   Link: alternate pl
+   Link: alternate ko
+   Link: alternate tr
+   Link: alternate ja
+   Link: alternate vi
+   Link: alternate nl
+   Link: alternate da
+   Link: alternate no
+   Link: alternate hi
+   Link: alternate bn
+   Link: alternate mr
+   Link: alternate gu
+   Link: alternate ta
+   Link: alternate te
+   Cambridge Dictionary
+     * Dictionary
+     * Translate
+     * Grammar
+     * Thesaurus
+     * +Plus Cambridge Dictionary +Plus
+     * Cambridge Dictionary +Plus
+     * My profile
+     * +Plus help
+     * Log out
+     * Likes
+     * Instagram
+     * Followers
+   {{userName}} 
+     * Cambridge Dictionary +Plus
+     * My profile
+     * +Plus help
+     * Log out
+   Log in / Sign up
+   English (UK)
+   Search  Search
    _____________________
-   Show search Menu
+   English  [ Submit ]
+   {{word}} {{#beta}} Beta{{/beta}}
+   {{#preferredDictionaries}} {{^selected}} {{name}}  {{/selected}}
+   {{/preferredDictionaries}}
+
+                           Meaning of tree in English
+
+   Share on Facebook
+   Share on Twitter
+   tree
+   noun [ C ]
+   uk
+
+   Your browser doesn't support HTML5 audio
+
+   /triː/ us
+
+   Your browser doesn't support HTML5 audio
+
+   /triː/
+   Add to word list  Add to word list
+   A1
+   a tall plant that has a wooden trunk and branches that grow from its upper
+   part:
+   a plum/apple/chestnut tree
+   an oak/elm/maple tree
+   We sat under a tree for shade.
+    
+   Tetra Images/GettyImages
+   another type of tall plant, without a wooden trunk:
+   palm trees
+   More examplesFewer examples
+     * A fallen tree is blocking the road.
+     * The birds built their nest in the small fir tree.
+     * The air was so still that not even the leaves on the trees were
+       moving.
+     * These trees will have to be cut down to make way for the new road.
+     * A young boy climbed into the apple tree and shook the branches so that
+       the fruit fell down.
+   SMART Vocabulary: related words and phrases
+   Forestry
+     * afforestation
+     * agroforestry
+     * arborist
+     * brush
+     * carbon sink
+     * clearing
+     * cut down
+     * deforest
+     * lumberjack
+     * old growth
+     * ranger
+     * reafforest
+     * slash-and-burn
+     * the treeline
+     * undercut
+     * understorey
+     * unforested
+     * woodcutter
+     * woodsy
+     * woody
+   See more results »
+
+   You can also find related words, phrases, and synonyms in the topics:
+
+   Plants & animals - general words
+   (Definition of tree from the Cambridge Advanced Learner's Dictionary &
+   Thesaurus © Cambridge University Press)
+
+tree | American Dictionary
+
+   tree
+   noun [ C ]
+   us
+
+   Your browser doesn't support HTML5 audio
+
+   /tri/
+   Add to word list  Add to word list
+   a tall plant that has a wooden trunk and branches growing from its upper
+   part:
+   a pine tree
+   (Definition of tree from the Cambridge Academic Content Dictionary ©
+   Cambridge University Press)
+
+Examples of tree
+
+   tree
+   Phylogenetic trees support the coevolution of parasites and their hosts.
+   From the Cambridge English Corpus
+   Visible in the distance are ruins and palm trees.
+   From the Cambridge English Corpus
+   Experiments were conducted in a turfgrass area on a 0.5-ha residential
+   property, with scattered trees and adjacent woodlots.
+   From the Cambridge English Corpus
+   All other components have size n2/3 and are either trees or unicyclic.
+   From the Cambridge English Corpus
+   In this paper, we will focus on recursive trees and binary search trees as
+   underlying classes of trees.
+   From the Cambridge English Corpus
+   Our refined approaches will also exhibit some universality; we will
+   demonstrate this by showing that they straightforwardly apply to random
+   binary search trees as well.
+   From the Cambridge English Corpus
+   Moreover, for some cases involving trees we estimate the smallest
+   quantifier depth of a defining formula up to a factor of 1 + o(1).
+   From the Cambridge English Corpus
+   Parse trees for those matroids were introduced by the author in [4].
+   From the Cambridge English Corpus
+   As such, we recognize objects 'as' trees or mountains or tombs.
+   From the Cambridge English Corpus
+   I talk to him, by the grass verge and the trees.
+   From the Cambridge English Corpus
+   Thus, we compare the cost of the protection of trees between private and
+   community plantations.
+   From the Cambridge English Corpus
+   Finally, growing trees for energy would reduce another 2.2 tons of carbon
+   per hectare in the village facility and 3.6 tons in the centralized
+   facility.
+   From the Cambridge English Corpus
+   Thus, attributes of farm fields, and particularly the number of planted
+   trees, are important determinants of household choices.
+   From the Cambridge English Corpus
+   The distance to trees influenced the cassava yield.
+   From the Cambridge English Corpus
+   The trees in the outer most rows of each block were excluded to avoid any
+   border effects.
+   From the Cambridge English Corpus
+   See all examples of tree
+   These examples are from corpora and from sources on the web. Any opinions
+   in the examples do not represent the opinion of the Cambridge Dictionary
+   editors or of Cambridge University Press or its licensors.
+
+Collocations with tree
+
+tree
+
+   These are words often used in combination with tree.
+
+   Click on a collocation to see more examples of it.
+
+   acacia tree
+   The areas nearer the west coast have more protea flowers while the drier
+   inland is home to acacia trees and kwongan heathland.
+   From
+   Wikipedia
    [ Submit ]
-     * HTML
-     * CSS
-     * Javascript
-     * SQL
-     * Python
-     * Java
-     * C
-     * C++
-     * PHP
-     * Scala
-     * C#
-     * Node.js
-     * MySQL
-     * MongoDB
-     * PL/SQL
-     * Swift
-     * Bootstrap
-     * R
-     * Machine Learning
-     * Blockchain
-     * Angular
-     * React Native
-     * Computer Fundamentals
-     * Compiler Design
-     * Operating System
-     * Data Structure and Algorithms
-     * Computer Network
-     * DBMS
-     * Excel
+   This example is from Wikipedia and may be reused under a CC BY-SA license.
+    
+   almond tree
+   About 70% of the town's land is planted with olive groves, 5% is
+   cultivated with citrus, guava and almond trees.
+   From
+   Wikipedia
    [ Submit ]
-   Technical Questions and Answers
-     * Trending Categories
-     * Data Structure Data Structure
-     * Networking Networking
-     * RDBMS RDBMS
-     * Operating System Operating System
-     * Java Java
-     * MS Excel MS Excel
-     * iOS iOS
-     * HTML HTML
-     * CSS CSS
-     * Android Android
-     * Python Python
-     * C Programming C Programming
-     * C++ C++
-     * C# C#
-     * MongoDB MongoDB
-     * MySQL MySQL
-     * Javascript Javascript
-     * PHP PHP
-     * Physics Physics
-     * Chemistry Chemistry
-     * Biology Biology
-     * Mathematics Mathematics
-     * English English
-     * Economics Economics
-     * Psychology Psychology
-     * Social Studies Social Studies
-     * Fashion Studies Fashion Studies
-     * Legal Studies Legal Studies
-     * Selected Reading
-     * UPSC IAS Exams Notes
-     * Developer's Best Practices
-     * Questions and Answers
-     * Effective Resume Writing
-     * HR Interview Questions
-     * Computer Glossary
-     * Who is Who
+   This example is from Wikipedia and may be reused under a CC BY-SA license.
+    
+   ancient tree
+   The remains of a gnarled ancient tree are nearby.
+   From
+   Wikipedia
+   [ Submit ]
+   This example is from Wikipedia and may be reused under a CC BY-SA license.
+    
+   These examples are from corpora and from sources on the web. Any opinions
+   in the examples do not represent the opinion of the Cambridge Dictionary
+   editors or of Cambridge University Press or its licensors.
+   See all collocations with tree
+   What is the pronunciation of tree?
+    
+   A1
 
-                              What is Syntax Tree?
+Translations of tree
 
-   Compiler DesignProgramming LanguagesComputer Programming
+   in Chinese (Traditional)
+   樹，樹木, 喬木, （沒有木質樹幹的）樹…
+   See more
+   in Chinese (Simplified)
+   树，树木, 乔木, （没有木质树干的）树…
+   See more
+   in Spanish
+   árbol, árbol [masculine, singular]…
+   See more
+   in Portuguese
+   árvore, árvore [feminine]…
+   See more
+   in more languages 
+   in Japanese
+   in Turkish
+   in French
+   in Catalan
+   in Dutch
+   in Arabic
+   in Czech
+   in Danish
+   in Indonesian
+   in Thai
+   in Vietnamese
+   in Polish
+   in Malay
+   in German
+   in Norwegian
+   in Korean
+   in Ukrainian
+   in Italian
+   in Russian
+   木, 木（き）…
+   See more
+   ağaç…
+   See more
+   arbre [masculine], arbre…
+   See more
+   arbre…
+   See more
+   boom…
+   See more
+   شَجَرة…
+   See more
+   strom…
+   See more
+   træ…
+   See more
+   pohon…
+   See more
+   ต้นไม้…
+   See more
+   cây…
+   See more
+   drzewo…
+   See more
+   pokok…
+   See more
+   der Baum…
+   See more
+   tre [neuter], tre…
+   See more
+   나무…
+   See more
+   дерево…
+   See more
+   albero…
+   See more
+   дерево…
+   See more
+   Need a translator?
 
-     ----------------------------------------------------------------------
+   Get a quick, free translation!
 
-   Tree in which each leaf node describes an operand & each interior node an
-   operator. The syntax tree is shortened form of the Parse Tree.
+   Translator tool
+    
 
-   Example1 − Draw Syntax Tree for the string a + b ∗ c − d.
+Browse
 
-   Rules for constructing a syntax tree
+   treble recorder
+   trebled
+   trebling
+   trebuchet
+   tree
+   tree decomposition BETA
+   tree diagram
+   tree ear
+   tree fern
+   {{#randomImageQuizHook.isQuiz}}
+   Test your vocabulary with our fun image quizzes
+   {{randomImageQuizHook.quizId}}
+   Try a quiz now
+   {{/randomImageQuizHook.isQuiz}} {{^randomImageQuizHook.isQuiz}}
+   {{randomImageQuizHook.quizId}}
+   {{/randomImageQuizHook.isQuiz}}
 
-   Each node in a syntax tree can be executed as data with multiple fields.
-   In the node for an operator, one field recognizes the operator and the
-   remaining field includes a pointer to the nodes for the operands. The
-   operator is known as the label of the node. The following functions are
-   used to create the nodes of the syntax tree for the expressions with
-   binary operators. Each function returns a pointer to the recently
-   generated node.
+More meanings of tree
 
-     * mknode (op, left, right) − It generates an operator node with label op
-       and two field including pointers to left and right.
+   All
+     * sycamore
+     * Christmas tree
+     * family tree
+     * fir (tree)
+     * palm (tree)
+     * tree house
+     * willow (tree)
+   See all meanings
+   Idioms and phrases
+     * up a gum tree idiom
+     * barking up the wrong tree idiom
+     * be barking up the wrong tree idiom
+     * the apple doesn't fall far from the tree idiom
+     * the apple never falls far from the tree, at the apple doesn't fall far
+       from the tree idiom
+   See all idioms and phrases
+   Share on Facebook
+   Share on Twitter
 
-     * mkleaf (id, entry) − It generates an identifier node with label id and
-       the field including the entry, a pointer to the symbol table entry for
-       the identifier.
+   Word of the Day
 
-     * mkleaf (num, val) − It generates a number node with label num and a
-       field including val, the value of the number. For example, construct a
-       syntax tree for an expression a − 4 + c. In this sequence, p_1, p_2, …
-       . . p_5are pointers to the symbol table entries for identifier 'a' and
-       'c' respectively.
+   at your mother's knee
 
- p_1− mkleaf (id, entry a);
- p_2− mkleaf (num, 4);
- p_3− mknode ( ′−′, p_1, p_2)
- p_4− mkleaf(id, entry c)
- p_5− mknode(′+′, p_3, p_4);
+   If you learned something at your mother's knee, you learned it when you
+   were a child.
 
-   The tree is generated in a bottom-up fashion. The function calls mkleaf
-   (id, entry a) and mkleaf (num 4) construct the leaves for a and 4. The
-   pointers to these nodes are stored using p_1and p_2. The call mknodes
-   (′−′, p_1, p_2 ) then make the interior node with the leaves for a and 4
-   as children. The syntax tree will be
+   About this
+   Juddering, quivering and wobbling: more verbs to describe movement
 
-   Syntax Directed Translation of Syntax Trees
+   Blog
 
-   Production        Semantic Action                              
-   E → E^(1) + E^(2) {E. VAL = Node (+, E^(1). VAL, E^(2). VAL)}  
-   E → E^(1) ∗ E^(2) {E. VAL = Node (∗, E^(1). VAL, E^(2). VAL)}) 
-   E → (E^(1))       {E. VAL = E^(1). VAL}                        
-   E → E^(1)         {E. VAL = UNARY (−, E^(1). VAL}              
-   E → id            {E. VAL = Leaf (id)}                         
+   Juddering, quivering and wobbling: more verbs to describe movement
 
-   Node (+, 𝐄^(𝟏), 𝐕𝐀𝐋, 𝐄^(𝟐). 𝐕𝐀𝐋) will create a node labeled +.
+   January 03, 2024
+   Read More
+   <p>broken rung
 
-   E^(1). VAL &E^(2). VAL are left & right children of this node.
+   New Words
 
-   Similarly, Node (∗, E^(1). VAL, E^(2). VAL) will make the syntax as −
+   broken rung
 
-   Function UNARY (−, E^(1). VAL)will make a node – (unary minus) & E^(1).
-   VAL will be the only child of it.
+   January 01, 2024
+   More new words
+   has been added to list
+   To top
+   Contents
+   EnglishAmericanExamplesCollocationsTranslations
+   Cambridge University Press & Assessment
 
-   Function LEAF (id) will create a Leaf node with label id.
+   © Cambridge University Press & Assessment 2024
 
-   Example2 − Construct a syntax tree for the expression.
+   Learn
+   Learn Learn New Words Help In Print Word of the Year 2021 Word of the Year
+   2022 Word of the Year 2023
+   Develop
+   Develop Develop Dictionary API Double-Click Lookup Search Widgets License
+   Data
+   About
+   About About Accessibility Cambridge English Cambridge University Press &
+   Assessment Consent Management Cookies and Privacy Corpus Terms of Use
+   Cambridge University Press & Assessment
 
-   a = b ∗ −c + d
+   © Cambridge University Press & Assessment 2024
 
-   Solution
+   {{#displayLoginPopup}}
+   Cambridge Dictionary +Plus
 
-   Example3 − Construct a syntax tree for a statement.
+Learn more with +Plus
 
-   If a = b then b = 2 * c
+   Sign up for free and get access to exclusive content:
+   Free word lists and quizzes from Cambridge
+   Tools to create your own word lists and quizzes
+   Word lists shared by our community of dictionary fans
+   Sign up now or Log in
+   Cambridge Dictionary +Plus
 
-   Solution
+Learn more with +Plus
 
-   Example4 − Consider the following code. Draw its syntax Tree
+   Create word lists and quizzes for free
+   Sign up now or Log in
+   {{/displayLoginPopup}} {{#displayClassicSurvey}} {{/displayClassicSurvey}}
+   Cambridge Dictionary
+     * Cambridge Dictionary +Plus
+     * My profile
+     * +Plus help
+     * Log out
+   Cambridge Dictionary
+   Dictionary 
+   Definitions 
+   Clear explanations of natural written and spoken English
+   English
+   Learner’s Dictionary
+   Essential British English
+   Essential American English
+   Translations 
+   Click on the arrows to change the translation direction.
+   Bilingual Dictionaries
+   English–Chinese (Simplified) Chinese (Simplified)–English
+   English–Chinese (Traditional) Chinese (Traditional)–English
+   English–Dutch Dutch–English
+   English–French French–English
+   English–German German–English
+   English–Indonesian Indonesian–English
+   English–Italian Italian–English
+   English–Japanese Japanese–English
+   English–Norwegian Norwegian–English
+   English–Polish Polish–English
+   English–Portuguese Portuguese–English
+   English–Spanish Spanish–English
+   English–Swedish Swedish–English
+   Semi-bilingual Dictionaries
+   English–Arabic
+   English–Bengali
+   English–Catalan
+   English–Czech
+   English–Danish
+   English–Gujarati
+   English–Hindi
+   English–Korean
+   English–Malay
+   English–Marathi
+   English–Russian
+   English–Tamil
+   English–Telugu
+   English–Thai
+   English–Turkish
+   English–Ukrainian
+   English–Urdu
+   English–Vietnamese
+   Translate
+   Grammar
+   Thesaurus
+   Pronunciation
+   Cambridge Dictionary +Plus
+   {{userName}} 
+     * Cambridge Dictionary +Plus
+     * My profile
+     * +Plus help
+     * Log out
+   Log in / Sign up
+   English (UK)   Change 
+   English (UK) English (US) Español Русский Português Deutsch Français
+   Italiano 中文 (简体) 正體中文 (繁體) Polski 한국어 Türkçe 日本語 Tiếng Việt Nederlands
+   Dansk Norsk हिंदी বাঙ্গালি मराठी ગુજરાતી தமிழ் తెలుగు
+   Follow us
+   Choose a dictionary
+     * Recent and Recommended 
+       {{#preferredDictionaries}} {{name}} {{/preferredDictionaries}}
+     * Definitions 
+       Clear explanations of natural written and spoken English
+       English Learner’s Dictionary Essential British English Essential
+       American English
+     * Grammar and thesaurus 
+       Usage explanations of natural written and spoken English
+       Grammar Thesaurus
+     * Pronunciation 
+       British and American pronunciations with audio
+       English Pronunciation
+     * Translation 
+       Click on the arrows to change the translation direction.
+       Bilingual Dictionaries
+          * English–Chinese (Simplified) Chinese (Simplified)–English
+          * English–Chinese (Traditional) Chinese (Traditional)–English
+          * English–Dutch Dutch–English
+          * English–French French–English
+          * English–German German–English
+          * English–Indonesian Indonesian–English
+          * English–Italian Italian–English
+          * English–Japanese Japanese–English
+          * English–Norwegian Norwegian–English
+          * English–Polish Polish–English
+          * English–Portuguese Portuguese–English
+          * English–Spanish Spanish–English
+          * English–Swedish Swedish–English
+       Semi-bilingual Dictionaries
+       English–Arabic English–Bengali English–Catalan English–Czech
+       English–Danish English–Gujarati English–Hindi English–Korean
+       English–Malay English–Marathi English–Russian English–Tamil
+       English–Telugu English–Thai English–Turkish English–Ukrainian
+       English–Urdu English–Vietnamese
+     * Dictionary +Plus 
+       Word Lists
+   Choose your language
+   English (UK)  
+   English (US) Español Русский Português Deutsch Français Italiano 中文 (简体)
+   正體中文 (繁體) Polski 한국어 Türkçe 日本語 Tiếng Việt Nederlands Dansk Norsk हिंदी
+   বাঙ্গালি मराठी ગુજરાતી தமிழ் తెలుగు
+   Contents
+     * English   
+       Noun
+     * American   
+       Noun
+     * Examples
+     * Collocations
+     * Translations
+     * Grammar 
+     * All translations
+   My word lists
 
-   If x > 0 then x = 2 * (a + 1) else x = x + 1.
+   Add tree to one of your lists below, or create a new one.
 
-   Example5 − Draw syntax tree for following arithmetic expression a * (b +
-   c) – d /2. Also, write given expression in postfix form.
+   [ Submit ]
+   _____________________
+   {{#verifyErrors}}
 
-   Postfix Notation
+   {{message}}
 
-   a b c + * d 2 / -
+   {{/verifyErrors}} {{^verifyErrors}} {{#message}}
 
-   Ginni
-   Ginni
+   {{message}}
 
-   Updated on: 26-Oct-2023
+   {{/message}} {{^message}}
 
-   18K+ Views
+   Something went wrong.
 
-     * Related Articles
-     * What is the difference between Parse Tree and the Syntax Tree?
-     * What is TestNG Annotation Syntax?
-     * What is python .. ("dot dot") notation syntax?
-     * What is JDBC SQL Escape Syntax Explain?
-     * What is the Syntax Directed Translation?\n
-     * What is Implementation of Syntax Directed Translators?
-     * What is a scriptlet in JSP and what is its syntax?
-     * What is syntax of tuple declaration in Python?
-     * What is correct syntax to create Python tuples?
-     * What is correct syntax to create Python lists?
-     * What is correct syntax to create Python dictionary?
-     * What is correct syntax of Python if statement?
-     * What is basic syntax of Python for Loops?
-     * What is Types of Syntax Directed Translation Schemes?
-     * What is the syntax for boolean values in MongoDB?
+   {{/message}} {{/verifyErrors}}
+   More
+   {{name}}
+   Go to your word lists
+   {{#verifyErrors}}
 
-      Kickstart Your Career
+   {{message}}
 
-   Get certified by completing the course
+   {{/verifyErrors}} {{^verifyErrors}} {{#message}}
 
-   Get Started
-   Print Page
-   Previous Next
-   Advertisements
-   tutorials point logo
+   {{message}}
 
-   Tutorials Point is a leading Ed Tech company striving to provide the best
-   learning material on technical and non-technical subjects.
+   {{/message}} {{^message}}
 
-   Download Android App Download IOS App
+   Something went wrong.
 
-      About us
+   {{/message}} {{/verifyErrors}}
+   Tell us about this example sentence:
+   [ ] The word in the example sentence does not match the entry word.
+   [ ] The sentence contains offensive content.
+   Cancel Submit
+   Thanks! Your feedback will be reviewed.
+   {{#verifyErrors}}
 
-     * Company
-     * Our Team
-     * Careers
-     * Jobs
-     * Become a Teacher
-     * Affiliates
-     * Contact Us
+   {{message}}
 
-      Terms
+   {{/verifyErrors}} {{^verifyErrors}} {{#message}}
 
-     * Terms of use
-     * Privacy Policy
-     * Refund Policy
-     * Cookies Policy
-     * FAQ's
+   {{message}}
 
-      Our Products
+   {{/message}} {{^message}}
 
-     * Free Library
-     * Articles
-     * Coding Ground
-     * Certifications
-     * Courses
-     * eBooks
-     * Corporate Training
-     * Free Web Graphics
+   There was a problem sending your report.
 
-      Contact Us
+   {{/message}} {{/verifyErrors}}
+   [ ] The word in the example sentence does not match the entry word.
+   [ ] The sentence contains offensive content.
+   Cancel Submit
+   Thanks! Your feedback will be reviewed.
+   {{#verifyErrors}}
 
-     * Tutorials Point India Private Limited, Incor9 Building, Kavuri Hills,
-       Madhapur, Hyderabad, Telangana - 500081, INDIA
-     * *  *  *  * © Copyright 2023. All Rights Reserved.
+   {{message}}
+
+   {{/verifyErrors}} {{^verifyErrors}} {{#message}}
+
+   {{message}}
+
+   {{/message}} {{^message}}
+
+   There was a problem sending your report.
+
+   {{/message}} {{/verifyErrors}}

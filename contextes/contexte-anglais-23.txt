@@ -1,52 +1,20 @@
-   Tools, Research, Reports & Guides
-   Tree Equity Score
-   Ensuring tree cover in cities is equitably distributed
-   Photo: Rob Crandall / Shutterstock
-   Using Data Tools to Create Tree Equity
+    1. Bytecode interpreter
+    2. Threaded code interpreter
+    3. Abstract syntax tree interpreter
+    4. Justin-in-time compilation
 
-   The story is the same in nearly every city across the United States. With
-   few exceptions, trees are sparse in socioeconomically disadvantaged and
-   neighborhoods of color and more prominent in wealthier, whiter
-   neighborhoods. Redlining policies, dating back to the 1930s, helped
 --
-   American Forests is focused on addressing this inequity by focusing
-   resources in neighborhoods of highest need. It’s our moral imperative to
-   do so, given how many life-saving and quality of life benefits trees
-   provide people. That is why we are working to create Tree Equity, which is
-   about ensuring that all people experience the benefits of trees. One of
-   the ways we are doing this is with our Tree Equity Score tool. It provides
-   a social-equity-focused narrative, goals and a guide path for building
---
-   See Your City's Tree Equity Score
-   What Do the Scores Mean?
-   Each score indicates whether there are enough trees in a neighborhood for
-   everyone to experience the health, economic and climate benefits that
-   trees provide. Scores are based on tree canopy, surface temperature,
-   income, employment, race, age, language and health factors. A
-   0-to-100-point system makes it easy to understand how a community fares.
---
-   U.S. congressional leaders and everybody in between. And it can be used by
-   a variety of sectors, such as urban forestry and public health, given the
-   role trees play in slowing climate change and improving health and
-   wellbeing. Some of the uses are:
 
-   Advocacy
-   Make the case for federal, state and local policies, programs and funding
-   related to protecting existing trees and planting new trees. The Tucson
-   City Council used the methodology from Tree Equity Score to create a
-   mapping tool for making decisions about how to invest in green
-   infrastructure, such as tree planting and green stormwater basin
-   installations.
-   City Planning
---
-   Forestry Programs
-   Use the scores to take a fresh look at an existing urban forestry program.
-   Does the program prioritize planting trees in low-scoring neighborhoods?
-   Scores can help track progress related to urban forestry programs and
-   initiatives.
---
-     * FAQs
+   If you’re a TypeScript developer with some familiarity of the TypeScript
+   architecture, you may have heard about the abstract syntax tree (AST).
 
-   1220 L Street, NW,
-   Suite 750
-   Washington, DC 20005
+   AST is an approach to transform the source code into an optimized abstract
+   syntax tree, then execute the program following this tree structure, or
+   use it to generate native code just-in-time.
+
+--
+
+   However, for interpreters, AST causes more overhead. Interpreters walking
+   the abstract syntax tree are slower than those generating bytecode.
+
+    

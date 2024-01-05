@@ -1,0 +1,169 @@
+list binary vs binary search §tree§ §tree§ vs graph binary search
+§tree§
+vs avl §tree§ red black §tree§ vs avl §tree§ b §tree§
+§tree§ quick sort vs
+vs array full binary §tree§ vs complete binary §tree§ binary
+§tree§ vs b §tree§
+optimal binary search §tree§ priority queue using linked list
+binary search §tree§ boundary traversal of binary §tree§
+binary §tree§ vertical traversal of a binary
+§tree§ graph algorithms time
+search §tree§ stock span problem treap data
+linked list inversion count expression §tree§ in ds garbage collection in
+o notation in ds binary §tree§ traversal in ds queue
+javascript burn the binary §tree§ from the target node lowest
+ancestor in a binary search §tree§ types of hash functions in
+binary §tree§ applications
+binary search §tree§ find duplicate sub§trees§ in binary
+§tree§ find the index
+the number using a binary §tree§ find the in-order successor
+a binary §tree§ reversing a queue different types
+a §tree§ is also one of the
+§tree§
+the above §tree§ shows the organization hierarchy of
+§tree§
+is similar to the real §tree§
+so it is named a §tree§
+we can say that the §tree§ data structure is
+some key points of the §tree§ data structure
+a §tree§ data structure is defined as
+a §tree§ data structure is a non
+elements in a §tree§ are arranged in multiple levels
+in the §tree§ data structure
+above §tree§ structure
+some basic terms used in §tree§ data structure
+let's consider the §tree§ structure
+§tree§
+the topmost node in the §tree§ hierarchy
+the root node of the §tree§
+the node of the §tree§
+§tree§
+nodes present in a general §tree§
+in the §tree§ shown in the above image
+properties of §tree§ data structure
+the §tree§ is also known as a
+a §tree§ can be defined as recursively
+distinguished node in a §tree§ data structure is known as
+the root node of the §tree§ contains a link to all
+§trees§
+§tree§ is shown in the yellow
+§tree§ is shown in the red
+§tree§ can be further split into
+§trees§ shown in three different
+this recursive property of the §tree§ data structure is implemented
+§tree§
+on the properties of the §tree§ data structure
+§trees§ are classified
+implementation of §tree§
+the §tree§ data structure can be created
+the §tree§ in the memory can be
+§tree§
+shows the representation of the §tree§ data structure in
+be defined for the binary §trees§ because the
+binary §tree§ can have utmost two children
+and generic §trees§ can have more
+of the node for generic §trees§ would be
+as compared to the binary §tree§
+applications of §trees§
+following are the applications of §trees§
+§trees§ are used to store the
+stored in the form of §trees§
+a binary §tree§ has a logn time for
+is a special kind of §tree§ that is used to store
+it is also a §tree§ data structure implemented using arrays
+b-§tree§ and b+§tree§
+b-§tree§ and b+§tree§ are the §tree§ data structures
+the §tree§ data structure is also used
+types of §tree§ data structure
+are the types of a §tree§ data structure
+general §tree§
+the general §tree§ is one of the types
+of §tree§ data
+in the general §tree§
+in a general §tree§ is known as a root
+§trees§
+§tree§
+of sub§trees§ in a general §tree§
+§tree§
+§trees§ are unordered as the nodes
+§tree§ cannot be
+every non-empty §tree§ has a downward edge
+binary §tree§
+in a binary §tree§
+each node in a §tree§ can have utmost two child
+§tree§
+know more about the binary §tree§
+www.javatpoint.com/binary-§tree§
+binary search §tree§
+binary search §tree§ is a non-linear data
+search §tree§ with three fields
+a binary search §tree§
+§tree§ must contain a value less
+§tree§ must be bigger than the
+more about the binary search §tree§
+www.javatpoint.com/binary-search-§tree§
+avl §tree§
+the types of the binary §tree§
+variant of the binary search §tree§
+avl §tree§ satisfies the property of the
+binary §tree§ as well as of the
+binary search §tree§
+binary search §tree§ that was invented by adelson
+§tree§ and right
+§tree§
+we can consider a §tree§ as an avl §tree§ if
+the §tree§ obeys the binary search
+§tree§ as well as a balancing
+§tree§ and the height of
+§tree§
+each node in the avl §tree§ should have the value of
+know more about the avl §tree§
+www.javatpoint.com/avl-§tree§
+red-black §tree§
+the red-black §tree§ is the binary search §tree§
+red-black §tree§ is that we should know
+about the binary search §tree§
+binary search §tree§
+§tree§ should be less than the
+§tree§ should be greater
+operation is performed on the §tree§
+we want our §tree§ to be
+the red-black §tree§ is a self-balancing binary
+search §tree§
+avl §tree§ is
+a height balancing binary search §tree§ then why do we require
+red-black §tree§
+in the avl §tree§
+be required to balance the §tree§
+but in the red-black §tree§
+are required to balance the §tree§
+of the §tree§
+splay §tree§
+the splay §tree§ data structure is also binary
+search §tree§ in which recently
+at the root position of §tree§ by performing some
+a self-balancing binary search §tree§ having no explicit balance
+condition like avl §tree§
+that height of the splay §tree§ is not balanced
+§trees§ may differ
+operations in splay §tree§ takes order of logn time
+splay §tree§ is a balanced §tree§ but it cannot be considered
+balanced §tree§ because after each operation
+leads to a balanced §tree§
+data structure came from the §tree§ and heap data structure
+comprises the properties of both §tree§ and heap data structures
+search §tree§
+§tree§ must be equal or less
+§tree§ must be equal or
+§trees§ contain larger keys than the
+derived from the binary search §tree§ and priority is derived from
+binary §tree§
+§tree§ must be greater than the
+b-§tree§
+b-§tree§ is a balanced m-way
+§tree§ where m defines the order
+of the §tree§
+only one key but b-§tree§ can have
+in binary §tree§
+but in b-§tree§
+each node in a b-§tree§ can have maximum m children

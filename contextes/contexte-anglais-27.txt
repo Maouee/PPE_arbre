@@ -1,173 +1,383 @@
-     * (Top)
-     * 1 Nomenclature
-     * 2 Constituency-based parse trees
-     * 3 Dependency-based parse trees
-     * 4 Phrase markers
-     * 5 See also
+   [ Submit ]
+
+                                      tree
+
+   1 of 2
 --
-   [ ] Toggle the table of contents
+noun
 
-                                   Parse tree
-
-   [ ] 24 languages
+   ˈtrē How to pronounce tree (audio)
+   plural trees
+   1
+   a
 --
-     * Wikimedia Commons
-   From Wikipedia, the free encyclopedia
-   [IMG]Parse tree to SAAB
-
-   A parse tree or parsing tree^[1] or derivation tree or concrete syntax
-   tree is an ordered, rooted tree that represents the syntactic structure of
-   a string according to some context-free grammar. The term parse tree
-   itself is used primarily in computational linguistics; in theoretical
-   syntax, the term syntax tree is more common.
-
-   Concrete syntax trees reflect the syntax of the input language, making
-   them distinct from the abstract syntax trees used in computer programming.
-   Unlike Reed-Kellogg sentence diagrams used for teaching grammar, parse
-   trees do not use distinct symbol shapes for different types of
-   constituents.
-
-   Parse trees are usually constructed based on either the constituency
-   relation of constituency grammars (phrase structure grammars) or the
-   dependency relation of dependency grammars. Parse trees may be generated
-   for sentences in natural languages (see natural language processing), as
-   well as during processing of computer languages, such as programming
+   b
+   : a shrub or herb of arborescent form
+   rose trees
+   a banana tree
+   2
+   : something in the form of or resembling a tree: such as
+   a
+   : a diagram or graph that branches usually from a simple stem or vertex
+   without forming loops or polygons
+   a genealogical tree
+   phylogenetic trees
+   b
+   : a much-branched system of channels especially in an animal body
+   the vascular tree
+   3
+   a(1)
 --
-   transformational generative grammar. A phrase marker is a linguistic
-   expression marked as to its phrase structure. This may be presented in the
-   form of a tree, or as a bracketed expression. Phrase markers are generated
-   by applying phrase structure rules, and themselves are subject to further
-   transformational rules.^[2] A set of possible parse trees for a
-   syntactically ambiguous sentence is called a "parse forest."^[3]
+   archaic : gallows
+   4
+   : saddletree
+   treeless
+   ˈtrē-ləs How to pronounce tree (audio)
+   adjective
+   treelike
+   ˈtrē-ˌlīk How to pronounce tree (audio)
+   adjective
 
-Nomenclature[edit]
+   see also out of one's tree
 
-   [IMG]A simple parse tree
+   tree
 
-   A parse tree is made up of nodes and branches.^[4] In the picture the
-   parse tree is the entire structure, starting from S and ending in each of
-   the leaf nodes (John, ball, the, hit). In a parse tree, each node is
-   either a root node, a branch node, or a leaf node. In the above example, S
-   is a root node, NP and VP are branch nodes, while John, ball, the, and hit
+   2 of 2
 --
-   In the example, S is a parent of both NP and VP. A child node is one which
-   has at least one node directly above it to which it is linked by a branch
-   of the tree. Again from our example, hit is a child node of V.
+verb
 
-   A nonterminal function is a function (node) which is either a root or a
-   branch in that tree whereas a terminal function is a function (node) in a
-   parse tree which is a leaf.
+   treed; treeing
 
-   For binary trees (where each parent node has two immediate child nodes),
-   the number of possible parse trees for a sentence with n words is given by
-   the Catalan number C_{n}.
-
-Constituency-based parse trees[edit]
-
-   The constituency-based parse trees of constituency grammars (phrase
-   structure grammars) distinguish between terminal and non-terminal nodes.
-   The interior nodes are labeled by non-terminal categories of the grammar,
-   while the leaf nodes are labeled by terminal categories. The image below
-   represents a constituency-based parse tree; it shows the syntactic
-   structure of the English sentence John hit the ball:
-
-   Parse tree PSG
-
-   The parse tree is the entire structure, starting from S and ending in each
-   of the leaf nodes (John, hit, the, ball). The following abbreviations are
-   used in the tree:
-
-                           * S for sentence, the top-level structure in this
+   transitive verb
 --
-                           * N for noun
+   1
+   a
+   : to drive to or up a tree
+   treed by a bull
+   dogs treeing game
+   b
+   : to put into a position of extreme disadvantage : corner
+   especially : to bring to bay
+   2
+   : to furnish or fit (a shoe) with a tree
 
-   Each node in the tree is either a root node, a branch node, or a leaf
-   node.^[5] A root node is a node that does not have any branches on top of
-   it. Within a sentence, there is only ever one root node. A branch node is
-   a parent node that connects to two or more child nodes. A leaf node,
-   however, is a terminal node that does not dominate other nodes in the
-   tree. S is the root node, NP and VP are branch nodes, and John (N), hit
-   (V), the (D), and ball (N) are all leaf nodes. The leaves are the lexical
-   tokens of the sentence. A parent node is one that has at least one other
-   node linked by a branch under it. In the example, S is a parent of both N
-   and VP. A child node is one that has at least one node directly above it
-   to which it is linked by a branch of a tree. From the example, hit is a
-   child node of V. The terms mother and daughter are also sometimes used for
-   this relationship.
+Examples of tree in a Sentence
 
-Dependency-based parse trees[edit]
-
-   The dependency-based parse trees of dependency grammars^[6] see all nodes
-   as terminal, which means they do not acknowledge the distinction between
-   terminal and non-terminal categories. They are simpler on average than
-   constituency-based parse trees because they contain fewer nodes. The
-   dependency-based parse tree for the example sentence above is as follows:
-
-                                     Parse tree DG
-
-   This parse tree lacks the phrasal categories (S, VP, and NP) seen in the
-   constituency-based counterpart above. Like the constituency-based tree,
-   constituent structure is acknowledged. Any complete sub-tree of the tree
-   is a constituent. Thus this dependency-based parse tree acknowledges the
-   subject noun John and the object noun phrase the ball as constituents just
-   like the constituency-based parse tree does.
-
-   The constituency vs. dependency distinction is far-reaching. Whether the
-   additional syntactic structure associated with constituency-based parse
-   trees is necessary or beneficial is a matter of debate.
-
-Phrase markers[edit]
+   Noun He chopped down the tree.
+   Recent Examples on the Web
+   Noun
+   For tree vendors of New York City, Christmas is serious business. —Ryan
+   Fonseca, Los Angeles Times, 21 Dec. 2023 By Louise Glück Spring comes
+   quickly: overnight the plum tree blossoms, the warm air fills with bird
+   calls. —Louise Glück, New York Times, 21 Dec. 2023 When all threads are
+   drawn and tied, cut tree shape. —Christianna Silva, Better Homes &
+   Gardens, 21 Dec. 2023 The entrance to Pacific Rim, a pan-Asian specialty
+   restaurant serving sushi, dim sum, and more, is marked by an impressive
+   bonsai cherry tree sculpture by Savoy Studios. —Elizabeth Rhodes, Travel +
+   Leisure, 21 Dec. 2023 The agency warned the winds could knock down tree
+   limbs and blow around objects that aren't secured. —Emily Shapiro, ABC
+   News, 20 Dec. 2023 Tornado damage, downed trees and fallen lines were also
+   reported in other parts of the state, including in Gibson County, where
+   Fire Station 9 in Rutherford was mostly destroyed, Sheriff Paul Thomas
 --
-   further transformations.
+   center and a home in the Heritage Hunt community will be about 1,000 feet
+   — with slightly lower heights than originally proposed, the buildings
+   painted to blend in with the landscape and trees in between. —Antonio
+   Olivo, Washington Post, 10 Dec. 2023 Experts recommend inspecting your
+   tree for light brown egg cases, snipping them off, and leaving them
+   outdoors. —Brandee Gruener, Southern Living, 9 Dec. 2023
+   Verb
+   Classifying these nuts can be vital, particularly for people who have
+   severe allergies to tree nuts. —Delaney Nothaft, USA TODAY, 10 Sep. 2023
+   In western north and central Texas, the warning was set to lift at 9 a.m.
+   on Thursday, though power outages and tree damage across the area were
+   still possible due to the ice. —Marina Pitofsky, USA TODAY, 3 Feb. 2023
+   The tornado did mainly tree damage in the area and dissipated after
+   crossing County Road 113. —Leigh Morgan, al, 8 Jan. 2023 Bitters are
+   liquors flavored with a combination of herbs and other plants — sometimes
+   even tree bark and roots. —Eric Betz, Discover Magazine, 7 Oct. 2020
+   Scientists called dendrochronologists focus on assigning calendar years to
+   tree rings and interpreting data within those rings. —Jared Farmer,
+   Smithsonian Magazine, 3 Jan. 2023 People who are not sensitive or allergic
+   to tree nuts can still eat the cookies. —Chris Smith, BGR, 1 Nov. 2022
+   People allergic to tree nuts will develop symptoms after eating products
+   containing these ingredients. —Chris Smith, BGR, 27 Oct. 2022 Not only is
+   the money tree a beautiful addition to any home style, it's also been
+   found to bring luck and good fortune to its owners. —Cailey Lindberg, Good
+   Housekeeping, 13 Oct. 2022 See More
 
-   Phrase markers may be presented in the form of trees (as in the above
-   section on constituency-based parse trees), but are often given instead in
-   the form of "bracketed expressions", which occupy less space in the
-   memory. For example, a bracketed expression corresponding to the
-   constituency-based tree given above may be something like :
+   These examples are programmatically compiled from various online sources
+   to illustrate current usage of the word 'tree.' Any opinions expressed in
+   the examples do not represent those of Merriam-Webster or its editors.
+   Send us feedback about these examples.
+--
+   Noun
 
-           {\displaystyle [_{S}\ [_{\mathit {N}}\ {\text{John}}]\ [_{\mathit
---
-           {\text{the}}]\ [_{N}\ {\text{ball}}]]]]}
+   Middle English, from Old English trēow; akin to Old Norse trē tree, Greek
+   drys, Sanskrit dāru wood
 
-   As with trees, the precise construction of such expressions and the amount
-   of detail shown can depend on the theory being applied and on the points
-   that the query author wishes to illustrate.
---
-See also[edit]
-
-     * Abstract syntax tree
-     * Constituent (linguistics)
-     * Dependency grammar
---
-    3. ^ Billot, Sylvie, and Bernard Lang. "The structure of shared forests
-       in ambiguous parsing."
-    4. ^ "The parsetree Package for Drawing Trees in LaTeX".
-       www1.essex.ac.uk.
-    5. ^ See Carnie (2013:118ff.) for an introduction to the basic concepts
-       of syntax trees (e.g. root node, terminal node, non-terminal node,
-       etc.).
-    6. ^ See for example Ágel et al. 2003/2006.
---
-     * Syntax Tree Editor
-     * Linguistic Tree Constructor
-     * phpSyntaxTree – Online parse tree drawing site
-     * phpSyntaxTree (Unicode) – Online parse tree drawing site (improved
-       version that supports Unicode)
-     * rSyntaxTree Enhanced version of phpSyntaxTree in Ruby with Unicode and
-       Vectorized graphics
-     * Qtree – LaTeX package for drawing parse trees
-     * TreeForm Syntax Tree Drawing Software
-     * Visual Introduction to Parse Trees Introduction and Transformation
---
-                    * Parser generator                   
-   Related topics        * LALR                          
-                    * Parse tree                         
-                    * AST                                
-                    * Scannerless parsing                
 --
 
-   Retrieved from
-   "https://en.wikipedia.org/w/index.php?title=Parse_tree&oldid=1159350944"
-   Categories:
-     * Syntax
+   Time Traveler
+   The first known use of tree was before the 12th century
+   See more words from the same century
+
+Phrases Containing tree
+
+     * bay-rum tree
+     * bee tree
+     * angelica tree
+     * camphor tree
+     * brown tree snake
+     * bark up the wrong tree
+     * cacao tree
+     * big tree
+     * grass tree
+     * cucumber tree
+     * golden rain tree
+     * flame tree
+     * gum tree
+     * family tree
+     * fringe tree
+     * fever tree
+     * decision tree
+     * dead-tree
+     * cola tree
+     * coffee tree
+     * katsura tree
+     * kapok tree
+     * Joshua tree
+     * Kentucky coffee tree
+     * ming tree
+     * lesser peach tree borer
+     * palm tree
+     * peach tree borer
+     * out of one's tree
+     * money tree
+     * shea tree
+     * shade tree
+     * rubber tree
+     * rain tree
+     * service tree
+     * spindle tree
+     * smoke tree
+     * staff tree
+     * state tree
+     * sorrel tree
+     * silk tree
+     * silk cotton tree
+     * shoe tree
+     * tree ear
+     * tea tree
+     * top of the tree
+     * tree fern
+     * tree hugger
+     * tree house
+     * tree line
+     * tree of life
+     * tree peony
+     * tree ring
+     * tree of heaven
+     * up a gum tree
+     * umbrella tree
+     * varnish tree
+     * tulip tree
+     * tree swallow
+     * tree surgery
+     * tree toad
+     * tree tomato
+     * tree shrew
+     * wolf tree
+     * wayfaring tree
+     * bo tree
+     * Para rubber tree
+     * kola tree
+     * tree sparrow
+     * Judas tree
+     * strawberry tree
+     * mastic tree
+     * planer tree
+     * tung tree
+     * China tree
+     * tree farm
+     * maidenhair tree
+     * bodhi tree
+     * olive tree
+     * Christmas tree
+     * tree frog
+     * cajeput tree
+     * tree-lined
+   See More
+     * bay-rum tree
+     * bee tree
+     * angelica tree
+     * camphor tree
+     * brown tree snake
+     * bark up the wrong tree
+     * cacao tree
+     * big tree
+     * grass tree
+     * cucumber tree
+     * golden rain tree
+     * flame tree
+     * gum tree
+     * family tree
+     * fringe tree
+     * fever tree
+     * decision tree
+     * dead-tree
+     * cola tree
+     * coffee tree
+     * katsura tree
+     * kapok tree
+     * Joshua tree
+     * Kentucky coffee tree
+     * ming tree
+     * lesser peach tree borer
+     * palm tree
+     * peach tree borer
+     * out of one's tree
+     * money tree
+     * shea tree
+     * shade tree
+     * rubber tree
+     * rain tree
+     * service tree
+     * spindle tree
+     * smoke tree
+     * staff tree
+     * state tree
+     * sorrel tree
+     * silk tree
+     * silk cotton tree
+     * shoe tree
+     * tree ear
+     * tea tree
+     * top of the tree
+     * tree fern
+     * tree hugger
+     * tree house
+     * tree line
+     * tree of life
+     * tree peony
+     * tree ring
+     * tree of heaven
+     * up a gum tree
+     * umbrella tree
+     * varnish tree
+     * tulip tree
+     * tree swallow
+     * tree surgery
+     * tree toad
+     * tree tomato
+     * tree shrew
+     * wolf tree
+     * wayfaring tree
+     * bo tree
+     * Para rubber tree
+     * kola tree
+     * tree sparrow
+     * Judas tree
+     * strawberry tree
+     * mastic tree
+     * planer tree
+     * tung tree
+     * China tree
+     * tree farm
+     * maidenhair tree
+     * bodhi tree
+     * olive tree
+     * Christmas tree
+     * tree frog
+     * cajeput tree
+     * tree-lined
+   See More
+
+Articles Related to tree
+
+   baobab-trees
+
+   Name That Tree!
+--
+   Peep these leaves.
+
+Dictionary Entries Near tree
+
+   tredrille
+
+   tree
+
+   Tree
+--
+
+   “Tree.” Merriam-Webster.com Dictionary, Merriam-Webster,
+   https://www.merriam-webster.com/dictionary/tree. Accessed 5 Jan. 2024.
+
+   [IMG]Copy Citation
+--
+Share
+
+   Post the Definition of tree to Facebook Facebook Facebook
+   Share the Definition of tree on Twitter Twitter Twitter
+
+Kids Definition
+
+   tree
+
+   1 of 2 noun
+   ˈtrē How to pronounce tree (audio)
+   1
+   a
+--
+   stem with few or no branches on its lower part
+   b
+   : a shrub or herb that has a form like a tree
+   rose trees
+   a banana tree
+   2
+   : a piece of wood (as a post or pole) put to a particular use of forming
+   part of a structure or device
+   3
+   : something shaped like or arranged in a form like a tree
+   especially : a diagram or graph in branching form compare factor tree,
+   family tree sense 2
+   treeless
+   -ləs How to pronounce tree (audio)
+   adjective
+   treelike
+   -ˌlīk How to pronounce tree (audio)
+   adjective
+
+   tree
+
+   2 of 2 verb
+   treed; treeing
+   1
+   : to drive up or as if up a tree
+   2
+   : to furnish or fit with a tree
+   tree an axle
+
+Medical Definition
+
+   tree
+
+   noun
+   ˈtrē How to pronounce tree (audio)
+   : an anatomical system or structure having many branches
+   the vascular tree
+   see biliary tree, bronchial tree, tracheobronchial tree
+
+Biographical Definition
+--
+   Sir Herbert (Draper) Beerbohm 1853–1917 English actor-manager
+
+More from Merriam-Webster on tree
+
+   Nglish: Translation of tree for Spanish Speakers
+
+   Britannica English: Translation of tree for Arabic Speakers
+
+   Britannica.com: Encyclopedia article about tree
+
+   Last Updated: 25 Dec 2023 - Updated example sentences

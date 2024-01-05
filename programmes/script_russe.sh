@@ -91,7 +91,7 @@ do
         bash contexte/${langue}.sh $langue $compteur
         contexte="contexte"
         # Récupère les occurences du mot avec contexte gauche et droit au format tsv
-        ggrep -o -i -P "(\p{Cyrillic}+\s){0,5}(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))(\s\p{Cyrillic}+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))/§\1§/g' > ../Concordances/concordances-${langue}-${compteur}.txt
+        grep -o -i -P "(\p{Cyrillic}+\s){0,5}(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))(\s\p{Cyrillic}+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))/§\1§/g' > ../Concordances/concordances-${langue}-${compteur}.txt
         bash concordancier.sh ../Concordances/concordances-${langue}-${compteur}.txt ${langue} ${compteur}
         concordancier="concordancier"
     fi

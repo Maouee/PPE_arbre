@@ -1,239 +1,366 @@
    Link: canonical
-   Link: shortlink
-     * What We Do
-          * What Drives Us
-               * Climate Change
-               * Social Equity
-               * Water
-               * Wildlife
-          * Our Programs
-               * Tree Equity
-               * Resilient Forests
-               * Policy
-          * Initiatives & Projects
-     * Our Approach
-          * What’s At Stake
-          * Our Approach
-               * Innovation Lab/Science
-               * Place-based Partnerships
-               * Movement Building
-          * Partnerships
-               * Corporate Partners
-               * Foundation Partners
-               * Program Partners
-          * Coalitions
-               * 1t.org US Chapter
-               * Forest-Climate Working Group
-               * Smart Surfaces Coalition
-               * Sustainable Urban Forests Coalition
-               * Trees for Community Recovery
-               * United States Climate Alliance
-               * U.S. Nature4Climate
-     * Resources for You
-          * Tools, Research, Reports & Guides
-               * Tree Equity Score
-               * Reforestation Hub
-               * Vibrant Cities Lab
-               * Research & Reports
-               * Career Resources
-          * Insights & Learning
-               * Perspectives
-               * Champion Trees
-               * American Forests Magazine
-     * Get Involved
-          * Plant Trees With Us
-          * Memorial Trees
-          * Support American Forests
-               * Monthly Giving
-               * Planned Giving
-               * Workplace Giving
-               * Sequoia Circle
-               * Other Ways To Give
-          * Take Action
-          * Forests in Focus Photo Contest
-          * Become a Partner
-     * About Us
-          * Who We Are
-          * Our History
-          * Our Team
-          * Board of Directors
-          * Science Advisory Board
-          * Newsroom
-          * Careers at American Forests
-          * Diversity and Inclusion
-          * Financial Accountability
-          * Contact Us
-   Donate
+   Link: image_src
+   Skip to main content
+   Expert Contributors
+   Software Engineering Perspectives
+   +3
+   Expert Contributors
+   +4
 
-    What are you looking for?
+                    Compiler vs. Interpreter in Programming
 
-   _____________________ [ Submit ]
-   Tools, Research, Reports & Guides
-   Tree Equity Score
-   Ensuring tree cover in cities is equitably distributed
-   Photo: Rob Crandall / Shutterstock
-   Using Data Tools to Create Tree Equity
+   Compilers and interpreters are used to convert a high-level language into
+   machine code. However, there are differences between how and when they
+   work.
+   Written byRakia Ben Sassi
+   Published on Apr. 24, 2023
+   Rakia Ben Sassi
+   Senior Freelance Software Developer at Self-Employed
+   Rakia Ben Sassi is a senior freelance software engineer, Google developer
+   expert in Angular and a content creator. She has more than 15 years of
+   professional experience as a developer and has a Udemy course on memory
+   leaks and web performance.
+   software developer coding [IMG]
+   Image: Shutterstock / Built In
 
-   The story is the same in nearly every city across the United States. With
-   few exceptions, trees are sparse in socioeconomically disadvantaged and
-   neighborhoods of color and more prominent in wealthier, whiter
-   neighborhoods. Redlining policies, dating back to the 1930s, helped
-   lay the groundwork for this inequity.
+   I still remember a discussion with a colleague in which I said, “That’s
+   the transpiler,” and he replied, “The…what?”
 
-   American Forests is focused on addressing this inequity by focusing
-   resources in neighborhoods of highest need. It’s our moral imperative to
-   do so, given how many life-saving and quality of life benefits trees
-   provide people. That is why we are working to create Tree Equity, which is
-   about ensuring that all people experience the benefits of trees. One of
-   the ways we are doing this is with our Tree Equity Score tool. It provides
-   a social-equity-focused narrative, goals and a guide path for building
-   understanding, commitment and action around Tree Equity. It is also free
-   and easy to access. 
+   If you’ve never heard that name, you’re not alone. As developers, we all
+   get used to writing code in a high-level language that humans can
+   understand. However, computers can only understand a program written in a
+   binary system known as machine code.
 
-   IFrame
+   To speak to a computer in its non-human language, we came up with two
+   solutions: interpreters and compilers. Ironically, most of us know very
+   little about them, although they’re a part of our daily coding life.
 
-Where is Tree Equity Score Available?
+Compilers vs. Interpreters Explained
 
-   Tree Equity Score covers all urban areas in United States, including
-   Hawai’i and Alaska. 80% of the population lives in urban areas, which
-   means over 260 million people can find a score for their neighborhood.
+     * Compiler: A compiler translates code from a high-level programming
+       language (like Python, JavaScript or Go) into machine code before the
+       program runs.
+     * Interpreter: An interpreter translates code written in a high-level
+       programming language into machine code line-by-line as the code runs. 
 
-   See Your City's Tree Equity Score
-   What Do the Scores Mean?
-   Each score indicates whether there are enough trees in a neighborhood for
-   everyone to experience the health, economic and climate benefits that
-   trees provide. Scores are based on tree canopy, surface temperature,
-   income, employment, race, age, language and health factors. A
-   0-to-100-point system makes it easy to understand how a community fares.
+   In this post, I’ll dive into the journey of translating a high-level
+   language into a machine code ready for execution. I’ll focus on the inner
+   workings of the two key players in this game, the compiler and the
+   interpreter, and break down the related concepts.
 
-Who Can Use Tree Equity Score?
+    
 
-   Tree Equity Score can be used by neighborhood organizations,
-   U.S. congressional leaders and everybody in between. And it can be used by
-   a variety of sectors, such as urban forestry and public health, given the
-   role trees play in slowing climate change and improving health and
-   wellbeing. Some of the uses are:
+Compilers vs. Interpreters: How Do They Work?
 
-   Advocacy
-   Make the case for federal, state and local policies, programs and funding
-   related to protecting existing trees and planting new trees. The Tucson
-   City Council used the methodology from Tree Equity Score to create a
-   mapping tool for making decisions about how to invest in green
-   infrastructure, such as tree planting and green stormwater basin
-   installations.
-   City Planning
-   Urban land-use planners and others can use the scores to decide where and
-   how to invest in forestry and infrastructure. The Tucson City Council and
-   Mayor Regina Romero agreed in April 2021 to adopt the Tucson Tree Equity
-   Score as the primary tool to prioritize investments for the city’s urban
-   forestry initiative and infrastructure projects.
-   Forestry Programs
-   Use the scores to take a fresh look at an existing urban forestry program.
-   Does the program prioritize planting trees in low-scoring neighborhoods?
-   Scores can help track progress related to urban forestry programs and
-   initiatives.
+   Compilers and interpreters have long been used as computer programs to
+   transform code. But they work in different ways:
 
-Find Your Score
+     * A compiler translates code written in a high-level programming
+       language into a lower-level language like assembly language, object
+       code and  machine code (binary 1 and 0 bits). It converts the code
+       ahead of time before the program runs.
+     * An interpreter translates the code line-by-line when the program is
+       running. You’ve likely used interpreters unknowingly at some point in
+       your work career.
 
-   Be part of the solution to ensure your neighborhood or community has the
-   resources it needs to create Tree Equity.
-   Explore Tree Equity Score
-   News & Updates
+   More on Software DevelopmentBuild a Discord Bot With Python
+
+    
+
+Compilers vs. Interpreters: Advantages and Disadvantages
+
+   Both compilers and interpreters have pros and cons:
+
+     * A compiler takes in the entire program and requires a lot of time to
+       analyze the source code. Whereas the interpreter takes a single line
+       of code and very little time to analyze it.
+     * Compiled code runs faster, while interpreted code runs slower.
+     * A compiler displays all errors after compilation. If your code has
+       mistakes, it will not compile. But the interpreter displays errors of
+       each line one by one.
+     * Interpretation does not replace compilation completely.
+     * Compilers can contain interpreters for optimization reasons like
+       faster performance and smaller memory footprint.
+
+   A high-level programming language is usually referred to as “compiled
+   language” or “interpreted language.” However, in practice, they can have
+   both compiled and interpreted implementations. C, for example, is called a
+   compiled language, despite the existence of C interpreters. The first
+   JavaScript engines were simple interpreters, but all modern engines use
+   just-in-time (JIT) compilation for performance reasons.
+
+    
+
+4 Common Types of Interpreters to Know
+
+   Interpreters were used as early as 1952 to ease programming and also
+   translate between low-level machine languages. The first interpreted
+   high-level language was Lisp. Python, Ruby, Perl and PHP are other
+   examples of programming languages that use interpreters.
+
+   Below is a list of interpreter’s types:
+
+4 Types of Interpreters
+
+    1. Bytecode interpreter
+    2. Threaded code interpreter
+    3. Abstract syntax tree interpreter
+    4. Justin-in-time compilation
+
+    
+
+  1. Bytecode Interpreter
+
+   The trend toward bytecode interpretation and just-in-time compilation
+   blurs the distinction between compilers and interpreters. Bytecode
+   interpreters can process up to 256 instructions, with each instruction
+   starting with a byte. 
+
+    
+
+  2. Threaded Code Interpreter
+
+   Unlike bytecode interpreters, threaded code interpreters use pointers
+   instead of bytes. Each instruction is a word pointing to a function or an
+   instruction sequence, possibly followed by a parameter. The number of
+   different instructions is limited by the available memory and address
+   space.
+
+   Forth code, which is used in Open Firmware systems, is a classical example
+   of threaded code. The source code is compiled into a bytecode known as “F
+   code,” which a virtual machine then interprets.
+
+    
+
+  3. Abstract Syntax Tree Interpreter
+
+   If you’re a TypeScript developer with some familiarity of the TypeScript
+   architecture, you may have heard about the abstract syntax tree (AST).
+
+   AST is an approach to transform the source code into an optimized abstract
+   syntax tree, then execute the program following this tree structure, or
+   use it to generate native code just-in-time.
+
+   AST keeps the global program structure and relations between statements.
+   This allows the system to perform better analysis during runtime and makes
+   AST a better intermediate format for just-in-time compilers than bytecode
+   representation.
+
+   However, for interpreters, AST causes more overhead. Interpreters walking
+   the abstract syntax tree are slower than those generating bytecode.
+
+    
+
+  4. Just-in-Time Compilation
+
+   Just-in-time compilation (JIT) is a technique in which the intermediate
+   representation is compiled to native machine code at runtime.
+
+    
+
+10 Common Types of Compilers to Know
+
+   Below are the common types of compilers you should know.
+
+10 Types of Compilers
+
+    1. Cross-compiler
+    2. Native compiler
+    3. Bootstrap compiler
+    4. Decompiler
+    5. Source-to-source compiler
+    6. Language rewriter
+    7. Bytecode compiler
+    8. Just-in-time compiler
+    9. AOT compilation
+   10. Assembler
+
+    
+
+  1. Cross-compiler
+
+   A cross-compiler is one that runs on a computer whose CPU or operating
+   system differs from the one on which the code it produces will run.
+
+    
+
+  2. Native Compiler
+
+   A native compiler produces an output that would run on the same type of
+   computer and operating system as the compiler itself.
+
+    
+
+  3. Bootstrap Compiler
+
+   Bootstrap compiler is a compiler written in the language that it intends
+   to compile.
+
+    
+
+  4. Decompiler
+
+   A decompiler translates code from a low-level language to a higher level
+   one.
+
+    
+
+  5. Source-to-Source Compiler (Transpiler)
+
+   A source-to-source compiler is a program that translates between
+   high-level languages. This type of compiler is also known as a
+   transcompiler or transpiler.
+
+   Some examples of a transpiler include:
+
+     * Emscripten: This transpiles C/C++ to JavaScript.
+     * Babel: This transpiles JavaScript code from ES6+ to ES5.
+     * Cfront: The original compiler for C++ (from around 1983). It used C as
+       its target language and created C code with no indent style and no
+       pretty C intermediate code, since the generated code was not usually
+       intended to be readable by humans.
+
+    
+
+  6. A Language Rewriter
+
+   This is usually a program translating form of expressions without a change
+   of language.
+
+    
+
+  7. Bytecode Compiler
+
+   A compiler that translates a high-level language into an intermediate
+   simple language that a bytecode interpreter or virtual machine can
+   interpret. Examples include: Bytecode compilers for Java and Python.
+
+    
+
+  8. Just-in-Time Compiler (JIT Compiler)
+
+   A JIT compiler defers compilation until runtime. It generally runs inside
+   an interpreter.
+
+   Examples of a JIT compiler include:
+
+     * The earliest published JIT compiler is attributed to LISP in 1960.
+     * The latter technique appeared in languages such as Smalltalk in the
+       1980s.
+     * Since then, JIT compilation has gained mainstream attention amongst
+       modern languages like Java, .NET Framework, Python and most modern
+       JavaScript implementations.
+
+   In Java, source files are first compiled and converted into .class files
+   that contain Java bytecode, a highly optimized set of instructions, then a
+   bytecode interpreter executes the bytecode, and later the JIT compiler
+   translates the bytecode to machine code.
+
+   Java bytecode can either be interpreted at runtime by a virtual machine,
+   or compiled at load time or runtime into native code. Modern JVM
+   implementations use the compilation approach, so after the initial startup
+   time the performance is equivalent to native code.
+
+    
+
+  9. AOT Compilation
+
+   Ahead-of-time (AOT) compilation is the approach of compiling a
+   higher-level programming language, or an intermediate representation such
+   as Java bytecode, before the runtime.
+
+   An example of this is the Angular framework. This uses an ahead-of-time
+   (AOT) compiler to transform HTML and TypeScript code into JavaScript code
+   during the build time to provide a faster rendering later on the browser
+   when the code is running.
+
+    
+
+  10. Assembler
+
+   An assembler translates human-readable assembly language into machine
+   code. This compilation process is called assembly. The inverse program
+   that converts machine code to assembly language is called a disassembler.
+
+   An assembly language (ASM) is a low-level programming language in which
+   there is a dependence on the machine code instructions. That’s why every
+   assembly language is designed for exactly one specific computer
+   architecture.
+
+   An error occurred.
+   Unable to execute JavaScript. Try watching this video on www.youtube.com,
+   or enable JavaScript if it is disabled in your browser.
+   A tutorial on the differences between compilers and interpreters. | Video:
+   ISO Training Institute
+
+   More on Software DevelopmentWhat Is the Java Runtime Environment?
+
+    
+
+Why Compilers and Interpreters Are Important
+
+   Both compilers and interpreters are computer programs that convert a code
+   written in a high-level language into a lower-level or machine code
+   understood by computers. However, there are differences in how they work
+   and when to use them.
+
+   Even if you’re not going to implement the next compiler or interpreter,
+   these insights should help to improve your knowledge of the tools you use
+   as a developer every day.
+
+   Expert Contributors
+   Javascript
+   Python
+   Software Engineering
+   Software Engineering Perspectives
+   Expert Contributors
+
+   Built In’s expert contributor network publishes thoughtful,
+   solutions-oriented stories written by innovative tech professionals. It is
+   the tech industry’s definitive destination for sharing compelling,
+   first-person accounts of problem-solving on the road to innovation.
+
+   Learn More
+
+  Great Companies Need Great People. That's Where We Come In.
+
+   Recruit With Us
+   BuiltIn
+   United We Tech
+   Built In is the online community for startups and tech companies. Find
+   startup jobs, tech news and events.
+   About
+     * Our Story
+     * Careers
+     * Our Staff Writers
+     * Content Descriptions
+     * Company News
    Get Involved
-   There is a lot you can do to ensure that our forests in cities and large
-   landscapes are healthy for generations to come. Be a voice for forests.
-   Take Action
-   Support Our Work
-   Every gift helps American Forests restore forests in cities and large
-   landscapes — for people, wildlife and the planet. Give today and help us
-   protect forests for tomorrow.
-   Donate Today
-
-What We Do
-
-     * What Drives Us
-     * Our Programs
-
-Our Approach
-
-     * What’s At Stake
-     * Our Approach
-     * Partnerships
-     * Coalitions
-
-Resources
-
-     * Tools & Research
-     * Insights & Learning
-
-Get Involved
-
-     * Plant Trees with Us
-     * Memorial Trees
-     * Support American Forests
-     * Take Action
-     * Become a Partner
-
-About Us
-
-     * Who We Are
-     * History
-     * Our Team
-     * Board of Directors
-     * Science Advisory Board
-     * Cookie Policy (US)
-
- 
-
-     * Press Releases and Statements
-     * Careers at American Forests
-     * Diversity and Inclusion
-     * Financial Accountability
-     * Contact
-     * FAQs
-
-   1220 L Street, NW,
-   Suite 750
-   Washington, DC 20005
-
-   Phone: 202.737.1944
-   Fax: 202.737.2457
-   Tax ID: 53-0196544
-
+     * Recruit With Built In
+     * Subscribe to Our Newsletter
+     * Become an Expert Contributor
+     * Send Us a News Tip
+   Resources
+     * Customer Support
+     * Share Feedback
+     * Report a Bug
+     * Tech A-Z
+     * Browse Jobs
+   Tech Hubs
+     * Built In Austin
+     * Built In Boston
+     * Built In Chicago
+     * Built In Colorado
+     * Built In LA
+     * Built In NYC
+     * Built In San Francisco
+     * Built In Seattle
+     * See All Tech Hubs
+   © Built In 2024
+     * Learning Lab User Agreement
+     * Accessibility Statement
+     * Copyright Policy
      * Privacy Policy
-
-   Connect with us online
-
-     * *  *  *  *  American Forests is a nonprofit, tax-exempt charitable
-   organization under Section 501(c)(3) of the U.S. Internal Revenue Code.
-   Donations are tax-deductible as allowed by law.
-
-   Copyright © 2023 American Forests. All Rights Reserved. Created by
-   Constructive
-
-   Manage Cookie Consent
-   We use cookies to optimize your user experience with our website.
-   Functional [ ] Functional Always active 
-   The technical storage or access is strictly necessary for the legitimate
-   purpose of enabling the use of a specific service explicitly requested by
-   the subscriber or user, or for the sole purpose of carrying out the
-   transmission of a communication over an electronic communications network.
-   Preferences [ ] Preferences 
-   The technical storage or access is necessary for the legitimate purpose of
-   storing preferences that are not requested by the subscriber or user.
-   Statistics [ ] Statistics 
-   The technical storage or access that is used exclusively for statistical
-   purposes. The technical storage or access that is used exclusively for
-   anonymous statistical purposes. Without a subpoena, voluntary compliance
-   on the part of your Internet Service Provider, or additional records from
-   a third party, information stored or retrieved for this purpose alone
-   cannot usually be used to identify you.
-   Marketing [ ] Marketing 
-   The technical storage or access is required to create user profiles to
-   send advertising, or to track the user on a website or across several
-   websites for similar marketing purposes.
-   Manage options Manage services Manage {vendor_count} vendors Read more
-   about these purposes
-   Accept Deny Preferences Save preferences Preferences
-   {title} {title} {title}
-   Manage consent
+     * Terms of Use
+     * Do Not Sell My Personal Info
+     * CA Notice of Collection

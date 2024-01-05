@@ -1,0 +1,135 @@
+3 examples of §trees§ and non-§trees§
+a specific type of §tree§ data structure
+img]this unsorted §tree§ has non-unique values
+parent node in a binary §tree§
+§tree§ hierarchy
+a §tree§ is a widely used abstract
+represents a hierarchical §tree§ structure with a set of
+each node in the §tree§ can be connected to many
+type of §tree§
+node in the §tree§ hierarchy
+§tree§
+technique for §tree§ traversal
+§trees§ cannot be represented by relationships
+binary §trees§ are a commonly used type
+structure corresponds to an ordered §tree§ in graph
+in the §tree§
+§trees§ as used in computing are
+mathematical constructs of §trees§ in graph theory
+§trees§ in set theory
+§trees§ in descriptive set theory
+symbolic links create non-§tree§ graphs
+inheritance §tree§
+non-§tree§ graphs
+abstract syntax §trees§ for computer languages
+parse §trees§
+dialogue §tree§ for generating conversations
+dom §tree§
+search §trees§ store data in a way
+algorithm possible via §tree§ traversal
+a binary search §tree§ is a type of binary
+§tree§
+storing barnes–hut §trees§ used to simulate galaxies
+making multiple nodes in the §tree§ for each graph node
+can be thought of as §trees§
+each node in a §tree§ has zero or
+are below it in the §tree§
+§trees§ are
+some definitions allow a §tree§ to
+is any node of a §tree§ that has child nodes
+is the height of the §tree§
+a §tree§ with only a single node
+an empty §tree§
+§tree§ with no nodes
+§tree§
+other terms used with §trees§
+degree of §tree§
+the degree of a §tree§ is the maximum degree of
+a node in the §tree§
+of one or more disjoint §trees§
+ordered §tree§
+a rooted §tree§ in which an ordering is
+term oriented §tree§
+size of a §tree§
+number of nodes in the §tree§
+examples of §trees§ and non-§trees§[edit
+not a §tree§
+not a §tree§
+not a §tree§
+not a §tree§
+linear list is trivially a §tree§
+enumerating a section of a §tree§
+a certain position on the §tree§
+a whole section of a §tree§
+a whole section to a §tree§
+§tree§ traversal
+through the items of a §tree§
+is called walking the §tree§
+of the §tree§
+§tree§
+§tree§ are traversed is called an
+§trees§
+§tree§ and a right sub§tree§
+assumes specifically a binary §tree§
+entirety of a §tree§
+all nodes in the §tree§ have been traversed
+many different ways to represent §trees§
+a binary §tree§ can be implemented as a
+§tree§
+§tree§
+ordered §trees§ can be naturally encoded by
+the abstract §tree§ type t with values of
+list of §trees§
+a §tree§ is an inductive type defined
+§tree§ with root node with given
+a §tree§ data structure is an ordered
+§tree§
+a rooted §tree§ with the
+underlying undirected graph is a §tree§
+often §trees§ have a fixed
+binary §tree§
+allowing empty §trees§ makes some definitions simpler
+a rooted §tree§ must be non-empty
+hence if empty §trees§ are
+an empty §tree§ or a rooted
+§tree§ such that
+empty §trees§ simplify defining
+with empty §trees§ allowed
+a binary §tree§ is a §tree§
+each of which is a §tree§
+sets of operations on the §tree§ must include
+§tree§ structure
+category:§trees§
+§trees§
+§tree§ used in
+a subgraph that forms a §tree§
+§tree§ in the graph theory sense
+§tree§
+oriented §trees§
+pdl for ordered §trees§
+rooted §trees§
+binary search §trees§
+red–black §trees§
+search §trees§
+§tree§
+spatial data partitioning §trees§
+§tree§
+fractal §tree§ index
+other §trees§
+graph and §tree§ traversal algorithms
+monte carlo §tree§ search
+minimum spanning §tree§
+hashed array §tree§
+b-§tree§
+binary search §tree§
+aa §tree§
+avl §tree§
+red–black §tree§
+self-balancing §tree§
+splay §tree§
+§trees§
+r-§tree§
+§tree§
+§tree§
+hilbert r-§tree§
+hash §tree§

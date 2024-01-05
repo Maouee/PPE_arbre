@@ -1,0 +1,1555 @@
+   Link: profile
+   Link: canonical
+   Link: shortlink
+   Link: amphtml
+   Skip to content
+   geeksforgeeks
+     * DSA
+          * Data Structures
+               * Arrays
+               * Matrix
+               * Strings
+               * Linked List
+                    * Singly Linked List
+                    * Doubly Linked List
+                    * Circular Linked List
+                    * Doubly Circular Linked List
+                    * Linked List Tutorial
+               * Stack
+               * Queue
+               * Tree
+                    * Generic Tree
+                    * Binary Tree
+                    * Binary Search Tree
+                    * AVL Tree
+                    * B Tree
+                    * B+ Tree
+                    * Red Black Tree
+                    * Tree Data Structure Tutorial
+               * Heap
+               * Hashing
+               * Graph
+               * Set Data Structure
+               * Map Data Structure
+               * Advanced Data Structure
+               * Data Structures Tutorial
+          * Algorithms
+               * Analysis of Algorithms
+                    * Design and Analysis of Algorithms
+                    * Asymptotic Analysis
+                    * Asymptotic Notations
+                    * Worst, Average and Best Cases
+               * Searching Algorithms
+                    * Linear Search
+                    * Binary Search
+                    * Searching Algorithms Tutorial
+               * Sorting Algorithms
+                    * Selection Sort
+                    * Bubble Sort
+                    * Insertion Sort
+                    * Merge Sort
+                    * Quick Sort
+                    * Heap Sort
+                    * Counting Sort
+                    * Radix Sort
+                    * Bucket Sort
+                    * Sorting Algorithms Tutorial
+               * Greedy Algorithms
+               * Dynamic Programming
+               * Graph Algorithms
+               * Pattern Searching
+               * Recursion
+               * Backtracking
+               * Divide and Conquer
+               * Mathematical Algorithms
+               * Geometric Algorithms
+               * Bitwise Algorithms
+               * Randomized Algorithms
+               * Branch and Bound
+               * Algorithms Tutorial
+          * DSA Tutorial
+          * Competitive Programming
+          * Company Wise SDE Sheets
+               * Facebook SDE Sheet
+               * Amazon SDE Sheet
+               * Apple SDE Sheet
+               * Netflix SDE Sheet
+               * Google SDE Sheet
+               * Wipro Coding Sheet
+               * Infosys Coding Sheet
+               * TCS Coding Sheet
+               * Cognizant Coding Sheet
+               * HCL Coding Sheet
+          * DSA Cheat Sheets
+               * SDE Sheets
+               * FAANG Coding Sheet
+               * Love Babbaar Sheet
+               * Mass Recruiter Sheet
+               * Product-Based Coding Sheet
+               * Company-Wise Preparation Sheet
+          * Top Interview Questions
+               * Top 100 DSA Interview Questions Topic-wise
+               * Top 50 Array Problems
+               * Top 50 String Problems
+               * Top 50 Problems on Stack
+               * Top 50 Problems on Heap
+               * Top 20 Linked List Interview Question
+               * Top 50 Tree Problems
+               * Top 50 Graph Problems
+               * Top 50 Problems on Recursion
+               * Top 20 Greedy Algorithms Interview Questions
+               * Top 50 Dynamic Programming (DP) Problems
+               * Top 20 Hashing Technique based Interview Questions
+               * Top 20 Dynamic Programming Interview Questions
+               * Top 10 algorithms in Interview Questions
+               * Commonly Asked Data Structure Interview Questions
+          * Puzzles
+               * All Puzzles
+               * Top 100 Puzzles Asked In Interviews
+               * Top 20 Puzzles Commonly Asked During SDE Interviews
+               * Top MCQs on Puzzles with Answers
+               * Crossword Puzzle Of The Week
+     * Tutorials
+          * Programming Languages
+               * C
+               * C++
+               * Python
+               * R
+               * Golang
+               * C#
+               * Swift
+               * Kotlin
+               * Scala
+               * Perl
+          * Java
+               * Java Tutorial
+               * Java Collection
+               * Java 8 Tutorial
+               * Java Advance
+                    * Spring Tutorial
+                    * Spring Boot Tutorial
+                    * Spring MVC Tutorial
+                    * Hibernate Tutorial
+               * Java Interview Questions
+                    * Java Interview Questions
+                    * Multithreading Interview Questions
+                    * Collection Interview Quesions
+               * Java Programs
+               * Java Projects
+          * CS Subjects
+               * Mathematics
+               * Operating System
+               * DBMS
+               * Computer Networks
+               * Computer Organization and Architecture
+               * Theory of Computation
+               * Compiler Design
+               * Digital Logic
+               * Software Engineering
+          * System Design
+               * System Design Tutorial
+                    * What is System Design
+                    * Key Terminologies in System Design
+                    * Analysis and Architecture of Systems
+                    * Scalability in System Design
+                    * Databases in System Design
+                    * High Level Design or HLD
+                    * Low Level Design or LLD
+                    * Communication Protocols
+                    * Web Servers and Proxies
+                    * Case Studies in Designing Systems
+                    * Complete System Design Tutorial
+               * System Design Patterns
+                    * Factory Pattern
+                    * Observer Pattern
+                    * Singleton Design Pattern
+                    * Decorator Pattern
+                    * Strategy Pattern
+                    * Adapter Pattern
+                    * Command Pattern
+                    * Iterator Pattern
+                    * Prototype Design Pattern
+                    * All Design Patterns
+               * System Design Roadmap
+               * Top 10 System Design Interview Questions and Answers
+          * DevOps
+               * Git
+               * AWS
+               * Docker
+               * Kubernetes
+               * Microsoft Azure Tutorial
+               * Google Cloud Platform
+          * SQL Tutorial
+          * Interview Questions
+               * C Interview Questions
+               * C++ Interview Questions
+               * STL Interview Questions
+               * Java Interview Questions
+               * Python Interview Questions
+               * R Interview Questions
+               * SQL Interview Questions
+               * Linux Interview Questions
+               * C# Interview Questions
+               * Android Interview Questions
+               * Flutter Interview Questions
+               * Operating System Interview Questions
+               * Computer Network Interview Questions
+               * Software Engineering Interview Questions
+               * CCNA Interview Questions
+               * Ethical Hacking Interview Questions
+          * Interview Corner
+               * Company Preparation
+               * Top Topics
+               * Practice Company Questions
+               * Interview Experiences
+               * Experienced Interviews
+               * Internship Interviews
+               * Competitive Programming
+               * Multiple Choice Quizzes
+               * Aptitude for Placements
+          * Projects
+               * C++ Projects
+               * Java Projects
+               * Python Projects
+               * Machine Learning Projects
+               * Android Projects
+          * Cheat Sheets
+               * C CheatSheet
+               * C++ CheatSheet
+               * C++ STL CheatSheet
+               * Python CheatSheet
+               * Docker CheatSheet
+               * Kubernetes CheatSheet
+               * Computer Network CheatSheet
+               * CCNA CheatSheet
+               * Ethical Hacking CheatSheet
+          * Quizzes
+               * C Quiz
+               * C++ Quiz
+               * Java Quiz
+               * Python Quiz
+               * DBMS Quiz
+               * Operating System Quiz
+               * Computer Network Quiz
+               * COA Quiz
+     * ML & Data Science
+          * Python Tutorial
+          * R Tutorial
+          * Machine Learning
+               * Machine Learning Maths
+               * Machine Learning Tutorial
+               * Machine Learning Projects
+          * Data Science using Python
+          * Data Science using R
+          * Data Science Packages
+               * Pandas Tutorial
+               * NumPy Tutorial
+          * Data Visualization
+               * Data Visualization with Python
+                    * Python Data Visualization Tutorial
+                    * Matplotlib Tutorial
+                    * Bokeh Tutorial
+                    * Plotly Tutorial
+                    * Seaborn Tutorial
+               * Data Visualization with R
+                    * Data Visualization with R
+                    * Plotly Tutorial
+                    * ggplot Tutorial
+               * Data Visualization Tools
+                    * Tableau
+                    * Power BI
+          * Data Analysis
+               * Data Analysis with Python
+               * Data Analysis with R
+          * Deep Learning
+               * Deep Learning Tutorial
+               * Deep Learning Projects
+          * NLP Tutorial
+          * OpenCV Tutorial
+          * Interview Questions
+               * Machine Learning Interview Question
+               * Deep Learning Interview Question
+               * Python Interview Questions
+               * Top 50 R Interview Questions
+          * ML Frameworks
+               * Tensorflow
+               * PyTorch
+               * PyTorch Lightning
+     * Web Development
+          * HTML
+          * CSS
+          * JavaScript
+          * PHP
+          * Bootstrap Tutorial
+          * CSS Frameworks
+               * Tailwind CSS
+               * Foundation CSS
+               * Materialize CSS
+               * Bulma
+               * Pure CSS
+               * Primer CSS
+               * Blaze UI
+               * Semantic UI
+          * JavaScript Frameworks
+               * AngularJS
+               * Angular PrimeNG
+               * Angular ngx Bootstrap
+               * NodeJS
+               * Express.js
+          * JavaScript Libraries
+               * jQuery
+               * jQuery Mobile
+               * jQuery UI
+               * jQuery EasyUI
+               * jQWidgets
+               * ReactJS
+               * React Bootstrap
+               * React Rebass
+               * React Desktop
+               * React Suite
+               * ReactJS Evergreen
+               * ReactJS Reactstrap
+               * Ant Design
+               * BlueprintJS
+               * p5.js
+               * Lodash
+               * TensorFlow.js
+               * Moment.js
+               * Collect.js
+          * Django Tutorial
+          * WordPress
+          * JSON
+          * Web Dev Cheat Sheets
+               * HTML Cheat Sheet
+               * CSS Cheat Sheet
+               * Bootstrap Cheat Sheet
+               * JS Cheat Sheet
+               * jQuery Cheat Sheet
+               * Angular Cheat Sheet
+     * Practice
+          * All DSA Problems
+          * Problem of the Day
+          * GFG SDE Sheet
+          * Curated DSA Lists
+               * Beginner's DSA Sheet
+               * Love Babbar Sheet
+               * Top 50 Array Problems
+               * Top 50 String Problems
+               * Top 50 DP Problems
+               * Top 50 Graph Problems
+               * Top 50 Tree Problems
+     * _____________________ [ Submit ]
+     * [ Submit ]
+     * * * Home
+     * Saved Videos
+     * Courses
+     * Data Structures and Algorithms
+
+ML & Data Science
+
+Web Development
+
+Languages
+
+Interview Corner
+
+CS Subjects
+
+Jobs
+
+Practice
+
+Contests
+
+     * GBlog
+     * Puzzles
+     * What's New ?
+   [ Submit ] Change Language
+   [ Submit ]
+     * 90% Refund @Courses
+     * DSA for Beginners
+     * DSA Tutorial
+     * Data Structures
+     * Algorithms
+     * Array
+     * Strings
+     * Linked List
+     * Stack
+     * Queue
+     * Tree
+     * Graph
+     * Searching
+     * Sorting
+     * Recursion
+     * Dynamic Programming
+     * Binary Tree
+     * Binary Search Tree
+     * Heap
+     * Hashing
+     * Divide & Conquer
+     * Mathematical
+     * Geometric
+     * Bitwise
+     * Greedy
+     * Backtracking
+     * Branch and Bound
+     * Matrix
+     * Pattern Searching
+     * Randomized
+   [ Submit ]
+   ▲
+   Open In App
+   Related Articles
+     * Explore Our Geeks Community
+     * Introduction to Tree - Data Structure and Algorithm Tutorials
+     * Tree Traversal Techniques - Data Structure and Algorithm Tutorials
+     * Applications of tree data structure
+     * Applications, Advantages and Disadvantages of Tree
+     * Difference between an array and a tree
+     * Inorder Tree Traversal without Recursion
+     * Types of Trees in Data Structures
+
+Generic Trees (N-ary Tree)
+
+Binary Tree
+
+Ternary Tree
+
+Binary Search Tree
+
+Ternary Search Tree
+
+AVL Tree
+
+B tree and B+ tree
+
+Red Black Tree
+
+Interval Tree
+
+2-3-4 Tree
+
+Balanced Tree
+
+Tree vs Other Data Structures
+
+Comparison between different Trees
+
+     * Tree C/C++ Programs
+     * Top 50 Tree Coding Problems for Interviews
+     * Explore Our Geeks Community
+     * Introduction to Tree - Data Structure and Algorithm Tutorials
+     * Tree Traversal Techniques - Data Structure and Algorithm Tutorials
+     * Applications of tree data structure
+     * Applications, Advantages and Disadvantages of Tree
+     * Difference between an array and a tree
+     * Inorder Tree Traversal without Recursion
+     * Types of Trees in Data Structures
+
+Generic Trees (N-ary Tree)
+
+Binary Tree
+
+Ternary Tree
+
+Binary Search Tree
+
+Ternary Search Tree
+
+AVL Tree
+
+B tree and B+ tree
+
+Red Black Tree
+
+Interval Tree
+
+2-3-4 Tree
+
+Balanced Tree
+
+Tree vs Other Data Structures
+
+Comparison between different Trees
+
+     * Tree C/C++ Programs
+     * Top 50 Tree Coding Problems for Interviews
+
+         Introduction to Tree – Data Structure and Algorithm Tutorials
+
+   * Read
+   Improve
+     * * * Improve
+   Improve
+   Like Article
+   Like
+   Save Article
+   Save
+   Report issue
+   Report
+
+     A tree data structure is a hierarchical structure that is used to
+     represent and organize data in a way that is easy to navigate and
+     search. It is a collection of nodes that are connected by edges and has
+     a hierarchical relationship between the nodes. 
+
+     The topmost node of the tree is called the root, and the nodes below it
+     are called the child nodes. Each node can have multiple child nodes, and
+     these child nodes can also have their own child nodes, forming a
+     recursive structure.
+
+   This data structure is a specialized method to organize and store data in
+   the computer to be used more effectively. It consists of a central node,
+   structural nodes, and sub-nodes, which are connected via edges. We can
+   also say that tree data structure has roots, branches, and leaves
+   connected with one another.
+
+   Introduction to Tree - Data Structure and Algorithm Tutorials
+
+   Introduction to Tree – Data Structure and Algorithm Tutorials
+
+Basic Terminologies In Tree Data Structure:
+
+     * Parent Node: The node which is a predecessor of a node is called the
+       parent node of that node. {B} is the parent node of {D, E}.
+     * Child Node: The node which is the immediate successor of a node is
+       called the child node of that node. Examples: {D, E} are the child
+       nodes of {B}.
+     * Root Node: The topmost node of a tree or the node which does not have
+       any parent node is called the root node. {A} is the root node of the
+       tree. A non-empty tree must contain exactly one root node and exactly
+       one path from the root to all other nodes of the tree.
+     * Leaf Node or External Node: The nodes which do not have any child
+       nodes are called leaf nodes. {K, L, M, N, O, P, G} are the leaf nodes
+       of the tree.
+     * Ancestor of a Node: Any predecessor nodes on the path of the root to
+       that node are called Ancestors of that node. {A,B} are the ancestor
+       nodes of the node {E}
+     * Descendant: Any successor node on the path from the leaf node to that
+       node. {E,I} are the descendants of the node {B}.
+     * Sibling: Children of the same parent node are called siblings. {D,E}
+       are called siblings.
+     * Level of a node: The count of edges on the path from the root node to
+       that node. The root node has level 0.
+     * Internal node: A node with at least one child is called Internal Node.
+     * Neighbour of a Node: Parent or child nodes of that node are called
+       neighbors of that node.
+     * Subtree: Any node of the tree along with its descendant.
+
+Representation of Tree Data Structure:
+
+     A tree consists of a root, and zero or more subtrees T_1, T_2, … , T_k
+     such that there is an edge from the root of the tree to the root of each
+     subtree.
+
+   Representation of Tree Data Structure
+
+   Representation of Tree Data Structure
+
+  Representation of a Node in Tree Data Structure:
+
+     struct Node
+     {
+        int data;
+        struct Node *first_child;
+        struct Node *second_child;
+        struct Node *third_child;
+        .
+        .
+        .
+        struct Node *nth_child;
+     };
+
+  Example of Tree data structure
+
+    
+
+   Here,
+
+     * Node 1 is the root node
+     * 1 is the parent of 2 and 3
+     * 2 and 3 are the siblings
+     * 4, 5, 6, and 7 are the leaf nodes
+     * 1 and 2 are the ancestors of 5
+
+Types of Tree data structures:
+
+   Types of Trees in Data Structure based on the number of children
+
+     * Binary tree: In a binary tree, each node can have a maximum of two
+       children linked to it. Some common types of binary trees include full
+       binary trees, complete binary trees, balanced binary trees, and
+       degenerate or pathological binary trees.
+     * Ternary Tree: A Ternary Tree is a tree data structure in which each
+       node has at most three child nodes, usually distinguished as “left”,
+       “mid” and “right”.
+     * N-ary Tree or Generic Tree: Generic trees are a collection of nodes
+       where each node is a data structure that consists of records and a
+       list of references to its children(duplicate references are not
+       allowed). Unlike the linked list, each node stores the address of
+       multiple nodes.
+
+   To learn more about types of trees, refer to this article.
+
+Basic Operation Of Tree Data Structure:
+
+     * Create – create a tree in the data structure.
+     * Insert − Inserts data in a tree.
+     * Search − Searches specific data in a tree to check whether it is
+       present or not.
+     * Traversal:
+          * Preorder Traversal – perform Traveling a tree in a pre-order
+            manner in the data structure.
+          * In order Traversal – perform Traveling a tree in an in-order
+            manner.
+          * Post-order Traversal –perform Traveling a tree in a post-order
+            manner.
+
+C++
+
+   // C++ program to demonstrate some of the above             
+   // terminologies                                            
+   #include <bits/stdc++.h>                                    
+   using namespace std;                                        
+   // Function to add an edge between vertices x and y         
+   void addEdge(int x, int y, vector<vector<int> >& adj)       
+   {                                                           
+       adj[x].push_back(y);                                    
+       adj[y].push_back(x);                                    
+   }                                                           
+   // Function to print the parent of each node                
+   void printParents(int node, vector<vector<int> >& adj,      
+                     int parent)                               
+   {                                                           
+       // current node is Root, thus, has no parent            
+       if (parent == 0)                                        
+           cout << node << "->Root" << endl;                   
+       else                                                    
+           cout << node << "->" << parent << endl;             
+       // Using DFS                                            
+       for (auto cur : adj[node])                              
+           if (cur != parent)                                  
+               printParents(cur, adj, node);                   
+   }                                                           
+   // Function to print the children of each node              
+   void printChildren(int Root, vector<vector<int> >& adj)     
+   {                                                           
+       // Queue for the BFS                                    
+       queue<int> q;                                           
+       // pushing the root                                     
+       q.push(Root);                                           
+       // visit array to keep track of nodes that have been    
+       // visited                                              
+       int vis[adj.size()] = { 0 };                            
+       // BFS                                                  
+       while (!q.empty()) {                                    
+           int node = q.front();                               
+           q.pop();                                            
+           vis[node] = 1;                                      
+           cout << node << "-> ";                              
+           for (auto cur : adj[node])                          
+               if (vis[cur] == 0) {                            
+                   cout << cur << " ";                         
+                   q.push(cur);                                
+               }                                               
+           cout << endl;                                       
+       }                                                       
+   }                                                           
+   // Function to print the leaf nodes                         
+   void printLeafNodes(int Root, vector<vector<int> >& adj)    
+   {                                                           
+       // Leaf nodes have only one edge and are not the root   
+       for (int i = 1; i < adj.size(); i++)                    
+           if (adj[i].size() == 1 && i != Root)                
+               cout << i << " ";                               
+       cout << endl;                                           
+   }                                                           
+   // Function to print the degrees of each node               
+   void printDegrees(int Root, vector<vector<int> >& adj)      
+   {                                                           
+       for (int i = 1; i < adj.size(); i++) {                  
+           cout << i << ": ";                                  
+           // Root has no parent, thus, its degree is equal to 
+           // the edges it is connected to                     
+           if (i == Root)                                      
+               cout << adj[i].size() << endl;                  
+           else                                                
+               cout << adj[i].size() - 1 << endl;              
+       }                                                       
+   }                                                           
+   // Driver code                                              
+   int main()                                                  
+   {                                                           
+       // Number of nodes                                      
+       int N = 7, Root = 1;                                    
+       // Adjacency list to store the tree                     
+       vector<vector<int> > adj(N + 1, vector<int>());         
+       // Creating the tree                                    
+       addEdge(1, 2, adj);                                     
+       addEdge(1, 3, adj);                                     
+       addEdge(1, 4, adj);                                     
+       addEdge(2, 5, adj);                                     
+       addEdge(2, 6, adj);                                     
+       addEdge(4, 7, adj);                                     
+       // Printing the parents of each node                    
+       cout << "The parents of each node are:" << endl;        
+       printParents(Root, adj, 0);                             
+                                                               
+       // Printing the children of each node                   
+       cout << "The children of each node are:" << endl;       
+       printChildren(Root, adj);                               
+                                                               
+       // Printing the leaf nodes in the tree                  
+       cout << "The leaf nodes of the tree are:" << endl;      
+       printLeafNodes(Root, adj);                              
+                                                               
+       // Printing the degrees of each node                    
+       cout << "The degrees of each node are:" << endl;        
+       printDegrees(Root, adj);                                
+                                                               
+       return 0;                                               
+   }                                                           
+
+Java
+
+   // java code for above approach                              
+   import java.io.*;                                            
+   import java.util.*;                                          
+                                                                
+   class GFG {                                                  
+                                                                
+       // Function to print the parent of each node             
+       public static void                                       
+       printParents(int node, Vector<Vector<Integer> > adj,     
+                    int parent)                                 
+       {                                                        
+                                                                
+           // current node is Root, thus, has no parent         
+           if (parent == 0)                                     
+               System.out.println(node + "->Root");             
+           else                                                 
+               System.out.println(node + "->" + parent);        
+                                                                
+           // Using DFS                                         
+           for (int i = 0; i < adj.get(node).size(); i++)       
+               if (adj.get(node).get(i) != parent)              
+                   printParents(adj.get(node).get(i), adj,      
+                                node);                          
+       }                                                        
+                                                                
+       // Function to print the children of each node           
+       public static void                                       
+       printChildren(int Root, Vector<Vector<Integer> > adj)    
+       {                                                        
+                                                                
+           // Queue for the BFS                                 
+           Queue<Integer> q = new LinkedList<>();               
+                                                                
+           // pushing the root                                  
+           q.add(Root);                                         
+                                                                
+           // visit array to keep track of nodes that have been 
+           // visited                                           
+           int vis[] = new int[adj.size()];                     
+                                                                
+           Arrays.fill(vis, 0);                                 
+                                                                
+           // BFS                                               
+           while (q.size() != 0) {                              
+               int node = q.peek();                             
+               q.remove();                                      
+               vis[node] = 1;                                   
+               System.out.print(node + "-> ");                  
+                                                                
+               for (int i = 0; i < adj.get(node).size(); i++) { 
+                   if (vis[adj.get(node).get(i)] == 0) {        
+                       System.out.print(adj.get(node).get(i)    
+                                        + " ");                 
+                       q.add(adj.get(node).get(i));             
+                   }                                            
+               }                                                
+               System.out.println();                            
+           }                                                    
+       }                                                        
+                                                                
+       // Function to print the leaf nodes                      
+       public static void                                       
+       printLeafNodes(int Root, Vector<Vector<Integer> > adj)   
+       {                                                        
+                                                                
+           // Leaf nodes have only one edge and are not the     
+           // root                                              
+           for (int i = 1; i < adj.size(); i++)                 
+               if (adj.get(i).size() == 1 && i != Root)         
+                   System.out.print(i + " ");                   
+                                                                
+           System.out.println();                                
+       }                                                        
+                                                                
+       // Function to print the degrees of each node            
+       public static void                                       
+       printDegrees(int Root, Vector<Vector<Integer> > adj)     
+       {                                                        
+           for (int i = 1; i < adj.size(); i++) {               
+               System.out.print(i + ": ");                      
+                                                                
+               // Root has no parent, thus, its degree is       
+               // equal to the edges it is connected to         
+               if (i == Root)                                   
+                   System.out.println(adj.get(i).size());       
+               else                                             
+                   System.out.println(adj.get(i).size() - 1);   
+           }                                                    
+       }                                                        
+                                                                
+       // Driver code                                           
+       public static void main(String[] args)                   
+       {                                                        
+                                                                
+           // Number of nodes                                   
+           int N = 7, Root = 1;                                 
+                                                                
+           // Adjacency list to store the tree                  
+           Vector<Vector<Integer> > adj                         
+               = new Vector<Vector<Integer> >();                
+           for (int i = 0; i < N + 1; i++) {                    
+               adj.add(new Vector<Integer>());                  
+           }                                                    
+                                                                
+           // Creating the tree                                 
+           adj.get(1).add(2);                                   
+           adj.get(2).add(1);                                   
+                                                                
+           adj.get(1).add(3);                                   
+           adj.get(3).add(1);                                   
+                                                                
+           adj.get(1).add(4);                                   
+           adj.get(4).add(1);                                   
+                                                                
+           adj.get(2).add(5);                                   
+           adj.get(5).add(2);                                   
+                                                                
+           adj.get(2).add(6);                                   
+           adj.get(6).add(2);                                   
+                                                                
+           adj.get(4).add(7);                                   
+           adj.get(7).add(4);                                   
+                                                                
+           // Printing the parents of each node                 
+           System.out.println("The parents of each node are:"); 
+           printParents(Root, adj, 0);                          
+                                                                
+           // Printing the children of each node                
+           System.out.println(                                  
+               "The children of each node are:");               
+           printChildren(Root, adj);                            
+                                                                
+           // Printing the leaf nodes in the tree               
+           System.out.println(                                  
+               "The leaf nodes of the tree are:");              
+           printLeafNodes(Root, adj);                           
+                                                                
+           // Printing the degrees of each node                 
+           System.out.println("The degrees of each node are:"); 
+           printDegrees(Root, adj);                             
+       }                                                        
+   }                                                            
+                                                                
+   // This code is contributed by rj13to.                       
+
+Python3
+
+   # python program to demonstrate some of the above          
+   # terminologies                                            
+                                                              
+   # Function to add an edge between vertices x and y         
+                                                              
+   # Function to print the parent of each node                
+                                                              
+                                                              
+   def printParents(node, adj, parent):                       
+                                                              
+       # current node is Root, thus, has no parent            
+       if (parent == 0):                                      
+           print(node, "->Root")                              
+       else:                                                  
+           print(node, "->", parent)                          
+                                                              
+       # Using DFS                                            
+       for cur in adj[node]:                                  
+           if (cur != parent):                                
+               printParents(cur, adj, node)                   
+                                                              
+   # Function to print the children of each node              
+                                                              
+                                                              
+   def printChildren(Root, adj):                              
+                                                              
+       # Queue for the BFS                                    
+       q = []                                                 
+                                                              
+       # pushing the root                                     
+       q.append(Root)                                         
+                                                              
+       # visit array to keep track of nodes that have been    
+       # visited                                              
+       vis = [0]*len(adj)                                     
+                                                              
+       # BFS                                                  
+       while (len(q) > 0):                                    
+           node = q[0]                                        
+           q.pop(0)                                           
+           vis[node] = 1                                      
+           print(node, "-> ", end=" ")                        
+                                                              
+           for cur in adj[node]:                              
+               if (vis[cur] == 0):                            
+                   print(cur, " ", end=" ")                   
+                   q.append(cur)                              
+           print("\n")                                        
+                                                              
+   # Function to print the leaf nodes                         
+                                                              
+                                                              
+   def printLeafNodes(Root, adj):                             
+                                                              
+       # Leaf nodes have only one edge and are not the root   
+       for i in range(0, len(adj)):                           
+           if (len(adj[i]) == 1 and i != Root):               
+               print(i, end=" ")                              
+       print("\n")                                            
+                                                              
+   # Function to print the degrees of each node               
+                                                              
+                                                              
+   def printDegrees(Root, adj):                               
+                                                              
+       for i in range(1, len(adj)):                           
+           print(i, ": ", end=" ")                            
+                                                              
+           # Root has no parent, thus, its degree is equal to 
+           # the edges it is connected to                     
+           if (i == Root):                                    
+               print(len(adj[i]))                             
+           else:                                              
+               print(len(adj[i])-1)                           
+                                                              
+   # Driver code                                              
+                                                              
+                                                              
+   # Number of nodes                                          
+   N = 7                                                      
+   Root = 1                                                   
+                                                              
+   # Adjacency list to store the tree                         
+   adj = []                                                   
+   for i in range(0, N+1):                                    
+       adj.append([])                                         
+                                                              
+   # Creating the tree                                        
+   adj[1].append(2)                                           
+   adj[2].append(1)                                           
+                                                              
+   adj[1].append(3)                                           
+   adj[3].append(1)                                           
+                                                              
+   adj[1].append(4)                                           
+   adj[4].append(1)                                           
+                                                              
+   adj[2].append(5)                                           
+   adj[5].append(2)                                           
+                                                              
+   adj[2].append(6)                                           
+   adj[6].append(2)                                           
+                                                              
+   adj[4].append(7)                                           
+   adj[7].append(4)                                           
+                                                              
+   # Printing the parents of each node                        
+   print("The parents of each node are:")                     
+   printParents(Root, adj, 0)                                 
+                                                              
+   # Printing the children of each node                       
+   print("The children of each node are:")                    
+   printChildren(Root, adj)                                   
+                                                              
+   # Printing the leaf nodes in the tree                      
+   print("The leaf nodes of the tree are:")                   
+   printLeafNodes(Root, adj)                                  
+                                                              
+   # Printing the degrees of each node                        
+   print("The degrees of each node are:")                     
+   printDegrees(Root, adj)                                    
+                                                              
+   # This code is contributed by rj13to.                      
+
+C#
+
+   using System;                                                
+   using System.Collections.Generic;                            
+   using System.Linq;                                           
+                                                                
+   namespace TreeTerminologies {                                
+   class Program {                                              
+       // Function to add an edge between vertices x and y      
+       static void AddEdge(int x, int y, List<List<int> > adj)  
+       {                                                        
+           adj[x].Add(y);                                       
+           adj[y].Add(x);                                       
+       }                                                        
+                                                                
+       // Function to print the parent of each node             
+       static void PrintParents(int node, List<List<int> > adj, 
+                                int parent)                     
+       {                                                        
+           // current node is Root, thus, has no parent         
+           if (parent == 0)                                     
+               Console.WriteLine(node + "->Root");              
+           else                                                 
+               Console.WriteLine(node + "->" + parent);         
+           // Using DFS                                         
+           foreach(var cur in adj[node]) if (cur != parent)     
+               PrintParents(cur, adj, node);                    
+       }                                                        
+                                                                
+       // Function to print the children of each node           
+       static void PrintChildren(int root,                      
+                                 List<List<int> > adj)          
+       {                                                        
+           // Queue for the BFS                                 
+           var q = new Queue<int>();                            
+           // pushing the root                                  
+           q.Enqueue(root);                                     
+           // visit array to keep track of nodes that have been 
+           // visited                                           
+           var vis = new int[adj.Count];                        
+           // BFS                                               
+           while (q.Any()) {                                    
+               int node = q.Dequeue();                          
+               vis[node] = 1;                                   
+               Console.Write(node + "-> ");                     
+               foreach(var cur in adj[node]) if (vis[cur] == 0) 
+               {                                                
+                   Console.Write(cur + " ");                    
+                   q.Enqueue(cur);                              
+               }                                                
+               Console.WriteLine();                             
+           }                                                    
+       }                                                        
+                                                                
+       // Function to print the leaf nodes                      
+       static void PrintLeafNodes(int root,                     
+                                  List<List<int> > adj)         
+       {                                                        
+           // Leaf nodes have only one edge and are not the     
+           // root                                              
+           for (int i = 1; i < adj.Count; i++)                  
+               if (adj[i].Count == 1 && i != root)              
+                   Console.Write(i + " ");                      
+           Console.WriteLine();                                 
+       }                                                        
+                                                                
+       // Function to print the degrees of each node            
+       static void PrintDegrees(int root, List<List<int> > adj) 
+       {                                                        
+           for (int i = 1; i < adj.Count; i++) {                
+               Console.Write(i + ": ");                         
+               // Root has no parent, thus, its degree is equal 
+               // to the edges it is connected to               
+               if (i == root)                                   
+                   Console.WriteLine(adj[i].Count);             
+               else                                             
+                   Console.WriteLine(adj[i].Count - 1);         
+           }                                                    
+       }                                                        
+                                                                
+       static void Main(string[] args)                          
+       {                                                        
+           // Number of nodes                                   
+           int n = 7, root = 1;                                 
+           // Adjacency list to store the tree                  
+           var adj = new List<List<int> >();                    
+           for (int i = 0; i <= n; i++)                         
+               adj.Add(new List<int>());                        
+           // Creating the tree                                 
+
+Javascript
+
+   // Number of nodes                                          
+   let N = 7, Root = 1;                                        
+                                                               
+   // Adjacency list to store the tree                         
+   let adj = new Array(N + 1).fill(null).map(() => []);        
+                                                               
+   // Creating the tree                                        
+   addEdge(1, 2, adj);                                         
+   addEdge(1, 3, adj);                                         
+   addEdge(1, 4, adj);                                         
+   addEdge(2, 5, adj);                                         
+   addEdge(2, 6, adj);                                         
+   addEdge(4, 7, adj);                                         
+                                                               
+   // Function to add an edge between vertices x and y         
+   function addEdge(x, y, arr) {                               
+       arr[x].push(y);                                         
+       arr[y].push(x);                                         
+   }                                                           
+                                                               
+   // Function to print the parent of each node                
+   function printParents(node, arr, parent)                    
+   {                                                           
+                                                               
+       // current node is Root, thus, has no parent            
+       if (parent == 0)                                        
+           console.log(`${node}->Root`);                       
+       else                                                    
+           console.log(`${node}->${parent}`);                  
+                                                               
+       // Using DFS                                            
+       for (let cur of arr[node])                              
+           if (cur != parent)                                  
+               printParents(cur, arr, node);                   
+   }                                                           
+                                                               
+   // Function to print the children of each node              
+   function printChildren(Root, arr)                           
+   {                                                           
+                                                               
+       // Queue for the BFS                                    
+       let q = [];                                             
+                                                               
+       // pushing the root                                     
+       q.push(Root);                                           
+                                                               
+       // visit array to keep track of nodes that have been    
+       // visited                                              
+       let vis = new Array(arr.length).fill(0);                
+       // BFS                                                  
+       while (q.length > 0) {                                  
+           let node = q.shift();                               
+           vis[node] = 1;                                      
+           console.log(`${node}-> `);                          
+           for (let cur of arr[node])                          
+               if (vis[cur] == 0) {                            
+                   console.log(cur + " ");                     
+                   q.push(cur);                                
+               }                                               
+           console.log("\n");                                  
+       }                                                       
+   }                                                           
+                                                               
+   // Function to print the leaf nodes                         
+   function printLeafNodes(Root, arr)                          
+   {                                                           
+                                                               
+       // Leaf nodes have only one edge and are not the root   
+       for (let i = 1; i < arr.length; i++)                    
+           if (arr[i].length == 1 && i != Root)                
+               console.log(i + " ");                           
+       console.log("\n");                                      
+   }                                                           
+                                                               
+   // Function to print the degrees of each node               
+   function printDegrees(Root, arr) {                          
+       for (let i = 1; i < arr.length; i++) {                  
+           console.log(`${i}: `);                              
+                                                               
+           // Root has no parent, thus, its degree is equal to 
+           // the edges it is connected to                     
+           if (i == Root)                                      
+               console.log(arr[i].length + "\n");              
+           else                                                
+               console.log(arr[i].length - 1 + "\n");          
+       }                                                       
+   }                                                           
+                                                               
+   // Driver code                                              
+   // Printing the parents of each node                        
+   console.log("The parents of each node are:");               
+   printParents(Root, adj, 0);                                 
+                                                               
+   // Printing the children of each node                       
+   console.log("The children of each node are:");              
+   printChildren(Root, adj);                                   
+                                                               
+   // Printing the leaf nodes in the tree                      
+   console.log("The leaf nodes of the tree are:");             
+   printLeafNodes(Root, adj);                                  
+                                                               
+   // Printing the degrees of each node                        
+   console.log("The degrees of each node are:");               
+   printDegrees(Root, adj);                                    
+                                                               
+   // This code is contributed by ruchikabaslas.               
+
+   Output
+
+ The parents of each node are:
+ 1->Root
+ 2->1
+ 5->2
+ 6->2
+ 3->1
+ 4->1
+ 7->4
+ The children of each node are:
+ 1-> 2 3 4
+ 2-> 5 6
+ 3->
+ 4-> 7
+ 5->
+ 6->
+ 7->
+ The leaf nodes of the tree are:
+ 3 5 6 7
+ The degrees of each node are:
+ 1: 3
+ 2: 2
+ 3: 0
+ 4: 1
+ 5: 0
+ 6: 0
+ 7: 0
+
+Why Tree is considered a non-linear data structure?
+
+   The data in a tree are not stored in a sequential manner i.e., they are
+   not stored linearly. Instead, they are arranged on multiple levels or we
+   can say it is a hierarchical structure. For this reason, the tree is
+   considered to be a non-linear data structure.
+
+Properties of Tree Data Structure:
+
+     * Number of edges: An edge can be defined as the connection between two
+       nodes. If a tree has N nodes then it will have (N-1) edges. There is
+       only one path from each node to any other node of the tree.
+     * Depth of a node: The depth of a node is defined as the length of the
+       path from the root to that node. Each edge adds 1 unit of length to
+       the path. So, it can also be defined as the number of edges in the
+       path from the root of the tree to the node.
+     * Height of a node: The height of a node can be defined as the length of
+       the longest path from the node to a leaf node of the tree.
+     * Height of the Tree: The height of a tree is the length of the longest
+       path from the root of the tree to a leaf node of the tree.
+     * Degree of a Node: The total count of subtrees attached to that node is
+       called the degree of the node. The degree of a leaf node must be 0.
+       The degree of a tree is the maximum degree of a node among all the
+       nodes in the tree.
+
+Need for Tree Data Structure
+
+   1. One reason to use trees might be because you want to store information
+   that naturally forms a hierarchy. For example, the file system on a
+   computer: 
+
+   File System
+
+   2. Trees (with some ordering e.g., BST) provide moderate access/search
+   (quicker than Linked List and slower than arrays). 
+   3. Trees provide moderate insertion/deletion (quicker than Arrays and
+   slower than Unordered Linked Lists). 
+   4. Like Linked Lists and unlike Arrays, Trees don’t have an upper limit on
+   the number of nodes as nodes are linked using pointers.
+
+Application of Tree Data Structure:
+
+     * File System:  This allows for efficient navigation and organization of
+       files.
+     * Data Compression: Huffman coding is a popular technique for data
+       compression that involves constructing a binary tree where the leaves
+       represent characters and their frequency of occurrence. The resulting
+       tree is used to encode the data in a way that minimizes the amount of
+       storage required.
+     * Compiler Design: In compiler design, a syntax tree is used to
+       represent the structure of a program. 
+     * Database Indexing: B-trees and other tree structures are used in
+       database indexing to efficiently search for and retrieve data. 
+
+   To learn more about the applications of Tree Data Structure, refer to this
+   article.
+
+Advantages of Tree Data Structure:
+
+     * Tree offer Efficient Searching Depending on the type of tree, with
+       average search times of O(log n) for balanced trees like AVL. 
+     * Trees provide a hierarchical representation of data, making it easy to
+       organize and navigate large amounts of information.
+     * The recursive nature of trees makes them easy to traverse and
+       manipulate using recursive algorithms.
+
+   To learn more about the advantages of Tree Data Structure, refer to this
+   article.
+
+Disadvantages of Tree Data Structure:
+
+     * Unbalanced Trees, meaning that the height of the tree is skewed
+       towards one side, which can lead to inefficient search times.
+     * Trees demand more memory space requirements than some other data
+       structures like arrays and linked lists, especially if the tree is
+       very large.
+     * The implementation and manipulation of trees can be complex and
+       require a good understanding of the algorithms.
+
+   To learn more about the disadvantages of Tree Data Structure, refer to
+   this article.
+
+   Feeling lost in the world of random DSA topics, wasting time without
+   progress? It's time for a change! Join our DSA course, where we'll guide
+   you on an exciting journey to master DSA efficiently and on schedule.
+   Ready to dive in? Explore our Free Demo Content and join our DSA course,
+   trusted by over 100,000 geeks!
+     * DSA in C++
+     * DSA in Java
+     * DSA in Python
+     * DSA in JavaScript
+   Commit to GfG's Three-90 Challenge! Purchase a course, complete 90% in 90
+   days, and save 90% cost click here to explore.
+   Last Updated : 27 Oct, 2023
+   Like Article [ Submit ]
+   Save Article [ Submit ]
+   Next 
+   Tree Traversal Techniques - Data Structure and Algorithm Tutorials
+   Share your thoughts in the comments
+   Add Your Comment
+
+  Please Login to comment...
+
+   Similar Reads
+   Introduction to Finger search tree Data Structure
+   AVL Tree Data Structure
+   Applications of tree data structure
+   Tree Data Structure
+   Complexity of different operations in Binary tree, Binary Search Tree and
+   AVL tree
+   Maximum sub-tree sum in a Binary Tree such that the sub-tree is also a BST
+   Convert a Generic Tree(N-array Tree) to Binary Tree
+   Convert a Binary Tree into its Mirror Tree (Invert Binary Tree)
+   Data Structure Types, Classifications and Applications
+   How to set the order in subnodes of a tree structure?
+   Complete Tutorials
+   Learn Algorithms with Javascript | DSA using JavaScript Tutorial
+   DSA Crash Course | Revision Checklist with Interview Guide
+   Learn Data Structures and Algorithms | DSA Tutorial
+   Mathematical and Geometric Algorithms - Data Structure and Algorithm
+   Tutorials
+   Learn Data Structures with Javascript | DSA using JavaScript Tutorial
+   https://media.geeksforgeeks.org/auth/avatar.png
+   GeeksforGeeks
+   Article Tags :
+     * Data Structures
+     * DSA
+     * Tree
+   Practice Tags :
+     * Data Structures
+     * Tree
+   Additional Information
+   Trending in News
+   View More
+
+     ----------------------------------------------------------------------
+
+     * How To Use Virtual Number for ChatGPT?
+     * Top 10 Free iPad Games 2024
+     * How To Make A Podcast On Discord
+     * Top 25 Best Anime Series of All Time
+     * 10 Best Free AI Art Generators to Create Image From Text [Free & Paid]
+     * 30 OOPs Interview Questions and Answers (2023)
+   geeksforgeeks-footer-logo
+   A-143, 9th Floor, Sovereign Corporate Tower, Sector-136, Noida, Uttar
+   Pradesh - 201305
+   GFG App on Play Store GFG App on App Store
+     * Company
+     * About Us
+     * Legal
+     * Careers
+     * In Media
+     * Contact Us
+     * Advertise with us
+     * GFG Corporate Solution
+     * Placement Training Program
+     * Apply for Mentor
+     * Explore
+     * Job-A-Thon Hiring Challenge
+     * Hack-A-Thon
+     * GfG Weekly Contest
+     * Offline Classes (Delhi/NCR)
+     * DSA in JAVA/C++
+     * Master System Design
+     * Master CP
+     * GeeksforGeeks Videos
+     * Languages
+     * Python
+     * Java
+     * C++
+     * PHP
+     * GoLang
+     * SQL
+     * R Language
+     * Android Tutorial
+     * Tutorials Archive
+     * DSA
+     * Data Structures
+     * Algorithms
+     * DSA for Beginners
+     * Basic DSA Problems
+     * DSA Roadmap
+     * Top 100 DSA Interview Problems
+     * DSA Roadmap by Sandeep Jain
+     * All Cheat Sheets
+     * Data Science & ML
+     * Data Science With Python
+     * Data Science For Beginner
+     * Machine Learning Tutorial
+     * ML Maths
+     * Data Visualisation Tutorial
+     * Pandas Tutorial
+     * NumPy Tutorial
+     * NLP Tutorial
+     * Deep Learning Tutorial
+     * HTML & CSS
+     * HTML
+     * CSS
+     * Bootstrap
+     * Tailwind CSS
+     * SASS
+     * LESS
+     * Web Design
+     * Python
+     * Python Programming Examples
+     * Django Tutorial
+     * Python Projects
+     * Python Tkinter
+     * Web Scraping
+     * OpenCV Python Tutorial
+     * Python Interview Question
+     * Computer Science
+     * GATE CS Notes
+     * Operating Systems
+     * Computer Network
+     * Database Management System
+     * Software Engineering
+     * Digital Logic Design
+     * Engineering Maths
+     * DevOps
+     * Git
+     * AWS
+     * Docker
+     * Kubernetes
+     * Azure
+     * GCP
+     * DevOps Roadmap
+     * Competitive Programming
+     * Top DS or Algo for CP
+     * Top 50 Tree
+     * Top 50 Graph
+     * Top 50 Array
+     * Top 50 String
+     * Top 50 DP
+     * Top 15 Websites for CP
+     * System Design
+     * What is System Design
+     * Monolithic and Distributed SD
+     * High Level Design or HLD
+     * Low Level Design or LLD
+     * Crack System Design Round
+     * System Design Interview Questions
+     * Grokking Modern System Design
+     * JavaScript
+     * TypeScript
+     * ReactJS
+     * NextJS
+     * AngularJS
+     * NodeJS
+     * Express.js
+     * Lodash
+     * Web Browser
+     * NCERT Solutions
+     * Class 12
+     * Class 11
+     * Class 10
+     * Class 9
+     * Class 8
+     * Complete Study Material
+     * School Subjects
+     * Mathematics
+     * Physics
+     * Chemistry
+     * Biology
+     * Social Science
+     * English Grammar
+     * Commerce
+     * Accountancy
+     * Business Studies
+     * Indian Economics
+     * Macroeconomics
+     * Microeconimics
+     * Statistics for Economics
+     * Management & Finance
+     * Management
+     * HR Managament
+     * Income Tax
+     * Finance
+     * Economics
+     * UPSC Study Material
+     * Polity Notes
+     * Geography Notes
+     * History Notes
+     * Science and Technology Notes
+     * Economy Notes
+     * Ethics Notes
+     * Previous Year Papers
+     * SSC/ BANKING
+     * SSC CGL Syllabus
+     * SBI PO Syllabus
+     * SBI Clerk Syllabus
+     * IBPS PO Syllabus
+     * IBPS Clerk Syllabus
+     * SSC CGL Practice Papers
+     * Colleges
+     * Indian Colleges Admission & Campus Experiences
+     * Top Engineering Colleges
+     * Top BCA Colleges
+     * Top MBA Colleges
+     * Top Architecture College
+     * Choose College For Graduation
+     * Companies
+     * IT Companies
+     * Software Development Companies
+     * Artificial Intelligence(AI) Companies
+     * CyberSecurity Companies
+     * Service Based Companies
+     * Product Based Companies
+     * PSUs for CS Engineers
+     * Preparation Corner
+     * Company Wise Preparation
+     * Preparation for SDE
+     * Experienced Interviews
+     * Internship Interviews
+     * Competitive Programming
+     * Aptitude Preparation
+     * Puzzles
+     * Exams
+     * JEE Mains
+     * JEE Advanced
+     * GATE CS
+     * NEET
+     * UGC NET
+     * More Tutorials
+     * Software Development
+     * Software Testing
+     * Product Management
+     * SAP
+     * SEO
+     * Linux
+     * Excel
+     * Write & Earn
+     * Write an Article
+     * Improve an Article
+     * Pick Topics to Write
+     * Share your Experiences
+     * Internships
+   @GeeksforGeeks, Sanchhaya Education Private Limited, All rights reserved
+   We use cookies to ensure you have the best browsing experience on our
+   website. By using our site, you acknowledge that you have read and
+   understood our Cookie Policy & Privacy Policy Got It !
+   Lightbox

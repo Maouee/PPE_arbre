@@ -1,90 +1,49 @@
-   [ ] Toggle the table of contents
 
-                              Abstract syntax tree
+   Tree in which each leaf node describes an operand & each interior node an
+   operator. The syntax tree is shortened form of the Parse Tree.
 
-   [ ] 21 languages
+   Example1 − Draw Syntax Tree for the string a + b ∗ c − d.
+
+   Rules for constructing a syntax tree
+
+   Each node in a syntax tree can be executed as data with multiple fields.
+   In the node for an operator, one field recognizes the operator and the
+   remaining field includes a pointer to the nodes for the operands. The
+   operator is known as the label of the node. The following functions are
+   used to create the nodes of the syntax tree for the expressions with
+   binary operators. Each function returns a pointer to the recently
+   generated node.
 --
-     * Wikimedia Commons
-   From Wikipedia, the free encyclopedia
-   For the trees used in linguistics, see parse tree.
-
-    This article includes a list of references, related reading, or external  
+     * mkleaf (num, val) − It generates a number node with label num and a
+       field including val, the value of the number. For example, construct a
+       syntax tree for an expression a − 4 + c. In this sequence, p_1, p_2, …
+       . . p_5are pointers to the symbol table entries for identifier 'a' and
+       'c' respectively.
 --
-    message)                                                                  
+ p_5− mknode(′+′, p_3, p_4);
 
-   [IMG]An abstract syntax tree for the following code for the Euclidean
-   algorithm:
+   The tree is generated in a bottom-up fashion. The function calls mkleaf
+   (id, entry a) and mkleaf (num 4) construct the leaves for a and 4. The
+   pointers to these nodes are stored using p_1and p_2. The call mknodes
+   (′−′, p_1, p_2 ) then make the interior node with the leaves for a and 4
+   as children. The syntax tree will be
 
+   Syntax Directed Translation of Syntax Trees
 --
- return a
+   Function LEAF (id) will create a Leaf node with label id.
 
-   An abstract syntax tree (AST) is a data structure used in computer science
-   to represent the structure of a program or code snippet. It is a tree
-   representation of the abstract syntactic structure of text (often source
-   code) written in a formal language. Each node of the tree denotes a
-   construct occurring in the text. It is sometimes called just a syntax
-   tree.
+   Example2 − Construct a syntax tree for the expression.
 
-   The syntax is "abstract" in the sense that it does not represent every
-   detail appearing in the real syntax, but rather just the structural or
-   content-related details. For instance, grouping parentheses are implicit
-   in the tree structure, so these do not have to be represented as separate
-   nodes. Likewise, a syntactic construct like an if-condition-then statement
-   may be denoted by means of a single node with three branches.
-
-   This distinguishes abstract syntax trees from concrete syntax trees,
-   traditionally designated parse trees. Parse trees are typically built by a
-   parser during the source code translation and compiling process. Once
-   built, additional information is added to the AST by means of subsequent
-   processing, e.g., contextual analysis.
-
-   Abstract syntax trees are also used in program analysis and program
-   transformation systems.
-
-Application in compilers[edit]
-
-   Abstract syntax trees are data structures widely used in compilers to
-   represent the structure of program code. An AST is usually the result of
-   the syntax analysis phase of a compiler. It often serves as an
+   a = b ∗ −c + d
 --
-   the compiler checks for correct usage of the elements of the program and
-   the language. The compiler also generates symbol tables based on the AST
-   during semantic analysis. A complete traversal of the tree allows
-   verification of the correctness of the program.
+   Solution
 
---
-  AST differencing[edit]
+   Example3 − Construct a syntax tree for a statement.
 
-   AST differencing, or for short tree differencing, consists of computing
-   the list of differences between two ASTs.^[1] This list of differences is
-   typically called an edit script. The edit script directly refers to the
+   If a = b then b = 2 * c
 --
-     * Directed acyclic graph (DAG)
-     * Document Object Model (DOM)
-     * Expression tree
-     * Extended Backus–Naur form
-     * Lisp, a family of languages written in trees, with macros to
-       manipulate code trees
-     * Parse tree, also known as concrete syntax tree
-     * Semantic resolution tree (SRT)
-     * Shunting-yard algorithm
-     * Symbol table
---
-External links[edit]
+   If x > 0 then x = 2 * (a + 1) else x = x + 1.
 
-   Wikimedia Commons has media related to Abstract syntax trees.
-     * AST View: an Eclipse plugin to visualize a Java abstract syntax tree
-     * "Abstract Syntax Tree and Java Code Manipulation in the Eclipse IDE".
-       eclipse.org.
---
-                    * Parser generator                   
-   Related topics        * LALR                          
-                    * Parse tree                         
-                    * AST                                
-                    * Scannerless parsing                
---
+   Example5 − Draw syntax tree for following arithmetic expression a * (b +
+   c) – d /2. Also, write given expression in postfix form.
 
-   Retrieved from
-   "https://en.wikipedia.org/w/index.php?title=Abstract_syntax_tree&oldid=1187819862"
-   Categories:
-     * Trees (data structures)

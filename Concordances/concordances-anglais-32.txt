@@ -1,0 +1,123 @@
+introduction to §tree§
+§tree§ traversal techniques
+applications of §tree§ data structure
+advantages and disadvantages of §tree§
+between an array and a §tree§
+inorder §tree§ traversal without recursion
+types of §trees§ in data structures
+avl §tree§
+b §tree§ and b
+§tree§
+red black §tree§
+introduction to §tree§
+§tree§ traversal techniques
+applications of §tree§ data structure
+advantages and disadvantages of §tree§
+between an array and a §tree§
+inorder §tree§ traversal without recursion
+types of §trees§ in data structures
+avl §tree§
+b §tree§ and b
+§tree§
+red black §tree§
+a §tree§ data structure is a hierarchical
+the topmost node of the §tree§ is called the root
+also say that §tree§ data structure has roots
+the topmost node of a §tree§ or the node which does
+§tree§
+a non-empty §tree§ must contain exactly one root
+all other nodes of the §tree§
+of the §tree§
+§tree§
+any node of the §tree§ along with its descendant
+representation of §tree§ data structure
+a §tree§ consists of a root
+§trees§ t_1
+from the root of the §tree§ to the root of each
+§tree§
+representation of §tree§ data structure
+types of §trees§ in data structure based on
+binary §tree§
+in a binary §tree§
+some common types of binary §trees§ include full
+binary §trees§
+complete binary §trees§
+balanced binary §trees§
+degenerate or pathological binary §trees§
+ternary §tree§
+a ternary §tree§ is a §tree§ data structure in which each
+n-ary §tree§ or generic §tree§
+generic §trees§ are a collection of nodes
+learn more about types of §trees§
+basic operation of §tree§ data structure
+create a §tree§ in the data structure
+inserts data in a §tree§
+searches specific data in a §tree§ to check whether it is
+perform traveling a §tree§ in a pre-order
+perform traveling a §tree§ in an in-order
+perform traveling a §tree§ in a post-order
+adjacency list to store the §tree§
+creating the §tree§
+the leaf nodes in the §tree§
+the leaf nodes of the §tree§ are
+adjacency list to store the §tree§
+creating the §tree§
+the leaf nodes in the §tree§
+the leaf nodes of the §tree§ are
+adjacency list to store the §tree§
+creating the §tree§
+the leaf nodes in the §tree§
+the leaf nodes of the §tree§ are
+adjacency list to store the §tree§
+creating the §tree§
+adjacency list to store the §tree§
+creating the §tree§
+the leaf nodes in the §tree§
+the leaf nodes of the §tree§ are
+the leaf nodes of the §tree§ are
+why §tree§ is considered a non-linear
+the data in a §tree§ are not stored in a
+the §tree§ is
+if a §tree§ has n nodes then it
+any other node of the §tree§
+from the root of the §tree§ to the node
+a leaf node of the §tree§
+height of the §tree§
+the height of a §tree§ is the length of the
+from the root of the §tree§ to a leaf node of
+the §tree§
+§trees§ attached to that node is
+the degree of a §tree§ is the maximum degree of
+nodes in the §tree§
+need for §tree§ data structure
+one reason to use §trees§ might be because you want
+that involves constructing a binary §tree§ where the leaves
+§tree§ is used to encode the
+a syntax §tree§ is used to
+b-§trees§ and other §tree§ structures are used in
+advantages of §tree§ data structure
+§tree§ offer efficient searching depending on
+the type of §tree§
+for balanced §trees§ like avl
+§trees§ provide a hierarchical representation of
+the recursive nature of §trees§ makes them easy to traverse
+disadvantages of §tree§ data structure
+unbalanced §trees§
+that the height of the §tree§ is skewed
+§trees§ demand more memory space requirements
+especially if the §tree§ is
+the implementation and manipulation of §trees§ can be complex and
+introduction to finger search §tree§ data structure
+avl §tree§ data structure
+applications of §tree§ data structure
+§tree§ data structure
+of different operations in binary §tree§
+binary search §tree§ and
+avl §tree§
+maximum sub-§tree§ sum in a binary §tree§
+such that the sub-§tree§ is also a bst
+convert a generic §tree§(n-array §tree§
+to binary §tree§
+convert a binary §tree§ into its mirror §tree§
+invert binary §tree§
+order in subnodes of a §tree§ structure

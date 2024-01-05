@@ -1,46 +1,90 @@
-     * Humberside
+   [ ] Toggle the table of contents
 
-            Women have 'lucky escape' as tree falls on car in storm
+                              Abstract syntax tree
 
-     * Published
+   [ ] 21 languages
 --
-   Copy link
-   About sharing
-   A car with a fallen tree on itImage source, Duncan Media News GNP Ltd
-   Image caption,
-   Two women were inside the car when it was hit but were not seriously
+     * Wikimedia Commons
+   From Wikipedia, the free encyclopedia
+   For the trees used in linguistics, see parse tree.
+
+    This article includes a list of references, related reading, or external  
 --
-   BBC News
+    message)                                                                  
 
-   Two women had a lucky escape after a large tree, toppled by Storm Elin,
-   fell onto their car in Lincolnshire.
-
---
-   Brigsley near Grimsby, on Sunday.
-
-   CCTV, seen by the BBC, showed the tree came down at about 20:30 GMT on
-   Saturday, as much of the country was drenched and battered by the storm.
-
-   Both women were left "shaken but unharmed" by their ordeal, Mr Young said.
-
-   The car, with large tree on it, in the roadImage source, Duncan Media News
-   GNP
-   Image caption,
---
-   fallen in the road before coming to a halt.
-
-   A split second later, the tree fell onto the car, with a large branch
-   resting on the shattered windscreen.
+   [IMG]An abstract syntax tree for the following code for the Euclidean
+   algorithm:
 
 --
-   North East Lincolnshire Council confirmed the road would be closed for
-   "most of Monday" to allow debris to be cleared, adding crews worked
-   "throughout the night" to deal with a number of fallen trees.
+ return a
 
-   They added: "We would like to thank all our colleagues who have been
+   An abstract syntax tree (AST) is a data structure used in computer science
+   to represent the structure of a program or code snippet. It is a tree
+   representation of the abstract syntactic structure of text (often source
+   code) written in a formal language. Each node of the tree denotes a
+   construct occurring in the text. It is sometimes called just a syntax
+   tree.
+
+   The syntax is "abstract" in the sense that it does not represent every
+   detail appearing in the real syntax, but rather just the structural or
+   content-related details. For instance, grouping parentheses are implicit
+   in the tree structure, so these do not have to be represented as separate
+   nodes. Likewise, a syntactic construct like an if-condition-then statement
+   may be denoted by means of a single node with three branches.
+
+   This distinguishes abstract syntax trees from concrete syntax trees,
+   traditionally designated parse trees. Parse trees are typically built by a
+   parser during the source code translation and compiling process. Once
+   built, additional information is added to the AST by means of subsequent
+   processing, e.g., contextual analysis.
+
+   Abstract syntax trees are also used in program analysis and program
+   transformation systems.
+
+Application in compilers[edit]
+
+   Abstract syntax trees are data structures widely used in compilers to
+   represent the structure of program code. An AST is usually the result of
+   the syntax analysis phase of a compiler. It often serves as an
 --
-          * External
-            Yorkshire Post
-     * First trees planted at new-look Riverhead Square in Grimsby
+   the compiler checks for correct usage of the elements of the program and
+   the language. The compiler also generates symbol tables based on the AST
+   during semantic analysis. A complete traversal of the tree allows
+   verification of the correctness of the program.
 
-          * External
+--
+  AST differencing[edit]
+
+   AST differencing, or for short tree differencing, consists of computing
+   the list of differences between two ASTs.^[1] This list of differences is
+   typically called an edit script. The edit script directly refers to the
+--
+     * Directed acyclic graph (DAG)
+     * Document Object Model (DOM)
+     * Expression tree
+     * Extended Backus–Naur form
+     * Lisp, a family of languages written in trees, with macros to
+       manipulate code trees
+     * Parse tree, also known as concrete syntax tree
+     * Semantic resolution tree (SRT)
+     * Shunting-yard algorithm
+     * Symbol table
+--
+External links[edit]
+
+   Wikimedia Commons has media related to Abstract syntax trees.
+     * AST View: an Eclipse plugin to visualize a Java abstract syntax tree
+     * "Abstract Syntax Tree and Java Code Manipulation in the Eclipse IDE".
+       eclipse.org.
+--
+                    * Parser generator                   
+   Related topics        * LALR                          
+                    * Parse tree                         
+                    * AST                                
+                    * Scannerless parsing                
+--
+
+   Retrieved from
+   "https://en.wikipedia.org/w/index.php?title=Abstract_syntax_tree&oldid=1187819862"
+   Categories:
+     * Trees (data structures)

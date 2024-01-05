@@ -1,0 +1,48 @@
+4 weak §tree§ function
+5 §tree§ function
+kruskal's §tree§ theorem
+kruskal's §tree§ theorem states that the set
+of finite §trees§
+the result was generalized from §trees§ to graphs as the
+all §trees§ we consider are finite
+given a §tree§ t with a root
+t_2 are rooted §trees§ with
+kruskal's §tree§ theorem then states
+then the set of rooted §trees§ with labels in
+of rooted §trees§
+kruskal's §tree§ theorem can be expressed and
+in the case where the §trees§
+order on §trees§ above
+weak §tree§ function[edit
+unlabeled rooted §trees§ where t_i has i
+define §tree§(n
+the weak §tree§ function
+t_m of unlabeled rooted §trees§
+it is known that §tree§(1
+§tree§(2
+and §tree§(3
+§tree§(4
+but §tree§(3
+§tree§
+§tree§
+§tree§
+§tree§
+§tree§
+§tree§
+the big §tree§ function and
+§tree§
+§tree§ function
+§tree§ function[edit
+sequence of §trees§ where each node is colored
+sequence of rooted §trees§ labelled from a set of
+the nth §tree§ in the sequence contains at
+§tree§ is inf-embeddable within any
+later §tree§ in the sequence
+§tree§(3
+t_m of rooted §trees§ labelled from a
+internal finite §tree§ embeddings
+the §tree§ theorem
+§trees§
+properties of finite §trees§
+kruskal's §tree§ theorem
+§tree§

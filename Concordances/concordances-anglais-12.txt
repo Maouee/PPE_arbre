@@ -1,18 +1,66 @@
-§tree§ equity score
-ensuring §tree§ cover in cities is equitably
-using data tools to create §tree§ equity
-§trees§ are sparse in socioeconomically disadvantaged
-and quality of life benefits §trees§
-we are working to create §tree§ equity
-people experience the benefits of §trees§
-doing this is with our §tree§ equity score tool
-see your city's §tree§ equity score
-indicates whether there are enough §trees§ in a neighborhood for
-§trees§ provide
-scores are based on §tree§ canopy
-role §trees§ play in slowing climate change
-related to protecting existing §trees§ and planting new §trees§
-council used the methodology from §tree§ equity score to create a
-such as §tree§ planting and green stormwater basin
-does the program prioritize planting §trees§ in low-scoring neighborhoods
+2 constituency-based parse §trees§
+3 dependency-based parse §trees§
+parse §tree§
+img]parse §tree§ to saab
+a parse §tree§ or parsing §tree§
+or derivation §tree§ or concrete syntax
+§tree§ is an ordered
+rooted §tree§ that represents the syntactic structure
+the term parse §tree§
+the term syntax §tree§ is more common
+concrete syntax §trees§ reflect the syntax of the
+distinct from the abstract syntax §trees§ used in computer programming
+§trees§ do not use distinct symbol
+parse §trees§ are usually constructed based on
+parse §trees§ may be generated
+form of a §tree§
+a set of possible parse §trees§ for a
+img]a simple parse §tree§
+a parse §tree§ is made up of nodes
+parse §tree§ is the entire structure
+in a parse §tree§
+of the §tree§
+branch in that §tree§ whereas a terminal function is
+parse §tree§ which is a leaf
+for binary §trees§
+the number of possible parse §trees§ for a sentence with n
+constituency-based parse §trees§[edit
+the constituency-based parse §trees§ of constituency grammars
+represents a constituency-based parse §tree§
+parse §tree§ psg
+the parse §tree§ is the entire structure
+used in the §tree§
+each node in the §tree§ is either a root node
 §tree§
+by a branch of a §tree§
+dependency-based parse §trees§[edit
+the dependency-based parse §trees§ of dependency grammars
+constituency-based parse §trees§ because they contain fewer nodes
+dependency-based parse §tree§ for the example sentence above
+parse §tree§ dg
+this parse §tree§ lacks the phrasal categories
+like the constituency-based §tree§
+any complete sub-§tree§ of the §tree§
+thus this dependency-based parse §tree§ acknowledges the
+like the constituency-based parse §tree§ does
+§trees§ is necessary or beneficial is
+presented in the form of §trees§
+section on constituency-based parse §trees§
+constituency-based §tree§ given above may be something
+as with §trees§
+abstract syntax §tree§
+the parse§tree§ package for drawing §trees§ in latex
+of syntax §trees§
+syntax §tree§ editor
+linguistic §tree§ constructor
+§tree§
+online parse §tree§ drawing site
+§tree§
+online parse §tree§ drawing site
+§tree§ enhanced version of phpsyntax§tree§ in
+§tree§
+latex package for drawing parse §trees§
+§tree§form syntax §tree§ drawing software
+visual introduction to parse §trees§ introduction and transformation
+parse §tree§
+§tree§&oldid=1159350944

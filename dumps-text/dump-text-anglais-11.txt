@@ -1,288 +1,366 @@
+   Link: alternate
    Link: canonical
-   Link: amphtml
-   Link: alternate x-default
-   Link: alternate en-gb
-   Link: alternate en
-   BBC Homepage
-     * Skip to content
-     * Accessibility Help
-     * Your account
-     * Home
-     * News
-     * Sport
-     * Earth
-     * Reel
-     * Worklife
-     * Travel
-     * More menu
-   More menu
-   Search BBC
-     * Home
-     * News
-     * Sport
-     * Earth
-     * Reel
-     * Worklife
-     * Travel
-     * Culture
-     * Future
-     * Music
-     * TV
-     * Weather
-     * Sounds
-   Close menu
-   BBC News
-   Menu
-     * Home
-     * Israel-Gaza war
-     * War in Ukraine
-     * Climate
-     * Video
-     * World
-     * UK
-     * Business
-     * Tech
-     * Science
-   More
-     * Entertainment & Arts
-     * Health
-     * World News TV
-     * In Pictures
-     * BBC Verify
-     * Newsbeat
-     * England
-     * Regions
-     * Humberside
+   Link: license
+   Jump to content
+   [ ] Main menu
+   Main menu
+   Navigation
+     * Main page
+     * Contents
+     * Current events
+     * Random article
+     * About Wikipedia
+     * Contact us
+     * Donate
+   Contribute
+     * Help
+     * Learn to edit
+     * Community portal
+     * Recent changes
+     * Upload file
+   Languages
+   Language links are at the top of the page.
+   [IMG] Wikipedia The Free Encyclopedia
+   Search
+   _____________________
+   Search
+     * Create account
+     * Log in
+   [ ] Personal tools
+     * Create account
+     * Log in
+   Pages for logged out editors learn more
+     * Contributions
+     * Talk
 
-            Women have 'lucky escape' as tree falls on car in storm
+Contents
 
-     * Published
-       10 December 2023
-   Share
-   close panel
-   Share page
-   Copy link
-   About sharing
-   A car with a fallen tree on itImage source, Duncan Media News GNP Ltd
-   Image caption,
-   Two women were inside the car when it was hit but were not seriously
-   injured, according to photographer Duncan Young
-   By Kevin Shoesmith
-   BBC News
+     * (Top)
+     * 1 Application in compilers
+          * 1.1 Motivation
+          * 1.2 Design
+     * 2 Other usages
+          * 2.1 AST differencing
+          * 2.2 Clone detection
+     * 3 See also
+     * 4 References
+     * 5 Further reading
+     * 6 External links
+   [ ] Toggle the table of contents
 
-   Two women had a lucky escape after a large tree, toppled by Storm Elin,
-   fell onto their car in Lincolnshire.
+                              Abstract syntax tree
 
-   Photographer Duncan Young took pictures of the scene in Waltham Road,
-   Brigsley near Grimsby, on Sunday.
+   [ ] 21 languages
+     * العربية
+     * Bosanski
+     * Čeština
+     * Deutsch
+     * Español
+     * فارسی
+     * Français
+     * 한국어
+     * Հայերեն
+     * Hrvatski
+     * Ido
+     * Italiano
+     * Lombard
+     * 日本語
+     * Polski
+     * Português
+     * Русский
+     * Українська
+     * Tiếng Việt
+     * 粵語
+     * 中文
+   Edit links
+     * Article
+     * Talk
+   [ ] English
+     * Read
+     * Edit
+     * View history
+   [ ] Tools
+   Tools
+   Actions
+     * Read
+     * Edit
+     * View history
+   General
+     * What links here
+     * Related changes
+     * Upload file
+     * Special pages
+     * Permanent link
+     * Page information
+     * Cite this page
+     * Get shortened URL
+     * Wikidata item
+   Print/export
+     * Download as PDF
+     * Printable version
+   In other projects
+     * Wikimedia Commons
+   From Wikipedia, the free encyclopedia
+   For the trees used in linguistics, see parse tree.
 
-   CCTV, seen by the BBC, showed the tree came down at about 20:30 GMT on
-   Saturday, as much of the country was drenched and battered by the storm.
+    This article includes a list of references, related reading, or external  
+    links, but its sources remain unclear because it lacks inline citations.  
+    Please help to improve this article by introducing more precise           
+    citations. (February 2013) (Learn how and when to remove this template    
+    message)                                                                  
 
-   Both women were left "shaken but unharmed" by their ordeal, Mr Young said.
+   [IMG]An abstract syntax tree for the following code for the Euclidean
+   algorithm:
 
-   The car, with large tree on it, in the roadImage source, Duncan Media News
-   GNP
-   Image caption,
-   The road will be closed for most of Monday to allow debris to be clear,
-   the council says
+ while b ≠ 0:
+     if a > b:
+         a := a - b
+     else:
+         b := b - a
+ return a
 
-   The CCTV shows the car going around a bend and avoiding a branch that had
-   fallen in the road before coming to a halt.
+   An abstract syntax tree (AST) is a data structure used in computer science
+   to represent the structure of a program or code snippet. It is a tree
+   representation of the abstract syntactic structure of text (often source
+   code) written in a formal language. Each node of the tree denotes a
+   construct occurring in the text. It is sometimes called just a syntax
+   tree.
 
-   A split second later, the tree fell onto the car, with a large branch
-   resting on the shattered windscreen.
+   The syntax is "abstract" in the sense that it does not represent every
+   detail appearing in the real syntax, but rather just the structural or
+   content-related details. For instance, grouping parentheses are implicit
+   in the tree structure, so these do not have to be represented as separate
+   nodes. Likewise, a syntactic construct like an if-condition-then statement
+   may be denoted by means of a single node with three branches.
 
-     * Duo of storms lash UK with wet and windy weather
-     * Storm Ciarán: How do storms get named?
+   This distinguishes abstract syntax trees from concrete syntax trees,
+   traditionally designated parse trees. Parse trees are typically built by a
+   parser during the source code translation and compiling process. Once
+   built, additional information is added to the AST by means of subsequent
+   processing, e.g., contextual analysis.
 
-   North East Lincolnshire Council confirmed the road would be closed for
-   "most of Monday" to allow debris to be cleared, adding crews worked
-   "throughout the night" to deal with a number of fallen trees.
+   Abstract syntax trees are also used in program analysis and program
+   transformation systems.
 
-   They added: "We would like to thank all our colleagues who have been
-   called out throughout the night, working in extremely high winds and rain
-   to make the area safe."
+Application in compilers[edit]
 
-   Presentational grey line
+   Abstract syntax trees are data structures widely used in compilers to
+   represent the structure of program code. An AST is usually the result of
+   the syntax analysis phase of a compiler. It often serves as an
+   intermediate representation of the program through several stages that the
+   compiler requires, and has a strong impact on the final output of the
+   compiler.
 
-   Follow BBC East Yorkshire and Lincolnshire on Facebook, X (formerly
-   Twitter), and Instagram. Send your story ideas to
-   yorkslincs.news@bbc.co.uk
+  Motivation[edit]
 
-Related Topics
+   An AST has several properties that aid the further steps of the
+   compilation process:
 
-     * Brigsley
-     * Waltham
-     * Severe weather
+     * An AST can be edited and enhanced with information such as properties
+       and annotations for every element it contains. Such editing and
+       annotation is impossible with the source code of a program, since it
+       would imply changing it.
+     * Compared to the source code, an AST does not include inessential
+       punctuation and delimiters (braces, semicolons, parentheses, etc.).
+     * An AST usually contains extra information about the program, due to
+       the consecutive stages of analysis by the compiler. For example, it
+       may store the position of each element in the source code, allowing
+       the compiler to print useful error messages.
 
-More on this story
+   ASTs are needed because of the inherent nature of programming languages
+   and their documentation. Languages are often ambiguous by nature. In order
+   to avoid this ambiguity, programming languages are often specified as a
+   context-free grammar (CFG). However, there are often aspects of
+   programming languages that a CFG can't express, but are part of the
+   language and are documented in its specification. These are details that
+   require a context to determine their validity and behaviour. For example,
+   if a language allows new types to be declared, a CFG cannot predict the
+   names of such types nor the way in which they should be used. Even if a
+   language has a predefined set of types, enforcing proper usage usually
+   requires some context. Another example is duck typing, where the type of
+   an element can change depending on context. Operator overloading is yet
+   another case where correct usage and final function are context-dependent.
 
-     * Duo of storms lash UK with wet and windy weather
+  Design[edit]
 
-          * Published
-            9 December 2023
-       Flooding in St Keyne
-     * Storm Henk: How do storms get named?
+   The design of an AST is often closely linked with the design of a compiler
+   and its expected features.
 
-          * Published
-            2 days ago
-       Waves hitting the coast of Dublin during Storm Agnes
+   Core requirements include the following:
 
-Related Internet Links
+     * Variable types must be preserved, as well as the location of each
+       declaration in source code.
+     * The order of executable statements must be explicitly represented and
+       well defined.
+     * Left and right components of binary operations must be stored and
+       correctly identified.
+     * Identifiers and their assigned values must be stored for assignment
+       statements.
 
-     * North East Lincolnshire Council
+   These requirements can be used to design the data structure for the AST.
 
-   The BBC is not responsible for the content of external sites.
+   Some operations will always require two elements, such as the two terms
+   for addition. However, some language constructs require an arbitrarily
+   large number of children, such as argument lists passed to programs from
+   the command shell. As a result, an AST used to represent code written in
+   such a language has to also be flexible enough to allow for quick addition
+   of an unknown quantity of children.
 
-From other local news sites
+   To support compiler verification it should be possible to unparse an AST
+   into source code form. The source code produced should be sufficiently
+   similar to the original in appearance and identical in execution, upon
+   recompilation. The AST is used intensively during semantic analysis, where
+   the compiler checks for correct usage of the elements of the program and
+   the language. The compiler also generates symbol tables based on the AST
+   during semantic analysis. A complete traversal of the tree allows
+   verification of the correctness of the program.
 
-     * Lithuanian lorry driver jailed for 14 years after attempting to import
-       cocaine worth £4.8 million into the UK at Immingham Dock
+   After verifying correctness, the AST serves as the base for code
+   generation. The AST is often used to generate an intermediate
+   representation (IR), sometimes called an intermediate language, for the
+   code generation.
 
-          * External
-            Yorkshire Post
-     * Scarborough Art Gallery's Display exhibition to feature 'rabbits, a
-       weasel and potato charm'
+Other usages[edit]
 
-          * External
-            Yorkshire Post
-     * First trees planted at new-look Riverhead Square in Grimsby
+  AST differencing[edit]
 
-          * External
-            Grimsby Live
-     * Flood alerts issued for North Lincolnshire as map shows areas worst
-       affected - including River Freshney
+   AST differencing, or for short tree differencing, consists of computing
+   the list of differences between two ASTs.^[1] This list of differences is
+   typically called an edit script. The edit script directly refers to the
+   AST of the code. For instance, an edit action may result in the addition
+   of a new AST node representing a function.
 
-          * External
-            Grimsby Live
-     * Revolucion de Cuba Leeds: Former Leeds Rhinos player Matthew Syron
-       battling serious eye injuries after attack
+  Clone detection[edit]
 
-          * External
-            Yorkshire Evening Post
-     * Diners share their memories at The Man Behind The Curtain
+   An AST is a powerful abstraction to perform code clone detection.^[2]
 
-          * External
-            Yorkshire Evening Post
-   Information about BBC links to other news sites
+See also[edit]
 
-Top Stories
+     * Abstract semantic graph (ASG), also called term graph
+     * Composite pattern
+     * Control-flow graph
+     * Directed acyclic graph (DAG)
+     * Document Object Model (DOM)
+     * Expression tree
+     * Extended Backus–Naur form
+     * Lisp, a family of languages written in trees, with macros to
+       manipulate code trees
+     * Parse tree, also known as concrete syntax tree
+     * Semantic resolution tree (SRT)
+     * Shunting-yard algorithm
+     * Symbol table
+     * TreeDL
 
-     * Paralympian and murderer Pistorius freed on parole
+References[edit]
 
-          * Published
-            2 hours ago
-     * N Korea fires artillery shells towards border island
+    1. ^ Fluri, Beat; Wursch, Michael; PInzger, Martin; Gall, Harald (2007).
+       "Change Distilling:Tree Differencing for Fine-Grained Source Code
+       Change Extraction". IEEE Transactions on Software Engineering. 33
+       (11): 725–743. doi:10.1109/tse.2007.70731. ISSN 0098-5589.
+       S2CID 13659557.
+    2. ^ Koschke, Rainer; Falke, Raimar; Frenzel, Pierre (2006). "Clone
+       Detection Using Abstract Syntax Suffix Trees". 2006 13th Working
+       Conference on Reverse Engineering. IEEE. pp. 253–262.
+       doi:10.1109/wcre.2006.18. ISBN 0-7695-2719-1. S2CID 6985484.
 
-          * Published
-            2 hours ago
-     * Israeli minister outlines plans for Gaza after war
+Further reading[edit]
 
-          * Published
-            3 hours ago
+     * Jones, Joel. "Abstract Syntax Tree Implementation Idioms" (PDF).
+       (overview of AST implementation in various language families)
+     * Neamtiu, Iulian; Foster, Jeffrey S.; Hicks, Michael (May 17, 2005).
+       Understanding Source Code Evolution Using Abstract Syntax Tree
+       Matching. MSR'05. Saint Louis, Missouri: ACM.
+       CiteSeerX 10.1.1.88.5815.
+     * Würsch, Michael. Improving Abstract Syntax Tree based Source Code
+       Change Detection (Diploma thesis).
+     * Lucas, Jason (16 August 2006). "Thoughts on the Visual C++ Abstract
+       Syntax Tree (AST)".
 
-Features
+External links[edit]
 
-     * What next for Oscar Pistorius?
+   Wikimedia Commons has media related to Abstract syntax trees.
+     * AST View: an Eclipse plugin to visualize a Java abstract syntax tree
+     * "Abstract Syntax Tree and Java Code Manipulation in the Eclipse IDE".
+       eclipse.org.
+     * "CAST representation". cs.utah.edu.
+     * eli project: Abstract Syntax Tree Unparsing
+     * "Abstract Syntax Tree Metamodel Standard" (PDF).
+     * "Architecture‑Driven Modernization — ADM: Abstract Syntax Tree
+       Metamodeling — ASTM". (OMG standard).
+     * JavaParser: The JavaParser library provides you with an Abstract
+       Syntax Tree of your Java code. The AST structure then allows you to
+       work with your Java code in an easy programmatic way.
+     * Spoon: A library to analyze, transform, rewrite, and transpile Java
+       source code. It parses source files to build a well-designed AST with
+       powerful analysis and transformation API.
 
-       Photographers take pictures of Olympic athlete Oscar Pistorius as he
-       appears at a bail hearing for the shooting death of his girlfriend
-       Reeva Steenkamp, in Pretoria, South Africa, on Feb 22, 2013
-     * Weekly quiz: Why is Emilia going to the palace?
+     * v          
+     * t          
+     * e          
+   Parsing algorithms
+                    * Earley                             
+   Top-down         * LL                                 
+                    * Recursive descent                  
+                         * Tail recursive                
+                    * Precedence                         
+                         * Simple                        
+                         * Operator                      
+                              * Shunting-yard            
+                    * LR                                 
+   Bottom-up             * Simple                        
+                         * Look-ahead                    
+                         * Canonical                     
+                         * Generalized                   
+                    * CYK                                
+                    * Recursive ascent                   
+                    * Shift-reduce                       
+                    * Combinator                         
+   Mixed, other     * Chart                              
+                         * Left corner                   
+                    * Statistical                        
+                    * PEG                                
+                    * Definite clause grammar            
+                    * Deterministic parsing              
+                    * Dynamic programming                
+                    * Memoization                        
+                    * Parser generator                   
+   Related topics        * LALR                          
+                    * Parse tree                         
+                    * AST                                
+                    * Scannerless parsing                
+                    * History of compiler construction   
+                    * Comparison of parser generators    
+                    * Operator-precedence grammar        
 
-       Emilia Clarke in Game of Thrones
-     * Young people turning to AI therapist bots
+   Authority control databases: National Edit this at Wikidata   * Germany   
 
-       girl on phone
-     * * 'What is the point?' ask disillusioned voters ahead of polls
-
-       Activists from the Leftist Party's Alliance 'Ganatantra Mancha' are
-       holding red cards as they participate in a rally to protest against
-       the upcoming 2024 general elections in Dhaka, Bangladesh, on December
-       30, 2023.
-     * The three men vying to be Taiwan's next president
-
-       (L to R) Ko Wen-je, Hou Yu-ih and William Lai Ching-te
-     * After Hollywood, Bollywood fights 'unfair' contracts
-
-       Man writing in a diary sitting on a sofa
-     * Bullfighting and high-diving: Africa's top shots
-
-       Supporters dance and chant in between matches during a traditional
-       bullfighting tournament in Malinya Stadium, near Kakamega on January
-       1, 2024.
-     * Tetris: How a US teenager did the 'impossible'
-
-       An image of Tetris game is projected over a man's face
-     * A restless Gen Z is reshaping the Chinese Dream
-
-       Joy in Chengdu
-
-Elsewhere on the BBC
-
-     * The problem of thinking in straight lines
-
-       Runners
-     * The slow decline of the travel selfie
-
-       picture
-     * The Scandi artist who created a 'soulful home'
-
-       family
-
-Most Read
-
-    1. 1
-       Recruitment of girls detailed in second Epstein batch
-    2. 2
-       Paralympian and murderer Pistorius freed on parole
-    3. 3
-       Derek Draper dies aged 56, wife Kate Garraway says
-    4. 4
-       Paramore drop out of headline slot at LA festival
-    5. 5
-       Israeli minister outlines plans for Gaza after war
-    6. 6
-       Who is named in Jeffrey Epstein files and why?
-    7. 7
-       N Korea fires artillery shells towards border island
-    8. 8
-       India sends navy after ship hijacked off Somali coast
-    9. 9
-       Neptune and Uranus finally seen in true colours
-   10. 10
-       Major Chinese shadow bank files for bankruptcy
-
-BBC News Services
-
-     * On your mobile
-     * On smart speakers
-     * Get news alerts
-     * Contact BBC News
-     * Home
-     * News
-     * Sport
-     * Earth
-     * Reel
-     * Worklife
-     * Travel
-     * Culture
-     * Future
-     * Music
-     * TV
-     * Weather
-     * Sounds
-     * Terms of Use
-     * About the BBC
-     * Privacy Policy
-     * Cookies
-     * Accessibility Help
-     * Parental Guidance
-     * Contact the BBC
-     * Get Personalised Newsletters
-     * Why you can trust the BBC
-     * Advertise with us
-
-   © 2024 BBC. The BBC is not responsible for the content of external sites.
-   Read about our approach to external linking.
+   Retrieved from
+   "https://en.wikipedia.org/w/index.php?title=Abstract_syntax_tree&oldid=1187819862"
+   Categories:
+     * Trees (data structures)
+     * Formal languages
+   Hidden categories:
+     * Articles with short description
+     * Short description matches Wikidata
+     * Articles lacking in-text citations from February 2013
+     * All articles lacking in-text citations
+     * Commons category link from Wikidata
+     * Articles with GND identifiers
+     * This page was last edited on 1 December 2023, at 16:44 (UTC).
+     * Text is available under the Creative Commons Attribution-ShareAlike
+       License 4.0; additional terms may apply. By using this site, you agree
+       to the Terms of Use and Privacy Policy. Wikipedia® is a registered
+       trademark of the Wikimedia Foundation, Inc., a non-profit
+       organization.
+     * Privacy policy
+     * About Wikipedia
+     * Disclaimers
+     * Contact Wikipedia
+     * Code of Conduct
+     * Developers
+     * Statistics
+     * Cookie statement
+     * Mobile view
+     * Wikimedia Foundation
+     * Powered by MediaWiki
+     * Toggle limited content width

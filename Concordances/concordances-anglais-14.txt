@@ -1,66 +1,60 @@
-2 constituency-based parse §trees§
-3 dependency-based parse §trees§
-parse §tree§
-img]parse §tree§ to saab
-a parse §tree§ or parsing §tree§
-or derivation §tree§ or concrete syntax
-§tree§ is an ordered
-rooted §tree§ that represents the syntactic structure
-the term parse §tree§
-the term syntax §tree§ is more common
-concrete syntax §trees§ reflect the syntax of the
-distinct from the abstract syntax §trees§ used in computer programming
-§trees§ do not use distinct symbol
-parse §trees§ are usually constructed based on
-parse §trees§ may be generated
-form of a §tree§
-a set of possible parse §trees§ for a
-img]a simple parse §tree§
-a parse §tree§ is made up of nodes
-parse §tree§ is the entire structure
-in a parse §tree§
-of the §tree§
-branch in that §tree§ whereas a terminal function is
-parse §tree§ which is a leaf
-for binary §trees§
-the number of possible parse §trees§ for a sentence with n
-constituency-based parse §trees§[edit
-the constituency-based parse §trees§ of constituency grammars
-represents a constituency-based parse §tree§
-parse §tree§ psg
-the parse §tree§ is the entire structure
-used in the §tree§
-each node in the §tree§ is either a root node
-§tree§
-by a branch of a §tree§
-dependency-based parse §trees§[edit
-the dependency-based parse §trees§ of dependency grammars
-constituency-based parse §trees§ because they contain fewer nodes
-dependency-based parse §tree§ for the example sentence above
-parse §tree§ dg
-this parse §tree§ lacks the phrasal categories
-like the constituency-based §tree§
-any complete sub-§tree§ of the §tree§
-thus this dependency-based parse §tree§ acknowledges the
-like the constituency-based parse §tree§ does
-§trees§ is necessary or beneficial is
-presented in the form of §trees§
-section on constituency-based parse §trees§
-constituency-based §tree§ given above may be something
-as with §trees§
-abstract syntax §tree§
-the parse§tree§ package for drawing §trees§ in latex
-of syntax §trees§
-syntax §tree§ editor
-linguistic §tree§ constructor
-§tree§
-online parse §tree§ drawing site
-§tree§
-online parse §tree§ drawing site
-§tree§ enhanced version of phpsyntax§tree§ in
-§tree§
-latex package for drawing parse §trees§
-§tree§form syntax §tree§ drawing software
-visual introduction to parse §trees§ introduction and transformation
-parse §tree§
-§tree§&oldid=1159350944
+family §tree§
+see family §tree§
+img]example of a family §tree§
+img]family §tree§ showing the relationship of each
+a family §tree§
+family relationships in a conventional §tree§ structure
+detailed family §trees§
+family §trees§ are often presented with the
+at the top of the §tree§ and the younger generations at
+which is a §tree§ showing the ancestors of an
+§tree§ in shape
+some family §trees§ might include all members of
+natural growth pattern of a §tree§ as seen from the top
+in a descendant §tree§
+living family §tree§
+the image of the §tree§ probably originated with that of
+the §tree§ of jesse
+was that involving family §trees§ of the classical gods
+a §tree§ structure
+img]an ahnentafel family §tree§ displaying an ancestor chart of
+a §tree§
+img]an ahnentafel family §tree§
+while family §trees§ are depicted as §trees§
+general form a §tree§ in the strict sense used
+do form §trees§
+chart is a perfect binary §tree§
+img]family §trees§ are an age-old phenomenon
+family §trees§ have been used to document
+unified family §tree§
+the longest family §tree§ in the world is that
+the §tree§ spans more than 80 generations
+revise this family §tree§
+another very old and extensive §tree§ is that of the lurie
+family §trees§ and representations of lineages are
+there is no complete family §tree§ of the
+forms of family §trees§ are also used in genetic
+§trees§ along the genome
+a §tree§-sequence
+human family §tree§
+family §trees§
+§trees§
+the bands depicted in the §trees§
+in the creation of episcopal §trees§ in christian
+list of family §trees§
+§tree§ of life
+confucius family §tree§ has two million members from
+reveals biggest-ever human family §tree§
+family §tree§ of everyone
+even more rock family §trees§
+rock family §trees§
+media related to family §trees§ at wikimedia commons
+royal and noble family §trees§
+family §tree§
+religious family §trees§
+abraham's family §tree§
+family §tree§ of ibrahim
+family §tree§ of muhammad
+family §trees§
+§tree§&oldid=1193709608
+family §trees§

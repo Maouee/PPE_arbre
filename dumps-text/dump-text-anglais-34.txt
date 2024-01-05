@@ -1,0 +1,484 @@
+   Link: alternate
+   Link: canonical
+   Link: license
+   Jump to content
+   [ ] Main menu
+   Main menu
+   Navigation
+     * Main page
+     * Contents
+     * Current events
+     * Random article
+     * About Wikipedia
+     * Contact us
+     * Donate
+   Contribute
+     * Help
+     * Learn to edit
+     * Community portal
+     * Recent changes
+     * Upload file
+   Languages
+   Language links are at the top of the page.
+   [IMG] Wikipedia The Free Encyclopedia
+   Search
+   _____________________
+   Search
+     * Create account
+     * Log in
+   [ ] Personal tools
+     * Create account
+     * Log in
+   Pages for logged out editors learn more
+     * Contributions
+     * Talk
+
+Contents
+
+     * (Top)
+     * 1 History
+     * 2 Statement
+     * 3 Friedman's work
+     * 4 Weak tree function
+     * 5 TREE function
+     * 6 See also
+     * 7 Notes
+     * 8 References
+   [ ] Toggle the table of contents
+
+                             Kruskal's tree theorem
+
+   [ ] 7 languages
+     * Deutsch
+     * Español
+     * فارسی
+     * Français
+     * Polski
+     * Русский
+     * 中文
+   Edit links
+     * Article
+     * Talk
+   [ ] English
+     * Read
+     * Edit
+     * View history
+   [ ] Tools
+   Tools
+   Actions
+     * Read
+     * Edit
+     * View history
+   General
+     * What links here
+     * Related changes
+     * Upload file
+     * Special pages
+     * Permanent link
+     * Page information
+     * Cite this page
+     * Get shortened URL
+     * Wikidata item
+   Print/export
+     * Download as PDF
+     * Printable version
+   From Wikipedia, the free encyclopedia
+
+   In mathematics, Kruskal's tree theorem states that the set of finite trees
+   over a well-quasi-ordered set of labels is itself well-quasi-ordered under
+   homeomorphic embedding.
+
+History[edit]
+
+   The theorem was conjectured by Andrew Vázsonyi and proved by Joseph
+   Kruskal (1960); a short proof was given by Crispin Nash-Williams (1963).
+   It has since become a prominent example in reverse mathematics as a
+   statement that cannot be proved in ATR_0 (a second-order arithmetic theory
+   with a form of arithmetical transfinite recursion).
+
+   In 2004, the result was generalized from trees to graphs as the
+   Robertson–Seymour theorem, a result that has also proved important in
+   reverse mathematics and leads to the even-faster-growing SSCG function
+   which dwarfs TREE(3). A finitary application of the theorem gives the
+   existence of the fast-growing TREE function.
+
+Statement[edit]
+
+   The version given here is that proven by Nash-Williams; Kruskal's
+   formulation is somewhat stronger. All trees we consider are finite.
+
+   Given a tree T with a root, and given vertices v, w, call w a successor of
+   v if the unique path from the root to w contains v, and call w an
+   immediate successor of v if additionally the path from v to w contains no
+   other vertex.
+
+   Take X to be a partially ordered set. If T_1, T_2 are rooted trees with
+   vertices labeled in X, we say that T_1 is inf-embeddable in T_2 and write
+   T_1 ≤ T_2 if there is an injective map F from the vertices of T_1 to the
+   vertices of T_2 such that
+
+     * For all vertices v of T_1, the label of v precedes the label of F(v),
+     * If w is any successor of v in T_1, then F(w) is a successor of F(v),
+       and
+     * If w_1, w_2 are any two distinct immediate successors of v, then the
+       path from F(w_1) to F(w_2) in T_2 contains F(v).
+
+   Kruskal's tree theorem then states:
+
+     If X is well-quasi-ordered, then the set of rooted trees with labels in
+     X is well-quasi-ordered under the inf-embeddable order defined above.
+     (That is to say, given any infinite sequence T_1, T_2, … of rooted trees
+     labeled in X, there is some i < j so that T_i ≤ T_j.)
+
+Friedman's work[edit]
+
+   For a countable label set X, Kruskal's tree theorem can be expressed and
+   proven using second-order arithmetic. However, like Goodstein's theorem or
+   the Paris–Harrington theorem, some special cases and variants of the
+   theorem can be expressed in subsystems of second-order arithmetic much
+   weaker than the subsystems where they can be proved. This was first
+   observed by Harvey Friedman in the early 1980s, an early success of the
+   then-nascent field of reverse mathematics. In the case where the trees
+   above are taken to be unlabeled (that is, in the case where X has size
+   one), Friedman found that the result was unprovable in ATR_0,^[1] thus
+   giving the first example of a predicative result with a provably
+   impredicative proof.^[2] This case of the theorem is still provable by Π^1
+   _1-CA_0, but by adding a "gap condition"^[3] to the definition of the
+   order on trees above, he found a natural variation of the theorem
+   unprovable in this system.^[4]^[5] Much later, the Robertson–Seymour
+   theorem would give another theorem unprovable by Π^1
+   _1-CA_0.
+
+   Ordinal analysis confirms the strength of Kruskal's theorem, with the
+   proof-theoretic ordinal of the theorem equaling the small Veblen ordinal
+   (sometimes confused with the smaller Ackermann ordinal).^[citation needed]
+
+Weak tree function[edit]
+
+   Suppose that P(n) is the statement:
+
+           There is some m such that if T_1, ..., T_m is a finite sequence of
+           unlabeled rooted trees where T_i has i + n vertices, then
+           T_i ≤ T_j for some i < j.
+
+   All the statements P(n) are true as a consequence of Kruskal's theorem and
+   Kőnig's lemma. For each n, Peano arithmetic can prove that P(n) is true,
+   but Peano arithmetic cannot prove the statement "P(n) is true for all
+   n".^[6] Moreover the length of the shortest proof of P(n) in Peano
+   arithmetic grows phenomenally fast as a function of n, far faster than any
+   primitive recursive function or the Ackermann function for
+   example.^[citation needed] The least m for which P(n) holds similarly
+   grows extremely quickly with n.
+
+   Define tree(n), the weak tree function, as the largest m so that we have
+   the following:
+
+           There is a sequence T_1, ..., T_m of unlabeled rooted trees, where
+           each T_i has at most i + n vertices, such that T_i ≤ T_j does not
+           hold for any i < j ≤ m.
+
+   It is known that tree(1) = 2, tree(2) = 5, and tree(3) ≥ 844424930131960,
+   tree(4) > Graham's number (by a lot) but TREE(3) (where the argument
+   specifies the number of labels; see below) is larger than {\displaystyle
+   \mathrm {tree} ^{\mathrm {tree} ^{\mathrm {tree} ^{\mathrm {tree}
+   ^{\mathrm {tree} ^{8}(7)}(7)}(7)}(7)}(7).}
+
+   To differentiate the two functions, "TREE" with all letters capitalized is
+   the big TREE function and "tree" with all letters in lowercase is the weak
+   tree function.
+
+TREE function[edit]
+
+   Sequence of trees where each node is colored either green, red, blueA
+   sequence of rooted trees labelled from a set of 3 labels (blue < red <
+   green). The nth tree in the sequence contains at most n vertices, and no
+   tree is inf-embeddable within any later tree in the sequence. TREE(3) is
+   defined to be the longest possible length of such a sequence.
+
+   By incorporating labels, Friedman defined a far faster-growing
+   function.^[7] For a positive integer n, take TREE(n)^[a] to be the largest
+   m so that we have the following:
+
+           There is a sequence T_1, ..., T_m of rooted trees labelled from a
+           set of n labels, where each T_i has at most i vertices, such that
+           T_i ≤ T_j does not hold for any i < j ≤ m.
+
+   The TREE sequence begins TREE(1) = 1, TREE(2) = 3, then suddenly TREE(3)
+   explodes to a value that is so big that many other "large" combinatorial
+   constants, such as Friedman's n(4), n^n(5)(5), and Graham's number,^[b]
+   are extremely small by comparison. A lower bound for n(4), and hence an
+   extremely weak lower bound for TREE(3), is A^A(187196)(1).^[c]^[8]
+   Graham's number, for example, is much smaller than the lower bound
+   A^A(187196)(1). It is approximately {\displaystyle g_{3\uparrow
+   ^{187196}3}}, where g_x is Graham's function.
+
+See also[edit]
+
+     * Paris–Harrington theorem
+     * Kanamori–McAloon theorem
+     * Robertson–Seymour theorem
+
+Notes[edit]
+
+           ^^ a Friedman originally denoted this function by TR[n].
+           ^^ b n(k) is defined as the length of the longest possible
+           sequence that can be constructed with a k-letter alphabet such
+           that no block of letters x_i,...,x_2i is a subsequence of any
+           later block x_j,...,x_2j.^[9] {\displaystyle
+           n(1)=3,n(2)=11,\,{\textrm {and}}\,n(3)>2\uparrow ^{7197}158386}.
+           ^^ c A(x) taking one argument, is defined as A(x, x), where A(k,
+           n), taking two arguments, is a particular version of Ackermann's
+           function defined as: A(1, n) = 2n, A(k+1, 1) = A(k, 1), A(k+1,
+           n+1) = A(k, A(k+1, n)).
+
+References[edit]
+
+   Citations
+
+    1. ^ Simpson 1985, Theorem 1.8
+    2. ^ Friedman 2002, p. 60
+    3. ^ Simpson 1985, Definition 4.1
+    4. ^ Simpson 1985, Theorem 5.14
+    5. ^ Marcone 2001, p. 8–9
+    6. ^ Smith 1985, p. 120
+    7. ^ Friedman, Harvey (28 March 2006). "273:Sigma01/optimal/size". Ohio
+       State University Department of Maths. Retrieved 8 August 2017.
+    8. ^ Friedman, Harvey M. (1 June 2000). "Enormous Integers In Real Life"
+       (PDF). Ohio State University. Retrieved 8 August 2017.
+    9. ^ Friedman, Harvey M. (8 October 1998). "Long Finite Sequences" (PDF).
+       Ohio State University Department of Mathematics. pp. 5, 48 (Thm.6.8).
+       Retrieved 8 August 2017.
+
+   Bibliography
+
+     * Friedman, Harvey M. (2002), Internal finite tree embeddings.
+       Reflections on the foundations of mathematics (Stanford, CA, 1998),
+       Lect. Notes Log., vol. 15, Urbana, IL: Assoc. Symbol. Logic,
+       pp. 60–91, MR 1943303
+     * Gallier, Jean H. (1991), "What's so special about Kruskal's theorem
+       and the ordinal Γ_0? A survey of some results in proof theory" (PDF),
+       Ann. Pure Appl. Logic, 53 (3): 199–260,
+       doi:10.1016/0168-0072(91)90022-E, MR 1129778
+     * Kruskal, J. B. (May 1960), "Well-quasi-ordering, the tree theorem, and
+       Vazsonyi's conjecture" (PDF), Transactions of the American
+       Mathematical Society, American Mathematical Society, 95 (2): 210–225,
+       doi:10.2307/1993287, JSTOR 1993287, MR 0111704
+     * Marcone, Alberto (2001). "Wqo and bqo theory in subsystems of second
+       order arithmetic" (PDF). Reverse Mathematics. 21: 303–330.
+     * Nash-Williams, C. St.J. A. (1963), "On well-quasi-ordering finite
+       trees", Proc. Camb. Phil. Soc., 59 (4): 833–835,
+       Bibcode:1963PCPS...59..833N, doi:10.1017/S0305004100003844,
+       MR 0153601, S2CID 251095188
+     * Rathjen, Michael; Weiermann, Andreas (1993). "Proof-theoretic
+       investigations on Kruskal's theorem". Annals of Pure and Applied
+       Logic. 60 (1): 49–88. doi:10.1016/0168-0072(93)90192-g.
+     * Simpson, Stephen G. (1985), "Nonprovability of certain combinatorial
+       properties of finite trees", in Harrington, L. A.; Morley, M.;
+       Scedrov, A.; et al. (eds.), Harvey Friedman's Research on the
+       Foundations of Mathematics, Studies in Logic and the Foundations of
+       Mathematics, North-Holland, pp. 87–117
+     * Smith, Rick L. (1985), "The consistency strengths of some finite forms
+       of the Higman and Kruskal theorems", in Harrington, L. A.; Morley, M.;
+       Scedrov, A.; et al. (eds.), Harvey Friedman's Research on the
+       Foundations of Mathematics, Studies in Logic and the Foundations of
+       Mathematics, North-Holland, pp. 119–136
+
+     * v         
+     * t         
+     * e         
+   Large numbers 
+                   * Thousand                                  
+                   * Ten thousand                              
+                   * Hundred thousand                          
+                   * Million                                   
+                   * Ten million                               
+                   * Hundred million                           
+                   * Billion                                   
+                   * Trillion                                  
+                   * Quadrillion                               
+                   * Quintillion                               
+                   * Sextillion                                
+   Examples        * Septillion                                
+   in              * Octillion                                 
+   numerical       * Nonillion                                 
+   order           * Decillion                                 
+                   * Eddington number                          
+                   * Googol                                    
+                   * Shannon number                            
+                   * Googolplex                                
+                   * Skewes's number                           
+                   * Moser's number                            
+                   * Graham's number                           
+                   * TREE(3)                                   
+                   * SSCG(3)                                   
+                   * BH(3)                                     
+                   * Rayo's number                             
+                   * Transfinite numbers                       
+                             * Scientific notation             
+                 Notations   * Knuth's up-arrow notation       
+                             * Conway chained arrow notation   
+                             * Steinhaus–Moser notation        
+   Expression                * Hyperoperation                  
+   methods                        * Tetration                  
+                 Operators        * Pentation                  
+                             * Ackermann function              
+                             * Grzegorczyk hierarchy           
+                             * Fast-growing hierarchy          
+                   * Busy beaver                               
+                   * Extended real number line                 
+                   * Indefinite and fictitious numbers         
+                   * Infinitesimal                             
+                   * Largest known prime number                
+   Related         * List of numbers                           
+   articles        * Long and short scales                     
+   (alphabetical   * Number systems                            
+   order)          * Number names                              
+                   * Orders of magnitude                       
+                   * Power of two                              
+                   * Power of three                            
+                   * Power of 10                               
+                   * Sagan Unit                                
+     * Names     
+     * History   
+
+     * v                     
+     * t                     
+     * e                     
+   Order theory              
+     * Topics                
+     * Glossary              
+     * Category              
+                               * Binary relation                              
+                               * Boolean algebra                              
+                               * Cyclic order                                 
+   Key concepts                * Lattice                                      
+                               * Partial order                                
+                               * Preorder                                     
+                               * Total order                                  
+                               * Weak ordering                                
+                               * Boolean prime ideal theorem                  
+                               * Cantor–Bernstein theorem                     
+                               * Cantor's isomorphism theorem                 
+                               * Dilworth's theorem                           
+                               * Dushnik–Miller theorem                       
+   Results                     * Hausdorff maximal principle                  
+                               * Knaster–Tarski theorem                       
+                               * Kruskal's tree theorem                       
+                               * Laver's theorem                              
+                               * Mirsky's theorem                             
+                               * Szpilrajn extension theorem                  
+                               * Zorn's lemma                                 
+                               * Antisymmetric                                
+                               * Asymmetric                                   
+                               * Boolean algebra                              
+                                    * topics                                  
+                               * Completeness                                 
+                               * Connected                                    
+                               * Covering                                     
+                               * Dense                                        
+                               * Directed                                     
+                               * (Partial) Equivalence                        
+                               * Foundational                                 
+                               * Heyting algebra                              
+                               * Homogeneous                                  
+                               * Idempotent                                   
+                               * Lattice                                      
+                                    * Bounded                                 
+                                    * Complemented                            
+                                    * Complete                                
+   Properties & Types (list)        * Distributive                            
+                                    * Join and meet                           
+                               * Reflexive                                    
+                               * Partial order                                
+                                    * Chain-complete                          
+                                    * Graded                                  
+                                    * Eulerian                                
+                                    * Strict                                  
+                               * Prefix order                                 
+                               * Preorder                                     
+                                    * Total                                   
+                               * Semilattice                                  
+                               * Semiorder                                    
+                               * Symmetric                                    
+                               * Total                                        
+                               * Tolerance                                    
+                               * Transitive                                   
+                               * Well-founded                                 
+                               * Well-quasi-ordering (Better)                 
+                               * (Pre) Well-order                             
+                               * Composition                                  
+                               * Converse/Transpose                           
+                               * Lexicographic order                          
+                               * Linear extension                             
+   Constructions               * Product order                                
+                               * Reflexive closure                            
+                               * Series-parallel partial order                
+                               * Star product                                 
+                               * Symmetric closure                            
+                               * Transitive closure                           
+                               * Alexandrov topology & Specialization         
+                                 preorder                                     
+                               * Ordered topological vector space             
+                                    * Normal cone                             
+                                    * Order topology                          
+   Topology & Orders           * Order topology                               
+                               * Topological vector lattice                   
+                                    * Banach                                  
+                                    * Fréchet                                 
+                                    * Locally convex                          
+                                    * Normed                                  
+                               * Antichain                                    
+                               * Cofinal                                      
+                               * Cofinality                                   
+                               * Comparability                                
+                                    * Graph                                   
+                               * Duality                                      
+                               * Filter                                       
+                               * Hasse diagram                                
+                               * Ideal                                        
+                               * Net                                          
+   Related                          * Subnet                                  
+                               * Order morphism                               
+                                    * Embedding                               
+                                    * Isomorphism                             
+                               * Order type                                   
+                               * Ordered field                                
+                               * Ordered vector space                         
+                                    * Partially ordered                       
+                                    * Positive cone                           
+                                    * Riesz space                             
+                               * Upper set                                    
+                               * Young's lattice                              
+
+   Retrieved from
+   "https://en.wikipedia.org/w/index.php?title=Kruskal%27s_tree_theorem&oldid=1193616439"
+   Categories:
+     * Mathematical logic
+     * Order theory
+     * Theorems in discrete mathematics
+     * Trees (graph theory)
+     * Wellfoundedness
+   Hidden categories:
+     * Articles with short description
+     * Short description matches Wikidata
+     * All articles with unsourced statements
+     * Articles with unsourced statements from September 2022
+     * Articles with unsourced statements from May 2023
+     * This page was last edited on 4 January 2024, at 18:52 (UTC).
+     * Text is available under the Creative Commons Attribution-ShareAlike
+       License 4.0; additional terms may apply. By using this site, you agree
+       to the Terms of Use and Privacy Policy. Wikipedia® is a registered
+       trademark of the Wikimedia Foundation, Inc., a non-profit
+       organization.
+     * Privacy policy
+     * About Wikipedia
+     * Disclaimers
+     * Contact Wikipedia
+     * Code of Conduct
+     * Developers
+     * Statistics
+     * Cookie statement
+     * Mobile view
+     * Wikimedia Foundation
+     * Powered by MediaWiki
+     * Toggle limited content width

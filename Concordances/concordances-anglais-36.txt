@@ -1,0 +1,156 @@
+1.1 §tree§
+§tree§
+1.5 rooted §tree§
+1.6 ordered §tree§
+3.1 labeled §trees§
+3.2 unlabeled §trees§
+4 types of §trees§
+§trees§
+a labeled §tree§ with 6 vertices and 5
+a §tree§ is an undirected graph in
+equivalently a disjoint union of §trees§
+§tree§
+or directed §tree§
+or oriented §tree§
+undirected graph is a §tree§
+data structures referred to as §trees§ in computer
+have underlying graphs that are §trees§ in graph theory
+data structures are generally rooted §trees§
+a rooted §tree§ may be
+called a directed rooted §tree§
+or out-§tree§
+in-§tree§
+a rooted §tree§ itself has been defined by
+rooted §trees§
+rooted §tree§—in which case it is
+the root in each rooted §tree§—in which case it
+the term §tree§ was coined in 1857 by
+§tree§[edit
+a §tree§ is an undirected graph g
+not considered to be a §tree§
+non-empty §trees§
+a forest consisting of zero §trees§
+a branch vertex in a §tree§ is a vertex of degree
+an irreducible §tree§
+or series-reduced §tree§
+is a §tree§ in which there is
+of whose connected components are §trees§
+of a disjoint union of §trees§
+a forest consisting of zero §trees§
+a single §tree§
+since for every §tree§ v
+easily count the number of §trees§ that are within a forest
+§trees§ in a forest
+§tree§[edit
+§tree§
+§tree§
+or directed §tree§
+or oriented §tree§
+undirected graph is a §tree§
+directed §tree§
+rooted §tree§[edit
+a rooted §tree§ is a §tree§ in which one vertex has
+the edges of a rooted §tree§ can be assigned a natural
+structure becomes a directed rooted §tree§
+when a directed rooted §tree§ has
+out-§tree§
+an anti-arborescence or in-§tree§
+the §tree§-order is the partial
+on the vertices of a §tree§ with u
+a rooted §tree§ t that is a
+graph g is a normal §tree§ if the ends of every
+are comparable in this §tree§-order
+rooted §trees§
+see §tree§ data
+in a context where §trees§ typically have a root
+a §tree§ without any
+root is called a free §tree§
+a labeled §tree§ is a §tree§ in which each vertex is
+vertices of a labeled §tree§ on n vertices
+a recursive §tree§ is a labeled
+rooted §tree§ where the vertex labels respect
+the §tree§ order
+in a rooted §tree§
+other vertex on the §tree§ that shares a parent with
+a vertex in a rooted §tree§ is the length of the
+the height of the §tree§ is the
+of the various self-balancing §trees§
+avl §trees§
+§tree§ with only a single vertex
+also the depth of the §tree§
+§tree§
+a §tree§ with no vertices
+a k-ary §tree§
+is a rooted §tree§ in which each
+2-ary §trees§ are often called binary
+§trees§
+while 3-ary §trees§ are sometimes called ternary §trees§
+ordered §tree§[edit
+an ordered §tree§
+plane §tree§ or positional §tree§
+rooted §tree§ in which an ordering is
+plane §tree§
+to an embedding of the §tree§ in the plane
+an embedding of a rooted §tree§ in the plane
+given an ordered §tree§
+child vertices in an ordered §tree§ can be
+every §tree§ is a bipartite graph
+since a §tree§ contains no cycles
+every §tree§ with only countably many vertices
+graph g admits a spanning §tree§
+which is a §tree§ that
+specific types spanning §trees§
+include depth-first search §trees§ and breadth-first search
+§trees§
+existence of depth-first-search §trees§
+§tree§
+§tree§
+every finite §tree§ with n vertices
+any three vertices in a §tree§
+every three vertices in a §tree§ have
+every §tree§ is a median graph
+every §tree§ has a center consisting of
+every n-vertex §tree§ has a centroid
+of the vertex splits the §tree§ into sub§trees§ of fewer than
+centroidal vertices splits the §tree§ into two sub§trees§ of exactly
+the maximal cliques of a §tree§ are precisely its edges
+the class of §trees§ has few cliques
+labeled §trees§[edit
+there are n^n−2 §trees§ on n labeled vertices
+the number of §trees§ with vertices 1
+problem is to count spanning §trees§ in an undirected graph
+is addressed by the matrix §tree§ theorem
+special case of spanning §trees§ in a complete graph
+§trees§ regardless of size is
+unlabeled §trees§[edit
+the number of unlabeled free §trees§ is a harder problem
+of §trees§ with n vertices up to
+unlabeled rooted §trees§ with n vertices
+types of §trees§[edit
+a starlike §tree§ consists of a central vertex
+a §tree§ is starlike if it
+a star §tree§ is a §tree§ which consists of a single
+a star §tree§ of order n is a
+§tree§ of
+a caterpillar §tree§ is a §tree§ in which all vertices are
+a lobster §tree§ is a §tree§ in which all vertices are
+a regular §tree§ of degree d is the
+infinite §tree§ with d edges at each
+decision §tree§
+§tree§
+§tree§
+§tree§ structure
+§tree§
+unrooted binary §tree§
+of the analytical forms called §trees§
+polyhedron theorem which relies on §trees§
+via an argument relying on §trees§
+spanning §trees§ with few
+k-ary §tree§
+binary and positional §trees§
+§trees§
+irreducible §trees§
+oriented §tree§
+§trees§ with 1-factors and oriented
+§trees§
+counting §trees§ in a graph is

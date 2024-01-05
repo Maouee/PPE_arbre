@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+        
+            <title>Everything you need to know about tree data structures</title>
+        
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+            <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Roboto+Mono:wght@400;700&display=swap">
+        
+
+        
+        
+    <link
+  rel="preload"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+  href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/themes/prism.min.css"
+/>
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/themes/prism.min.css"
+  />
+</noscript>
+<link
+  rel="preload"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+  href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/plugins/unescaped-markup/prism-unescaped-markup.min.css"
+/>
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/plugins/unescaped-markup/prism-unescaped-markup.min.css"
+  />
+</noscript>
+
+<script
+  defer
+  src="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/components/prism-core.min.js"
+></script>
+<script
+  defer
+  src="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"
+></script>
+
+
+
+        
+        <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/news/assets/css/global-2c6f2910a9.css" />
+        <link rel="stylesheet" type="text/css" href="/news/assets/css/screen-e9fc5800e5.css" />
+        <link rel="stylesheet" type="text/css" href="/news/assets/css/search-bar-971612c5db.css" />
+
+        
+        <script defer src="https://cdn.freecodecamp.org/news-assets/algolia/algoliasearch-3-33-0/algoliasearch.min.js"></script>
+        <script defer src="https://cdn.freecodecamp.org/news-assets/algolia/autocomplete-0-36-0/autocomplete.min.js"></script>
+
+        
+        <script defer src="https://cdn.freecodecamp.org/news-assets/dayjs/1.10.4/dayjs.min.js"></script>
+        <script defer src="https://cdn.freecodecamp.org/news-assets/dayjs/1.10.4/localizedFormat.min.js"></script>
+        <script defer src="https://cdn.freecodecamp.org/news-assets/dayjs/1.10.4/relativeTime.min.js"></script>
+
+        
+        
+            <script defer src="https://cdn.freecodecamp.org/news-assets/dayjs/1.10.4/locale/en.min.js"></script>
+        
+
+        
+        <script>let client,index;document.addEventListener("DOMContentLoaded",(()=>{client=algoliasearch("QMJYL5WYTI","89770b24481654192d7a5c402c6ad9a0"),index=client.initIndex("news")})),document.addEventListener("DOMContentLoaded",(()=>{const e=window.screen.width,t=window.screen.height,n=e>=767&&t>=768?8:5,o=document.getElementById("search-form"),s=document.getElementById("search-input"),a=document.getElementById("dropdown-container");let i,d,c;s.addEventListener("input",(e=>{i=e.target.value})),o.addEventListener("submit",(e=>{e.preventDefault(),function(){if(d=document.getElementsByClassName("aa-cursor")[0],d&&i){const e=d.querySelector("a").href;window.location.assign(e)}else!d&&i&&c&&window.location.assign(`https://www.freecodecamp.org/news/search?query=${i}`)}()}));const l=autocomplete("#search-input",{hint:!1,keyboardShortcuts:["s",191],openOnFocus:!0,appendTo:a,debug:!0},[{source:autocomplete.sources.hits(index,{hitsPerPage:n}),debounce:250,templates:{suggestion:e=>(c=!0,`\n            <a href="${e.url}">\n              <div class="algolia-result">\n                <span>${e._highlightResult.title.value}</span>\n              </div>\n            </a>\n          `),empty:()=>(c=!1,'\n            <div class="aa-suggestion footer-suggestion no-hits-footer">\n              <div class="algolia-result">\n                <span>\n                  No tutorials found\n                </span>\n              </div>\n            </div>\n          '),footer:e=>{if(!e.isEmpty)return`\n              <div class="aa-suggestion footer-suggestion">\n                <a id="algolia-footer-selector" href="https://www.freecodecamp.org/news/search?query=${i}">\n                  <div class="algolia-result algolia-footer">\n                    See all results for ${i}\n                  </div>\n                </a>\n              </div>\n            `}}}]).on("autocomplete:selected",((e,t,n,o)=>{d=t?t.url:`https://www.freecodecamp.org/news/search?query=${i}`,"click"!==o.selectionMethod&&"tabKey"!==o.selectionMethod&&c&&window.location.assign(d)}));document.addEventListener("click",(e=>{e.target!==s&&l.autocomplete.close()}))})),document.addEventListener("DOMContentLoaded",(()=>{dayjs.extend(dayjs_plugin_localizedFormat),dayjs.extend(dayjs_plugin_relativeTime),dayjs.locale("en")}));const isAuthenticated=document.cookie.split(";").some((e=>e.trim().startsWith("jwt_access_token="))),isDonor=document.cookie.split(";").some((e=>e.trim().startsWith("isDonor=true")));</script>
+
+        
+        
+    
+        <script
+            data-ad-client="ca-pub-9482786369113753"
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+            crossorigin="anonymous"
+            async
+        ></script>
+    
+
+
+        
+        
+        
+
+        
+        
+
+        <link rel="icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico" type="image/png">
+        
+        
+            <link rel="canonical" href="https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/">
+        
+        <meta name="referrer" content="no-referrer-when-downgrade">
+
+        
+
+        
+    <meta name="description" content="When you first learn to code, it’s common to learn arrays as the “main data structure.” Eventually, you will learn about hash tables too. If you are pursuing a Computer Science degree, you have to take a class on data structure. You will also learn about linked lists, queues, and">
+
+    
+    <meta property="og:site_name" content="freeCodeCamp.org">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Everything you need to know about tree data structures">
+    
+        <meta property="og:description" content="When you first learn to code, it’s common to learn arrays as the “main data structure.” Eventually, you will learn about hash tables too. If you are pursuing a Computer Science degree, you have to take a class on data structure. You will also learn about linked lists, queues, and">
+    
+    <meta property="og:url" content="https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/">
+    <meta property="og:image" content="https://cdn-media-1.freecodecamp.org/images/1*WeWOBZy6N7cXkq4inS7FVA.jpeg">
+    <meta property="article:published_time" content="2017-11-05T20:58:27.000Z">
+    <meta property="article:modified_time" content="2020-04-27T23:42:23.000Z">
+    
+        <meta property="article:tag" content="Programming">
+    
+        <meta property="article:tag" content="Algorithms">
+    
+        <meta property="article:tag" content="Coding">
+    
+        <meta property="article:tag" content="Python">
+    
+        <meta property="article:tag" content="Technology">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/freecodecamp">
+    
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Everything you need to know about tree data structures">
+    
+        <meta name="twitter:description" content="When you first learn to code, it’s common to learn arrays as the “main data structure.” Eventually, you will learn about hash tables too. If you are pursuing a Computer Science degree, you have to take a class on data structure. You will also learn about linked lists, queues, and">
+    
+    <meta name="twitter:url" content="https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/">
+    <meta name="twitter:image" content="https://cdn-media-1.freecodecamp.org/images/1*WeWOBZy6N7cXkq4inS7FVA.jpeg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="TK">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Programming, Algorithms, Coding, Python, Technology">
+    <meta name="twitter:site" content="@freecodecamp">
+    
+        <meta name="twitter:creator" content="@leandrotk_">
+    
+
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="800">
+
+
+        
+    <script type="application/ld+json">{
+	"@context": "https://schema.org",
+	"@type": "Article",
+	"publisher": {
+		"@type": "Organization",
+		"name": "freeCodeCamp.org",
+		"url": "https://www.freecodecamp.org/news/",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg",
+			"width": 2100,
+			"height": 240
+		}
+	},
+	"image": {
+		"@type": "ImageObject",
+		"url": "https://cdn-media-1.freecodecamp.org/images/1*WeWOBZy6N7cXkq4inS7FVA.jpeg",
+		"width": 800,
+		"height": 800
+	},
+	"url": "https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://www.freecodecamp.org/news/"
+	},
+	"datePublished": "2017-11-05T20:58:27.000Z",
+	"dateModified": "2020-04-27T23:42:23.000Z",
+	"keywords": "Programming, Algorithms, Coding, Python, Technology",
+	"description": "When you first learn to code, it’s common to learn arrays as the “main data\nstructure.”\n\nEventually, you will learn about hash tables too. If you are pursuing a Computer\nScience degree, you have to take a class on data structure. You will also learn\nabout linked lists, queues, and stacks. Those data structures are called\n“linear” data structures because they all have a logical start and a logical\nend.\n\nWhen we start learning about trees and graphs, it can get really confusing. We\ndon’t store dat",
+	"headline": "Everything you need to know about tree data structures",
+	"author": {
+		"@type": "Person",
+		"name": "TK",
+		"url": "https://www.freecodecamp.org/news/author/tk/",
+		"sameAs": [
+			"http://leandrotk.github.io/tk",
+			"https://twitter.com/leandrotk_"
+		],
+		"image": {
+			"@type": "ImageObject",
+			"url": "https://www.freecodecamp.org/news/content/images/2021/05/tk-gravatar.jpeg",
+			"width": 250,
+			"height": 250
+		}
+	}
+}</script>
+
+
+        <meta name="generator" content="Eleventy">
+        <link rel="alternate" type="application/rss+xml" title="freeCodeCamp.org" href="https://www.freecodecamp.org/news/rss/">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+<!-- Web Monetization (https://webmonetization.org/) -->
+<meta name="monetization" content="$ilp.uphold.com/LJmbPn7WD4JB">
+<!-- end Web Monetization -->
+
+<!-- dataLayer setup -->
+<script>
+window.dataLayer = window.dataLayer || [];
+</script>
+<!-- End dataLayer setup -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5D6RKKP');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta name="google-site-verification" content="b4tITLzEeeZGEpvD4mGNf3khKM4fvqejQaz9SYBQP8E" />
+
+        
+    </head>
+    
+    
+        <body class="home-template">
+    
+        <div class="site-wrapper">
+            <nav class="site-nav nav-padding">
+    <div class="site-nav-left">
+        
+<form id="search-form" data-test-label="search-bar">
+    <div role="search" class="searchbox__wrapper">
+        <label class="fcc_sr_only" for='search-input'>
+            Search
+        </label>
+        <input type="search" placeholder="
+    Search 10,600+ tutorials
+" id="search-input" />
+        <button type="submit" class="ais-SearchBox-submit">
+            <svg class="ais-SearchBox-submitIcon" xmlns="https://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 40 40">
+    <path d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z" />
+</svg>
+
+            <span class="fcc_sr_only">Submit your search query</span>
+        </button>
+        <div id='dropdown-container'></div>
+    </div>
+</form>
+
+    </div>
+    <div class="site-nav-middle">
+        <a class="site-nav-logo" href="https://www.freecodecamp.org/news" data-test-label="site-nav-logo"><img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp.org" /></a>
+    </div>
+    <div class="site-nav-right">
+        <div class="nav-group">
+            <a
+                class="nav-forum"
+                id="nav-forum"
+                rel="noopener noreferrer"
+                href="https://forum.freecodecamp.org/"
+                target="_blank"
+                data-test-label="forum-button"
+            >Forum</a>
+            <a
+                class="toggle-button-nav"
+                id="nav-donate"
+                rel="noopener noreferrer"
+                href="https://www.freecodecamp.org/donate/"
+                target="_blank"
+                data-test-label="donate-button"
+            >Donate</a>
+        </div>
+    </div>
+</nav>
+
+
+            
+            <a class="banner" id="banner" data-test-label="banner" rel="noopener noreferrer" target="_blank">
+    <p id="banner-text"></p>
+</a>
+
+
+    
+    <script>document.addEventListener("DOMContentLoaded",(()=>{const e=document.getElementById("banner"),t=document.getElementById("banner-text");isAuthenticated?(t.innerHTML="Support our charity and our mission. <span>Donate to freeCodeCamp.org</span>.",e.href="https://www.freecodecamp.org/donate",e.setAttribute("text-variation","authenticated")):isDonor?(t.innerHTML="Thank you for supporting freeCodeCamp through <span>your donations</span>.",e.href="https://www.freecodecamp.org/news/how-to-donate-to-free-code-camp/",e.setAttribute("text-variation","donor")):(t.innerHTML="Learn to code — <span>free 3,000-hour curriculum</span>",e.href="https://www.freecodecamp.org/",e.setAttribute("text-variation","default"))}));</script>
+
+
+            <div id="error-message"></div>
+
+            
+    <main id="site-main" class="post-template site-main outer">
+        <div class="inner ad-layout">
+            <article class="post-full post ">
+                <header class="post-full-header">
+                    <section class="post-full-meta">
+                        <time class="post-full-meta-date" datetime="Sun Nov 05 2017 20:58:27 GMT+0000 (Coordinated Universal Time)">
+                            November 5, 2017
+                        </time>
+                        
+                            <span class="date-divider">/</span>
+                            <a  dir="ltr" href="/news/tag/programming/">
+                                #Programming
+                            </a>
+                        
+                    </section>
+                    <h1 class="post-full-title">Everything you need to know about tree data structures</h1>
+                </header>
+                <div class="post-full-author-header" data-test-label="author-header-no-bio">
+                    
+                        
+                            
+    
+    
+    
+
+    <section class="author-card" data-test-label="author-card">
+        
+            
+    <img
+      srcset="https://www.freecodecamp.org/news/content/images/size/w60/2021/05/tk-gravatar.jpeg 60w"
+      sizes="60px"
+      src="https://www.freecodecamp.org/news/content/images/size/w60/2021/05/tk-gravatar.jpeg"
+      class="author-profile-image"
+      alt="TK"
+      width="250"
+      height="250"
+      onerror="this.style.display='none'"
+      
+      data-test-label="profile-image"
+    />
+  
+        
+
+        <section class="author-card-content author-card-content-no-bio">
+            <span class="author-card-name">
+                <a href="/news/author/tk/" data-test-label="profile-link">
+                    
+                        TK
+                    
+                </a>
+            </span>
+            
+        </section>
+    </section>
+
+                        
+                    
+                </div>
+                
+                    <figure class="post-full-image">
+                        
+    <picture>
+      <source
+        media="(max-width: 700px)"
+        sizes="1px"
+        srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 1w"
+      />
+      <source 
+        media="(min-width: 701px)"
+        sizes="(max-width: 800px) 400px, (max-width: 1170px) 700px, 1400px"
+        srcset="https://cdn-media-1.freecodecamp.org/images/1*WeWOBZy6N7cXkq4inS7FVA.jpeg"
+      />
+      <img
+        onerror="this.style.display='none'"
+        src="https://cdn-media-1.freecodecamp.org/images/1*WeWOBZy6N7cXkq4inS7FVA.jpeg"
+        alt="Everything you need to know about tree data structures",
+        width="800"
+        height="800"
+      >
+    </picture>
+  
+                    </figure>
+                
+                <section class="post-full-content">
+                    <div class="post-and-sidebar">
+                        <section class="post-content " data-test-label="post-content">
+                            
+<p>When you first learn to code, it’s common to learn arrays as the “main data structure.”</p><p>Eventually, you will learn about <code>hash tables</code> too. If you are pursuing a Computer Science degree, you have to take a class on data structure. You will also learn about <code>linked lists</code>, <code>queues</code>, and <code>stacks</code>. Those data structures are called “linear” data structures because they all have a logical start and a logical end.</p><p>When we start learning about <code>trees</code> and <code>graphs</code>, it can get really confusing. We don’t store data in a linear way. Both data structures store data in a specific way.</p><p>This post is to help you better understand the Tree Data Structure and to clarify any confusion you may have about it.</p><p>In this article, we will learn:</p><ul><li>What is a tree</li><li>Examples of trees</li><li>Its terminology and how it works</li><li>How to implement tree structures in code.</li></ul><p>Let’s start this learning journey. :)</p><h3 id="definition">Definition</h3><p>When starting out programming, it is common to understand better the linear data structures than data structures like trees and graphs.</p><p>Trees are well-known as a non-linear data structure. They don’t store data in a linear way. They organize data hierarchically.</p><h3 id="let-s-dive-into-real-life-examples-">Let’s dive into real life examples!</h3><p>What do I mean when I say in a hierarchical way?</p><p>Imagine a family tree with relationships from all generation: grandparents, parents, children, siblings, etc. We commonly organize family trees hierarchically.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://cdn-media-1.freecodecamp.org/images/1*MasdC5DmucEU2abIXQe45Q.jpeg" class="kg-image" alt="1*MasdC5DmucEU2abIXQe45Q" width="800" height="396" loading="lazy"><figcaption>My family tree</figcaption></figure><p>The above drawing is is my family tree. <code>Tossico, Akikazu, Hitomi,</code> and <code>Takemi</code> are my grandparents.</p><p><code>Toshiaki</code> and <code>Juliana </code>are my parents.</p><p><code>TK, Yuji, Bruno</code>, and <code>Kaio</code> are the children of my parents (me and my brothers).</p><p>An organization’s structure is another example of a hierarchy.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://cdn-media-1.freecodecamp.org/images/1*GsBCmW5E1GuJ3MpH3Zz0Ew.jpeg" class="kg-image" alt="1*GsBCmW5E1GuJ3MpH3Zz0Ew" width="800" height="450" loading="lazy"><figcaption>A company’s structure is an example of a hierarchy</figcaption></figure><p>In HTML, the Document Object Model (DOM) works as a tree.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://cdn-media-1.freecodecamp.org/images/1*dLXUdR4NuIZG8GJdu_Cinw.jpeg" class="kg-image" alt="1*dLXUdR4NuIZG8GJdu_Cinw" width="600" height="400" loading="lazy"><figcaption>Document Object Model (DOM)</figcaption></figure><p>The <code>HTML</code> tag contains other tags. We have a <code>head</code> tag and a <code>body</code> tag. Those tags contains specific elements. The <code>head</code> tag has <code>meta</code> and <code>title</code> tags. The <code>body</code> tag has elements that show in the user interface, for example, <code>h1</code>, <code>a</code>, <code>li</code>, etc.</p><h3 id="a-technical-definition">A technical definition</h3><p>A <code>tree</code> is a collection of entities called <code>nodes</code>. Nodes are connected by <code>edges</code>. Each <code>node</code> contains a <code>value</code> or <code>data</code>, and it may or may not have a <code>child node</code> .</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*3WN7tIQ-kNBQmY9MgvTuOA.jpeg" class="kg-image" alt="1*3WN7tIQ-kNBQmY9MgvTuOA" width="800" height="450" loading="lazy"></figure><p>The <code>first node</code> of the <code>tree</code> is called the <code>root</code>. If this <code>root node</code> is connected by another <code>node</code>, the <code>root</code> is then a <code>parent node</code> and the connected <code>node</code> is a <code>child</code>.</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*9AtR3bhhlMJxQlaUVEQgrw.jpeg" class="kg-image" alt="1*9AtR3bhhlMJxQlaUVEQgrw" width="800" height="450" loading="lazy"></figure><p>All<code> Tree nodes</code> are connected by links called <code>edges</code>. It’s an important part of <code>trees</code>, because it’s manages the relationship between <code>nodes</code>.</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*j5qKwIxKcEjoxy88EOc1Rg.jpeg" class="kg-image" alt="1*j5qKwIxKcEjoxy88EOc1Rg" width="800" height="450" loading="lazy"></figure><p><code>Leaves</code> are the last <code>nodes</code> on a <code>tree.</code> They are nodes without children. Like real trees, we have the <code>root</code>, <code>branches</code>, and finally the <code>leaves</code>.</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*c9_5uMUsIy4Q3OA7Q8bJiw.jpeg" class="kg-image" alt="1*c9_5uMUsIy4Q3OA7Q8bJiw" width="800" height="450" loading="lazy"></figure><p>Other important concepts to understand are <code>height</code> and <code>depth</code>.</p><p>The <code>height</code> of a <code>tree</code> is the length of the longest path to a <code>leaf</code>.</p><p>The <code>depth</code> of a <code>node</code> is the length of the path to its <code>root</code>.</p><h3 id="terminology-summary">Terminology summary</h3><ul><li><strong>Root </strong>is the topmost <code>node</code> of the <code>tree</code></li><li><strong>Edge </strong>is the link between two <code>nodes</code></li><li><strong>Child </strong>is a <code>node</code> that has a <code>parent node</code></li><li><strong>Parent </strong>is a <code>node</code> that has an <code>edge</code> to a <code>child node</code></li><li><strong>Leaf </strong>is a <code>node</code> that does not have a <code>child node</code> in the <code>tree</code></li><li><strong>Height </strong>is the length of the longest path to a <code>leaf</code></li><li><strong>Depth </strong>is the length of the path to its <code>root</code></li></ul><h3 id="binary-trees">Binary trees</h3><p>Now we will discuss a specific type of <code>tree</code>. We call it the<code>binary tree</code>.</p><blockquote>“In computer science, a binary tree is a tree data structure in which each node has at the most two children, which are referred to as the left child and the right child.” — <a href="https://en.wikipedia.org/wiki/Binary_tree" rel="noopener">Wikipedia</a></blockquote><p>So let’s look at an example of a <code>binary tree</code>.</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*ofbwuz4inpf2OlB-l9gtHw.jpeg" class="kg-image" alt="1*ofbwuz4inpf2OlB-l9gtHw" width="800" height="450" loading="lazy"></figure><h3 id="let-s-code-a-binary-tree">Let’s code a binary tree</h3><p>The first thing we need to keep in mind when we implement a <code>binary tree</code> is that it is a collection of <code>nodes</code>. Each <code>node</code> has three attributes: <code>value</code>, <code>left_child</code>, and <code>right_child</code>.</p><p>How do we implement a simple <code>binary tree</code> that initializes with these three properties?</p><p>Let’s take a look.</p><pre><code class="language-py">class BinaryTree:
+    def __init__(self, value):
+        self.value = value
+        self.left_child = None
+        self.right_child = None</code></pre><p>Here it is. Our <code>binary tree</code> class.</p><p>When we instantiate an object, we pass the <code>value</code> (the data of the node) as a parameter. Look at the <code>left_child</code> and the <code>right_child</code>. Both are set to <code>None</code>.</p><p>Why?</p><p>Because when we create our <code>node</code>, it doesn’t have any children. We just have the <code>node data</code>.</p><p>Let’s test it:</p><pre><code class="language-py">tree = BinaryTree('a')
+print(tree.value) # a
+print(tree.left_child) # None
+print(tree.right_child) # None</code></pre><p>That’s it.</p><p>We can pass the <code>string</code> ‘<code>a</code>’ as the <code>value</code> to our <code>Binary Tree node</code>. If we print the <code>value</code>, <code>left_child</code>, and <code>right_child</code>, we can see the values.</p><p>Let’s go to the insertion part. What do we need to do here?</p><p>We will implement a method to insert a new <code>node</code> to the <code>right</code> and to the <code>left</code>.</p><p>Here are the rules:</p><ul><li>If the current <code>node</code> doesn’t have a <code>left child</code>, we just create a new <code>node</code>and set it to the current node’s <code>left_child</code>.</li><li>If it does have the <code>left child</code>, we create a new node and put it in the current <code>left child</code>’s place. Allocate this <code>left child node</code> to the new node’s <code>left child</code>.</li></ul><p>Let’s draw it out. :)</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*ofbwuz4inpf2OlB-l9gtHw.jpeg" class="kg-image" alt="1*ofbwuz4inpf2OlB-l9gtHw" width="600" height="400" loading="lazy"></figure><p>Here’s the code:</p><pre><code class="language-py">def insert_left(self, value):
+    if self.left_child == None:
+        self.left_child = BinaryTree(value)
+    else:
+        new_node = BinaryTree(value)
+        new_node.left_child = self.left_child
+        self.left_child = new_node</code></pre><p>Again, if the current node doesn’t have a <code>left child</code>, we just create a new node and set it to the current node’s <code>left_child</code>. Or else we create a new node and put it in the current <code>left child</code>’s place. Allocate this <code>left child node</code> to the new node’s <code>left child</code>.</p><p>And we do the same thing to insert a <code>right child node</code>.</p><pre><code class="language-py">def insert_right(self, value):
+    if self.right_child == None:
+        self.right_child = BinaryTree(value)
+    else:
+        new_node = BinaryTree(value)
+        new_node.right_child = self.right_child
+        self.right_child = new_node</code></pre><p>Done. :)</p><p>But not entirely. We still need to test it.</p><p>Let’s build the following<code>tree</code>:</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*V_EUgNXVc8Wy9H1-JoqT3g.jpeg" class="kg-image" alt="1*V_EUgNXVc8Wy9H1-JoqT3g" width="600" height="400" loading="lazy"></figure><p>To summarize the illustration of this tree:</p><ul><li><code>a</code> <code>node</code> will be the <code>root</code> of our <code>binary Tree</code></li><li><code>a</code> <code>left child</code> is <code>b</code> <code>node</code></li><li><code>a</code> <code>right child</code> is <code>c</code> <code>node</code></li><li><code>b</code> <code>right child</code> is <code>d</code> <code>node</code> (<code>b</code> <code>node</code> doesn’t have a <code>left child</code>)</li><li><code>c</code> <code>left child</code> is <code>e</code> <code>node</code></li><li><code>c</code> <code>right child</code> is <code>f</code> <code>node</code></li><li>both <code>e</code> and <code>f</code> <code>nodes</code> do not have children</li></ul><p>So here is the code for the <code>tree</code>:</p><pre><code class="language-py">a_node = BinaryTree('a')
+a_node.insert_left('b')
+a_node.insert_right('c')
+
+b_node = a_node.left_child
+b_node.insert_right('d')
+
+c_node = a_node.right_child
+c_node.insert_left('e')
+c_node.insert_right('f')
+
+d_node = b_node.right_child
+e_node = c_node.left_child
+f_node = c_node.right_child
+
+print(a_node.value) # a
+print(b_node.value) # b
+print(c_node.value) # c
+print(d_node.value) # d
+print(e_node.value) # e
+print(f_node.value) # f</code></pre><p>Insertion is done.</p><p>Now we have to think about <code>tree</code> traversal.</p><p>We have <strong>two options</strong> here: <strong>Depth-First Search (DFS)</strong> and <strong>Breadth-First Search (BFS)</strong>.</p><ul><li><strong>DFS</strong> “is an algorithm for traversing or searching tree data structure. One starts at the root and explores as far as possible along each branch before backtracking.”<em> — <a href="https://en.wikipedia.org/wiki/Depth-first_search" rel="noopener">Wikipedia</a></em></li><li><strong>BFS</strong> “is an algorithm for traversing or searching tree data structure. It starts at the tree root and explores the neighbor nodes first, before moving to the next level neighbors.”<em> — <a href="https://en.wikipedia.org/wiki/Breadth-first_search" rel="noopener">Wikipedia</a></em></li></ul><p>So let’s dive into each tree traversal type.</p><h4 id="depth-first-search-dfs-">Depth-First Search (DFS)</h4><p><strong>DFS</strong> explores a path all the way to a leaf before <strong>backtracking</strong> and exploring another path. Let’s take a look at an example with this type of traversal.</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*-sCuUx3R9e1ougu2pGdThg.jpeg" class="kg-image" alt="1*-sCuUx3R9e1ougu2pGdThg" width="800" height="450" loading="lazy"></figure><p>The result for this algorithm will be 1–2–3–4–5–6–7.</p><p>Why?</p><p>Let’s break it down.</p><ol><li>Start at the <code>root</code> (1). Print it.</li></ol><p>2. Go to the <code>left child</code> (2). Print it.</p><p>3. Then go to the <code>left child</code> (3). Print it. (This <code>node</code> doesn’t have any children)</p><p>4. Backtrack and go the <code>right child</code> (4). Print it. (This <code>node</code> doesn’t have any children)</p><p>5. Backtrack to the <code>root</code> <code>node</code> and go to the <code>right child</code> (5). Print it.</p><p>6. Go to the <code>left child</code> (6). Print it. (This <code>node</code> doesn’t have any children)</p><p>7. Backtrack and go to the <code>right child</code> (7). Print it. (This <code>node</code> doesn’t have any children)</p><p>8. Done.</p><p>When we go deep to the leaf and backtrack, this is called <strong>DFS</strong> algorithm.</p><p>Now that we are familiar with this traversal algorithm, we will discuss types of <strong>DFS</strong>: <code>pre-order</code>, <code>in-order</code>, and <code>post-order</code>.</p><h4 id="pre-order">Pre-order</h4><p>This is exactly what we did in the above example.</p><ol><li>Print the value of the <code>node</code>.</li><li>Go to the <code>left child</code> and print it. This is if, and only if, it has a <code>left child</code>.</li><li>Go to the <code>right child</code> and print it. This is if, and only if, it has a <code>right child</code>.</li></ol><pre><code class="language-py">def pre_order(self):
+    print(self.value)
+
+    if self.left_child:
+        self.left_child.pre_order()
+
+    if self.right_child:
+        self.right_child.pre_order()</code></pre><h4 id="in-order">In-order</h4><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*-sCuUx3R9e1ougu2pGdThg.jpeg" class="kg-image" alt="1*-sCuUx3R9e1ougu2pGdThg" width="800" height="450" loading="lazy"></figure><p>The result of the in-order algorithm for this <code>tree</code> example is 3–2–4–1–6–5–7.</p><p>The left first, the middle second, and the right last.</p><p>Now let’s code it.</p><pre><code class="language-py">def in_order(self):
+    if self.left_child:
+        self.left_child.in_order()
+
+    print(self.value)
+
+    if self.right_child:
+        self.right_child.in_order()</code></pre><ol><li>Go to the <code>left child</code> and print it. This is if, and only if, it has a <code>left child</code>.</li><li>Print the <code>node</code>’s value</li><li>Go to the <code>right child</code> and print it. This is if, and only if, it has a <code>right child</code>.</li></ol><h4 id="post-order">Post-order</h4><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*-sCuUx3R9e1ougu2pGdThg.jpeg" class="kg-image" alt="1*-sCuUx3R9e1ougu2pGdThg" width="600" height="400" loading="lazy"></figure><p>The result of the <code>post order</code> algorithm for this <code>tree</code> example is 3–4–2–6–7–5–1.</p><p>The left first, the right second, and the middle last.</p><p>Let’s code this.</p><pre><code>def post_order(self):
+    if self.left_child:
+        self.left_child.post_order()
+
+    if self.right_child:
+        self.right_child.post_order()
+
+    print(self.value)</code></pre><ol><li>Go to the <code>left child</code> and print it. This is if, and only if, it has a <code>left child</code>.</li><li>Go to the <code>right child</code> and print it. This is if, and only if, it has a <code>right child</code>.</li><li>Print the <code>node</code>’s value</li></ol><h4 id="breadth-first-search-bfs-">Breadth-First Search (BFS)</h4><p><strong>BFS</strong> algorithm traverses the <code>tree</code> level by level and depth by depth.</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*ZNxp_NkRZLCeak85rreebA.jpeg" class="kg-image" alt="1*ZNxp_NkRZLCeak85rreebA" width="800" height="450" loading="lazy"></figure><p>Here is an example that helps to better explain this algorithm:</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*-sCuUx3R9e1ougu2pGdThg.jpeg" class="kg-image" alt="1*-sCuUx3R9e1ougu2pGdThg" width="800" height="450" loading="lazy"></figure><p>So we traverse level by level. In this example, the result is 1–2–5–3–4–6–7.</p><ul><li>Level/Depth 0: only <code>node</code> with value 1</li><li>Level/Depth 1: <code>nodes</code> with values 2 and 5</li><li>Level/Depth 2: <code>nodes</code> with values 3, 4, 6, and 7</li></ul><p>Now let’s code it.</p><pre><code class="language-py">def bfs(self):
+    queue = Queue()
+    queue.put(self)
+
+    while not queue.empty():
+        current_node = queue.get()
+        print(current_node.value)
+
+        if current_node.left_child:
+            queue.put(current_node.left_child)
+
+        if current_node.right_child:
+            queue.put(current_node.right_child)</code></pre><p>To implement a <strong>BFS</strong> algorithm, we use the <code>queue</code> data structure to help.</p><p>How does it work?</p><p>Here’s the explanation.</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*A4yGfEoiqcZ-COvAfr2CWQ.jpeg" class="kg-image" alt="1*A4yGfEoiqcZ-COvAfr2CWQ" width="800" height="891" loading="lazy"></figure><ol><li>First add the <code>root</code> <code>node</code> into the <code>queue</code> with the <code>put</code> method.</li><li>Iterate while the <code>queue</code> is not empty.</li><li>Get the first <code>node</code> in the <code>queue</code>, and then print its value.</li><li>Add both <code>left</code> and <code>right</code> <code>children</code> into the <code>queue</code> (if the current <code>node</code>has <code>children</code>).</li><li>Done. We will print the value of each <code>node,</code> level by level, with our <code>queue</code>helper.</li></ol><h3 id="binary-search-tree">Binary Search tree</h3><blockquote>“A Binary Search Tree is sometimes called ordered or sorted binary trees, and it keeps its values in sorted order, so that lookup and other operations can use the principle of binary search” — <a href="https://en.wikipedia.org/wiki/Binary_search_tree" rel="noopener">Wikipedia</a></blockquote><p>An important property of a <code>Binary Search Tree</code> is that the value of a <code>Binary Search Tree</code> <code>node</code>is larger than the value of the offspring of its <code>left child</code>, but smaller than the value of the offspring of its <code>right child.</code>”</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*mslH9VtVUN9Hs983XxUN5A.jpeg" class="kg-image" alt="1*mslH9VtVUN9Hs983XxUN5A" width="600" height="400" loading="lazy"></figure><p>Here is a breakdown of the above illustration:</p><ul><li><strong>A </strong>is inverted. The <code>subtree</code> 7–5–8–6 needs to be on the right side, and the <code>subtree</code> 2–1–3 needs to be on the left.</li><li><strong>B </strong>is the only correct option. It satisfies the <code>Binary Search Tree</code> property.</li><li><strong>C </strong>has one problem: the <code>node</code> with the value 4. It needs to be on the left side of the <code>root</code> because it is smaller than 5.</li></ul><h3 id="let-s-code-a-binary-search-tree-">Let’s code a Binary Search Tree!</h3><p>Now it’s time to code!</p><p>What will we see here? We will insert new nodes, search for a value, delete nodes, and the balance of the <code>tree</code>.</p><p>Let’s start.</p><h4 id="insertion-adding-new-nodes-to-our-tree">Insertion: adding new nodes to our tree</h4><p>Imagine that we have an empty <code>tree</code> and we want to add new <code>nodes</code> with the following values in this order: 50, 76, 21, 4, 32, 100, 64, 52.</p><p>The first thing we need to know is if 50 is the <code>root</code> of our tree.</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*fxSlTwgQSN_DlzfEmcxqQg.jpeg" class="kg-image" alt="1*fxSlTwgQSN_DlzfEmcxqQg" width="600" height="400" loading="lazy"></figure><p>We can now start inserting <code>node</code> by <code>node</code>.</p><ul><li>76 is greater than 50, so insert 76 on the right side.</li><li>21 is smaller than 50, so insert 21 on the left side.</li><li>4 is smaller than 50. <code>Node</code> with value 50 has a <code>left child</code> 21. Since 4 is smaller than 21, insert it on the left side of this <code>node</code>.</li><li>32 is smaller than 50. <code>Node</code> with value 50 has a <code>left child</code> 21. Since 32 is greater than 21, insert 32 on the right side of this <code>node</code>.</li><li>100 is greater than 50. <code>Node</code> with value 50 has a <code>right child</code> 76. Since 100 is greater than 76, insert 100 on the right side of this <code>node</code>.</li><li>64 is greater than 50. <code>Node</code> with value 50 has a <code>right child </code>76. Since 64 is smaller than 76, insert 64 on the left side of this <code>node</code>.</li><li>52 is greater than 50. <code>Node</code> with value 50 has a <code>right child </code>76. Since 52 is smaller than 76, <code>node</code> with value 76 has a <code>left child</code> 64. 52 is smaller than 64, so insert 54 on the left side of this <code>node</code>.</li></ul><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*LlLDNx7wgJfH6VAGnyAbIQ.jpeg" class="kg-image" alt="1*LlLDNx7wgJfH6VAGnyAbIQ" width="800" height="536" loading="lazy"></figure><p>Do you notice a pattern here?</p><p>Let’s break it down.</p><ol><li>Is the new <code>node</code> value greater or smaller than the current <code>node</code>?</li><li>If the value of the new <code>node</code> is greater than the current <code>node, </code>go to the right <code>subtree</code>. If the current <code>node</code> doesn’t have a <code>right child</code>, insert it there, or else backtrack to step #1.</li><li>If the value of the new <code>node</code> is smaller than the current <code>node</code>, go to the left <code>subtree</code>. If the current <code>node</code> doesn’t have a <code>left child</code>, insert it there, or else backtrack to step #1.</li><li>We did not handle special cases here. When the value of a new <code>node</code> is equal to the current value of the <code>node,</code> use rule number 3. Consider inserting equal values to the left side of the <code>subtree</code>.</li></ol><p>Now let’s code it.</p><pre><code class="language-py">class BinarySearchTree:
+    def __init__(self, value):
+        self.value = value
+        self.left_child = None
+        self.right_child = None
+
+    def insert_node(self, value):
+        if value &lt;= self.value and self.left_child:
+            self.left_child.insert_node(value)
+        elif value &lt;= self.value:
+            self.left_child = BinarySearchTree(value)
+        elif value &gt; self.value and self.right_child:
+            self.right_child.insert_node(value)
+        else:
+            self.right_child = BinarySearchTree(value)</code></pre><p>It seems very simple.</p><p>The powerful part of this algorithm is the recursion part, which is on line 9 and line 13. Both lines of code call the <code>insert_node</code> method, and use it for its <code>left</code> and <code>right</code> <code>children</code>, respectively. Lines <code>11</code> and <code>15</code> are the ones that do the insertion for each <code>child</code>.</p><h4 id="let-s-search-for-the-node-value-or-not-">Let’s search for the node value… Or not…</h4><p>The algorithm that we will build now is about doing searches. For a given value (integer number), we will say if our <code>Binary Search Tree</code> does or does not have that value.</p><p>An important item to note is how we defined the tree <strong>insertion algorithm</strong>. First we have our <code>root</code> <code>node</code>. All the left <code>subtree</code> <code>nodes </code>will have smaller values than the <code>root</code> <code>node</code>. And all the right <code>subtree</code> <code>nodes </code>will have values greater than the <code>root</code> <code>node</code>.</p><p>Let’s take a look at an example.</p><p>Imagine that we have this <code>tree</code>.</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*LlLDNx7wgJfH6VAGnyAbIQ.jpeg" class="kg-image" alt="1*LlLDNx7wgJfH6VAGnyAbIQ" width="600" height="400" loading="lazy"></figure><p>Now we want to know if we have a node based on value 52.</p><figure class="kg-card kg-image-card"><img src="https://cdn-media-1.freecodecamp.org/images/1*NwvTrpKiJWb1u2yAY-nnAA.jpeg" class="kg-image" alt="1*NwvTrpKiJWb1u2yAY-nnAA" width="800" height="548" loading="lazy"></figure><p>Let’s break it down.</p><ol><li>We start with the <code>root</code> <code>node</code> as our current <code>node</code>. Is the given value smaller than the current <code>node</code> value? If yes, then we will search for it on the left <code>subtree</code>.</li><li>Is the given value greater than the current <code>node</code> value? If yes, then we will search for it on the right <code>subtree</code>.</li><li>If rules #1 and #2 are both false, we can compare the current <code>node</code> value and the given value if they are equal. If the comparison returns <code>true</code>, then we can say, “Yeah! Our <code>tree</code> has the given value,” otherwise, we say, “Nooo, it hasn’t.”</li></ol><p>Now let’s code it.</p><pre><code class="language-py">class BinarySearchTree:
+    def __init__(self, value):
+        self.value = value
+        self.left_child = None
+        self.right_child = None
+
+    def find_node(self, value):
+        if value &lt; self.value and self.left_child:
+            return self.left_child.find_node(value)
+        if value &gt; self.value and self.right_child:
+            return self.right_child.find_node(value)
+
+        return value == self.value</code></pre><p>Let’s beak down the code:</p><ul><li>Lines 8 and 9 fall under rule #1.</li><li>Lines 10 and 11 fall under rule #2.</li><li>Line 13 falls under rule #3.</li></ul><p>How do we test it?</p><p>Let’s create our <code>Binary Search Tree </code>by initializing the <code>root</code> <code>node</code> with the value 15.</p><pre><code class="language-py">bst = BinarySearchTree(15)</code></pre><p>And now we will insert many new <code>nodes</code>.</p><pre><code class="language-py">bst.insert_node(10)
+bst.insert_node(8)
+bst.insert_node(12)
+bst.insert_node(20)
+bst.insert_node(17)
+bst.insert_node(25)
+bst.insert_node(19)</code></pre><p>For each inserted <code>node</code> , we will test if our <code>find_node</code> method really works.</p><pre><code class="language-py">print(bst.find_node(15)) # True
+print(bst.find_node(10)) # True
+print(bst.find_node(8)) # True
+print(bst.find_node(12)) # True
+print(bst.find_node(20)) # True
+print(bst.find_node(17)) # True
+print(bst.find_node(25)) # True
+print(bst.find_node(19)) # True</code></pre><p>Yeah, it works for these given values! Let’s test for a value that doesn’t exist in our <code>Binary Search Tree</code>.</p><pre><code class="language-py">print(bst.find_node(0)) # False</code></pre><p>Oh yeah.</p><p>Our search is done.</p><h4 id="deletion-removing-and-organizing">Deletion: removing and organizing</h4><p>Deletion is a more complex algorithm because we need to handle different cases. For a given value, we need to remove the <code>node</code> with this value. Imagine the following scenarios for this <code>node</code> : it has no <code>children</code>, has a single <code>child</code>, or has two <code>children</code>.</p><ul><li><strong>Scenario #1</strong>: A <code>node</code> with no <code>children</code> (<code>leaf</code> <code>node</code>).</li></ul><pre><code class="language-py">#        |50|                              |50|
+#      /      \                           /    \
+#    |30|     |70|   (DELETE 20) ---&gt;   |30|   |70|
+#   /    \                                \
+# |20|   |40|                             |40|</code></pre><p>If the <code>node</code> we want to delete has no children, we simply delete it. The algorithm doesn’t need to reorganize the <code>tree</code>.</p><ul><li><strong>Scenario #2</strong>: A <code>node</code> with just one child (<code>left</code> or <code>right</code> child).</li></ul><pre><code class="language-py">#        |50|                              |50|
+#      /      \                           /    \
+#    |30|     |70|   (DELETE 30) ---&gt;   |20|   |70|
+#   /            
+# |20|</code></pre><p>In this case, our algorithm needs to make the parent of the <code>node</code> point to the <code>child</code> node. If the <code>node</code> is the <code>left child</code>, we make the parent of the <code>left child</code> point to the <code>child</code>. If the <code>node</code> is the <code>right child</code> of its parent, we make the parent of the <code>right child</code> point to the <code>child</code>.</p><ul><li><strong>Scenario #3</strong>: A <code>node</code> with two children.</li></ul><pre><code class="language-py">#        |50|                              |50|
+#      /      \                           /    \
+#    |30|     |70|   (DELETE 30) ---&gt;   |40|   |70|
+#   /    \                             /
+# |20|   |40|                        |20|</code></pre><p>When the <code>node</code> has 2 children, we need to find the <code>node</code> with the minimum value, starting from the <code>node</code>’s<code>right child</code>. We will put this <code>node</code> with minimum value in the place of the <code>node</code> we want to remove.</p><p>It’s time to code.</p><pre><code class="language-py">def remove_node(self, value, parent):
+    if value &lt; self.value and self.left_child:
+        return self.left_child.remove_node(value, self)
+    elif value &lt; self.value:
+        return False
+    elif value &gt; self.value and self.right_child:
+        return self.right_child.remove_node(value, self)
+    elif value &gt; self.value:
+        return False
+    else:
+        if self.left_child is None and self.right_child is None and self == parent.left_child:
+            parent.left_child = None
+            self.clear_node()
+        elif self.left_child is None and self.right_child is None and self == parent.right_child:
+            parent.right_child = None
+            self.clear_node()
+        elif self.left_child and self.right_child is None and self == parent.left_child:
+            parent.left_child = self.left_child
+            self.clear_node()
+        elif self.left_child and self.right_child is None and self == parent.right_child:
+            parent.right_child = self.left_child
+            self.clear_node()
+        elif self.right_child and self.left_child is None and self == parent.left_child:
+            parent.left_child = self.right_child
+            self.clear_node()
+        elif self.right_child and self.left_child is None and self == parent.right_child:
+            parent.right_child = self.right_child
+            self.clear_node()
+        else:
+            self.value = self.right_child.find_minimum_value()
+            self.right_child.remove_node(self.value, self)
+
+        return True</code></pre><ol><li><strong>First</strong>: Note the parameters <code>value</code> and <code>parent</code>. We want to find the <code>node</code>that has this <code>value</code> , and the <code>node</code>’s parent is important to the removal of the <code>node</code>.</li><li><strong>Second</strong>: Note the returning value. Our algorithm will return a boolean value. It returns <code>True</code> if it finds the <code>node</code> and removes it. Otherwise it will return <code>False</code>.</li><li><strong>From line 2 to line 9</strong>: We start searching for the <code>node</code> that has the <code>value</code>that we are looking for. If the <code>value</code> is smaller than the <code>current nodevalue</code> , we go to the <code>left subtree</code>, recursively (if, and only if, the <code>current node</code> has a <code>left child</code>). If the <code>value</code> is greater, go to the <code>right subtree</code>, recursively.</li><li><strong>Line 10</strong>: We start to think about the <code>remove</code> algorithm.</li><li><strong>From line 11 to line 13</strong>: We cover the <code>node</code> with no <code>children</code> , and it is the <code>left child</code> from its <code>parent</code>. We remove the <code>node</code> by setting the <code>parent</code>’s <code>left child</code> to <code>None</code>.</li><li><strong>Lines 14 and 15</strong>: We cover the <code>node</code> with no <code>children</code> , and it is the <code>right child</code> from it’s <code>parent</code>. We remove the <code>node</code> by setting the <code>parent</code>’s <code>right child</code> to <code>None</code>.</li><li><strong>Clear node method</strong>: I will show the <code>clear_node</code> code below. It sets the nodes <code>left child , right child</code>, and its <code>value</code> to <code>None</code>.</li><li><strong>From line 16 to line 18</strong>: We cover the <code>node</code> with just one <code>child</code> (<code>left child</code>), and it is the <code>left child</code> from it’s <code>parent</code>. We set the <code>parent</code>'s <code>left child</code> to the <code>node</code>’s <code>left child</code> (the only child it has).</li><li><strong>From line 19 to line 21</strong>: We cover the <code>node</code> with just one <code>child</code> (<code>left child</code>), and it is the <code>right child</code> from its <code>parent</code>. We set the <code>parent</code>'s <code>right child</code> to the <code>node</code>’s <code>left child</code> (the only child it has).</li><li><strong>From line 22 to line 24</strong>: We cover the <code>node</code> with just one <code>child</code> (<code>right child</code>), and it is the <code>left child</code> from its <code>parent</code>. We set the <code>parent</code>'s <code>left child</code> to the <code>node</code>’s <code>right child</code> (the only child it has).</li><li><strong>From line 25 to line 27</strong>: We cover the <code>node</code> with just one <code>child</code> (<code>right child</code>) , and it is the <code>right child</code> from its <code>parent</code>. We set the <code>parent</code>'s <code>right child</code> to the <code>node</code>’s <code>right child</code> (the only child it has).</li><li><strong>From line 28 to line 30</strong>: We cover the <code>node</code> with both <code>left</code> and <code>right</code>children. We get the <code>node</code> with the smallest <code>value</code> (the code is shown below) and set it to the <code>value</code> of the <code>current node</code> . Finish it by removing the smallest <code>node</code>.</li><li><strong>Line 32</strong>: If we find the <code>node</code> we are looking for, it needs to return <code>True</code>. From line 11 to line 31, we handle this case. So just return <code>True</code> and that’s it.</li></ol><ul><li>To use the <code>clear_node</code> method: set the <code>None</code> value to all three attributes — (<code>value</code>, <code>left_child</code>, and <code>right_child</code>)</li></ul><pre><code class="language-py">def clear_node(self):
+    self.value = None
+    self.left_child = None
+    self.right_child = None</code></pre><ul><li>To use the <code>find_minimum_value</code> method: go way down to the left. If we can’t find anymore nodes, we found the smallest one.</li></ul><pre><code class="language-py">def find_minimum_value(self):
+    if self.left_child:
+        return self.left_child.find_minimum_value()
+    else:
+        return self.value</code></pre><p>Now let’s test it.</p><p>We will use this <code>tree</code> to test our <code>remove_node</code> algorithm.</p><pre><code class="language-py">#        |15|
+#      /      \
+#    |10|     |20|
+#   /    \    /    \
+# |8|   |12| |17| |25|
+#              \
+#              |19|</code></pre><p>Let’s remove the <code>node</code> with the <code>value</code> 8. It’s a <code>node</code> with no child.</p><pre><code class="language-py">print(bst.remove_node(8, None)) # True
+bst.pre_order_traversal()
+
+#     |15|
+#   /      \
+# |10|     |20|
+#    \    /    \
+#   |12| |17| |25|
+#          \
+#          |19|</code></pre><p>Now let’s remove the <code>node</code> with the <code>value</code> 17. It’s a <code>node</code> with just one child.</p><pre><code class="language-py">print(bst.remove_node(17, None)) # True
+bst.pre_order_traversal()
+
+#        |15|
+#      /      \
+#    |10|     |20|
+#       \    /    \
+#      |12| |19| |25|</code></pre><p>Finally, we will remove a <code>node</code> with two children. This is the <code>root</code> of our <code>tree</code>.</p><pre><code class="language-py">print(bst.remove_node(15, None)) # True
+bst.pre_order_traversal()
+
+#        |19|
+#      /      \
+#    |10|     |20|
+#        \        \
+#        |12|     |25|</code></pre><p>The tests are now done. :)</p><h3 id="that-s-all-for-now-">That’s all for now!</h3><p>We learned a lot here.</p><p>Congrats on finishing this dense content. It’s really tough to understand a concept that we do not know. But you did it. :)</p><p>This is one more step forward in my journey to learning and mastering algorithms and data structures. You can see the documentation of my complete journey here on my <a href="https://medium.com/the-renaissance-developer" rel="noopener"><strong>Renaissance Developer publication</strong></a>.</p><p>Have fun, keep learning and coding.</p><p>My <a href="https://twitter.com/LeandroTk_" rel="noopener">Twitter</a> &amp; <a href="https://github.com/LeandroTk" rel="noopener">Github</a>. ☺</p><h3 id="additional-resources">Additional resources</h3><ul><li><a href="https://www.youtube.com/watch?v=qH6yxkw0u78&amp;index=25&amp;list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P" rel="noopener">Introduction to Tree Data Structure by <strong>mycodeschool</strong></a></li><li><a href="https://en.wikipedia.org/wiki/Tree_(data_structure)" rel="noopener">Tree by <strong>Wikipedia</strong></a></li><li><a href="https://medium.com/basecs/how-to-not-be-stumped-by-trees-5f36208f68a7" rel="noopener">How To Not Be Stumped By Trees by the talented Vaidehi Joshi</a></li><li><a href="http://www.cs.jhu.edu/~cohen/CS226/Lectures/Trees.pdf" rel="noopener">Intro to Trees, Lecture by Professor <strong>Jonathan Cohen</strong></a></li><li><a href="http://people.cs.ksu.edu/~schmidt/300s05/Lectures/Week7b.html" rel="noopener">Intro to Trees, Lecture by Professor<strong> David Schmidt</strong></a></li><li><a href="http://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm" rel="noopener">Intro to Trees, Lecture by Professor <strong>Victor Adamchik</strong></a></li><li><a href="https://www.youtube.com/watch?v=oSWTXtMglKE" rel="noopener">Trees with <strong>Gayle Laakmann McDowell</strong></a></li><li><a href="https://github.com/leandrotk/algorithms/blob/master/computer_science/data_structures/binary_tree/binary_tree.py" rel="noopener">Binary Tree Implementation</a> and <a href="https://github.com/leandrotk/algorithms/blob/master/computer_science/data_structures/binary_tree/test_binary_tree.py" rel="noopener">Tests</a> by <a href="https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/undefined" rel="noopener"><strong>TK</strong></a></li><li><a href="https://www.coursera.org/learn/data-structures" rel="noopener">Coursera Course: Data Structures by <strong>University of California, San Diego</strong></a></li><li><a href="https://www.coursera.org/learn/data-structures-optimizing-performance" rel="noopener">Coursera Course: Data Structures and Performance by <strong>University of California, San Diego</strong></a></li><li><a href="https://www.youtube.com/playlist?list=PLTxllHdfUq4d-DE16EDkpeb8Z68DU7Z_Q" rel="noopener">Binary Search Tree concepts and Implementation by <strong>Paul Programming</strong></a></li><li><a href="https://github.com/leandrotk/algorithms/blob/master/computer_science/data_structures/binary_search_tree_without_node/binary_search_tree.py" rel="noopener">Binary Search Tree Implementation</a> and <a href="https://github.com/leandrotk/algorithms/blob/master/computer_science/data_structures/binary_search_tree_without_node/test_binary_search_tree.py" rel="noopener">Tests</a> by <a href="https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/undefined" rel="noopener"><strong>TK</strong></a></li><li><a href="https://en.wikipedia.org/wiki/Tree_traversal" rel="noopener">Tree Traversal by <strong>Wikipedia</strong></a></li><li><a href="http://www.geeksforgeeks.org/binary-search-tree-set-2-delete/" rel="noopener">Binary Search Tree Remove Node Algorithm by <strong>GeeksforGeeks</strong></a></li><li><a href="http://www.algolist.net/Data_structures/Binary_search_tree/Removal" rel="noopener">Binary Search Tree </a>Remove Node Algorithm by <strong>Algolist</strong></li><li><a href="https://www.freecodecamp.org/news/learning-python-from-zero-to-hero-120ea540b567/">Learning Python From Zero to Hero</a></li></ul>
+
+                        </section>
+                        
+                            <div class="sidebar">
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                            </div>
+                        
+                    </div>
+                    <hr />
+                    
+                        <div class="post-full-author-header" data-test-label="author-header-with-bio">
+                            
+                                
+    
+    
+    
+
+    <section class="author-card" data-test-label="author-card">
+        
+            
+    <img
+      srcset="https://www.freecodecamp.org/news/content/images/size/w60/2021/05/tk-gravatar.jpeg 60w"
+      sizes="60px"
+      src="https://www.freecodecamp.org/news/content/images/size/w60/2021/05/tk-gravatar.jpeg"
+      class="author-profile-image"
+      alt="TK"
+      width="250"
+      height="250"
+      onerror="this.style.display='none'"
+      loading="lazy"
+      data-test-label="profile-image"
+    />
+  
+        
+
+        <section class="author-card-content ">
+            <span class="author-card-name">
+                <a href="/news/author/tk/" data-test-label="profile-link">
+                    
+                        TK
+                    
+                </a>
+            </span>
+            
+                
+                    <p data-test-label="default-bio">
+                        Read <a href="/news/author/tk/">more posts</a>.
+                    </p>
+                
+            
+        </section>
+    </section>
+
+                            
+                        </div>
+                        <hr />
+                    
+
+                    
+                    
+                        
+    
+
+
+<p data-test-label="social-row-cta" class="social-row">
+    If you read this far, thank the author to show them you care. <button id="tweet-btn" class="cta-button" data-test-label="tweet-button">Say Thanks</button>
+</p>
+
+
+    
+    <script>document.addEventListener("DOMContentLoaded",(()=>{const t=document.getElementById("tweet-btn"),e=window.location,n="Everything%20you%20need%20to%20know%20about%20tree%20data%20structures".replace(/&#39;/g,"%27"),o="",r="@leandrotk_",i=Boolean("");let a;if(i&&(o||r)){const t={originalPostAuthor:"",currentPostAuthor:"TK"};a=encodeURIComponent(`Thank you ${o||t.originalPostAuthor} for writing this helpful article, and ${r||t.currentPostAuthor} for translating it.`)}else!i&&r&&(a=encodeURIComponent(`Thank you ${r} for writing this helpful article.`));const s=`window.open(\n    '${a?`https://twitter.com/intent/tweet?text=${a}%0A%0A${n}%0A%0A${e}`:`https://twitter.com/intent/tweet?text=${n}%0A%0A${e}`}',\n    'share-twitter',\n    'width=550, height=235'\n  ); return false;`;t.setAttribute("onclick",s)}));</script>
+
+
+                        
+
+<div class="learn-cta-row" data-test-label="learn-cta-row">
+    <p>
+        Learn to code for free. freeCodeCamp's open source curriculum has helped more than 40,000 people get jobs as developers. <a href="https://www.freecodecamp.org/learn/" class="cta-button" id="learn-to-code-cta" rel="noopener noreferrer" target="_blank">Get started</a>
+    </p>
+</div>
+
+                    
+                </section>
+                
+                    <div class="banner-ad bottom">
+                        <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                    </div>
+                
+            </article>
+        </div>
+    </main>
+
+
+            
+
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-top">
+            <div class="footer-desc-col">
+                <p data-test-label="tax-exempt-status">freeCodeCamp is a donor-supported tax-exempt 501(c)(3) charity organization (United States Federal Tax Identification Number: 82-0779546)</p>
+                <p data-test-label="mission-statement">Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public.</p>
+                <p data-test-label="donation-initiatives">Donations to freeCodeCamp go toward our education initiatives, and help pay for servers, services, and staff.</p>
+                <p class="footer-donation" data-test-label="donate-text">
+                    You can <a href="https://www.freecodecamp.org/donate/" class="inline" rel="noopener noreferrer" target="_blank" >make a tax-deductible donation here</a>.
+                </p>
+            </div>
+            <div class="trending-guides" data-test-label="trending-guides">
+                <div class="col-header">Trending Guides</div>
+                <div class="trending-guides-row">
+                    <div class="footer-col footer-col-1">
+                        <a href="https://www.freecodecamp.org/news/what-is-programming-tutorial-for-beginners/" rel="noopener noreferrer" target="_blank">What is Programming?
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/open-closed-principle-solid-architecture-concept-explained/" rel="noopener noreferrer" target="_blank">Open-Closed Principle
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/string-equality-in-javascript-how-to-compare-strings-in-js/" rel="noopener noreferrer" target="_blank">Compare Strings in JS
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/python-str-function-how-to-convert-to-a-string/" rel="noopener noreferrer" target="_blank">Python str() Function
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/add-to-dict-in-python/" rel="noopener noreferrer" target="_blank">Append to Python Dict
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/python-sleep-time-sleep-in-python/" rel="noopener noreferrer" target="_blank">time.sleep() in Python
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/python-requirementstxt-explained/" rel="noopener noreferrer" target="_blank">Python Requirements.txt
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/what-is-a-string-in-javascript/" rel="noopener noreferrer" target="_blank">What is a String in JS?
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/what-is-ethical-hacking/" rel="noopener noreferrer" target="_blank">What&#39;s Ethical Hacking?
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/how-to-get-the-current-url-with-javascript/" rel="noopener noreferrer" target="_blank">Get Current URL with JS
+                        </a>
+                    </div>
+                    <div class="footer-col footer-col-2">
+                        <a href="https://www.freecodecamp.org/news/what-is-a-rom-price-and-cost-estimate-2/" rel="noopener noreferrer" target="_blank">What is a ROM?
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/css-bold-how-to-bold-text-in-html-with-font-weight/" rel="noopener noreferrer" target="_blank">CSS Bold Text
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/git-reset-hard-how-to-reset-to-head-in-git/" rel="noopener noreferrer" target="_blank">Git Reset Hard
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/python-env-vars-how-to-get-an-environment-variable-in-python/" rel="noopener noreferrer" target="_blank">Python Env Vars
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/python-set-vs-list/" rel="noopener noreferrer" target="_blank">Python Set vs List
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/how-to-use-the-javascript-require-function/" rel="noopener noreferrer" target="_blank">JavaScript Require
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/python-delete-file-how-to-remove-files-and-folders/" rel="noopener noreferrer" target="_blank">Python Delete File
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/python-sort-lists-and-reverse-arrays/" rel="noopener noreferrer" target="_blank">Python Sorted List
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/force-pull-in-github-how-to-overwrite-on-local-changes-with-git/" rel="noopener noreferrer" target="_blank">Force Pull in GitHub
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/check-python-version-how-to-check-py-in-mac-windows-and-linux/" rel="noopener noreferrer" target="_blank">Check Python Version
+                        </a>
+                    </div>
+                    <div class="footer-col footer-col-3">
+                        <div class="footer-left">
+                            <a href="https://www.freecodecamp.org/news/how-to-unhide-a-row-or-column-in-excel-or-unhide-all-rows-and-columns/" rel="noopener noreferrer" target="_blank">Unhide Row/Column Excel
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/python-dictionary-how-to-create-a-dict-in-python/" rel="noopener noreferrer" target="_blank">Create Python Dictionary
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/how-to-fix-dns-server-not-responding-error-windows-10/" rel="noopener noreferrer" target="_blank">DNS Server Not Responding
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/setting-a-static-ip-in-ubuntu-linux-ip-address-tutorial/" rel="noopener noreferrer" target="_blank">Set a Static IP in Ubuntu
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/python-remove-key-from-dictionary/" rel="noopener noreferrer" target="_blank">Delete Key from Dict Python
+                            </a>
+                        </div>
+
+                        <div class="footer-right">
+                            <a href="https://www.freecodecamp.org/news/indices-of-a-list-in-python-list-indexof-equivalent/" rel="noopener noreferrer" target="_blank">Indices of a List in Python
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/xml-formatting-in-notepad-how-to-format-xml-files/" rel="noopener noreferrer" target="_blank">XML Formatting in Notepad++
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/remote-branches-in-git/" rel="noopener noreferrer" target="_blank">What&#39;s a Git Remote Branch?
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/insert-into-javascript-array-at-specific-index/" rel="noopener noreferrer" target="_blank">Insert into JavaScript Array
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/filter-arrays-in-javascript/" rel="noopener noreferrer" target="_blank">Filter an Array in JavaScript
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='footer-bottom'>
+            <div class="col-header" data-test-label="our-nonprofit">Our Charity</div>
+            <div class="footer-divider"></div>
+            <div class="our-nonprofit">
+                <a href="https://www.freecodecamp.org/news/about/" rel="noopener noreferrer" target="_blank" data-test-label="about">
+                    About
+                </a>
+                <a href="https://www.linkedin.com/school/free-code-camp/people/" rel="noopener noreferrer" target="_blank" data-test-label="alumni">
+                    Alumni Network
+                </a>
+                <a href="https://github.com/freeCodeCamp/" rel="noopener noreferrer" target="_blank" data-test-label="open-source">
+                    Open Source
+                </a>
+                <a href="https://www.freecodecamp.org/news/shop/" rel="noopener noreferrer" target="_blank" data-test-label="shop">
+                    Shop
+                </a>
+                <a href="https://www.freecodecamp.org/news/support/" rel="noopener noreferrer" target="_blank" data-test-label="support">
+                    Support
+                </a>
+                <a href="https://www.freecodecamp.org/news/sponsors/" rel="noopener noreferrer" target="_blank" data-test-label="sponsors">
+                    Sponsors
+                </a>
+                <a href="https://www.freecodecamp.org/news/academic-honesty-policy/" rel="noopener noreferrer" target="_blank" data-test-label="honesty">
+                    Academic Honesty
+                </a>
+                <a href="https://www.freecodecamp.org/news/code-of-conduct/" rel="noopener noreferrer" target="_blank" data-test-label="coc">
+                    Code of Conduct
+                </a>
+                <a href="https://www.freecodecamp.org/news/privacy-policy/" rel="noopener noreferrer" target="_blank" data-test-label="privacy">
+                    Privacy Policy
+                </a>
+                <a href="https://www.freecodecamp.org/news/terms-of-service/" rel="noopener noreferrer" target="_blank" data-test-label="tos">
+                    Terms of Service
+                </a>
+                <a href="https://www.freecodecamp.org/news/copyright-policy/" rel="noopener noreferrer" target="_blank" data-test-label="copyright">
+                    Copyright Policy
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        </div>
+
+        
+        
+        
+
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D6RKKP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+        
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"840c95804b3602b5","b":1,"version":"2023.10.0","token":"bdb993c6dde44e178aabd9555e75e4f4"}' crossorigin="anonymous"></script>
+</body>
+</html>

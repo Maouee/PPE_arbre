@@ -1,0 +1,4 @@
+traversing the parse §tree§
+manipulating the §tree§ structure
+root node of the parse §tree§
+navigate the §tree§ and extract information from the

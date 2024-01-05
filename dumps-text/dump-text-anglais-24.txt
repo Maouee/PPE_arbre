@@ -1,0 +1,398 @@
+   Link: canonical
+
+                                   MakeUseOf
+
+   MUO logo
+   Newsletter
+   Log in
+   Trending Buying Tips Foldable Phones ChatGPT PS5 Scams Windows 11 Emojis
+   Explained
+     *    * PC & Mobile
+               * Windows
+               * Mac
+               * Linux
+               * Android
+               * iOS
+          * Internet
+               * Social Media
+               * Security
+               * Programming
+          * Productivity
+               * Work & Career
+               * Creative
+               * DIY
+          * Lifestyle
+               * Smart Home
+               * Gaming
+               * Entertainment
+          * Tech Explained
+               * Artificial Intelligence
+               * Crypto
+               * Tech Jargon
+               * Networking
+               * Electric Vehicles
+     *    * More
+               * Buyer's Guides
+               * Product Reviews
+               * Free Cheat Sheets
+               * Deals
+               * Podcasts
+     * Join Our Team
+     * Newsletter
+     * Advertise with us
+     * Log in
+     * * * * * * * * * Write For Us
+     * Home
+     * Contact Us
+     * Terms
+     * Privacy
+     * Copyright
+     * About Us
+     * Fact Checking Policy
+     * Corrections Policy
+     * Ethics Policy
+     * Ownership Policy
+     * Partnership Disclaimer
+     * Official Giveaway Rules
+   Copyright © 2024 www.makeuseof.com
+   _____________________
+     * Home
+     * Programming
+
+                      How to Parse and Generate HTML in Go
+
+   By Ukeje Chukwuemeriwo Goodness (Goodnessuc)
+   Published Feb 1, 2023
+
+   Parsing and generating HTML is a no-brainer with the help of Golang's html
+   and html/template package.
+
+   The golang mascot, a blue gopher with large eyes, in front of columns of
+   random green symbols.
+   Readers like you help support MUO. When you make a purchase using links on
+   our site, we may earn an affiliate commission. Read More.
+
+   Parsing is analyzing and interpreting a document's structure. The parsing
+   process may include extracting specific elements, attributes, or data from
+   the document and verifying that the document is well-formatted while
+   following specific standards or rules. Parsing is mainly used for
+   extracting data from web pages or manipulating the structure of web pages
+   before displaying them to users.
+
+   Go provides packages for working with documents, including the HTML and
+   XML formats popularly used in webpages. The html package provides
+   functions for tokenizing and parsing HTML.
+
+The HTML Package
+
+   The html package provides an HTML5-compliant tokenizer and parser for
+   parsing and manipulating HTML documents, traversing the parse tree, and
+   manipulating the tree structure. The html package is a built-in package of
+   Go’s standard library.
+
+   One of the main features of the html package is the Parse function that
+   can parse HTML documents and return the root node of the parse tree, from
+   where you can use functions like the FirstChild and NextSibling to
+   navigate the tree and extract information from the document. The package
+   also provides the ParseFragment function for parsing fragments of HTML
+   documents.
+
+   The EscapeString function is handy for escaping special characters in
+   strings for safer inclusion in HTML; you can use this function to prevent
+   cross-site scripting (XSS) attacks by converting special characters to
+   their corresponding HTML entities.
+
+   To get started with the html package, you can import the package into your
+   Go project files.
+
+  import "golang.org/x/net/html"
+ 
+
+   The html package doesn't provide any functions for generating HTML.
+   Instead, you can use html/template package, which offers a set of
+   functions for generating HTML templates. The html/template package
+   provides a function template.HTMLEscape for writing escaped versions of
+   HTML to a response writer.
+
+   The html/template package is also part of the standard library, and here’s
+   how you can import the package.
+
+  import "html/template"
+ 
+
+   The html package is the most popularly used templating package in the Go
+   ecosystem and supports various operations and data types.
+
+Parsing HTML in Go
+
+   The Parse function of the html package helps with parsing HTML text and
+   documents. The Parse function takes in an io.Reader instance as it’s a
+   first argument containing the file document and an *html.Node instance,
+   which is the root node of the HTML document
+
+   Here’s how you can use the Parse function to parse a webpage and return
+   all the URLs on the web page.
+
+  import (
+     "fmt"
+     "golang.org/x/net/html"
+     "net/http"
+ )
+
+ func main() {
+     // Send an HTTP GET request to the example.com web page
+     resp, err := http.Get("https://www.example.com")
+     if err != nil {
+         fmt.Println("Error:", err)
+         return
+     }
+     defer resp.Body.Close()
+
+     // Use the html package to parse the response body from the request
+     doc, err := html.Parse(resp.Body)
+     if err != nil {
+         fmt.Println("Error:", err)
+         return
+     }
+
+     
+     // Find and print all links on the web page
+     var links []string
+     var link func(*html.Node)
+     link = func(n *html.Node) {
+         if n.Type == html.ElementNode && n.Data == "a" {
+             for _, a := range n.Attr {
+                 if a.Key == "href" {
+                     // adds a new link entry when the attribute matches
+                     links = append(links, a.Val)
+                 }
+             }
+         }
+
+         // traverses the HTML of the webpage from the first child node
+         for c := n.FirstChild; c != nil; c = c.NextSibling {
+             link(c)
+         }
+     }
+     link(doc)
+
+     // loops through the links slice
+     for _, l := range links {
+         fmt.Println("Link:", l)
+     }
+ }
+ 
+
+   The main function sends an HTTP GET request to the website with the Get
+   function of the http package and retrieves the page response body. The
+   Parse function of the html package parses the response body and returns
+   the HTML document.
+
+   The links variable is the slice of strings that will hold the URLs from
+   the webpage. The link function takes in the pointer reference to the Node
+   method for the html package, and the Key method of the attribute instance
+   from the node returns data contained in a specified attribute (in this
+   case, href). The function traverses the document with the NextSibling
+   method from the FirstChild node to print every URL on the webpage.
+   Finally, the for loop prints all the URLs from the links slice.
+
+   Here’s the result of the operation.
+
+   result of retrieving links from a webpage
+
+Generating HTML in Go
+
+   The html/template package provides a set of functions for the safe and
+   efficient parsing and execution of HTML templates. The package is designed
+   for use in conjunction with the html package, which provides functions for
+   parsing and manipulating HTML.
+
+   You can generate HTML for server-side rendering with the html/template
+   package. Generating HTML is handy for many use cases like sending emails,
+   server-side frontend rendering, and many more. You get to use built-in Go
+   data types like maps and structs to interact and manipulate the HTML of
+   your webpage.
+
+   You’ll need to understand Go HTML templating syntax to successfully
+   generate HTML with the html/template package.
+
+  import (
+     "html/template"
+     "os"
+ )
+
+ type webPage struct {
+     Title string
+     Heading string
+     Text string
+ }
+
+ func main() {
+     // Define the template
+     tmpl := `
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <title>{{.Title}}</title>
+ </head>
+ <body>
+     <h1>{{.Heading}}</h1>
+     <p>{{.Text}}</p>
+ </body>
+ </html>`
+
+     // Define the data to be used in the template
+     web := webPage{
+         Title: "An Example Page",
+         Heading: "Welcome to my website!",
+         Text: "This is the home page of my website.",
+     }
+
+     // Create a new template and parse the template string
+     t, err := template.New("webpage").Parse(tmpl)
+     if err != nil {
+         panic(err)
+     }
+
+     // Execute the template and write the result to stdout
+     err = t.Execute(os.Stdout, web )
+     if err != nil {
+         panic(err)
+     }
+ }
+ 
+
+   The tmpl variable holds the HTML string. The HTML string uses Go
+   templating syntax to define the page title, an h1 header, and a paragraph
+   of text. The webPage struct defines the data fields for the webpage with
+   the Title, Heading, and Text fields.
+
+   The Parse method of the New function of the template package creates and
+   parses a new template with the template string. The Execute function of
+   the new template instance executes the template with the data from your
+   struct instance and returns the result to the standard output (in this
+   case, it prints the result to the console).
+
+   result from html generation
+
+Build Web Applications With Go
+
+   Learning about parsing and generating HTML with Go is one step in the
+   right direction toward building more sophisticated web applications with
+   Go. You can use frameworks like Gin and Echo and routers like Gorilla Mux
+   and the Chi Router to build the server side of your web application.
+
+   These packages are built on the net/http package (the built-in package for
+   interacting with HTTP in Go) and abstract the complexities of setting up
+   servers and routers in Go.
+
+Upgrade Your Tech IQ With Our Free Newsletters
+
+   _____________________
+   [ Subscribe ]
+
+   By subscribing, you agree to our Privacy Policy and may receive occasional
+   deal communications; you can unsubscribe anytime.
+
+   Comments
+   Share Share Share Share Share
+   Copy
+   Email
+   Share
+   Share Share Share Share Share
+   Copy
+   Email
+   Link copied to clipboard
+   Related Topics
+     * Programming
+     * Web Scraping
+     * HTML
+     * Web Development
+   About The Author
+   Ukeje Chukwuemeriwo Goodness (Goodnessuc) • Staff Writer for Programming
+   (113 Articles Published)
+
+   Goodness is a highly experienced technical writer and backend engineer who
+   specializes in building scalable systems using Go and Rust. With 4 years
+   of industry experience and 3 years of technical writing experience,
+   Goodness has honed his skills in these languages and enjoys sharing his
+   knowledge with the community.
+
+   Aside from his contributions to MUO, Goodness has also written over 200
+   technical articles for reputable companies such as DigitalOcean,
+   LogRocket, MatterMost, and FreeCodeCamp. His writing focuses on topics
+   related to Go, Rust, Web3, data, and backend engineering. Goodness's
+   articles are highly regarded in the industry for their quality, depth, and
+   relevance.
+
+   Goodness's expertise in these areas is supported by his certifications in
+   Go and Rust, as well as his attendance at industry conferences and his
+   efforts to stay up-to-date on the latest trends and technologies. He is a
+   passionate and dedicated professional who is always striving to improve
+   his skills and knowledge.
+
+     * Artificial Intelligence
+
+     * WhatsApp
+
+   A 3D rendered world seen from above. 1
+
+      What Is Google's Imagen AI? How to Access Imagen 2
+
+   2 days ago
+   ChatGPT running on an iPhone 14 Pro 1
+
+      How to Hide Your ChatGPT Conversations Without Deleting Them
+
+   3 days ago
+   Oil painting of green rolling hills created with Midjourney 1
+
+      How to Change the Aspect Ratio in Midjourney
+
+   3 days ago
+   See More
+   Girl holding a smartphone with the WhatsApp app on the screen 1
+
+      How to Make Your Own WhatsApp Stickers on Android and iPhone
+
+   Dec 22, 2023
+   WhatsApp logo 1
+
+      Google Is Ending Unlimited WhatsApp Backups, but You Do Have Options
+
+   Nov 16, 2023
+   WhatsApp logo 1
+
+      You Can Now Start a Discord-Style Voice Chat on WhatsApp
+
+   Nov 16, 2023
+   See More
+
+  Trending Now
+
+   person holding iphone and recording skateboarding video 1
+
+      How to Reverse a Video on Your iPhone
+
+   Samsung QLED TV 1
+
+      The Best QLED TVs of 2024
+
+   apple watch and iphone battery charging 1
+
+      How to Check Battery Health and Battery Usage on Apple Watch
+
+     * Write For Us
+     * Home
+     * Contact Us
+     * Terms
+     * Privacy
+     * Copyright
+     * About Us
+     * Fact Checking Policy
+     * Corrections Policy
+     * Ethics Policy
+     * Ownership Policy
+     * Partnership Disclaimer
+     * Official Giveaway Rules
+   Copyright © 2024 www.makeuseof.com
