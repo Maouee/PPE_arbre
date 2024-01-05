@@ -79,12 +79,13 @@ do
     ## TABLEAU
 
     response=$(curl -s -I -L -w "%{http_code}" -o /dev/null $URL)
-    encoding=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | egrep -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
-
+    #encoding=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | egrep -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
+    encoding="NA"
     contexte="NA"
     compte=0
     concordancier="NA"
     if [ "$response" == "200" ]; then
+        encoding=$(file ../dumps-text/dump-text-${langue}-${compteur}.txt | tr "," "\n" | tail -n1 | tr -d "text")
         compte=$(bash comptage/${langue}.sh ../dumps-text/dump-text-${langue}-${compteur}.txt)
         bash contexte/${langue}.sh $langue $compteur
         contexte="contexte"

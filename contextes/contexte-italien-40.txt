@@ -2,37 +2,24 @@
    progetto di riferimento.
    [IMG]Un albero binario
 
---
-
    In informatica un albero binario è un albero i cui nodi hanno grado
    compreso tra 0 e 2. Per albero si intende un grafo non diretto, connesso e
    aciclico mentre per grado di un nodo si intende il numero di sotto alberi
    del nodo, che è uguale al numero di figli del nodo.
 
---
---
-   del nodo, che è uguale al numero di figli del nodo.
-
    Anche l'albero costituito da un solo nodo e nessun arco si considera un
    albero binario valido, sebbene il grado del nodo in questo caso sia nullo.
 
---
-
    Come nel caso generale degli alberi è possibile individuare (in maniera
-   non unica) un nodo radice: qualunque nodo di grado minore di 3 può essere
---
    non unica) un nodo radice: qualunque nodo di grado minore di 3 può essere
    scelto come radice dell'albero binario. Stabilito un nodo radice è
    possibile costruire delle relazioni di parentela tra nodi: il nodo radice
    non ha padre e può avere 0, 1 o 2 figli, ed ogni nodo è ovviamente padre
---
---
    dei suoi figli. Poiché tutti i nodi tranne la radice hanno un padre, per
    via della limitazione sul grado dei nodi ogni nodo può avere al massimo 2
    figli (da qui il nome "albero binario").
 
    I nodi senza figli vengono detti foglie o nodi terminali; un nodo non
---
 --
 Indice
 
@@ -40,32 +27,24 @@ Indice
      * 2 Implementare gli alberi di ricerca binari su array
      * 3 Implementare gli alberi binari tramite puntatori
           * 3.1 Una semplice implementazione in C
---
-          * 3.1 Una semplice implementazione in C
      * 4 Algoritmi elementari su alberi binari
           * 4.1 Determinazione numero nodi in un albero binario
           * 4.2 Determinazione dell'altezza
           * 4.3 Determinazione della larghezza
 --
---
      * 7 Collegamenti esterni
 
 Implementare gli alberi binari[modifica | modifica wikitesto]
 
---
-
    In questa sezione trattiamo l'implementazione degli alberi binari dal
    punto di vista teorico, facendo ricorso a strutture di programmazione
    generiche; sarà poi compito del programmatore decidere come implementare
---
 --
 
    Esistono vari sistemi, ma il più semplice risulta essere quello che
    utilizza un array che contiene i nodi dell'albero secondo questa logica:
    la radice occupa la prima posizione dell'array e i figli di questa radice
    sono a loro volta nell'array e occupano come posizione (2i) e (2i+1) dove
---
---
    i è la posizione della radice, del padre, dei due figli.
 
    Si fa notare che questa implementazione è ottimale se l'albero è pieno
@@ -73,26 +52,20 @@ Implementare gli alberi binari[modifica | modifica wikitesto]
    due figli, tranne ovviamente le foglie, altrimenti è necessario un flag
    booleano, in realtà un array di accompagnamento, che ci indica se la
 --
---
    accesso e la semplicità di gestione degli elementi della lista, al
    contrario, le operazioni di inserimento e in generale la dimensione
    considerevole di un array di un grande albero giocano a sfavore di questa
    implementazione che risulta essere di conseguenza sconveniente da usare.
 
 --
---
    ricolleghiamo all'immagine di accompagnamento alle due tabelle precedenti.
 
    Profondità di un albero: La radice r ha profondità 0, i suoi figli
    sinistro e destro, hanno profondità 1, i nipoti profondità 2 e così via.
    Quindi se la profondità di un nodo è p i suoi figli non vuoti hanno
---
---
    profondità p+1
 
    Per quanto riguarda l'altezza h di un albero binario è data dalla massima
-   profondità raggiunta dalle sue foglie. Quindi, l'altezza misura la massima
---
    profondità raggiunta dalle sue foglie. Quindi, l'altezza misura la massima
    distanza di una foglia dalla radice dell'albero, in termini di numero di
    archi attraversati. Poiché la definizione di alberi si applica anche ai
@@ -102,66 +75,44 @@ Implementare gli alberi binari[modifica | modifica wikitesto]
    suo sottoalbero più alto, incrementata di uno in quanto la radice
    introduce un ulteriore livello
 
---
---
    h=profondità del più lungo cammino
 
    Nel caso dell'albero nella figura qui sopra, l'altezza h è
    0(foglie)+1(figli radice)+1(radice)=2.
 
---
---
-   0(foglie)+1(figli radice)+1(radice)=2.
-
    Esistono alcune formule per calcolare le caratteristiche degli alberi:
-
---
 
    Log_{2}(n+1)-1 Altezza di un albero binario bilanciato pieno di n nodi    
    2^{{h+1}}-1    Numero massimo di nodi in un albero binario di altezza h   
    h              Altezza o numero minimo di nodi di un albero con altezza h 
    2^{l}          Numero massimo di nodi ad un livello l (elle)              
 
---
---
-   2^{l}          Numero massimo di nodi ad un livello l (elle)              
-
 Implementare gli alberi di ricerca binari su array[modifica | modifica
 wikitesto]
 
---
---
    Se non è necessario effettuare frequentemente operazioni di inserimento e
    cancellazioni o non è affatto necessario effettuarle e non si vuole usare
    troppa memoria è possibile implementare un albero di ricerca binario su un
    array ordinato, con la restrizione che il numero degli elementi sia
    2^{{n}}-1 con n\in \mathbb{N}.
 --
---
    [IMG]
 
    L'immagine sopra mostra un albero di ricerca binario implementato su un
    array ordinato di 15 elementi, si comincia ponendo il centro dell'array
---
-   array ordinato di 15 elementi, si comincia ponendo il centro dell'array
    come radice dell'albero e come sue foglie rispettivamente il centro della
    parte destra dell'array e il centro della parte sinistra dell'array, si
-   continua applicando ricorsivamente il procedimento fino a che non sono
---
---
    continua applicando ricorsivamente il procedimento fino a che non sono
    stati coperti tutti gli elementi. Si ottiene quindi l'equivalente
    dell'albero
 
    [IMG]
 --
---
 
  Ricerca di una chiave
     N:= numero di elementi dell'albero (2^k-1)
     A:= array delle N chiavi ordinate in ordine crescente, A[0], A[1] .. A[N - 1]
     key:= chiave da cercare
---
 --
     nessun risultato
 
@@ -170,25 +121,17 @@ wikitesto]
    ordinati e si sfrutta una algoritmo randomizzato. In una skip list per
    cercare un elemento non facciamo altro che creare nuove liste a partire da
 --
---
    un elemento.
 
 Implementare gli alberi binari tramite puntatori[modifica | modifica wikitesto]
-
---
 
    Un modo semplice per implementare gli alberi binari di ricerca è quello di
    usare i puntatori. Nell'implementazione classica ogni nodo dell'albero
    oltre al suo valore ha un puntatore al figlio destro ed uno al figlio
    sinistro, in questo modo è possibile, partendo dalla radice, discendere
---
---
-   oltre al suo valore ha un puntatore al figlio destro ed uno al figlio
-   sinistro, in questo modo è possibile, partendo dalla radice, discendere
    nell'albero fino ad arrivare alle foglie. Tutti i nodi sono uguali,
    l'unica differenza è che nessun nodo punterà alla radice (infatti la
    radice non è né un figlio destro, né un figlio sinistro), e le foglie non
---
 --
 
  /*************************************************************************************************************
@@ -196,13 +139,11 @@ Implementare gli alberi binari tramite puntatori[modifica | modifica wikitesto]
  * e gestirlo tramite
  * i puntatori che ogni radice ha verso il figlio destro e il figlio sinistro.
 --
---
      struct T *T_l, *T_r;  //E l'altro al figlio destro
  }*tree, dim;
  tree mergetree(int el, tree t1, tree t2){  //Mergetree unisce due alberi
      tree t0 = (tree)malloc(sizeof(dim));
      t0->T_l = t1;
---
 --
      return mergetree(el, NULL, NULL);  //Ogni foglia è formata da un valore e due puntatori nulli
  }
@@ -211,7 +152,6 @@ Implementare gli alberi binari tramite puntatori[modifica | modifica wikitesto]
  }
  tree leftchild(tree t){  //Restituisce il figlio sinistro accedendo alla struttura tree
 --
---
      return t->value;
  }
  tree insert(int el, tree t){  //Si inserisce un intero el, nell'albero t
@@ -219,31 +159,19 @@ Implementare gli alberi binari tramite puntatori[modifica | modifica wikitesto]
          return createleaf(el);
      }
 --
---
     
      int num; //Scansiono il file di interi
      tree albero = NULL;  //Inizializzo l'albero vuoto
     
      while(fscanf(intfile,"%d", &num) != EOF){
---
---
-    
-     while(fscanf(intfile,"%d", &num) != EOF){
          albero=insert(num,albero);
-     }
-    
---
---
      }
     
      printf("*Ho costruito l'albero binario\n\n");
      printf("Cosa vuoi fare adesso?\n");
---
-     printf("Cosa vuoi fare adesso?\n");
      printf("[s]tampare l'albero\n");
      printf("Cercare il [m]inimo\n");
      printf("Cercare il [M]assimo\n");
---
 --
      while((tmp = getchar()) != 'u'){
          switch (tmp){
@@ -251,33 +179,22 @@ Implementare gli alberi binari tramite puntatori[modifica | modifica wikitesto]
                   showtree(albero);
                   printf("\n");
              break;
---
---
             
              case 'm':  //Stampa a video il valore minimo
                   printf("Il valore minimo dell'albero binario è %d\n", mintree(albero));
              break;
-            
---
---
             
              case 'M':  //Stampa a video il valore massimo
                   printf("Il valore massimo dell'albero binario è %d\n", maxtree(albero));
              break;
             
 --
---
  }
 
 Algoritmi elementari su alberi binari[modifica | modifica wikitesto]
 
---
-
   Determinazione numero nodi in un albero binario[modifica | modifica wikitesto]
 
- INIZIO
---
---
  INIZIO
 
  NumeroNodi (radice albero)
@@ -285,17 +202,13 @@ Algoritmi elementari su alberi binari[modifica | modifica wikitesto]
         return 0;
      return (NumeroNodi(figlio sinistro)+NumeroNodi(figlio destro))+1;
 --
---
  INIZIO
 
  Altezza (radice albero)
 
---
-
      Se radice albero  ==  NULL  ( se l'albero è vuoto)
             return 0;
      valoreAltezzaSinistra = Altezza(figlio sinistro);
---
 --
   Determinazione della larghezza[modifica | modifica wikitesto]
 
@@ -303,28 +216,17 @@ Algoritmi elementari su alberi binari[modifica | modifica wikitesto]
    giacenti al medesimo livello.
 
 --
---
    uguali a zero; la funzione WrapperLarghezza è deputata al passaggio
    corretto dei parametri alla funzione ricorsiva Larghezza , che ritorna il
    valore massimo contenuto nel vettore, cioè la larghezza dell'albero.
 
  INIZIO
---
---
- INIZIO
 
  WrapperLarghezza(radice albero)
 
      Inizializzazione array livelli;
---
---
-
-     Inizializzazione array livelli;
      Larghezza(radice albero,array livelli,0);
      larghezza = CercaMassimoVettore(array livelli);
-     return larghezza;
---
---
      return larghezza;
 
  Larghezza (radice albero,array livelli,livellocorrente)
@@ -332,14 +234,10 @@ Algoritmi elementari su alberi binari[modifica | modifica wikitesto]
          return;
     
 --
---
 
      * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
        altri file sull'albero binario
 
-Collegamenti esterni[modifica | modifica wikitesto]
---
---
 Collegamenti esterni[modifica | modifica wikitesto]
 
      * * albero binario, in Enciclopedia della Matematica, Istituto

@@ -19,7 +19,7 @@
      * Recent changes
      * Upload file
    Languages
-   Language links are at the top of the page across from the title.
+   Language links are at the top of the page.
    [IMG] Wikipedia The Free Encyclopedia
    Search
    _____________________
@@ -477,10 +477,11 @@ External links[edit]
                             * simplified                 
                        * Ancient                         
                             * Spring and Autumn period   
-            China           * Warring States             
-                       * Early                           
+                            * Warring States             
+            China      * Early                           
                        * Middle                          
                        * Late                            
+                       * Kong (Confucius)                
                        * Monarchs                        
                        * Johor                           
                        * Kedah                           
@@ -785,7 +786,7 @@ External links[edit]
                  * İslâm Ansiklopedisi               
 
    Retrieved from
-   "https://en.wikipedia.org/w/index.php?title=Family_tree&oldid=1187518900"
+   "https://en.wikipedia.org/w/index.php?title=Family_tree&oldid=1193709608"
    Categories:
      * Family trees
      * Genealogy
@@ -802,7 +803,7 @@ External links[edit]
      * Articles with NKC identifiers
      * Articles with EMU identifiers
      * Articles with TDVİA identifiers
-     * This page was last edited on 29 November 2023, at 19:37 (UTC).
+     * This page was last edited on 5 January 2024, at 06:28 (UTC).
      * Text is available under the Creative Commons Attribution-ShareAlike
        License 4.0; additional terms may apply. By using this site, you agree
        to the Terms of Use and Privacy Policy. Wikipedia® is a registered

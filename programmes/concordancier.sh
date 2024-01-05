@@ -18,9 +18,9 @@ echo "      <body>
         
 while read -e line;do
     # "$line" entre guillemets pour garder les tabs. Sinon les tabs sont interprétés comme des espaces et son collapsed.
-    contexte_gauche=$(echo -n "$line" | cut -f 1 -d '_')
-    contexte_droit=$(echo  -n "$line" | cut -f 3 -d '_')
-    mot=$(echo  -n "$line" | cut -f 2 -d '_')
+    contexte_gauche=$(echo -n "$line" | cut -f 1 -d '§')
+    contexte_droit=$(echo  -n "$line" | cut -f 3 -d '§')
+    mot=$(echo  -n "$line" | cut -f 2 -d '§')
 
 # if [ -n "$contexte_gauche" ] && [ -n "$contexte_droit" ] && [ -n "$mot" ]; then
     echo "              <tr>

@@ -212,7 +212,7 @@
 
    Updated on: 26-Oct-2023
 
-   18K+ Views
+   20K+ Views
 
      * Related Articles
      * What is the difference between Parse Tree and the Syntax Tree?
@@ -279,4 +279,4 @@
 
      * Tutorials Point India Private Limited, Incor9 Building, Kavuri Hills,
        Madhapur, Hyderabad, Telangana - 500081, INDIA
-     * *  *  *  * © Copyright 2023. All Rights Reserved.
+     * *  *  *  * © Copyright 2024. All Rights Reserved.

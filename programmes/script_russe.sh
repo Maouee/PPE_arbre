@@ -80,17 +80,18 @@ do
     #récupère la valeur du code de réponse http
     response=$(curl -s -I -L -w "%{http_code}" -o /dev/null $URL)
     # récupère l'encodage
-    encoding=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | egrep -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
+    encoding="NA"
     # par défaut les valeurs sont nulles
     contexte="NA"
     compte=0
     concordancier="NA"
     if [ "$response" == "200" ]; then
+        encoding=$(file ../dumps-text/dump-text-${langue}-${compteur}.txt | tr "," "\n" | tail -n1 | tr -d "text")
         compte=$(bash comptage/${langue}.sh ../dumps-text/dump-text-${langue}-${compteur}.txt)
         bash contexte/${langue}.sh $langue $compteur
         contexte="contexte"
         # Récupère les occurences du mot avec contexte gauche et droit au format tsv
-        grep -o -i -P "(\p{Cyrillic}+\s){0,5}(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))(\s\p{Cyrillic}+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))/_\1_/g' > ../Concordances/concordances-${langue}-${compteur}.txt
+        ggrep -o -i -P "(\p{Cyrillic}+\s){0,5}(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))(\s\p{Cyrillic}+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))/§\1§/g' > ../Concordances/concordances-${langue}-${compteur}.txt
         bash concordancier.sh ../Concordances/concordances-${langue}-${compteur}.txt ${langue} ${compteur}
         concordancier="concordancier"
     fi

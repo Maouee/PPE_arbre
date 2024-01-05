@@ -1,17 +1,7 @@
    Link: canonical
    Link: shortlink
-
-   marketing@agrimag.it
-
-   +39 0883 349706
-
-   Il mio account
-   Products search _____________________
-   Spese di spedizione Team Laboratori
-   Offerte
-   Spedizione gratuita*
-   Account
-     * Agrofarmaci
+   [IMG]
+     * Agrofarmaci[ Submit ]
           * Acaricidi
           * Coadiuvanti
           * Erbicidi – Diserbanti
@@ -19,8 +9,8 @@
           * Fitoregolatori
           * Insetticidi
           * Nematocidi
-     * Concimi
-          * A base di:
+     * Concimi[ Submit ]
+          * A base di:[ Submit ]
                * Tutti i Concimi
                * Concimi a base di Calcio
                * Concimi a base di Boro
@@ -30,13 +20,13 @@
                * Concimi a base di Zinco
                * Concimi a base di Zolfo
                * Concimi a base di Sangue
-          * Tipologie
+          * Tipologie[ Submit ]
                * Concime Fogliare
                * Concime Liquido
                * Concime Minerale
                * Concime Organo-minerale
                * Concimi Ammessi in agricoltura biologica
-     * Biospecialità
+     * Biospecialità[ Submit ]
           * Sostanze di Base
           * Bioprotek
           * Biostimolanti
@@ -44,96 +34,71 @@
           * Corroboranti
           * Micorrize
           * Oli Essenziali
-     * Biocontrollo
+     * Biocontrollo[ Submit ]
           * Biopesticidi
           * Confusione sessuale
           * Monitoraggio
           * Fitoseidi
-   agrimag
-
-   Produzione Propria Italiana
-
-     * Stock a Bancale
-     * Offerte
-     * Blog
-   Logo Agrimag Bio
-     * Offerte
-
-     * SKL (Produzione Propria)
-
-     * Agrofarmaci
-
-          * Insetticidi
-
-          * Fungicidi
-
+   _____________________
+   [IMG]
+   0 Items
+   0,00 €
+     * Fitosanitari[ Submit ]
           * Acaricidi
-
-          * Nematocidi
-
-          * Diserbo
-
-          * Fitoregolatori
-
           * Coadiuvanti
-
-     * Concimi
-
-          * Minerali
-
-          * Organici
-
-          * Organo-Minerali
-
-          * Liquidi
-
-          * Fogliari
-
-          * Ammessi in Bio
-
-          * A base di Rame
-
-          * A base di Calcio
-
-          * A base di Magnesio
-
-          * A base di Zolfo
-
-     * Biospecialità
-
-          * Sostanze di Base
-
-          * Corroboranti
-
+          * Erbicidi – Diserbanti
+          * Fitoregolatori
+          * Fungicidi
+          * Insetticidi
+          * Nematocidi
+     * Fitosanitari Bio[ Submit ]
+          * Acaricidi Bio
+          * Coadiuvanti Bio
+          * Erbicidi – Diserbanti Bio
+          * Fitoregolatori Bio
+          * Fungicidi Bio
+          * Insetticidi Bio
+          * Nematocidi Bio
+     * Nutrizione[ Submit ]
+          * Bio[ Submit ]
+               * Suolo
+               * Fogliare
+               * Fertirrigazione
+          * Per Tutti[ Submit ]
+               * Suolo No Bio
+               * Fertirrigazione No Bio
+               * Fogliare No Bio
+     * Biospecialità[ Submit ]
+          * Bioprotek
           * Biostimolanti
-
-          * Complessati
-
-          * Micorrize
-
-          * BioProtek
-
+          * Complex
+          * Corroboranti
           * Oli Essenziali
-
-     * Biocontrollo
-
-          * Confusione sessuale
-
-          * Monitoraggio
-
+          * Sostanze di Base
+          * Micorrize
+     * Biocontrollo[ Submit ]
           * Biopesticidi
-
+          * Confusione sessuale
+          * Monitoraggio
           * Fitoseidi
+     * Offerte
+     * Bancali
 
-     * Blog
+Nuovo cliente?
 
-     * Video
+   Registrati per accedere con le tue credenziali e per monitoriare gli
+   ordini.
+   Clicca qui per registrarti:
 
-     * Spese di spedizione
+  REGISTRATI
 
-     * Termini e Condizioni
+   Nome utente _____________________
 
-   Products search _____________________
+   Password _____________________
+
+   Hai dimenticato la password?
+
+   Accedi
 
                Albero fiori bianchi: Tutto quello che devi sapere
 
@@ -459,9 +424,9 @@ LA NOSTRA AZIENDA
    Spese di Spedizione
 
    © Copyright 2023. Tutti i diritti sono riservati
-   
+   
 
-    Home
+    Stock
 
    
 
@@ -529,20 +494,7 @@ LA NOSTRA AZIENDA
    base e le caratteristiche di sicurezza del sito web, in modo anonimo.
    ACCETTA E SALVA
 
-OFFERTA SPECIALE
-
-                       Glifosate Erbicida 360g/lt x 20 lt
-
-   Erbicida Diserbante a base di Glifosate 360g/lt ad azione fogliare,
-   sistemico, non selettivo e non residuale
-
-     * Spediamo Roundup, Shamal, Pantox o Satelite a seconda delle disponibilità
-  del nostro store.
-
-     * Il costo del Glifosate, ritirato direttamente presso uno dei nostri punti
-  vendita è di 100€ iva inclusa.
-
-  ACQUISTA ORA
+ACQUISTA ORA
 
    _____________________
 

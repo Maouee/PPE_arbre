@@ -3,14 +3,9 @@
    associato un albero di costruzione, o albero sintattico, che è un albero
    etichettato finito binario.
 
---
---
-   etichettato finito binario.
-
    Un albero finito è un insieme \(X\) parzialmente ordinato, cioè con una
    relazione binaria \(\preceq\) definita su \(X\), con le seguenti
    proprietà:
---
 --
        radice.
 
@@ -18,40 +13,28 @@
 
      * Ogni nodo che non sia una foglia ha uno o al massimo due successori
 --
---
        \preceq c \preceq b\), con \(c \neq a\) e \(c \neq b\).
 
    La rappresentazione usuale di un albero binario è di questo tipo, dove la
    radice è in alto e l’albero cresce verso il basso:
 
---
-
    Didascalia figura: Esempio di rappresentazione di albero binario. I nodi
    sono disposti su quattro righe. Nell prima riga si trova la radice (un
    unico nodo). Nella seconda riga ci sono due nodi connessi con la radice.
---
 --
    Un ramo è un insieme totalmente ordinato di nodi che va dalla radice a una
    foglia. La sua lunghezza è il numero di nodi che vi appartengono.
    L’altezza dell’albero è la massima lunghezza dei suoi rami.
 
---
-
    Un albero si dice etichettato se ad ogni nodo è associato un elemento di
    qualche insieme prefissato, che si chiama etichetta (label). Le etichette
-   si possono sovrapporre ed identificare con i nodi.
---
---
    si possono sovrapporre ed identificare con i nodi.
 
    Costruzione dell’albero sintattico
 
---
-
    Algoritmo per costruire l’albero sintattico L’albero sintattico di una
    proposizione \(\mathrm{P}\) è definito in questo modo:
 
---
 --
 
    Questo descrive un algoritmo che, partendo dalla radice etichettata con la
@@ -59,27 +42,20 @@
    applicando ripetutamente la condizione 2 ai nodi costruiti al passo
    precedente.
 --
---
    Esempio
 
    L’albero sintattico di \(( ( ( \mathrm{A} ) \wedge ( \neg ( \mathrm{B} ) )
    ) \rightarrow ( \neg ( \mathrm{A} ) ) )\) è il seguente:
 
 --
---
    \neg ( \mathrm {B} ) ) ) \rightarrow ( \neg ( \mathrm {A} ) ) ) \)
 
    L’albero è completo perchè tutte le sue foglie sono etichettate con
    proposizioni atomiche (quindi l’algoritmo termina).
 
---
---
-   proposizioni atomiche (quindi l’algoritmo termina).
-
      * Le etichette dei nodi dell’albero di costruzione di una proposizione
        sono le sue sottoproposizioni.
 
---
 --
        sono le lettere che occorrono nella proposizione.
 
@@ -87,13 +63,11 @@
    proposizione \(\mathrm{P}\) è definito in questo modo:
 
 --
---
 
    Le parentesi sono essenziali per individuare il connettivo principale di
    una proposizione, e quindi per costruire il suo albero sintattico.
 
    Contatore di parentesi Consideriamo la stringa \[(((\neg ( \mathrm{A} ))
---
 --
 
    Le parentesi sono essenziali per individuare il connettivo principale di
@@ -101,38 +75,28 @@
 
    Come si individua il connettivo principale? Sia \(P\) una proposizione non
 --
---
        )))\)
 
    Algoritmo per costruire l’albero sintattico L’albero sintattico di una
    proposizione \(\mathrm{P}\) è definito in questo modo:
 
 --
---
    Se invece questo non accade mai, dopo un certo numero di passi tutti i
    nodi privi di successori saranno etichettati con proposizioni atomiche:
    l’algoritmo quindi termina e quello costruito è l’albero sintattico di
-   \(\mathrm{P}\).
-
---
---
    \(\mathrm{P}\).
 
    Dunque l’algoritmo per la costruzione dell’albero sintattico permette di
 
      * determinare se la stringa \(\mathrm{P}\) che viene data come input è
 --
---
        \(\mathrm{P}\).
 
    Inoltre, l’albero sintattico permette anche di determinare l’altezza della
    proposizione \(\mathrm{P}\): infatti, si dimostra facilmente per induzione
---
-   proposizione \(\mathrm{P}\): infatti, si dimostra facilmente per induzione
    strutturale che \(ht(\mathrm{P})\) coincide con l’altezza del suo albero
    di costruzione diminuita di una unità, ovvero con la massima lunghezza di
    un cammino che congiunga la radice a un nodo terminale.
---
 --
    Sia \(\mathrm{P}\) la proposizione \(( ( ( \mathrm{A} ) \wedge ( \neg (
    \mathrm{B} ) ) ) \rightarrow ( \neg ( \mathrm{A} ) ) )\). Abbiamo visto
@@ -140,20 +104,15 @@
 
    Didascalia figura: Albero sintattico della proposizione \( ( ( ( \mathrm
 --
---
    ) ) \)
 
    Siccome l’altezza dell’albero è \(4\), l’altezza della proposizione
    \(ht(\mathrm{P})\) è \(4-1\), ovvero \(3\).
 
---
---
-
    Esercizio Verificare quali delle seguenti stringhe sono proposizioni e
    quali no, costruendone l’albero sintattico e spiegando dove eventualmente
    la costruzione fallisce e per quale ragione:
 
---
 --
        (\neg ( \mathrm{C} ) ) ) ) ) )\)
 
@@ -161,13 +120,11 @@
    in cui sono state omesse le parentesi seguendo le convenzioni stabilite.
 
 --
---
    Esempio
 
    L’albero sintattico di \(\mathrm{A} \wedge \neg \mathrm{B} \rightarrow
    \neg \mathrm{A}\) è il seguente, essendo \(\rightarrow\) il connettivo
    principale:
---
 --
    \mathrm{B} \rightarrow \neg \mathrm{A}\)
 
@@ -175,20 +132,17 @@
    foglie con le formule atomiche, e tutti gli altri nodi con il solo
    connettivo che serve per costruire la (sotto)proposizione corrispondente a
 --
---
    Esempio
 
    L’albero sintattico di \((\mathrm{A} \wedge \neg \mathrm{B}) \vee \neg
    \mathrm{A}\)
 
 --
---
        \mathrm{B}\)
 
    Costruire l’albero sintattico delle seguenti formule (in cui sono state
    omesse alcune parentesi secondo le convenzioni adottate).
 
---
 --
        \mathrm{D})]\)
 

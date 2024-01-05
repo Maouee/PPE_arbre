@@ -2,34 +2,21 @@
 
    Un albero sintattico o concreto è un albero che rappresenta la struttura
    sintattica di una stringa in accordo a determinate forme grammaticali. Un
---
-   sintattica di una stringa in accordo a determinate forme grammaticali. Un
    programma che produce quest'albero viene chiamato parser. Gli alberi
    sintattici possono essere generati per frasi delle lingue naturali
    attraverso l'elaborazione del linguaggio naturale, così come durante
---
---
    l'elaborazione di linguaggi formali e di linguaggi di programmazione.
 
    La struttura ad albero è stata mutuata dalla teoria dei grafi per
-   rappresentare l'idea intuitiva che le frasi delle lingue naturali possono
-   essere segmentate in unità più piccole.^[1] È detto "indicatore
---
---
    rappresentare l'idea intuitiva che le frasi delle lingue naturali possono
    essere segmentate in unità più piccole.^[1] È detto "indicatore
    sintagmatico" ogni rappresentazione (ad albero o per mezzo di parentesi)
    dei sintagmi di una frase.^[2]
 
 --
---
 Caratteristiche[modifica | modifica wikitesto]
 
    [IMG]Un semplice albero sintattico della frase inglese «John ha colpito la
-   palla».
-
---
---
    palla».
 
    Un albero sintattico è composto da nodi e rami. La figura a fianco è un
@@ -37,14 +24,9 @@ Caratteristiche[modifica | modifica wikitesto]
    lingua inglese. Nel disegno, l'albero sintattico è l'intera struttura che
    parte da S e termina in ognuna delle foglie (John, ball, the, hit).
 
---
---
-   parte da S e termina in ognuna delle foglie (John, ball, the, hit).
-
    Nell'albero sono usate le seguenti abbreviazioni:
 
      * S sta per la frase, la struttura top-level in questo esempio;
---
 --
      * N sta per sostantivo.
 
@@ -52,13 +34,11 @@ Caratteristiche[modifica | modifica wikitesto]
    o un nodo foglia. Nell'esempio precedente, S è il nodo radice, NP e VP
    sono nodi rami, mentre John, ball, the e hit sono tutti foglie.
 --
---
 Note[modifica | modifica wikitesto]
 
     1. ^ Beccaria, Lemma albero.
     2. ^ Cfr. il lemma corrispondente sul dizionario De Mauro.
 
---
 --
 
      * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o

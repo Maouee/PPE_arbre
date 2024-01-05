@@ -1,7 +1,6 @@
 differenza tra §albero§ binario e §albero§ di ricerca binario
 differenza tra §albero§ binario e §albero§ di ricerca binario
 §albero§ binario
-§albero§ binario
 un §albero§ binario
 in un §albero§ binario contiene tre nodi che
 §albero§ sinistro
@@ -9,7 +8,6 @@ in un §albero§ binario contiene tre nodi che
 in alto nell’§albero§
 un §albero§ vuoto
 tipi di §alberi§ binari basati sulla struttura
-§albero§ binario radicato
 §albero§ binario radicato
 §albero§ binario completo
 ogni nodo dell’§albero§ non ha nessuno o almeno
@@ -27,8 +25,6 @@ foglie a destra dell’§albero§ hanno i valori pi
 tipi di §albero§ di ricerca binario
 differenza tra §albero§ binario e §albero§ di ricerca binario
 differenza tra §albero§ binario e §albero§ di ricerca binario
-confronto di §albero§ binario
-§albero§ di ricerca binario
 confronto di §albero§ binario
 §albero§ di ricerca binario
 l’§albero§ binario

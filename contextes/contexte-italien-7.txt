@@ -3,12 +3,9 @@
    [IMG]Schema di un albero di maestra generico [IMG]Il vascello britannico
    H.M.S. Victory alla fonda a Portsmouth: l'albero di maestra sta al centro
 
---
-
    L'albero di maestra è l'albero maggiore delle navi a vela. Solitamente è
    costituito da quattro parti ben distinte; partendo dal basso si ha:
 
---
 --
      * Alberetto di controvelaccio (4)
 
@@ -16,13 +13,11 @@
    trovano i rispettivi pennoni (più uno volante); partendo sempre dal basso:
 
 --
---
      * Pennone di controvelaccio (V)
 
    I nomi delle vele inferite sull'albero di maestra prendono il nome dai
    rispettivi pennoni:
 
---
 --
 
      * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o

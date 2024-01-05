@@ -7,8 +7,8 @@
                     * 1.4.2.6 North America
           * 1.5 1935 to present
                * 1.5.1 Public Christmas trees
+                    * 1.5.1.1 Gallery
      * 2 Customs and traditions
-          * 2.1 Setting up and taking down
 --
      * 3 Symbolism and interpretations
      * 4 Production
@@ -21,16 +21,16 @@
 
                                  Christmas tree
 
-   [ ] 101 languages
+   [ ] 102 languages
 --
+     * Wikimedia Commons
    From Wikipedia, the free encyclopedia
-
    For other uses, see Christmas tree (disambiguation).
 
    Christmas tree decorated with lights, stars and glass balls. Wrapped
    presents are under treeChristmas tree decorated with lights, stars, and
-   glass balls [IMG]Glade jul by Viggo Johansen (1891) [IMG]Family decorating
-   Christmas tree (c. 1970s)
+   glass balls [IMG]Glade jul by Viggo Johansen (1891) [IMG]Typical North
+   American family decorating Christmas tree (c. 1970s)
 
    A Christmas tree is a decorated tree, usually an evergreen conifer, such
    as a spruce, pine or fir, or an artificial tree of similar appearance,
@@ -63,9 +63,9 @@
    The Christmas tree is sometimes compared with the "Yule-tree", especially
    in discussions of its folkloric origins.^[12]^[13]^[14]
 
-History
+History[edit]
 
-  Origin of the modern Christmas tree
+  Origin of the modern Christmas tree[edit]
 
    [IMG]Martin Luther is depicted with his family and friends in front of a
    Christmas tree on Christmas Eve
@@ -78,13 +78,13 @@ History
    tree.^[15]^[16]^[17] The Christmas tree was first recorded to be used by
    German Lutherans in the 16th century, with records indicating that a
    Christmas tree was placed in the Cathedral of Strasbourg in 1539, under
-   the leadership of the Protestant Reformer, Martin Bucer.^[18]^[19] The
+   the leadership of the Protestant Reformer Martin Bucer.^[18]^[19] The
    Moravian Christians put lighted candles on those trees."^[5]^[20] The
    earliest known firmly dated representation of a Christmas tree is on the
    keystone sculpture of a private home in Turckheim, Alsace (then part of
    the Holy Roman Empire of the German Nation, today France), with the date
 --
-  Possible predecessors
+  Possible predecessors[edit]
 
    Modern Christmas trees have been related to the "tree of paradise" of
    medieval mystery plays that were given on 24 December, the commemoration
@@ -171,15 +171,15 @@ History
    present-day, the churches and homes of Protestants and Catholics feature
    both Christmas cribs and Christmas trees.^[36]
 
-    Poland
+    Poland[edit]
 --
    Eve. Beginning in the mid-19th century, the tradition over time was almost
    completely replaced by the later German practice of decorating a standing
    Christmas tree.^[40]
 
-  18th to early 20th centuries
+  18th to early 20th centuries[edit]
 --
-    Adoption by European nobility
+    Adoption by European nobility[edit]
 
    [IMG]German Christmas tree, book illustration (1888)
 
@@ -196,9 +196,9 @@ History
    fairy tale called The Fir-Tree in 1844, recounting the fate of a fir tree
    being used as a Christmas tree.^[42]
 
-    Adoption by country or region
+    Adoption by country or region[edit]
 --
-      Germany
+      Germany[edit]
 
    [IMG]A German Christmas tree in a room at Versailles turned into a
    military hospital
@@ -304,7 +304,7 @@ History
    from 20 cm (7.9 in) to 3 meters (9.8 ft). Chichilakis are most common in
    the Guria and Samegrelo regions of Georgia near the Black Sea, but they
 --
-      The Bahamas
+      The Bahamas[edit]
 
    The earliest reference of Christmas trees being used in The Bahamas dates
    to January 1864 and is associated with the Anglican Sunday Schools in
@@ -367,18 +367,16 @@ History
    Lancaster to also lay claim to the first Christmas tree in America.^[82]
    Other accounts credit Charles Follen, a German immigrant to Boston, for
    being the first to introduce to America the custom of decorating a
-   Christmas tree.^[83] August Imgard, a German immigrant living in Wooster,
-   Ohio, is said to be the first to popularize the practice of decorating a
-   tree with candy canes.^[citation needed] In 1847, Imgard cut a blue spruce
-   tree from a woods outside town, had the Wooster village tinsmith construct
-   a star, and placed the tree in his house, decorating it with paper
-   ornaments, gilded nuts and Kuchen.^[84] German immigrant Charles
-   Minnigerode accepted a position as a professor of humanities at the
+   Christmas tree.^[83] In 1847, August Imgard, a German immigrant living in
+   Wooster, Ohio cut a blue spruce tree from a woods outside town, had the
+   Wooster village tinsmith construct a star, and placed the tree in his
+   house, decorating it with paper ornaments, gilded nuts and Kuchen.^[84]
+   German immigrant Charles Minnigerode accepted a position as a professor of
 --
-   taught Latin and Greek. Entering into the social life of the Virginia
-   Tidewater, Minnigerode introduced the German custom of decorating an
-   evergreen tree at Christmas at the home of law professor St. George
-   Tucker, thereby becoming another of many influences that prompted
+   1842, where he taught Latin and Greek. Entering into the social life of
+   the Virginia Tidewater, Minnigerode introduced the German custom of
+   decorating an evergreen tree at Christmas at the home of law professor St.
+   George Tucker, thereby becoming another of many influences that prompted
    Americans to adopt the practice at about that time.^[85] An 1853 article
    on Christmas customs in Pennsylvania defines them as mostly "German in
    origin", including the Christmas tree, which is "planted in a flower pot
@@ -398,32 +396,25 @@ History
      * Copy of an 1848 engraving of the British royal family with their tree,
        modified and widely published in American magazine Godey's Lady's
        Book, 1850.
-
        Copy of an 1848 engraving of the British royal family with their tree,
        modified and widely published in American magazine Godey's Lady's
        Book, 1850.
-
      * First published image of a Christmas tree, frontispiece to Hermann
        Bokum's 1836 The Stranger's Gift
-
        First published image of a Christmas tree, frontispiece to Hermann
        Bokum's 1836 The Stranger's Gift
-
      * The Christmas tree by Winslow Homer, 1858
-
        The Christmas tree by Winslow Homer, 1858
-
      * Christmas in the Netherlands, c. 1899
---
+       Christmas in the Netherlands, c. 1899
+     * Illustration for Harper's Bazaar, published 1 January 1870
        Illustration for Harper's Bazaar, published 1 January 1870
-
      * Christmas tree depicted as Christmas card by Prang & Co. (Boston) 1880
-
        Christmas tree depicted as Christmas card by Prang & Co. (Boston) 1880
-
      * Vera Komissarzhevskaya as Nora in Ibsen's A Doll's House (c. 1904).
+       Photo by Elena Mrozovskaya.
 --
-  1935 to present
+  1935 to present[edit]
 
    Under the state atheism of the Soviet Union, the Christmas tree, along
    with the entire celebration of the Christian holiday, was banned in that
@@ -440,30 +431,19 @@ History
 
      * 1935 to present
      * A Christmas tree from 1951, in a home in New York state
-
        A Christmas tree from 1951, in a home in New York state
-
      * Christmas tree with presents
-
        Christmas tree with presents
-
      * Christmas Tree in the cozy room at the Wisconsin Governor's mansion.
---
        Christmas Tree in the cozy room at the Wisconsin Governor's mansion.
-
      * A Soviet-era (1960s) New Year tree decoration depicting a cosmonaut
-
        A Soviet-era (1960s) New Year tree decoration depicting a cosmonaut
-
      * Christmas Trees in church
---
        Christmas Trees in church
+     * A Chrismon tree (St. Alban's Anglican Cathedral, Oviedo, Florida)
+       A Chrismon tree (St. Alban's Anglican Cathedral, Oviedo, Florida)
 
-     * A chrismon tree (St. Alban's Anglican Cathedral, Oviedo, Florida)
-
-       A chrismon tree (St. Alban's Anglican Cathedral, Oviedo, Florida)
-
-    Public Christmas trees
+    Public Christmas trees[edit]
 
    [IMG]An early example of public Christmas tree for the children of
    unemployed parents in Prague (Czech Republic), 1931
@@ -511,90 +491,58 @@ History
    from Nazi occupation.^[96] Norway also annually gifts a Christmas tree to
    Washington, D.C. as a symbol of friendship between Norway and the US and
    as an expression of gratitude from Norway for the help received from the
-   US during World War II.^[97]
+--
+      Gallery[edit]
 
      * Public Christmas trees
-     * Wire frame Christmas tree in Piazza del Duomo, Milan, Italy
-
-       Wire frame Christmas tree in Piazza del Duomo, Milan, Italy
-
      * Christmas tree in Vatican City.
-
        Christmas tree in Vatican City.
-
+     * Christmas tree in Galleria Vittorio Emanuele II, Milan, Italy.
+       Christmas tree in Galleria Vittorio Emanuele II, Milan, Italy.
      * Christmas tree in Salerno old town, Italy.
-
        Christmas tree in Salerno old town, Italy.
-
      * Trafalgar Square Christmas tree, London, United Kingdom.
-
        Trafalgar Square Christmas tree, London, United Kingdom.
-
      * Christmas tree on Minin and Pozharsky Square. Nizhny Novgorod, Russia
-
        Christmas tree on Minin and Pozharsky Square. Nizhny Novgorod, Russia
-
      * Rockefeller Center Christmas Tree, New York City, New York, US
---
        Rockefeller Center Christmas Tree, New York City, New York, US
-
      * Christmas tree and Metropolitan Cathedral at Mexico City's zócalo.
-
        Christmas tree and Metropolitan Cathedral at Mexico City's zócalo.
-
+     * Christmas tree in Catania, Italy.
+       Christmas tree in Catania, Italy.
      * Christmas tree front of the Turku Cathedral in Turku, Finland.
-
        Christmas tree front of the Turku Cathedral in Turku, Finland.
-
      * Christmas tree on the Römerberg in Frankfurt, Germany.
-
        Christmas tree on the Römerberg in Frankfurt, Germany.
-
      * Lisbon, Portugal, 75 metres (246 feet) Christmas tree.
-
        Lisbon, Portugal, 75 metres (246 feet) Christmas tree.
-
      * Official Christmas Tree of Boston Massachusetts, US.
---
        Official Christmas Tree of Boston Massachusetts, US.
-
      * An illuminated Christmas tree in Madrid.
-
        An illuminated Christmas tree in Madrid.
-
      * Christmas tree in Warsaw, Poland.
-
        Christmas tree in Warsaw, Poland.
-
      * Christmas tree in Stockholm at the NK department store
-
        Christmas tree in Stockholm at the NK department store
-
      * Christmas trees in Ocean Terminal, Harbour City, Hong Kong
-
        Christmas trees in Ocean Terminal, Harbour City, Hong Kong
-
      * Christmas tree in Lugano, Switzerland.
-
        Christmas tree in Lugano, Switzerland.
-
      * Christmas tree in Vilnius old town, Lithuania.
-
        Christmas tree in Vilnius old town, Lithuania.
-
      * Christmas tree in Bethlehem, Palestine, behind it Church of the
        Nativity.
-
        Christmas tree in Bethlehem, Palestine, behind it Church of the
        Nativity.
-
      * Christmas tree, Plaza, Las Cruces, New Mexico, US
-
        Christmas tree, Plaza, Las Cruces, New Mexico, US
+     * Christmas tree in Budapest, Corinthia Hotel
+       Christmas tree in Budapest, Corinthia Hotel
 
-Customs and traditions
+Customs and traditions[edit]
 --
-  Setting up and taking down
+  Setting up and taking down[edit]
 
    [IMG]Adding decorations to tree
 
@@ -637,25 +585,21 @@ Customs and traditions
 
      * Types of ornaments
 --
+     * Cloth cotton batting ornament
        Cloth cotton batting ornament
-
      * Imitation tree snow
-
        Imitation tree snow
-
      * Straw ornaments
+       Straw ornaments
 --
+     * String of tinsel
        String of tinsel
-
      * Stringing lights on tree
-
        Stringing lights on tree
-
      * Squirrel eating popcorn and cranberry garland off Christmas tree
-
        Squirrel eating popcorn and cranberry garland off Christmas tree
 
-Symbolism and interpretations
+Symbolism and interpretations[edit]
 
    The earliest legend of the origin of a fir tree becoming a Christian
    symbol dates back to 723 AD, involving Saint Boniface as he was
@@ -678,7 +622,7 @@ Symbolism and interpretations
    candles or lights on the tree represent Christ as the light of the
    world.^[6]^[109]
 
-Production
+Production[edit]
 
    See also: Christmas tree production
    [IMG]A large scale Christmas tree farm in the United States
@@ -696,7 +640,7 @@ Production
    and a further $1.86 billion for artificial trees. In Europe, 75 million
    trees worth €2.4 billion ($3.2 billion) are harvested annually.^[111]
 
-  Natural trees
+  Natural trees[edit]
 
    See also: Christmas tree cultivation
 
@@ -779,7 +723,7 @@ Production
    well as the cultivation and how the trees are tended by the Christmas tree
    farmer.^[116]
 
-  Artificial trees
+  Artificial trees[edit]
 
    Main article: Artificial Christmas tree
    [IMG]An artificial Christmas tree
@@ -827,30 +771,19 @@ Production
 
      * Artificial trees
      * A tree with fibre optic lights
-
        A tree with fibre optic lights
-
      * White Christmas tree
-
        White Christmas tree
-
      * Spanish artificial Christmas tree
-
        Spanish artificial Christmas tree
-
      * An artificial Aluminum Christmas tree
-
        An artificial Aluminum Christmas tree
-
      * Artificial tree
-
        Artificial tree
-
      * An aluminum Christmas tree
-
        An aluminum Christmas tree
 
-Environmental issues
+Environmental issues[edit]
 
    The debate about the environmental impact of artificial trees is ongoing.
    Generally, natural tree growers contend that artificial trees are more
@@ -864,112 +797,103 @@ Environmental issues
    farmers who find that such trees uncontaminated by chemical additives are
    excellent fodder.^[135] In some cases management of Christmas tree crops
    can result in poor habitat since it sometimes involves heavy input of
-   pesticides.^[136] Concerns have been raised^[by whom?] about people
-   cutting down old and rare conifers, such as the Keteleeria evelyniana and
-   Abies fraseri, for Christmas trees.^[citation needed]
+   pesticides.^[136] Concerns have been raised by arborists about people
+   cutting down old and rare conifers, such as the Keteleeria evelyniana for
+   Christmas trees.^[137]
 
    Real or cut trees are used only for a short time, but can be recycled and
    used as mulch, wildlife habitat, or used to prevent
-   erosion.^[137]^[138]^[139] Real trees are carbon-neutral, they emit no
+   erosion.^[138]^[139]^[140] Real trees are carbon-neutral, they emit no
    more carbon dioxide by being cut down and disposed of than they absorb
-   while growing.^[140] However, emissions can occur from farming activities
+   while growing.^[141] However, emissions can occur from farming activities
    and transportation. An independent life-cycle assessment study, conducted
    by a firm of experts in sustainable development, states that a natural
    tree will generate 3.1 kg (6.8 lb) of greenhouse gases every year (based
    on purchasing 5 km (3.1 mi) from home) whereas the artificial tree will
-   produce 48.3 kg (106 lb) over its lifetime.^[141] Some people use living
+   produce 48.3 kg (106 lb) over its lifetime.^[142] Some people use living
    Christmas or potted trees for several seasons, providing a longer life
    cycle for each tree. Living Christmas trees can be purchased or rented
    from local market growers. Rentals are picked up after the holidays, while
    purchased trees can be planted by the owner after use or donated to local
-   tree adoption or urban reforestation services.^[142] Smaller and younger
+   tree adoption or urban reforestation services.^[143] Smaller and younger
    trees may be replanted after each season, with the following year running
    up to the next Christmas allowing the tree to carry out further growth.
 
-   Most artificial trees are made of recycled PVC rigid sheets using tin
-   stabilizer in the recent years. In the past, lead was often used as a
-   stabilizer in PVC, but is now banned by Chinese laws.^[citation needed]
    The use of lead stabilizer in Chinese imported trees has been an issue of
    concern among politicians and scientists over recent years. A 2004 study
    found that while in general artificial trees pose little health risk from
    lead contamination, there do exist "worst-case scenarios" where major
-   health risks to young children exist.^[143] A 2008 United States
+   health risks to young children exist.^[144] A 2008 United States
    Environmental Protection Agency report found that as the PVC in artificial
-   Christmas trees aged it began to degrade.^[144] The report determined that
+   Christmas trees aged it began to degrade.^[145] The report determined that
    of the fifty million artificial trees in the United States approximately
    twenty million were nine or more years old, the point where dangerous lead
-   contamination levels are reached.^[144] A professional study on the
+   contamination levels are reached.^[145] A professional study on the
    life-cycle assessment of both real and artificial Christmas trees revealed
    that one must use an artificial Christmas tree at least twenty years to
    leave an environmental footprint as small as the natural Christmas
-   tree.^[141]
+   tree.^[142]
 
      * Discarded trees by garbage dumpsters
-
        Discarded trees by garbage dumpsters
-
      * Christmas tree recycling point (point recyclage de sapins)
-
        Christmas tree recycling point (point recyclage de sapins)
-
      * Woodchipping Christmas trees
-
        Woodchipping Christmas trees
 
-Religious issues
+Religious issues[edit]
 --
-   anti-religious campaign.^[145]^[146]^[88] The League of Militant Atheists
+   anti-religious campaign.^[146]^[147]^[88] The League of Militant Atheists
    encouraged school pupils to campaign against Christmas traditions, among
    them being the Christmas tree, as well as other Christian holidays,
    including Easter; the League established an anti-religious holiday to be
-   the 31st of each month as a replacement.^[147] With the Christmas tree
+   the 31st of each month as a replacement.^[148] With the Christmas tree
    being prohibited in accordance with Soviet anti-religious legislation,
    people supplanted the former Christmas custom with New Year's
-   trees.^[88]^[148] In 1935, the tree was brought back as New Year tree and
+   trees.^[88]^[149] In 1935, the tree was brought back as New Year tree and
    became a secular, not a religious holiday.
 
    Pope John Paul II introduced the Christmas tree custom to the Vatican in
    1982. Although at first disapproved of by some as out of place at the
    centre of the Roman Catholic Church, the Vatican Christmas Tree has become
-   an integral part of the Vatican Christmas celebrations,^[149] and in 2005
+   an integral part of the Vatican Christmas celebrations,^[150] and in 2005
    Pope Benedict XVI spoke of it as part of the normal Christmas decorations
-   in Catholic homes.^[150] In 2004, Pope John Paul called the Christmas tree
+   in Catholic homes.^[151] In 2004, Pope John Paul called the Christmas tree
    a symbol of Christ. This very ancient custom, he said, exalts the value of
    life, as in winter what is evergreen becomes a sign of undying life, and
-   it reminds Christians of the "tree of life",^[151] an image of Christ, the
-   supreme gift of God to humanity.^[152] In the previous year he said:
+   it reminds Christians of the "tree of life",^[152] an image of Christ, the
+   supreme gift of God to humanity.^[153] In the previous year he said:
    "Beside the crib, the Christmas tree, with its twinkling lights, reminds
    us that with the birth of Jesus the tree of life has blossomed anew in the
    desert of humanity. The crib and the tree: precious symbols, which hand
-   down in time the true meaning of Christmas."^[153] The Catholic Church's
+   down in time the true meaning of Christmas."^[154] The Catholic Church's
    official Book of Blessings has a service for the blessing of the Christmas
-   tree in a home.^[154] The Episcopal Church in The Anglican Family Prayer
+   tree in a home.^[155] The Episcopal Church in The Anglican Family Prayer
    Book, which has the imprimatur of The Rt. Rev. Catherine S. Roskam of the
    Anglican Communion, has long had a ritual titled Blessing of a Christmas
    Tree, as well as Blessing of a Crèche, for use in the church and the home;
    family services and public liturgies for the blessing of Christmas trees
-   are common in other Christian denominations as well.^[155]^[156]
+   are common in other Christian denominations as well.^[156]^[157]
 
    Chrismon trees, which find their origin in the Lutheran Christian
    tradition though now used in many Christian denominations such as the
    Catholic Church and Methodist Church, are used to decorate churches during
    the liturgical season of Advent; during the period of Christmastide,
    Christian churches display the traditional Christmas tree in their
-   sanctuaries.^[157]
+   sanctuaries.^[158]
 
    In 2005, the city of Boston renamed the spruce tree used to decorate the
-   Boston Common a "Holiday Tree" rather than a "Christmas Tree".^[158] The
+   Boston Common a "Holiday Tree" rather than a "Christmas Tree".^[159] The
    name change was reversed after the city was threatened with several
 --
      * A 1931 edition of the Soviet magazine Bezbozhnik, distributed by the
        League of Militant Atheists, depicting an Orthodox Christian priest
        being forbidden to cut down a tree for Christmas
-
        A 1931 edition of the Soviet magazine Bezbozhnik, distributed by the
        League of Militant Atheists, depicting an Orthodox Christian priest
        being forbidden to cut down a tree for Christmas
 
-See also
+See also[edit]
 --
      * Badnjak
      * Christmas traditions
@@ -994,8 +918,8 @@ See also
        tree". Australia: ABC News. Retrieved 8 December 2018.
     2. ^ ^a ^b ^c Perry, Joe (27 September 2010). Christmas in Germany: A
        Cultural History. University of North Carolina Press. p. 32.
-       ISBN 9780807899410. A chronicle from Strasbourg, written in 1604 and
-       widely seen as the first account of a Christmas tree in
+       ISBN 978-0-8078-9941-0. A chronicle from Strasbourg, written in 1604
+       and widely seen as the first account of a Christmas tree in
        German-speaking lands, records that Protestant artisans brought fir
        trees into their homes in the holiday season and decorated them with
        "roses made of colored paper, apples, wafers, tinsel, sweetmeats,
@@ -1010,7 +934,7 @@ See also
        tree since 1521" (PDF). 18 December 2013. Archived from the original
        (PDF) on 18 December 2013.
     5. ^ ^a ^b Kelly, Joseph F. (2010). The Feast of Christmas. Liturgical
-       Press. p. 94. ISBN 9780814639320. German Lutherans brought the
+       Press. p. 94. ISBN 978-0-8146-3932-0. German Lutherans brought the
        decorated Christmas tree with them; the Moravians put lighted candles
        on those trees.
     6. ^ ^a ^b ^c Becker, Udo (1 January 2000). The Continuum Encyclopedia of
@@ -1022,12 +946,12 @@ See also
        took away so that the return to Eden-symbolized by the Christmas
        tree-is again possible for humanity.
     7. ^ ^a ^b Mandryk, DeeAnn (25 October 2005). Canadian Christmas
-       Traditions. James Lorimer & Company. p. 67. ISBN 9781554390984. The
-       eight-pointed star became a popular manufactured Christmas ornament
-       around the 1840s and many people place a star on the top of their
-       Christmas tree to represent the Star of Bethlehem.
+       Traditions. James Lorimer & Company. p. 67. ISBN 978-1-55439-098-4.
+       The eight-pointed star became a popular manufactured Christmas
+       ornament around the 1840s and many people place a star on the top of
+       their Christmas tree to represent the Star of Bethlehem.
     8. ^ ^a ^b Jones, David Albert (27 October 2011). Angels. Oxford
-       University Press. p. 24. ISBN 9780191614910. The same ambiguity is
+       University Press. p. 24. ISBN 978-0-19-161491-0. The same ambiguity is
        seen in that most familiar of angels, the angel on top of the
        Christmas tree. This decoration, popularized in the nineteenth
        century, recalls the place of the angels in the Christmas story (Luke
@@ -1038,14 +962,15 @@ See also
        tree was slow to spread from its Alsatian home, partly because of
        resistance to its supposed Lutheran origins."
    10. ^ ^a ^b Crump, William D. (15 September 2001). The Christmas
-       Encyclopedia, 3d ed. McFarland. p. 386. ISBN 9780786468270. Christmas
-       trees in the countryside did not appear until World War I, although
-       Slovenians of German ancestry were decorating trees before then.
-       Traditionally, the family decorates their Christmas tree on Christmas
-       Eve with electric lights, tinsel, garlands, candy canes, other
-       assorted ornaments, and topped with an angel figure or star. The tree
-       and Nativity scene remain until Candlemas (February 2)
+       Encyclopedia, 3d ed. McFarland. p. 386. ISBN 978-0-7864-6827-0.
+       Christmas trees in the countryside did not appear until World War I,
+       although Slovenians of German ancestry were decorating trees before
+       then. Traditionally, the family decorates their Christmas tree on
+       Christmas Eve with electric lights, tinsel, garlands, candy canes,
+       other assorted ornaments, and topped with an angel figure or star. The
+       tree and Nativity scene remain until Candlemas (February 2)
    11. ^ "Candlemas". British Broadcasting Corporation. Archived from the
+       original on 6 January 2017. Retrieved 26 December 2016. Any Christmas
 --
    13. ^ ^a ^b Dues, Greg (2008). Advent and Christmas. Bayard. pp. 13–15.
        ISBN 978-1-58595-722-4. Next to the Nativity scene, the most popular
@@ -1060,8 +985,8 @@ See also
 --
        ISBN 978-0-8066-4156-0.^[permanent dead link]
    18. ^ Senn, Frank C. (2012). Introduction to Christian Liturgy. Fortress
-       Press. p. 118. ISBN 9781451424331. The Christmas tree as we know it
-       seemed to emerge in Lutheran lands in Germany in the sixteenth
+       Press. p. 118. ISBN 978-1-4514-2433-1. The Christmas tree as we know
+       it seemed to emerge in Lutheran lands in Germany in the sixteenth
        century. Although no specific city or town has been identified as the
        first to have a Christmas tree, records for the Cathedral of
        Strassburg indicate that a Christmas tree was set up in that church in
@@ -1071,7 +996,7 @@ See also
        eighteenth century.
    20. ^ Blainey, Geoffrey (24 October 2013). A Short History of
        Christianity. Rowman & Littlefield Publishers. p. 418.
-       ISBN 9781442225909. Many Lutherans continued to set up a small fir
+       ISBN 978-1-4422-2590-9. Many Lutherans continued to set up a small fir
        tree as their Christmas tree, and it must have been a seasonal sight
        in Bach's Leipzig at a time when it was virtually unknown in England,
        and little known in those farmlands of North America where Lutheran
@@ -1091,7 +1016,7 @@ See also
        star. By the 16th century, the Christmas pyramid and paradise tree had
        merged, becoming the Christmas tree.
    26. ^ Gulevich, Tanya (30 October 2023). Encyclopedia of Christmas and New
-       Year's Celebrations. Omnigraphics. p. 168. ISBN 9780780806252.
+       Year's Celebrations. Omnigraphics. p. 168. ISBN 978-0-7808-0625-2.
 --
        'Pagan' Roots". Relevant Magazine. Retrieved 9 December 2022. have a
        lot of historical examples of various ancient religious communities
@@ -1189,7 +1114,7 @@ See also
         nineteenth century, in the weatherboard halls of a few townships, a
         tree would annually be set up, usually on Christmas Eve.
    102. ^ A Study Guide for William Shakespeare's "Twelfth Night" (2 ed.).
-        Cengage Learning. 2016. p. 29. ISBN 9781410361349. Twelfth Night saw
+        Cengage Learning. 2016. p. 29. ISBN 978-1-4103-6134-9. Twelfth Night
 --
         History. University of California Press. p. 45.
         ISBN 978-0-520-25802-0. ... in 723 Saint Boniface encountered winter
@@ -1246,25 +1171,27 @@ See also
         Retrieved 1 January 2015.
    136. ^ "Pesticides & Wildlife Christmas Trees". ipm.ncsu.edu. Archived
         from the original on 10 January 2017. Retrieved 2 November 2016.
-   137. ^ "Engineer Update: Old Christmas trees protect town beach". United
+   137. ^ Wilson, Kimberly A. C. "An arboretum is not a tree farm, people".
+        Oregon Live. The Oregonian. Retrieved 19 December 2023.
+   138. ^ "Engineer Update: Old Christmas trees protect town beach". United
         States Army Corps of Engineers. March 2007. Archived from the
         original on 24 August 2007.
-   138. ^ "Christmas tree recycling begins Friday in Columbia County". The
+   139. ^ "Christmas tree recycling begins Friday in Columbia County". The
         Augusta Chronicle. Archived from the original on 26 December 2014.
         Retrieved 26 December 2014.
-   139. ^ "Recycling your tree can be a gift for environment". Star Tribune.
+   140. ^ "Recycling your tree can be a gift for environment". Star Tribune.
         Archived from the original on 26 December 2014. Retrieved 26 December
         2014.
 --
         (Tree)" (podcast transcript). Scientific American. Archived from the
         original on 6 December 2008. Retrieved 22 December 2008.
-   141. ^ ^a ^b "Life Cycle Assessment (LCA) of Christmas trees—A study ends
+   142. ^ ^a ^b "Life Cycle Assessment (LCA) of Christmas trees—A study ends
         the debate over which Christmas tree, natural or artificial, is most
         ecological". Ellipsos Inc. 16 December 2008. Archived from the
         original on 1 December 2012. Retrieved 18 December 2012.
 --
         April 2013. Retrieved 18 December 2012.
-   143. ^ Maas, R. P.; Patch, S. C.; Pandolfo, T. J. (2004). "Artificial
+   144. ^ Maas, R. P.; Patch, S. C.; Pandolfo, T. J. (2004). "Artificial
         Christmas trees: How real are the lead exposure risks?". Journal of
         Environmental Health. 67 (5): 20–24, 32. PMID 15628192. Accessed 18
         December 2012.
@@ -1277,27 +1204,27 @@ See also
         Stalin declared Ded Moroz "an ally of the priest and kulak", and
         outlawed him from Russia.
 --
-        games to intimidate and purge the youth of religious belief. It
-        suggested that pupils campaign against customs associated with
-        Christmas (including Christmas trees) and Easter. Some schools, the
-        League approvingly reported, staged an anti-religious day on the 31st
-        of each month. Not teachers but the League's local set the programme
-        for this special occasion.
-   148. ^ Dice, Elizabeth A. (2009). Christmas and Hanukkah. Infobase
-        Publishing. p. 44. ISBN 9781438119717. The Christmas tree, or Yolka,
-        is another tradition that was banned during the Soviet era. To keep
-        the custom alive, people decorated New Year's trees instead.
-   149. ^ Stenhouse, Margaret (22 December 2010). "The Vatican Christmas
+        farces, and games to intimidate and purge the youth of religious
+        belief. It suggested that pupils campaign against customs associated
+        with Christmas (including Christmas trees) and Easter. Some schools,
+        the League approvingly reported, staged an anti-religious day on the
+        31st of each month. Not teachers but the League's local set the
+        programme for this special occasion.
+   149. ^ Dice, Elizabeth A. (2009). Christmas and Hanukkah. Infobase
+        Publishing. p. 44. ISBN 978-1-4381-1971-7. The Christmas tree, or
+        Yolka, is another tradition that was banned during the Soviet era. To
+        keep the custom alive, people decorated New Year's trees instead.
+   150. ^ Stenhouse, Margaret (22 December 2010). "The Vatican Christmas
         Tree". Archived from the original on 30 July 2013. Retrieved 19
 --
         the original on 25 June 2012. Retrieved 19 December 2012.
-   151. ^ Genesis 2:9
-   152. ^ "Christmas tree is symbol of Christ, says Pope—And a Sign of
+   152. ^ Genesis 2:9
+   153. ^ "Christmas tree is symbol of Christ, says Pope—And a Sign of
         'Undying Life'". Zenit News Agency. 19 December 2004. Archived from
         the original on 8 December 2007. Retrieved 19 December 2012.
 --
-   157. ^ Weaver, J. Dudley (2002). Presbyterian Worship: A Guide for Clergy.
-        Geneva Press. p. 79. ISBN 9780664502188. Many congregations have
+   158. ^ Weaver, J. Dudley (2002). Presbyterian Worship: A Guide for Clergy.
+        Geneva Press. p. 79. ISBN 978-0-664-50218-8. Many congregations have
         begun the tradition of using a Chrismon tree in the sanctuary as part
         of the Advent and Christmas celebration. It is important, especially
         for children, that the distinction between this tree and the family
@@ -1305,7 +1232,7 @@ See also
         with clear lights and Chrismons made from white and gold material.
         White, the color of Christmas, is the color of purity and perfection,
 --
-External links
+External links[edit]
 
      * [IMG] Media related to Christmas trees at Wikimedia Commons
 
@@ -1332,10 +1259,11 @@ External links
                       * Downing Street (London)                       
                       * Grove (L.A.)                                  
                       * I-17 (Arizona)                                
-                      * Lisbon (Portugal)                             
+--
                       * Macy's (Atlanta)                              
-   Individual trees   * Milwaukee                                     
-                      * Mount Ingino (Italy)                          
+                      * Milwaukee                                     
+   Individual trees   * Mount Ingino (Italy)                          
+                      * Norwegian Christmas Tree (Washington, D.C.)   
                       * U.S. Capitol                                  
 --
                       * National Christmas Tree Association           
@@ -1346,7 +1274,7 @@ External links
 --
 
    Retrieved from
-   "https://en.wikipedia.org/w/index.php?title=Christmas_tree&oldid=1189572179"
+   "https://en.wikipedia.org/w/index.php?title=Christmas_tree&oldid=1193349765"
    Categories:
      * Christmas trees
      * Christmas decorations
