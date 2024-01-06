@@ -155,7 +155,7 @@ Further reading[edit]
        for Technical Communication
    Retrieved from
     </text>
-    </page>
+    </page>§
 <page='contexte2anglais'>
     <text>
        Tools, Research, Reports &amp; Guides
@@ -211,7 +211,7 @@ Further reading[edit]
    Suite 750
    Washington, DC 20005
     </text>
-    </page>
+    </page>§
 <page='contexte3anglais'>
     <text>
        [ ] Toggle the table of contents
@@ -305,7 +305,7 @@ External links[edit]
    Categories:
      * Trees (data structures)
     </text>
-    </page>
+    </page>§
 <page='contexte4anglais'>
     <text>
          * (Top)
@@ -482,7 +482,7 @@ See also[edit]
    Categories:
      * Syntax
     </text>
-    </page>
+    </page>§
 <page='contexte5anglais'>
     <text>
     
@@ -534,7 +534,7 @@ See also[edit]
    Example5 − Draw syntax tree for following arithmetic expression a * (b +
    c) – d /2. Also, write given expression in postfix form.
     </text>
-    </page>
+    </page>§
 <page='contexte6anglais'>
     <text>
        [ ] Toggle the table of contents
@@ -766,7 +766,7 @@ External links[edit]
      * Genealogy
      * Charts
     </text>
-    </page>
+    </page>§
 <page='contexte7anglais'>
     <text>
          * (Top)
@@ -2051,7 +2051,7 @@ External links[edit]
      * Christmas decorations
      * Christmas in Germany
     </text>
-    </page>
+    </page>§
 <page='contexte8anglais'>
     <text>
         6. Christmas Tree Trivia and Facts
@@ -2334,7 +2334,7 @@ Christmas Tree Trivia and Facts
 
    Date Accessed
     </text>
-    </page>
+    </page>§
 <page='contexte9anglais'>
     <text>
     
@@ -2442,7 +2442,7 @@ The Elkhorn Slough Reserve is pioneering methods to restore native habitats
    a salt marsh, locking up the carbon the eucalyptus trees had sucked from
    the air over their lifetime.
     </text>
-    </page>
+    </page>§
 <page='contexte10anglais'>
     <text>
        © Al Nisr Publishing LLC 2024. All rights reserved.
@@ -2491,7 +2491,7 @@ The Elkhorn Slough Reserve is pioneering methods to restore native habitats
    209697-01-02 A European bison enjoys a Christmas tree in its enclosure.
    Image Credit: AFP
     </text>
-    </page>
+    </page>§
 <page='contexte11anglais'>
     <text>
        Pop-out player
@@ -2590,7 +2590,7 @@ The Elkhorn Slough Reserve is pioneering methods to restore native habitats
 
    ecologist –n. a person who studies living things and their environment
     </text>
-    </page>
+    </page>§
 <page='contexte12anglais'>
     <text>
                    * 7.4.2 Tree shaping
@@ -3533,7 +3533,7 @@ References
                    * Wood                         
                         * engineered              
     </text>
-    </page>
+    </page>§
 <page='contexte13anglais'>
     <text>
     
@@ -3656,7 +3656,7 @@ References
    stalls like you see. The key is actual shaded areas on the parking lot,
    not how many shadeless lolly pops you have.
     </text>
-    </page>
+    </page>§
 <page='contexte14anglais'>
     <text>
          * Criminal Justice + Policing
@@ -3706,7 +3706,7 @@ References
    Jared Strong December 11, 2023
    Data show which Iowa counties have (or don't have) representative
     </text>
-    </page>
+    </page>§
 <page='contexte15anglais'>
     <text>
        I-5 bridge
@@ -3834,7 +3834,7 @@ Northwest
 
    Dec. 31, 2023
     </text>
-    </page>
+    </page>§
 <page='contexte16anglais'>
     <text>
         1. Bytecode interpreter
@@ -3858,7 +3858,7 @@ Northwest
 
     
     </text>
-    </page>
+    </page>§
 <page='contexte17anglais'>
     <text>
     
@@ -3874,7 +3874,7 @@ Northwest
    also provides the ParseFragment function for parsing fragments of HTML
    documents.
     </text>
-    </page>
+    </page>§
 <page='contexte18anglais'>
     <text>
                           How Database B-Tree Indexing Works 
@@ -4021,12 +4021,12 @@ Using SQLite B-Tree Indexing
    to the binary search, which gives the database more control to search
    non-index values in a database.
     </text>
-    </page>
+    </page>§
 <page='contexte19anglais'>
     <text>
     
     </text>
-    </page>
+    </page>§
 <page='contexte20anglais'>
     <text>
        [ Submit ]
@@ -4413,7 +4413,7 @@ More from Merriam-Webster on tree
 
    Last Updated: 25 Dec 2023 - Updated example sentences
     </text>
-    </page>
+    </page>§
 <page='contexte21anglais'>
     <text>
        _____________________
@@ -4500,7 +4500,7 @@ More from Merriam-Webster on tree
    tried to stop people from cutting down trees in the wilderness. But
    deforestation is still a problem in many parts of the world.
     </text>
-    </page>
+    </page>§
 <page='contexte22anglais'>
     <text>
        {{/preferredDictionaries}}
@@ -4682,7 +4682,7 @@ More meanings of tree
 
    [ Submit ]
     </text>
-    </page>
+    </page>§
 <page='contexte23anglais'>
     <text>
        From Wikiquote
@@ -5225,7 +5225,7 @@ More meanings of tree
    CommonsCommons
    Wikimedia Commons has media related to:
     </text>
-    </page>
+    </page>§
 <page='contexte24anglais'>
     <text>
          * 1 Applications
@@ -5570,7 +5570,7 @@ Notes[edit]
               * Binary decision diagram            
    Graphs     * Directed acyclic graph             
     </text>
-    </page>
+    </page>§
 <page='contexte25anglais'>
     <text>
          * 1 Applications
@@ -5915,7 +5915,7 @@ Notes[edit]
               * Binary decision diagram            
    Graphs     * Directed acyclic graph             
     </text>
-    </page>
+    </page>§
 <page='contexte26anglais'>
     <text>
          * Introduction to Tree - Data Structure and Algorithm Tutorials
@@ -6184,7 +6184,7 @@ Disadvantages of Tree Data Structure:
    Complete Tutorials
    Learn Algorithms with Javascript | DSA using JavaScript Tutorial
     </text>
-    </page>
+    </page>§
 <page='contexte27anglais'>
     <text>
        {{/preferredDictionaries}}
@@ -6350,7 +6350,7 @@ More meanings of tree
 
    [ Submit ]
     </text>
-    </page>
+    </page>§
 <page='contexte28anglais'>
     <text>
          * 2 Statement
@@ -6498,7 +6498,7 @@ TREE function[edit]
    Categories:
      * Mathematical logic
     </text>
-    </page>
+    </page>§
 <page='contexte29anglais'>
     <text>
        Linear vs non-linear Array vs linked list Stack vs queue Linear vs
@@ -6788,7 +6788,7 @@ TREE function[edit]
      * For minimum children, a leaf node has 0 children, root node has        
        minimum 2 children and internal node has minimum ceiling of m/2        
     </text>
-    </page>
+    </page>§
 <page='contexte30anglais'>
     <text>
               * 1.1 Tree
@@ -7113,7 +7113,7 @@ Notes[edit]
        Information Processing Letters, 51 (3): 111–116,
        doi:10.1016/0020-0190(94)00085-9, ISSN 0020-0190.
     </text>
-    </page>
+    </page>§
 <page='contexte31anglais'>
     <text>
          * PETS &amp; ANIMALS
@@ -7129,7 +7129,7 @@ Notes[edit]
    WPVI
    Report a correction or typo
     </text>
-    </page>
+    </page>§
 <page='contexte32anglais'>
     <text>
          * Latest Newscasts
@@ -7162,7 +7162,7 @@ Notes[edit]
      * Alexandria, LA 71301
      * (318) 483-4211
     </text>
-    </page>
+    </page>§
 <page='contexte33anglais'>
     <text>
        _____________________ [ Submit ] 
@@ -7230,7 +7230,7 @@ Notes[edit]
      * Forward Movement releases new Lenten devotional and small group study
        Forward Movement
     </text>
-    </page>
+    </page>§
 <page='contexte34anglais'>
     <text>
        by Michael Kuhns, Extension Forestry Specialist
@@ -7295,7 +7295,7 @@ Notes[edit]
    size criteria. A shrub can then be defined as a woody plant with several
    perennial stems that may be erect or may lay close to the ground. It will
     </text>
-    </page>
+    </page>§
 <page='contexte35anglais'>
     <text>
                                          YOUR AD HERE »
@@ -7319,7 +7319,7 @@ Notes[edit]
         UPDATE: Coroner identifies skier who died after collision with tree at
         Breckenridge Ski Resort
     </text>
-    </page>
+    </page>§
 <page='contexte36anglais'>
     <text>
     
@@ -7344,7 +7344,7 @@ Notes[edit]
    transportation
    Categories: KPQ News
     </text>
-    </page>
+    </page>§
 <page='contexte37anglais'>
     <text>
        [ Save ]
@@ -7353,7 +7353,7 @@ Notes[edit]
 
    featured
     </text>
-    </page>
+    </page>§
 <page='contexte38anglais'>
     <text>
          * Facebook
@@ -7374,7 +7374,7 @@ Notes[edit]
      * A city street with a large electronic billboard advertising the NAACP
        National Convention, July 26-Aug. 1.
     </text>
-    </page>
+    </page>§
 <page='contexte39anglais'>
     <text>
     
@@ -7389,7 +7389,7 @@ Notes[edit]
 
    Pena and his passenger, 24-year-old Ruiz Sebastian of Brownsville, Texas,
     </text>
-    </page>
+    </page>§
 <page='contexte40anglais'>
     <text>
            Tweet
@@ -7452,7 +7452,7 @@ Notes[edit]
 
      * Microsoft Shopping:Terms and Details
     </text>
-    </page>
+    </page>§
 <page='contexte41anglais'>
     <text>
          * Planet Possible
@@ -7626,7 +7626,7 @@ Planting trees helps fight climate change—but we need billions more seedlings
 
    Most important, of course, is to cut the emissions that are heating the
     </text>
-    </page>
+    </page>§
 <page='contexte42anglais'>
     <text>
        November 5, 2017 / #Programming
@@ -7899,7 +7899,7 @@ Planting trees helps fight climate change—but we need billions more seedlings
 
  print(bst.remove_node(15, None)) # True
     </text>
-    </page>
+    </page>§
 <page='contexte43anglais'>
     <text>
     
@@ -8223,7 +8223,7 @@ Where do these trees come from?
 
             You can also browse through the KhanAcademy material on evolution
     </text>
-    </page>
+    </page>§
 <page='contexte44anglais'>
     <text>
        Trees
@@ -8312,7 +8312,7 @@ Where do these trees come from?
    "Trees." Implementing Discrete Mathematics: Combinatorics and Graph Theory
    with Mathematica. Reading, MA: Addison-Wesley, pp. 107 and 151-153,
     </text>
-    </page>
+    </page>§
 <page='contexte45anglais'>
     <text>
        for classification and regression. The goal is to create a model that
@@ -8686,7 +8686,7 @@ Where do these trees come from?
 
        * https://en.wikipedia.org/wiki/Predictive_analytics
     </text>
-    </page>
+    </page>§
 <page='contexte46anglais'>
     <text>
        Advertisement
@@ -8806,7 +8806,7 @@ Where do these trees come from?
 
    tref
     </text>
-    </page>
+    </page>§
 <page='contexte47anglais'>
     <text>
          * PowerNation
@@ -8831,7 +8831,7 @@ Toledo man left paralyzed after tree trimming accident speaks out for the first
    With more than 20 years in the tree trimming business, Thieman says this
    was never supposed to happen.
     </text>
-    </page>
+    </page>§
 <page='contexte48anglais'>
     <text>
     
@@ -8905,7 +8905,7 @@ Tree Types
 
 Get Involved
     </text>
-    </page>
+    </page>§
 <page='contexte49anglais'>
     <text>
        &amp; Nature Geography &amp; Travel Arts &amp; Culture Money Videos
@@ -9126,7 +9126,7 @@ Ecological and evolutionary classification
    example, the physiological cost of maintaining these structures in the
    living state would be enormous and probably unattainable. An elegant
     </text>
-    </page>
+    </page>§
 <page='contexte50anglais'>
     <text>
                            What is a Tree? How Does it Work?
@@ -9184,7 +9184,7 @@ Trees Grow:
    cold months. Deciduous trees drop their leaves; conifers have strategies
    to maintain their needles during the winter.
     </text>
-    </page>
+    </page>§
 <page='contexte51anglais'>
     <text>
          * Humberside
@@ -9234,7 +9234,7 @@ Trees Grow:
 
           * External
     </text>
-    </page>
+    </page>§
 </lang>
 <lang=italien>
 <page='contexte1italien'>
@@ -9301,12 +9301,12 @@ Altri progetti[modifica]
    Categorie:
      * Sostantivi in italiano
     </text>
-    </page>
+    </page>§
 <page='contexte2italien'>
     <text>
     
     </text>
-    </page>
+    </page>§
 <page='contexte3italien'>
     <text>
                                          Alberi
@@ -9383,7 +9383,7 @@ Altri progetti[modifica]
    Rosaceae; si tratta di una pianta particolarmente apprezzata per la sua
    abbondante e splendida fioritura. E’ molto longeva, di medie dimensioni:
     </text>
-    </page>
+    </page>§
 <page='contexte4italien'>
     <text>
        Richiedi Informazioni
@@ -9544,7 +9544,7 @@ Altri progetti[modifica]
    tronco diritto e colonnare, corona piramidale, corteccia liscia e
    bianco-cenerina da
     </text>
-    </page>
+    </page>§
 <page='contexte5italien'>
     <text>
                      nella voce dell'autore.                                      
@@ -9711,7 +9711,7 @@ Altri progetti[modifica]
    Estratto da
    "https://it.wikiquote.org/w/index.php?title=Albero&amp;oldid=1276375"
     </text>
-    </page>
+    </page>§
 <page='contexte6italien'>
     <text>
        Informazioni sulla redazione
@@ -9845,7 +9845,7 @@ Classificazione non botanica degli alberi.
        superiore ai tre metri, come il noce, la quercia, il castagno, il
        pino, il cipresso, ecc..
     </text>
-    </page>
+    </page>§
 <page='contexte7italien'>
     <text>
          * Contatti
@@ -9880,7 +9880,7 @@ Corniolo sanguinello
    massimo cinque metri. Le foglie diventano rosse (sanguinello) durante
    l’autunno. Cresce spesso ai margini dei boschi. I frutti sono rotondi e
     </text>
-    </page>
+    </page>§
 <page='contexte8italien'>
     <text>
          * Contatti
@@ -9945,7 +9945,7 @@ Riconoscere gli alberi
    Osserva il tuo albero nel passare delle stagioni, cambierà aspetto
    moltissimo!
     </text>
-    </page>
+    </page>§
 <page='contexte9italien'>
     <text>
          * Contatti
@@ -10049,7 +10049,7 @@ Riconoscere gli alberi
    Osserva il tuo albero nel passare delle stagioni, cambierà aspetto
    moltissimo!
     </text>
-    </page>
+    </page>§
 <page='contexte10italien'>
     <text>
          * Chi siamo
@@ -10161,7 +10161,7 @@ L'albero della Paulownia
      L'albero della Paulownia                  Le piantagioni di Paulownia   
                       Contatti
     </text>
-    </page>
+    </page>§
 <page='contexte11italien'>
     <text>
        di una matita
@@ -10296,7 +10296,7 @@ Arriviamo al Binomio Fantastico.
    alberi, attività, Bambini, Creatività, laboratorio, michele d'ignazio, Per
    la scuola, rizzoli, storia di una matita a casa
     </text>
-    </page>
+    </page>§
 <page='contexte12italien'>
     <text>
        Puoi migliorare questa voce aggiungendo citazioni da fonti attendibili
@@ -10380,7 +10380,7 @@ Messa in fase dell'albero a camme[modifica | modifica wikitesto]
 
 Collegamenti esterni[modifica | modifica wikitesto]
     </text>
-    </page>
+    </page>§
 <page='contexte13italien'>
     <text>
        Shop Categories
@@ -10532,7 +10532,7 @@ Abete (Abies), un albero incantevole simbolo della lunga vita
    Vivai piante specializzato in abeti (alberi di natale), conifere nane,
    aceri giapponesi e piante per giardini rocciosi.
     </text>
-    </page>
+    </page>§
 <page='contexte14italien'>
     <text>
            Il mio albero
@@ -10697,7 +10697,7 @@ Abete (Abies), un albero incantevole simbolo della lunga vita
    producono i       
    frutti. (Diletta) 
     </text>
-    </page>
+    </page>§
 <page='contexte15italien'>
     <text>
          * Notizie 
@@ -10781,7 +10781,7 @@ Che tipo di alberi produce Frankenstein?
       Un adolescente ha abbattuto l’albero più famoso d’Inghilterra: ecco le
       foto prima e dopo
     </text>
-    </page>
+    </page>§
 <page='contexte16italien'>
     <text>
          * Notizie 
@@ -10849,7 +10849,7 @@ Testimoni della variabilità climatica
    infatti che a livello globale la temperatura della Terra durante il
    periodo caldo medievale era anche leggermente più fresca, con una
     </text>
-    </page>
+    </page>§
 <page='contexte17italien'>
     <text>
                  Identificazione e Cura degli Alberi con Fiori Bianchi
@@ -11078,7 +11078,7 @@ Conclusione
    fiori bianchi può arricchire l’esperienza di avere un albero di fiori
    bianchi.
     </text>
-    </page>
+    </page>§
 <page='contexte18italien'>
     <text>
        Disambiguazione – Se stai cercando altri significati, vedi Albero di
@@ -11728,7 +11728,7 @@ Altri progetti[modifica | modifica wikitesto]
 
 Collegamenti esterni[modifica | modifica wikitesto]
     </text>
-    </page>
+    </page>§
 <page='contexte19italien'>
     <text>
        Disambiguazione – Se stai cercando altri significati, vedi Albero di
@@ -12727,7 +12727,7 @@ Altri progetti[modifica | modifica wikitesto]
 
 Collegamenti esterni[modifica | modifica wikitesto]
     </text>
-    </page>
+    </page>§
 <page='contexte20italien'>
     <text>
        Abbonati
@@ -12801,7 +12801,7 @@ L'albero di Natale
    Leggi anche
    ARTICOLI CORRELATI
     </text>
-    </page>
+    </page>§
 <page='contexte21italien'>
     <text>
       Lifestyle
@@ -12980,7 +12980,7 @@ Cosa può finire sull'albero di Natale
    addobbi di natalealbero di nataleNatale Scopri altri articoli di Tendenze
      * IN ARRIVO
     </text>
-    </page>
+    </page>§
 <page='contexte22italien'>
     <text>
     Ripartiamo con un simbolo di prosperità…
@@ -13048,7 +13048,7 @@ In quali occasioni si regala un gioiello con l’albero della vita?
 
   Tree Pendant
     </text>
-    </page>
+    </page>§
 <page='contexte23italien'>
     <text>
        progetto di riferimento.
@@ -13116,7 +13116,7 @@ Accorgimenti[modifica | modifica wikitesto]
        opposto a quello delle ruote annulla parte dell'effetto giroscopico,
        permettendo un cambio di traiettoria più rapido (a discapito della
     </text>
-    </page>
+    </page>§
 <page='contexte24italien'>
     <text>
               * Gioielli per Natale e Capodanno
@@ -13406,7 +13406,7 @@ a tema.
    Qual è il significato dell'Albero della Vita che volete comunicare
    regalando questo album fotografico?
     </text>
-    </page>
+    </page>§
 <page='contexte25italien'>
     <text>
            Sacra
@@ -13584,7 +13584,7 @@ Quando e a chi regalare un albero della vita?
 
    Santa Messa
     </text>
-    </page>
+    </page>§
 <page='contexte26italien'>
     <text>
         2. Blog
@@ -13799,7 +13799,7 @@ Preghiera sull'Albero della Vita
    le cose, affinché possiamo essere nutriti dalla tua presenza nella nostra
    vita quotidiana.
     </text>
-    </page>
+    </page>§
 <page='contexte27italien'>
     <text>
     Featured
@@ -13958,7 +13958,7 @@ magici. Vediamo insieme quali sono.
    solida, prosperosa e intensa
    TuscanyPeople logo
     </text>
-    </page>
+    </page>§
 <page='contexte28italien'>
     <text>
        L’Albero della Vita esiste davvero?
@@ -14120,7 +14120,7 @@ Il ‘vero’ albero della vita
 
      ----------------------------------------------------------------------
     </text>
-    </page>
+    </page>§
 <page='contexte29italien'>
     <text>
        Vai alla navigazione Vai alla ricerca
@@ -14171,7 +14171,7 @@ Note[modifica | modifica wikitesto]
 
 Collegamenti esterni[modifica | modifica wikitesto]
     </text>
-    </page>
+    </page>§
 <page='contexte30italien'>
     <text>
            2.3 Alberi sintattittici                               Indietro Avanti 
@@ -14203,7 +14203,7 @@ Collegamenti esterni[modifica | modifica wikitesto]
       vocabolario dei simboli terminali, e` possibile descrivere un   
       numero maggiore di proposizioni.                                
     </text>
-    </page>
+    </page>§
 <page='contexte31italien'>
     <text>
        Vai alla navigazione Vai alla ricerca
@@ -14253,7 +14253,7 @@ Applicazione nei compilatori[modifica | modifica wikitesto]
 
 Altri progetti[modifica | modifica wikitesto]
     </text>
-    </page>
+    </page>§
 <page='contexte32italien'>
     <text>
        Comprimi il menu
@@ -14348,7 +14348,7 @@ Altri progetti modifica
    EN syntax tree in Free On line Dictionary of Computing Denis Howe
    Disponibile con licenza GFDL EN Linguistic Tree Constructor su ltc
     </text>
-    </page>
+    </page>§
 <page='contexte33italien'>
     <text>
        Una proposizione è una lista di simboli, ma è anche passibile di una
@@ -14502,7 +14502,7 @@ Altri progetti modifica
    Calcolare anche l’altezza di ciascun albero e l’altezza della formula a
    cui è associato.
     </text>
-    </page>
+    </page>§
 <page='contexte34italien'>
     <text>
        Link: license
@@ -14527,7 +14527,7 @@ Altri progetti modifica
    Categories:
      * Italian terms with audio links
     </text>
-    </page>
+    </page>§
 <page='contexte35italien'>
     <text>
        secondo le linee guida sull'uso delle fonti. Segui i suggerimenti del
@@ -14776,7 +14776,7 @@ Collegamenti esterni[modifica | modifica wikitesto]
        dell'Enciclopedia Italiana, 2013. Modifica su Wikidata
      * (EN) Eric W. Weisstein, Albero binario, su MathWorld, Wolfram
     </text>
-    </page>
+    </page>§
 <page='contexte36italien'>
     <text>
        --------------------------------------------------------------------------
@@ -14950,7 +14950,7 @@ Su di un albero ben bilanciato di 1000 nodi, il secondo algoritmo richiede al
 massimo una decina di passi.                                                     
                                                                                  
     </text>
-    </page>
+    </page>§
 <page='contexte37italien'>
     <text>
        [ ]
@@ -15058,7 +15058,7 @@ massimo una decina di passi.
        informatica
     4. Differenza tra Tabella decisionale e Albero decisionale
     </text>
-    </page>
+    </page>§
 <page='contexte38italien'>
     <text>
          * Forum di interesse generale
@@ -15091,7 +15091,7 @@ massimo una decina di passi.
          attenzioni.
          clima mediterraneo (sud italia).
     </text>
-    </page>
+    </page>§
 <page='contexte39italien'>
     <text>
          * Contatti
@@ -15183,7 +15183,7 @@ Articoli recenti
    ampliata la gamma di prodotti, arrivando a rispondere perfettamente alle
    esigenze di chi opera nell’ambito di paesaggistica, silvicoltura,
     </text>
-    </page>
+    </page>§
 <page='contexte40italien'>
     <text>
          * Contatti
@@ -15279,7 +15279,7 @@ Articoli recenti
    ampliata la gamma di prodotti, arrivando a rispondere perfettamente alle
    esigenze di chi opera nell’ambito di paesaggistica, silvicoltura,
     </text>
-    </page>
+    </page>§
 <page='contexte41italien'>
     <text>
          * Contatti
@@ -15369,7 +15369,7 @@ Articoli recenti
    ampliata la gamma di prodotti, arrivando a rispondere perfettamente alle
    esigenze di chi opera nell’ambito di paesaggistica, silvicoltura,
     </text>
-    </page>
+    </page>§
 <page='contexte42italien'>
     <text>
        Principale giardino
@@ -15429,7 +15429,7 @@ Come trovare il periodo giusto dell'anno
 
      * Ranunculus: condizionatamente resistente
     </text>
-    </page>
+    </page>§
 <page='contexte43italien'>
     <text>
     Alberi da Frutti – Guida alla piantagione e manutenzione
@@ -15828,7 +15828,7 @@ Come trovare il periodo giusto dell'anno
    creata in proprio, unendo nozioni scientifiche alla nostra esperienza
    pluriennale "in campo" e non vuole avere la pretesa di essere un testo
     </text>
-    </page>
+    </page>§
 <page='contexte44italien'>
     <text>
        _____________________
@@ -15950,7 +15950,7 @@ Come trovare il periodo giusto dell'anno
      * a proposito di nocciòli
      * a scuola d'orto
     </text>
-    </page>
+    </page>§
 <page='contexte45italien'>
     <text>
        secondo le linee guida sull'uso delle fonti. Segui i suggerimenti del
@@ -16055,7 +16055,7 @@ Altri progetti[modifica | modifica wikitesto]
 
 Collegamenti esterni[modifica | modifica wikitesto]
     </text>
-    </page>
+    </page>§
 <page='contexte46italien'>
     <text>
          * Arte e cultura
@@ -16155,7 +16155,7 @@ Il segreto degli alberi, di Alessandro Toffanelli (2012)
 
      * Condividi su Facebook
     </text>
-    </page>
+    </page>§
 <page='contexte47italien'>
     <text>
        Guardiani della Galassia
@@ -16304,7 +16304,7 @@ Il segreto degli alberi, di Alessandro Toffanelli (2012)
    preferiti da IGN. Diteci se siete d’accordo, se avete un albero preferito
    nella vita o, se preferite, il nome di un dottore. Ma che sia bravo, eh!
     </text>
-    </page>
+    </page>§
 <page='contexte48italien'>
     <text>
        Cultura
@@ -16364,7 +16364,7 @@ Il Platano Picchiatore in Harry Potter
    Erika Barani
    Erika Barani
     </text>
-    </page>
+    </page>§
 <page='contexte49italien'>
     <text>
       DOWNTON ABBEY
@@ -16379,7 +16379,7 @@ Il Platano Picchiatore in Harry Potter
    babbo natalefilm nataleMamma ho perso l'aereonatale streamingserie natale
    L'annuncio si chiuderà tra pochi secondi
     </text>
-    </page>
+    </page>§
 <page='contexte50italien'>
     <text>
        Sentieri Naturali
@@ -16616,7 +16616,7 @@ Il Platano Picchiatore in Harry Potter
      * * * *  [IMG]Una natura tanto contraffatta da non riconoscersi. La
    metamorfosi nella narrazione fiabesca.
     </text>
-    </page>
+    </page>§
 <page='contexte51italien'>
     <text>
        Sentieri Naturali
@@ -16991,7 +16991,7 @@ Il Platano Picchiatore in Harry Potter
      * * * *  [IMG]Una natura tanto contraffatta da non riconoscersi. La
    metamorfosi nella narrazione fiabesca.
     </text>
-    </page>
+    </page>§
 <page='contexte52italien'>
     <text>
          * Energia in MobilitÃ 
@@ -17033,7 +17033,7 @@ Il Platano Picchiatore in Harry Potter
    Stampa
    Precedente
     </text>
-    </page>
+    </page>§
 <page='contexte53italien'>
     <text>
        secondo le linee guida sull'uso delle fonti. Segui i suggerimenti del
@@ -17063,7 +17063,7 @@ Il Platano Picchiatore in Harry Potter
 
 Collegamenti esterni[modifica | modifica wikitesto]
     </text>
-    </page>
+    </page>§
 <page='contexte54italien'>
     <text>
        Da Wikipedia, l'enciclopedia libera.
@@ -17108,7 +17108,7 @@ Altri progetti[modifica | modifica wikitesto]
 
 Collegamenti esterni[modifica | modifica wikitesto]
     </text>
-    </page>
+    </page>§
 <page='contexte55italien'>
     <text>
          * Suivez nous:    
@@ -17145,7 +17145,7 @@ Mots proches
 
      ----------------------------------------------------------------------
     </text>
-    </page>
+    </page>§
 </lang>
 <lang=russe>
 <page='contexte1russe'>
@@ -17404,7 +17404,7 @@ Mots proches
    Категории:
      * Слова из списка Сводеша/ru
     </text>
-    </page>
+    </page>§
 <page='contexte2russe'>
     <text>
        vk.com/eugzol
@@ -17517,7 +17517,7 @@ AST vs parse tree
 
    Языки:
     </text>
-    </page>
+    </page>§
 <page='contexte3russe'>
     <text>
        ru_vds 26 июн 2018 в 11:42
@@ -17609,7 +17609,7 @@ AST vs parse tree
    функцию планируется выполнять. Кроме того, не выделяется память из кучи,
    что обычно требует немалых системных ресурсов. Если в двух словах, то
     </text>
-    </page>
+    </page>§
 <page='contexte4russe'>
     <text>
        Link: top: Problem Solving with Algorithms and Data Structures
@@ -17765,7 +17765,7 @@ AST vs parse tree
 
    readers online now | | Back to top
     </text>
-    </page>
+    </page>§
 <page='contexte5russe'>
     <text>
        известной как «Пифагоровы штаны».
@@ -17813,7 +17813,7 @@ AST vs parse tree
 
 См. также[править | править код]
     </text>
-    </page>
+    </page>§
 <page='contexte6russe'>
     <text>
        Материал из Викицитатника
@@ -18330,7 +18330,7 @@ AST vs parse tree
      * Трава
      * Мох
     </text>
-    </page>
+    </page>§
 <page='contexte7russe'>
     <text>
        [IMG] Кустарники лиственные                                                
@@ -18367,7 +18367,7 @@ AST vs parse tree
   * Cемена овощей                                                        
   * * БОТАНИКА                                                           
     </text>
-    </page>
+    </page>§
 <page='contexte8russe'>
     <text>
          * info@rosdrevo.ru
@@ -18522,7 +18522,7 @@ AST vs parse tree
 
 Мы в социальных сетях
     </text>
-    </page>
+    </page>§
 <page='contexte9russe'>
     <text>
        Link: license
@@ -18631,7 +18631,7 @@ AST vs parse tree
    Категория:
      * Новогодние традиции
     </text>
-    </page>
+    </page>§
 <page='contexte10russe'>
     <text>
     
@@ -18789,7 +18789,7 @@ AST vs parse tree
      * Новогодняя «ёлка». Кто она? о деревьях используемых в качестве
        «Новогодней Ёлки».
     </text>
-    </page>
+    </page>§
 <page='contexte11russe'>
     <text>
               * Настольные елки
@@ -18880,7 +18880,7 @@ AST vs parse tree
      * Страховка елки
      * Подъем на этаж
     </text>
-    </page>
+    </page>§
 <page='contexte12russe'>
     <text>
        пальм) главной осью — стволом^[1]^[2]^[3].
@@ -19317,7 +19317,7 @@ AST vs parse tree
               * Арбористика                  
               * Лес                          
     </text>
-    </page>
+    </page>§
 <page='contexte13russe'>
     <text>
        18:30 30.11.2021 (обновлено: 08:40 31.12.2021)
@@ -19629,7 +19629,7 @@ AST vs parse tree
    предлагают некоторые фирмы.
     
     </text>
-    </page>
+    </page>§
 <page='contexte14russe'>
     <text>
        Link: canonical
@@ -19658,7 +19658,7 @@ AST vs parse tree
    территории бывшего СССР, как советской альтернативы Рождеству, а также в
    Азии.
     </text>
-    </page>
+    </page>§
 <page='contexte15russe'>
     <text>
     
@@ -19727,7 +19727,7 @@ AST vs parse tree
    В Библии величественные, высокие платаны — деревья Бога^[источник не
    указан 1734 дня].
     </text>
-    </page>
+    </page>§
 <page='contexte16russe'>
     <text>
               * Розы
@@ -19872,7 +19872,7 @@ AST vs parse tree
      * ХатиораХатиора
                                     Хатиора
     </text>
-    </page>
+    </page>§
 <page='contexte17russe'>
     <text>
          * info@rosdrevo.ru
@@ -20105,7 +20105,7 @@ AST vs parse tree
 
 Мы в социальных сетях
     </text>
-    </page>
+    </page>§
 <page='contexte18russe'>
     <text>
          * info@rosdrevo.ru
@@ -20203,7 +20203,7 @@ AST vs parse tree
 
 Мы в социальных сетях
     </text>
-    </page>
+    </page>§
 <page='contexte19russe'>
     <text>
          * info@rosdrevo.ru
@@ -20338,7 +20338,7 @@ AST vs parse tree
 
 Мы в социальных сетях
     </text>
-    </page>
+    </page>§
 <page='contexte20russe'>
     <text>
          * info@rosdrevo.ru
@@ -20451,7 +20451,7 @@ AST vs parse tree
 
 Мы в социальных сетях
     </text>
-    </page>
+    </page>§
 <page='contexte21russe'>
     <text>
          * Контакты
@@ -20488,7 +20488,7 @@ AST vs parse tree
    10) Самое большое дерево – «Генерал Шерман» находится в "Гигантском лесу"
    Калифорнии. Его высота составляет 83,8м, а возраст – 2300-2700 лет.
     </text>
-    </page>
+    </page>§
 <page='contexte22russe'>
     <text>
     
@@ -20567,7 +20567,7 @@ AST vs parse tree
    пустыре, когда ему было 16 лет. Сейчас индийцу 47 и он имеет собственный
    тропический лес площадью 550 гектаров. По подтвержденным данным здесь
     </text>
-    </page>
+    </page>§
 <page='contexte23russe'>
     <text>
          * Дерево Пифагора — разновидность фрактала, основанная на фигуре,
@@ -20586,7 +20586,7 @@ AST vs parse tree
      * Дерево желаний (значения)
      * Дерево любви (значения)
     </text>
-    </page>
+    </page>§
 <page='contexte24russe'>
     <text>
        Ліс
@@ -20730,7 +20730,7 @@ AST vs parse tree
    очень мало
    Пошук: _____________________  [ Шукати ]
     </text>
-    </page>
+    </page>§
 <page='contexte25russe'>
     <text>
        Главная Блог для родителей Кругозор
@@ -20820,7 +20820,7 @@ AST vs parse tree
    Лариса         
    Бурмистрова,   
     </text>
-    </page>
+    </page>§
 <page='contexte26russe'>
     <text>
                                                           FW        55294         
@@ -21125,7 +21125,7 @@ AST vs parse tree
        энциклопедия, 1970. — (Большая советская энциклопедия : [в 30 т.] /
        гл. ред. А. М. Прохоров ; 1969—1978, т. 3).
     </text>
-    </page>
+    </page>§
 <page='contexte27russe'>
     <text>
                                                FW     54594       
@@ -21202,7 +21202,7 @@ AST vs parse tree
        Факультет лесного хозяйства, лесопромышленных технологий и
        садово-паркового строительства Мытищинского филиала МГТУ им. Н. Э.
     </text>
-    </page>
+    </page>§
 <page='contexte28russe'>
     <text>
        Клён белый                     
@@ -21263,7 +21263,7 @@ AST vs parse tree
    Скрытые категории:
      * Страницы, использующие волшебные ссылки ISBN
     </text>
-    </page>
+    </page>§
 <page='contexte29russe'>
     <text>
                                                WFO    4000022982  
@@ -21288,7 +21288,7 @@ AST vs parse tree
    современных интенсивных садов с высотой деревьев 2-3 метра, используются
    карликовые и полукарликовые клоновые подвои яблони^[17].
     </text>
-    </page>
+    </page>§
 <page='contexte30russe'>
     <text>
        Еще один критерий классификации — продолжительность жизни листьев, исходя
@@ -21321,7 +21321,7 @@ AST vs parse tree
    всего, более интересной фактурой: они удивительно красивы и прочны.
    Поэтому древесина является не только доступным источником…
     </text>
-    </page>
+    </page>§
 <page='contexte31russe'>
     <text>
          * Помощь
@@ -21403,7 +21403,7 @@ AST vs parse tree
 
    люди и растения
     </text>
-    </page>
+    </page>§
 <page='contexte32russe'>
     <text>
          * Размеры и возраст.
@@ -21990,7 +21990,7 @@ AST vs parse tree
    одинаковых расстояниях друг от друга. С эстетической точки зрения это,
    может быть, и оправданно, однако такие одновидовые насаждения особенно
     </text>
-    </page>
+    </page>§
 <page='contexte33russe'>
     <text>
         2. Публикации
@@ -22109,7 +22109,7 @@ AST vs parse tree
    кусочек себя самого. Бесчисленные пары влюбленных под сенью зеленых сводов
    отдают друг другу свои сердца, а затем вырезают сердечки на стволе мощного
     </text>
-    </page>
+    </page>§
 <page='contexte34russe'>
     <text>
        искусстве и архитектуре части стран деревянная архитектура имела
@@ -22270,7 +22270,7 @@ AST vs parse tree
    XV—XVI веках, образцами служили и ювелирные изделия. В эпоху барокко
    мастерство резчиков возрастает, и выпускаются формы с более сложными
     </text>
-    </page>
+    </page>§
 <page='contexte35russe'>
     <text>
        Главная страница
@@ -22305,7 +22305,7 @@ AST vs parse tree
    светло-коричневой, это место и есть граница корневойшейки. При посадке
    корневую шейку располагают на 3-6 сантитметров выше уровня почвы, после
     </text>
-    </page>
+    </page>§
 <page='contexte36russe'>
     <text>
        Link: image_src
@@ -22405,7 +22405,7 @@ AST vs parse tree
    Создание сайта: hrustalev.com
    _____________________
     </text>
-    </page>
+    </page>§
 <page='contexte37russe'>
     <text>
        площадью 24,2 гектара в Алапаевском, Верхнетуринском, Ивдельском,
@@ -22434,7 +22434,7 @@ AST vs parse tree
    одной из крупнейших в России.
    Принять участие в акции может любой желающий – достаточно зайти на сайт
     </text>
-    </page>
+    </page>§
 <page='contexte38russe'>
     <text>
        перекрыта дорога между селами Митяево и Трудовое Сакского района. Еще
@@ -22460,7 +22460,7 @@ AST vs parse tree
    населенных пунктов остались без воды. В Донецке обесточены 214 котельных
    и 20 подстанций, электричества также нет примерно у 190 тысяч абонентов.
     </text>
-    </page>
+    </page>§
 <page='contexte39russe'>
     <text>
          * Твиттер
@@ -22497,7 +22497,7 @@ AST vs parse tree
   На севере Англии спилили знаменитое «дерево Робин Гуда» — ему несколько
   столетий. Задержан 16-летний подросток. Зачем он это сделал, неизвестно
     </text>
-    </page>
+    </page>§
 <page='contexte40russe'>
     <text>
          * новости
@@ -22531,7 +22531,7 @@ AST vs parse tree
    с надписями
    Lee Smith / Reuters / Scanpix / LETA
     </text>
-    </page>
+    </page>§
 <page='contexte41russe'>
     <text>
        новости
@@ -22565,7 +22565,7 @@ AST vs parse tree
    более 65 пострадали. В Татарстане дерево упало на туристическую палатку,
    из-за чего погиб ребенок.
     </text>
-    </page>
+    </page>§
 <page='contexte42russe'>
     <text>
     На Берлинале в этом году как никогда много анимации Новый Макото Синкай (главный
@@ -22586,7 +22586,7 @@ AST vs parse tree
    документы и проникнув на плантацию, где выращивается питание для выживших,
    он похищает погруженную в сон Нору и отправляется с ней в путешествие —
     </text>
-    </page>
+    </page>§
 <page='contexte43russe'>
     <text>
        Собянин рассказал о программе озеленения магистралей Москвы
@@ -22633,7 +22633,7 @@ AST vs parse tree
    высадить порядка 850 штук. А декоративные яблони прекрасны в любое время
    года. Их тоже будет довольно много – почти 450", – цитирует Собянина
     </text>
-    </page>
+    </page>§
 <page='contexte44russe'>
     <text>
        сургут
@@ -22672,7 +22672,7 @@ AST vs parse tree
    Почти 500 елей, сосен и кедров высадят в Салехарде осенью
    31 августа 2023, 16:55
     </text>
-    </page>
+    </page>§
 <page='contexte45russe'>
     <text>
        Дерево — это связный ациклический граф.^[1] Связность означает наличие
@@ -22890,7 +22890,7 @@ N-арные деревья[править | править код]
 
    Источник —
     </text>
-    </page>
+    </page>§
 <page='contexte46russe'>
     <text>
        Почти 500 елей, сосен и кедров высадят в Салехарде осенью
@@ -22953,7 +22953,7 @@ N-арные деревья[править | править код]
    Плетеные ивы впервые высадят в ямальском Губкинском
    17 мая 2023, 16:44
     </text>
-    </page>
+    </page>§
 <page='contexte47russe'>
     <text>
          * info@rosdrevo.ru
@@ -23088,7 +23088,7 @@ N-арные деревья[править | править код]
 
 Мы в социальных сетях
     </text>
-    </page>
+    </page>§
 <page='contexte48russe'>
     <text>
          * info@rosdrevo.ru
@@ -23201,7 +23201,7 @@ N-арные деревья[править | править код]
 
 Мы в социальных сетях
     </text>
-    </page>
+    </page>§
 <page='contexte49russe'>
     <text>
          * Контакты
@@ -23238,7 +23238,7 @@ N-арные деревья[править | править код]
    10) Самое большое дерево – «Генерал Шерман» находится в "Гигантском лесу"
    Калифорнии. Его высота составляет 83,8м, а возраст – 2300-2700 лет.
     </text>
-    </page>
+    </page>§
 <page='contexte50russe'>
     <text>
     
@@ -23317,7 +23317,7 @@ N-арные деревья[править | править код]
    пустыре, когда ему было 16 лет. Сейчас индийцу 47 и он имеет собственный
    тропический лес площадью 550 гектаров. По подтвержденным данным здесь
     </text>
-    </page>
+    </page>§
 <page='contexte51russe'>
     <text>
        Ліс
@@ -23473,7 +23473,7 @@ N-арные деревья[править | править код]
        канал 10.12.2023
      * Незаконна вирубка лісу: НУО б’є на сполох, звинувачуючи урядовців у
     </text>
-    </page>
+    </page>§
 <page='contexte52russe'>
     <text>
        Перейти к навигации Перейти к поиску
@@ -23724,7 +23724,7 @@ N-арные деревья[править | править код]
                        * Hash tree^[en]                                    
                   * Бинарная диаграмма решений                             
     </text>
-    </page>
+    </page>§
 <page='contexte53russe'>
     <text>
        Главная Блог для родителей Кругозор
@@ -23814,7 +23814,7 @@ N-арные деревья[править | править код]
    Лариса         
    Бурмистрова,   
     </text>
-    </page>
+    </page>§
 <page='contexte54russe'>
     <text>
                                                           FW        55294         
@@ -24119,7 +24119,7 @@ N-арные деревья[править | править код]
        энциклопедия, 1970. — (Большая советская энциклопедия : [в 30 т.] /
        гл. ред. А. М. Прохоров ; 1969—1978, т. 3).
     </text>
-    </page>
+    </page>§
 <page='contexte55russe'>
     <text>
                                                FW     54594       
@@ -24196,7 +24196,7 @@ N-арные деревья[править | править код]
        Факультет лесного хозяйства, лесопромышленных технологий и
        садово-паркового строительства Мытищинского филиала МГТУ им. Н. Э.
     </text>
-    </page>
+    </page>§
 <page='contexte56russe'>
     <text>
        Клён белый                     
@@ -24257,7 +24257,7 @@ N-арные деревья[править | править код]
    Скрытые категории:
      * Страницы, использующие волшебные ссылки ISBN
     </text>
-    </page>
+    </page>§
 <page='contexte57russe'>
     <text>
                                                WFO    4000022982  
@@ -24282,7 +24282,7 @@ N-арные деревья[править | править код]
    современных интенсивных садов с высотой деревьев 2-3 метра, используются
    карликовые и полукарликовые клоновые подвои яблони^[17].
     </text>
-    </page>
+    </page>§
 <page='contexte58russe'>
     <text>
        известной как «Пифагоровы штаны».
@@ -24330,7 +24330,7 @@ N-арные деревья[править | править код]
 
 См. также[править | править код]
     </text>
-    </page>
+    </page>§
 <page='contexte59russe'>
     <text>
        Еще один критерий классификации — продолжительность жизни листьев, исходя
@@ -24363,7 +24363,7 @@ N-арные деревья[править | править код]
    всего, более интересной фактурой: они удивительно красивы и прочны.
    Поэтому древесина является не только доступным источником…
     </text>
-    </page>
+    </page>§
 <page='contexte60russe'>
     <text>
          * Помощь
@@ -24445,7 +24445,7 @@ N-арные деревья[править | править код]
 
    люди и растения
     </text>
-    </page>
+    </page>§
 <page='contexte61russe'>
     <text>
          * Размеры и возраст.
@@ -25032,7 +25032,7 @@ N-арные деревья[править | править код]
    одинаковых расстояниях друг от друга. С эстетической точки зрения это,
    может быть, и оправданно, однако такие одновидовые насаждения особенно
     </text>
-    </page>
+    </page>§
 <page='contexte62russe'>
     <text>
         2. Публикации
@@ -25151,7 +25151,7 @@ N-арные деревья[править | править код]
    кусочек себя самого. Бесчисленные пары влюбленных под сенью зеленых сводов
    отдают друг другу свои сердца, а затем вырезают сердечки на стволе мощного
     </text>
-    </page>
+    </page>§
 <page='contexte63russe'>
     <text>
        Главная страница
@@ -25186,7 +25186,7 @@ N-арные деревья[править | править код]
    светло-коричневой, это место и есть граница корневойшейки. При посадке
    корневую шейку располагают на 3-6 сантитметров выше уровня почвы, после
     </text>
-    </page>
+    </page>§
 <page='contexte64russe'>
     <text>
        Link: license
@@ -25233,7 +25233,7 @@ N-арные деревья[править | править код]
    Категория:
      * Фракталы
     </text>
-    </page>
+    </page>§
 <page='contexte65russe'>
     <text>
        Link: image_src
@@ -25333,7 +25333,7 @@ N-арные деревья[править | править код]
    Создание сайта: hrustalev.com
    _____________________
     </text>
-    </page>
+    </page>§
 <page='contexte66russe'>
     <text>
        площадью 24,2 гектара в Алапаевском, Верхнетуринском, Ивдельском,
@@ -25362,7 +25362,7 @@ N-арные деревья[править | править код]
    одной из крупнейших в России.
    Принять участие в акции может любой желающий – достаточно зайти на сайт
     </text>
-    </page>
+    </page>§
 <page='contexte67russe'>
     <text>
        перекрыта дорога между селами Митяево и Трудовое Сакского района. Еще
@@ -25388,7 +25388,7 @@ N-арные деревья[править | править код]
    населенных пунктов остались без воды. В Донецке обесточены 214 котельных
    и 20 подстанций, электричества также нет примерно у 190 тысяч абонентов.
     </text>
-    </page>
+    </page>§
 <page='contexte68russe'>
     <text>
          * Твиттер
@@ -25425,7 +25425,7 @@ N-арные деревья[править | править код]
   На севере Англии спилили знаменитое «дерево Робин Гуда» — ему несколько
   столетий. Задержан 16-летний подросток. Зачем он это сделал, неизвестно
     </text>
-    </page>
+    </page>§
 <page='contexte69russe'>
     <text>
          * новости
@@ -25459,7 +25459,7 @@ N-арные деревья[править | править код]
    с надписями
    Lee Smith / Reuters / Scanpix / LETA
     </text>
-    </page>
+    </page>§
 <page='contexte70russe'>
     <text>
        связывающее все формы жизни, оба являются формами мирового древа или
@@ -25650,7 +25650,7 @@ N-арные деревья[править | править код]
        Этнолингвистический словарь : в 5 т. / под общ. ред. Н. И. Толстого;
        Институт славяноведения РАН. — М. : Межд. отношения, 2004. — Т. 3: К
     </text>
-    </page>
+    </page>§
 <page='contexte71russe'>
     <text>
        новости
@@ -25684,7 +25684,7 @@ N-арные деревья[править | править код]
    более 65 пострадали. В Татарстане дерево упало на туристическую палатку,
    из-за чего погиб ребенок.
     </text>
-    </page>
+    </page>§
 <page='contexte72russe'>
     <text>
     На Берлинале в этом году как никогда много анимации Новый Макото Синкай (главный
@@ -25705,7 +25705,7 @@ N-арные деревья[править | править код]
    документы и проникнув на плантацию, где выращивается питание для выживших,
    он похищает погруженную в сон Нору и отправляется с ней в путешествие —
     </text>
-    </page>
+    </page>§
 <page='contexte73russe'>
     <text>
        Собянин рассказал о программе озеленения магистралей Москвы
@@ -25752,7 +25752,7 @@ N-арные деревья[править | править код]
    высадить порядка 850 штук. А декоративные яблони прекрасны в любое время
    года. Их тоже будет довольно много – почти 450", – цитирует Собянина
     </text>
-    </page>
+    </page>§
 <page='contexte74russe'>
     <text>
        сургут
@@ -25791,7 +25791,7 @@ N-арные деревья[править | править код]
    Почти 500 елей, сосен и кедров высадят в Салехарде осенью
    31 августа, 16:55
     </text>
-    </page>
+    </page>§
 <page='contexte75russe'>
     <text>
        Почти 500 елей, сосен и кедров высадят в Салехарде осенью
@@ -25854,5 +25854,5 @@ N-арные деревья[править | править код]
    Плетеные ивы впервые высадят в ямальском Губкинском
    17 мая, 16:44
     </text>
-    </page>
+    </page>§
 </lang>

@@ -155,7 +155,7 @@ Further reading[edit]
        for Technical Communication
    Retrieved from
     </text>
-    </page>
+    </page>§
 <page='contexte2anglais'>
     <text>
        Tools, Research, Reports &amp; Guides
@@ -211,7 +211,7 @@ Further reading[edit]
    Suite 750
    Washington, DC 20005
     </text>
-    </page>
+    </page>§
 <page='contexte3anglais'>
     <text>
        [ ] Toggle the table of contents
@@ -305,7 +305,7 @@ External links[edit]
    Categories:
      * Trees (data structures)
     </text>
-    </page>
+    </page>§
 <page='contexte4anglais'>
     <text>
          * (Top)
@@ -482,7 +482,7 @@ See also[edit]
    Categories:
      * Syntax
     </text>
-    </page>
+    </page>§
 <page='contexte5anglais'>
     <text>
     
@@ -534,7 +534,7 @@ See also[edit]
    Example5 − Draw syntax tree for following arithmetic expression a * (b +
    c) – d /2. Also, write given expression in postfix form.
     </text>
-    </page>
+    </page>§
 <page='contexte6anglais'>
     <text>
        [ ] Toggle the table of contents
@@ -766,7 +766,7 @@ External links[edit]
      * Genealogy
      * Charts
     </text>
-    </page>
+    </page>§
 <page='contexte7anglais'>
     <text>
          * (Top)
@@ -2051,7 +2051,7 @@ External links[edit]
      * Christmas decorations
      * Christmas in Germany
     </text>
-    </page>
+    </page>§
 <page='contexte8anglais'>
     <text>
         6. Christmas Tree Trivia and Facts
@@ -2334,7 +2334,7 @@ Christmas Tree Trivia and Facts
 
    Date Accessed
     </text>
-    </page>
+    </page>§
 <page='contexte9anglais'>
     <text>
     
@@ -2442,7 +2442,7 @@ The Elkhorn Slough Reserve is pioneering methods to restore native habitats
    a salt marsh, locking up the carbon the eucalyptus trees had sucked from
    the air over their lifetime.
     </text>
-    </page>
+    </page>§
 <page='contexte10anglais'>
     <text>
        © Al Nisr Publishing LLC 2024. All rights reserved.
@@ -2491,7 +2491,7 @@ The Elkhorn Slough Reserve is pioneering methods to restore native habitats
    209697-01-02 A European bison enjoys a Christmas tree in its enclosure.
    Image Credit: AFP
     </text>
-    </page>
+    </page>§
 <page='contexte11anglais'>
     <text>
        Pop-out player
@@ -2590,7 +2590,7 @@ The Elkhorn Slough Reserve is pioneering methods to restore native habitats
 
    ecologist –n. a person who studies living things and their environment
     </text>
-    </page>
+    </page>§
 <page='contexte12anglais'>
     <text>
                    * 7.4.2 Tree shaping
@@ -3533,7 +3533,7 @@ References
                    * Wood                         
                         * engineered              
     </text>
-    </page>
+    </page>§
 <page='contexte13anglais'>
     <text>
     
@@ -3656,7 +3656,7 @@ References
    stalls like you see. The key is actual shaded areas on the parking lot,
    not how many shadeless lolly pops you have.
     </text>
-    </page>
+    </page>§
 <page='contexte14anglais'>
     <text>
          * Criminal Justice + Policing
@@ -3706,7 +3706,7 @@ References
    Jared Strong December 11, 2023
    Data show which Iowa counties have (or don't have) representative
     </text>
-    </page>
+    </page>§
 <page='contexte15anglais'>
     <text>
        I-5 bridge
@@ -3834,7 +3834,7 @@ Northwest
 
    Dec. 31, 2023
     </text>
-    </page>
+    </page>§
 <page='contexte16anglais'>
     <text>
         1. Bytecode interpreter
@@ -3858,7 +3858,7 @@ Northwest
 
     
     </text>
-    </page>
+    </page>§
 <page='contexte17anglais'>
     <text>
     
@@ -3874,7 +3874,7 @@ Northwest
    also provides the ParseFragment function for parsing fragments of HTML
    documents.
     </text>
-    </page>
+    </page>§
 <page='contexte18anglais'>
     <text>
                           How Database B-Tree Indexing Works 
@@ -4021,12 +4021,12 @@ Using SQLite B-Tree Indexing
    to the binary search, which gives the database more control to search
    non-index values in a database.
     </text>
-    </page>
+    </page>§
 <page='contexte19anglais'>
     <text>
     
     </text>
-    </page>
+    </page>§
 <page='contexte20anglais'>
     <text>
        [ Submit ]
@@ -4413,7 +4413,7 @@ More from Merriam-Webster on tree
 
    Last Updated: 25 Dec 2023 - Updated example sentences
     </text>
-    </page>
+    </page>§
 <page='contexte21anglais'>
     <text>
        _____________________
@@ -4500,7 +4500,7 @@ More from Merriam-Webster on tree
    tried to stop people from cutting down trees in the wilderness. But
    deforestation is still a problem in many parts of the world.
     </text>
-    </page>
+    </page>§
 <page='contexte22anglais'>
     <text>
        {{/preferredDictionaries}}
@@ -4682,7 +4682,7 @@ More meanings of tree
 
    [ Submit ]
     </text>
-    </page>
+    </page>§
 <page='contexte23anglais'>
     <text>
        From Wikiquote
@@ -5225,7 +5225,7 @@ More meanings of tree
    CommonsCommons
    Wikimedia Commons has media related to:
     </text>
-    </page>
+    </page>§
 <page='contexte24anglais'>
     <text>
          * 1 Applications
@@ -5570,7 +5570,7 @@ Notes[edit]
               * Binary decision diagram            
    Graphs     * Directed acyclic graph             
     </text>
-    </page>
+    </page>§
 <page='contexte25anglais'>
     <text>
          * 1 Applications
@@ -5915,7 +5915,7 @@ Notes[edit]
               * Binary decision diagram            
    Graphs     * Directed acyclic graph             
     </text>
-    </page>
+    </page>§
 <page='contexte26anglais'>
     <text>
          * Introduction to Tree - Data Structure and Algorithm Tutorials
@@ -6184,7 +6184,7 @@ Disadvantages of Tree Data Structure:
    Complete Tutorials
    Learn Algorithms with Javascript | DSA using JavaScript Tutorial
     </text>
-    </page>
+    </page>§
 <page='contexte27anglais'>
     <text>
        {{/preferredDictionaries}}
@@ -6350,7 +6350,7 @@ More meanings of tree
 
    [ Submit ]
     </text>
-    </page>
+    </page>§
 <page='contexte28anglais'>
     <text>
          * 2 Statement
@@ -6498,7 +6498,7 @@ TREE function[edit]
    Categories:
      * Mathematical logic
     </text>
-    </page>
+    </page>§
 <page='contexte29anglais'>
     <text>
        Linear vs non-linear Array vs linked list Stack vs queue Linear vs
@@ -6788,7 +6788,7 @@ TREE function[edit]
      * For minimum children, a leaf node has 0 children, root node has        
        minimum 2 children and internal node has minimum ceiling of m/2        
     </text>
-    </page>
+    </page>§
 <page='contexte30anglais'>
     <text>
               * 1.1 Tree
@@ -7113,7 +7113,7 @@ Notes[edit]
        Information Processing Letters, 51 (3): 111–116,
        doi:10.1016/0020-0190(94)00085-9, ISSN 0020-0190.
     </text>
-    </page>
+    </page>§
 <page='contexte31anglais'>
     <text>
          * PETS &amp; ANIMALS
@@ -7129,7 +7129,7 @@ Notes[edit]
    WPVI
    Report a correction or typo
     </text>
-    </page>
+    </page>§
 <page='contexte32anglais'>
     <text>
          * Latest Newscasts
@@ -7162,7 +7162,7 @@ Notes[edit]
      * Alexandria, LA 71301
      * (318) 483-4211
     </text>
-    </page>
+    </page>§
 <page='contexte33anglais'>
     <text>
        _____________________ [ Submit ] 
@@ -7230,7 +7230,7 @@ Notes[edit]
      * Forward Movement releases new Lenten devotional and small group study
        Forward Movement
     </text>
-    </page>
+    </page>§
 <page='contexte34anglais'>
     <text>
        by Michael Kuhns, Extension Forestry Specialist
@@ -7295,7 +7295,7 @@ Notes[edit]
    size criteria. A shrub can then be defined as a woody plant with several
    perennial stems that may be erect or may lay close to the ground. It will
     </text>
-    </page>
+    </page>§
 <page='contexte35anglais'>
     <text>
                                          YOUR AD HERE »
@@ -7319,7 +7319,7 @@ Notes[edit]
         UPDATE: Coroner identifies skier who died after collision with tree at
         Breckenridge Ski Resort
     </text>
-    </page>
+    </page>§
 <page='contexte36anglais'>
     <text>
     
@@ -7344,7 +7344,7 @@ Notes[edit]
    transportation
    Categories: KPQ News
     </text>
-    </page>
+    </page>§
 <page='contexte37anglais'>
     <text>
        [ Save ]
@@ -7353,7 +7353,7 @@ Notes[edit]
 
    featured
     </text>
-    </page>
+    </page>§
 <page='contexte38anglais'>
     <text>
          * Facebook
@@ -7374,7 +7374,7 @@ Notes[edit]
      * A city street with a large electronic billboard advertising the NAACP
        National Convention, July 26-Aug. 1.
     </text>
-    </page>
+    </page>§
 <page='contexte39anglais'>
     <text>
     
@@ -7389,7 +7389,7 @@ Notes[edit]
 
    Pena and his passenger, 24-year-old Ruiz Sebastian of Brownsville, Texas,
     </text>
-    </page>
+    </page>§
 <page='contexte40anglais'>
     <text>
            Tweet
@@ -7452,7 +7452,7 @@ Notes[edit]
 
      * Microsoft Shopping:Terms and Details
     </text>
-    </page>
+    </page>§
 <page='contexte41anglais'>
     <text>
          * Planet Possible
@@ -7626,7 +7626,7 @@ Planting trees helps fight climate change—but we need billions more seedlings
 
    Most important, of course, is to cut the emissions that are heating the
     </text>
-    </page>
+    </page>§
 <page='contexte42anglais'>
     <text>
        November 5, 2017 / #Programming
@@ -7899,7 +7899,7 @@ Planting trees helps fight climate change—but we need billions more seedlings
 
  print(bst.remove_node(15, None)) # True
     </text>
-    </page>
+    </page>§
 <page='contexte43anglais'>
     <text>
     
@@ -8223,7 +8223,7 @@ Where do these trees come from?
 
             You can also browse through the KhanAcademy material on evolution
     </text>
-    </page>
+    </page>§
 <page='contexte44anglais'>
     <text>
        Trees
@@ -8312,7 +8312,7 @@ Where do these trees come from?
    "Trees." Implementing Discrete Mathematics: Combinatorics and Graph Theory
    with Mathematica. Reading, MA: Addison-Wesley, pp. 107 and 151-153,
     </text>
-    </page>
+    </page>§
 <page='contexte45anglais'>
     <text>
        for classification and regression. The goal is to create a model that
@@ -8686,7 +8686,7 @@ Where do these trees come from?
 
        * https://en.wikipedia.org/wiki/Predictive_analytics
     </text>
-    </page>
+    </page>§
 <page='contexte46anglais'>
     <text>
        Advertisement
@@ -8806,7 +8806,7 @@ Where do these trees come from?
 
    tref
     </text>
-    </page>
+    </page>§
 <page='contexte47anglais'>
     <text>
          * PowerNation
@@ -8831,7 +8831,7 @@ Toledo man left paralyzed after tree trimming accident speaks out for the first
    With more than 20 years in the tree trimming business, Thieman says this
    was never supposed to happen.
     </text>
-    </page>
+    </page>§
 <page='contexte48anglais'>
     <text>
     
@@ -8905,7 +8905,7 @@ Tree Types
 
 Get Involved
     </text>
-    </page>
+    </page>§
 <page='contexte49anglais'>
     <text>
        &amp; Nature Geography &amp; Travel Arts &amp; Culture Money Videos
@@ -9126,7 +9126,7 @@ Ecological and evolutionary classification
    example, the physiological cost of maintaining these structures in the
    living state would be enormous and probably unattainable. An elegant
     </text>
-    </page>
+    </page>§
 <page='contexte50anglais'>
     <text>
                            What is a Tree? How Does it Work?
@@ -9184,7 +9184,7 @@ Trees Grow:
    cold months. Deciduous trees drop their leaves; conifers have strategies
    to maintain their needles during the winter.
     </text>
-    </page>
+    </page>§
 <page='contexte51anglais'>
     <text>
          * Humberside
@@ -9234,5 +9234,5 @@ Trees Grow:
 
           * External
     </text>
-    </page>
+    </page>§
 </lang>

@@ -15,7 +15,7 @@ echo "<page='contexte${compteur}${langue}'>
     <text>
     $dump
     </text>
-    </page>" > test3.txt >> ../itrameur/contextes-${langue}.txt
+    </page>§" > test3.txt >> ../itrameur/contextes-${langue}.txt
 
     ((compteur++))
 
