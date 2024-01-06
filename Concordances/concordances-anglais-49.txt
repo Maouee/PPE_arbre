@@ -46,7 +46,6 @@ stern-brocot §tree§
 §tree§ decomposition
 §tree§ leaf
 §tree§
-binary §tree§
 §trees§ sorted by diameter
 bdm/data/§trees§.html.nijenhuis
 §trees§ on up to 16

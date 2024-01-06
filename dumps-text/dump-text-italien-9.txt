@@ -131,9 +131,11 @@ Mots proches
 
      ----------------------------------------------------------------------
 
-   À quoi correpond cette image ?
+   Savez-vous écrire en lettres ce nombre ? Cochez la bonne réponse.
 
-     *    * [ ] i cereali
-          * [ ] lo yoghurt
+     * 3
+
+          * [ ] tredici
+          * [ ] tre
    Applications mobiles Index Mentions légales et crédits CGU CGV Charte de
    confidentialité Cookies Contact © Larousse

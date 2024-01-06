@@ -4491,6 +4491,8 @@ button.dropdown-item.is-active {
   min-height: 3.25rem;
   position: relative;
   z-index: 30;
+  justify-content: center;
+  display: flex;
 }
 .navbar.is-white {
   background-color: hsl(0deg, 0%, 100%);
@@ -5438,11 +5440,11 @@ body.has-navbar-fixed-bottom-touch {
 
   .navbar > .container .navbar-brand,
 .container > .navbar .navbar-brand {
-    margin-left: -0.75rem;
+    margin-left: auto;
   }
   .navbar > .container .navbar-menu,
 .container > .navbar .navbar-menu {
-    margin-right: -0.75rem;
+    margin-right: auto;
   }
 
   .navbar.is-fixed-bottom-desktop, .navbar.is-fixed-top-desktop {

@@ -14,45 +14,78 @@ echo "<!DOCTYPE html>
             <script src='https://kit.fontawesome.com/b0d5fca4a5.js' crossorigin='anonymous'></script>
         </head>" > ../tableaux/tableau_${langue}.html
 
-##body
-echo "    <body>
-        <div class='container is-max-desktop'>
-        <h1 class='title is-bordered has-text-centered has-background-success-light has-background-centered'>
-            Programmation et projet encadré
-        </h1>
-        <div class='tabs is-centered'>" >> ../tableaux/tableau_${langue}.html
+echo '    <body>
+        <div class="container is-max-desktop">
+            <div class="block is-centered">
+                <h1 class="title is-bordered has-text-centered has-background-success-light has-background-centered">
+                    Programmation et projet encadré
+                </h1>  
+        <nav class="navbar is-centered  " role="navigation" aria-label="main navigation">' >> ../tableaux/tableau_${langue}.html
 
-##contenu du menu de navigation
-echo "             <ul>
-        <li>
-            <a href='../index.html'>
-                <span class='icon is-small'><i class='fa-solid fa-house' aria-hidden='true'></i></span>
-                <span>Accueil</span>
-            </a>
-        </li>
-        <li class='is-active'>
-            <a>
-                <span class='icon is-small'><i class='fa-solid fa-table' aria-hidden='true'></i></span>
-                <span>Tableau russe</span>
-            </a>
-        </li>
-        <li>
-            <a href='tableau_anglais.html'>
-                <span class='icon is-small'><i class='fa-solid fa-table' aria-hidden='true'></i></span>
-                <span>Tableau anglais</span>
-            </a>
-        </li>
-        <li>
-            <a href='tableau_italien.html'>
-                <span class='icon is-small'><i class='fa-solid fa-table' aria-hidden='true'></i></span>
-                <span>Tableau italien</span>
-            </a>
-        </li>
-</ul>
-    </div>
-    <table id=table>" >> ../tableaux/tableau_${langue}.html
+echo '
+                <div class="navbar-brand">
+                    <a class="navbar-item">
+                    <img src="../img/logo.png" width="40" height="74">
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-menu is-centered">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            <span class="icon is-small"><i class="fa-solid fa-house" aria-hidden="true"></i></span>
+                            <span>Accueil</span>
+                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <span class="icon is-small"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
+                                <span>Tableaux</span>
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../tableaux/tableau_anglais.html">
+                                    🇬🇧Anglais
+                                </a>
+                                <a class="navbar-item" href="../tableaux/tableau_italien.html">
+                                    🇮🇹Italien
+                                </a>
+                                <a class="navbar-item" href="../tableaux/tableau_russe.html">
+                                    🇷🇺Russe
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <span class="icon is-small"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
+                                <span>Analyses</span>
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../analyses/anglais/anglais.html">
+                                    🇬🇧Anglais
+                                </a>
+                                <a class="navbar-item" href="../analyses/italien/italien.html">
+                                    🇮🇹Italien
+                                </a>
+                                <a class="navbar-item" href="../analyses/russe/russe.html">
+                                    🇷🇺Russe
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary" href="https://github.com/Maouee/PPE_arbre">
+                                <span class="icon is-small"><i class="fa-brands fa-github"></i></span>
+                                <strong>Github</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <table id=table>' >> ../tableaux/tableau_${langue}.html
 
-##entête du tableau
+
+
+
 echo
 echo "            <tr>
                 <th>ligne</th>
