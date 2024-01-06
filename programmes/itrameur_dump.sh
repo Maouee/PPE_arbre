@@ -14,7 +14,7 @@ echo "<page='dump$compteur'>
     <text>
     $dump
     </text>
-    </page>" >> ../itrameur/dumps-text-${langue}.txt
+    </page>§" >> ../itrameur/dumps-text-${langue}.txt
 
     ((compteur++))
 
