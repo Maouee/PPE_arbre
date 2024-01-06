@@ -1,95 +1,129 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-        <script src="https://kit.fontawesome.com/b0d5fca4a5.js" crossorigin="anonymous"></script>
-    </head>
-    <div class="container is-max-desktop">
-        <div class="block is-centered">
-            <h1 class="title is-bordered has-text-centered has-background-success-light has-background-centered">
-                Programmation et projet encadré
-            </h1>    
-            <nav class="navbar is-centered  " role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
-                    <a class="navbar-item">
-                    <img src="../../img/logo.png" width="40" height="74">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+      <script src="https://kit.fontawesome.com/b0d5fca4a5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container has-text-centered">
+      <div class="is-centered">
+        <div class="title is-4 has-text-centered has-background-success-light">
+            Tree - Albero - Дерево
+        </div>    
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <img class="navbar-item" src="../../img/logo.png" width="70" height="70">
+            </div>
+            <div id="navbar" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="../../index.html">
+                        <span class="icon is-small"><i class="fa-solid fa-house" aria-hidden="true"></i></span>
+                        <span>Accueil</span>
                     </a>
-                </div>
-                <div id="navbar" class="navbar-menu is-centered">
-                    <div class="navbar-start">
-                        <a class="navbar-item" href="../../index.html">
-                            <span class="icon is-small"><i class="fa-solid fa-house" aria-hidden="true"></i></span>
-                            <span>Accueil</span>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            <span class="icon is-small"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
+                            <span>Tableaux</span>
                         </a>
-                        <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link">
-                                <span class="icon is-small"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
-                                <span>Tableaux</span>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../../tableaux/tableau_anglais.html">
+                                🇬🇧 Anglais
                             </a>
-                            <div class="navbar-dropdown">
-                                <a class="navbar-item" href="../../tableaux/tableau_anglais.html">
-                                    🇬🇧Anglais
-                                </a>
-                                <a class="navbar-item" href="../../tableaux/tableau_italien.html">
-                                    🇮🇹Italien
-                                </a>
-                                <a class="navbar-item" href="../../tableaux/tableau_russe.html">
-                                    🇷🇺Russe
-                                </a>
-                            </div>
-                        </div>
-                        <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link">
-                                <span class="icon is-small"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
-                                <span>Analyses</span>
+                            <a class="navbar-item" href="../../tableaux/tableau_italien.html">
+                                🇮🇹 Italien
                             </a>
-                            <div class="navbar-dropdown">
-                                <a class="navbar-item" href="../anglais/anglais.html">
-                                    🇬🇧Anglais
-                                </a>
-                                <a class="navbar-item" href="../italien/italien.html">
-                                    🇮🇹Italien
-                                </a>
-                                <a class="navbar-item" href="russe.html">
-                                    🇷🇺Russe
-                                </a>
-                            </div>
+                            <a class="navbar-item" href="../../tableaux/tableau_russe.html">
+                                🇷🇺 Russe
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="navbar-end">
-                    <div class="navbar-item">
-                        <div class="buttons">
-                            <a class="button is-primary" href="https://github.com/Maouee/PPE_arbre">
-                                <span class="icon is-small"><i class="fa-brands fa-github"></i></span>
-                                <strong>Github</strong>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            <span class="icon is-small"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
+                            <span>Analyses</span>
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="../anglais/anglais.html">
+                                🇬🇧 Anglais
+                            </a>
+                            <a class="navbar-item" href="../italien/italien.html">
+                                🇮🇹 Italien
+                            </a>
+                            <a class="navbar-item" href="russe.html">
+                                🇷🇺 Russe
                             </a>
                         </div>
                     </div>
                 </div>
-            </nav>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary" href="https://github.com/Maouee/PPE_arbre">
+                            <span class="icon is-small"><i class="fa-brands fa-github"></i></span>
+                            <strong>Github</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+          </nav>
+      </div>
+      <div class ="title is-3">
+        <p>Analyse du corpus russe</p>
+      </div>
+      <section class=" has-text-centered">
+        <div class="box">
+          <p class="title is-4">Calcul de spécificité</p>
+          <p>
+            En analysant les mots les plus spécifiques au corpus, c'est sans surprise que l'on retrouve en tête différentes déclinaisons du mot <strong>"arbre" (дерево - /derevo/ ) en russe</strong>, avec les formes du N-Acc.Sg, Gen.Pl, N-Acc.Pl et Gen.Sg en première page.
+            S'en suivent plusieurs pages de prépositions et conjonctions que nous ne prendrons pas en compte avant d'arriver aux premiers mots porteurs de sens tels que "de la Russie" ( России - /ross'ii/ ), "de la vie" ( жизни - /žizn'i/ ), "bouleau ( берёза - /b'er'oza/ )" ou "bonsaï" ( бонсай - /bonsaj/ ).
+          1 - Ne pas pouvoir enlever les stopword nous donne des résultats non pertinents.
+          </p>
         </div>
+        <div class="box"
+          <figure>
+            <img src="img/tableau_specificites.png" width="500" height="500">
+            <figcaption>Tableau de calcul de spécificité des mots du corpus - page 1.</figcaption>
+          </figure>            
+          <figure>
+            <img src="img/tableau_specificites2.png" width="500" height="500">
+            <figcaption>Tableau de calcul de spécificité des mots du corpus - page 4.</figcaption>
+          </figure>            
+          <figure>
+            <img src="img/tableau_specificites3.png" width="500" height="500">
+            <figcaption>Tableau de calcul de spécificité des mots du corpus - page 7.</figcaption>
+          </figure>
         </div>
-        <div class="container has-text-centered">
-            <div class ="title is-2"></div>
+      </section>
+      </br>
+      <section class="has-text-centered">
+        <div class="box">
+          <p class="title is-4">Cooccurences</p>
+          <p>
+1 - On a des résultats inattendus comme arbre de pythagore alors qu'on a jamais cherché ce mot
+2 - Ne pas pouvoir chercher par lemme nous oblige à chercher avec la forme du nominatif singulier          </p>
         </div>
-        <section class="section has-text-centered">
-            <p class="box">
-                blabla ohlala quelle surprise Christmas tree (peut-être parce que les URL ont été collectées au dernier moment lol). Sinon bcp
-                de graphe et d'info quand même
-            </p>
-            <br>
-            <figure>
-                <img src="img/graphe_concordance.png">
-                <figcaption>Graphe des coocurences du mot "tree" dans le corpus</figcaption>
-            </figure>
-            <br>
-            <figure>
-                <img src="img/tableau_concordance.png">
-                <figcaption>Tableau des coocurences du mot "tree" dans le corpus</figcaption>
-            </figure>
-
-        </section>
-
+        <div class="box">
+        <figure>
+            <img src="img/tableau_cooc.png">
+            <figcaption>Tableau des coocurences du mot "tree" dans le corpus</figcaption>
+        </figure>
+        <figure>
+          <img src="img/tableau_cooc2.png">
+          <figcaption>Tableau des coocurences du mot "tree" dans le corpus</figcaption>
+        </figure>
+        <figure>
+          <img src="img/nuage_cooc.png">
+          <figcaption>Graphe des coocurences du mot "tree" dans le corpus</figcaption>
+        </figure>
+        <figure>
+          <img src="img/legende_cooc.png">
+          <figcaption>Légende des coocurences du mot "tree" dans le corpus</figcaption>
+        </figure>
+        </div>
+      </section>
+    </div>
+  </body>
+  <footer></footer>
 </html>
