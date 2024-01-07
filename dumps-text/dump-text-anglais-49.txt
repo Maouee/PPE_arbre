@@ -157,8 +157,8 @@ Explore with Wolfram|Alpha
    More things to try:
 
      * tree
-     * [3,8)
-     * div (x^3 y, y^3 z, z^3 x)
+     * ackermann[2,3]
+     * div [x^2 sin y, y^2 sin xz, xy sin (cos z)]
 
 References
 

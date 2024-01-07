@@ -12,22 +12,16 @@ echo "<!DOCTYPE html>
             <script src='https://kit.fontawesome.com/b0d5fca4a5.js' crossorigin='anonymous'></script>
         </head>" > ../tableaux/tableau_${langue}.html
 
-echo '    <body>
+echo '    <body class="has-background-white-bis">
         <div class="container has-text-centered">
             <div class="is-centered">
-                <div class="title is-4 has-text-centered has-background-success-light">
-                    Tree - Albero - Дерево
-                </div>
-                <nav class="navbar" role="navigation" aria-label="main navigation">' >> ../tableaux/tableau_${langue}.html
+                <nav class="navbar is-fixed-top is-success" role="navigation" aria-label="main navigation">' >> ../tableaux/tableau_${langue}.html
 
 echo '
-                <div class="navbar-brand">
-                    <img class="navbar-item" src="../img/logo.png" width="70" height="70">
-                </div>
                 <div id="navbar" class="navbar-menu">
                     <div class="navbar-start">
                         <a class="navbar-item" href="../index.html">
-                            <span class="icon is-small mr-1"><i class="fa-solid fa-house" aria-hidden="true"></i></span>
+                            <span class="icon is-small mr-1"><i class="fa-solid fa-tree" aria-hidden="true"></i></span>
                             <span>Accueil</span>
                         </a>
                         <div class="navbar-item has-dropdown is-hoverable">
@@ -69,7 +63,7 @@ echo '
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <div class="buttons">
-                            <a class="button is-primary" href="https://github.com/Maouee/PPE_arbre">
+                            <a class="button is-dark" href="https://github.com/Maouee/PPE_arbre">
                                 <span class="icon is-small mr-1"><i class="fa-brands fa-github"></i></span>
                                 <strong>Github</strong>
                             </a>
@@ -79,11 +73,8 @@ echo '
             </nav>
             <table id=table>' >> ../tableaux/tableau_${langue}.html
 
-
-
-
-echo
-echo "            <tr>
+echo "<br><br><br>
+                <tr>
                 <th>ligne</th>
                 <th>URL</th>
                 <th>code</th>

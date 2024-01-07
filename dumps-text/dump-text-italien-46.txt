@@ -34,10 +34,8 @@
      * RSS
      * Guida alle valutazioni
      * Collabora
-     * IGN Italia è realizzato su licenza da Vusumo SRL, Viale Giustiniano,
-       7, 20129 Milano, Italia. P.IVA 07939530965 | IGN Italia è testata
-       giornalistica registrata presso il Tribunale di Milano. Registrazione
-       343 del 11-9-2012. Registrazione ROC n. 23414
+     * IGN Italia è realizzato su licenza concessa dal proprietario del
+       marchio.
    Change Region
    United States
    United Kingdom
@@ -280,7 +278,4 @@ Guardiani della Galassia
 
    Please enable JavaScript to view the comments.
    Ad
-   IGN Italia è realizzato su licenza da Vusumo SRL, Viale Giustiniano, 7,
-   20129 Milano, Italia. P.IVA 07939530965 | IGN Italia è testata
-   giornalistica registrata presso il Tribunale di Milano. Registrazione 343
-   del 11-9-2012. Registrazione ROC n. 23414
+   IGN Italia è realizzato su licenza concessa dal proprietario del marchio.

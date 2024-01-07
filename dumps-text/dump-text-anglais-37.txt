@@ -1,4 +1,6 @@
    Link: canonical
+     * WEATHER ALERTWinter Storm Warning
+       Full Story
      * WEATHER ALERTWinter Weather Advisory
        Full Story
      * WEATHER ALERTCoastal Flood Advisory
@@ -8,7 +10,7 @@
 
      ----------------------------------------------------------------------
 
-     * * * WATCH LIVE
+     * * * * WATCH LIVE
 
    _____________________ [ Search ]
    PhiladelphiaPennsylvaniaNew JerseyDelaware
@@ -65,7 +67,7 @@ Top Stories
 
   Pa. prison escapee sentenced in kidnapping of elderly couple
 
-     * 3 minutes ago
+     * 1 hour ago
    [IMG]
 
   Missing 4-year-old presumed dead, mother facing homicide charges
@@ -74,7 +76,7 @@ Top Stories
 
   AccuWeather Alert: Tracking snow and rain from winter storm
 
-     * 35 minutes ago
+     * 1 hour ago
    [IMG]
 
   Man dead after fire inside West Oak Lane rowhome
