@@ -171,4 +171,14 @@ fi
     ((compteur++))
 done < $file
 
-echo "</table></div></body></html>" >> ../tableaux/tableau_${langue}.html
+echo "  </table>
+        </div>
+    </body>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>"Arbre"</strong> par Florian P. Manon G. et Lucile B. | PPE1 | 2023-2024.
+            </p>
+        </div>
+    </footer>
+</html>" >> ../tableaux/tableau_${langue}.html
