@@ -1316,6 +1316,7 @@ Disadvantages of Tree Data Structure:
 
    Similar Reads
    Introduction to Finger search tree Data Structure
+   Introduction to Hierarchical Data Structure
    AVL Tree Data Structure
    Applications of tree data structure
    Tree Data Structure
@@ -1325,7 +1326,6 @@ Disadvantages of Tree Data Structure:
    Convert a Generic Tree(N-array Tree) to Binary Tree
    Convert a Binary Tree into its Mirror Tree (Invert Binary Tree)
    Data Structure Types, Classifications and Applications
-   How to set the order in subnodes of a tree structure?
    Complete Tutorials
    Learn Algorithms with Javascript | DSA using JavaScript Tutorial
    DSA Crash Course | Revision Checklist with Interview Guide
@@ -1348,12 +1348,11 @@ Disadvantages of Tree Data Structure:
 
      ----------------------------------------------------------------------
 
-     * How To Use Virtual Number for ChatGPT?
-     * Top 10 Free iPad Games 2024
-     * How To Make A Podcast On Discord
-     * Top 25 Best Anime Series of All Time
+     * How To Save A Route On Google Maps
+     * How Much YouTube Pays You for 1,000 Views
+     * How to Add Date in Google Sheets
+     * How to Add Instagram Highlights Without Followers Seeing Your Story
      * 10 Best Free AI Art Generators to Create Image From Text [Free & Paid]
-     * 30 OOPs Interview Questions and Answers (2023)
    geeksforgeeks-footer-logo
    A-143, 9th Floor, Sovereign Corporate Tower, Sector-136, Noida, Uttar
    Pradesh - 201305

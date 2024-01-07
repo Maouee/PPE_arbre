@@ -66,6 +66,9 @@ C'est pratique de pouvoir travailler en groupe lors des séances !
 * Nous avons les 5O URLs pour nos trois langues.
 * Problème italien et anglais
   - Nous avons remarqué un problème au niveau des URLS, il ne garde pas le dernier lien. Par exemple, pour l'italien nous avons 55 URLs dans notre fichier texte, cependant dans notre tableau nous n'avons que les 54 premiers URLs... Ce problème n'existant pas dans le script russe, nous allons le regarder attentivement. 
+* Nous avons finalisé les scripts et analysé nos corpus avec l'aide d'itrameur.
+* Nous avons fait une refonte graphique du site, qui en avait grandement besoin. 
+* Nous avons rajouté des pages présentant les principaux scripts utilisés. Pour afficher le code de manière élégante, avec de la coloration syntaxique, nous avons utilisé la bibliothèque prism (https://prismjs.com)
 
 
 

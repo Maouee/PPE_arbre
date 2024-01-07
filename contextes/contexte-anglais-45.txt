@@ -1,59 +1,269 @@
-       Tweet
-   Navigation Menu
-   Thumbnail image for Join the Weather E-tree Program to Plant Trees
-   Featured
+   November 5, 2017 / #Programming
 
-                 Join the Weather E-tree Program to Plant Trees
+             Everything you need to know about tree data structures
 
-   written byDave KaneApr 29, 2022
+   TK TK
+   Everything you need to know about tree data structures
+
+   When you first learn to code, it’s common to learn arrays as the “main
 --
-   Start is also helping you give back to the planet. By using Weather from
-   Microsoft Start, you can help contribute to a greener, more sustainable
-   Earth by growing an E-tree!
+   logical start and a logical end.
 
-   Weather from Microsoft Start offers hyper-local, up-to-the-minute
+   When we start learning about trees and graphs, it can get really
+   confusing. We don’t store data in a linear way. Both data structures store
+   data in a specific way.
 --
-   to keep you constantly informed about the weather where it matters to you
-   most. With a tool this powerful, the challenge is helping people discover
-   all the information available to them – to help, we launched “E-trees.”  
+   In this article, we will learn:
 
-   This fun, guided, interactive experience is designed to reward users for
+     * What is a tree
+     * Examples of trees
+     * Its terminology and how it works
+     * How to implement tree structures in code.
+
+   Let’s start this learning journey. :)
 --
-   join, users will earn points through simple daily tasks – things like
-   checking precipitation, temperature, or wind in your area. Progress is
-   easy to track as you earn points and grow your very own E-tree! 
 
-   As your E-tree grows, Microsoft will work to turn it into a real tree. To
-   make this happen, we’ve partnered with the Eden Restoration Projects, a
-   non-profit committed to restoring forests and protecting ecosystems in
-   high-risk or unstable areas. 
+   When starting out programming, it is common to understand better the
+   linear data structures than data structures like trees and graphs.
 
-   It only takes a few easy steps to get started and plant your E-tree – just
-   launch Weather from the Windows 10 or Windows 11 taskbar, from the Weather
-   card on the feed in a new tab in Edge, or by heading to
+   Trees are well-known as a non-linear data structure. They don’t store data
 --
-   Collecting heat power
+   What do I mean when I say in a hierarchical way?
 
-   Once you sign in and join, you’ll be able to give your E-tree a unique
-   name. Then, you can start nurturing your tree by collecting energy points
-   right away. Each time you launch Weather and click on your tree, you’ll
-   see suggested tasks and new ways to get points daily while learning more
-   about the weather where you live or in another area you care about – like
+   Imagine a family tree with relationships from all generation:
+   grandparents, parents, children, siblings, etc. We commonly organize
+   family trees hierarchically.
+
+   1*MasdC5DmucEU2abIXQe45QMy family tree
+
+   The above drawing is is my family tree. Tossico, Akikazu, Hitomi, and
+   Takemi are my grandparents.
+
 --
-   keeping track of extreme weather somewhere you have family or friends.
+   1*GsBCmW5E1GuJ3MpH3Zz0EwA company’s structure is an example of a hierarchy
 
-   Just like a real tree, an E-tree needs water, air, and sunlight.
-   Conveniently, Weather from Microsoft Start can deliver meaningful
-   information about each of these. The site includes detailed maps with
+   In HTML, the Document Object Model (DOM) works as a tree.
+
+   1*dLXUdR4NuIZG8GJdu_CinwDocument Object Model (DOM)
 --
-   break” to make the most of the sunshine. 
+  A technical definition
 
-   Once your tree reaches 10,000 points, you’ll receive an E-tree certificate
-   and the Eden Restoration Projects will plant a real tree in the Mwamdudu
-   site, just outside the bustling city of Mombasa, Kenya. You can even see
-   how fast other people are their E-trees!
+   A tree is a collection of entities called nodes. Nodes are connected by
+   edges. Each node contains a value or data, and it may or may not have a
+   child node .
+--
+   1*3WN7tIQ-kNBQmY9MgvTuOA
 
-   E-Trees bring together the best weather tools with a fun experience, plus
-   the chance to make the world a greener place – one tree at a time. 
+   The first node of the tree is called the root. If this root node is
+   connected by another node, the root is then a parent node and the
+   connected node is a child.
+--
 
-     * Microsoft Shopping:Terms and Details
+   All Tree nodes are connected by links called edges. It’s an important part
+   of trees, because it’s manages the relationship between nodes.
+
+   1*j5qKwIxKcEjoxy88EOc1Rg
+
+   Leaves are the last nodes on a tree. They are nodes without children. Like
+   real trees, we have the root, branches, and finally the leaves.
+
+   1*c9_5uMUsIy4Q3OA7Q8bJiw
+--
+   Other important concepts to understand are height and depth.
+
+   The height of a tree is the length of the longest path to a leaf.
+
+   The depth of a node is the length of the path to its root.
+--
+  Terminology summary
+
+     * Root is the topmost node of the tree
+     * Edge is the link between two nodes
+     * Child is a node that has a parent node
+     * Parent is a node that has an edge to a child node
+     * Leaf is a node that does not have a child node in the tree
+     * Height is the length of the longest path to a leaf
+     * Depth is the length of the path to its root
+
+  Binary trees
+
+   Now we will discuss a specific type of tree. We call it thebinary tree.
+
+     “In computer science, a binary tree is a tree data structure in which
+     each node has at the most two children, which are referred to as the
+     left child and the right child.” — Wikipedia
+
+   So let’s look at an example of a binary tree.
+
+   1*ofbwuz4inpf2OlB-l9gtHw
+
+  Let’s code a binary tree
+
+   The first thing we need to keep in mind when we implement a binary tree is
+   that it is a collection of nodes. Each node has three attributes: value,
+   left_child, and right_child.
+
+   How do we implement a simple binary tree that initializes with these three
+   properties?
+
+--
+         self.right_child = None
+
+   Here it is. Our binary tree class.
+
+   When we instantiate an object, we pass the value (the data of the node) as
+--
+   Let’s test it:
+
+ tree = BinaryTree('a')
+ print(tree.value) # a
+ print(tree.left_child) # None
+ print(tree.right_child) # None
+
+   That’s it.
+--
+   But not entirely. We still need to test it.
+
+   Let’s build the followingtree:
+
+   1*V_EUgNXVc8Wy9H1-JoqT3g
+
+   To summarize the illustration of this tree:
+
+     * a node will be the root of our binary Tree
+--
+     * both e and f nodes do not have children
+
+   So here is the code for the tree:
+
+ a_node = BinaryTree('a')
+--
+   Insertion is done.
+
+   Now we have to think about tree traversal.
+
+   We have two options here: Depth-First Search (DFS) and Breadth-First
+   Search (BFS).
+
+     * DFS “is an algorithm for traversing or searching tree data structure.
+       One starts at the root and explores as far as possible along each
+       branch before backtracking.” — Wikipedia
+     * BFS “is an algorithm for traversing or searching tree data structure.
+       It starts at the tree root and explores the neighbor nodes first,
+       before moving to the next level neighbors.” — Wikipedia
+
+   So let’s dive into each tree traversal type.
+
+    Depth-First Search (DFS)
+--
+   1*-sCuUx3R9e1ougu2pGdThg
+
+   The result of the in-order algorithm for this tree example is
+   3–2–4–1–6–5–7.
+
+--
+   1*-sCuUx3R9e1ougu2pGdThg
+
+   The result of the post order algorithm for this tree example is
+   3–4–2–6–7–5–1.
+
+--
+    Breadth-First Search (BFS)
+
+   BFS algorithm traverses the tree level by level and depth by depth.
+
+   1*ZNxp_NkRZLCeak85rreebA
+--
+       queuehelper.
+
+  Binary Search tree
+
+     “A Binary Search Tree is sometimes called ordered or sorted binary
+     trees, and it keeps its values in sorted order, so that lookup and other
+     operations can use the principle of binary search” — Wikipedia
+
+--
+   Here is a breakdown of the above illustration:
+
+     * A is inverted. The subtree 7–5–8–6 needs to be on the right side, and
+       the subtree 2–1–3 needs to be on the left.
+     * B is the only correct option. It satisfies the Binary Search Tree
+       property.
+--
+
+   What will we see here? We will insert new nodes, search for a value,
+   delete nodes, and the balance of the tree.
+
+   Let’s start.
+
+    Insertion: adding new nodes to our tree
+
+   Imagine that we have an empty tree and we want to add new nodes with the
+   following values in this order: 50, 76, 21, 4, 32, 100, 64, 52.
+
+   The first thing we need to know is if 50 is the root of our tree.
+
+   1*fxSlTwgQSN_DlzfEmcxqQg
+--
+    1. Is the new node value greater or smaller than the current node?
+    2. If the value of the new node is greater than the current node, go to
+       the right subtree. If the current node doesn’t have a right child,
+       insert it there, or else backtrack to step #1.
+    3. If the value of the new node is smaller than the current node, go to
+       the left subtree. If the current node doesn’t have a left child,
+       insert it there, or else backtrack to step #1.
+    4. We did not handle special cases here. When the value of a new node is
+       equal to the current value of the node, use rule number 3. Consider
+       inserting equal values to the left side of the subtree.
+
+   Now let’s code it.
+--
+   not have that value.
+
+   An important item to note is how we defined the tree insertion algorithm.
+   First we have our root node. All the left subtree nodes will have smaller
+   values than the root node. And all the right subtree nodes will have
+   values greater than the root node.
+
+   Let’s take a look at an example.
+
+   Imagine that we have this tree.
+
+   1*LlLDNx7wgJfH6VAGnyAbIQ
+--
+    1. We start with the root node as our current node. Is the given value
+       smaller than the current node value? If yes, then we will search for
+       it on the left subtree.
+    2. Is the given value greater than the current node value? If yes, then
+       we will search for it on the right subtree.
+    3. If rules #1 and #2 are both false, we can compare the current node
+       value and the given value if they are equal. If the comparison returns
+       true, then we can say, “Yeah! Our tree has the given value,”
+       otherwise, we say, “Nooo, it hasn’t.”
+
+--
+
+   If the node we want to delete has no children, we simply delete it. The
+   algorithm doesn’t need to reorganize the tree.
+
+     * Scenario #2: A node with just one child (left or right child).
+--
+    3. From line 2 to line 9: We start searching for the node that has the
+       valuethat we are looking for. If the value is smaller than the current
+       nodevalue , we go to the left subtree, recursively (if, and only if,
+       the current node has a left child). If the value is greater, go to the
+       right subtree, recursively.
+    4. Line 10: We start to think about the remove algorithm.
+    5. From line 11 to line 13: We cover the node with no children , and it
+--
+   Now let’s test it.
+
+   We will use this tree to test our remove_node algorithm.
+
+ #        |15|
+--
+
+   Finally, we will remove a node with two children. This is the root of our
+   tree.
+
+ print(bst.remove_node(15, None)) # True

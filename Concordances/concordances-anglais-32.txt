@@ -120,4 +120,3 @@ convert a generic §tree§(n-array §tree§
 to binary §tree§
 convert a binary §tree§ into its mirror §tree§
 invert binary §tree§
-order in subnodes of a §tree§ structure

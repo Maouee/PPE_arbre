@@ -60,6 +60,23 @@ echo '
                                 </a>
                             </div>
                         </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-code" aria-hidden="true"></i></span>
+                                <span>Scripts</span>
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../scripts/script_tableaux.html">
+                                    Tableaux
+                                </a>
+                                <a class="navbar-item" href="../scripts/script_concordanciers.html">
+                                    Concordanciers
+                                </a>
+                                <a class="navbar-item" href="../scripts/script_itrameur.html">
+                                    XML
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="navbar-end">
