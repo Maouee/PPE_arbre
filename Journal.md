@@ -59,15 +59,20 @@ C'est pratique de pouvoir travailler en groupe lors des séances !
   - finir de récupérer nos URLs afin d'avoir un compte d'au minimum 50 pour chaque langue.
   - retravailler chacun nos scripts s'il y a des problèmes liés à sa langue
   - se concerter pour la suite, mise en page du site etc.
-
+  - améliorer l'expression régulière pour le russe
 
 ## Période du 13 décembre au 7 janvier
 
+* L'expression régulière pour le russe a été améliorée et certains liens morts ont été remplacés.
 * Nous avons les 5O URLs pour nos trois langues.
 * Problème italien et anglais
   - Nous avons remarqué un problème au niveau des URLS, il ne garde pas le dernier lien. Par exemple, pour l'italien nous avons 55 URLs dans notre fichier texte, cependant dans notre tableau nous n'avons que les 54 premiers URLs... Ce problème n'existant pas dans le script russe, nous allons le regarder attentivement. 
 * Nous avons finalisé les scripts et analysé nos corpus avec l'aide d'itrameur.
-* Nous avons fait une refonte graphique du site, qui en avait grandement besoin. 
+  - Problème d'annotation du corpus pour la recherche par lemme en russe. Faute de temps, la recherche par lemme ne sera pas faite.
+* Nous avons fait une refonte graphique du site, qui en avait grandement besoin.
+  - Modification de la navbar
+  - Ajout d'un footer
+  - Structuration des pages 
 * Nous avons rajouté des pages présentant les principaux scripts utilisés. Pour afficher le code de manière élégante, avec de la coloration syntaxique, nous avons utilisé la bibliothèque prism (https://prismjs.com)
 
 
