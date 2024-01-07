@@ -83,7 +83,7 @@
 
       <br><br><br>
       <div class ="title is-3">
-        <p>Analyse du corpus russe</p>
+        <p>Analyse du corpus italien</p>
       </div>
 
       <section class=" has-text-centered">
@@ -101,12 +101,11 @@
         </div>
         <div class="box">
           <p>
-            Nous observons par exemple que les mots <strong>"bonsaï"</strong> (бонсай - /bonsaj/), <strong>"nature"</strong> (природе - /pr'irod'e/ Prep.Sg ), <strong>"bouleau"</strong> (берёза - /b'er'oza) et <strong>"sapin"</strong> (елки - /j'olki/ Gen.Sg , елку /j'olku/ Acc.Sg )</strong> sont spécifiques de certaines parties.
-          </br>
-            Nous pouvons donc en déduire que dans ces parties, le mot "arbre" apparaît en contexte <strong>botanique</strong>.
-          </br></br>
-            Dans d'autres parties en revanche, c'est le mot <strong>"Pythagore" (Пифагора - /p'ifagora/)</strong> qui a un plus haut indice de spécificité, nous indiquant que dans cette partie, le mot "arbre" apparaît en contexte <strong>mathématique</strong>.
-          </br></br>
+            Nous avons calculé les spécificités pour chaque partie en fonction de la partition sous forme de page.
+            Les tableaux ci-dessous affichent pour chaque item sa fréquence totale dans le corpus, sa fréquence et son indice de spécificité dans chaque partie.
+            Si nous enlevons des tableaux les items correspondant à des déterminants et des prépositions, nous avons sans grande surprise les deux déclinaisons du mot “arbre” en italien (albero - alberi).
+            Le premier mot porteur de sens par rapport au mot "albero" est “vita” (page 2) puis “Natale” (page 4). 
+          </p>
           <figure>
             <img src="../../img/tableau_specificites.png" width="300" height="300">
           </figure>   
@@ -151,19 +150,28 @@
             </p>
         </div>
         <div class="box">
-          <p> Обнаженное обдуваемое ветром дерево Пифагора См. также[править</p>
+          <p>
+            Pour cette analyse, nous avons gardé une co-fréquence de 2 afin d’avoir un panel de mot suffisamment grand. 
+          </br>
+            Outre les déterminants et les prépositions, les cooccurrents les plus présents du mot albero sont “vita”, “sintattico”, “binario” et “Natale”. Ils ont tous les quatre un indice spécifique de cooccurrence supérieur à 50.
+        </br>
+        De plus, on remarque que dans notre tableau, “Natale” et “natale” occupent une place importante.
+        En combinant les deux formes, nous pouvons estimer que “Natale” fait partie des premiers résultats de cooccurrent du mot "albero".
+  
+          </p>
         <figure>
-          <img src="../../img/tableau_cooc.png" width="300" height="300">
+          <img src="../../img/it_cooc_tableau1.png" width="300" height="300">
         </figure>
         <figure>
-          <img src="../../img/tableau_cooc2.png" width="300" height="300">
+          <img src="../../img/it_cooc_tableau2.png" width="300" height="300">
           <figcaption>Tableau des cooccurrences du mot "дерево" dans le corpus</figcaption>
         </figure>
+      </br>
+        <p>
+          La vision des cooccurrents sous forme de graphe permet de rendre compte des résultats sous une autre forme.
+        </p>
         <figure>
-          <img src="../../img/nuage_cooc.png">
-        </figure>
-        <figure>
-          <img src="../../img/legende_cooc.png">
+          <img src="../../img/it_cooc_graph.png">
           <figcaption>Graphe des cooccurrences du mot "дерево" dans le corpus</figcaption>
         </figure>
         </div>
@@ -171,13 +179,10 @@
         <div class="box">
           <p class="title is-5">Cooccurences - Conclusion</p>
           <p>
-            Nous avons calculé les mots cooccurrences du mot "arbre", c'est à dire les mots qui apparaissent le plus souvent à ses côtés.
-              </br>  
-              Le tableau ci-dessous affiche pour chaque item sa fréquence d'occurrence seul, sa fréquence de cooccurrence avec "arbre" et son indice de spécificité.
-              </br></br>  
-              <strong>
-                Ces donées nous permettent de tirer des conclusions sur les expressions dans lesquelles apparaît le mot "arbre".
-              </strong>
+            
+      </br>
+      Les résultats donnés ci-dessus étaient attendus car ces quatre mots ont été cherché avec le mot “albero” lors de notre collecte d’URLs.
+      Nous pouvons cependant supposer que la période durant laquelle nous avons fait notre recherche d’URLs (mois de décembre, avant Noël) a pu influencer les résultats. 
             </p>
         </div>
       </section>
