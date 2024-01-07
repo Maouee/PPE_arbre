@@ -48,13 +48,13 @@ echo '
                             </a>
                             <div class="navbar-dropdown">
                                 <a class="navbar-item" href="../analyses/anglais/anglais.html">
-                                    🇬🇧Anglais
+                                    🇬🇧 Anglais
                                 </a>
                                 <a class="navbar-item" href="../analyses/italien/italien.html">
-                                    🇮🇹Italien
+                                    🇮🇹 Italien
                                 </a>
                                 <a class="navbar-item" href="../analyses/russe/russe.html">
-                                    🇷🇺Russe
+                                    🇷🇺 Russe
                                 </a>
                             </div>
                         </div>
