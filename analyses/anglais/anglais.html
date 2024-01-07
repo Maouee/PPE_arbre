@@ -114,7 +114,7 @@
                     relative aux structures de données : binary tree, syntax tree, search tree, AVL tree...
                 </div>
                 <br>
-                <!-- <div class="box">
+                <div class="box">
                     <p>
                         <div class="title is-4">Spécificité</div>
                     </p>
@@ -122,7 +122,29 @@
                         <img src="../../img/anglais_spécificité.png" width="400" height="400">
                         <figcaption><i>Tableaux des mots les plus spécifiques du corpus</i></figcaption>
                     </figure>
-                </div> -->
+                </div>
+                <br>
+                <div class="box">
+                    <p>
+                        L'analyse de spécificité valide notre intuition sur "chirsmas tree" : le terme "christmas" est très spécifique à deux articles de journal parus en
+                        janvier. Les deux et troisième tokens les plus spécifiques ("gt" et "amp") viennent du même texte et sont dus à la mise en page du site. On trouve
+                        certains termes botaniques que l'on ne trouvait pas dans le calcul des coocurents, ce qui montre que la surabondance d'occurence mathématiques et syntaxiques est 
+                        probablement l'effet d'un biais introduit dans la sélection des urls.
+                    </p>
+                </div>
+                <div class="box">
+                    <p>
+                        <div class="title is-4">Conclusion générale</div>
+                        <br>
+                        Ces donées nous permettent de valider notre hypothèse sur la polysémie du mot "arbre" puisque ce dernier apparaît dans des textes au thèmes variés comme la botanique, les mathématiques ou la syntaxe, ainsi que dans des expressions comme arbre de Noël ou arbre syntaxique.
+                        </br></br>
+                        Si nous souhaitions améliorer nos résultats, il serait intéressant d'inclure une liste des stopwords afin d'éliminer de notre analyse les items peu pertinents.
+                        </br>
+                        De plus, il serait intéressant de faire des requêtes par lemme afin d'inclure dans notre analyse toutes les flexions du mot recherché. Cela reste négligeable dans le cas de l'anglais puisque notre mot n'a ici que 2 formes (singulier et pluriel), mais peut être plus problématique dans des langues flexionelles ou agglutinantes.
+                    </p>
+                    
+                </div>
+                <br>
             </section>
         </div>
     </body>
