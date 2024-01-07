@@ -101,34 +101,32 @@
         </div>
         <div class="box">
           <p>
-            Nous avons calculé les spécificités pour chaque partie en fonction de la partition sous forme de page.
-            Les tableaux ci-dessous affichent pour chaque item sa fréquence totale dans le corpus, sa fréquence et son indice de spécificité dans chaque partie.
             Si nous enlevons des tableaux les items correspondant à des déterminants et des prépositions, nous avons sans grande surprise les deux déclinaisons du mot “arbre” en italien (albero - alberi).
-            Le premier mot porteur de sens par rapport au mot "albero" est “vita” (page 2) puis “Natale” (page 4). 
+            Le premier mot porteur de sens par rapport au mot "albero" est “vita” (page 2) puis “Natale” (page 3). 
           </p>
           <figure>
-            <img src="../../img/tableau_specificites.png" width="300" height="300">
+            <img src="../../img/it_speTotale_page1.png" width="500" height="500">
           </figure>   
           <figure>
-            <img src="../../img/tableau_specificites2.png" width="300" height="300">
-            <figcaption>Tableau de calcul de spécificité des mots du corpus - page 1 & 2.</figcaption>
+            <img src="../../img/it_speTotale_page2.png" width="500" height="500">
+          </figure>   
+          <figure>
+            <img src="../../img/it_speTotale_page3.png" width="500" height="500">
+            <figcaption>Tableau de calcul de spécificité des mots du corpus - page 1, 2 & 3.</figcaption>
           </figure>
         </br>
-          <p>Enfin, c'est parfois le mot <strong>"syntaxique"</strong> (синтаксического - /s'intaks'ičeskogo/ Gen.Sg.Masc, синтаксические - /s'intaks'ičeskije/ N.Plr, синтаксическое /s'intaks'ičeskoje/ N.Sg.Neu) qui est spécifique de certaines parties. 
-          </br></br>
+<p>Cette analyse permet de voir les mots du corpus qui ont une spécificité positive par page. Nous pouvons voir que sur les 10 premiers items, nous avons “Paulownia” et “paulownia”. Le “paulownia” est une espèce d’abre.
+</p></br></br>
           </p>   
           <figure>
-            <img src="../../img/tableau_specificites3.png" width="300" height="300">
-          </figure>
-          <figure>
-            <img src="../../img/tableau_specificites4.png" width="300" height="300">
-            <figcaption>Tableau de calcul de spécificité des mots du corpus - page 3 & 4.</figcaption>
+            <img src="../../img/it_motspe.png" width="500" height="500">
+            <figcaption>Tableau de calcul des mots spécifiques du corpus - page 1.</figcaption>
           </figure>                      
         </div>
         <div class="box">
           <p class="title is-5">Spécificité - Conclusion</p>
           <p>
-          Ces donées nous permettent de valider notre hypothèse sur la polysémie du mot "arbre" puisque ce dernier apparaît dans des textes au thèmes variés comme la botanique, les mathématiques ou la syntaxe.
+          Ces donées nous permettent de valider notre hypothèse sur la polysémie du mot "arbre" et le résultat est intéressant car cela permet de montrer à quel point notre corpus est précis au niveau des items en lien avec le mot “arbre”.
         </p>
         </div>
       </section>
@@ -138,7 +136,7 @@
 
       <section class="has-text-centered">
         <div class="box">
-          <p class="title is-">Cooccurences</p>
+          <p class="title is-">cooccurrences</p>
           <p>
             Nous avons calculé les mots cooccurrences du mot "arbre", c'est à dire les mots qui apparaissent le plus souvent à ses côtés.
               </br>  
@@ -160,24 +158,24 @@
   
           </p>
         <figure>
-          <img src="../../img/it_cooc_tableau1.png" width="300" height="300">
+          <img src="../../img/it_cooc_tableau1.png" width="500" height="500">
         </figure>
         <figure>
-          <img src="../../img/it_cooc_tableau2.png" width="300" height="300">
-          <figcaption>Tableau des cooccurrences du mot "дерево" dans le corpus</figcaption>
+          <img src="../../img/it_cooc_tableau2.png" width="500" height="500">
+          <figcaption>Tableau des cooccurrences du mot "albero" dans le corpus</figcaption>
         </figure>
       </br>
         <p>
           La vision des cooccurrents sous forme de graphe permet de rendre compte des résultats sous une autre forme.
         </p>
         <figure>
-          <img src="../../img/it_cooc_graph.png">
-          <figcaption>Graphe des cooccurrences du mot "дерево" dans le corpus</figcaption>
+          <img src="../../img/it_cooc_graph.png" width="800" height="800">
+          <figcaption>Graphe des cooccurrences du mot "albero" dans le corpus</figcaption>
         </figure>
         </div>
 
         <div class="box">
-          <p class="title is-5">Cooccurences - Conclusion</p>
+          <p class="title is-5">Cooccurrences - Conclusion</p>
           <p>
             
       </br>
@@ -194,14 +192,11 @@
       <div class="box">
         <p class="title is-4">Conclusion générale</p>
         <p>
-        Ces donées nous permettent de valider notre hypothèse sur la polysémie du mot "arbre" puisque ce dernier apparaît dans des textes au thèmes variés comme la botanique, les mathématiques ou la syntaxe.
-        Знаменитые
-        Si nous enlevons des tableaux les items correspondant à des détermin            1 - Ne pas pouvoir enlever les stopword nous donne des résultats non pertinents.
-
-        1 - Ne pas pouvoir enlever les stopword nous donne des résultats non pertinents.
-        Знаменитые
-        1 - On a des résultats inattendus comme arbre de pythagore alors qu'on a jamais cherché ce mot
-        2 - Ne pas pouvoir chercher par lemme nous oblige à chercher avec la forme du nominatif singulier          </p>
+        Ces donées nous permettent de valider notre hypothèse sur la polysémie du mot "arbre" puisque ce dernier apparaît dans des textes au thèmes variés comme la botanique, les mathématiques ou la syntaxe, ainsi que dans des expressions comme arbre de Noël ou arbre syntaxique.
+        </br></br>
+        Si nous souhaitions améliorer nos résultats, il serait intéressant d'inclure une liste des stopwords afin d'éliminer de notre analyse les items peu pertinents.
+      </br>
+      De plus, il serait intéressant de faire des requêtes par lemme afin d'inclure dans notre analyse toutes les flexions du mot recherché. Cela reste négligeable dans le cas de l'italien puisque notre mot n'a ici que 2 formes, mais peut être plus problématique dans des langues flexionelles ou agglutinantes.
       </p>
       </div>
       </section>
