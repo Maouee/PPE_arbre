@@ -74,7 +74,7 @@ C'est pratique de pouvoir travailler en groupe lors des séances !
   - Ajout d'un footer
   - Structuration des pages 
 * Nous avons rajouté des pages présentant les principaux scripts utilisés. Pour afficher le code de manière élégante, avec de la coloration syntaxique, nous avons utilisé la bibliothèque prism (https://prismjs.com)
-
+* Nous avons remarqué que les statistiques des contributeurs sont fausses, et que Manon a bel et bien fait plus de 4 commits (simplement vérifiable depuis l'historique des commits)
 
 
 
