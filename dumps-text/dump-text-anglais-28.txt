@@ -24,8 +24,8 @@
    Login 
      * Articles
        Featured Article
-       Venus's-flytrap
-       Venus's-flytrap
+       archaeology
+       archaeology
        All Categories
        Animals
        Fine Arts
@@ -53,7 +53,7 @@
      * Animal Kingdom
        Featured Animal
        [IMG]
-       lynx
+       scorpion
        All Categories
        Amphibians and Reptiles
        Birds

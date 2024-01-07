@@ -4,55 +4,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
         <script src="https://kit.fontawesome.com/b0d5fca4a5.js" crossorigin="anonymous"></script>
+        <style>
+            .custom-font {
+                font-family: 'Helvetica', sans-serif;
+            }
+        </style>
     </head>
-    <div class="container is-max-desktop">
+    <div class="container has-text-centered">
         <div class="block is-centered">
-            <h1 class="title is-bordered has-text-centered has-background-success-light has-background-centered">
-                Programmation et projet encadré
-            </h1>    
-            <nav class="navbar is-centered  " role="navigation" aria-label="main navigation">
+            <div class="title is-4 has-text-centered has-background-success-light has-background-centered">
+                Tree - Albero - Дерево
+            </div>    
+            <nav class="navbar" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
-                    <a class="navbar-item">
-                    <img src="img/logo.png" width="40" height="74">
-                    </a>
+                    <img class="navbar-item" src="img/logo.png" width="70" height="70">
                 </div>
-                <div id="navbar" class="navbar-menu is-centered">
+                <div id="navbar" class="navbar-menu">
                     <div class="navbar-start">
                         <a class="navbar-item" href="./index.html">
-                            <span class="icon is-small"><i class="fa-solid fa-house" aria-hidden="true"></i></span>
+                            <span class="icon is-small mr-1"><i class="fa-solid fa-house" aria-hidden="true"></i></span>
                             <span>Accueil</span>
                         </a>
                         <div class="navbar-item has-dropdown is-hoverable">
                             <a class="navbar-link">
-                                <span class="icon is-small"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
                                 <span>Tableaux</span>
                             </a>
                             <div class="navbar-dropdown">
                                 <a class="navbar-item" href="tableaux/tableau_anglais.html">
-                                    🇬🇧Anglais
+                                    🇬🇧 Anglais
                                 </a>
                                 <a class="navbar-item" href="tableaux/tableau_italien.html">
-                                    🇮🇹Italien
+                                    🇮🇹 Italien
                                 </a>
                                 <a class="navbar-item" href="tableaux/tableau_russe.html">
-                                    🇷🇺Russe
+                                    🇷🇺 Russe
                                 </a>
                             </div>
                         </div>
                         <div class="navbar-item has-dropdown is-hoverable">
                             <a class="navbar-link">
-                                <span class="icon is-small"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
                                 <span>Analyses</span>
                             </a>
                             <div class="navbar-dropdown">
                                 <a class="navbar-item" href="analyses/anglais/anglais.html">
-                                    🇬🇧Anglais
+                                    🇬🇧 Anglais
                                 </a>
                                 <a class="navbar-item" href="analyses/italien/italien.html">
-                                    🇮🇹Italien
+                                    🇮🇹 Italien
                                 </a>
                                 <a class="navbar-item" href="analyses/russe/russe.html">
-                                    🇷🇺Russe
+                                    🇷🇺 Russe
                                 </a>
                             </div>
                         </div>
@@ -62,47 +65,62 @@
                     <div class="navbar-item">
                         <div class="buttons">
                             <a class="button is-primary" href="https://github.com/Maouee/PPE_arbre">
-                                <span class="icon is-small"><i class="fa-brands fa-github"></i></span>
+                                <span class="icon is-small mr-1"><i class="fa-brands fa-github"></i></span>
                                 <strong>Github</strong>
                             </a>
                         </div>
                     </div>
                 </div>
             </nav>
-            <!-- <div class="tabs is-centered">
-                <ul>
-                    <li class="is-active">
-                        <a>
-                            <span class="icon is-small"><i class="fa-solid fa-house" aria-hidden="true"></i></span>
-                            <span>Accueil</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tableaux/tableau_russe.html">
-                            <span class="icon is-small"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
-                            <span>Tableau russe</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tableaux/tableau_anglais.html">
-                            <span class="icon is-small"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
-                            <span>Tableau anglais</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tableaux/tableau_italien.html">
-                            <span class="icon is-small"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
-                            <span>Tableau italien</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
         </div>
-        <div class="hero has-text-centered">
-            <div class="hero-body">
-                <p> Bienvenue ! Ce projet a pour but d'étudier la distribution du mot "arbre" dans trois langues différentes : le russe 🇷🇺, l'anglais 🇬🇧 et l'italien 🇮🇹.
-            </div>
+        <div class="title is-3 has-text-centered">
+            <p>Projet PPE 2023/2024</p>
         </div>
-    </div>
+        <section class="has-text-centered">
+            <div class="box">
+                <p class="title is-4">Choix du mot</p>
+                <p>
+                    Nous avons choisi d'étudier la distribution du mot "arbre" dans 3 langues différentes :
+                </p>
+            </div>
+            <div class="box">
+                <p class="title is-4">
+                    Le russe : Дерево
+                    <br>
+                </p>
+                <figure>
+                    <img src="nuages/russe.png" width="200" height="200">
+                    <figcaption>Nuage de mots du corpus de russe</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <p class="title is-4">
+                    L'anglais : Tree
+                <br>
+                </p>
+                <figure>
+                    <img src="nuages/anglais2.png" width="200" height="200">
+                    <figcaption>Nuage de mots du corpus d'anglais</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <p class="title is-4">
+                    L'italien : Albero
+                    <br>
+                </p>
+                <figure>
+                    <img src="nuages/italien.png" width="200" height="200">
+                    <figcaption>Nuage de mots du corpus d'italien</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <p class="title is-4"> Hypothèse de départ</p>
+                <p class="custom-font">
+                    Nous avons choisi le mot "arbre" car nous estimions que sa polysémie pouvait donner des résultats intéressants. Nous pensions que la grande 
+                    majorité des occurences concerneraient la botanique, et nous nous attendions à quelques acceptions mathématiques tout au plus.
+                </p>
+            </div>
 
+        </section>
+    </div>
 </html>

@@ -892,7 +892,7 @@ Login
    Email
    _____________________
    Spedisci un link per la reimpostazione della password
-   Copyright ©2012-2023 Az. Agr. Gabbianelli di Gabbianelli A. e C. s.s. -
+   Copyright ©2012-2024 Az. Agr. Gabbianelli di Gabbianelli A. e C. s.s. -
    P.Iva 00438220428
    È vietata la copia e la riproduzione, anche parziale, di tutti i contenuti
    del sito.

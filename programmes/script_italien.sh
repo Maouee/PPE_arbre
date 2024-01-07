@@ -13,45 +13,43 @@ echo "<!DOCTYPE html>
         </head>" > ../tableaux/tableau_${langue}.html
 
 echo '    <body>
-        <div class="container is-max-desktop">
-            <div class="block is-centered">
-                <h1 class="title is-bordered has-text-centered has-background-success-light has-background-centered">
-                    Programmation et projet encadré
-                </h1>  
-        <nav class="navbar is-centered  " role="navigation" aria-label="main navigation">' >> ../tableaux/tableau_${langue}.html
+        <div class="container has-text-centered">
+            <div class="is-centered">
+                <div class="title is-4 has-text-centered has-background-success-light">
+                    Tree - Albero - Дерево
+                </div>
+                <nav class="navbar" role="navigation" aria-label="main navigation">' >> ../tableaux/tableau_${langue}.html
 
 echo '
                 <div class="navbar-brand">
-                    <a class="navbar-item">
-                    <img src="../img/logo.png" width="40" height="74">
-                    </a>
+                    <img class="navbar-item" src="../img/logo.png" width="70" height="70">
                 </div>
-                <div id="navbar" class="navbar-menu is-centered">
+                <div id="navbar" class="navbar-menu">
                     <div class="navbar-start">
                         <a class="navbar-item" href="../index.html">
-                            <span class="icon is-small"><i class="fa-solid fa-house" aria-hidden="true"></i></span>
+                            <span class="icon is-small mr-1"><i class="fa-solid fa-house" aria-hidden="true"></i></span>
                             <span>Accueil</span>
                         </a>
                         <div class="navbar-item has-dropdown is-hoverable">
                             <a class="navbar-link">
-                                <span class="icon is-small"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
                                 <span>Tableaux</span>
                             </a>
                             <div class="navbar-dropdown">
                                 <a class="navbar-item" href="../tableaux/tableau_anglais.html">
-                                    🇬🇧Anglais
+                                    🇬🇧 Anglais
                                 </a>
                                 <a class="navbar-item" href="../tableaux/tableau_italien.html">
-                                    🇮🇹Italien
+                                    🇮🇹 Italien
                                 </a>
                                 <a class="navbar-item" href="../tableaux/tableau_russe.html">
-                                    🇷🇺Russe
+                                    🇷🇺 Russe
                                 </a>
                             </div>
                         </div>
                         <div class="navbar-item has-dropdown is-hoverable">
                             <a class="navbar-link">
-                                <span class="icon is-small"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
                                 <span>Analyses</span>
                             </a>
                             <div class="navbar-dropdown">
@@ -72,7 +70,7 @@ echo '
                     <div class="navbar-item">
                         <div class="buttons">
                             <a class="button is-primary" href="https://github.com/Maouee/PPE_arbre">
-                                <span class="icon is-small"><i class="fa-brands fa-github"></i></span>
+                                <span class="icon is-small mr-1"><i class="fa-brands fa-github"></i></span>
                                 <strong>Github</strong>
                             </a>
                         </div>

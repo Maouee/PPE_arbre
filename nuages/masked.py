@@ -26,7 +26,7 @@ text = open(path.join(d, '../itrameur/contextes-anglais.txt')).read()
 alice_mask = np.array(Image.open(path.join(d, "tree2.png")))
 
 stopwords = set(STOPWORDS)
-stopwords.update({"said","gt","amp","B","S"})
+stopwords.update({"said", "gt", "amp", "B", "S"})
 
 wc = WordCloud(background_color="white", max_words=100, mask=alice_mask,
                stopwords=stopwords, contour_width=1, contour_color='black')

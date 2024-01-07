@@ -131,11 +131,10 @@ Mots proches
 
      ----------------------------------------------------------------------
 
-   Savez-vous écrire en lettres ce nombre ? Cochez la bonne réponse.
+   De quelle boisson s'agit-il ?
 
-     * 3
-
-          * [ ] tredici
-          * [ ] tre
+     *    * [ ] vino bianco
+          * [ ] vino rosso
+          * [ ] vino rosato
    Applications mobiles Index Mentions légales et crédits CGU CGV Charte de
    confidentialité Cookies Contact © Larousse
