@@ -67,56 +67,124 @@
       <div class ="title is-3">
         <p>Analyse du corpus russe</p>
       </div>
+
       <section class=" has-text-centered">
         <div class="box">
           <p class="title is-4">Calcul de spécificité</p>
           <p>
-            En analysant les mots les plus spécifiques au corpus, c'est sans surprise que l'on retrouve en tête différentes déclinaisons du mot <strong>"arbre" (дерево - /derevo/ ) en russe</strong>, avec les formes du N-Acc.Sg, Gen.Pl, N-Acc.Pl et Gen.Sg en première page.
-            S'en suivent plusieurs pages de prépositions et conjonctions que nous ne prendrons pas en compte avant d'arriver aux premiers mots porteurs de sens tels que "de la Russie" ( России - /ross'ii/ ), "de la vie" ( жизни - /žizn'i/ ), "bouleau ( берёза - /b'er'oza/ )" ou "bonsaï" ( бонсай - /bonsaj/ ).
-          1 - Ne pas pouvoir enlever les stopword nous donne des résultats non pertinents.
-          </p>
+            Nous avons calculé les mots spécifiques à chaque partie du corpus en fonction de la partition sous forme de page.
+            </br>  
+            Les tableaux ci-dessous affichent pour chaque item la partie à laquelle il appartient, sa fréquence totale dans le corpus, sa fréquence dans la partie et son indice de spécificité dans la partie.
+            </br></br>  
+            <strong>
+              Ces donées nous permettent de tirer des conclusions sur le thème de chaque partie et de valider ou d'invalider notre hypothèse sur la polysémie du mot "arbre".
+            </strong>
+          </p>    
         </div>
         <div class="box">
+          <p>
+            Nous observons par exemple que les mots <strong>"bonsaï"</strong> (бонсай - /bonsaj/), <strong>"nature"</strong> (природе - /pr'irod'e/ Prep.Sg ), <strong>"bouleau"</strong> (берёза - /b'er'oza) et <strong>"sapin"</strong> (елки - /j'olki/ Gen.Sg , елку /j'olku/ Acc.Sg )</strong> sont spécifiques de certaines parties.
+          </br>
+            Nous pouvons donc en déduire que dans ces parties, le mot "arbre" apparaît en contexte <strong>botanique</strong>.
+          </br></br>
+            Dans d'autres parties en revanche, c'est le mot <strong>"Pythagore" (Пифагора - /p'ifagora/)</strong> qui a un plus haut indice de spécificité, nous indiquant que dans cette partie, le mot "arbre" apparaît en contexte <strong>mathématique</strong>.
+          </br></br>
+            Enfin, c'est parfois le mot <strong>"syntaxique"</strong> (синтаксического - /s'intaks'ičeskogo/ Gen.Sg.Masc, синтаксические - /s'intaks'ičeskije/ N.Plr, синтаксическое /s'intaks'ičeskoje/ N.Sg.Neu) qui est spécifique de certaines parties. 
+          </br></br>
+          </p>   
           <figure>
-            <img src="img/tableau_specificites.png" width="500" height="500">
+            <img src="img/tableau_specificites.png" width="300" height="300">
             <figcaption>Tableau de calcul de spécificité des mots du corpus - page 1.</figcaption>
-          </figure>            
+          </figure>   
+          </br>
           <figure>
-            <img src="img/tableau_specificites2.png" width="500" height="500">
-            <figcaption>Tableau de calcul de spécificité des mots du corpus - page 4.</figcaption>
-          </figure>            
-          <figure>
-            <img src="img/tableau_specificites3.png" width="500" height="500">
-            <figcaption>Tableau de calcul de spécificité des mots du corpus - page 7.</figcaption>
+            <img src="img/tableau_specificites2.png" width="300" height="300">
+            <figcaption>Tableau de calcul de spécificité des mots du corpus - page 2.</figcaption>
           </figure>
+        </br>
+          <figure>
+            <img src="img/tableau_specificites3.png" width="300" height="300">
+            <figcaption>Tableau de calcul de spécificité des mots du corpus - page 3.</figcaption>
+          </figure>
+        </br>
+          <figure>
+            <img src="img/tableau_specificites4.png" width="300" height="300">
+            <figcaption>Tableau de calcul de spécificité des mots du corpus - page 4.</figcaption>
+          </figure>                      
+        </div>
+        <div class="box">
+          <p class="title is-5">Spécificité - Conclusion</p>
+          <p>
+          Ces donées nous permettent de valider notre hypothèse sur la polysémie du mot "arbre" puisque ce dernier apparaît dans des textes au thèmes variés comme la botanique, les mathématiques ou la syntaxe.
+          Знаменитые
+        </p>
         </div>
       </section>
+
       </br>
+      </br>
+
       <section class="has-text-centered">
         <div class="box">
-          <p class="title is-4">Cooccurences</p>
+          <p class="title is-">Cooccurences</p>
           <p>
-1 - On a des résultats inattendus comme arbre de pythagore alors qu'on a jamais cherché ce mot
-2 - Ne pas pouvoir chercher par lemme nous oblige à chercher avec la forme du nominatif singulier          </p>
+            Nous avons calculé les mots cooccurrences du mot "arbre", c'est à dire les mots qui apparaissent le plus souvent à ses côtés.
+              </br>  
+              Le tableau ci-dessous affiche pour chaque item sa fréquence d'occurrence seul, sa fréquence de cooccurrence avec "arbre" et son indice de spécificité.
+              </br></br>  
+              <strong>
+                Ces donées nous permettent de tirer des conclusions sur les expressions dans lesquelles apparaît le mot "arbre" et de valider ou d'invalider notre hypothèse sur la polysémie du mot "arbre".
+              </strong>
+            </p>
         </div>
         <div class="box">
         <figure>
-            <img src="img/tableau_cooc.png">
-            <figcaption>Tableau des coocurences du mot "tree" dans le corpus</figcaption>
+          <img src="img/tableau_cooc.png">
         </figure>
         <figure>
           <img src="img/tableau_cooc2.png">
-          <figcaption>Tableau des coocurences du mot "tree" dans le corpus</figcaption>
+          <figcaption>Tableau des cooccurrences du mot "дерево" dans le corpus</figcaption>
         </figure>
         <figure>
           <img src="img/nuage_cooc.png">
-          <figcaption>Graphe des coocurences du mot "tree" dans le corpus</figcaption>
         </figure>
         <figure>
           <img src="img/legende_cooc.png">
-          <figcaption>Légende des coocurences du mot "tree" dans le corpus</figcaption>
+          <figcaption>Graphe des cooccurrences du mot "дерево" dans le corpus</figcaption>
         </figure>
         </div>
+
+        <div class="box">
+          <p class="title is-5">Cooccurences - Conclusion</p>
+          <p>
+            Nous avons calculé les mots cooccurrences du mot "arbre", c'est à dire les mots qui apparaissent le plus souvent à ses côtés.
+              </br>  
+              Le tableau ci-dessous affiche pour chaque item sa fréquence d'occurrence seul, sa fréquence de cooccurrence avec "arbre" et son indice de spécificité.
+              </br></br>  
+              <strong>
+                Ces donées nous permettent de tirer des conclusions sur les expressions dans lesquelles apparaît le mot "arbre".
+              </strong>
+            </p>
+        </div>
+      </section>
+      
+      </br>
+      </br>
+
+      <section class="has-text-centered">
+      <div class="box">
+        <p class="title is-4">Conclusion générale</p>
+        <p>
+        Ces donées nous permettent de valider notre hypothèse sur la polysémie du mot "arbre" puisque ce dernier apparaît dans des textes au thèmes variés comme la botanique, les mathématiques ou la syntaxe.
+        Знаменитые
+        Si nous enlevons des tableaux les items correspondant à des détermin            1 - Ne pas pouvoir enlever les stopword nous donne des résultats non pertinents.
+
+        1 - Ne pas pouvoir enlever les stopword nous donne des résultats non pertinents.
+            
+        1 - On a des résultats inattendus comme arbre de pythagore alors qu'on a jamais cherché ce mot
+        2 - Ne pas pouvoir chercher par lemme nous oblige à chercher avec la forme du nominatif singulier          </p>
+      </p>
+      </div>
       </section>
     </div>
   </body>
