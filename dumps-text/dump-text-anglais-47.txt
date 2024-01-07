@@ -157,8 +157,8 @@ Explore with Wolfram|Alpha
    More things to try:
 
      * tree
-     * [3,8)
-     * diameter of a nonagon with apothem 4
+     * (0.8333...)(0.1111...)/(0.22111111...)
+     * det {{a, b, c}, {d, e, f}, {g, h, j}}
 
 References
 

@@ -68,8 +68,8 @@
    More things to try:
 
      * tree
-     * [3,8)
-     * diameter of a nonagon with apothem 4
+     * (0.8333...)(0.1111...)/(0.22111111...)
+     * det {{a, b, c}, {d, e, f}, {g, h, j}}
 --
    1997.König, D. Theorie der endlichen und unendlichen Graphen. New York:
    Chelsea, p. 48, 1950.McKay, B. D. "Trees Sorted by Diameter."
