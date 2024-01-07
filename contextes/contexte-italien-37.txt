@@ -1,46 +1,104 @@
-   Vai alla navigazione Vai alla ricerca
+   [ ]
 
-   In informatica, un albero sintattico astratto (AST) o semplicemente albero
-   sintattico è una rappresentazione ad albero della struttura sintattica
-   astratta del testo (spesso codice sorgente) scritto in un linguaggio
-   formale. Ogni nodo dell'albero denota un costrutto che si verifica nel
-   testo.
+           Differenza tra albero binario e albero di ricerca binario
 
+   Scritto il
 --
-   presente nella sintassi reale, ma solo quelli strutturali o relativi al
-   contenuto. Ad esempio, le parentesi di raggruppamento sono implicite nella
-   struttura ad albero quindi non devono essere rappresentate da nodi
-   separati. Similmente, un costrutto solitamente sintattico come
-   l'istruzione se-condizione-allora può essere denotato per mezzo di un
-   singolo nodo con tre rami.
+   LinkedIn
 
-   Questo distingue gli alberi sintattici astratti da quelli concreti,
-   tradizionalmente designati come alberi di analisi che sono tipicamente
-   costruiti da un parser durante la traduzione del codice sorgente e il
-   processo di compilazione. Una volta costruiti, ulteriori informazioni
+           Differenza tra albero binario e albero di ricerca binario
+
+  Albero binario
+
+   In informatica, un albero binario (in inglese a binary tree) è una
+   struttura di dati gerarchica in cui ogni nodo ha al massimo due figli
+   generalmente indicati come figlio sinistro e figlio destro. Ciascun nodo
+   in un albero binario contiene tre nodi che includono puntatore al
+   sottoalbero sinistro , e puntatore al sottoalbero e dati elemento di
+   destra . Il nodo più in alto nell’albero è indicato come radice. Di solito
+   un albero vuoto è rappresentato dal puntatore NULL .
+
+   Tipi di alberi binari basati sulla struttura
+
+     * Albero binario radicato (ha un nodo radice e ogni nodo non ha più di
+       due figli).
+     * Albero binario completo (ogni nodo dell’albero non ha nessuno o almeno
+       2 figli).
+     * Albero degenerato (ogni nodo padre ha un solo nodo figlio. Si comporta
 --
-   contestuali.
+  Albero di ricerca binario
 
-   Gli alberi sintattici astratti vengono utilizzati anche nell'analisi del
-   programma e nei sistemi di trasformazione del programma.
+   In informatica, gli alberi binari di ricerca  (in inglese binary search
+   trees) sono una struttura di dati utile per l’aggiunta e la rimozione
+   rapida dei dati. L’albero di ricerca binario è un albero binario
+   organizzato in cui esiste un ordine relativo in cui i nodi dovrebbero
+   essere disposti. È composto da nodi, che memorizza i dati e si collega
+   anche a un massimo di altri due nodi figlio. Affinché un albero binario
+   sia un albero di ricerca binario, i dati di tutti i nodi nel sottoalbero
+   sinistro del nodo radice devono essere inferiori ai dati della radice. I
+   dati di tutti i nodi nel sottoalbero destro del nodo radice dovrebbero
+   essere maggiori di quelli uguali ai dati della radice. A questo proposito,
+   le foglie più a sinistra dell’albero hanno i valori più bassi, mentre le
+   foglie a destra dell’albero hanno i valori più alti.
 
+   Tipi di albero di ricerca binario
+
+     * T-trees
 --
-Applicazione nei compilatori[modifica | modifica wikitesto]
+     * Red-black trees
 
-   Gli alberi sintattici astratti sono strutture dati ampiamente utilizzate
-   dai compilatori per rappresentare la struttura del codice sorgente. Un AST
-   è in genere il risultato della fase di analisi sintattica del compilatore.
+   Differenza tra albero binario e albero di ricerca binario
+
+  Differenza tra albero binario e albero di ricerca binario
+
+   CONFRONTO DI ALBERO BINARIO                   ALBERO DI RICERCA BINARIO    
+   BASE         
+                L’albero binario è una struttura                              
+                di dati gerarchica in cui un                                  
+                bambino può avere zero, uno o    L’albero di ricerca binario  
+                massimo due nodi figlio, ogni    è un albero binario          
+   Descrizione  nodo contiene un puntatore a     organizzato in cui esiste un 
+                sinistra, un puntatore a destra  ordine relativo in cui i     
 --
-   del linguaggio. Il compilatore genera anche la tabella dei simboli in base
-   all'AST durante l'analisi semantica. Un attraversamento completo
-   dell'albero permette di verificare la correttezza del programma.
+                esiste una struttura             disposti.  
+                organizzativa specifica dei nodi 
+                nell’albero.                     
+                Esistono diversi tipi di alberi  I tipi più popolari di       
+                binari, i più popolari           albero di ricerca binario    
+   Tipi         includono: albero binario        includono: alberi a T,       
+                completo, albero binario         alberi AVL, alberi splay,    
+                completo, albero binario esteso  alberi tango, alberi         
+                e albero binario perfetto.       rosso-neri ecc.              
+                                                 Gli alberi di ricerca        
+                                                 binaria mantengono ordinate  
+                                                 le chiavi, quindi la ricerca 
+                Le operazioni comuni che possono di solito implementa la      
+                essere eseguite su un albero     ricerca binaria per le       
+   Operazioni   binario sono la cancellazione,   operazioni. Gli alberi       
+   comuni       l’inserimento e il trasversale.  binari di ricerca sono       
+                                                 alberi binari più ordinati   
+                                                 che consentono una rapida ed 
+                                                 efficiente ricerca,          
+                                                 inserimento e cancellazione  
+                                                 di elementi.                 
+                L’albero binario può anche       L’albero di ricerca binario  
+                essere descritto come una forma  può anche essere descritto   
+                di albero specializzata che      come un tipo di albero       
+                rappresenta i dati in una        binario in cui tutti i nodi  
+   Descrizione  struttura ad albero. In un       nel sottoalbero di sinistra  
+   alternativa  albero binario, il nodo più in   sono minori o uguali al      
+                alto rappresenta il puntatore    valore del nodo radice e     
+                alla radice mentre i puntatori   quelli del sottoalbero di    
+                alla radice destro e sinistro    destra sono maggiori o       
+                rappresentano i dati in una      uguali a il valore del nodo  
+                struttura ad albero.             radice.                      
 
-   Dopo aver verificato la correttezza, l'AST funge da base per la
+   Pubblicato inDifferenze , Ingegneria
 --
+  ARTICOLI CORRELATI
 
-     * Document Object Model (DOM)
-     * Lisp, famiglia di linguaggi basati su alberi (chiamati liste) e macro
-       per la loro manipolazione
-     * Albero sintattico, detto anche albero sintattico concreto
-
-Altri progetti[modifica | modifica wikitesto]
+    1. Differenza tra grafo e albero in informatica
+    2. Differenza tra albero e grafo nella struttura dei dati informatici
+    3. Caratteristiche degli alberi di decisione (decision tree) in
+       informatica
+    4. Differenza tra Tabella decisionale e Albero decisionale

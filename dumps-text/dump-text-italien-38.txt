@@ -1,278 +1,518 @@
    Link: canonical
-   Link: shortlink
-   Link: alternate af-za
-   Link: alternate be-by
-   Link: alternate da-dk
-   Link: alternate de-de
-   Link: alternate fr-fr
-   Link: alternate id-id
-   Link: alternate it-it
-   Link: alternate kk-kz
-   Link: alternate nl-nl
-   Link: alternate pt-pt
-   Link: alternate ru-ru
-   Link: alternate uk-ua
-   www.wikidata.it-it.nina.az
-     * Categorie
-     * Quotidiano
-     * Casuale
-     * Contattaci
-     * DMCA
-     * Rss Feed
-     * Altro
-          * SiteMap
-          * SiteMap TXT
-          * Rss 0
-          * Rss 1
-          * Rss 2
-          * Rss 3
-          * Rss 4
-          * Rss 5
-          * Rss 6
-          * Rss 7
-          * Rss 8
-          * Rss 9
-          * Rss 10
-          * Rss 11
-          * Rss 12
-          * Rss 13
-          * Rss 14
-          * Rss 15
-          * Rss 16
-          * Rss 17
-          * Rss 18
-          * Rss 19
-          * Rss 20
-          * Rss 21
-          * Rss 22
-          * Rss 23
-          * Rss 24
-          * Rss 25
-          * Rss 26
-          * Rss 27
-          * Rss 28
-          * Rss 29
-          * Rss 30
-          * Rss 31
-          * Rss 32
-          * Rss 33
-          * Rss 34
-          * Rss 35
-          * Rss 36
-          * Rss 37
-          * Rss 38
-          * Rss 39
-          * Rss 40
-          * Rss 41
-          * Rss 42
-          * Rss 43
-          * Rss 44
-          * Rss 45
-          * Rss 46
-          * Rss 47
-          * Rss 48
-          * Rss 49
-          * Rss 50
-          * Rss 51
-          * Rss 52
-          * Rss 53
-          * Rss 54
-          * Rss 55
-          * Rss 56
-          * Rss 57
-          * Rss 58
-          * Rss 59
-          * Rss 60
-          * Rss 61
-          * Rss 62
-          * Rss 63
-          * Rss 64
-          * Rss 65
-          * Rss 66
-          * Rss 67
-          * Rss 68
-          * Rss 69
-          * Rss 70
-          * Rss 71
-          * Rss 72
-          * Ping
-          * Ping TXT
-   Comprimi il menu
+   HTML logo
+   Learn
+   Download
+   Magazine
+   Forum
+   [ Submit ]
+   _____________________
+   in  
+   [ ] Tutto il Forum
+   [ ] Tutto HTML.it
+   [ ] Software
+   [ ] News
+   [ ] Video
+   [ ] Guide
+   [ ] Approfondimenti
+   [ ] Faq
+   Utility
+   Home Messaggi odierni FAQ Ricerca avanzata Lo staff del forum Regolamento
+   Utenti Archivio
+   ___________
+   ___________
+   Entra
+    Recupero password
+   [ ] Ricordami
+     * Aiuto
+     * Registrazione
+     * Home Page
+     * Forum
+     * Forum di interesse generale
+     * Discussioni off-topic
+     * quale albero piantare?
 
-Albero sintattico Un albero sintattico o concreto è un albero che rappresenta la
-                     struttura sintattica di una stringa in
+     ----------------------------------------------------------------------
 
-Albero sintattico
+    1. Se questa è la tua prima visita, controlla la sezione FAQ cliccando
+       sul link soprastante. Devi registrarti prima di poter postare: clicca
+       sul link soprastante per procedere con la registrazione. Per
+       visualizzare i messaggi, seleziona la sezione che desideri visitare,
+       dall'elenco sottostante.
+   Pagina 1 di 4 1 2 3 ... Seguente ultimoultimo
+     * Vai alla pagina _____ [ Prosegui ]
+   Visualizzazione dei risultati da 1 a 10 su 37
 
-   Un albero sintattico o concreto è un albero che rappresenta la struttura
-   sintattica di una stringa in accordo a determinate forme grammaticali. Un
-   programma che produce quest'albero viene chiamato parser. Gli alberi
-   sintattici possono essere generati per frasi delle lingue naturali
-   attraverso l'elaborazione del linguaggio naturale, così come durante
-   l'elaborazione di linguaggi formali e di linguaggi di programmazione.
+                      Discussione: quale albero piantare?
 
-   La struttura ad albero è stata mutuata dalla teoria dei grafi per
-   rappresentare l'idea intuitiva che le frasi delle lingue naturali possono
-   essere segmentate in unità più piccole. È detto "indicatore sintagmatico"
-   ogni rappresentazione (ad albero o per mezzo di parentesi) dei sintagmi di
-   una frase.
+   Navigazione veloce Discussioni off-topic Vai in cima
+     * Aree del sito
+     * Impostazioni
+     * Messaggi privati
+     * Sottoscrizioni
+     * Utenti collegati
+     * Cerca nei forum
+     * Indice dei forum
+     * forum
+     * Lato client
+         1. XHTML e HTML
+         2. HTML 5
+         3. XML, XSL, Smil
+         4. CSS
+         5. JavaScript
+     * Lato server
+         1. Programmazione
+              1. Visual Basic e .Net Framework
+              2. Java
+         2. PHP
+         3. ASP
+         4. ASP.Net
+         5. CMS
+         6. Server
+              1. Apache
+              2. Microsoft Server
+              3. Altri server
+         7. Database
+     * Grafica e Flash
+         1. Grafica
+              1. Flash e tecnologie annesse
+     * Webmarketing
+         1. Motori di Ricerca e Web Marketing
+              1. Copywriting
+     * Telecomunicazioni
+         1. Adsl e connettività
+         2. VoIP
+     * Sistemi operativi e software
+         1. Windows e software
+         2. Linux e software
+         3. Macintosh e software
+         4. Sicurezza informatica e virus
+     * Hardware
+         1. Hardware Desktop
+         2. Hardware Laptop
+         3. Reti LAN e Wireless
+         4. Makers
+     * Hi-Tech
+         1. Videogiochi
+         2. Telefonia cellulare
+         3. Fotocamere e videocamere digitali, elettronica e Hi-Tech
+     * Annunci
+         1. Annunci siti Web e App
+         2. Offro lavoro/collaborazione
+              1. Professionisti/studi professionali
+              2. Privati /ricerca dipendenti/ collaborazioni gratuite
+         3. Cerco un lavoro
+     * Forum di interesse generale
+         1. Discussioni off-topic
+              1. Kickstarter
+     *  Strumenti discussione
 
-Caratteristiche modifica
+          * Visualizza la versione stampabile
+          * Invia questa pagina tramite email…
+          * Sottoscrivi questa discussione…
+     *  Ricerca discussione
 
-   Un semplice albero sintattico della frase inglese «John ha colpito la
-   palla».
+          * _____________________ [ Cerca ] 
+          *  
+            Ricerca avanzata
+     *  Visualizza
 
-   Un albero sintattico è composto da nodi e rami. La figura a fianco è un
-   albero sintattico linguistico che permette di creare determinate frasi in
-   lingua inglese. Nel disegno, l'albero sintattico è l'intera struttura che
-   parte da S e termina in ognuna delle foglie (John, ball, the, hit).
+          * Modalità lineare
+          * Passa al modo ibrido
+          * Passa alla modalità elencata
+    1. 14-07-2010, 17:57 #1
+       sparwari
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       sparwari non è in linea
+       Moderatore di foto/videocamere digitali ed elettronica hi-tech
+       L'avatar di sparwari
 
-   Nell'albero sono usate le seguenti abbreviazioni:
+     ----------------------------------------------------------------------
 
-     * S sta per la frase, la struttura top-level in questo esempio;
-     * NP sta per sintagma nominale. Il primo ramo (quello a sinistra) è il
-       soggetto John. L'altro è l'oggetto della frase;
-     * VP sta per sintagma verbale, che serve il predicato;
-     * V per verbo. In questo caso, hit («ha colpito»);
-     * Det sta per aggettivo determinativo, in questo caso the («la»);
-     * N sta per sostantivo.
+            Registrato dal
+                    Jun 2004
 
-   Nell'albero sintattico, ogni nodo può essere un nodo radice, un nodo ramo
-   o un nodo foglia. Nell'esempio precedente, S è il nodo radice, NP e VP
-   sono nodi rami, mentre John, ball, the e hit sono tutti foglie.
+            Messaggi
+                    7,671
 
-   I nodi si possono anche riferire ai genitori e ai figli di nodi. Un
-   genitore è quel nodo che ha almeno un altro nodo collegato con un ramo
-   sotto di lui. Nell'esempio, S è genitore sia di NP che di VP. Un figlio è
-   quel nodo che ha almeno un ramo collegato a un nodo sopra di lui;
-   nell'esempio, hit è un figlio del nodo V.
+[taddeus] quale albero piantare?
 
-Note modifica
+         in una aiula di dimensioni circa 4x3 vicino ad una casa in campagna,
+         potete consigliarmi un albero con crescita veloce?
 
-    1. Beccaria, Lemma albero.
-    2. Cfr. il lemma corrispondente sul dizionario De Mauro.
+         avevo pensato ad un pioppo.
+         cosa dite?
+         però non vorrei che le radici del pioppo possano "disturbare" un
+         vicino muro a secco che fa da terrapieno sottostante.
 
-Bibliografia modifica
+         pareri? suggerimenti?
 
-     * Gian Luigi Beccaria (a cura di), Dizionario di linguistica, Torino,
-       Einaudi, 2004, ISBN 978-88-06-16942-8.
+         1... 2... 3... prova
 
-Voci correlate modifica
+       Rispondi quotando Rispondi quotando 
 
-     * Linguistica computazionale
-     * Linguaggi formali matematici
-     * Parsing
-     * Sintagma
-     * Teoria x-barra
+     ----------------------------------------------------------------------
 
-Altri progetti modifica
+    2. 14-07-2010, 18:18 #2
+       krakovia
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       krakovia non è in linea
+       Utente di HTML.it L'avatar di krakovia
 
-     * Wikimedia Commons contiene immagini o altri file sull'albero
-       sintattico
+     ----------------------------------------------------------------------
 
-Collegamenti esterni modifica
+            Registrato dal
+                    Aug 2001
 
-     * (EN) syntax tree, in Free On-line Dictionary of Computing, Denis Howe.
-       Disponibile con licenza GFDL
-     * (EN) Linguistic Tree Constructor, su ltc.sourceforge.net.
-     * (EN) phpSyntaxTree — Online parse tree drawing site
-     * (EN) Qtree — LaTeX package for drawing parse trees
-     * (EN) , su linguiste.org. URL consultato il 4 febbraio 2007 (archiviato
-       dall'url originale il 4 ottobre 2006).
-     * (EN) TreeForm Syntax Tree Drawing Software, su mapsofspeech.com.
-   Portale Informatica: accedi alle voci di Wikipedia che trattano di
-   informatica
-   wikipedia, wiki, libro, libri, biblioteca, articolo, lettura, download,
-   scarica, gratuito, download gratuito, mp3, video, mp4, 3gp, jpg, jpeg,
-   gif, png, immagine, musica, canzone, film, libro, gioco, giochi.
-   Data di pubblicazione: Dicembre 17, 2023, 15:29 pm
-   I più letti
-     * Gennaio 06, 2024
+            Messaggi
+                    75
 
-  Ricardo Canals
+         ciliegio, a prescindere.
+         com'è il terreno? ombra? intendi lavorarci su o preferisci qualcosa
+         che poi non perda troppe foglie/frutti?
 
-     * Gennaio 02, 2024
+       Rispondi quotando Rispondi quotando 
 
-  Riccardo Galletta
+     ----------------------------------------------------------------------
 
-     * Gennaio 05, 2024
+    3. 14-07-2010, 18:26 #3
+       sparwari
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       sparwari non è in linea
+       Moderatore di foto/videocamere digitali ed elettronica hi-tech
+       L'avatar di sparwari
 
-  Riccardo Bagaini
+     ----------------------------------------------------------------------
 
-     * Gennaio 02, 2024
+            Registrato dal
+                    Jun 2004
 
-  Ribellione di Dhofar
+            Messaggi
+                    7,671
 
-     * Gennaio 06, 2024
+         Originariamente inviato da krakovia
+         ciliegio, a prescindere.
+         com'è il terreno? ombra? intendi lavorarci su o preferisci qualcosa
+         che poi non perda troppe foglie/frutti?
+         il terreno non è mio ma di un amico.
+         a prima vista mi è sembrato un buon terreno: la casa è stata
+         realizzata molti anni fa praticamente dentro un uliveto e tutto
+         attorno ci sono ulivi. anche un fico ed un albicocco.
+         tranne in questa grande aiula che è vuota..
+         l'iaula è in zona ombrata (da albero vicino) in alcune opre del
+         giorno.
 
-  Ribeirão Preto Challenger 2001
+         cercavo un albero veloce nella crescita e che richieda poche
+         attenzioni.
+         clima mediterraneo (sud italia).
 
-     * Gennaio 04, 2024
+         questa aiula (vicino la casa) è pianeggiante ed rettangolare ha:
+         - da un lato il muretto in cemento di confine proprietà
+         - da un lato un muretto a secco di confine proprietà
+         - da un lato un dislivello sotto cui passa una strada (c'è un muro
+         che fa da terrapieno)
 
-  Rivoluzione urbana
+         io avrei consigliato un pioppo (cresce veloce ed è bello da vedere)
+         ma poi mi è sorto un dubbio:
+         il mio timore è che magari tra 7-8 anni il pioppo con le sue radici
+         inizi a danneggiare o la casa o uno dei muri vicini o il muro che fa
+         da terrapieno!!
+         che ne pensi?
 
-     * Gennaio 04, 2024
+         ciliegio? mmm... ma sbaglio o è lento?
 
-  Rivoluzione Civile (lista elettorale)
+         1... 2... 3... prova
 
-     * Gennaio 04, 2024
+       Rispondi quotando Rispondi quotando 
 
-  Rivista Letteratura
+     ----------------------------------------------------------------------
 
-     * Gennaio 02, 2024
+    4. 14-07-2010, 18:30 #4
+       galz
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+          * Vai alla Home Page
+       galz non è in linea
+       Gay And Lesbian Zimbabwe L'avatar di galz
 
-  Riviera Ligure (olio di oliva)
+     ----------------------------------------------------------------------
 
-     * Gennaio 05, 2024
+            Registrato dal
+                    Jun 2001
 
-  River Monsters
+            Messaggi
+                    240
 
-   © Diritto d`autore 2021, tutti i diritti riservati
-     | 
-   NiNa.Az
-   Un albero sintattico o concreto e un albero che rappresenta la struttura
-   sintattica di una stringa in accordo a determinate forme grammaticali Un
-   programma che produce quest albero viene chiamato parser Gli alberi
-   sintattici possono essere generati per frasi delle lingue naturali
-   attraverso l elaborazione del linguaggio naturale cosi come durante l
-   elaborazione di linguaggi formali e di linguaggi di programmazione La
-   struttura ad albero e stata mutuata dalla teoria dei grafi per
-   rappresentare l idea intuitiva che le frasi delle lingue naturali possono
-   essere segmentate in unita piu piccole 1 E detto indicatore sintagmatico
-   ogni rappresentazione ad albero o per mezzo di parentesi dei sintagmi di
-   una frase 2 Indice 1 Caratteristiche 2 Note 3 Bibliografia 4 Voci
-   correlate 5 Altri progetti 6 Collegamenti esterniCaratteristiche modifica
-   nbsp Un semplice albero sintattico della frase inglese John ha colpito la
-   palla Un albero sintattico e composto da nodi e rami La figura a fianco e
-   un albero sintattico linguistico che permette di creare determinate frasi
-   in lingua inglese Nel disegno l albero sintattico e l intera struttura che
-   parte da S e termina in ognuna delle foglie John ball the hit Nell albero
-   sono usate le seguenti abbreviazioni S sta per la frase la struttura top
-   level in questo esempio NP sta per sintagma nominale Il primo ramo quello
-   a sinistra e il soggetto John L altro e l oggetto della frase VP sta per
-   sintagma verbale che serve il predicato V per verbo In questo caso hit ha
-   colpito Det sta per aggettivo determinativo in questo caso the la N sta
-   per sostantivo Nell albero sintattico ogni nodo puo essere un nodo radice
-   un nodo ramo o un nodo foglia Nell esempio precedente S e il nodo radice
-   NP e VP sono nodi rami mentre John ball the e hit sono tutti foglie I nodi
-   si possono anche riferire ai genitori e ai figli di nodi Un genitore e
-   quel nodo che ha almeno un altro nodo collegato con un ramo sotto di lui
-   Nell esempio S e genitore sia di NP che di VP Un figlio e quel nodo che ha
-   almeno un ramo collegato a un nodo sopra di lui nell esempio hit e un
-   figlio del nodo V Note modifica Beccaria Lemma albero Cfr il lemma
-   corrispondente sul dizionario De Mauro Bibliografia modificaGian Luigi
-   Beccaria a cura di Dizionario di linguistica Torino Einaudi 2004 ISBN 978
-   88 06 16942 8 Voci correlate modificaLinguistica computazionale Linguaggi
-   formali matematici Parsing Sintagma Teoria x barraAltri progetti
-   modificaAltri progettiWikimedia Commons nbsp Wikimedia Commons contiene
-   immagini o altri file sull albero sintatticoCollegamenti esterni modifica
-   EN syntax tree in Free On line Dictionary of Computing Denis Howe
-   Disponibile con licenza GFDL EN Linguistic Tree Constructor su ltc
-   sourceforge net EN phpSyntaxTree Online parse tree drawing site EN Qtree
-   LaTeX package for drawing parse trees EN Syntax Tree Drawer in SVG su
-   linguiste org URL consultato il 4 febbraio 2007 archiviato dall url
-   originale il 4 ottobre 2006 EN TreeForm Syntax Tree Drawing Software su
-   mapsofspeech com nbsp Portale Informatica accedi alle voci di Wikipedia
-   che trattano di informatica Estratto da https it wikipedia org w index php
-   title Albero sintattico amp oldid 136768219
-   www.wikidata.af-za.nina.azwww.wikidata.be-by.nina.azwww.wikidata.da-dk.nina.azwww.wikidata.de-de.nina.azwww.wikidata.fr-fr.nina.azwww.wikidata.id-id.nina.azwww.wikidata.it-it.nina.azwww.wikidata.kk-kz.nina.azwww.wikidata.nl-nl.nina.azwww.wikidata.pt-pt.nina.azwww.wikidata.ru-ru.nina.azwww.wikidata.uk-ua.nina.az
+         La parola AIUOLA ti sta proprio sul culo, eh.. non l'hai azzeccata
+         una volta
+
+         Le mie ferie negli States: le foto!
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    5. 14-07-2010, 18:35 #5
+       nihil
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       nihil non è in linea
+       Utente di HTML.it L'avatar di nihil
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jul 2009
+
+            Messaggi
+                    1
+
+         cipresso?
+         Le radici si sviluppano in profondità, molto difficilmente si secca,
+         cresce anche su un terreno sassoso e ingrandisce in modo veloce
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    6. 14-07-2010, 18:36 #6
+       sparwari
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       sparwari non è in linea
+       Moderatore di foto/videocamere digitali ed elettronica hi-tech
+       L'avatar di sparwari
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jun 2004
+
+            Messaggi
+                    7,671
+
+         Originariamente inviato da galz
+         La parola AIUOLA ti sta proprio sul culo, eh.. non l'hai azzeccata
+         una volta
+         pensa che dopo aver postato l'intervento, ho editato altri errori ma
+         AIUOLA no. erano troppe parole altrimenti da corregere
+
+         1... 2... 3... prova
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    7. 14-07-2010, 18:37 #7
+       sparwari
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       sparwari non è in linea
+       Moderatore di foto/videocamere digitali ed elettronica hi-tech
+       L'avatar di sparwari
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jun 2004
+
+            Messaggi
+                    7,671
+
+         Originariamente inviato da nihil
+         cipresso?
+         Le radici si sviluppano in profondità, molto difficilmente si secca,
+         cresce anche su un terreno sassoso e ingrandisce in modo veloce
+         mmm... cipresso non mi convince. ha una chioma che non mi convince.
+
+         1... 2... 3... prova
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    8. 14-07-2010, 18:45 #8
+       nihil
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       nihil non è in linea
+       Utente di HTML.it L'avatar di nihil
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Jul 2009
+
+            Messaggi
+                    1
+
+         Originariamente inviato da sparwari
+         mmm... cipresso non mi convince. ha una chioma che non mi convince.
+         betulla?
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+    9. 14-07-2010, 18:47 #9
+       quaestio
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       quaestio non è in linea
+       Umarell di HTML.it L'avatar di quaestio
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    May 2005
+
+            Messaggi
+                    55
+
+         io so che il pioppo ama l'acqua......
+
+         "ci vorrebbero anche più persone come quaestio (a reb verrà un
+         brivido)" wallrider, 22/10/2012
+
+         "Se hai una vita di merda facebook non può essere molto meglio...".
+         kalosjo, 16/10/2012
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+   10. 14-07-2010, 18:48 #10
+       robertetti
+          * Visualizza il profilo
+          * Visualizza i messaggi forum
+          * Messaggio privato
+       robertetti non è in linea
+       Utente di HTML.it L'avatar di robertetti
+
+     ----------------------------------------------------------------------
+
+            Registrato dal
+                    Dec 2007
+
+            Messaggi
+                    16
+
+         Il kaki:è il frutto più buono che c*è e fruttifica in abbondanza.Ma
+         non so se è veloce.
+         Il ginko è veloce, è bellissimo (d*autunno quando è tutto giallo è
+         commovente), ma diventa più grosso del pioppo.
+         Quindi il kaki
+
+         La vita è un fiume
+         (G. Scialpi)
+
+         Siamo isole
+         (G. Scialpi)
+
+       Rispondi quotando Rispondi quotando 
+
+     ----------------------------------------------------------------------
+
+   Pagina 1 di 4 1 2 3 ... Seguente ultimoultimo
+     * Vai alla pagina _____ [ Prosegui ]
+   Navigazione veloce Discussioni off-topic Vai in cima
+     * Aree del sito
+     * Impostazioni
+     * Messaggi privati
+     * Sottoscrizioni
+     * Utenti collegati
+     * Cerca nei forum
+     * Indice dei forum
+     * forum
+     * Lato client
+         1. XHTML e HTML
+         2. HTML 5
+         3. XML, XSL, Smil
+         4. CSS
+         5. JavaScript
+     * Lato server
+         1. Programmazione
+              1. Visual Basic e .Net Framework
+              2. Java
+         2. PHP
+         3. ASP
+         4. ASP.Net
+         5. CMS
+         6. Server
+              1. Apache
+              2. Microsoft Server
+              3. Altri server
+         7. Database
+     * Grafica e Flash
+         1. Grafica
+              1. Flash e tecnologie annesse
+     * Webmarketing
+         1. Motori di Ricerca e Web Marketing
+              1. Copywriting
+     * Telecomunicazioni
+         1. Adsl e connettività
+         2. VoIP
+     * Sistemi operativi e software
+         1. Windows e software
+         2. Linux e software
+         3. Macintosh e software
+         4. Sicurezza informatica e virus
+     * Hardware
+         1. Hardware Desktop
+         2. Hardware Laptop
+         3. Reti LAN e Wireless
+         4. Makers
+     * Hi-Tech
+         1. Videogiochi
+         2. Telefonia cellulare
+         3. Fotocamere e videocamere digitali, elettronica e Hi-Tech
+     * Annunci
+         1. Annunci siti Web e App
+         2. Offro lavoro/collaborazione
+              1. Professionisti/studi professionali
+              2. Privati /ricerca dipendenti/ collaborazioni gratuite
+         3. Cerco un lavoro
+     * Forum di interesse generale
+         1. Discussioni off-topic
+              1. Kickstarter
+   « Discussione precedente | Prossima discussione »
+
+    [IMG] Permessi di invio
+
+     * Non puoi inserire discussioni
+     * Non puoi inserire repliche
+     * Non puoi inserire allegati
+     * Non puoi modificare i tuoi messaggi
+     *  
+     * Il codice BB è attivo
+     * Le smilie sono attive
+     * Il codice [IMG] attivo
+     * [VIDEO] code is disattivato
+     * il codice HTML è disattivato
+
+   Regole del Forum
+
+     * Pubblicità
+     * Contatti
+     * Chi siamo
+     * Privacy policy
+     * Cookie policy
+     * Gestisci consenso
+     * * Ricerca avanzata
+     * Contatta lo Staff
+     * Archivio
+     * Vai in cima
+   © HTML.it 2022 - TUB Network Srl - P. IVA 16454421005
+   Powered by vBulletin® Version 4.2.1
+   Copyright © 2024 vBulletin Solutions, Inc. All rights reserved.

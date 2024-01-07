@@ -1,91 +1,29 @@
-   Comprimi il menu
+     * Forum di interesse generale
+     * Discussioni off-topic
+     * quale albero piantare?
 
-Albero sintattico Un albero sintattico o concreto è un albero che rappresenta la
-                     struttura sintattica di una stringa in
-
-Albero sintattico
-
-   Un albero sintattico o concreto è un albero che rappresenta la struttura
-   sintattica di una stringa in accordo a determinate forme grammaticali. Un
-   programma che produce quest'albero viene chiamato parser. Gli alberi
-   sintattici possono essere generati per frasi delle lingue naturali
-   attraverso l'elaborazione del linguaggio naturale, così come durante
-   l'elaborazione di linguaggi formali e di linguaggi di programmazione.
-
-   La struttura ad albero è stata mutuata dalla teoria dei grafi per
-   rappresentare l'idea intuitiva che le frasi delle lingue naturali possono
-   essere segmentate in unità più piccole. È detto "indicatore sintagmatico"
-   ogni rappresentazione (ad albero o per mezzo di parentesi) dei sintagmi di
-   una frase.
-
-Caratteristiche modifica
-
-   Un semplice albero sintattico della frase inglese «John ha colpito la
-   palla».
-
-   Un albero sintattico è composto da nodi e rami. La figura a fianco è un
-   albero sintattico linguistico che permette di creare determinate frasi in
-   lingua inglese. Nel disegno, l'albero sintattico è l'intera struttura che
-   parte da S e termina in ognuna delle foglie (John, ball, the, hit).
-
-   Nell'albero sono usate le seguenti abbreviazioni:
-
-     * S sta per la frase, la struttura top-level in questo esempio;
+     ----------------------------------------------------------------------
 --
-     * N sta per sostantivo.
+   Visualizzazione dei risultati da 1 a 10 su 37
 
-   Nell'albero sintattico, ogni nodo può essere un nodo radice, un nodo ramo
-   o un nodo foglia. Nell'esempio precedente, S è il nodo radice, NP e VP
-   sono nodi rami, mentre John, ball, the e hit sono tutti foglie.
---
-Note modifica
+                      Discussione: quale albero piantare?
 
-    1. Beccaria, Lemma albero.
-    2. Cfr. il lemma corrispondente sul dizionario De Mauro.
+   Navigazione veloce Discussioni off-topic Vai in cima
+--
+                    7,671
 
---
-Altri progetti modifica
+[taddeus] quale albero piantare?
 
-     * Wikimedia Commons contiene immagini o altri file sull'albero
-       sintattico
+         in una aiula di dimensioni circa 4x3 vicino ad una casa in campagna,
+         potete consigliarmi un albero con crescita veloce?
 
+         avevo pensato ad un pioppo.
 --
-     | 
-   NiNa.Az
-   Un albero sintattico o concreto e un albero che rappresenta la struttura
-   sintattica di una stringa in accordo a determinate forme grammaticali Un
-   programma che produce quest albero viene chiamato parser Gli alberi
-   sintattici possono essere generati per frasi delle lingue naturali
-   attraverso l elaborazione del linguaggio naturale cosi come durante l
-   elaborazione di linguaggi formali e di linguaggi di programmazione La
-   struttura ad albero e stata mutuata dalla teoria dei grafi per
-   rappresentare l idea intuitiva che le frasi delle lingue naturali possono
-   essere segmentate in unita piu piccole 1 E detto indicatore sintagmatico
-   ogni rappresentazione ad albero o per mezzo di parentesi dei sintagmi di
-   una frase 2 Indice 1 Caratteristiche 2 Note 3 Bibliografia 4 Voci
-   correlate 5 Altri progetti 6 Collegamenti esterniCaratteristiche modifica
-   nbsp Un semplice albero sintattico della frase inglese John ha colpito la
-   palla Un albero sintattico e composto da nodi e rami La figura a fianco e
-   un albero sintattico linguistico che permette di creare determinate frasi
-   in lingua inglese Nel disegno l albero sintattico e l intera struttura che
-   parte da S e termina in ognuna delle foglie John ball the hit Nell albero
-   sono usate le seguenti abbreviazioni S sta per la frase la struttura top
-   level in questo esempio NP sta per sintagma nominale Il primo ramo quello
---
-   sintagma verbale che serve il predicato V per verbo In questo caso hit ha
-   colpito Det sta per aggettivo determinativo in questo caso the la N sta
-   per sostantivo Nell albero sintattico ogni nodo puo essere un nodo radice
-   un nodo ramo o un nodo foglia Nell esempio precedente S e il nodo radice
-   NP e VP sono nodi rami mentre John ball the e hit sono tutti foglie I nodi
---
-   Nell esempio S e genitore sia di NP che di VP Un figlio e quel nodo che ha
-   almeno un ramo collegato a un nodo sopra di lui nell esempio hit e un
-   figlio del nodo V Note modifica Beccaria Lemma albero Cfr il lemma
-   corrispondente sul dizionario De Mauro Bibliografia modificaGian Luigi
-   Beccaria a cura di Dizionario di linguistica Torino Einaudi 2004 ISBN 978
---
-   formali matematici Parsing Sintagma Teoria x barraAltri progetti
-   modificaAltri progettiWikimedia Commons nbsp Wikimedia Commons contiene
-   immagini o altri file sull albero sintatticoCollegamenti esterni modifica
-   EN syntax tree in Free On line Dictionary of Computing Denis Howe
-   Disponibile con licenza GFDL EN Linguistic Tree Constructor su ltc
+         attorno ci sono ulivi. anche un fico ed un albicocco.
+         tranne in questa grande aiula che è vuota..
+         l'iaula è in zona ombrata (da albero vicino) in alcune opre del
+         giorno.
+
+         cercavo un albero veloce nella crescita e che richieda poche
+         attenzioni.
+         clima mediterraneo (sud italia).

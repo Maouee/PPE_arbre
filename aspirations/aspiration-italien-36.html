@@ -1,126 +1,466 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
-<HTML LANG=ita>
- <HEAD>
- <TITLE>Alberi sintattittici</TITLE>
-<META HTTP-EQUIV="Content-Type" CONTENT="text/html">
-<META NAME="GENERATOR" CONTENT="ReadyGo WCB, V2.301000">
-<META NAME="Author" CONTENT="ReadyGo WCB: 1-15-2">
-</HEAD>
- <BODY BGCOLOR="#FFFFFF" BACKGROUND="../images/mainbkg.png" LINK="#1238D6" ALINK="#1238D6"  >
- <SCRIPT LANGUAGE = "JavaScript"><!-- 
-  if (document.images) {            // Active Images
-    img1on = new Image();
-    img1on.src = "../images/backbtn1.png"; 
-    img2on = new Image();
-    img2on.src = "../images/nextbtn1.png"; 
-    img3on = new Image();
-    img3on.src = "../images/backbtn1.png"; 
-    img4on = new Image(); 
-    img4on.src = "../images/nextbtn1.png"; 
-    img5on = new Image(); 
-    img5on.src = "../images/tellbtn1.png"; 
-    img6on = new Image(); 
-    img6on.src = "../images/stepbtn1.png"; 
-    img7on = new Image(); 
-    img7on.src = "../images/quizbtn1.png"; 
-    img8on = new Image(); 
-    img8on.src = "../images/trybtn1.png"; 
-    img9on = new Image(); 
-    img9on.src = "../images/tstbtn1.png"; 
-    img10on = new Image(); 
-    img10on.src = "../images/srvbtn1.png"; 
-    img1off = new Image();
-    img1off.src = "../images/backbtn0.png";
-    img2off = new Image();
-    img2off.src = "../images/nextbtn0.png";
-    img3off = new Image();
-    img3off.src = "../images/backbtn0.png";
-    img4off = new Image();
-    img4off.src = "../images/nextbtn0.png";
-    img5off = new Image();
-    img5off.src = "../images/tellbtn0.png";
-    img6off = new Image(); 
-    img6off.src = "../images/stepbtn0.png"; 
-    img7off = new Image(); 
-    img7off.src = "../images/quizbtn0.png"; 
-    img8off = new Image(); 
-    img8off.src = "../images/trybtn0.png"; 
-    img9off = new Image(); 
-    img9off.src = "../images/tstbtn0.png"; 
-    img10off = new Image(); 
-    img10off.src = "../images/srvbtn0.png"; 
- }
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.75 [en] (Win95; U) [Netscape]">
+<script LANGUAGE="JavaScript1.1" SRC="../../Redirect/redirect.js">
+   </script>
+</head>
+<body bgcolor="white">
 
-// Function to activate images.
-  function imgOn(imgName) { 
-    if (document.images) {
-      document[imgName].src = eval(imgName + "on.src");
-    }
-  }
-// Function to deactivate images.
-  function imgOff(imgName) { 
-    if (document.images) {
-      document[imgName].src = eval(imgName + "off.src");
-    }
-  }
-// --></SCRIPT>
-<!--- Start Head Banner --->
-<UL><TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="560" >
-<TR><TD rowspan=2> </TD>
-  <TD VALIGN="TOP" ROWSPAN="2">
-    <IMG SRC="../images/lcap.png" > 
-  </TD>
-  <TD VALIGN="TOP"  BGCOLOR="#b8fffa"  WIDTH="500" NOWRAP><TABLE HSPACE=1><TR><TD VALIGN="TOP"><FONT SIZE="+1"><B>2.3</B></FONT></TD><TD VALIGN="TOP"><FONT SIZE="+1"><B>Alberi sintattittici</B></FONT></TD></TR></TABLE></TD>
-  <TD VALIGN="TOP" VALIGN="TOP"><!-- BACK LINK --><A HREF="02lin02.htm" accesskey="P" onMouseOver="imgOn('img1')"
-       onMouseOut="imgOff('img1')"><IMG SRC="../images/backbtn0.png" NAME="img1" ALT="Indietro" BORDER="0" ></A></TD>
-<TD VALIGN="TOP"><A HREF="04lin02.htm" onMouseOver="imgOn('img2')"
-      onMouseOut="imgOff('img2')" accesskey="N" ><IMG SRC="../images/nextbtn0.png" NAME="img2" ALT="Avanti" BORDER="0" ></A></TD>
-</TR>
-<TR>
-  <TD COLSPAN="1" WIDTH="500" VALIGN="TOP" >
-    <IMG SRC="../images/drpshad.png" HEIGHT="12"   WIDTH="500" ALIGN="TOP">  </TD><TD COLSPAN="2"></TD>
-</TR>
-</TABLE>
-</UL>
-<UL>
+
+
+
+
+
+<a NAME="0"></a><a NAME="1"></a>
+<br>
+<hr WIDTH="100%">
+<center><table WIDTH="100%" NOSAVE >
+<tr NOSAVE>
+<td NOSAVE><img SRC="first0.gif" height=32 width=32><img SRC="prev0.gif" height=32 width=32></td>
+
+<td NOSAVE>
+<center>&nbsp;<b><font size=+4>Gli alberi</font></b></center>
+</td>
+
+<td NOSAVE>
+<div align=right><a href="#2"><img SRC="next1.gif" BORDER=0 height=32 width=32></a><a href="#n"><img SRC="last1.gif" BORDER=0 height=32 width=32></a></div>
+</td>
+</tr>
+</table></center>
+
+<center>
+<hr WIDTH="100%"></center>
+
+<center><table COLS=1 WIDTH="100%" HEIGHT="600" NOSAVE >
+<tr VALIGN=TOP NOSAVE>
+<td NOSAVE><font size=+2>
+
+Organizzazioni di dati:
+<ul>
+<li>
+Lineari: ogni elemento ha un solo predecessore e un solo successore. 
+</li>
+<li>
+Non lineare o gerarchico: ad esempio gli alberi. Un <b><font color="#3333FF">albero</font></b> si compone di due componenti: il <b><font color="#3333FF">nodo</font></b> (che contiene le informazioni) e l'<b><font color="#3333FF">arco</font></b> (che collega gerarchicamente coppie di nodi). Un nodo in un albero possiede un solo predecessore, ma pu&ograve; avere molti successori.
+</li>
+</ul>
+<p><font size=+2>Come in botanica, un albero ha una radice, un tronco che si pu&ograve; dividere in due o pi&ugrave; rami, che a loro volta possono ridividersi.
+Si rappresenta tuttavia con la radice in alto (come un albero genealogico). Nell'esempio vediamo un albero i cui nodi contengono valori interi (la radice contiene il valore 10).</font>
+<center><img SRC="alberiGenerali.gif" BORDER=0 height=302 width=320></center>
+<font size=+2>
+Un albero pu&ograve; essere <b><font color="#3333FF">vuoto</font></b>
+(se non ha nessun nodo), oppure ha un nodo <b><font color="#3333FF">radice</font></b>
+che ha una sequenza di zero o pi&ugrave; nodi <b><font color="#3333FF">figli</font></b>,
+i quali sono a loro volta radici di altrettanti <b><font color="#3333FF">sotto-alberi</font></b>
+.&nbsp;</font>
+
+<p><font size=+2>Gli alberi si prestano per rappresentare organizzazioni gerarchiche di informazioni, ad esempio: file system.  </font>
+<center><img SRC="fs.gif" BORDER=0></center>
+
+<br>&nbsp;
+</td>
+</tr>
+</table></center>
+
+
+
+<hr WIDTH="100%"><a NAME="2"></a>
+<br>
+<hr WIDTH="100%">
+<center><table WIDTH="100%" NOSAVE >
+<tr NOSAVE>
+<td NOSAVE><a href="#0"><img SRC="first1.gif" BORDER=0 height=32 width=32></a><a href="#1"><img SRC="prev1.gif" BORDER=0 height=32 width=32></a></td>
+
+<td NOSAVE>
+<center><b><font size=+4>Alberi: terminologia</font></b></center>
+</td>
+
+<td NOSAVE>
+<div align=right><a href="#4"><img SRC="next1.gif" BORDER=0 height=32 width=32></a><a href="#n"><img SRC="last1.gif" BORDER=0 height=32 width=32></a></div>
+</td>
+</tr>
+</table></center>
+
+<center>
+<hr WIDTH="100%"></center>
+
+<center><table COLS=1 WIDTH="100%" HEIGHT="600" NOSAVE >
+<tr VALIGN=TOP NOSAVE>
+<td NOSAVE><font size=+2>Per chiamare i nodi di un albero e le
+relazioni tra di essi si usano termini botanici e genealogici o di parentela.&nbsp;</font>
+<br><font size=+2>Il predecessore di un nodo &egrave; detto 
+<b><font color="#3333FF">padre</font></b>, mentre i successori sono detti
+<b><font color="#3333FF">figli</font></b>.
+<br>
+<br><font size=+2>
+La relazione
+<b><font color="#3333FF">antenato-discendente</font></b> generalizza
+quella di <b><font color="#3333FF">padre-figlio</font></b> nel modo intuitivo.</font>
+Un nodo che non ha predecessori &egrave; detto <b><font color="#3333FF">radice</font></b> ed &egrave; l'unico per l'albero.
+<br><font size=+2>Un nodo senza successori &egrave; detto <b><font color="#3333FF">foglia</font></b>.
+<br>
+Si parla di <font color="#3333FF"><b>profondit&agrave;</b></font>
+(ovvero l'altezza dell'albero) e <font color="#3333FF"><b>ampiezza</b></font> (ovvero la
+larghezza).
+
+
+
+
+
+
+
+
+<hr WIDTH="100%"><a NAME="3"></a>
+<br>
+<hr WIDTH="100%">
+<center><table WIDTH="100%" NOSAVE >
+<tr NOSAVE>
+<td NOSAVE><a href="#0"><img SRC="first1.gif" BORDER=0 height=32 width=32></a><a href="#2"><img SRC="prev1.gif" BORDER=0 height=32 width=32></a></td>
+
+<td NOSAVE>
+<center><b><font size=+4>Gli alberi binari</font></b></center>
+</td>
+
+<td NOSAVE>
+<div align=right><a href="#3"><img SRC="next1.gif" BORDER=0 height=32 width=32></a><a href="#n"><img SRC="last1.gif" BORDER=0 height=32 width=32></a></div>
+</td>
+</tr>
+</table></center>
+
+<center>
+<hr WIDTH="100%"></center>
+
+<center><table COLS=1 WIDTH="100%" HEIGHT="600" NOSAVE >
+<tr VALIGN=TOP NOSAVE>
+
+<td NOSAVE><font size=+2>Un <b><font color="#3333FF">albero binario</font></b>
+&egrave; un albero in cui ogni nodo ha al massimo due figli. 
+Se il sottoalbero sinistro (risp. destro) di un albero non &egrave; vuoto,
+la sua radice viene detta <b><font color="#3333FF">figlio sinistro</font></b>
+(risp. <b><font color="#3333FF">destro</font></b>) della radice dell'intero
+albero (che &egrave; il <b><font color="#3333FF">padre</font></b>). </font>
+
+
+<br>
+<br><font size=+2>Ad esempio, nell'albero seguente [il nodo contenente]
+10 &egrave; la <b><font color="#3333FF">radice</font></b> dell'albero,
+ed ha sia un <b><font color="#990000">figlio sinistro</font></b> (20) che
+un <b><font color="#009900">figlio destro</font></b> (2). I nodi 1, 29
+e 7 sono <b><font color="#993366">foglie</font></b>. Il nodo 20 &egrave;
+il <b><font color="#3333FF">padre</font></b> di 3 e un <b><font color="#3333FF">antenato</font></b>
+di 29, che &egrave; un <b><font color="#3333FF">discendente</font></b>
+di 10. Il nodo 3 ha soltanto il figlio sinistro, perch&eacute; il suo sottoalbero
+destro &egrave; vuoto.</font>
+<br>&nbsp;
+<center><table BORDER >
+<tr>
+<td><img SRC="img104-col.gif" height=306 width=317></td>
+</tr>
+</table></center>
+</td>
+</tr>
+</table></center>
+
+
+
+Gli alberi
+binari hanno una elegante definizione ricorsiva:</font>
+<br>&nbsp;
+<center><table BORDER COLS=1 WIDTH="100%" BGCOLOR="#FFFFCC" NOSAVE >
+<tr>
+<td><font size=+2>Un
+<b><font color="#3333FF">albero binario</font></b>
+&egrave; una struttura definita su un insieme di <b><font color="#3333FF">nodi</font></b>
+che:&nbsp;</font>
+<ul>
+<li>
+<font size=+2>non contiene nessun nodo (<b><font color="#3333FF">albero
+vuoto</font></b>), oppure</font></li>
+
+<li>
+<font size=+2>contiene un nodo <b><font color="#3333FF">radice</font></b>,
+un albero binario detto <b><font color="#3333FF">sottoalbero sinistro</font></b>
+ed un albero binario detto <b><font color="#3333FF">sottoalbero destro</font></b>.</font></li>
+</ul>
+</td>
+</tr>
+</table></center>
+
+
+
+<p><font size=+2>Molti algoritmi su alberi binari possono essere descritti
+in modo naturale sfruttando questa definizione ricorsiva, comprendendo
+un caso base (per l'albero vuoto) e una clausola ricorsiva (con due chiamate
+ricorsive, per i due sottoalberi).</font>
+<p>&nbsp;
+</td>
+</tr>
+</table></center>
+
+
+
+
+<hr WIDTH="100%"><a NAME="4"></a>
+<br>
+<hr WIDTH="100%">
+<center><table WIDTH="100%" NOSAVE >
+<tr NOSAVE>
+<td NOSAVE><a href="#0"><img SRC="first1.gif" BORDER=0 height=32 width=32></a><a href="#3"><img SRC="prev1.gif" BORDER=0 height=32 width=32></a></td>
+
+<td NOSAVE>
+<center><b><font size=+4>Visita di un albero binario</font></b></center>
+</td>
+
+<td NOSAVE>
+<div align=right><a href="#5"><img SRC="next1.gif" BORDER=0 height=32 width=32></a><a href="#n"><img SRC="last1.gif" BORDER=0 height=32 width=32></a></div>
+</td>
+</tr>
+</table></center>
+
+<center>
+<hr WIDTH="100%"></center>
+
+<center><table COLS=1 WIDTH="100%" HEIGHT="600" NOSAVE >
+<tr VALIGN=TOP NOSAVE>
+<td NOSAVE><font size=+2><b><font color="#3333FF">"Visitare"</font></b>
+un albero significa esaminare sequenzialmente tutti i suoi nodi. Ci sono
+tre tipi principali di visite:</font>
+<ul>
+<li>
+<font size=+2>Nella <b><font color="#3333FF">visita in ordine simmetrico</font></b>
+si visita il sottoalbero sinistro, quindi si esamina la radice e infine
+si visita il sottoalbero destro.</font></li>
+
+<li>
+<font size=+2>Nella <b><font color="#3333FF">visita in ordine anticipato</font></b>
+si esamina prima la radice e quindi si visitano il sottoalbero sinistro
+e quello destro.</font></li>
+
+<li>
+<font size=+2>Nella <b><font color="#3333FF">visita in ordine posticipato</font></b>
+si visitano prima il sottoalbero sinistro poi quello destro e infine si esamina la radice.</font></li>
+</ul>
+<font size=+2>Altri tre tipi di visite si ottengono dai precedenti scambiando
+<b><font color="#3333FF">"sinistro"</font></b>
+con <b><font color="#3333FF">"destro"</font></b>.</font>
+<br>
+<p>
+<font size=+2>
+<b><font color="#3333FF">Ricerca in un albero binario</font></b>: usando una visita in ordine
+qualsiasi, si pu&ograve; stabilire se un certo oggetto
+appartiene o meno ad un dato albero binario. Si noti che:</font>
+<ul>
+<li>
+<font size=+2>il caso base &egrave; banale (come sempre): se l'albero &egrave;
+vuoto, si restituisce <b><tt>false;</tt></b></font></li>
+
+<li>
+<font size=+2>la visita viene interrotta non appena si trova l'oggetto
+cercato.</font></li>
+</ul>
+
+
+</tr>
+</table></center>
+
+
+
+
+
+
+<hr WIDTH="100%"><a NAME="5"></a>
+<br>
+<hr WIDTH="100%">
+<center><table WIDTH="100%" NOSAVE >
+<tr NOSAVE>
+<td NOSAVE><a href="#0"><img SRC="first1.gif" BORDER=0 height=32 width=32></a><a href="#4"><img SRC="prev1.gif" BORDER=0 height=32 width=32></a></td>
+
+
+<td NOSAVE>
+<center><b><font size=+4>Alberi binari di ricerca</tt></font></b></center>
+</td>
+
+<td NOSAVE>
+<div align=right><a href="#6"><img SRC="next1.gif" BORDER=0 height=32 width=32></a><a href="#n"><img SRC="last1.gif" BORDER=0 height=32 width=32></a></div>
+</td>
+</tr>
+</table></center>
+
+<center>
+<hr WIDTH="100%"></center>
+
+<center><table COLS=1 WIDTH="100%" HEIGHT="600" NOSAVE >
+<tr VALIGN=TOP NOSAVE>
+<td NOSAVE><font size=+2>
+Un <b><font color="#3333FF">albero binario di
+ricerca (ABR)</font></b>&nbsp; &egrave; un albero binario tale che:</font>
+<ul>
+<li>
+<font size=+2>sui valori delle chiavi dei suoi nodi &egrave; definito un
+<b><font color="#990000">ordinamento totale</font></b>;</font></li>
+
+<li>
+<font size=+2>soddisfa la seguente propriet&agrave;:</font></li>
+</ul>
+
+<center><table BORDER COLS=1 WIDTH="80%" BGCOLOR="#99FF99" NOSAVE >
+<tr NOSAVE>
+<td NOSAVE><font size=+2>&nbsp;Per
+ogni nodo <b><font color="#3333FF">n</font></b> dell'albero:</font>
+<blockquote>
+<li>
+<font size=+2>tutte le chiavi dei nodi contenuti nel sottoalbero sinistro
+di <b><font color="#3333FF">n</font></b> hanno valore <b><font color="#3333FF">strettamente
+minore</font></b> della chiave contenuta in <b><font color="#3333FF">n</font></b>,</font></li>
+
+<li>
+<font size=+2>tutte le chiavi dei nodi contenuti nel sottoalbero destro
+di <b><font color="#3333FF">n</font></b> hanno valore <b><font color="#3333FF">strettamente
+maggiore</font></b> della chiave contenuta in <b><font color="#3333FF">n</font></b>.</font></li>
+</blockquote>
+</td>
+</tr>
+</table></center>
+
+<p><font size=+2>Un esempio, in cui le chiavi sono interi con l'ovvio ordinamento...</font>
+<p><a NAME="fig-4"></a>
+<center><img SRC="img107.gif" BORDER=0 height=286 width=456></center>
+
+<p><font size=+2>Si noti che in un ABR non ci possono essere due nodi con
+la stessa chiave.&nbsp;</font>
+<p><font size=+2>Un'importante propriet&agrave; di un ABR &egrave; la seguente:</font>
+<br>&nbsp;
+<center><table BORDER COLS=1 WIDTH="80%" BGCOLOR="#99FF99" NOSAVE >
+<tr NOSAVE>
+<td NOSAVE>
+<blockquote>&nbsp;
+<br><font size=+2>La visita in ordine <b><font color="#3333FF">simmetrico</font></b>
+di un albero binario di ricerca genera una sequenza <b><font color="#3333FF">crescente</font></b>
+di tutte le sue chiavi.</font></blockquote>
+</td>
+</tr>
+</table></center>
+
+
+
+
+
+
+
+
+
+
+<hr WIDTH="100%"><a NAME="6"></a><a NAME="n"></a>
+<br>
+<hr WIDTH="100%">
+<center><table WIDTH="100%" NOSAVE >
+<tr NOSAVE>
+<td NOSAVE><a href="#0"><img SRC="first1.gif" BORDER=0 height=32 width=32></a><a href="#5"><img SRC="prev1.gif" BORDER=0 height=32 width=32></a></td>
+
+<td NOSAVE>
+<center><b><font size=+4>Ricerca in un ABR</font></b></center>
+</td>
+
+<td NOSAVE>
+<div align=right><img SRC="next0.gif" BORDER=0 height=32 width=32><img SRC="last0.gif" BORDER=0 height=32 width=32></div>
+</td>
+</tr>
+</table></center>
+
+<center><hr WIDTH="100%"></center>
+
+<center><table COLS=1 WIDTH="100%" HEIGHT="600" NOSAVE >
+<tr VALIGN=TOP NOSAVE>
+<td NOSAVE><font size=+2>
+Per la ricerca di un elemento in un albero binario
+di ricerca vediamo il primo esempio di algoritmo che sfrutta la propriet&agrave;
+<b><tt><font color="#3333FF">(ABR)</font></tt></b>.
+Come nel caso della ricerca binaria su un array, ogni indagine nell'ABR
+ permette di eliminare met&agrave; degli elementi su cui continuare la ricerca.
+Tecnicamente questo permette di ridurre la ricorsione doppia, tipica
+degli algoritmi su alberi binari, ad una ricorsione singola.&nbsp;</font>
+<p><font size=+2>L'algoritmo &egrave; il seguente:</font>
+<br>&nbsp;
+<center><table BORDER COLS=1 WIDTH="80%" BGCOLOR="#99FF99" NOSAVE >
+<tr NOSAVE>
+<td NOSAVE>
+<ul>
+<li>
+<font size=+2>Se l'albero &egrave; vuoto la ricerca termina subito con
+fallimento.</font></li>
+
+<li>
+<font size=+2>Se l'albero non &egrave; vuoto, si confronta il valore cercato
+con quello contenuto nella radice dell'albero:</font></li>
+
+<ul>
+<li>
+<font size=+2>Se i due valori coincidono la ricerca termina con successo.&nbsp;</font></li>
+</ul>
+
+<ul>
+<li>
+<font size=+2>Se il valore cercato &egrave; minore di quello contenuto
+nella radice la ricerca prosegue ricorsivamente nel sottoalbero sinistro.</font></li>
+
+<li>
+<font size=+2>Se &egrave; invece maggiore la ricerca prosegue nel sottoalbero
+destro.</font></li>
+</ul>
+</ul>
+</td>
+</tr>
+</table></center>
+
 <P>
-Un albero sintattico e' una rappresentazione di come una particolare frase puo` essere derivata da una grammatica, a partire dall' assioma. <BR><BR>
-L' albero sintattico assegna alle frasi una struttura chwe puo` essere utilizzata per operaziomni successive quali l' interpretazione della frase, la sua traduzione etc.<BR><BR>
-Anche i traduttori o compilatori analizzano il linguaggio sorgente, producono un albero sintattico del programma e lo utilizzano per tradurlo in linguaggio macchina.<BR><BR>
-<BR><BR>
-<BR><BR>
+<center><hr WIDTH="100%"></center>
+<P>
+<center><H1><font color="red">Sulla complessit&agrave; della ricerca</font></h1></center>
+<P>
+
+<font size=+2>Si confrontino gli algoritmi di ricerca visti.
+In un <b><font color="#3333FF">albero binario</font></b>, nel caso pessimo
+(ad esempio, se la chiave cercata non esiste) dobbiamo visitare tutti i
+nodi, quindi la complessit&agrave; &egrave; lineare nel numero dei nodi.</font>
+<br>&nbsp;
+
+<p><font size=+2>In un <b><font color="#3333FF">albero binario di ricerca</font></b>,
+ad ogni passo si visita un solo sottoalbero: infatti le due chiamate ricorsive
+compaiono nel metodo in rami mutuamente esclusivi. Di conseguenza nel caso
+pessimo la ricerca ha una complessit&agrave; proporzionale alla massima profondit&agrave;
+dell'albero.
+<p>Se l'ABR &egrave bilanciato si dimostra che la sua profondit&agrave; 
+&egrave; logaritmica nel numero di nodi e quindi anche la complessit&agrave della ricerca diviene logaritmica.</font>
+
+<p><font size=+2>Ad esempio, per scoprire che 45 non &egrave; presente
+nel seguente albero, con il primo algoritmo bisogna visitare 10 nodi, con
+il secondo solo tre.</font>
+<p>
+<center><img SRC="img107.gif" BORDER=0 height=286 width=456></center>
+
+<p><font size=+2>Su di un albero ben bilanciato di 1000 nodi, il secondo
+algoritmo richiede al massimo una decina di passi.
+</font>
+</td>
+</tr>
+</table></center>
+
+<hr WIDTH="100%">
+</body>
+</html>
 
 
-</P>
 
-<TABLE WIDTH="90%">
-<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%">Dato un insieme di regole, esse possono essere utilizzate per derivare o produrre una proposizione applicando il metodo riportato qui di seguito.
-</TD><TD ROWSPAN="3" VALIGN="TOP">
-  <IMG SRC="../graphics/Alb_sint.GIF" ALT="Grammatica
-" >
-</TD>
-</TR>
-<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%"> Si parte dal simbolo non terminale proposizione, si cerca una regola avente proposizione come parte sinistra, e si sostituisce la sua parte destra al posto di proposizione. In questo modo si rimpiazza un simbolo non terminale con una delle stringhe di cui puo` essere composto.
-</TD></TR>
-<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%"> Visualizziamo questa operazione utilizzando opportuni diagrammi, detti alberi sintattici, che permettono di descrivere la struttura di un regola scomponendola nelle sue parti costituenti:
-</TD></TR>
-</TR></TABLE><TABLE WIDTH="90%">
-<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%">Si ripete il processo applicandolo ad uno dei simboli non terminali, ad esempio sintagma_nominale.
-</TD></TR>
-<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%">La derivazione e' completa quando la frontiera  dell' albero (le foglie) contiene solo simbolo terminali. 
-</TD></TR>
-<TR><TD valign="TOP"><IMG SRC="../images/bullet.png" VALIGN="TOP"></TD><TD VALIGN="TOP" WIDTH="100%">Il simbolo non terminale proposizione viene chiamato radice dell'albero, mentre i simboli terminali foglie
-Espandendo il vocabolario dei simboli terminali, e` possibile descrivere un numero maggiore di proposizioni.
-</TD></TR>
-</TABLE></UL>
-<!-- Begin Options and Navigation -->
 
-<BR><BR>
-<UL><TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="560">
-<TR><TD WIDTH=50></TD><!-- Link to Quiz Page --><TD VALIGN="CENTER" WIDTH="150"><A HREF="03lin02q.htm" accesskey="Q" onMouseOver="imgOn('img7')" onMouseOut="imgOff('img7')"><IMG SRC="../images/quizbtn0.png" NAME="img7" ALT="Quiz" BORDER="0"></A></TD>
-<!-- PREVIOUS LINK -->
-</TR></TABLE><BR>
-<TABLE WIDTH="600"><TR><TD> &nbsp;</TD><TD WIDTH="570"></TD><TD VALIGN="BOTTOM" NOWRAP><A HREF="02lin02.htm" accesskey="P"  onMouseOver="imgOn('img3')" onMouseOut="imgOff('img3')"><IMG SRC="../images/backbtn0.png" NAME="img3" ALT="Indietro" BORDER="0"></A><!-- NEXT LINK --><A HREF="04lin02.htm" onMouseOver="imgOn('img4')" accesskey="N"     onMouseOut="imgOff('img4')"><IMG SRC="../images/nextbtn0.png" NAME="img4" ALT="Avanti"  BORDER="0"></A></TD></TR>
-</TABLE>
-</BODY>
-</HTML>
+
+
+
+
+
+
+
+
+
+

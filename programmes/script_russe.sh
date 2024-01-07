@@ -29,12 +29,12 @@ echo '
                 <div id="navbar" class="navbar-menu">
                     <div class="navbar-start">
                         <a class="navbar-item" href="../index.html">
-                            <span class="icon is-small"><i class="fa-solid fa-house" aria-hidden="true"></i></span>
+                            <span class="icon is-small mr-1"><i class="fa-solid fa-house" aria-hidden="true"></i></span>
                             <span>Accueil</span>
                         </a>
                         <div class="navbar-item has-dropdown is-hoverable">
                             <a class="navbar-link">
-                                <span class="icon is-small"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
                                 <span>Tableaux</span>
                             </a>
                             <div class="navbar-dropdown">
@@ -51,7 +51,7 @@ echo '
                         </div>
                         <div class="navbar-item has-dropdown is-hoverable">
                             <a class="navbar-link">
-                                <span class="icon is-small"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
                                 <span>Analyses</span>
                             </a>
                             <div class="navbar-dropdown">
@@ -72,7 +72,7 @@ echo '
                     <div class="navbar-item">
                         <div class="buttons">
                             <a class="button is-primary" href="https://github.com/Maouee/PPE_arbre">
-                                <span class="icon is-small"><i class="fa-brands fa-github"></i></span>
+                                <span class="icon is-small mr-1"><i class="fa-brands fa-github"></i></span>
                                 <strong>Github</strong>
                             </a>
                         </div>
@@ -122,7 +122,7 @@ do
         bash contexte/${langue}.sh $langue $compteur
         contexte="contexte"
         # Récupère les occurences du mot avec contexte gauche et droit au format tsv
-        ggrep -o -i -P "(\p{Cyrillic}+\s){0,5}(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))(\s\p{Cyrillic}+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))/§\1§/g' > ../Concordances/concordances-${langue}-${compteur}.txt
+        grep -o -i -P "(\p{Cyrillic}+\s){0,5}(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))(\s\p{Cyrillic}+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))/§\1§/g' > ../Concordances/concordances-${langue}-${compteur}.txt
         bash concordancier.sh ../Concordances/concordances-${langue}-${compteur}.txt ${langue} ${compteur}
         concordancier="concordancier"
     fi

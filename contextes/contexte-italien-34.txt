@@ -1,158 +1,150 @@
-   L’Albero della Vita esiste davvero?
+   Una proposizione è una lista di simboli, ma è anche passibile di una
+   rappresentazione con una diversa struttura. A ogni proposizione è
+   associato un albero di costruzione, o albero sintattico, che è un albero
+   etichettato finito binario.
 
-    L’albero della vita è citato nelle Sacre Scritture, dalla Genesi
-    all’Apocalisse, come simbolo della vita per eccellenza. Ma esiste veramente
-    un albero così speciale?
-
-   Da sempre gli uomini attribuiscono a determinati alberi un valore
-   simbolico e religioso. Basti pensare a tutte le religioni che li hanno
-   messi al centro del proprio pantheon.
-
-   Comprendere le ragioni di questo legame profondo tra uomo a alberi non è
-   facile. Forse nasce dal fatto che, fin dalle epoche più remote, gli uomini
-   cercavano negli alberi riparo e protezione, finendo con il rivestirli del
-   ruolo di giganti protettori, saggi, amici. Sicuramente la forma stessa
-   dell’albero, il suo sviluppo verticale ha contribuito all’approfondirsi di
-   questo legame spirituale. L’albero unisce il cielo alla terra, il mondo
-   degli dei a quello degli uomini, e nel farlo si fa divinità esso stesso, e
-   come tale portatore delle risposte a tutte le domande, a tutte le
+   Un albero finito è un insieme \(X\) parzialmente ordinato, cioè con una
+   relazione binaria \(\preceq\) definita su \(X\), con le seguenti
+   proprietà:
 --
-   Divino.
+       radice.
 
-   albero-della-vita-150x100
+   L’albero si dice binario se
 
-   Leggi anche:
+     * Ogni nodo che non sia una foglia ha uno o al massimo due successori
 --
-   Molte religioni arcaiche parlano di un asse cosmico intorno al quale si
-   sarebbe formato l’intero universo, e che unisce attraversandoli cielo,
-   terra e mondo sotterraneo. Un asse che spesso ha la forma di un albero.
+       \preceq c \preceq b\), con \(c \neq a\) e \(c \neq b\).
 
-   Comunque la vogliamo interpretare, la mitologia legata agli alberi, in
-   generale, e all’albero della vita in particolare è affascinante a affonda
-   le sue radici – è il caso di dirlo… – nelle origini stesse della storia
-   umana.
+   La rappresentazione usuale di un albero binario è di questo tipo, dove la
+   radice è in alto e l’albero cresce verso il basso:
 
-   In un articolo precedente ci siamo soffermati sul significato dell’albero
-   della vita in ambito cristiano. Abbiamo esaminato come esso sia citato nei
-   testi sacri, e come la sua simbologia ricorra nella cultura ebraica e
-   successivamente in quella cristiana. Secondo la Bibbia esso sorgeva in
-   mezzo al giardino dell’Eden, accanto all’albero della conoscenza del bene
-   e del male.
-
-   albero-della-vita-2
-
-   Leggi anche:
-
-   Il significato dell’albero della vita
-   Tutte le religioni, dalle origini della storia dell’uomo, sono legate in
-   qualche modo agli alberi…
-
-   Era grazie ai suoi frutti che Adamo ed Eva erano immortali, immuni allo
-   scorrere del tempo, alla vecchiaia e alle malattie. Con il peccato
-   originale Adamo ed Eva perdono il diritto di nutrirsi dei frutti di questo
-   albero miracoloso. Anche in questa parte della storia risiede una
-   simbologia profonda: mangiando i frutti dell’albero della conoscenza del
-   bene e del male, il primo uomo e la prima donna hanno perso il diritto a
-   godere i benefici dell’albero della vita. Il loro peccato è stato
-   dettato dall’orgoglio e dall’arroganza. La conoscenza del bene e del male
-   fece loro perdere l’innocenza, li rese coscienti di tutti quei sentimenti
+   Didascalia figura: Esempio di rappresentazione di albero binario. I nodi
+   sono disposti su quattro righe. Nell prima riga si trova la radice (un
+   unico nodo). Nella seconda riga ci sono due nodi connessi con la radice.
 --
-   Chi non conosce la storia di Adamo ed Eva, il primo uomo e la prima donna?
+   Un ramo è un insieme totalmente ordinato di nodi che va dalla radice a una
+   foglia. La sua lunghezza è il numero di nodi che vi appartengono.
+   L’altezza dell’albero è la massima lunghezza dei suoi rami.
 
-   Tuttavia, nonostante la cacciata dal Paradiso terrestre, l’albero della
-   vita rimane nei testi sacri come promessa di salvezza e speranza di
-   riconciliazione con Dio, che seguita a promettere i suoi frutti in premio
---
-   svolta fondamentale per la storia spirituale dell’uomo. Ed ecco che
-   la Croce su cui Gesù muore per la salvezza di tutti diviene il nuovo
-   albero della vita, simbolo di una salvezza promessa a tutti coloro i quali
-   sapranno seguire l’esempio di Cristo.
+   Un albero si dice etichettato se ad ogni nodo è associato un elemento di
+   qualche insieme prefissato, che si chiama etichetta (label). Le etichette
+   si possono sovrapporre ed identificare con i nodi.
 
-               croce albero della vita ambiente design valgardena
-   Croce Albero della Vita Ambiente Design in legno d'acero della Valgardena,
-   finitura cerata filo oro. Finitura con cera incolore, decorato con un filo
---
-                            artigiani specializzati.
-                              Acquista su Holyart
-                   decina rosario bracciale albero della vita
-  Decina rosario con grani in legno palissandro da 10 mm con albero della vita
-                         placcato in argento pendente.
-                              Acquista su Holyart
-                            icona albero della vita
-  Icona stampata su legno e fondo oro la cui immagine raffigura l'Albero della
-   vita. Oggetto realizzato a mano, ideale come regalo o ricordo di occasioni
---
-                               un pratico gancio.
-                              Acquista su Holyart
-                     collana amen albero della vita argento
-   Collana Amen con doppia catenina e doppio ciondolo. Un ciondolo racchiude
- l'Albero della Vita rodiato e rosè, l'altro ciondolo è in argento rosè a forma
---
-                                    grammi.
-                              Acquista su Holyart
-                         albero della vita legno ulivo
-                         albero della vita legno ulivo
-Albero della vita decorazione legno ulivo 15x10x1 cm. Decorazione in elegante e
-  pregiato legno di ulivo, sagomato a formare il profilo bidimensionale di un
-                               albero della vita.
-                              Acquista su Holyart
-                          orecchini albero della vita
-Orecchini pendenti con medaglietta rappresentato l'Albero della Vita in finitura
- rosè su cerchio rodio, con angioletto a lobo impreziosito da zirconi bianchi.
---
-    
+   Costruzione dell’albero sintattico
 
-   La simbologia dell’albero rimane una costante per i credenti, e ancora
-   oggi è molto diffusa. La filosofia New age l’ha rilanciata, recuperando
-   soprattutto aspetti folklorici e mitologici, ma l’essenza della tradizione
-   cristiana continua a renderlo in simbolo molto caro e utilizzato. Per
-   esempio, la bomboniera albero della vita è molto apprezzata e utilizzata
-   soprattutto per la prima comunione e il battesimo, mentre indossare un
-   gioiello che raffigura questo particolare simbolo, come una collana albero
-   della vita o un bracciale albero della vita, è un modo per manifestare la
-   propria fede verso questo albero mistico, e tutto ciò che
-   rappresenta. Regalare un gioiello che lo raffigura è un augurio sentito
-   per una vita prospera e felice, con radici solide, rigogliosa come il
---
-   celebrare una nuova vita che ha inizio.
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
 
-Il ‘vero’ albero della vita
-
-   Ma esiste davvero un albero della vita, da qualche parte nel mondo? In
-   mezzo al deserto del Bahrain, poco lontano dal Djebel Dukhan (la Montagna
-   del Fumo) e a 40 km da Manama, sorge un albero antico. Sembra sia qui da
-   più di quattrocento anni, cresciuto in una terra brulla, desertica, priva
-   di vegetazione.
-
-   albero della vita
-                               Albero della Vita
-
-   E tuttavia esso vive e prospera, e ha superato i dieci metri di altezza,
-   tanto da meritare la fama di albero leggendario e aver reso l’oasi in cui
-   sorge uno dei luoghi più mistici al mondo. Gli abitanti della regione gli
-   hanno dato il nome di nome di Shajarat-al-Hayat, “albero della vita”, e
-   credono che l’albero sia stato piantato qui nel 1583 per indicare il luogo
-   in cui in origine si estendeva il Paradiso Terrestre. Un’affermazione
-   ardita, considerando che al giorno d’oggi la zona è completamente
---
-   remote, questa regione fosse ricca d’acqua, e vi si estendesse un’immensa
-   oasi rigogliosa e popolata da una moltitudine di animali di ogni tipo.
-   L’albero in questione è una Prosopis cineraria, un arbusto in grado di
-   sopravvivere in condizioni oltremodo ostili, grazie alle sue radici capaci
-   di scendere fino a 50 metri di profondità. Questo gli permette di trarre
 --
 
-   Ti potrebbe interessare anche...
-     * Il significato dell'albero della vitaIl significato dell'albero della
-       vita
-     * Gioielli con albero della vita: perché e quando si regalaGioielli con
-       albero della vita: perché e quando si regala
-     * Gli Articoli natalizi per riscoprire il vero valore del NataleGli
-       Articoli natalizi per riscoprire il vero valore del…
+   Questo descrive un algoritmo che, partendo dalla radice etichettata con la
+   proposizione iniziale, permette di costruire l’albero sintattico
+   applicando ripetutamente la condizione 2 ai nodi costruiti al passo
+   precedente.
 --
-     * Albero di natale artificiale o vero? Pro e controAlbero di natale
-       artificiale o vero? Pro e contro
-     * Gli alberi di Natale a spirale: l’eleganza dello stile scandinavoGli
-       alberi di Natale a spirale: l’eleganza dello stile…
+   Esempio
 
-     ----------------------------------------------------------------------
+   L’albero sintattico di \(( ( ( \mathrm{A} ) \wedge ( \neg ( \mathrm{B} ) )
+   ) \rightarrow ( \neg ( \mathrm{A} ) ) )\) è il seguente:
+
+--
+   \neg ( \mathrm {B} ) ) ) \rightarrow ( \neg ( \mathrm {A} ) ) ) \)
+
+   L’albero è completo perchè tutte le sue foglie sono etichettate con
+   proposizioni atomiche (quindi l’algoritmo termina).
+
+     * Le etichette dei nodi dell’albero di costruzione di una proposizione
+       sono le sue sottoproposizioni.
+
+--
+       sono le lettere che occorrono nella proposizione.
+
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
+
+--
+
+   Le parentesi sono essenziali per individuare il connettivo principale di
+   una proposizione, e quindi per costruire il suo albero sintattico.
+
+   Contatore di parentesi Consideriamo la stringa \[(((\neg ( \mathrm{A} ))
+--
+
+   Le parentesi sono essenziali per individuare il connettivo principale di
+   una proposizione, e quindi per costruire il suo albero sintattico.
+
+   Come si individua il connettivo principale? Sia \(P\) una proposizione non
+--
+       )))\)
+
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
+
+--
+   Se invece questo non accade mai, dopo un certo numero di passi tutti i
+   nodi privi di successori saranno etichettati con proposizioni atomiche:
+   l’algoritmo quindi termina e quello costruito è l’albero sintattico di
+   \(\mathrm{P}\).
+
+   Dunque l’algoritmo per la costruzione dell’albero sintattico permette di
+
+     * determinare se la stringa \(\mathrm{P}\) che viene data come input è
+--
+       \(\mathrm{P}\).
+
+   Inoltre, l’albero sintattico permette anche di determinare l’altezza della
+   proposizione \(\mathrm{P}\): infatti, si dimostra facilmente per induzione
+   strutturale che \(ht(\mathrm{P})\) coincide con l’altezza del suo albero
+   di costruzione diminuita di una unità, ovvero con la massima lunghezza di
+   un cammino che congiunga la radice a un nodo terminale.
+--
+   Sia \(\mathrm{P}\) la proposizione \(( ( ( \mathrm{A} ) \wedge ( \neg (
+   \mathrm{B} ) ) ) \rightarrow ( \neg ( \mathrm{A} ) ) )\). Abbiamo visto
+   che il suo albero sintattico è il seguente:
+
+   Didascalia figura: Albero sintattico della proposizione \( ( ( ( \mathrm
+--
+   ) ) \)
+
+   Siccome l’altezza dell’albero è \(4\), l’altezza della proposizione
+   \(ht(\mathrm{P})\) è \(4-1\), ovvero \(3\).
+
+   Esercizio Verificare quali delle seguenti stringhe sono proposizioni e
+   quali no, costruendone l’albero sintattico e spiegando dove eventualmente
+   la costruzione fallisce e per quale ragione:
+
+--
+       (\neg ( \mathrm{C} ) ) ) ) ) )\)
+
+   L’albero sintattico si può costruire direttamente anche per le espressioni
+   in cui sono state omesse le parentesi seguendo le convenzioni stabilite.
+
+--
+   Esempio
+
+   L’albero sintattico di \(\mathrm{A} \wedge \neg \mathrm{B} \rightarrow
+   \neg \mathrm{A}\) è il seguente, essendo \(\rightarrow\) il connettivo
+   principale:
+--
+   \mathrm{B} \rightarrow \neg \mathrm{A}\)
+
+   L’albero sintattico può essere ulteriormente semplificato etichettando le
+   foglie con le formule atomiche, e tutti gli altri nodi con il solo
+   connettivo che serve per costruire la (sotto)proposizione corrispondente a
+--
+   Esempio
+
+   L’albero sintattico di \((\mathrm{A} \wedge \neg \mathrm{B}) \vee \neg
+   \mathrm{A}\)
+
+--
+       \mathrm{B}\)
+
+   Costruire l’albero sintattico delle seguenti formule (in cui sono state
+   omesse alcune parentesi secondo le convenzioni adottate).
+
+--
+       \mathrm{D})]\)
+
+   Calcolare anche l’altezza di ciascun albero e l’altezza della formula a
+   cui è associato.

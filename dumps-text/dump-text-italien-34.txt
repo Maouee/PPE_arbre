@@ -1,272 +1,592 @@
-   Link: canonical
-   Link: shortlink
-   Skip to content
-   Holyart Premium Holyart Premium Holyblog
+                                    Sintassi
+                   4.1 – Sintassi della logica proposizionale
 
-   Il Blog di Holyart.it
+     * Proposizioni
+          * Proposizioni atomiche e connettivi principali
+          * Misure di complessità
+          * Esempi
+     * Albero sintattico di una proposizione
+     * Convenzioni sulle parentesi
 
-   Toggle Navigation
-     * Holyart.it
-     * Liturgia
-     * Santi e beati
-     * Religione
-     * Monasteri e Confraternite
-     * Occasioni speciali
-     * Natale
-     * _____________________
+                                  Proposizioni
 
-   Homepage | Religione | L’Albero della Vita esiste davvero?
+   Sintassi Fissiamo un insieme \(L\) non vuoto i cui elementi si dicono
+   lettere proposizionali. Le lettere proposizionali sono indicate dalle
+   prime lettere dell’alfabeto \(\mathrm{A} , \mathrm{B} , \mathrm{C} ,
+   \dots\) (eventualmente con pedici e apici, come \(\mathrm{A}_{0},
+   \mathrm{A}_{1}, \dotsc\) o \(\mathrm{A}' , \mathrm{A}'', \dotsc\)).
+   L’insieme \(Prop ( L )\) delle proposizioni (o formule proposizionali) su
+   \(L\) è un sottoinsieme di \[( L \cup \left \{ {(}, {)} , {\neg} , {\vee}
+   , {\wedge} , {\to} , {\leftrightarrow} \right \} ) ^* ,\] l’insieme di
+   tutte le stringhe finite di simboli che sono elementi di \(L\) oppure
+   connettivi o parentesi. \(Prop ( L )\) è definito dalle clausole
 
-                      L’Albero della Vita esiste davvero?
+     * Se \(\mathrm{A} \in L\) allora \(( \mathrm{A} ) \in Prop ( L )\).
 
-   19 Febbraio 2020
-   Tempo di lettura: 5 minuti
-   FacebookLinkedInTwitter
-   L’Albero della Vita esiste davvero?
+     * Se \(\mathrm{P} \in Prop ( L )\) allora \(( \neg \mathrm{P} ) \in Prop
+       ( L )\).
 
-    L’albero della vita è citato nelle Sacre Scritture, dalla Genesi
-    all’Apocalisse, come simbolo della vita per eccellenza. Ma esiste veramente
-    un albero così speciale?
+     * Se \(\Box\) è un connettivo binario (ovvero \(\Box \in \left \{ {\vee}
+       , {\wedge} , {\to} , {\leftrightarrow} \right \}\)), e se \(\mathrm{P}
+       , \mathrm{Q} \in Prop ( L )\) allora \(( \mathrm{P} \mathrel{\Box}
+       \mathrm{Q} ) \in Prop ( L )\).
 
-   Da sempre gli uomini attribuiscono a determinati alberi un valore
-   simbolico e religioso. Basti pensare a tutte le religioni che li hanno
-   messi al centro del proprio pantheon.
+   Le clausole della definizione sono anche regole di costruzione: s’intende
+   che ogni proposizione si ottiene applicando un numero finito di volte le
+   clausole della definizione.
 
-   Comprendere le ragioni di questo legame profondo tra uomo a alberi non è
-   facile. Forse nasce dal fatto che, fin dalle epoche più remote, gli uomini
-   cercavano negli alberi riparo e protezione, finendo con il rivestirli del
-   ruolo di giganti protettori, saggi, amici. Sicuramente la forma stessa
-   dell’albero, il suo sviluppo verticale ha contribuito all’approfondirsi di
-   questo legame spirituale. L’albero unisce il cielo alla terra, il mondo
-   degli dei a quello degli uomini, e nel farlo si fa divinità esso stesso, e
-   come tale portatore delle risposte a tutte le domande, a tutte le
-   contraddizioni che dominano la vita degli uomini da sempre: il Bene e il
-   Male, la Vita e la Morte, la Conoscenza, la Trasmutazione, l’Umano e il
-   Divino.
+   Formalmente
 
-   albero-della-vita-150x100
+   Definizione Per \(n \in \mathbb{N}\) definiamo \(Prop_{n}( L )\) un
+   sottoinsieme di \(( L \cup \left \{{(}, {)} , {\neg} , {\vee} , {\wedge} ,
+   {\to} , {\leftrightarrow} \right \} ) ^*\) per ricorsione mediante le
+   clausole
 
-   Leggi anche:
+   \[Prop_{0} ( L )\] \[=\] \[\left \{ ( \mathrm{A} ) \boldsymbol\mid         
+                            \mathrm{A }\in L \right\}\]                       
+                            \[Prop_{n} ( L ) \cup \left \{( \neg \mathrm{P} ) 
+                            \boldsymbol\mid \mathrm{P} \in Prop_{n} ( L )     
+   \[Prop_{n + 1} ( L       \right\} \cup \left \{( \mathrm{P} \mathrel{\Box} 
+   )\]                \[=\] \mathrm{Q} ) \boldsymbol\mid \mathrm{P} ,         
+                            \mathrm{Q} \in Prop_{n} ( L ) , \; \Box \in \left 
+                            \{ {\vee} , {\wedge} , {\to} , {\leftrightarrow}  
+                            \right \} \right\}\]                              
 
-   Il giardino dell’Eden nella Genesi
-   Il giardino dell’Eden rappresenta il primo, immenso dono che Dio fece
-   all’uomo e alla donna…
+   Quindi \(Prop_{0} ( L ) \subseteq Prop_{1} ( L ) \subseteq \dotsc\) e
+   \[Prop ( L ) = \bigcup_{n \in \mathbb{N}} Prop_{n} ( L )\]
 
-   Molte religioni arcaiche parlano di un asse cosmico intorno al quale si
-   sarebbe formato l’intero universo, e che unisce attraversandoli cielo,
-   terra e mondo sotterraneo. Un asse che spesso ha la forma di un albero.
+   Le lettere \(\mathrm{P}, \mathrm{Q} , \mathrm{R} , \dots\) (eventualmente
+   con pedici e apici) variano su elementi di \(Prop ( L )\).
 
-   Comunque la vogliamo interpretare, la mitologia legata agli alberi, in
-   generale, e all’albero della vita in particolare è affascinante a affonda
-   le sue radici – è il caso di dirlo… – nelle origini stesse della storia
-   umana.
+Proposizioni atomiche e connettivi principali
 
-   In un articolo precedente ci siamo soffermati sul significato dell’albero
-   della vita in ambito cristiano. Abbiamo esaminato come esso sia citato nei
-   testi sacri, e come la sua simbologia ricorra nella cultura ebraica e
-   successivamente in quella cristiana. Secondo la Bibbia esso sorgeva in
-   mezzo al giardino dell’Eden, accanto all’albero della conoscenza del bene
-   e del male.
+   Le proposizioni della forma \(( \mathrm{A} )\) (per qualche \(A \in L\))
+   si dicono proposizioni atomiche.
 
-   albero-della-vita-2
+   Se una proposizione è invece della forma \((\neg \mathrm{P} )\) o della
+   forma \(( \mathrm{P} \mathrel{\Box} \mathrm{Q} )\), \(\neg\) e \(\Box\)
+   sono rispettivamente il suo connettivo principale, e \(\mathrm{P}\) e
+   \(\mathrm{Q}\) le sottoproposizioni immediate.
 
-   Leggi anche:
+   Una proposizione non atomica \(\mathrm{P}\) viene detta negazione,
+   congiunzione, disgiunzione, implicazione oppure bi-implicazione quando il
+   suo connettivo principale è \(\neg\), \(\wedge\), \(\vee\),
+   \(\rightarrow\) o \(\leftrightarrow\), rispettivamente.
 
-   Il significato dell’albero della vita
-   Tutte le religioni, dalle origini della storia dell’uomo, sono legate in
-   qualche modo agli alberi…
+Misure di complessità
 
-   Era grazie ai suoi frutti che Adamo ed Eva erano immortali, immuni allo
-   scorrere del tempo, alla vecchiaia e alle malattie. Con il peccato
-   originale Adamo ed Eva perdono il diritto di nutrirsi dei frutti di questo
-   albero miracoloso. Anche in questa parte della storia risiede una
-   simbologia profonda: mangiando i frutti dell’albero della conoscenza del
-   bene e del male, il primo uomo e la prima donna hanno perso il diritto a
-   godere i benefici dell’albero della vita. Il loro peccato è stato
-   dettato dall’orgoglio e dall’arroganza. La conoscenza del bene e del male
-   fece loro perdere l’innocenza, li rese coscienti di tutti quei sentimenti
-   e desideri che prima non provavano, per il semplice fatto che nel Paradiso
-   Terrestre avevano tutto ciò di cui necessitavano per essere felici,
-   completi. L’uomo non era pronto per far fronte a quei sentimenti, a quelle
-   emozioni, a quei bisogni: odio, menzogna, vergogna, invidia, ricatto,
-   guerra.
+   La lunghezza di una proposizione \(\mathrm{P}\) è la lunghezza di
+   \(\mathrm{P}\) vista come stringa, \[lh \colon ( L \cup \left \{ {(}, {)}
+   , {\neg} , {\vee} , {\wedge} , {\to} , {\leftrightarrow} \right \} ) ^*
+   \to \mathbb{N}\] mentre l’altezza di una proposizione \(ht ( \mathrm{P}
+   )\) è definita da \[ht \colon Prop ( L ) \to \mathbb{N}, \qquad ht (
+   \mathrm{P} ) = \min \left \{n \in \mathbb{N} \boldsymbol\mid \mathrm{P}
+   \in Prop_{n} ( L ) \right\} ,\] Per esempio se \(\mathrm{P} = ( \mathrm{A}
+   )\), allora \(lh ( \mathrm{P} ) = 3\) e \(ht ( \mathrm{P} ) = 0\), mentre
+   se \(\mathrm{P} = ((\neg(\mathrm{A})) \wedge ((\mathrm{B})\to
+   (\neg(\mathrm{A}))))\), allora \(lh (\mathrm{P} ) = 21\) e \(ht (
+   \mathrm{P} ) = 3\).
 
-   storia-adamo-ed-eva
+   La lunghezza e l’altezza di una proposizione si dicono misure di
+   complessità e ci permettono di dimostrare fatti sulle proposizioni per
+   induzione strutturale sull’insieme di stringhe \(( L \cup \left \{ {(},
+   {)} , {\neg} , {\vee} , {\wedge} , {\to} , {\leftrightarrow} \right \} )
+   ^*\) (usando \(lh\)) oppure sull’insieme \(Prop(L)\) delle proposizioni
+   (usando \(ht\)).
 
-   Leggi anche:
+   Per ogni \(\mathrm{P} \in Prop ( L )\)
 
-   La storia di Adamo ed Eva
-   Chi non conosce la storia di Adamo ed Eva, il primo uomo e la prima donna?
+     * \(\mathrm{P}\) inizia con una parentesi sinistra “\((\)”, termina con
+       una parentesi destra “\()\)”,
 
-   Tuttavia, nonostante la cacciata dal Paradiso terrestre, l’albero della
-   vita rimane nei testi sacri come promessa di salvezza e speranza di
-   riconciliazione con Dio, che seguita a promettere i suoi frutti in premio
-   a chi saprà seguire la retta via. L’avvento di Cristo, il nuovo Adamo, il
-   Figlio che, anziché sfidare per orgoglio la volontà del Padre, si
-   sottomette ad essa fino alle estreme conseguenze, rappresenta un punto di
-   svolta fondamentale per la storia spirituale dell’uomo. Ed ecco che
-   la Croce su cui Gesù muore per la salvezza di tutti diviene il nuovo
-   albero della vita, simbolo di una salvezza promessa a tutti coloro i quali
-   sapranno seguire l’esempio di Cristo.
+     * ogni parentesi sinistra ha una sua parentesi di chiusura destra,
 
-               croce albero della vita ambiente design valgardena
-   Croce Albero della Vita Ambiente Design in legno d'acero della Valgardena,
-   finitura cerata filo oro. Finitura con cera incolore, decorato con un filo
-dipinto. Scultura in legno d'acero dipinto, realizzata manualmente da artigiani
-della Valgardena, secondo la migliore tradizione artistica locale. Gli artigiani
-e gli artisti scolpiscono il legno dei boschi alpini e lo dipingono con maestria
-in ogni minimo particolare. E' realizzato in legno d'acero della Valgardena, da
-                            artigiani specializzati.
-                              Acquista su Holyart
-                   decina rosario bracciale albero della vita
-  Decina rosario con grani in legno palissandro da 10 mm con albero della vita
-                         placcato in argento pendente.
-                              Acquista su Holyart
-                            icona albero della vita
-  Icona stampata su legno e fondo oro la cui immagine raffigura l'Albero della
-   vita. Oggetto realizzato a mano, ideale come regalo o ricordo di occasioni
-speciali e sacramenti. L'icona si può comodamente appendere alla parete grazie a
-                               un pratico gancio.
-                              Acquista su Holyart
-                     collana amen albero della vita argento
-   Collana Amen con doppia catenina e doppio ciondolo. Un ciondolo racchiude
- l'Albero della Vita rodiato e rosè, l'altro ciondolo è in argento rosè a forma
- di angioletto ricoperto di zirconi bianchi. La collana ha circonferenza 80 cm,
-chiusura con moschettone e catenella regolabile per 4 cm. Peso del gioiello: 10
-                                    grammi.
-                              Acquista su Holyart
-                         albero della vita legno ulivo
-                         albero della vita legno ulivo
-Albero della vita decorazione legno ulivo 15x10x1 cm. Decorazione in elegante e
-  pregiato legno di ulivo, sagomato a formare il profilo bidimensionale di un
-                               albero della vita.
-                              Acquista su Holyart
-                          orecchini albero della vita
-Orecchini pendenti con medaglietta rappresentato l'Albero della Vita in finitura
- rosè su cerchio rodio, con angioletto a lobo impreziosito da zirconi bianchi.
-   Orecchini interamente in argento 925 finitura rosè e rodio con chiusura a
-     farfalla. Orecchini di diametro 12 mm, realizzati in Italia da azienda
-      specializzata con qualità garantita. Peso del gioiello: 4,24 grammi.
-                              Acquista su Holyart
-    
+     * \(lh ( \mathrm{P} )\) è divisibile per \(3\).
 
-   La simbologia dell’albero rimane una costante per i credenti, e ancora
-   oggi è molto diffusa. La filosofia New age l’ha rilanciata, recuperando
-   soprattutto aspetti folklorici e mitologici, ma l’essenza della tradizione
-   cristiana continua a renderlo in simbolo molto caro e utilizzato. Per
-   esempio, la bomboniera albero della vita è molto apprezzata e utilizzata
-   soprattutto per la prima comunione e il battesimo, mentre indossare un
-   gioiello che raffigura questo particolare simbolo, come una collana albero
-   della vita o un bracciale albero della vita, è un modo per manifestare la
-   propria fede verso questo albero mistico, e tutto ciò che
-   rappresenta. Regalare un gioiello che lo raffigura è un augurio sentito
-   per una vita prospera e felice, con radici solide, rigogliosa come il
-   fogliame, intensa e ricca di buoni frutti. Per le donne diventa anche un
-   simbolo di fecondità. Donato a un bambino appena nato è un modo per
-   celebrare una nuova vita che ha inizio.
+   Dimostrazione. (Per induzione strutturale sull’altezza di \(\mathrm{P}\))
+   Se \(\mathrm{P} \in Prop_{0} ( L )\) (ossia \(ht(\mathrm{P})=0\)), allora
+   \(\mathrm{P} = ( \mathrm{A} )\) per qualche \(\mathrm{A} \in L\) e il
+   risultato segue immediatamente.
 
-Il ‘vero’ albero della vita
+   Supponiamo ora che il risultato valga per ogni proposizione in \(Prop_{n}
+   ( L )\) (ossia ogni \(\mathrm{P}\) tale che \(ht(\mathrm{P})=n\)) e
+   dimostriamo che allora vale anche per ogni proposizione in \(Prop_{n + 1}
+   ( L )\) (ossia ogni \(\mathrm{P}\) tale che \(ht(\mathrm{P})=n+1\)).
+   Fissiamo dunque una generica \(\mathrm{P} \in Prop_{n + 1} ( L )\).
 
-   Ma esiste davvero un albero della vita, da qualche parte nel mondo? In
-   mezzo al deserto del Bahrain, poco lontano dal Djebel Dukhan (la Montagna
-   del Fumo) e a 40 km da Manama, sorge un albero antico. Sembra sia qui da
-   più di quattrocento anni, cresciuto in una terra brulla, desertica, priva
-   di vegetazione.
+     * Se \(\mathrm{P} \in Prop_{n} ( L )\) il risultato segue immediatamente
+       dall’ipotesi induttiva.
 
-   albero della vita
-                               Albero della Vita
+     * Se \(\mathrm{P} = ( \mathrm{Q} \mathrel{\Box} \mathrm{R} )\) con
+       \(\mathrm{Q} , \mathrm{R} \in Prop_{n} ( L )\), allora chiaramente
+       \(\mathrm{P}\) inizia con una parentesi sinistra “\(\; (\)” e termina
+       con una parentesi destra “\(\; )\)”. Inoltre, per ipotesi induttiva
+       ogni parentesi sinistra che compare in \(\mathrm{Q}\) ha la sua
+       parentesi di chiusura destra in \(\mathrm{Q}\) stesso, e la stessa
+       cosa vale per \(\mathrm{R}\); poichè l’unica parentesi sinistra di
+       \(\mathrm{P}\) che compare fuori da \(\mathrm{Q}\) e \(\mathrm{R}\) è
+       quella iniziale, la cui parentesi destra di chiusura è la parentesi
+       finale, si ha che il medesimo risultato vale per \(P\). Infine, se
+       \(lh ( \mathrm{Q} ) = 3i\) e \(lh ( R ) = 3j\), allora \(lh (
+       \mathrm{P} ) = 1 + 3i + 1 + 3j + 1 = 3 ( i + j + 1 )\).
 
-   E tuttavia esso vive e prospera, e ha superato i dieci metri di altezza,
-   tanto da meritare la fama di albero leggendario e aver reso l’oasi in cui
-   sorge uno dei luoghi più mistici al mondo. Gli abitanti della regione gli
-   hanno dato il nome di nome di Shajarat-al-Hayat, “albero della vita”, e
-   credono che l’albero sia stato piantato qui nel 1583 per indicare il luogo
-   in cui in origine si estendeva il Paradiso Terrestre. Un’affermazione
-   ardita, considerando che al giorno d’oggi la zona è completamente
-   desertica! Ma alcuni rilevamenti avrebbero dimostrato che, in epoche
-   remote, questa regione fosse ricca d’acqua, e vi si estendesse un’immensa
-   oasi rigogliosa e popolata da una moltitudine di animali di ogni tipo.
-   L’albero in questione è una Prosopis cineraria, un arbusto in grado di
-   sopravvivere in condizioni oltremodo ostili, grazie alle sue radici capaci
-   di scendere fino a 50 metri di profondità. Questo gli permette di trarre
-   il suo nutrimento anche dal terreno arido e brullo. Con la sua resina si
-   producono gomma, candele e profumi. Viene visitato da più di 50.000
-   turisti ogni anno, tanto che è stato necessario proteggerlo con un recinto
-   di ferro per evitare che venisse danneggiato da qualche vandalo. Infatti
-   molti visitatori avevano preso la brutta abitudine di strappare foglie e
-   rametti per portarseli via come portafortuna o souvenir, o si divertivano
-   a lasciare il proprio messaggio inciso nel suo tronco secolare. Per
-   ora Shajarat-al-Hayat sembra godere di ottima salute, con ampi rami
-   aggrovigliati, foglie cangianti che vanno dal verde al marrone in
-   sfumature splendide e vivide, un tronco maestoso. È così da oltre
-   quattrocento anni, e ci auguriamo che possa continuare a stare bene ancora
-   molto a lungo.
+     * Se \(\mathrm{P} = ( \neg \mathrm{Q} )\) con \(\mathrm{Q} \in Prop_{n}
+       ( L )\), allora chiaramente \(\mathrm{P}\) inizia con una parentesi
+       sinistra “\(\; (\)” e termina con una parentesi destra “\(\; )\)”. Per
+       ipotesi induttiva, ogni parentesi sinistra che compare in
+       \(\mathrm{Q}\) ha la sua parentesi destra di chiusura in
+       \(\mathrm{Q}\) stesso; poichè l’unica parentesi sinistra di
+       \(\mathrm{P}\) che compare fuori da \(\mathrm{Q}\) è quella iniziale,
+       la cui parentesi destra di chiusura è la parentesi finale, si ha che
+       il medesimo risultato vale per \(P\). Infine, se \(lh ( \mathrm{Q} ) =
+       3i\), allora \(lh ( \mathrm{P} ) = 1 + 1 + 3i + 1 = 3 ( i + 1 )\).
 
-     ----------------------------------------------------------------------
+Esempi
 
-   Ti potrebbe interessare anche...
-     * Il significato dell'albero della vitaIl significato dell'albero della
-       vita
-     * Gioielli con albero della vita: perché e quando si regalaGioielli con
-       albero della vita: perché e quando si regala
-     * Gli Articoli natalizi per riscoprire il vero valore del NataleGli
-       Articoli natalizi per riscoprire il vero valore del…
-     * Il giardino dell'Eden nella GenesiIl giardino dell'Eden nella Genesi
-     * 5 Alberi di Natale strani5 Alberi di Natale strani
-     * I figli di Adamo ed Eva: da Caino e Abele fino all'intero genere
-       umanoI figli di Adamo ed Eva: da Caino e Abele fino all'intero…
-     * I colori del Natale: rosso, verde, bianco, oro e argentoI colori del
-       Natale: rosso, verde, bianco, oro e argento
-     * Albero di natale artificiale o vero? Pro e controAlbero di natale
-       artificiale o vero? Pro e contro
-     * Gli alberi di Natale a spirale: l’eleganza dello stile scandinavoGli
-       alberi di Natale a spirale: l’eleganza dello stile…
+   Siano \(\mathrm{A} , \mathrm{B} \in L\).
 
-     ----------------------------------------------------------------------
+    1. \(\mathrm{A} \wedge \mathrm{B}\) è una proposizione? No, perchè ogni
+       proposizione contiene almeno una parentesi.
 
-   Santissima Trinità: significato e rappresentazione iconografica
-   Che cos’è il martedì grasso
-                             Statue in Vetroresina
+    2. \() \mathrm{A} (\) è una proposizione? No, come non lo sono
+       \(\mathrm{A}\) o \() \mathrm{A} )\), perchè ogni proposizione inizia
+       con una parentesi \((\) e termina con una parentesi \()\).
 
-                                Bomboniere sacre
+    3. \(( ( \mathrm{A} ) \to ( \mathrm{B} ) )\) è una proposizione? Sì,
+       perchè ottenuta dalle \(( \mathrm{A} )\) e \(( \mathrm{B} )\) con una
+       applicazione della clausola induttiva relativa a \(\rightarrow\).
 
-                               Camicie Clergyman
+    4. \(( \neg ( ( \mathrm{A} ) \to ( \mathrm{B} ) ) )\) è una proposizione?
+       Sì, perchè ottenuta da \(( \mathrm{A} )\) e \(( \mathrm{B} )\) con una
+       prima applicazione della clausola induttiva relativa a \(\rightarrow\)
+       e una seconda applicazione della clausola relativa a \(\neg\).
 
-                                   Crocefissi
+    5. \(( ( \mathrm{A} )\) è una proposizione? No, perchè c’è una parentesi
+       sinistra che non ha la sua parentesi destra di chiusura.
 
-                               Ostie e Particole
+    6. \(( \mathrm{A} \mathrm{B} )\) è una proposizione? No, perchè non è
+       atomica e non contiene nessun connettivo.
 
-                                Rimedi Naturali
+                     Albero sintattico di una proposizione
 
-                             Statue in Vetroresina
+   Una proposizione è una lista di simboli, ma è anche passibile di una
+   rappresentazione con una diversa struttura. A ogni proposizione è
+   associato un albero di costruzione, o albero sintattico, che è un albero
+   etichettato finito binario.
 
-                                Bomboniere sacre
+   Un albero finito è un insieme \(X\) parzialmente ordinato, cioè con una
+   relazione binaria \(\preceq\) definita su \(X\), con le seguenti
+   proprietà:
 
-                               Camicie Clergyman
+     * \(\preceq\) è una relazione di ordine su \(X\) tale che per ogni \(x
+       \in X\) l’insieme \(\left \{y \in X \boldsymbol\mid y \preceq x
+       \right\}\) dei predecessori di \(x\) è finito e linearmente ordinato
+       da \(\preceq\). Gli elementi di \(X\) vengono detti nodi. Se \(x
+       \preceq y\), si dice che \(y\) è un successore, o un discendente di
+       \(x\). I nodi \(a\) tali che non esiste \(b \neq a\) per cui \(a
+       \preceq b\) si chiamano foglie.
 
-                                   Crocefissi
+     * Esiste un nodo minimo rispetto a \(\preceq\), ovvero un nodo \(r\)
+       tale che \(r \preceq x\) per ogni nodo di \(X\). Tale nodo si chiama
+       radice.
 
-                               Ostie e Particole
+   L’albero si dice binario se
 
-                                Rimedi Naturali
+     * Ogni nodo che non sia una foglia ha uno o al massimo due successori
+       immediati, dove si dice che \(b\) è un successore immediato di \(a\)
+       se \(a \preceq b\), \(a \neq b\) e non esiste un \(c\) tale che \(a
+       \preceq c \preceq b\), con \(c \neq a\) e \(c \neq b\).
 
-     ----------------------------------------------------------------------
+   La rappresentazione usuale di un albero binario è di questo tipo, dove la
+   radice è in alto e l’albero cresce verso il basso:
 
-   Copyright © 2023 Holyart - articoli Religiosi
-   ×
+   Didascalia figura: Esempio di rappresentazione di albero binario. I nodi
+   sono disposti su quattro righe. Nell prima riga si trova la radice (un
+   unico nodo). Nella seconda riga ci sono due nodi connessi con la radice.
+   Nella terza riga ci sono tre nodi: due nodi connessi con il nodo di
+   sinistra della riga precedente, un nodo connesso con il nodo di destra
+   della riga precedente. Nella quarta riga c’è un solo nodo connesso con il
+   secondo nodo della riga precedente.
 
-Entra nel mondo Holyart: buono sconto €20 valido su oltre 60.000 articoli
+   Un ramo è un insieme totalmente ordinato di nodi che va dalla radice a una
+   foglia. La sua lunghezza è il numero di nodi che vi appartengono.
+   L’altezza dell’albero è la massima lunghezza dei suoi rami.
 
-   Vieni a scoprire Holyart, l'e-commerce di articoli religiosi più grande
-   d'Europa e utilizza subito il buono da 20€ che ti abbiamo riservato per il
-   primo acquisto.
+   Un albero si dice etichettato se ad ogni nodo è associato un elemento di
+   qualche insieme prefissato, che si chiama etichetta (label). Le etichette
+   si possono sovrapporre ed identificare con i nodi.
 
-   Nome* _____________________
-   Email* _____________________
-   [ ] Ho preso visione e accetto le condizioni d'uso e l'informativa sulla
-   privacy fornita ai sensi dell'art 13 DL 196/2003*
-   Ricevi lo Sconto
+   Costruzione dell’albero sintattico
 
-Controlla la tua casella mail: riceverai il tuo sconto entro 5 minuti
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
 
-   Scopri ora Holyart Torna all'articolo
+    1. la radice è (etichettata con) la proposizione data;
+
+    2. ogni nodo ha nessuno, uno o due successori immediati a seconda che la
+       proposizione etichetta del nodo sia atomica, della forma \(( \neg
+       \mathrm{Q} )\) (ovvero il suo connettivo principale è \(\neg\)), o
+       della forma \(( \mathrm{Q} \mathrel{\Box} \mathrm{R} )\) (ovvero il
+       suo connettivo principale è un connettivo binario \(\Box\)),
+       rispettivamente. Nel secondo caso il successore è etichettato con
+       \(\mathrm{Q}\), nel terzo caso i due successori sono etichettati
+       rispettivamente con \(\mathrm{Q}\) e con \(\mathrm{R}\).
+
+   Questo descrive un algoritmo che, partendo dalla radice etichettata con la
+   proposizione iniziale, permette di costruire l’albero sintattico
+   applicando ripetutamente la condizione 2 ai nodi costruiti al passo
+   precedente.
+
+   Esempio
+
+   L’albero sintattico di \(( ( ( \mathrm{A} ) \wedge ( \neg ( \mathrm{B} ) )
+   ) \rightarrow ( \neg ( \mathrm{A} ) ) )\) è il seguente:
+
+   Didascalia figura: Albero sintattico di \( ( ( ( \mathrm {A} ) \wedge (
+   \neg ( \mathrm {B} ) ) ) \rightarrow ( \neg ( \mathrm {A} ) ) ) \)
+
+   L’albero è completo perchè tutte le sue foglie sono etichettate con
+   proposizioni atomiche (quindi l’algoritmo termina).
+
+     * Le etichette dei nodi dell’albero di costruzione di una proposizione
+       sono le sue sottoproposizioni.
+
+     * Si dice che un simbolo occorre in una proposizione se è un elemento
+       della stringa (che è la proposizione). Le occorrenze di un simbolo in
+       una proposizione sono i vari posti della stringa in cui il simbolo si
+       presenta, e il numero di occorrenze di un simbolo è il numero di volte
+       che compare nella stringa.
+
+     * Le lettere che compaiono nelle (proposizioni atomiche nelle) foglie
+       sono le lettere che occorrono nella proposizione.
+
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
+
+    1. la radice è (etichettata con) la proposizione data;
+
+    2. ogni nodo ha nessuno, uno o due successori immediati a seconda che la
+       proposizione etichetta del nodo sia atomica, della forma \(( \neg
+       \mathrm{Q} )\) (ovvero il suo connettivo principale è \(\neg\)), o
+       della forma \(( \mathrm{Q} \mathrel{\Box} \mathrm{R} )\) (ovvero il
+       suo connettivo principale è un connettivo binario \(\Box\)),
+       rispettivamente. Nel secondo caso il successore è etichettato con
+       \(\mathrm{Q}\), nel terzo caso i due successori sono etichettati
+       rispettivamente con \(\mathrm{Q}\) e con \(\mathrm{R}\).
+
+   Per eseguire lo step 2 è necessario avere un metodo (= algoritmo) che
+   permetta di determinare, se esiste, qual è il connettivo principale della
+   proposizione nell’etichetta del nodo in esame: ad esempio, come si fa a
+   determinare il connettivo principale della proposizione seguente?
+   \[(((\neg(((\mathrm{A})\to (\mathrm{B})) \vee (\mathrm{C}))) \to
+   ((\mathrm{A}) \wedge ((\mathrm{B}) \to (\mathrm{C})))) \wedge
+   (\neg((\mathrm{A}) \leftrightarrow ((\mathrm{A}) \vee (\mathrm{B})))))\]
+
+   Le parentesi sono essenziali per individuare il connettivo principale di
+   una proposizione, e quindi per costruire il suo albero sintattico.
+
+   Contatore di parentesi Consideriamo la stringa \[(((\neg ( \mathrm{A} ))
+   \to (\mathrm{B})) \wedge (\neg(\mathrm{B})))\] e supponiamo di voler
+   trovare la parentesi che chiude la parentesi sinistra evidenziata in
+   azzurro. Possiamo allora utilizzare un contatore che scorre la lista da
+   sinistra verso destra partendo dalla parentesi cui siamo interessati, e
+   scatta di \(+1\) quando incontra una parentesi sinistra, di \(-1\) quando
+   incontra una parentesi destra. La prima parentesi su cui il contatore
+   torna a \(0\) è proprio la parentesi di chiusura cercata. Nel nostro
+   esempio:
+
+   Contatore: 0/1/2/3
+
+   Le parentesi sono essenziali per individuare il connettivo principale di
+   una proposizione, e quindi per costruire il suo albero sintattico.
+
+   Come si individua il connettivo principale? Sia \(P\) una proposizione non
+   atomica. Il primo simbolo di \(P\) sarà sempre (, mentre il secondo
+   simbolo sarà o \(\neg\) oppure un’altra parentesi (.
+
+     * Nel primo caso il connettivo principale è proprio \(\neg\) e ciò che
+       lo segue esclusa l’ultima parentesi ) è la sua sottoproposizione
+       principale.
+
+       Esempio: \(( \neg ( \neg (\mathrm{A}) \to (\mathrm{B})))\).
+
+     * Nel secondo caso, occorre trovare innanzitutto la parentesi che chiude
+       quella che si trova al secondo posto: il simbolo che lo segue è il
+       connettivo principale e le due sottoproposizioni principali sono tutto
+       ciò che precede e segue tale connettivo escluse le parentesi iniziali
+       e finali.
+
+       Esempio: \(((( \mathrm{B}) \to ( \mathrm{A})) \vee ( \neg ( \mathrm{B}
+       )))\)
+
+   Algoritmo per costruire l’albero sintattico L’albero sintattico di una
+   proposizione \(\mathrm{P}\) è definito in questo modo:
+
+    1. la radice è (etichettata con) la proposizione data;
+
+    2. ogni nodo ha nessuno, uno o due successori immediati a seconda che la
+       proposizione etichetta del nodo sia atomica, della forma \(( \neg
+       \mathrm{Q} )\) (ovvero il suo connettivo principale è \(\neg\)), o
+       della forma \(( \mathrm{Q} \mathrel{\Box} \mathrm{R} )\) (ovvero il
+       suo connettivo principale è un connettivo binario \(\Box\)),
+       rispettivamente. Nel secondo caso il successore è etichettato con
+       \(\mathrm{Q}\), nel terzo caso i due successori sono etichettati
+       rispettivamente con \(\mathrm{Q}\) e con \(\mathrm{R}\).
+
+   Attenzione! Se si raggiunge un nodo etichettato con una stringa che non è
+   una formula atomica e non è nemmeno della forma \((\neg \mathrm{Q})\) o
+   \((\mathrm{Q} \mathrel{\Box} \mathrm{R})\), l’algoritmo termina
+   immediatamente e si conclude che \(\mathrm{P}\) NON era una proposizione
+   ben formata (ovvero \(\mathrm{P} \notin Prop(L)\)).
+
+   Se invece questo non accade mai, dopo un certo numero di passi tutti i
+   nodi privi di successori saranno etichettati con proposizioni atomiche:
+   l’algoritmo quindi termina e quello costruito è l’albero sintattico di
+   \(\mathrm{P}\).
+
+   Dunque l’algoritmo per la costruzione dell’albero sintattico permette di
+
+     * determinare se la stringa \(\mathrm{P}\) che viene data come input è
+       una proposizione ben formata (ovvero un elemento di \(Prop(L)\))
+       oppure no;
+
+     * nel caso in cui \(\mathrm{P} \in Prop(L)\), individuarne tutte le
+       sottoproposizioni e l’ordine con cui le regole di costruzione delle
+       proposizioni sono state applicate ad esse per costruire
+       \(\mathrm{P}\).
+
+   Inoltre, l’albero sintattico permette anche di determinare l’altezza della
+   proposizione \(\mathrm{P}\): infatti, si dimostra facilmente per induzione
+   strutturale che \(ht(\mathrm{P})\) coincide con l’altezza del suo albero
+   di costruzione diminuita di una unità, ovvero con la massima lunghezza di
+   un cammino che congiunga la radice a un nodo terminale.
+
+   Esempio
+
+   Sia \(\mathrm{P}\) la proposizione \(( ( ( \mathrm{A} ) \wedge ( \neg (
+   \mathrm{B} ) ) ) \rightarrow ( \neg ( \mathrm{A} ) ) )\). Abbiamo visto
+   che il suo albero sintattico è il seguente:
+
+   Didascalia figura: Albero sintattico della proposizione \( ( ( ( \mathrm
+   {A} ) \wedge ( \neg ( \mathrm {B} ) ) ) \rightarrow ( \neg ( \mathrm {A} )
+   ) ) \)
+
+   Siccome l’altezza dell’albero è \(4\), l’altezza della proposizione
+   \(ht(\mathrm{P})\) è \(4-1\), ovvero \(3\).
+
+   Esercizio Verificare quali delle seguenti stringhe sono proposizioni e
+   quali no, costruendone l’albero sintattico e spiegando dove eventualmente
+   la costruzione fallisce e per quale ragione:
+
+     * \(( ( \mathrm{A} ) \rightarrow ( ( \mathrm{B} ) \vee (\neg (
+       \mathrm{C} ) ) ) )\)
+
+     * \(( ( \neg ( \mathrm{A} ) ) \wedge ( \mathrm{B} ) ) \vee ( \mathrm{C}
+       ) )\)
+
+     * \((\neg \neg (( \mathrm{A} ) \rightarrow ( \mathrm{B} ) ) )\)
+
+     * \(( ( ( ( \mathrm{A} ) \rightarrow ( \mathrm{B} ) ) \wedge (
+       \mathrm{A} ) ) \rightarrow ( \mathrm{B} ) )\)
+
+     * \(( ( ( \neg ( \mathrm{A} )) \wedge ( \mathrm{B} ) ) \vee ( \mathrm{C}
+       ) )\)
+
+     * \((\neg (\neg \mathrm{A} ) )\)
+
+     * \((( \mathrm{A} ) \wedge ( \mathrm{B} ) \wedge ( \mathrm{C} ) )\).
+
+                          Convenzioni sulle parentesi
+
+   Alcune parentesi sono sovrabbondanti: ad esempio, quelle della coppia più
+   esterna e quelle nelle proposizioni atomiche, dove sono usate sia per
+   uniformità sia per sottolineare la differenza tra una lettera come
+   elemento dell’alfabeto e la lettera come proposizione.
+
+   Per comodità di scrittura e lettura riduciamo il numero di parentesi con
+   le convenzioni seguenti.
+
+     * Non si scrivono le parentesi nelle proposizioni atomiche e non si
+       scrivono le parentesi più esterne.
+
+     * Si eliminano alcune coppie di parentesi intorno ad alcune
+       sottoproposizioni, utilizzando il criterio di priorità tra connettivi
+       dato dalla seguente graduatoria: \[\neg\] \[\wedge \quad \vee\]
+       \[\rightarrow\] \[\leftrightarrow\]
+
+     * Per occorrenze multiple dello stesso connettivo si prende in esame
+       l’ultima, quella più a destra; questo significa che per formule
+       composte con uno stesso connettivo ripetuto si conviene l’associazione
+       a destra, cioè ad esempio con \(\mathrm{A} \rightarrow \mathrm{B}
+       \rightarrow \mathrm{C}\) si intende \(\mathrm{A} \rightarrow
+       (\mathrm{B} \rightarrow \mathrm{C})\), e con \(\mathrm{A} \wedge
+       \mathrm{B} \wedge \mathrm{C}\) si intende \(\mathrm{A} \wedge
+       (\mathrm{B} \wedge \mathrm{C} )\).
+
+   Non tutte le parentesi si possono eliminare da una proposizione!
+
+   Esempio
+
+   Non si possono eliminare le parentesi da \(\neg (\mathrm{A} \vee
+   \mathrm{B})\). Togliendole si avrebbe infatti \(\neg \mathrm{A} \vee
+   \mathrm{B}\) che, per la priorità tra connettivi che abbiamo convenuto,
+   rappresenta a formula \((\neg \mathrm{A}) \vee \mathrm{B}\).
+
+   Similmente, la scrittura \(\mathrm{A} \wedge \mathrm{B} \vee \mathrm{C}\)
+   non ha una lettura univoca e quindi è considerata priva di significato: le
+   convenzioni sulle parentesi date non permette di capire se si intenda
+   considerare la formula \((\mathrm{A} \wedge \mathrm{B}) \vee \mathrm{C}\)
+   oppure \(\mathrm{A} \wedge (\mathrm{B} \vee \mathrm{C} )\) (poichè
+   \(\wedge\) e \(\vee\) hanno la stessa priorità!).
+
+   Riassumendo: si possono eliminare parentesi fin tanto che il significato
+   dell’espressione risultante resta univocamente determinato ed identico a
+   quello della proposizione originale (ovvero alla versione formale con
+   tutte le parentesi). Questo vuol dire che, utilizzando le convenzioni
+   date, si devono poter reintrodurre le parentesi senza ambiguità, fino a
+   ricostruire la proposizione originale.
+
+   Esempi
+
+   Data \(\mathrm{A} \wedge \neg \mathrm{B} \rightarrow \neg \mathrm{A}\), la
+   reintroduzione delle parentesi avviene attraverso questa successione di
+   passi:
+
+    1. \((\mathrm{A} ) \wedge \neg (\mathrm{B} ) \rightarrow \neg (
+       \mathrm{A} )\)
+
+    2. \((\mathrm{A}) \wedge \neg (\mathrm{B}) \rightarrow (\neg
+       (\mathrm{A}))\)
+
+    3. \((\mathrm{A}) \wedge (\neg (\mathrm{B})) \rightarrow (\neg
+       (\mathrm{A}))\)
+
+    4. \(((\mathrm{A}) \wedge (\neg (\mathrm{B}))) \rightarrow (\neg
+       (\mathrm{A}))\)
+
+    5. \((((\mathrm{A}) \wedge (\neg (\mathrm{B}))) \rightarrow (\neg
+       (\mathrm{A})))\).
+
+   I passi 2 e 3 si possono naturalmente fare in parallelo.
+
+   Reintrodurre le parentesi in \(\mathrm{A} \rightarrow \neg (\mathrm{B}
+   \wedge \neg \neg \mathrm{C} )\)
+
+    1. \((\mathrm{A}) \rightarrow \neg ( ( \mathrm{B} ) \wedge \neg \neg (
+       \mathrm{C} ) )\)
+
+    2. \((\mathrm{A}) \rightarrow \neg ( ( \mathrm{B} ) \wedge \neg (\neg (
+       \mathrm{C} ) ) )\)
+
+    3. \((\mathrm{A}) \rightarrow \neg ( ( \mathrm{B} ) \wedge (\neg (\neg (
+       \mathrm{C} ) ) ) )\)
+
+    4. \(( \mathrm{A}) \rightarrow ( \neg ( ( \mathrm{B} ) \wedge (\neg (\neg
+       ( \mathrm{C} ) ) ) ) )\)
+
+    5. \(( ( \mathrm{A} ) \rightarrow ( \neg ( ( \mathrm{B} ) \wedge (\neg
+       (\neg ( \mathrm{C} ) ) ) ) ) )\)
+
+   oppure, per rendere più chiara la lettura
+
+    1. \(\mathrm{A} \rightarrow \neg (\mathrm{B} \wedge \neg (\neg \mathrm{C}
+       ) )\)
+
+    2. \(\mathrm{A} \rightarrow \neg (\mathrm{B} \wedge (\neg ( \neg
+       \mathrm{C} ) ) )\)
+
+    3. \(\mathrm{A} \rightarrow (\neg (\mathrm{B} \wedge (\neg (\neg
+       \mathrm{C} ) ) ) )\)
+
+    4. \(( \mathrm{A} \rightarrow ( \neg (\mathrm{B} \wedge (\neg (\neg
+       \mathrm{C} ) ) ) ) )\)
+
+   rimettendo infine le parentesi intorno alle lettere
+
+    1. \(( ( \mathrm{A} ) \rightarrow ( \neg ( ( \mathrm{B} ) \wedge (\neg
+       (\neg ( \mathrm{C} ) ) ) ) ) )\)
+
+   L’albero sintattico si può costruire direttamente anche per le espressioni
+   in cui sono state omesse le parentesi seguendo le convenzioni stabilite.
+
+   Il connettivo principale è sempre quello di priorità più bassa tra quelli
+   non contenuti in alcuna coppia di parentesi; se ve n’è più di uno con
+   queste caratteristiche, il connettivo principale è quello più a sinistra
+   tra di essi.
+
+   Esempio
+
+   L’albero sintattico di \(\mathrm{A} \wedge \neg \mathrm{B} \rightarrow
+   \neg \mathrm{A}\) è il seguente, essendo \(\rightarrow\) il connettivo
+   principale:
+
+   Didascalia figura: Albero sintattico di \(\mathrm{A} \wedge \neg
+   \mathrm{B} \rightarrow \neg \mathrm{A}\)
+
+   L’albero sintattico può essere ulteriormente semplificato etichettando le
+   foglie con le formule atomiche, e tutti gli altri nodi con il solo
+   connettivo che serve per costruire la (sotto)proposizione corrispondente a
+   partire dalle (sotto)proposizioni nei suoi successori immediati.
+
+   Esempio
+
+   L’albero sintattico di \((\mathrm{A} \wedge \neg \mathrm{B}) \vee \neg
+   \mathrm{A}\)
+
+   Per semplificare la lettura di alcune formule, nella pratica ometteremo
+   spesso molte parentesi (ma non tutte) e useremo anche le parentesi quadre
+   \[[ \qquad ]\] al posto di quelle tonde.
+
+   Esempio
+
+   Per esempio scriveremo espressioni come \[(\mathrm{A}\wedge\neg
+   \mathrm{B})\rightarrow[\neg \mathrm{C}\leftrightarrow (\mathrm{B}\vee \neg
+   \mathrm{D})].\]
+
+   Tale espressione non è altro che una “semplificazione” della proposizione
+   che si ottiene sostituendo le parentesi quadre con le parentesi tonde e
+   reintroducendo tutte le parentesi nella maniera opportuna, ovvero della
+   proposizione \[(((\mathrm{A})\wedge(\neg
+   (\mathrm{B})))\rightarrow((\neg(\mathrm{C}))\leftrightarrow
+   ((\mathrm{B})\vee (\neg (\mathrm{D}))))).\]
+
+   Esercizio
+
+   Reintrodurre le parentesi nelle seguenti stringhe in modo da ottenere, se
+   possibile, proposizioni, o se no spiegare il perchè.
+
+     * \(\mathrm{A} \rightarrow \mathrm{B} \vee \neg \mathrm{C}\)
+
+     * \(\mathrm{A} \wedge (\rightarrow \mathrm{C} \vee \mathrm{A})\)
+
+     * \(( \mathrm{A} \rightarrow \mathrm{B} ) \wedge \mathrm{A} \rightarrow
+       \mathrm{B}\)
+
+     * \(\mathrm{A} \rightarrow \mathrm{B} \wedge \mathrm{A} \rightarrow
+       \mathrm{B}\)
+
+     * \(\mathrm{A} \vee \mathrm{B} \wedge \mathrm{C} \rightarrow \neg
+       \mathrm{A}\)
+
+     * \(\mathrm{A} \wedge \mathrm{B} \wedge \mathrm{C} \vee \neg
+       \mathrm{C}\)
+
+     * \(\neg \neg \mathrm{A}\)
+
+     * \(\neg \mathrm{A} \wedge \mathrm{B} \vee \mathrm{C}\)
+
+     * \(\mathrm{A} \vee \neg \mathrm{B} \rightarrow \neg \mathrm{A} \vee
+       \mathrm{B}\)
+
+   Costruire l’albero sintattico delle seguenti formule (in cui sono state
+   omesse alcune parentesi secondo le convenzioni adottate).
+
+     * \(\neg \mathrm{A} \rightarrow \neg [(\mathrm{B}\leftrightarrow \neg
+       (\mathrm{A}\vee \mathrm{C})) \vee \neg \mathrm{A}]\)
+
+     * \((\mathrm{A} \leftrightarrow \neg \mathrm{B}) \rightarrow [\neg
+       (\mathrm{A}\wedge\neg \mathrm{B})\rightarrow \neg(\mathrm{C}\wedge\neg
+       \mathrm{D})]\)
+
+   Calcolare anche l’altezza di ciascun albero e l’altezza della formula a
+   cui è associato.

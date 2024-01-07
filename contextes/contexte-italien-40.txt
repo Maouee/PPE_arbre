@@ -1,245 +1,92 @@
-   secondo le linee guida sull'uso delle fonti. Segui i suggerimenti del
-   progetto di riferimento.
-   [IMG]Un albero binario
+     * Contatti
 
-   In informatica un albero binario è un albero i cui nodi hanno grado
-   compreso tra 0 e 2. Per albero si intende un grafo non diretto, connesso e
-   aciclico mentre per grado di un nodo si intende il numero di sotto alberi
-   del nodo, che è uguale al numero di figli del nodo.
-
-   Anche l'albero costituito da un solo nodo e nessun arco si considera un
-   albero binario valido, sebbene il grado del nodo in questo caso sia nullo.
-
-   Come nel caso generale degli alberi è possibile individuare (in maniera
-   non unica) un nodo radice: qualunque nodo di grado minore di 3 può essere
-   scelto come radice dell'albero binario. Stabilito un nodo radice è
-   possibile costruire delle relazioni di parentela tra nodi: il nodo radice
-   non ha padre e può avere 0, 1 o 2 figli, ed ogni nodo è ovviamente padre
-   dei suoi figli. Poiché tutti i nodi tranne la radice hanno un padre, per
-   via della limitazione sul grado dei nodi ogni nodo può avere al massimo 2
-   figli (da qui il nome "albero binario").
-
-   I nodi senza figli vengono detti foglie o nodi terminali; un nodo non
---
-Indice
-
-     * 1 Implementare gli alberi binari
-     * 2 Implementare gli alberi di ricerca binari su array
-     * 3 Implementare gli alberi binari tramite puntatori
-          * 3.1 Una semplice implementazione in C
-     * 4 Algoritmi elementari su alberi binari
-          * 4.1 Determinazione numero nodi in un albero binario
-          * 4.2 Determinazione dell'altezza
-          * 4.3 Determinazione della larghezza
---
-     * 7 Collegamenti esterni
-
-Implementare gli alberi binari[modifica | modifica wikitesto]
-
-   In questa sezione trattiamo l'implementazione degli alberi binari dal
-   punto di vista teorico, facendo ricorso a strutture di programmazione
-   generiche; sarà poi compito del programmatore decidere come implementare
---
-
-   Esistono vari sistemi, ma il più semplice risulta essere quello che
-   utilizza un array che contiene i nodi dell'albero secondo questa logica:
-   la radice occupa la prima posizione dell'array e i figli di questa radice
-   sono a loro volta nell'array e occupano come posizione (2i) e (2i+1) dove
-   i è la posizione della radice, del padre, dei due figli.
-
-   Si fa notare che questa implementazione è ottimale se l'albero è pieno
-   cioè se tutti gli elementi che costituiscono l'albero hanno esattamente
-   due figli, tranne ovviamente le foglie, altrimenti è necessario un flag
-   booleano, in realtà un array di accompagnamento, che ci indica se la
---
-   accesso e la semplicità di gestione degli elementi della lista, al
-   contrario, le operazioni di inserimento e in generale la dimensione
-   considerevole di un array di un grande albero giocano a sfavore di questa
-   implementazione che risulta essere di conseguenza sconveniente da usare.
+    Frutticoltura: le protezioni per alberi da frutto da utilizzare durante
+                              l’inverno e non solo
 
 --
-   ricolleghiamo all'immagine di accompagnamento alle due tabelle precedenti.
-
-   Profondità di un albero: La radice r ha profondità 0, i suoi figli
-   sinistro e destro, hanno profondità 1, i nipoti profondità 2 e così via.
-   Quindi se la profondità di un nodo è p i suoi figli non vuoti hanno
-   profondità p+1
-
-   Per quanto riguarda l'altezza h di un albero binario è data dalla massima
-   profondità raggiunta dalle sue foglie. Quindi, l'altezza misura la massima
-   distanza di una foglia dalla radice dell'albero, in termini di numero di
-   archi attraversati. Poiché la definizione di alberi si applica anche ai
-   sotto alberi, è più efficiente e semplice trovare l'altezza di un albero
-   binario osservando che l'albero composto da un solo nodo ha altezza pari a
-   0, mentre un albero con almeno due nodi ha altezza pari all'altezza del
-   suo sottoalbero più alto, incrementata di uno in quanto la radice
-   introduce un ulteriore livello
-
-   h=profondità del più lungo cammino
-
-   Nel caso dell'albero nella figura qui sopra, l'altezza h è
-   0(foglie)+1(figli radice)+1(radice)=2.
-
-   Esistono alcune formule per calcolare le caratteristiche degli alberi:
-
-   Log_{2}(n+1)-1 Altezza di un albero binario bilanciato pieno di n nodi    
-   2^{{h+1}}-1    Numero massimo di nodi in un albero binario di altezza h   
-   h              Altezza o numero minimo di nodi di un albero con altezza h 
-   2^{l}          Numero massimo di nodi ad un livello l (elle)              
-
-Implementare gli alberi di ricerca binari su array[modifica | modifica
-wikitesto]
-
-   Se non è necessario effettuare frequentemente operazioni di inserimento e
-   cancellazioni o non è affatto necessario effettuarle e non si vuole usare
-   troppa memoria è possibile implementare un albero di ricerca binario su un
-   array ordinato, con la restrizione che il numero degli elementi sia
-   2^{{n}}-1 con n\in \mathbb{N}.
+   attenzione a ogni dettaglio, specialmente durante i rigidi mesi invernali.
+   Uno dei metodi più efficaci per salvaguardare i fusti si concretizza
+   nell’utilizzo delle protezioni per alberi da frutto proposte da Tubex. Con
+   questi presupposti, oggi parliamo dell’importanza di proteggere queste
+   piante durante l’inverno (e non solo) e di come gli shelter Tubex possono
 --
-   [IMG]
+L’importanza della protezione nei mesi più freddi
 
-   L'immagine sopra mostra un albero di ricerca binario implementato su un
-   array ordinato di 15 elementi, si comincia ponendo il centro dell'array
-   come radice dell'albero e come sue foglie rispettivamente il centro della
-   parte destra dell'array e il centro della parte sinistra dell'array, si
-   continua applicando ricorsivamente il procedimento fino a che non sono
-   stati coperti tutti gli elementi. Si ottiene quindi l'equivalente
-   dell'albero
+   Durante l’inverno, gli alberi da frutto sono particolarmente vulnerabili
+   ad una serie di fattori avversi. Tra questi, primi fra tutti troviamo:
 
-   [IMG]
+     * Basse temperature – Il gelo può danneggiare seriamente gli alberi,
+       causando il congelamento del legno e delle radici.
+     * Venti freddi – I venti invernali possono provocare la disidratazione
 --
+     * Animali selvatici – Gli animali selvatici, come i conigli, i caprioli
+       e i topi, possono mordere e danneggiare la corteccia e i rami degli
+       alberi.
+     * Malattie e parassiti – Molti agenti patogeni e insetti dannosi sono
+       ancora attivi durante i mesi invernali. Senza usare delle buone
+       protezioni per alberi da frutto, agenti patogeni e insetti possono
+       attaccare e danneggiare rami e tronchi.
 
- Ricerca di una chiave
-    N:= numero di elementi dell'albero (2^k-1)
-    A:= array delle N chiavi ordinate in ordine crescente, A[0], A[1] .. A[N - 1]
-    key:= chiave da cercare
---
-    nessun risultato
+   Proteggere gli alberi da frutto da tutti questi fattori può aiutare a
+   prevenire danni significativi e garantire una produzione frutticola sana e
+   abbondante.
 
-   Suddetta modalità di visualizzazione di un albero binario sfrutta la
-   definizione di skip-list, ossia di albero binario i cui elementi sono
-   ordinati e si sfrutta una algoritmo randomizzato. In una skip list per
-   cercare un elemento non facciamo altro che creare nuove liste a partire da
---
-   un elemento.
+   protezioni per alberi da frutto
 
-Implementare gli alberi binari tramite puntatori[modifica | modifica wikitesto]
-
-   Un modo semplice per implementare gli alberi binari di ricerca è quello di
-   usare i puntatori. Nell'implementazione classica ogni nodo dell'albero
-   oltre al suo valore ha un puntatore al figlio destro ed uno al figlio
-   sinistro, in questo modo è possibile, partendo dalla radice, discendere
-   nell'albero fino ad arrivare alle foglie. Tutti i nodi sono uguali,
-   l'unica differenza è che nessun nodo punterà alla radice (infatti la
-   radice non è né un figlio destro, né un figlio sinistro), e le foglie non
---
-
- /*************************************************************************************************************
- * In questo file verranno incluse le funzioni necessarie a costruire un albero binario,
- * e gestirlo tramite
- * i puntatori che ogni radice ha verso il figlio destro e il figlio sinistro.
---
-     struct T *T_l, *T_r;  //E l'altro al figlio destro
- }*tree, dim;
- tree mergetree(int el, tree t1, tree t2){  //Mergetree unisce due alberi
-     tree t0 = (tree)malloc(sizeof(dim));
-     t0->T_l = t1;
---
-     return mergetree(el, NULL, NULL);  //Ogni foglia è formata da un valore e due puntatori nulli
- }
- int isvoidtree(tree t){  //Verifico che un albero sia vuoto
-     return (t == NULL);  //Se non c'è nulla è ovvio che è un albero vuoto...
- }
- tree leftchild(tree t){  //Restituisce il figlio sinistro accedendo alla struttura tree
---
-     return t->value;
- }
- tree insert(int el, tree t){  //Si inserisce un intero el, nell'albero t
-     if(isvoidtree(t)){  //Se l'albero è vuoto, allora verrà creata una foglia
-         return createleaf(el);
-     }
---
     
-     int num; //Scansiono il file di interi
-     tree albero = NULL;  //Inizializzo l'albero vuoto
-    
-     while(fscanf(intfile,"%d", &num) != EOF){
-         albero=insert(num,albero);
-     }
-    
-     printf("*Ho costruito l'albero binario\n\n");
-     printf("Cosa vuoi fare adesso?\n");
-     printf("[s]tampare l'albero\n");
-     printf("Cercare il [m]inimo\n");
-     printf("Cercare il [M]assimo\n");
+
+Le protezioni per alberi da frutto a marchio Tubex: perfette in inverno e non
+solo
+
+   Gli shelter Tubex Fruitwrap si presentano come una soluzione affidabile e
+   comprovata per chi necessita di proteggere gli alberi da frutto durante
+   l’inverno. Queste protezioni tubolari flessibili agiscono come una
+   barriera protettiva contro il freddo e i diversi agenti climatici,
 --
-     while((tmp = getchar()) != 'u'){
-         switch (tmp){
-             case 's':  //Serve a mostrare l'albero
-                  showtree(albero);
-                  printf("\n");
-             break;
-            
-             case 'm':  //Stampa a video il valore minimo
-                  printf("Il valore minimo dell'albero binario è %d\n", mintree(albero));
-             break;
-            
-             case 'M':  //Stampa a video il valore massimo
-                  printf("Il valore massimo dell'albero binario è %d\n", maxtree(albero));
-             break;
-            
---
- }
+   e malattie.
 
-Algoritmi elementari su alberi binari[modifica | modifica wikitesto]
-
-  Determinazione numero nodi in un albero binario[modifica | modifica wikitesto]
-
- INIZIO
-
- NumeroNodi (radice albero)
-     Se radice albero == NULL (l'albero è vuoto)
-        return 0;
-     return (NumeroNodi(figlio sinistro)+NumeroNodi(figlio destro))+1;
---
- INIZIO
-
- Altezza (radice albero)
-
-     Se radice albero  ==  NULL  ( se l'albero è vuoto)
-            return 0;
-     valoreAltezzaSinistra = Altezza(figlio sinistro);
---
-  Determinazione della larghezza[modifica | modifica wikitesto]
-
-   La larghezza di un albero binario corrisponde al numero massimo di nodi
-   giacenti al medesimo livello.
-
---
-   uguali a zero; la funzione WrapperLarghezza è deputata al passaggio
-   corretto dei parametri alla funzione ricorsiva Larghezza , che ritorna il
-   valore massimo contenuto nel vettore, cioè la larghezza dell'albero.
-
- INIZIO
-
- WrapperLarghezza(radice albero)
-
-     Inizializzazione array livelli;
-     Larghezza(radice albero,array livelli,0);
-     larghezza = CercaMassimoVettore(array livelli);
-     return larghezza;
-
- Larghezza (radice albero,array livelli,livellocorrente)
-    Se radice albero == NULL (se l'albero è vuoto)
-         return;
-    
+   Grazie alla struttura tubolare delle protezioni per alberi da frutto a
+   marchio Tubex, gli alberi sono meno esposti alle raffiche di vento e al
+   conseguente rischio di disidratazione. Inoltre, all’interno di questi
+   shelter si crea un microclima umido in grado di favorire l’attecchimento e
 --
 
-     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
-       altri file sull'albero binario
+   Per utilizzare gli shelter Tubex in modo efficace, la prima cosa da fare è
+   scegliere gli shelter delle dimensioni adatte ai propri alberi. Sarà
+   importante assicurarsi che il tubo sia abbastanza alto da coprire una
+   parte significativa dell’area inferiore del tronco. Grazie alla loro
+--
+   suolo per ottenere benefici nel breve e nel lungo termine.
 
-Collegamenti esterni[modifica | modifica wikitesto]
+   Queste protezioni per alberi da frutto si dilatano autonomamente nel
+   tempo, seguendo lo sviluppo della pianta. Quando non saranno più
+   necessarie potranno essere tolte. Qualora cadessero e rimanessero sul
+--
+   confronti dell’ambiente.
 
-     * * albero binario, in Enciclopedia della Matematica, Istituto
-       dell'Enciclopedia Italiana, 2013. Modifica su Wikidata
-     * (EN) Eric W. Weisstein, Albero binario, su MathWorld, Wolfram
+Come acquistare le protezioni per alberi da frutto a marchio Tubex
+
+   Per ottenere una fornitura di protezioni per alberi da frutto Tubex,
+   potete affidarvi al team di Nowotec: siamo rivenditori unici per l’Italia
+   e rivenditori ufficiali per vari paesi europei dei prodotti Tubex. Per
+--
+Articoli recenti
+
+     * shelter per fruttetoShelter per frutteto: la protezione per alberi da
+       frutta
+       27 Dicembre 2023
+--
+       perché scegliere Tubex
+       30 Novembre 2023
+     * protezione per alberiProtezione per alberi: ad ogni pianta il suo
+       shelter Tubex
+       20 Novembre 2023
+     * protezioni per alberi da fruttoFrutticoltura: le protezioni per alberi
+       da frutto da utilizzare durante l’inverno e non solo
+       13 Novembre 2023
+--
+   Noi di Nowotec siamo rivenditori unici per l’Italia e rivenditori
+   ufficiali per vari paesi europei dei prodotti Tubex. Tubex produce
+   protezioni per alberi e piante dagli anni Ottanta. Con il tempo, è stata
+   ampliata la gamma di prodotti, arrivando a rispondere perfettamente alle
+   esigenze di chi opera nell’ambito di paesaggistica, silvicoltura,

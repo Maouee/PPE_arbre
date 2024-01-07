@@ -68,8 +68,8 @@
    More things to try:
 
      * tree
-     * 30 choose 18
-     * fixed necklaces with 6 beads and 3 colors
+     * [3,8)
+     * div (x^3 y, y^3 z, z^3 x)
 --
    1997.König, D. Theorie der endlichen und unendlichen Graphen. New York:
    Chelsea, p. 48, 1950.McKay, B. D. "Trees Sorted by Diameter."

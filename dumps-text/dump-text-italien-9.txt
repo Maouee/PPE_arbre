@@ -131,10 +131,11 @@ Mots proches
 
      ----------------------------------------------------------------------
 
-   De quelle boisson s'agit-il ?
+   Complétez la phrase avec le mot qui convient.
 
-     *    * [ ] vino bianco
-          * [ ] vino rosso
-          * [ ] vino rosato
+     * È piccolo. C'est una taglia _______ grande?
+
+          * [ ] più
+          * [ ] meno
    Applications mobiles Index Mentions légales et crédits CGU CGV Charte de
    confidentialité Cookies Contact © Larousse

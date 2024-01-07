@@ -1,256 +1,270 @@
-   Link: alternate
    Link: canonical
-   Link: license
+   Link:
+   //vitolavecchia.altervista.org/_av_share/master/static/wordpress/dist/
+   Link: shortlink
+   [ Submit ]
 
-                           Albero sintattico astratto
+   Informatica e Ingegneria Online
 
-   Da Wikipedia, l'enciclopedia libera.
-   Vai alla navigazione Vai alla ricerca
+   La creatività è senza dubbio la risorsa umana più importante
 
-   In informatica, un albero sintattico astratto (AST) o semplicemente albero
-   sintattico è una rappresentazione ad albero della struttura sintattica
-   astratta del testo (spesso codice sorgente) scritto in un linguaggio
-   formale. Ogni nodo dell'albero denota un costrutto che si verifica nel
-   testo.
+   Informatica e Ingegneria Online
+     * HOME
+     * LE MIE PUBBLICAZIONI
+     * SERVIZI E ATTIVITÀ
+          * Sanità digitale
+          * Sicurezza informatica
+          * Software Testing
+          * Project Management
+          * Azienda e tecnologie ICT
+     * RISORSE E ALTRO
+          * Risorse
+          * Test di informatica
+          * Glossario Informatica
+          * Collaborazioni e Guest Post
+          * Notifiche push
+          * Disclaimer
+     * CONSULENZA E ASSISTENZA
+          * Assistenza informatica
+     * PROFILO PERSONALE
+   _____________________ _____________________ [ Start search ]
+   [ Submit ]
+   Generic selectors
+   [ ]
+   Exact matches only
+   [ ]
+   Search in title
+   [ ]
+   Search in content
+   [ ]
+   Post Type Selectors
+   [ ]
+   [ ]
 
-   La sintassi è "astratta" nel senso che non rappresenta ogni dettaglio
-   presente nella sintassi reale, ma solo quelli strutturali o relativi al
-   contenuto. Ad esempio, le parentesi di raggruppamento sono implicite nella
-   struttura ad albero quindi non devono essere rappresentate da nodi
-   separati. Similmente, un costrutto solitamente sintattico come
-   l'istruzione se-condizione-allora può essere denotato per mezzo di un
-   singolo nodo con tre rami.
+           Differenza tra albero binario e albero di ricerca binario
 
-   Questo distingue gli alberi sintattici astratti da quelli concreti,
-   tradizionalmente designati come alberi di analisi che sono tipicamente
-   costruiti da un parser durante la traduzione del codice sorgente e il
-   processo di compilazione. Una volta costruiti, ulteriori informazioni
-   vengono aggiunte all'AST mediante elaborazioni successive come le analisi
-   contestuali.
+   Scritto il
+   Facebook
+   Twitter
+   LinkedIn
 
-   Gli alberi sintattici astratti vengono utilizzati anche nell'analisi del
-   programma e nei sistemi di trasformazione del programma.
+           Differenza tra albero binario e albero di ricerca binario
 
-Indice
+  Albero binario
 
-     * 1 Applicazione nei compilatori
-          * 1.1 Motivazioni
-          * 1.2 Design
-          * 1.3 Utilizzo
-     * 2 Voci correlate
-     * 3 Altri progetti
+   In informatica, un albero binario (in inglese a binary tree) è una
+   struttura di dati gerarchica in cui ogni nodo ha al massimo due figli
+   generalmente indicati come figlio sinistro e figlio destro. Ciascun nodo
+   in un albero binario contiene tre nodi che includono puntatore al
+   sottoalbero sinistro , e puntatore al sottoalbero e dati elemento di
+   destra . Il nodo più in alto nell’albero è indicato come radice. Di solito
+   un albero vuoto è rappresentato dal puntatore NULL .
 
-Applicazione nei compilatori[modifica | modifica wikitesto]
+   Tipi di alberi binari basati sulla struttura
 
-   Gli alberi sintattici astratti sono strutture dati ampiamente utilizzate
-   dai compilatori per rappresentare la struttura del codice sorgente. Un AST
-   è in genere il risultato della fase di analisi sintattica del compilatore.
-   Spesso funge da rappresentazione intermedia del programma attraverso le
-   diverse fasi di compilazione e ha un forte impatto sul risultato finale.
+     * Albero binario radicato (ha un nodo radice e ogni nodo non ha più di
+       due figli).
+     * Albero binario completo (ogni nodo dell’albero non ha nessuno o almeno
+       2 figli).
+     * Albero degenerato (ogni nodo padre ha un solo nodo figlio. Si comporta
+       come un elenco collegato).
+     * Albero binario perfetto (tutti i nodi interni hanno 2 figli e le
+       foglie hanno la stessa profondità o lo stesso livello.
+     * Albero binario completo (ogni livello ad eccezione dell’ultimo livello
+       è completamente riempito e tutti i nodi si trovano alla periferia
+       sinistra.
 
-  Motivazioni[modifica | modifica wikitesto]
+  Albero di ricerca binario
 
-   Un AST ha diverse proprietà che aiutano nelle varie fasi del processo di
-   compilazione:
+   In informatica, gli alberi binari di ricerca  (in inglese binary search
+   trees) sono una struttura di dati utile per l’aggiunta e la rimozione
+   rapida dei dati. L’albero di ricerca binario è un albero binario
+   organizzato in cui esiste un ordine relativo in cui i nodi dovrebbero
+   essere disposti. È composto da nodi, che memorizza i dati e si collega
+   anche a un massimo di altri due nodi figlio. Affinché un albero binario
+   sia un albero di ricerca binario, i dati di tutti i nodi nel sottoalbero
+   sinistro del nodo radice devono essere inferiori ai dati della radice. I
+   dati di tutti i nodi nel sottoalbero destro del nodo radice dovrebbero
+   essere maggiori di quelli uguali ai dati della radice. A questo proposito,
+   le foglie più a sinistra dell’albero hanno i valori più bassi, mentre le
+   foglie a destra dell’albero hanno i valori più alti.
 
-     * Può essere modificato e migliorato con informazioni quali proprietà e
-       annotazioni per ogni elemento che contiene, impossibile da fare con il
-       codice sorgente di un programma, poiché implicherebbe cambiarlo.
-     * Rispetto al codice sorgente, un AST non include punteggiatura e
-       delimitatori non essenziali (parentesi, punto e virgola, ecc.).
-     * Di solito contiene informazioni extra sul programma, a causa delle
-       varie fasi di analisi da parte del compilatore. Ad esempio, può
-       memorizzare la posizione di ciascun elemento nel codice sorgente,
-       consentendo al compilatore di stampare utili messaggi di errore.
+   Tipi di albero di ricerca binario
 
-   Gli AST sono necessari a causa della natura intrinseca dei linguaggi di
-   programmazione e della relativa documentazione. Le lingue sono spesso
-   ambigue per natura. Per evitare questa ambiguità, i linguaggi di
-   programmazione sono spesso specificati come grammatica libera dal contesto
-   (CFG). Tuttavia, ci sono spesso aspetti dei linguaggi di programmazione
-   che una CFG non può esprimere, ma fanno parte del linguaggio e sono
-   documentati nelle sue specifiche. Questi sono dettagli che richiedono un
-   contesto per determinarne la validità e il comportamento. Ad esempio, se
-   un linguaggio consente la dichiarazione di nuovi tipi, una CFG non può
-   prevedere i nomi di tali tipi né il modo in cui debbano essere utilizzati.
-   Anche se un linguaggio ha un insieme predefinito di tipi, il modo corretto
-   di utilizzarli di norma richiede un contesto. Un altro esempio è il duck
-   typing, in cui il tipo di un elemento può cambiare a seconda del contesto.
-   L'overloading degli operatori è un altro caso in cui l'utilizzo corretto e
-   la funzione finale dipendono dal contesto.
+     * T-trees
+     * AVL trees
+     * Splay trees
+     * Tango trees
+     * Red-black trees
 
-  Design[modifica | modifica wikitesto]
+   Differenza tra albero binario e albero di ricerca binario
 
-   La progettazione di un AST è spesso strettamente collegata alla
-   progettazione di un compilatore e alle sue caratteristiche.
+  Differenza tra albero binario e albero di ricerca binario
 
-   I requisiti fondamentali includono quanto segue:
+   CONFRONTO DI ALBERO BINARIO                   ALBERO DI RICERCA BINARIO    
+   BASE         
+                L’albero binario è una struttura                              
+                di dati gerarchica in cui un                                  
+                bambino può avere zero, uno o    L’albero di ricerca binario  
+                massimo due nodi figlio, ogni    è un albero binario          
+   Descrizione  nodo contiene un puntatore a     organizzato in cui esiste un 
+                sinistra, un puntatore a destra  ordine relativo in cui i     
+                e un elemento di dati. Non       nodi dovrebbero essere
+                esiste una struttura             disposti.  
+                organizzativa specifica dei nodi 
+                nell’albero.                     
+                Esistono diversi tipi di alberi  I tipi più popolari di       
+                binari, i più popolari           albero di ricerca binario    
+   Tipi         includono: albero binario        includono: alberi a T,       
+                completo, albero binario         alberi AVL, alberi splay,    
+                completo, albero binario esteso  alberi tango, alberi         
+                e albero binario perfetto.       rosso-neri ecc.              
+                                                 Gli alberi di ricerca        
+                                                 binaria mantengono ordinate  
+                                                 le chiavi, quindi la ricerca 
+                Le operazioni comuni che possono di solito implementa la      
+                essere eseguite su un albero     ricerca binaria per le       
+   Operazioni   binario sono la cancellazione,   operazioni. Gli alberi       
+   comuni       l’inserimento e il trasversale.  binari di ricerca sono       
+                                                 alberi binari più ordinati   
+                                                 che consentono una rapida ed 
+                                                 efficiente ricerca,          
+                                                 inserimento e cancellazione  
+                                                 di elementi.                 
+                L’albero binario può anche       L’albero di ricerca binario  
+                essere descritto come una forma  può anche essere descritto   
+                di albero specializzata che      come un tipo di albero       
+                rappresenta i dati in una        binario in cui tutti i nodi  
+   Descrizione  struttura ad albero. In un       nel sottoalbero di sinistra  
+   alternativa  albero binario, il nodo più in   sono minori o uguali al      
+                alto rappresenta il puntatore    valore del nodo radice e     
+                alla radice mentre i puntatori   quelli del sottoalbero di    
+                alla radice destro e sinistro    destra sono maggiori o       
+                rappresentano i dati in una      uguali a il valore del nodo  
+                struttura ad albero.             radice.                      
 
-     * I tipi di variabile devono essere preservati, così come la posizione
-       di ogni dichiarazione nel codice sorgente.
-     * L'ordine delle istruzioni eseguibili deve essere rappresentato in modo
-       esplicito e ben definito.
-     * I componenti sinistro e destro delle operazioni binarie devono essere
-       memorizzati e identificati correttamente.
-     * Gli identificatori e i relativi valori devono essere memorizzati per
-       le istruzioni di assegnazione.
+   Pubblicato inDifferenze , Ingegneria
 
-   Questi requisiti possono essere usati per progettare la struttura dati per
-   l'AST.
+    Pubblicato da Vito Lavecchia
 
-   Alcune operazioni richiedono sempre due elementi, come i due termini per
-   l'addizione. Tuttavia, alcuni costrutti di linguaggio richiedono un numero
-   arbitrariamente elevato di elementi figlio, come l'elenco di argomenti
-   passati ai programmi dalla shell. Di conseguenza, un AST utilizzato per
-   rappresentare il codice scritto in tale linguaggio deve anche essere
-   sufficientemente flessibile da consentire l'aggiunta rapida di una
-   quantità sconosciuta di figli.
+   Lavecchia Vito Ingegnere Informatico (Politecnico di Bari) Email:
+   [email protected] Sito Web: https://vitolavecchia.altervista.org Mostra
+   altri articoli
 
-   Per supportare la verifica del compilatore, dovrebbe essere possibile
-   riconvertire l'AST in un codice sorgente sufficientemente simile
-   all'originale nell'aspetto e identico nell'esecuzione dopo la
-   ricompilazione.
+Navigazione articoli
 
-  Utilizzo[modifica | modifica wikitesto]
+   ← Post Precedente Post precedente:Differenza tra Preemptive e
+   Non-Preemptive Scheduling nella CPU
+   Post Successivo → Post successivo:Differenza tra eBook ed ePub in
+   informatica
 
-   L'AST viene utilizzato intensamente durante l'analisi semantica, dove il
-   compilatore verifica il corretto utilizzo degli elementi del programma e
-   del linguaggio. Il compilatore genera anche la tabella dei simboli in base
-   all'AST durante l'analisi semantica. Un attraversamento completo
-   dell'albero permette di verificare la correttezza del programma.
+   Mostra Commenti  Nascondi Commenti
 
-   Dopo aver verificato la correttezza, l'AST funge da base per la
-   generazione del codice la quale spesso avviene per mezzo di una
-   rappresentazione intermedia (IR) talvolta detta linguaggio intermedio.
+  Lascia un commento
 
-Voci correlate[modifica | modifica wikitesto]
+   Il tuo indirizzo email non sarà pubblicato. I campi obbligatori sono
+   contrassegnati *
 
-     * Document Object Model (DOM)
-     * Lisp, famiglia di linguaggi basati su alberi (chiamati liste) e macro
-       per la loro manipolazione
-     * Albero sintattico, detto anche albero sintattico concreto
+   Commento *
+   ______________________________________________
+   ______________________________________________
+   ______________________________________________
+   ______________________________________________
+   ______________________________________________
+   ______________________________________________
+   ______________________________________________
+   ______________________________________________
 
-Altri progetti[modifica | modifica wikitesto]
+   Nome * _______________________________
 
-     * Collabora a Wikimedia Commons Wikimedia Commons contiene immagini o
-       altri file su Albero sintattico astratto
+   Email * _______________________________
 
-   Controllo di autorità GND (DE) 4702177-9 
+   Sito web _______________________________
 
-   Estratto da
-   "https://it.wikipedia.org/w/index.php?title=Albero_sintattico_astratto&oldid=131664000"
-   Categorie:
-     * Alberi (strutture dati)
-     * Teoria dei linguaggi formali
-     * Compilatori
-   Categorie nascoste:
-     * Voci con codice GND
-     * Voci non biografiche con codici di controllo di autorità
+   [ Invia commento ]
 
-Menu di navigazione
+  PAGINA FACEBOOK
 
-  Strumenti personali
+  Cerca articoli…
 
-     * Accesso non effettuato
-     * discussioni
-     * contributi
-     * registrati
-     * entra
+   _____________________ _____________________ [ Start search ]
+   [ Submit ]
+   Generic selectors
+   [ ]
+   Exact matches only
+   [ ]
+   Search in title
+   [ ]
+   Search in content
+   [ ]
+   Post Type Selectors
+   [ ]
+   [ ]
 
-  Namespace
+  Ultimi Articoli
 
-     * Voce
-     * Discussione
-   [ ] italiano
+     * Caratteristiche e differenza tra vettore di attacco e superficie di
+       attacco in informatica
+       3 giorni fa
 
-  Visite
+    Caratteristiche e differenza tra vettore di attacco e superficie di attacco
+    in informatica
 
-     * Leggi
-     * Modifica
-     * Modifica wikitesto
-     * Cronologia
-   [ ] Altro
+     * Caratteristiche, funzionamento e protezione dai vettori di attacco in
+       informatica
+       4 giorni fa
 
-  Ricerca
+    Caratteristiche, funzionamento e protezione dai vettori di attacco in
+    informatica
 
-   _____________________ [ Ricerca ] [ Vai ]
-   Visita la pagina principale
+     * Caratteristiche, utilizzi e differenza tra indirizzi MAC e IP in
+       telecomunicazioni
+       4 giorni fa
 
-  Navigazione
+    Caratteristiche, utilizzi e differenza tra indirizzi MAC e IP in
+    telecomunicazioni
 
-     * Pagina principale
-     * Ultime modifiche
-     * Una voce a caso
-     * Nelle vicinanze
-     * Vetrina
-     * Aiuto
-     * Sportello informazioni
+     * Caratteristiche e differenza tra apprendimento per rinforzo e
+       supervisionato
+       4 settimane fa
 
-  Comunità
+    Caratteristiche e differenza tra apprendimento per rinforzo e supervisionato
 
-     * Portale Comunità
-     * Bar
-     * Il Wikipediano
-     * Fai una donazione
-     * Contatti
+     * Caratteristiche e differenza tra strategie di social media B2B e B2C
+       in azienda
+       1 mese fa
 
-  Strumenti
+    Caratteristiche e differenza tra strategie di social media B2B e B2C in
+    azienda
 
-     * Puntano qui
-     * Modifiche correlate
-     * Pagine speciali
-     * Link permanente
-     * Informazioni pagina
-     * Cita questa voce
-     * Ottieni URL breve
-     * Elemento Wikidata
+  ARTICOLI CORRELATI
 
-  Stampa/esporta
+    1. Differenza tra grafo e albero in informatica
+    2. Differenza tra albero e grafo nella struttura dei dati informatici
+    3. Caratteristiche degli alberi di decisione (decision tree) in
+       informatica
+    4. Differenza tra Tabella decisionale e Albero decisionale
 
-     * Crea un libro
-     * Scarica come PDF
-     * Versione stampabile
+   Tema Seamless Keith, sviluppato da Altervista
 
-  In altri progetti
+   Apri un sito e guadagna con Altervista - Disclaimer - Segnala abuso -
+   Notifiche Push - Privacy Policy - Personalizza tracciamento pubblicitario
 
-     * Wikimedia Commons
-
-  In altre lingue
-
-     * العربية
-     * Bosanski
-     * Čeština
-     * Deutsch
-     * English
-     * Español
-     * فارسی
-     * Français
-     * Hrvatski
-     * Հայերեն
-     * Ido
-     * 日本語
-     * 한국어
-     * Lombard
-     * Polski
-     * Português
-     * Русский
-     * Українська
-     * Tiếng Việt
-     * 中文
-     * 粵語
-   Modifica collegamenti
-     * Questa pagina è stata modificata per l'ultima volta il 21 gen 2023
-       alle 20:58.
-     * Il testo è disponibile secondo la licenza Creative Commons
-       Attribuzione-Condividi allo stesso modo; possono applicarsi condizioni
-       ulteriori. Vedi le condizioni d'uso per i dettagli.
-     * Informativa sulla privacy
-     * Informazioni su Wikipedia
-     * Avvertenze
-     * Codice di condotta
-     * Sviluppatori
-     * Statistiche
-     * Dichiarazione sui cookie
-     * Versione mobile
-     * Wikimedia Foundation
-     * Powered by MediaWiki
+     * HOME
+     * LE MIE PUBBLICAZIONI
+     * SERVIZI E ATTIVITÀ
+          * Sanità digitale
+          * Sicurezza informatica
+          * Software Testing
+          * Project Management
+          * Azienda e tecnologie ICT
+     * RISORSE E ALTRO
+          * Risorse
+          * Test di informatica
+          * Glossario Informatica
+          * Collaborazioni e Guest Post
+          * Notifiche push
+          * Disclaimer
+     * CONSULENZA E ASSISTENZA
+          * Assistenza informatica
+     * PROFILO PERSONALE

@@ -1,104 +1,57 @@
-   [ ]
+   Principale giardino
 
-           Differenza tra albero binario e albero di ricerca binario
+            Quale stagione è il momento giusto per piantare alberi?
 
-   Scritto il
+     * Cosa aiuta contro muschio e trifoglio nel prato?
 --
-   LinkedIn
+     * Le varietà del nespolo comune - caratteristiche e caratteristiche
+     * La foglia singola ha foglie marroni o macchie fogliari, cosa fare?
+     * Fresatura delle radici degli alberi - suggerimenti per la fresatura
+   Quale stagione è il momento giusto per piantare alberi?
 
-           Differenza tra albero binario e albero di ricerca binario
+Come trovare il periodo giusto dell'anno
 
-  Albero binario
+   Fondamentalmente, la primavera e l'autunno sono i periodi migliori
+   dell'anno per piantare un albero. L'unico requisito è che il terreno sia
+   protetto dal gelo.
 
-   In informatica, un albero binario (in inglese a binary tree) è una
-   struttura di dati gerarchica in cui ogni nodo ha al massimo due figli
-   generalmente indicati come figlio sinistro e figlio destro. Ciascun nodo
-   in un albero binario contiene tre nodi che includono puntatore al
-   sottoalbero sinistro , e puntatore al sottoalbero e dati elemento di
-   destra . Il nodo più in alto nell’albero è indicato come radice. Di solito
-   un albero vuoto è rappresentato dal puntatore NULL .
+    leggi anche
 
-   Tipi di alberi binari basati sulla struttura
+     * Il giardino in autunno: quali alberi tagliare adesso
+     * È possibile piantare alberi anche quando c'è il gelo?
+     * Tiefwurzler: quali alberi sono inclusi?
 
-     * Albero binario radicato (ha un nodo radice e ogni nodo non ha più di
-       due figli).
-     * Albero binario completo (ogni nodo dell’albero non ha nessuno o almeno
-       2 figli).
-     * Albero degenerato (ogni nodo padre ha un solo nodo figlio. Si comporta
+  Sistema di root
+
+   Sono disponibili in commercio alberi con tre diversi tipi di radici, che
+   hanno tutti un'influenza sul tempo di impianto.
+
 --
-  Albero di ricerca binario
 
-   In informatica, gli alberi binari di ricerca  (in inglese binary search
-   trees) sono una struttura di dati utile per l’aggiunta e la rimozione
-   rapida dei dati. L’albero di ricerca binario è un albero binario
-   organizzato in cui esiste un ordine relativo in cui i nodi dovrebbero
-   essere disposti. È composto da nodi, che memorizza i dati e si collega
-   anche a un massimo di altri due nodi figlio. Affinché un albero binario
-   sia un albero di ricerca binario, i dati di tutti i nodi nel sottoalbero
-   sinistro del nodo radice devono essere inferiori ai dati della radice. I
-   dati di tutti i nodi nel sottoalbero destro del nodo radice dovrebbero
-   essere maggiori di quelli uguali ai dati della radice. A questo proposito,
-   le foglie più a sinistra dell’albero hanno i valori più bassi, mentre le
-   foglie a destra dell’albero hanno i valori più alti.
-
-   Tipi di albero di ricerca binario
-
-     * T-trees
+   Puoi praticamente piantare merci in container tutto l'anno, poiché questi
+   alberi mettono radici e continuano a crescere. Gli alberi con una zolla,
+   invece, dovrebbero idealmente essere piantati all'inizio dell'autunno (tra
+   la fine di agosto e la fine di settembre) in modo che crescano in tempo
 --
-     * Red-black trees
+   terreno tra ottobre e aprile.
 
-   Differenza tra albero binario e albero di ricerca binario
+  Tipo di albero
 
-  Differenza tra albero binario e albero di ricerca binario
+   Oltre alla radice, decide anche il tipo di albero quando è meglio
+   piantarlo. Gli alberi decidui vengono sempre piantati quando le foglie
+   cadono in autunno in modo che possano investire le loro energie nella
+   formazione di nuove radici. In primavera, d'altra parte, un albero del
+   genere ha bisogno di troppa energia per cacciare nuove foglie. Puoi
+   piantare alberi sempreverdi tutto l'anno, a seconda del tipo di radice.
 
-   CONFRONTO DI ALBERO BINARIO                   ALBERO DI RICERCA BINARIO    
-   BASE         
-                L’albero binario è una struttura                              
-                di dati gerarchica in cui un                                  
-                bambino può avere zero, uno o    L’albero di ricerca binario  
-                massimo due nodi figlio, ogni    è un albero binario          
-   Descrizione  nodo contiene un puntatore a     organizzato in cui esiste un 
-                sinistra, un puntatore a destra  ordine relativo in cui i     
+  Suggerimenti
 --
-                esiste una struttura             disposti.  
-                organizzativa specifica dei nodi 
-                nell’albero.                     
-                Esistono diversi tipi di alberi  I tipi più popolari di       
-                binari, i più popolari           albero di ricerca binario    
-   Tipi         includono: albero binario        includono: alberi a T,       
-                completo, albero binario         alberi AVL, alberi splay,    
-                completo, albero binario esteso  alberi tango, alberi         
-                e albero binario perfetto.       rosso-neri ecc.              
-                                                 Gli alberi di ricerca        
-                                                 binaria mantengono ordinate  
-                                                 le chiavi, quindi la ricerca 
-                Le operazioni comuni che possono di solito implementa la      
-                essere eseguite su un albero     ricerca binaria per le       
-   Operazioni   binario sono la cancellazione,   operazioni. Gli alberi       
-   comuni       l’inserimento e il trasversale.  binari di ricerca sono       
-                                                 alberi binari più ordinati   
-                                                 che consentono una rapida ed 
-                                                 efficiente ricerca,          
-                                                 inserimento e cancellazione  
-                                                 di elementi.                 
-                L’albero binario può anche       L’albero di ricerca binario  
-                essere descritto come una forma  può anche essere descritto   
-                di albero specializzata che      come un tipo di albero       
-                rappresenta i dati in una        binario in cui tutti i nodi  
-   Descrizione  struttura ad albero. In un       nel sottoalbero di sinistra  
-   alternativa  albero binario, il nodo più in   sono minori o uguali al      
-                alto rappresenta il puntatore    valore del nodo radice e     
-                alla radice mentre i puntatori   quelli del sottoalbero di    
-                alla radice destro e sinistro    destra sono maggiori o       
-                rappresentano i dati in una      uguali a il valore del nodo  
-                struttura ad albero.             radice.                      
+  Le informazioni più importanti sulla durata di conservazione dei funghi
 
-   Pubblicato inDifferenze , Ingegneria
---
-  ARTICOLI CORRELATI
+     * Profilo dell'albero di noce: le caratteristiche a colpo d'occhio
 
-    1. Differenza tra grafo e albero in informatica
-    2. Differenza tra albero e grafo nella struttura dei dati informatici
-    3. Caratteristiche degli alberi di decisione (decision tree) in
-       informatica
-    4. Differenza tra Tabella decisionale e Albero decisionale
+       giardino
+
+  Profilo dell'albero di noce: le caratteristiche a colpo d'occhio
+
+     * Vermi indesiderati nel vaso di fiori

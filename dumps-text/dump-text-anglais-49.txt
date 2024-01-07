@@ -157,8 +157,8 @@ Explore with Wolfram|Alpha
    More things to try:
 
      * tree
-     * 30 choose 18
-     * fixed necklaces with 6 beads and 3 colors
+     * [3,8)
+     * div (x^3 y, y^3 z, z^3 x)
 
 References
 
