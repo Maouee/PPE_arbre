@@ -68,8 +68,8 @@
    More things to try:
 
      * tree
-     * ackermann[2,3]
-     * div [x^2 sin y, y^2 sin xz, xy sin (cos z)]
+     * 5:1 odds
+     * cos x
 --
    1997.König, D. Theorie der endlichen und unendlichen Graphen. New York:
    Chelsea, p. 48, 1950.McKay, B. D. "Trees Sorted by Diameter."

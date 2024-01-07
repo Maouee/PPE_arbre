@@ -24,8 +24,8 @@
    Login 
      * Articles
        Featured Article
-       archaeology
-       archaeology
+       Hubble Space Telescope
+       Hubble Space Telescope
        All Categories
        Animals
        Fine Arts
@@ -39,7 +39,7 @@
      * Images & Videos
        Featured Media
        [IMG]
-       woodblock: Basho
+       wrestling
        All Categories
        Animals
        Fine Arts
@@ -53,7 +53,7 @@
      * Animal Kingdom
        Featured Animal
        [IMG]
-       scorpion
+       Arctic fox
        All Categories
        Amphibians and Reptiles
        Birds
@@ -269,6 +269,7 @@ It’s here: the NEW Britannica Kids website!
      * Terms of Use
      * Diversity
    ©2024 Encyclopædia Britannica, Inc.
-   By continuing to use this site, you consent to the terms of our cookie
-   policy, which can be found in our Privacy Notice.
+   This website uses cookies to help deliver and improve our services and
+   provide you with a much richer experience during your visit. To learn more
+   about cookies and your cookie choices, click here.
    ×
