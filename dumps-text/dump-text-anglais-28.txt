@@ -24,8 +24,8 @@
    Login 
      * Articles
        Featured Article
-       Venus's-flytrap
-       Venus's-flytrap
+       Iditarod
+       Iditarod
        All Categories
        Animals
        Fine Arts
@@ -39,7 +39,7 @@
      * Images & Videos
        Featured Media
        [IMG]
-       wrestling
+       gorilla
        All Categories
        Animals
        Fine Arts
@@ -53,7 +53,7 @@
      * Animal Kingdom
        Featured Animal
        [IMG]
-       lynx
+       ibis
        All Categories
        Amphibians and Reptiles
        Birds
