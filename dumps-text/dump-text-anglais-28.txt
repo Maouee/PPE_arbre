@@ -24,8 +24,8 @@
    Login 
      * Articles
        Featured Article
-       Hubble Space Telescope
-       Hubble Space Telescope
+       Venus's-flytrap
+       Venus's-flytrap
        All Categories
        Animals
        Fine Arts
@@ -53,7 +53,7 @@
      * Animal Kingdom
        Featured Animal
        [IMG]
-       Arctic fox
+       lynx
        All Categories
        Amphibians and Reptiles
        Birds

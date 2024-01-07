@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset='UTF-8'>
+            <link rel=stylesheet href=../Css/main.css>
+            <script src='https://kit.fontawesome.com/b0d5fca4a5.js' crossorigin='anonymous'></script>
+            <script src="../js/prism.js"></script>
+        </head>
+    <body class="has-background-white-bis">
+        <div class="container has-text-centered">
+            <div class="is-centered">
+                <nav class="navbar is-fixed-top is-success" role="navigation" aria-label="main navigation">
+
+                <div id="navbar" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            <span class="icon is-small mr-1"><i class="fa-solid fa-tree" aria-hidden="true"></i></span>
+                            <span>Accueil</span>
+                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
+                                <span>Tableaux</span>
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../tableaux/tableau_anglais.html">
+                                    🇬🇧 Anglais
+                                </a>
+                                <a class="navbar-item" href="../tableaux/tableau_italien.html">
+                                    🇮🇹 Italien
+                                </a>
+                                <a class="navbar-item" href="../tableaux/tableau_russe.html">
+                                    🇷🇺 Russe
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
+                                <span>Analyses</span>
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../analyses/anglais/anglais.html">
+                                    🇬🇧 Anglais
+                                </a>
+                                <a class="navbar-item" href="../analyses/italien/italien.html">
+                                    🇮🇹 Italien
+                                </a>
+                                <a class="navbar-item" href="../analyses/russe/russe.html">
+                                    🇷🇺 Russe
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-code" aria-hidden="true"></i></span>
+                                <span>Scripts</span>
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../scripts/script_tableaux.html">
+                                    Tableaux
+                                </a>
+                                <a class="navbar-item" href="../scripts/script_concordanciers.html">
+                                    Concordanciers
+                                </a>
+                                <a class="navbar-item" href="../scripts/script_itrameur.html">
+                                    XML
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-dark" href="https://github.com/Maouee/PPE_arbre">
+                                <span class="icon is-small mr-1"><i class="fa-brands fa-github"></i></span>
+                                <strong>Github</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+<br><br><br>
+            <section class="has-text-centered">
+                <div class="box">
+                    <p class="title is-3 has-text-centered"> Script de génération des fichiers XML pour l'analyse Itrameur </p>
+                    <p class="title is-4 has-text-centered">Contextes</p>
+                    <p> Voilà le script qui est utilisé les fichiers contexte au format xml pour itrameur.
+                        <br>
+                    </p>
+                </div>
+                <br>
+            </section>
+            <figure>
+                <pre>
+                    <code class="language-shell">
+langue=$1
+compteur=1
+
+
+echo "&ltlang=$langue>" > ../itrameur/contextes-${langue}.txt
+
+
+for file in ../contextes/contexte-${langue}* ;
+do
+
+dump=$(cat $file | sed -e 's/>/\&ampgt\;/g' -e 's/&lt/\&amplt\;/g' -e 's/&amp/\&ampamp\;/g')
+
+
+echo "&ltpage='contexte${compteur}${langue}'>
+    &lttext>
+    $dump
+    &lt/text>
+    &lt/page>§" > test3.txt >> ../itrameur/contextes-${langue}.txt
+
+    ((compteur++))
+
+done
+
+echo "&lt/lang>" >> ../itrameur/contextes-${langue}.txt
+                        </code>
+                    </pre>
+                </figure>
+                <br>
+                <section class="has-text-centered">
+                    <div class="box">
+                        <p class="title is-4 has-text-centered"> Dump-texts </p>
+                        <p> Et voilà le script qui est utilisé les fichiers dump-text au format xml pour itrameur.
+                            <br>
+                        </p>
+                    </div>
+                    <br>
+                </section>
+                <figure>
+                    <pre>
+                        <code class="language-shell">
+langue=$1
+langue=$1
+compteur=1
+
+
+echo "&ltlang=$langue>" > ../itrameur/dumps-text-${langue}.txt
+
+
+for file in ../dumps-text/dump-text-${langue}* ;
+do
+
+dump=$(cat $file | sed -e "s/>/\@gt\;/g" -e "s/&lt/\@lt\;/g" -e "s/&amp/\@amp\;/g")
+
+echo "&ltpage='dump$compteur'>
+    &lttext>
+    $dump
+    &lt/text>
+    &lt/page>§" >> ../itrameur/dumps-text-${langue}.txt
+
+    ((compteur++))
+
+done
+
+echo "&lt/lang>" >> ../itrameur/dumps-text-${langue}.txt
+                            </code>
+                        </pre>
+                    </figure>
+            </div>
+        </div>
+    </body>
+</html>

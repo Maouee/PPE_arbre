@@ -1,1115 +1,1076 @@
 <!DOCTYPE html>
-<html>
+    <html>
+        <head>
+            <meta charset='UTF-8'>
+            <link rel=stylesheet href=../Css/main.css>
+            <script src='https://kit.fontawesome.com/b0d5fca4a5.js' crossorigin='anonymous'></script>
+        </head>
+    <body class="has-background-white-bis">
+        <div class="container has-text-centered">
+            <div class="is-centered">
+                <nav class="navbar is-fixed-top is-success" role="navigation" aria-label="main navigation">
 
-<head>
-     <meta charset='UTF-8'>
-     <link rel=stylesheet href=../Css/main.css>
-     <script src='https://kit.fontawesome.com/b0d5fca4a5.js' crossorigin='anonymous'></script>
-</head>
-
-<body class="has-background-white-bis">
-     <div class="container has-text-centered">
-          <div class="is-centered">
-               <nav class="navbar is-fixed-top is-success" role="navigation" aria-label="main navigation">
-
-                    <div id="navbar" class="navbar-menu">
-                         <div class="navbar-start">
-                              <a class="navbar-item" href="../index.html">
-                                   <span class="icon is-small mr-1"><i class="fa-solid fa-tree"
-                                             aria-hidden="true"></i></span>
-                                   <span>Accueil</span>
-                              </a>
-                              <div class="navbar-item has-dropdown is-hoverable">
-                                   <a class="navbar-link">
-                                        <span class="icon is-small mr-1"><i class="fa-solid fa-table"
-                                                  aria-hidden="true"></i></span>
-                                        <span>Tableaux</span>
-                                   </a>
-                                   <div class="navbar-dropdown">
-                                        <a class="navbar-item" href="../tableaux/tableau_anglais.html">
-                                             🇬🇧 Anglais
-                                        </a>
-                                        <a class="navbar-item" href="../tableaux/tableau_italien.html">
-                                             🇮🇹 Italien
-                                        </a>
-                                        <a class="navbar-item" href="../tableaux/tableau_russe.html">
-                                             🇷🇺 Russe
-                                        </a>
-                                   </div>
-                              </div>
-                              <div class="navbar-item has-dropdown is-hoverable">
-                                   <a class="navbar-link">
-                                        <span class="icon is-small mr-1"><i class="fa-solid fa-chart-simple"
-                                                  aria-hidden="true"></i></span>
-                                        <span>Analyses</span>
-                                   </a>
-                                   <div class="navbar-dropdown">
-                                        <a class="navbar-item" href="../analyses/anglais/anglais.html">
-                                             🇬🇧Anglais
-                                        </a>
-                                        <a class="navbar-item" href="../analyses/italien/italien.html">
-                                             🇮🇹Italien
-                                        </a>
-                                        <a class="navbar-item" href="../analyses/russe/russe.html">
-                                             🇷🇺Russe
-                                        </a>
-                                   </div>
-                              </div>
-                         </div>
+                <div id="navbar" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            <span class="icon is-small mr-1"><i class="fa-solid fa-tree" aria-hidden="true"></i></span>
+                            <span>Accueil</span>
+                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
+                                <span>Tableaux</span>
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../tableaux/tableau_anglais.html">
+                                    🇬🇧 Anglais
+                                </a>
+                                <a class="navbar-item" href="../tableaux/tableau_italien.html">
+                                    🇮🇹 Italien
+                                </a>
+                                <a class="navbar-item" href="../tableaux/tableau_russe.html">
+                                    🇷🇺 Russe
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
+                                <span>Analyses</span>
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../analyses/anglais/anglais.html">
+                                    🇬🇧 Anglais
+                                </a>
+                                <a class="navbar-item" href="../analyses/italien/italien.html">
+                                    🇮🇹 Italien
+                                </a>
+                                <a class="navbar-item" href="../analyses/russe/russe.html">
+                                    🇷🇺 Russe
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-code" aria-hidden="true"></i></span>
+                                <span>Scripts</span>
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../scripts/script_tableaux.html">
+                                    Tableaux
+                                </a>
+                                <a class="navbar-item" href="../scripts/script_concordanciers.html">
+                                    Concordanciers
+                                </a>
+                                <a class="navbar-item" href="../scripts/script_itrameur.html">
+                                    XML
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="navbar-end">
-                         <div class="navbar-item">
-                              <div class="buttons">
-                                   <a class="button is-dark" href="https://github.com/Maouee/PPE_arbre">
-                                        <span class="icon is-small mr-1"><i class="fa-brands fa-github"></i></span>
-                                        <strong>Github</strong>
-                                   </a>
-                              </div>
-                         </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-dark" href="https://github.com/Maouee/PPE_arbre">
+                                <span class="icon is-small mr-1"><i class="fa-brands fa-github"></i></span>
+                                <strong>Github</strong>
+                            </a>
+                        </div>
                     </div>
-               </nav>
-               <table id=table>
-                    <br><br><br>
-                    <tr>
-                         <th>ligne</th>
-                         <th>URL</th>
-                         <th>code</th>
-                         <th>encodage</th>
-                         <th>aspirations</th>
-                         <th>dumps</th>
-                         <th>compte</th>
-                         <th>contexte</th>
-                         <th>concordances</th>
+                </div>
+            </nav>
+            <table id=table>
+<br><br><br>
+                <tr>
+                <th>ligne</th>
+                <th>URL</th>
+                <th>code</th>
+                <th>encodage</th>
+                <th>aspirations</th>
+                <th>dumps</th>
+                <th>compte</th>
+                <th>contexte</th>
+                <th>concordances</th>
+                </tr>
+            <tr>
+                    <td>1</td>
+                    <td><a href=https://it.wiktionary.org/wiki/albero>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-1.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-1.txt'>dump-text</a>
+                    </td>
+                    <td>      31</td>
+               <td>
+                    <a href='../contextes/contexte-italien-1.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-1.html'>concordancier</a>
+                    </td>
                     </tr>
-                    <tr>
-                         <td>1</td>
-                         <td><a href=https://it.wiktionary.org/wiki/albero>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-1.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-1.txt'>dump-text</a>
-                         </td>
-                         <td> 31</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-1.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-1.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>2</td>
+                    <td><a href=https://it.wikipedia.org/wiki/Albero_a_camme>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-2.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-2.txt'>dump-text</a>
+                    </td>
+                    <td>      31</td>
+               <td>
+                    <a href='../contextes/contexte-italien-2.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-2.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>2</td>
-                         <td><a href=https://it.wikipedia.org/wiki/Albero_a_camme>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-2.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-2.txt'>dump-text</a>
-                         </td>
-                         <td> 31</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-2.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-2.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>3</td>
+                    <td><a href=https://it.wikipedia.org/wiki/Albero_(meccanica)>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-3.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-3.txt'>dump-text</a>
+                    </td>
+                    <td>      32</td>
+               <td>
+                    <a href='../contextes/contexte-italien-3.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-3.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>3</td>
-                         <td><a href=https://it.wikipedia.org/wiki/Albero_(meccanica)>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-3.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-3.txt'>dump-text</a>
-                         </td>
-                         <td> 32</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-3.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-3.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>4</td>
+                    <td><a href=https://en.wiktionary.org/wiki/albero_da_frutto>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-4.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-4.txt'>dump-text</a>
+                    </td>
+                    <td>       5</td>
+               <td>
+                    <a href='../contextes/contexte-italien-4.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-4.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>4</td>
-                         <td><a href=https://en.wiktionary.org/wiki/albero_da_frutto>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-4.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-4.txt'>dump-text</a>
-                         </td>
-                         <td> 5</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-4.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-4.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>5</td>
+                    <td><a href=https://it.wikipedia.org/wiki/Albero_(vela)>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-5.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-5.txt'>dump-text</a>
+                    </td>
+                    <td>      54</td>
+               <td>
+                    <a href='../contextes/contexte-italien-5.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-5.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>5</td>
-                         <td><a href=https://it.wikipedia.org/wiki/Albero_(vela)>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-5.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-5.txt'>dump-text</a>
-                         </td>
-                         <td> 54</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-5.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-5.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>6</td>
+                    <td><a href=https://www.batteriaper.com/it/notizie/albero-di-una-barca-a-vela-tutti-nomi-dellalbero-di-una-barca-a-vela-943>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-6.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-6.txt'>dump-text</a>
+                    </td>
+                    <td>      14</td>
+               <td>
+                    <a href='../contextes/contexte-italien-6.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-6.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>6</td>
-                         <td><a
-                                   href=https://www.batteriaper.com/it/notizie/albero-di-una-barca-a-vela-tutti-nomi-dellalbero-di-una-barca-a-vela-943>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-6.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-6.txt'>dump-text</a>
-                         </td>
-                         <td> 14</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-6.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-6.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>7</td>
+                    <td><a href=https://it.wikipedia.org/wiki/Albero_di_maestra>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-7.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-7.txt'>dump-text</a>
+                    </td>
+                    <td>      15</td>
+               <td>
+                    <a href='../contextes/contexte-italien-7.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-7.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>7</td>
-                         <td><a href=https://it.wikipedia.org/wiki/Albero_di_maestra>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-7.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-7.txt'>dump-text</a>
-                         </td>
-                         <td> 15</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-7.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-7.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>8</td>
+                    <td><a href=https://it.wikipedia.org/wiki/Albero_genealogico>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-8.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-8.txt'>dump-text</a>
+                    </td>
+                    <td>      11</td>
+               <td>
+                    <a href='../contextes/contexte-italien-8.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-8.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>8</td>
-                         <td><a href=https://it.wikipedia.org/wiki/Albero_genealogico>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-8.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-8.txt'>dump-text</a>
-                         </td>
-                         <td> 11</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-8.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-8.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>9</td>
+                    <td><a href=https://www.larousse.fr/dictionnaires/italien-francais/albero/2168>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-9.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-9.txt'>dump-text</a>
+                    </td>
+                    <td>      10</td>
+               <td>
+                    <a href='../contextes/contexte-italien-9.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-9.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>9</td>
-                         <td><a href=https://www.larousse.fr/dictionnaires/italien-francais/albero/2168>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-9.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-9.txt'>dump-text</a>
-                         </td>
-                         <td> 10</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-9.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-9.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>10</td>
+                    <td><a href=https://www.piante.it/alberi/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-10.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-10.txt'>dump-text</a>
+                    </td>
+                    <td>      21</td>
+               <td>
+                    <a href='../contextes/contexte-italien-10.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-10.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>10</td>
-                         <td><a href=https://www.piante.it/alberi />URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-10.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-10.txt'>dump-text</a>
-                         </td>
-                         <td> 21</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-10.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-10.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>11</td>
+                    <td><a href=https://www.ecologica.it/giardinaggio/alberi/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-11.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-11.txt'>dump-text</a>
+                    </td>
+                    <td>      59</td>
+               <td>
+                    <a href='../contextes/contexte-italien-11.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-11.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>11</td>
-                         <td><a href=https://www.ecologica.it/giardinaggio/alberi />URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-11.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-11.txt'>dump-text</a>
-                         </td>
-                         <td> 59</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-11.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-11.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>12</td>
+                    <td><a href=https://it.wikiquote.org/wiki/Albero>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-12.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-12.txt'>dump-text</a>
+                    </td>
+                    <td>      64</td>
+               <td>
+                    <a href='../contextes/contexte-italien-12.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-12.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>12</td>
-                         <td><a href=https://it.wikiquote.org/wiki/Albero>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-12.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-12.txt'>dump-text</a>
-                         </td>
-                         <td> 64</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-12.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-12.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>13</td>
+                    <td><a href=https://www.faidate360.com/alberi.html>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-13.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-13.txt'>dump-text</a>
+                    </td>
+                    <td>      43</td>
+               <td>
+                    <a href='../contextes/contexte-italien-13.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-13.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>13</td>
-                         <td><a href=https://www.faidate360.com/alberi.html>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-13.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-13.txt'>dump-text</a>
-                         </td>
-                         <td> 43</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-13.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-13.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>14</td>
+                    <td><a href=https://www.lafossa.eu/alberi-e-arbusti/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-14.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-14.txt'>dump-text</a>
+                    </td>
+                    <td>       8</td>
+               <td>
+                    <a href='../contextes/contexte-italien-14.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-14.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>14</td>
-                         <td><a href=https://www.lafossa.eu/alberi-e-arbusti />URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-14.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-14.txt'>dump-text</a>
-                         </td>
-                         <td> 8</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-14.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-14.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>15</td>
+                    <td><a href=https://www.isaitalia.org/partner/78-sia-junior/speciale-autunno/344-riconoscere-gli-alberi.html>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-15.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-15.txt'>dump-text</a>
+                    </td>
+                    <td>      23</td>
+               <td>
+                    <a href='../contextes/contexte-italien-15.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-15.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>15</td>
-                         <td><a
-                                   href=https://www.isaitalia.org/partner/78-sia-junior/speciale-autunno/344-riconoscere-gli-alberi.html>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-15.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-15.txt'>dump-text</a>
-                         </td>
-                         <td> 23</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-15.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-15.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>16</td>
+                    <td><a href=https://www.paulowniaitaly.com/l-albero-della-paulownia>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-16.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-16.txt'>dump-text</a>
+                    </td>
+                    <td>      23</td>
+               <td>
+                    <a href='../contextes/contexte-italien-16.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-16.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>16</td>
-                         <td><a href=https://www.paulowniaitaly.com/l-albero-della-paulownia>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-16.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-16.txt'>dump-text</a>
-                         </td>
-                         <td> 23</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-16.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-16.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>17</td>
+                    <td><a href=https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-17.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-17.txt'>dump-text</a>
+                    </td>
+                    <td>      38</td>
+               <td>
+                    <a href='../contextes/contexte-italien-17.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-17.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>17</td>
-                         <td><a
-                                   href=https://micheledignazio.org/2018/05/30/che-tipo-di-albero-sei-e-qual-e-la-tua-fotosintesi-clorofilliana />URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-17.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-17.txt'>dump-text</a>
-                         </td>
-                         <td> 38</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-17.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-17.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>18</td>
+                    <td><a href=https://trentinogarden.com/it/12-albero-di-natale>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-18.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-18.txt'>dump-text</a>
+                    </td>
+                    <td>      43</td>
+               <td>
+                    <a href='../contextes/contexte-italien-18.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-18.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>18</td>
-                         <td><a href=https://trentinogarden.com/it/12-albero-di-natale>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-18.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-18.txt'>dump-text</a>
-                         </td>
-                         <td> 43</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-18.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-18.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>19</td>
+                    <td><a href=http://web.tiscali.it/vigodarzere/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-19.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-19.txt'>dump-text</a>
+                    </td>
+                    <td>      39</td>
+               <td>
+                    <a href='../contextes/contexte-italien-19.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-19.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>19</td>
-                         <td><a href=http://web.tiscali.it/vigodarzere />URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-19.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-19.txt'>dump-text</a>
-                         </td>
-                         <td> 39</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-19.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-19.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>20</td>
+                    <td><a href=https://www.ilmeteo.net/notizie/scienza/scopri-albero-frankenstein-capace-produrre-fino-a-40-tipi-diversi-di-frutti-dove-si-trova-e-quali-sono.html>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-20.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-20.txt'>dump-text</a>
+                    </td>
+                    <td>      22</td>
+               <td>
+                    <a href='../contextes/contexte-italien-20.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-20.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>20</td>
-                         <td><a
-                                   href=https://www.ilmeteo.net/notizie/scienza/scopri-albero-frankenstein-capace-produrre-fino-a-40-tipi-diversi-di-frutti-dove-si-trova-e-quali-sono.html>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-20.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-20.txt'>dump-text</a>
-                         </td>
-                         <td> 22</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-20.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-20.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>21</td>
+                    <td><a href=https://www.ilmeteo.net/notizie/scienza/clima-anelli-alberi-rivelano-vero-riscaldamento-del-periodo-caldo-medievale.html>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-21.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-21.txt'>dump-text</a>
+                    </td>
+                    <td>      14</td>
+               <td>
+                    <a href='../contextes/contexte-italien-21.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-21.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>21</td>
-                         <td><a
-                                   href=https://www.ilmeteo.net/notizie/scienza/clima-anelli-alberi-rivelano-vero-riscaldamento-del-periodo-caldo-medievale.html>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-21.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-21.txt'>dump-text</a>
-                         </td>
-                         <td> 14</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-21.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-21.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>22</td>
+                    <td><a href=https://www.agrimag.it/albero-fiori-bianchi-tutto-quello-che-devi-sapere-2/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-22.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-22.txt'>dump-text</a>
+                    </td>
+                    <td>      88</td>
+               <td>
+                    <a href='../contextes/contexte-italien-22.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-22.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>22</td>
-                         <td><a
-                                   href=https://www.agrimag.it/albero-fiori-bianchi-tutto-quello-che-devi-sapere-2 />URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-22.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-22.txt'>dump-text</a>
-                         </td>
-                         <td> 88</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-22.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-22.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>23</td>
+                    <td><a href=https://it.wikipedia.org/wiki/Albero_di_Natale>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-23.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-23.txt'>dump-text</a>
+                    </td>
+                    <td>     242</td>
+               <td>
+                    <a href='../contextes/contexte-italien-23.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-23.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>23</td>
-                         <td><a href=https://it.wikipedia.org/wiki/Albero_di_Natale>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-23.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-23.txt'>dump-text</a>
-                         </td>
-                         <td> 242</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-23.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-23.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>24</td>
+                    <td><a href=https://www.focusjunior.it/scuola/storia/natale-chi-ha-inventato-l-albero-di-natale/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-24.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-24.txt'>dump-text</a>
+                    </td>
+                    <td>      21</td>
+               <td>
+                    <a href='../contextes/contexte-italien-24.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-24.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>24</td>
-                         <td><a
-                                   href=https://www.focusjunior.it/scuola/storia/natale-chi-ha-inventato-l-albero-di-natale />URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-24.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-24.txt'>dump-text</a>
-                         </td>
-                         <td> 21</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-24.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-24.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>25</td>
+                    <td><a href=https://www.grazia.it/stile-di-vita/tendenze-lifestyle/come-addobbare-albero-di-natale>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-25.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-25.txt'>dump-text</a>
+                    </td>
+                    <td>      47</td>
+               <td>
+                    <a href='../contextes/contexte-italien-25.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-25.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>25</td>
-                         <td><a
-                                   href=https://www.grazia.it/stile-di-vita/tendenze-lifestyle/come-addobbare-albero-di-natale>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-25.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-25.txt'>dump-text</a>
-                         </td>
-                         <td> 47</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-25.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-25.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>26</td>
+                    <td><a href=https://www.lescreations.it/albero-della-vita-un-simbolo-antico-e-ricco-di-significato/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-26.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-26.txt'>dump-text</a>
+                    </td>
+                    <td>      27</td>
+               <td>
+                    <a href='../contextes/contexte-italien-26.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-26.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>26</td>
-                         <td><a
-                                   href=https://www.lescreations.it/albero-della-vita-un-simbolo-antico-e-ricco-di-significato />URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-26.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-26.txt'>dump-text</a>
-                         </td>
-                         <td> 27</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-26.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-26.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>27</td>
+                    <td><a href=https://www.zanolli.com/magazine/qual-e-il-significato-dellalbero-della-vita>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-27.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-27.txt'>dump-text</a>
+                    </td>
+                    <td>     141</td>
+               <td>
+                    <a href='../contextes/contexte-italien-27.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-27.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>27</td>
-                         <td><a
-                                   href=https://www.zanolli.com/magazine/qual-e-il-significato-dellalbero-della-vita>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-27.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-27.txt'>dump-text</a>
-                         </td>
-                         <td> 141</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-27.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-27.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>28</td>
+                    <td><a href=https://www.myriamartesacrastore.it/blog/qual-significato-albero-della-vita.html>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-28.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-28.txt'>dump-text</a>
+                    </td>
+                    <td>      57</td>
+               <td>
+                    <a href='../contextes/contexte-italien-28.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-28.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>28</td>
-                         <td><a
-                                   href=https://www.myriamartesacrastore.it/blog/qual-significato-albero-della-vita.html>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-28.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-28.txt'>dump-text</a>
-                         </td>
-                         <td> 57</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-28.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-28.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>29</td>
+                    <td><a href=https://www.palaisdurosaire.com/it/blog/qual-e-il-significato-dell-albero-della-vita-per-i-cristiani-n73>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-29.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-29.txt'>dump-text</a>
+                    </td>
+                    <td>      75</td>
+               <td>
+                    <a href='../contextes/contexte-italien-29.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-29.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>29</td>
-                         <td><a
-                                   href=https://www.palaisdurosaire.com/it/blog/qual-e-il-significato-dell-albero-della-vita-per-i-cristiani-n73>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-29.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-29.txt'>dump-text</a>
-                         </td>
-                         <td> 75</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-29.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-29.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>30</td>
+                    <td><a href=https://www.tuscanypeople.com/significato-albero-della-vita-simbolo/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-30.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-30.txt'>dump-text</a>
+                    </td>
+                    <td>      43</td>
+               <td>
+                    <a href='../contextes/contexte-italien-30.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-30.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>30</td>
-                         <td><a href=https://www.tuscanypeople.com/significato-albero-della-vita-simbolo />URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-30.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-30.txt'>dump-text</a>
-                         </td>
-                         <td> 43</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-30.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-30.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>31</td>
+                    <td><a href=https://www.holyart.it/blog/articoli-religiosi/lalbero-della-vita-esiste-davvero/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-31.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-31.txt'>dump-text</a>
+                    </td>
+                    <td>      62</td>
+               <td>
+                    <a href='../contextes/contexte-italien-31.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-31.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>31</td>
-                         <td><a
-                                   href=https://www.holyart.it/blog/articoli-religiosi/lalbero-della-vita-esiste-davvero />URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-31.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-31.txt'>dump-text</a>
-                         </td>
-                         <td> 62</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-31.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-31.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>32</td>
+                    <td><a href=https://it.wikipedia.org/wiki/Albero_sintattico>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-32.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-32.txt'>dump-text</a>
+                    </td>
+                    <td>      17</td>
+               <td>
+                    <a href='../contextes/contexte-italien-32.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-32.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>32</td>
-                         <td><a href=https://it.wikipedia.org/wiki/Albero_sintattico>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-32.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-32.txt'>dump-text</a>
-                         </td>
-                         <td> 17</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-32.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-32.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>33</td>
+                    <td><a href=https://it.wikipedia.org/wiki/Albero_sintattico_astratto>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-33.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-33.txt'>dump-text</a>
+                    </td>
+                    <td>      17</td>
+               <td>
+                    <a href='../contextes/contexte-italien-33.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-33.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>33</td>
-                         <td><a href=https://it.wikipedia.org/wiki/Albero_sintattico_astratto>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-33.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-33.txt'>dump-text</a>
-                         </td>
-                         <td> 17</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-33.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-33.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>34</td>
+                    <td><a href=http://www.integr-abile.unito.it/Libri/Logica/4.1-Sintassi%20della%20logica%20proposizionale.html>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-34.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-34.txt'>dump-text</a>
+                    </td>
+                    <td>      41</td>
+               <td>
+                    <a href='../contextes/contexte-italien-34.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-34.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>34</td>
-                         <td><a
-                                   href=http://www.integr-abile.unito.it/Libri/Logica/4.1-Sintassi%20della%20logica%20proposizionale.html>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-34.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-34.txt'>dump-text</a>
-                         </td>
-                         <td> 41</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-34.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-34.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>35</td>
+                    <td><a href=https://it.wikipedia.org/wiki/Albero_binario>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-35.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-35.txt'>dump-text</a>
+                    </td>
+                    <td>      89</td>
+               <td>
+                    <a href='../contextes/contexte-italien-35.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-35.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>35</td>
-                         <td><a href=https://it.wikipedia.org/wiki/Albero_binario>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-35.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-35.txt'>dump-text</a>
-                         </td>
-                         <td> 89</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-35.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-35.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>36</td>
+                    <td><a href=https://pages.di.unipi.it/romani/DIDATTICA/LSD/LSD/UsoStruttureDati/Trees/main.html>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-36.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-36.txt'>dump-text</a>
+                    </td>
+                    <td>      62</td>
+               <td>
+                    <a href='../contextes/contexte-italien-36.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-36.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>36</td>
-                         <td><a
-                                   href=https://pages.di.unipi.it/romani/DIDATTICA/LSD/LSD/UsoStruttureDati/Trees/main.html>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-36.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-36.txt'>dump-text</a>
-                         </td>
-                         <td> 62</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-36.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-36.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>37</td>
+                    <td><a href=https://vitolavecchia.altervista.org/differenza-tra-albero-binario-e-albero-di-ricerca-binario/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-37.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-37.txt'>dump-text</a>
+                    </td>
+                    <td>      67</td>
+               <td>
+                    <a href='../contextes/contexte-italien-37.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-37.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>37</td>
-                         <td><a
-                                   href=https://vitolavecchia.altervista.org/differenza-tra-albero-binario-e-albero-di-ricerca-binario />URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-37.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-37.txt'>dump-text</a>
-                         </td>
-                         <td> 67</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-37.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-37.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>38</td>
+                    <td><a href=https://forum.html.it/forum/showthread.php?threadid=1413749>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-38.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-38.txt'>dump-text</a>
+                    </td>
+                    <td>       6</td>
+               <td>
+                    <a href='../contextes/contexte-italien-38.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-38.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>38</td>
-                         <td><a href=https://forum.html.it/forum/showthread.php?threadid=1413749>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-38.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-38.txt'>dump-text</a>
-                         </td>
-                         <td> 6</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-38.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-38.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>39</td>
+                    <td><a href=https://www.tubexitalia.it/momento-ideale-per-piantare-un-albero/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-39.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-39.txt'>dump-text</a>
+                    </td>
+                    <td>      25</td>
+               <td>
+                    <a href='../contextes/contexte-italien-39.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-39.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>39</td>
-                         <td><a href=https://www.tubexitalia.it/momento-ideale-per-piantare-un-albero />URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-39.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-39.txt'>dump-text</a>
-                         </td>
-                         <td> 25</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-39.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-39.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>40</td>
+                    <td><a href=https://www.tubexitalia.it/frutticoltura-protezioni-alberi-da-frutto/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-40.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-40.txt'>dump-text</a>
+                    </td>
+                    <td>      22</td>
+               <td>
+                    <a href='../contextes/contexte-italien-40.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-40.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>40</td>
-                         <td><a href=https://www.tubexitalia.it/frutticoltura-protezioni-alberi-da-frutto />URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-40.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-40.txt'>dump-text</a>
-                         </td>
-                         <td> 22</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-40.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-40.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>41</td>
+                    <td><a href=https://www.tubexitalia.it/protezione-per-alberi-ad-ogni-pianta-il-suo-shelter-tubex/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-41.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-41.txt'>dump-text</a>
+                    </td>
+                    <td>      21</td>
+               <td>
+                    <a href='../contextes/contexte-italien-41.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-41.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>41</td>
-                         <td><a
-                                   href=https://www.tubexitalia.it/protezione-per-alberi-ad-ogni-pianta-il-suo-shelter-tubex />URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-41.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-41.txt'>dump-text</a>
-                         </td>
-                         <td> 21</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-41.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-41.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>42</td>
+                    <td><a href=https://it.magicgardening.net/4579-which-season-is-the-right-time-to-plant-trees>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-42.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-42.txt'>dump-text</a>
+                    </td>
+                    <td>      21</td>
+               <td>
+                    <a href='../contextes/contexte-italien-42.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-42.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>42</td>
-                         <td><a
-                                   href=https://it.magicgardening.net/4579-which-season-is-the-right-time-to-plant-trees>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-42.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-42.txt'>dump-text</a>
-                         </td>
-                         <td> 20</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-42.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-42.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>43</td>
+                    <td><a href=https://www.vivaigabbianelli.it/it/blogs/21_piantare-alberi-da-frutto-guida-pratica.html>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-43.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-43.txt'>dump-text</a>
+                    </td>
+                    <td>     115</td>
+               <td>
+                    <a href='../contextes/contexte-italien-43.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-43.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>43</td>
-                         <td><a
-                                   href=https://www.vivaigabbianelli.it/it/blogs/21_piantare-alberi-da-frutto-guida-pratica.html>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-43.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-43.txt'>dump-text</a>
-                         </td>
-                         <td> 115</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-43.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-43.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>44</td>
+                    <td><a href=https://www.lineaverdenicolini.it/home/gli-alberi-il-cinema-e-la-trinita/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-44.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-44.txt'>dump-text</a>
+                    </td>
+                    <td>      35</td>
+               <td>
+                    <a href='../contextes/contexte-italien-44.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-44.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>44</td>
-                         <td><a href=https://www.lineaverdenicolini.it/home/gli-alberi-il-cinema-e-la-trinita />URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-44.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-44.txt'>dump-text</a>
-                         </td>
-                         <td> 35</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-44.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-44.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>45</td>
+                    <td><a href=https://www.lifegate.it/alberi-cinema-10-storie-di-alberi-sul-grande-schermo>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-45.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-45.txt'>dump-text</a>
+                    </td>
+                    <td>      36</td>
+               <td>
+                    <a href='../contextes/contexte-italien-45.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-45.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>45</td>
-                         <td><a
-                                   href=https://www.lifegate.it/alberi-cinema-10-storie-di-alberi-sul-grande-schermo>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-45.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-45.txt'>dump-text</a>
-                         </td>
-                         <td> 36</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-45.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-45.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>46</td>
+                    <td><a href=https://it.ign.com/guardiani-della-galassia/86945/feature/la-top-10-degli-alberi-del-cinema>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-46.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-46.txt'>dump-text</a>
+                    </td>
+                    <td>      44</td>
+               <td>
+                    <a href='../contextes/contexte-italien-46.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-46.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>46</td>
-                         <td><a
-                                   href=https://it.ign.com/guardiani-della-galassia/86945/feature/la-top-10-degli-alberi-del-cinema>URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-46.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-46.txt'>dump-text</a>
-                         </td>
-                         <td> 44</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-46.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-46.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>47</td>
+                    <td><a href=https://www.innaturale.com/i-tre-alberi-piu-famosi-visti-al-cinema>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-47.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-47.txt'>dump-text</a>
+                    </td>
+                    <td>      19</td>
+               <td>
+                    <a href='../contextes/contexte-italien-47.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-47.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>47</td>
-                         <td><a href=https://www.innaturale.com/i-tre-alberi-piu-famosi-visti-al-cinema>URL</a></td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-47.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-47.txt'>dump-text</a>
-                         </td>
-                         <td> 19</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-47.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-47.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>48</td>
+                    <td><a href=https://blog.screenweek.it/2020/12/gli-alberi-di-natale-piu-iconici-del-cinema-e-della-tv-760117.php/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-48.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-48.txt'>dump-text</a>
+                    </td>
+                    <td>      24</td>
+               <td>
+                    <a href='../contextes/contexte-italien-48.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-48.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>48</td>
-                         <td><a
-                                   href=https://blog.screenweek.it/2020/12/gli-alberi-di-natale-piu-iconici-del-cinema-e-della-tv-760117.php />URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-48.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-48.txt'>dump-text</a>
-                         </td>
-                         <td> 24</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-48.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-48.html'>concordancier</a>
-                         </td>
+    
+            <tr>
+                    <td>49</td>
+                    <td><a href=https://libricalzelunghe.it/2017/10/12/albero-nella-letteratura-per-ragazzi/>URL</a></td>
+                    <td>200</td>
+                    <td> UTF-8 </td>
+                    <td>
+                    <a href='../aspirations/aspiration-italien-49.html'>aspiration</a>
+                    </td>
+                    <td>
+                    <a href='../dumps-text/dump-text-italien-49.txt'>dump-text</a>
+                    </td>
+                    <td>      84</td>
+               <td>
+                    <a href='../contextes/contexte-italien-49.txt'>contexte</a>
+                    </td>
+                    <td>
+                    <a href='../Concordances/concordances-italien-49.html'>concordancier</a>
+                    </td>
                     </tr>
-
-                    <tr>
-                         <td>49</td>
-                         <td><a
-                                   href=https://libricalzelunghe.it/2017/10/12/albero-nella-letteratura-per-ragazzi />URL</a>
-                         </td>
-                         <td>200</td>
-                         <td> UTF-8 </td>
-                         <td>
-                              <a href='../aspirations/aspiration-italien-49.html'>aspiration</a>
-                         </td>
-                         <td>
-                              <a href='../dumps-text/dump-text-italien-49.txt'>dump-text</a>
-                         </td>
-                         <td> 84</td>
-                         <td>
-                              <a href='../contextes/contexte-italien-49.txt'>contexte</a>
-                         </td>
-                         <td>
-                              <a href='../Concordances/concordances-italien-49.html'>concordancier</a>
-                         </td>
-                    </tr>
-
-               </table>
-          </div>
-</body>
-
-</html>
+    
+</table></div></body></html>

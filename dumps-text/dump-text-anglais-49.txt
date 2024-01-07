@@ -1,255 +1,196 @@
    Link: canonical
-   TOPICS
-   _____________________ Search Close
-   _____________________ Search
-   Algebra Applied Mathematics Calculus and Analysis Discrete Mathematics
-   Foundations of Mathematics Geometry History and Terminology Number Theory
-   Probability and Statistics Recreational Mathematics Topology Alphabetical
-   Index New in MathWorld
-     * Discrete Mathematics
-     * Graph Theory
-     * Trees
-     * Discrete Mathematics
-     * Graph Theory
-     * Simple Graphs
-     * Geodetic Graphs
-     * Discrete Mathematics
-     * Graph Theory
-     * Simple Graphs
-     * Matchstick Graphs
-     * Discrete Mathematics
-     * Graph Theory
-     * Simple Graphs
-     * Unit-Distance Graphs
-     * Discrete Mathematics
-     * Computer Science
-     * Data Structures
-     * History and Terminology
-     * Disciplinary Terminology
-     * Botanical Terminology
-   More...Less...
+   Link: amphtml
+   Skip to content
+   13abc Marketplace
+   Contests
+   Military Greetings
+   Home Giveaway
+   Community Calendar
+   The Nine
+   Ohio Lottery
+   LBs Challenge
+     * Local News
+     * I-TEAM
+     * First Alert Weather
+     * Sports Video
+     * Solar Eclipse
+     * Watch Live
+     * Links We Mentioned
+   [ Submit ]
+     * Home
+          * Community Calendar
+     * Submit Photos and Video
+     * Local News
+          * Action News Now
+          * Crime
+          * I-TEAM
+          * National
+          * Special Reports
+          * UAW Strike
+          * Your Vote
+     * Sports
+          * Sports Video
+          * Stats & Predictions
+          * How to Watch
+     * Programming Schedule
+     * First Alert Weather
+          * Closings & Delays
+          * Live Action Cams
+          * 13abc First Alert Weather App
+     * Solar Eclipse
+     * About Us
+          * Contact Us
+          * Contests
+          * Careers
+          * Newsletter
+          * Programming Schedule
+          * Advertise With Us
+     * Watch Live
+     * The Nine
+     * 13abc Originals
+          * Building Better Schools
+          * Case Files
+          * Dine 419
+          * Feel Good Friday
+          * Finds in the 419
+          * Getting School'd
+          * Hittin' The Town
+          * Metroparks Meetup
+          * Moment of Science
+          * Neighborhood Nuisance
+          * Spacing Out
+          * Throwback Toledo
+     * Bright Side
+     * This is Home
+     * Links We Mentioned
+     * Action News Now - Digital Exclusives
+     * Mr. Food
+     * Best Of Class
+     * Latest Newscasts
+     * Circle - Country Music & Lifestyle
+     * Gray DC Bureau
+     * InvestigateTV
+     * PowerNation
 
-                                      Tree
+Toledo man left paralyzed after tree trimming accident speaks out for the first
+                          time in exclusive interview
 
-     ----------------------------------------------------------------------
+   Matt Thieman and his brother Tony were cutting down a tree in their
+   mother’s Toledo yard on Dec. 16.
+   By Carli Petrus
+   Published: Jan. 4, 2024 at 6:44 AM EST
 
-   DOWNLOAD Mathematica NotebookDownload Wolfram Notebook
-   Trees
+   TOLEDO, Ohio (WTVG) - A local tree trimmer speaking out for the very first
+   time after he was left paralyzed in a freak accident just a few weeks ago.
 
-   A tree is a mathematical structure that can be viewed as either a graph or
-   as a data structure. The two views are equivalent, since a tree data
-   structure contains not only a set of elements, but also connections
-   between elements, giving a tree graph.
+   Matt Thieman says he and his brother Tony were cutting down a tree in
+   their mother’s Toledo yard on December 16, 2023, when a dead limb fell and
+   crushed his body.
 
-   Trees were first studied by Cayley (1857). McKay maintains a database of
-   trees up to 18 vertices, and Royle maintains one up to 20 vertices.
+   “The speed of the log coming, it was just, there wasn’t enough time to get
+   out of the way, and it was enough to smash me head to toe to the ground,”
+   said Thieman. “I covered my head and it smashed right through my arm and
+   busted everything up.”
 
-   A tree is a set of straight line segments connected at their ends
-   containing no closed loops (cycles). In other words, it is a simple,
-   undirected, connected, acyclic graph (or, equivalently, a connected
-   forest). A tree with n nodes has n-1 graph edges. Conversely, a connected
-   graph with n nodes and n-1 edges is a tree. All trees are bipartite graphs
-   (Skiena 1990, p. 213). Trees with no particular node singled out are
-   sometimes called free trees (or unrooted tree), by way of distinguishing
-   them from rooted trees (Skiena 1990, Knuth 1997).
+   With more than 20 years in the tree trimming business, Thieman says this
+   was never supposed to happen.
 
-   The points of connection are known as forks and the segments as branches.
-   Final segments and the nodes at their ends are called tree leaves. A tree
-   with two branches at each fork and with one or two tree leaves at the end
-   of each branch is called a binary tree.
+   “I just remember that we were using rope, doing everything correctly,
+   having it tied off.”
 
-   A graph can be tested in the Wolfram Language to see if it is a tree using
-   TreeGraphQ[g].
+   Now laying in a rehab center, paralyzed from the chest down he says all he
+   can do is just take it day by day.
 
-   Hydrocarbons
+   “I’m rolling with the punches and trying to find my way through,” Thieman
+   said.
 
-   Trees find applications in many diverse fields, including computer
-   science, the enumeration of saturated hydrocarbons, the study of
-   electrical circuits, etc. (Harary 1994, p. 4). The graphs graphs
-   corresponding to linear hydrocarbons illustrated above are known as
-   (n-)alkane graphs (or sometimes caterpillar graphs).
+   He believes the outpour of support from loved ones is helping him stay
+   positive. Even strangers are reaching out to lend a helping hand.
 
-   Trees are block graphs.
+   A 13 Action News viewer donated his late wife’s barely used electric
+   wheelchair to Thieman after seeing the original story about the accident.
 
-   A tree T has either one node that is a graph center, in which case it is
-   called a centered tree, or two adjacent nodes that are graph centers, in
-   which case it is called a bicentered tree (Harary 1994, p. 35).
+   “When I saw the article it just had to go, it had to go to him,” said the
+   viewer who wished to stay anonymous.
 
-   When a special node is designated to turn a tree into a rooted tree, it is
-   called the root (or sometimes "Eve"). In such a tree, each of the nodes
-   that is one graph edge further away from a given node is called a child,
-   and nodes connected to the same node that are the same distance from the
-   root vertex are called siblings.
+   Although the road to recovery for Thieman will be a long one, he says he
+   is choosing to take the high road.
 
-   Note that two branches placed end-to-end are equivalent to a single
-   branch, which means for example, that there is only one tree of order 3.
-   The number t(n) of nonisomorphic trees of order n=1, 2, ... (where trees
-   of orders 1, 2, ..., 6 are illustrated above), are 1, 1, 1, 2, 3, 6, 11,
-   23, 47, 106, 235, 551, 1301, 3159, ... (OEIS A000055).
+   See a spelling or grammar error in our story? Please include the title
+   when you click here to report it.
 
-   The generating functions for the number of rooted trees
+   Copyright 2024 WTVG. All rights reserved.
 
-                  T(x) =  sum_(n=1)^(infty)T_nx^n                         (1) 
-                       =  xexp[sum_(r=1)^(infty)1/rT(x^r)]                (2) 
+    Most Read
 
-   is related to the generating function for the number of unrooted trees
-   t(x) by
+   [IMG]
 
-                      t(x) =  sum_(n=1)^(infty)t_nx^n                     (3) 
-                           =  T(x)-1/2[T^2(x)-T(x^2)].                    (4) 
+        Maumee hotel staff unexpectedly quits, walks out on customers Saturday
 
-   Otter showed that
+   Ohio Statehouse
 
-   lim_(n->infty)(t_nn^(5/2))/(alpha^n)=beta,                             (5) 
+        New Ohio laws taking effect
 
-   (Otter 1948, Harary and Palmer 1973, Knuth 1997), where alpha and beta are
-   two constants. alpha is given by
+   Woman seriously injured after single vehicle crash on Western Ave.
 
-                   alpha =  lim_(n->infty)(T_n)/(T_(n-1))                 (6) 
-                         =  2.955765...                                   (7) 
+        Toledo woman dies from injuries in rollover crash
 
-   (OEIS A051491; Odlyzko 1995; Knuth 1997, p. 396, where Knuth writes
-   1/alpha=2.9557... instead of alpha=2.9557...) and also as the unique
-   positive root of
+   Sterling “Butch” Rahe
 
-   T(1/x)=1.                                                              (8) 
+        Community mourns the loss of Pvt. Sterling “Butch” Rahe, the public face
+        of Toledo Fire & Rescue
 
-   The constant beta is given by
+   Jewel Martinez
 
-beta = 1/(sqrt(2pi))[1+sum_(k=2)^(infty)T^'(1/(alpha^k))1/(alpha^k)]^(3/2)  (9) 
-     = 0.5349485...                                                        (10) 
+        Bond set for woman charged in fatal wrong way crash in Toledo
 
-   (OEIS A086308; Knuth 1997, p. 396).
+    Latest News
 
-   If t_n is the number of nonisomorphic trees on n nodes, then an asymptotic
-   series for t_n is given by
+   Troopers said the shooting stemmed from a road rage incident.
 
-t_n∼alpha^nn^(-5/2)(0.5349496061...+(0.0441699018...)/n+(0.4853877311...)/(n^2)+(2.379745574...)/(n^3)+...), (11) 
+        Monroe Sheriff in search of suspect in Saturday road rage shooting
 
-   where the constants can be computed in terms of partial derivatives of the
-   function
+   First Alert Weather Day
 
-   F(x,y)=xexp[y+sum_(k=2)^infty(T(x^k))/k]-y                            (12) 
+        First Alert Weather Day issued for Tuesday: Snow expected to impact
+        morning commute
 
-   (Plotkin and Rosenthal 1994; Finch 2003).
+   We are entering a rather active week with four different weather systems
+   in the forecast.
 
-     ----------------------------------------------------------------------
+        1/7: Erin's Sunday Forecast
 
-See also
+   We are entering a rather active week with four different weather systems
+   in the forecast.
 
-   Alkane Graph, B-Tree, Banana Tree, Barnsley's Tree, Bicentered Tree,
-   Binary Tree, Caterpillar Graph, Cayley Tree, Centered Tree, Child,
-   Dijkstra Tree, Extended Binary Tree, Forest, Free Tree, Kruskal's
-   Algorithm, Kruskal's Tree Theorem, Labeled Tree, Lobster Graph, Mandelbrot
-   Tree, Matrix Tree Theorem, Orchard-Planting Problem, Ordered Tree, Otter's
-   Theorem, Path Graph, Planted Planar Tree, Pólya Enumeration Theorem,
-   Polynema, Pythagoras Tree, Quadtree, Ramus Tree, Red-Black Tree, Root
-   Vertex, Rooted Tree, Series-Reduced Tree, Sibling, Spanning Tree, Star
-   Graph, Steiner Tree, Stern-Brocot Tree, Tree Decomposition, Tree Leaf,
-   Tree Searching, Weakly Binary Tree, Weighted Tree Explore this topic in
-   the MathWorld classroom
+        1/7: Erin's Sunday Forecast
 
-Explore with Wolfram|Alpha
+   1/6: Derek's Saturday 11pm Forecast
 
-   WolframAlpha
-   _____________________ [ Submit ]
+        1/6: Derek's Saturday 11pm Forecast
 
-   More things to try:
-
-     * tree
-     * 5:1 odds
-     * cos x
-
-References
-
-   Finch, S. R. "Otter's Tree Enumeration Constants." §5.6 in Mathematical
-   Constants. Cambridge, England: Cambridge University Press, pp. 295-316,
-   2003.Bergeron, F.; Leroux, P.; and Labelle, G. Combinatorial Species and
-   Tree-Like Structures. Cambridge, England: Cambridge University Press,
-   p. 284, 1998.Cayley, A. "On the Theory of Analytic Forms Called Trees."
-   Philos. Mag. 13, 19-30, 1857. Reprinted in Mathematical Papers, Vol. 3.
-   Cambridge: pp. 242-246, 1891.Chauvin, B.; Cohen, S.; and Rouault, A.
-   (Eds.). Trees: Workshop in Versailles, June 14-16, 1995. Basel,
-   Switzerland: Birkhäuser, 1996.Finch, S. "Two Asymptotic Series." December
-   10, 2003. http://algo.inria.fr/bsolve/.Gardner, M. "Trees." Ch. 17 in
-   Mathematical Magic Show: More Puzzles, Games, Diversions, Illusions and
-   Other Mathematical Sleight-of-Mind from Scientific American. New York:
-   Vintage, pp. 240-250, 1978.Graham, R. L.; Knuth, D. E.; and Patashnik, O.
-   Concrete Mathematics: A Foundation for Computer Science, 2nd ed. Reading,
-   MA: Addison-Wesley, 1994.Harary, F. "Trees." Ch. 4 in Graph Theory.
-   Reading, MA: Addison-Wesley, pp. 32-42, 187-194, and 231-234, 1994.Harary,
-   F. and Manvel, B. "Trees." Scripta Math. 28, 327-333, 1970.Harary, F. and
-   Palmer, E. M. "Trees." Ch. 3 in Graphical Enumeration. New York: Academic
-   Press, pp. 51-80, 1973.Knuth, D. E. The Art of Computer Programming,
-   Vol. 1: Fundamental Algorithms, 3rd ed. Reading, MA: Addison-Wesley,
-   1997.König, D. Theorie der endlichen und unendlichen Graphen. New York:
-   Chelsea, p. 48, 1950.McKay, B. D. "Trees Sorted by Diameter."
-   http://cs.anu.edu.au/~bdm/data/trees.html.Nijenhuis, A. and Wilf, H.
-   Combinatorial Algorithms for Computers and Calculators, 2nd ed. New York:
-   Academic Press, 1978.Odlyzko, A. M. "Asymptotic Enumeration Methods." In
-   Handbook of Combinatorics, Vol. 2 (Ed. R. L. Graham, M. Grötschel, and
-   L. Lovász). Cambridge, MA: MIT Press, pp. 1063-1229, 1995.
-   http://www.dtc.umn.edu/~odlyzko/doc/asymptotic.enum.pdf.Otter, R. "The
-   Number of Trees." Ann. Math. 49, 583-599, 1948.Plotkin, J. M. and
-   Rosenthal, J. W. "How to Obtain an Asymptotic Expansion of a Sequence from
-   an Analytic Identity Satisfied by Its Generating Function." J. Austral.
-   Math. Soc. Ser. A 56, 131-143, 1994.Royle, G. "Trees On Up to 16 [sic]
-   Vertices."
-   http://school.maths.uwa.edu.au/~gordon/remote/graphs/#trees.Skiena, S.
-   "Trees." Implementing Discrete Mathematics: Combinatorics and Graph Theory
-   with Mathematica. Reading, MA: Addison-Wesley, pp. 107 and 151-153,
-   1990.Sloane, N. J. A. Sequences A000055/M0791, A051491, and A086308 in
-   "The On-Line Encyclopedia of Integer Sequences."Sloane, N. J. A. and
-   Plouffe, S. Figure M0791 in The Encyclopedia of Integer Sequences. San
-   Diego: Academic Press, 1995.Wilf, H. S. Combinatorial Algorithms: An
-   Update. Philadelphia, PA: SIAM, 1989.
-
-Referenced on Wolfram|Alpha
-
-   Tree
-
-Cite this as:
-
-   Weisstein, Eric W. "Tree." From MathWorld--A Wolfram Web Resource.
-   https://mathworld.wolfram.com/Tree.html
-
-Subject classifications
-
-     * Discrete Mathematics
-     * Graph Theory
-     * Trees
-     * Discrete Mathematics
-     * Graph Theory
-     * Simple Graphs
-     * Geodetic Graphs
-     * Discrete Mathematics
-     * Graph Theory
-     * Simple Graphs
-     * Matchstick Graphs
-     * Discrete Mathematics
-     * Graph Theory
-     * Simple Graphs
-     * Unit-Distance Graphs
-     * Discrete Mathematics
-     * Computer Science
-     * Data Structures
-     * History and Terminology
-     * Disciplinary Terminology
-     * Botanical Terminology
-   More...Less...
-     * About MathWorld
-     * MathWorld Classroom
-     * Contribute
-     * MathWorld Book
-     * wolfram.com
-     * 13,096 Entries
-     * Last Updated: Tue Dec 12 2023
-     * ©1999–2023 Wolfram Research, Inc.
-     * Terms of Use
-     * Wolfram
-     * wolfram.com
-     * Wolfram Language
-     * Mathematica
-     * Wolfram Demonstrations
-     * Wolfram for Education
-   Created, developed and nurtured by Eric Weisstein at Wolfram Research 
+   Home
+   Local News
+   First Alert Weather
+   Sports
+   Community Calendar
+   Live Newscasts
+   Closed Captioning/Audio Description
+   Submit Photos and Videos
+     * WTVG
+     * 4247 Dorr St.
+     * Toledo, OH 43607
+     * (419) 531-1313
+   Terms of Service
+   Privacy Policy
+   Advertising
+   Digital Advertising
+   Public Inspection File
+   Closed Captioning/Audio Description
+   EEO Statement
+   FCC Applications
+   compliance@13abc.com - (419) 531-1313
+   At Gray, our journalists report, write, edit and produce the news content
+   that informs the communities we serve. Click here to learn more about our
+   approach to artificial intelligence.
+   A Gray Media Group, Inc. Station - © 2002-2024 Gray Television, Inc.

@@ -291,8 +291,7 @@ Terminology[edit]
 
    Ordered tree
            A rooted tree in which an ordering is specified for the children
-           of each vertex. The book The Art of Computer Programming uses the
-           term oriented tree.^[4]
+           of each vertex.
 
    Size of a tree
            Number of nodes in the tree.
@@ -367,7 +366,7 @@ Representations[edit]
    tail (list of third and subsequent terms) is the right child.
 
    Ordered trees can be naturally encoded by finite sequences, for example
-   with natural numbers.^[5]
+   with natural numbers.^[4]
 
 Type theory[edit]
 
@@ -457,10 +456,7 @@ References[edit]
     3. ^ Susanna S. Epp (Aug 2010). Discrete Mathematics with Applications.
        Pacific Grove, CA: Brooks/Cole Publishing Co. p. 694.
        ISBN 978-0-495-39132-6.
-    4. ^ Donald Knuth (1997). "Section 2.3.4.2: Oriented trees". The Art of
-       Computer Programming. Vol. 1: Fundamental Algorithms (Third ed.).
-       Addison-Wesley. p. 373.
-    5. ^ L. Afanasiev; P. Blackburn; I. Dimitriou; B. Gaiffe; E. Goris; M.
+    4. ^ L. Afanasiev; P. Blackburn; I. Dimitriou; B. Gaiffe; E. Goris; M.
        Marx; M. de Rijke (2005). "PDL for ordered trees" (PDF). Journal of
        Applied Non-Classical Logics. 15 (2): 115–135.
        doi:10.3166/jancl.15.115-135. S2CID 1979330.
@@ -647,21 +643,20 @@ External links[edit]
      * List of data structures
 
    Retrieved from
-   "https://en.wikipedia.org/w/index.php?title=Tree_(data_structure)&oldid=1192519171"
+   "https://en.wikipedia.org/w/index.php?title=Tree_(data_structure)&oldid=1194176758"
    Categories:
      * Data types
      * Trees (data structures)
      * Knowledge representation
      * Abstract data types
    Hidden categories:
-     * CS1: long volume value
      * Articles with short description
      * Short description is different from Wikidata
      * Articles needing additional references from April 2022
      * All articles needing additional references
      * Wikipedia articles needing clarification from April 2022
      * Commons category link is on Wikidata
-     * This page was last edited on 29 December 2023, at 20:35 (UTC).
+     * This page was last edited on 7 January 2024, at 16:43 (UTC).
      * Text is available under the Creative Commons Attribution-ShareAlike
        License 4.0; additional terms may apply. By using this site, you agree
        to the Terms of Use and Privacy Policy. Wikipedia® is a registered

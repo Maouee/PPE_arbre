@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset='UTF-8'>
+            <link rel=stylesheet href=../Css/main.css>
+            <script src='https://kit.fontawesome.com/b0d5fca4a5.js' crossorigin='anonymous'></script>
+            <script src="../js/prism.js"></script>
+        </head>
+    <body class="has-background-white-bis">
+        <div class="container has-text-centered">
+            <div class="is-centered">
+                <nav class="navbar is-fixed-top is-success" role="navigation" aria-label="main navigation">
+
+                <div id="navbar" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                            <span class="icon is-small mr-1"><i class="fa-solid fa-tree" aria-hidden="true"></i></span>
+                            <span>Accueil</span>
+                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
+                                <span>Tableaux</span>
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../tableaux/tableau_anglais.html">
+                                    🇬🇧 Anglais
+                                </a>
+                                <a class="navbar-item" href="../tableaux/tableau_italien.html">
+                                    🇮🇹 Italien
+                                </a>
+                                <a class="navbar-item" href="../tableaux/tableau_russe.html">
+                                    🇷🇺 Russe
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
+                                <span>Analyses</span>
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../analyses/anglais/anglais.html">
+                                    🇬🇧 Anglais
+                                </a>
+                                <a class="navbar-item" href="../analyses/italien/italien.html">
+                                    🇮🇹 Italien
+                                </a>
+                                <a class="navbar-item" href="../analyses/russe/russe.html">
+                                    🇷🇺 Russe
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                <span class="icon is-small mr-1"><i class="fa-solid fa-code" aria-hidden="true"></i></span>
+                                <span>Scripts</span>
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="../scripts/script_tableaux.html">
+                                    Tableaux
+                                </a>
+                                <a class="navbar-item" href="../scripts/script_concordanciers.html">
+                                    Concordanciers
+                                </a>
+                                <a class="navbar-item" href="../scripts/script_itrameur.html">
+                                    XML
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-dark" href="https://github.com/Maouee/PPE_arbre">
+                                <span class="icon is-small mr-1"><i class="fa-brands fa-github"></i></span>
+                                <strong>Github</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+<br><br><br>
+            <section class="has-text-centered">
+                <div class="box">
+                    <p class="title is-3 has-text-centered"> Script de génération des tableaux </p>
+                    <p> Voilà le script qui est utilisé pour générer le tableau à partir des urls russes. Les pour l'italien et l'anglais sont très similaires,
+                        vous pouvez voir les différences en dessous. Initialement, nous avions un seul script pour les 3 langues, mais nous avons décidé d'en faire
+                        un par langue car les liens de la barre de navigation devenaient difficiles à gérer. Finalement, nous avons changé le design de la barre de 
+                        navigation et nous aurions pu rassembler les trois scripts, mais nous avons décidé que ce n'était pas très important.
+                        <br>
+                    </p>
+                </div>
+                <br>
+            </section>
+            <figure>
+                <pre>
+                    <code class="language-shell">
+#initialisation des variables
+langue="russe"
+file="../urls/urls_${langue}.txt"
+compteur=<span class="token text">0</span>
+
+
+
+#génération de la page html affichant les résultats sous forme de tableau
+##metadonnées
+echo "&lt!DOCTYPE html>
+    &lthtml>
+        &lthead>
+            &ltmeta charset='UTF-8'>
+            &ltlink rel=stylesheet href=../Css/main.css>
+            &ltscript src='https://kit.fontawesome.com/b0d5fca4a5.js' crossorigin='anonymous'>&lt/script>
+        &lt/head>" > ../tableaux/tableau_${langue}.html
+
+echo '    &ltbody class="has-background-white-bis">
+        &ltdiv class="container has-text-centered">
+            &ltdiv class="is-centered">
+                &ltnav class="navbar is-fixed-top is-success" role="navigation" aria-label="main navigation">' >> ../tableaux/tableau_${langue}.html
+
+echo '
+                &ltdiv id="navbar" class="navbar-menu">
+                    &ltdiv class="navbar-start">
+                        &lta class="navbar-item" href="../index.html">
+                            &ltspan class="icon is-small mr-1">&lti class="fa-solid fa-tree" aria-hidden="true">&lt/i>&lt/span>
+                            &ltspan>Accueil&lt/span>
+                        &lt/a>
+                        &ltdiv class="navbar-item has-dropdown is-hoverable">
+                            &lta class="navbar-link">
+                                &ltspan class="icon is-small mr-1">&lti class="fa-solid fa-table" aria-hidden="true">&lt/i>&lt/span>
+                                &ltspan>Tableaux&lt/span>
+                            &lt/a>
+                            &ltdiv class="navbar-dropdown">
+                                &lta class="navbar-item" href="../tableaux/tableau_anglais.html">
+                                    🇬🇧 Anglais
+                                &lt/a>
+                                &lta class="navbar-item" href="../tableaux/tableau_italien.html">
+                                    🇮🇹 Italien
+                                &lt/a>
+                                &lta class="navbar-item" href="../tableaux/tableau_russe.html">
+                                    🇷🇺 Russe
+                                &lt/a>
+                            &lt/div>
+                        &lt/div>
+                        &ltdiv class="navbar-item has-dropdown is-hoverable">
+                            &lta class="navbar-link">
+                                &ltspan class="icon is-small mr-1">&lti class="fa-solid fa-chart-simple" aria-hidden="true">&lt/i>&lt/span>
+                                &ltspan>Analyses&lt/span>
+                            &lt/a>
+                            &ltdiv class="navbar-dropdown">
+                                &lta class="navbar-item" href="../analyses/anglais/anglais.html">
+                                    🇬🇧 Anglais
+                                &lt/a>
+                                &lta class="navbar-item" href="../analyses/italien/italien.html">
+                                    🇮🇹 Italien
+                                &lt/a>
+                                &lta class="navbar-item" href="../analyses/russe/russe.html">
+                                    🇷🇺 Russe
+                                &lt/a>
+                            &lt/div>
+                        &lt/div>
+                    &lt/div>
+                &lt/div>
+                &ltdiv class="navbar-end">
+                    &ltdiv class="navbar-item">
+                        &ltdiv class="buttons">
+                            &lta class="button is-dark" href="https://github.com/Maouee/PPE_arbre">
+                                &ltspan class="icon is-small mr-1">&lti class="fa-brands fa-github">&lt/i>&lt/span>
+                                &ltstrong>Github&lt/strong>
+                            &lt/a>
+                        &lt/div>
+                    &lt/div>
+                &lt/div>
+            &lt/nav>
+            &lttable id=table>' >> ../tableaux/tableau_${langue}.html
+
+
+echo "&ltbr>&ltbr>&ltbr>
+                &lttr>
+                &ltth>ligne&lt/th>
+                &ltth>URL&lt/th>
+                &ltth>code&lt/th>
+                &ltth>encodage&lt/th>
+                &ltth>aspirations&lt/th>
+                &ltth>dumps&lt/th>
+                &ltth>compte&lt/th>
+                &ltth>contexte&lt/th>
+                &ltth>concordances&lt/th>
+                &lt/tr>" >> ../tableaux/tableau_${langue}.html
+
+# lis le contenu de la variable file lige par ligne, chaque ligne étant une url
+while read -r URL
+do
+    ## ASPIRATION
+    curl $URL > ../aspirations/aspiration-${langue}-${compteur}.html
+    ## dump-text
+    links -dump -codepage utf-8 ../aspirations/aspiration-${langue}-${compteur}.html > ../dumps-text/dump-text-${langue}-${compteur}.txt
+    
+    #iconv -f ${encodage} -t UTF-8 ../dumps-text/dump-text-${langue}-${compteur}.txt > ../dumps-text/dump-text-${langue}-${compteur}.txt
+
+    ## TABLEAU
+    #récupère la valeur du code de réponse http
+    response=$(curl -s -I -L -w "%{http_code}" -o /dev/null $URL)
+    # récupère l'encodage
+    encoding="NA"
+    # par défaut les valeurs sont nulles
+    contexte="NA"
+    compte=0
+    concordancier="NA"
+    if [ "$response" == "200" ]; then
+        encoding=$(file ../dumps-text/dump-text-${langue}-${compteur}.txt | tr "," "\n" | tail -n1 | tr -d "text")
+        compte=$(bash comptage/${langue}.sh ../dumps-text/dump-text-${langue}-${compteur}.txt)
+        bash contexte/${langue}.sh $langue $compteur
+        contexte="contexte"
+        # Récupère les occurences du mot avec contexte gauche et droit au format tsv
+        ggrep -o -i -P "(\p{Cyrillic}+\s){0,5}(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))(\s\p{Cyrillic}+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | sed -E 's/(дерев(а|у|е|ом?|ь(ев|я(х|ми?)?)))/§\1§/g' > ../Concordances/concordances-${langue}-${compteur}.txt
+        bash concordancier.sh ../Concordances/concordances-${langue}-${compteur}.txt ${langue} ${compteur}
+        concordancier="concordancier"
+    fi
+
+
+    echo "            &lttr>
+                    &lttd>$compteur&lt/td>
+                    &lttd>&lta href=$URL>URL&lt/a>&lt/td>
+                    &lttd>$response&lt/td>
+                    &lttd>$encoding&lt/td>
+                    &lttd>
+                    &lta href='../aspirations/aspiration-${langue}-${compteur}.html'>aspiration&lt/a>
+                    &lt/td>
+                    &lttd>
+                    &lta href='../dumps-text/dump-text-${langue}-${compteur}.txt'>dump-text&lt/a>
+                    &lt/td>
+                    &lttd>$compte&lt/td>" >> ../tableaux/tableau_${langue}.html
+if [ "$contexte" == "NA" ];then
+    echo "              &lttd>
+                    ${contexte}
+                    &lt/td>
+                    &lttd>
+                    ${concordancier}
+                    &lt/td>
+                    &lt/tr>" >> ../tableaux/tableau_${langue}.html
+else
+    echo "               &lttd>
+                    &lta href='../contextes/contexte-${langue}-${compteur}.txt'>${contexte}&lt/a>
+                    &lt/td>
+                    &lttd>
+                    &lta href='../Concordances/concordances-${langue}-${compteur}.html'>${concordancier}&lt/a>
+                    &lt/td>
+                    &lt/tr>
+    " >> ../tableaux/tableau_${langue}.html
+    #incrémente le compteur de 1 avant de passer au fichier suivant
+fi
+    ((compteur++))
+done &lt $file
+
+echo "&lt/table>&lt/div>&lt/body>&lt/html>" >> ../tableaux/tableau_${langue}.html
+
+                    </code>
+                </pre>
+                <br>
+            </figure>
+            <section class="has-text-centered">
+                <div class="box">
+                    <p class="title is-3 has-text-centered"> Différences </p>
+                    <p> La principale différence avec les scripts de l'anglais et de l'italien se trouve, bien entendu, dans les expressions régulières.
+                        <br>
+                    </p>
+                <br>
+            </section>
+            <br>
+            <figure>
+                <pre>
+                    <code class="language-shell">
+ggrep -o -i -P "(\w+\W){0,5}trees?(\W\w+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | tr '[:upper:]' '[:lower:]' | sed -E 's/(trees?)/§\1§/g'  > ../Concordances/concordances-${langue}-${compteur}.txt
+                    </code>
+                </pre>
+                <figcaption>regex anglais</figcaption>
+            </figure>
+            <figure>
+                <pre>
+                    <code class="language-shell">
+ggrep -o -i -P "(\w+\W){0,5}alber(o|i)(\W\w+){0,5}" ../contextes/contexte-${langue}-${compteur}.txt | tr '[:upper:]' '[:lower:]' | sed -E 's/(alber(o|i))/§\1§/g' > ../Concordances/concordances-${langue}-${compteur}.txt
+                    </code>
+                </pre>
+                <figcaption>regex italien</figcaption>
+            </figure>
+            </div>
+            <br>
+        </div>
+    </div>
+    </body>
+    </html>

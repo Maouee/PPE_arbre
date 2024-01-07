@@ -1,320 +1,116 @@
+   Advertisement
 
-   Lesson 7: Phylogeny
-     * Taxonomy and the tree of life
-     * Discovering the tree of life
-     * Understanding and building phylogenetic trees
-     * Phylogenetic trees
-     * Building a phylogenetic tree
-     * Phylogeny
-   Science>
---
-   Terms of usePrivacy PolicyCookie Notice
+                                   tree (n.)
 
-                               Phylogenetic trees
+   Old English treo, treow "tree" (also "timber, wood, beam, log, stake"),
+   from Proto-Germanic *trewam (source also of Old Frisian tre, Old Saxon
+   trio, Old Norse tre, Gothic triu "tree"), from PIE *drew-o-, suffixed
+   variant form of root *deru- "be firm, solid, steadfast," with specialized
+   senses "wood, tree" and derivatives referring to objects made of wood.
 
-   [IMG]Google Classroom
-   What a phylogenetic tree is. How to read phylogenetic trees and determine
-   which species are most related.
-
-Key points:
-
-     * A phylogenetic tree is a diagram that represents evolutionary
-       relationships among organisms. Phylogenetic trees are hypotheses, not
-       definitive facts.
-     * The pattern of branching in a phylogenetic tree reflects how species
-       or other groups evolved from a series of common ancestors.
-     * In trees, two species are more related if they have a more recent
-       common ancestor and less related if they have a less recent common
-       ancestor.
-     * Phylogenetic trees can be drawn in various equivalent styles. Rotating
-       a tree about its branch points doesn't change the information it
-       carries.
-
---
-   in ways that reflect our understanding of how they evolved from their
-   common ancestors.
-   In this article, we'll take a look at phylogenetic trees, diagrams that
-   represent evolutionary relationships among organisms. We'll see exactly
-   what we can (and can't!) infer from a phylogenetic tree, as well as what
-   it means for organisms to be more or less related in the context of these
-   trees.
-
-Anatomy of a phylogenetic tree
-
-   When we draw a phylogenetic tree, we are representing our best hypothesis
-   about how a set of species (or other groups) evolved from a common
-   ancestor1‍ . As we'll explore further in the article on building trees,
-   this hypothesis is based on information we’ve collected about our set of
-   species – things like their physical features and the DNA sequences of
-   their genes.
-   [Are phylogenetic trees only for species?]
-   In a phylogenetic tree, the species or groups of interest are found at the
-   tips of lines referred to as the tree's branches. For example, the
-   phylogenetic tree below represents relationships between five species, A,
-   B, C, D, and E, which are positioned at the ends of the branches:
-   A horizontal phylogenetic tree. Ancestors are on the left with present-day
-   species on the right. Branches are designated as a straight line, and
-   branch points are shown as a vertical line connecting two branches. Five
-   species of interest are designated by letters A, B, C, D, and E labeled
-   branches on the right side of the tree. The tree begins with one line on
-   the left, which branches (at a branch point) to form species E and another
-   line that branches into a pair of double branches. From there, the first
---
-   al., CC BY 4.0
-   The pattern in which the branches connect represents our understanding of
-   how the species in the tree evolved from a series of common ancestors.
-   Each branch point (also called an internal node) represents a divergence
-   event, or splitting apart of a single group into two descendant groups.
---
-   giving rise to species A and B, we would find the most recent common
-   ancestor of those two species. At the branch point right above the root of
-   the tree, we would find the most recent common ancestor of all the species
-   in the tree (A, B, C, D, E).
-   [Why is this the most recent common ancestor of all the species?]
-   A horizontal phylogenetic tree. Ancestors are on the left with present-day
-   species on the right. Branches are designated as a straight line, and
-   branch points are shown as a vertical line connecting two branches. Five
-   species of interest are designated by letters A, B, C, D, and E labeled
-   branches on the right side of the tree. The tree begins with one line on
-   the left, labeled root, which branches (at a branch point) to form species
-   E and another line that branches into a pair of double branches. From
-   there, the first pair of double branches forms species A and B, while the
-   second pair of double branches forms species C and D. The first branch
-   point in the tree is labeled Most recent common ancestor of A, B, C, D,
-   and E. The point where the tree branches into species A and B is labeled
-   Most recent common ancestor of A and B.
-   Image modified from Taxonomy and phylogeny: Figure 2 by Robert Bear et
-   al., CC BY 4.0
-   Each horizontal line in our tree represents a series of ancestors, leading
-   up to the species at its end. For instance, the line leading up to species
-   E represents the species' ancestors since it diverged from the other
-   species in the tree. Similarly, the root represents a series of ancestors
-   leading up to the most recent common ancestor of all the species in the
-   tree.
-
-Which species are more related?
-
-   In a phylogenetic tree, the relatedness of two species has a very specific
-   meaning. Two species are more related if they have a more recent common
-   ancestor, and less related if they have a less recent common ancestor.
---
-   ancestor of any pair or group of species. In this method, we start at the
-   branch ends carrying the two species of interest and “walk backwards” in
-   the tree until we find the point where the species’ lines converge.
-   For instance, suppose that we wanted to say whether A and B or B and C are
-   more closely related. To do so, we would follow the lines of both pairs of
-   species backward in the tree. Since A and B converge at a common ancestor
-   first as we move backwards, and B only converges with C after its junction
-   point with A, we can say that A and B are more related than B and C.
-   A horizontal phylogenetic tree. Ancestors are on the left with present-day
-   species on the right. Branches are designated as a straight line, and
-   branch points are shown as a vertical line connecting two branches. Five
-   species of interest are designated by letters A, B, C, D, and E labeled
-   branches on the right side of the tree. The tree begins with one line on
-   the left, which branches (at a branch point) to form species E and another
-   line that branches into a pair of double branches. From there, the first
-   pair of double branches forms species A and B, while the second pair of
-   double branches forms species C and D. The point where the tree branches
-   into species A and B is labeled Most recent common ancestor of A and B. A
-   pink line traces from species A back to this point, while a red line
-   traces from species B back to this point. The point where the tree
-   branches into a pair of double branches is labeled Most recent common
-   ancestor of B and C. A red line traces from species B back to this point,
---
-   using this method. For instance, we can't say whether A and B are more
-   closely related than C and D. That’s because, by default, the horizontal
-   axis of the tree doesn't represent time in a direct way. So, we can only
-   compare the timing of branching events that occur on the same lineage
-   (same direct line from the root of the tree), and not those that occur on
-   different lineages.
-
-Some tips for reading phylogenetic trees
-
-   You may see phylogenetic trees drawn in many different formats. Some are
-   blocky, like the tree at left below. Others use diagonal lines, like the
-   tree at right below. You may also see trees of either kind oriented
-   vertically or flipped on their sides, as shown for the blocky tree.
-   Three examples of phylogenetic trees. The first tree is horizontal with a
-   root on the left and branches forming 90 degree angles before forming
-   species on the right hand side. The second tree is similar to the first
-   tree, but it is vertical, with the root at the bottom and the species
-   listed at the top. The third tree is similar to the second tree, but the
-   branches are diagonal.
-   Image modified from Taxonomy and phylogeny: Figure 2 by Robert Bear et
-   al., CC BY 4.0
-   The three trees above represent identical relationships among species A,
-   B, C, D, and E. You may want to take a moment to convince yourself that
-   this is really the case – that is, that no branching patterns or
-   recent-ness of common ancestors are different between the two trees. The
-   identical information in these different-looking trees reminds us that
-   it's the branching pattern (and not the lengths of branches) that's
-   meaningful in a typical tree.
-   Another critical point about these trees is that if you rotate the
-   structures, using one of the branch points as a pivot, you don’t change
-   the relationships. So just like the two trees above, which show the same
-   relationships even though they are formatted differently, all of the trees
-   below show the same relationships among four species:
-   A series of vertical phylogenetic trees showing that phylogenetic trees
-   can be rotated at a branch, resulting in the same tree. Numbers will be
-   assigned to the branches for description, but do not appear in the
-   diagram. The first tree begins with a root at the bottom, which splits
-   into branches 1 and 2. Branch 1 becomes species W. Branch 2 splits into
-   branches 3 and 4. Branch 3 becomes species X. Branch 4 splits into
-   branches 5 and 6, which becomes species Y and Z respectively. The species
-   are listed from left to right as W, X, Y, and Z. If branch 2 is rotated
-   horizontally 180 degrees it results in the same tree, although the species
-   are listed from left to right as W, Z, Y, and X. At the bottom of the
-   diagram four equal trees are shown, but with rotations occurring at
-   different branches.
-   Image modified from Taxonomy and phylogeny: Figure 3 by Robert Bear et
---
-   diagrams. That ordering actually doesn’t give us useful information.
-   Instead, it’s the branch structure of each diagram that tells us what we
-   need to understand the tree.
-   So far, all the trees we've looked at have had nice, clean branching
-   patterns, with just two lineages (lines of descent) emerging from each
-   branch point. However, you may see trees with a polytomy (poly, many;
-   tomy, cuts), meaning a branch point that has three or more different
-   species coming off of it2‍ . In general, a polytomy shows where we don't
-   have enough information to determine branching order.
-   A horizontal phylogenetic tree. The root branches into a lower branch that
-   becomes species U and an upper branch that further splits into two
-   branches. The bottom branch splits into two branches, forming species S
---
-   Image modified from Taxonomy and phylogeny: Figure 2 by Robert Bear et
-   al., CC BY 4.0
-   If we later get more information about the species in a tree, we may be
-   able to resolve a polytomy using the new information.
-
-Where do these trees come from?
-
-   To generate a phylogenetic tree, scientists often compare and analyze many
-   characteristics of the species or other groups involved. These
-   characteristics can include external morphology (shape/appearance),
-   internal anatomy, behaviors, biochemical pathways, DNA and protein
-   sequences, and even the characteristics of fossils.
-   To build accurate, meaningful trees, biologists will often use many
-   different characteristics (reducing the chances of any one imperfect piece
-   of data leading to a wrong tree). Still, phylogenetic trees are
-   hypotheses, not definitive answers, and they can only be as good as the
-   data available when they're made. Trees are revised and updated over time
---
-   particularly true today, as DNA sequencing increases our ability to
-   compare genes between species.
-   In the next article on building a tree, we’ll see concrete examples of how
-   different types of data are used to organize species into phylogenetic
-   trees.
-   [Attribution and references]
-   QuestionsTips & Thanks
---
-       6 years ago
-       Posted 6 years ago. Direct link to Harshita Wadhwa's post “Can a
-       phylogenetic tree s...”
-       more
-       Can a phylogenetic tree show which organism is more evolved, if they
-       evolved at the same nod?
-       AnswerButton navigates to signup page•1 commentComment on Harshita
-       Wadhwa's post “Can a phylogenetic tree s...”
-       (15 votes)
-          * Upvote
---
-            6 years ago
-            Posted 6 years ago. Direct link to tyersome's post “Look at (or
-            make) a tree ...”
-            Good Answer
-            more
-            Look at (or make) a tree showing your family going back at least
-            to your grandparents.
-
---
-            family?
-
-            Phylogenetic trees are really very similar, but for species
-            rather than individuals within a family.
-
---
-       6 years ago
-       Posted 6 years ago. Direct link to Ahmed Al-Azawy's post “What
-       phylogenetic trees c...”
-       more
-       What phylogenetic trees can and can’t tell us
-       AnswerButton navigates to signup page•CommentButton navigates to
-       signup page
---
-            Good Answer
-            more
-            One example that comes to mind is that a phylogenetic tree
-            determines where two organisms diverged from their common
-            ancestors but not specifically when. These diagrams are not
---
-       represent an extin...”
-       more
-       how to represent an extinct specie in a tree diagram
-       AnswerButton navigates to signup page•CommentButton navigates to
-       signup page
---
-       5 years ago
-       Posted 5 years ago. Direct link to Benjamin Garretson's post “In the
-       phylogenetic tree ...”
-       more
-       In the phylogenetic tree containing A,B,C,D,E, what is the closest
-       relative to E?
-       AnswerButton navigates to signup page•3 commentsComment on Benjamin
-       Garretson's post “In the phylogenetic tree ...”
-       (1 vote)
-          * Upvote
---
-            8 months ago
-            Posted 8 months ago. Direct link to HenryL's post “On a
-            phylogenetic tree, s...”
-            more
-            On a phylogenetic tree, some extinct species will have a mark on
-            it that shows how it's extinct. From what I know, that mark is
-            just usually a line marked on the branch.
-            1 commentComment on HenryL's post “On a phylogenetic tree, s...”
-            (4 votes)
-               * Upvote
---
-       draw a phyl...”
-       more
-       How would you draw a phylogenetic tree given simple DNA sequences
-       between species?
-       AnswerButton navigates to signup page•CommentButton navigates to
+     The line which divides trees from shrubs is largely arbitrary, and
+     dependent upon habit rather than size, the tree having a single trunk
+     usually unbranched for some distance above the ground, while a shrub has
+     usually several stems from the same root and each without a proper
 --
 
-            If you are interested, look up maximum-parsimony methods of
-            phylogenetic tree reconstructions.
-            1 commentComment on Satwik Pasani's post “It is a difficult task.
-            W...”
---
-       more
-       What are the characters used to determine the most accurate
-       evolutionary trees?
-       AnswerButton navigates to signup page•CommentButton navigates to
-       signup page
---
-            most accurate phyloge...”
-            more
-            The most accurate phylogenetic tree will have the fewest nodes.
-            It's something called parsimony which means that the best tree is
-            the simplest.
-            1 commentComment on kimshoemaker23's post “The most accurate
---
-                 Button navigates to signup page
-            more
-     * duskpin tree style avatar for user Natalis Savanh
-       Natalis Savanh
-       5 years ago
---
-       more
-       Can someone explain to me the process when a new species will emerge
-       on the tree? Thank you
-       AnswerButton navigates to signup page•CommentButton navigates to
-       signup page
---
-            Speciation is a huge topic and still being researched — I
-            recommend starting with the following material on KhanAcademy:
-            https://www.khanacademy.org/science/biology/her/tree-of-life/v/allopatric-and-sympatric-speciation
-            https://www.khanacademy.org/science/biology/her/tree-of-life/a/species-speciation
+   In Old English and Middle English also "thing made of wood," especially
+   the cross of the Crucifixion and a gallows (such as Tyburn tree, famous
+   gallows outside London). Middle English also had plural treen, adjective
+   treen (Old English treowen "of a tree, wooden"). For Dutch boom, German
+   Baum, the usual words for "tree," see beam (n.).
 
-            You can also browse through the KhanAcademy material on evolution
+   The meaning "framework of a saddle" is from 1530s. The meaning
+   "representation of familial relationships in the form of a tree" is from
+   c. 1300. Tree-hugger, contemptuous for "environmentalist" is attested by
+   1989.
+
+     Minc'd Pyes do not grow upon every tree,
+
+     But search the Ovens for them, and there they be.
+--
+     ["Poor Robin," Almanack, 1669]
+
+   tree (v.)
+
+   "to chase up a tree," 1700, from tree (n.). Meaning "take a tree-like
+   form" is from 1884. Related: Treed; treeing.
+
+   also from 1700
+
+  Entries linking to tree
+
+   beam (n.)
+
+   Old English beam, "living tree," but by late 10c. also "rafter, post,
+   ship's timber," from Proto-Germanic *baumaz "tree" (source also of Old
+   Frisian bam "tree, gallows, beam," Middle Dutch boom, Old High German
+   boum, German Baum "tree," and perhaps also (with unexplained sound
+   changes) Old Norse baðmr, Gothic bagms). This is of uncertain etymology
+   (according to Boutkan probably a substrate word). The shift from *-au- to
+--
+
+   also *dreu-, Proto-Indo-European root meaning "be firm, solid, steadfast,"
+   with specialized senses "wood," "tree" and derivatives referring to
+   objects made of wood.
+
+--
+   duration; duress; during; durum; endure; hamadryad; indurate; obdurate;
+   perdurable; philodendron; rhododendron; shelter; tar (n.1) "viscous
+   liquid;" tray; tree; trig (adj.) "smart, trim;" trim; troth; trough; trow;
+   truce; true; trust; truth; tryst.
+
+   It is the hypothetical source of/evidence for its existence is provided
+   by: Sanskrit dru "tree, wood," daru "wood, log, timber;" Greek drys "oak,"
+   drymos "copse, thicket," doru "beam, shaft of a spear;" Old Church
+   Slavonic drievo "tree, wood," Serbian drvo "tree," drva "wood," Russian
+   drevo "tree, wood," Czech drva, Polish drwa "wood;" Lithuanian drūtas
+   "firm," derva "pine, wood;" Welsh drud, Old Irish dron "strong," Welsh
+   derw "true," Old Irish derb "sure," Old Irish daur, Welsh derwen "oak;"
+   Albanian drusk "oak;" Old English treo, treow "tree," triewe "faithful,
+   trustworthy, honest."
+
+     * apple-tree
+     * axle-tree
+     * Coventry
+     * gantry
+     * oak
+     * palm-tree
+     * pine-tree
+     * saddletree
+     * shade-tree
+     * swingletree
+     * tree-frog
+     * tree-house
+     * treeless
+     * tree-top
+     * See all related words (16) >
+   Advertisement
+
+  Trends of tree
+
+   adapted from books.google.com/ngrams/. Ngrams are probably unreliable.
+
+  Share tree
+
+   ‘cite’
+--
+     * 10. bible
+
+  Dictionary entries near tree
+
+   treatise
+--
+   trebuchet
+
+   tree
+
+   tree-frog
+
+   tree-house
+
+   treeless
+
+   tree-top
+
+   tref

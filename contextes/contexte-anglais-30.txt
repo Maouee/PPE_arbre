@@ -125,8 +125,7 @@ Applications[edit]
 
    Ordered tree
            A rooted tree in which an ordering is specified for the children
-           of each vertex. The book The Art of Computer Programming uses the
-           term oriented tree.^[4]
+           of each vertex.
 
    Size of a tree
            Number of nodes in the tree.
@@ -193,7 +192,7 @@ Representations[edit]
    tail (list of third and subsequent terms) is the right child.
 
    Ordered trees can be naturally encoded by finite sequences, for example
-   with natural numbers.^[5]
+   with natural numbers.^[4]
 
 --
          remove this template message)                                        
@@ -258,10 +257,7 @@ Notes[edit]
     3. ^ Susanna S. Epp (Aug 2010). Discrete Mathematics with Applications.
        Pacific Grove, CA: Brooks/Cole Publishing Co. p. 694.
        ISBN 978-0-495-39132-6.
-    4. ^ Donald Knuth (1997). "Section 2.3.4.2: Oriented trees". The Art of
-       Computer Programming. Vol. 1: Fundamental Algorithms (Third ed.).
-       Addison-Wesley. p. 373.
-    5. ^ L. Afanasiev; P. Blackburn; I. Dimitriou; B. Gaiffe; E. Goris; M.
+    4. ^ L. Afanasiev; P. Blackburn; I. Dimitriou; B. Gaiffe; E. Goris; M.
        Marx; M. de Rijke (2005). "PDL for ordered trees" (PDF). Journal of
        Applied Non-Classical Logics. 15 (2): 115–135.
        doi:10.3166/jancl.15.115-135. S2CID 1979330.

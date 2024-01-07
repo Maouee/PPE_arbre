@@ -1,257 +1,901 @@
-   Link: profile
    Link: canonical
-   Link: shortlink
-   Skip to content
-   [ Submit ]
-   Skip to main content
-   [IMG] Microsoft
-   Official Microsoft Start Blog
-   Official Microsoft Start Blog
-   Official Microsoft Start Blog
-     * Home
-     * MSN.com
-     * News
-     * Entertainment
-     * Sports
-     * Money
-     * Lifestyle
-     * Health
-     * Food
-     * Travel
-     * More
-     * All Microsoft
-          * Global
+   Search _____________________  Submit your search query
+   freeCodeCamp.org
+   Forum Donate
 
-               * Microsoft 365
-               * Teams
-               * Copilot
-               * Windows
-               * Surface
-               * Xbox
-               * Deals
-               * Small Business
-               * Support
-          * Software
-               * Windows Apps
-               * AI
-               * Outlook
-               * OneDrive
-               * Microsoft Teams
-               * OneNote
-               * Microsoft Edge
-               * Skype
-          * PCs & Devices
-               * Computers
-               * Shop Xbox
-               * Accessories
-               * VR & mixed reality
-               * Certified Refurbished
-               * Trade-in for cash
-          * Entertainment
-               * Xbox Game Pass Ultimate
-               * PC Game Pass
-               * Xbox games
-               * PC and Windows games
-               * Movies & TV
-          * Business
-               * Microsoft Cloud
-               * Microsoft Security
-               * Dynamics 365
-               * Microsoft 365 for business
-               * Microsoft Power Platform
-               * Windows 365
-               * Microsoft Industry
-               * Small Business
-          * Developer & IT
-               * Azure
-               * Developer Center
-               * Documentation
-               * Microsoft Learn
-               * Microsoft Tech Community
-               * Azure Marketplace
-               * AppSource
-               * Visual Studio
-          * Other
-               * Microsoft Rewards
-               * Free downloads & security
-               * Education
-               * Gift cards
-               * Licensing
-               * Unlocked stories
-          * View Sitemap
-   _____________________ Search Search Microsoft.com
-     * No results
-   Cancel 0 Cart 0 items in shopping cart
-   Sign in
-   Microsoft Microsoft Start Blog / Microsoft Start Blog
-   News Center
-     * LinkedIn
-     * Twitter
-       Tweet
-   Navigation Menu
-   Thumbnail image for Join the Weather E-tree Program to Plant Trees
-   Featured
+   November 5, 2017 / #Programming
 
-                 Join the Weather E-tree Program to Plant Trees
+             Everything you need to know about tree data structures
 
-   written byDave KaneApr 29, 2022
+   TK TK
+   Everything you need to know about tree data structures
 
-     * Share on Facebook (opens new window)
-     * Share on LinkedIn (opens new window)
-     * Share on Twitter (opens new window)
+   When you first learn to code, it’s common to learn arrays as the “main
+   data structure.”
 
-   Microsoft Start’s personalized content feed makes it easy to catch up on
-   the things you care about, from news and traffic to sports, entertainment,
-   hobbies and weather. Now, on the heels of Earth Day this year, Microsoft
-   Start is also helping you give back to the planet. By using Weather from
-   Microsoft Start, you can help contribute to a greener, more sustainable
-   Earth by growing an E-tree!
+   Eventually, you will learn about hash tables too. If you are pursuing a
+   Computer Science degree, you have to take a class on data structure. You
+   will also learn about linked lists, queues, and stacks. Those data
+   structures are called “linear” data structures because they all have a
+   logical start and a logical end.
 
-   Weather from Microsoft Start offers hyper-local, up-to-the-minute
-   forecasts and interactive maps with beautiful animations and visuals – all
-   to keep you constantly informed about the weather where it matters to you
-   most. With a tool this powerful, the challenge is helping people discover
-   all the information available to them – to help, we launched “E-trees.”  
+   When we start learning about trees and graphs, it can get really
+   confusing. We don’t store data in a linear way. Both data structures store
+   data in a specific way.
 
-   This fun, guided, interactive experience is designed to reward users for
-   engaging with different parts of Weather from Microsoft Start. Once you
-   join, users will earn points through simple daily tasks – things like
-   checking precipitation, temperature, or wind in your area. Progress is
-   easy to track as you earn points and grow your very own E-tree! 
+   This post is to help you better understand the Tree Data Structure and to
+   clarify any confusion you may have about it.
 
-   As your E-tree grows, Microsoft will work to turn it into a real tree. To
-   make this happen, we’ve partnered with the Eden Restoration Projects, a
-   non-profit committed to restoring forests and protecting ecosystems in
-   high-risk or unstable areas. 
+   In this article, we will learn:
 
-   It only takes a few easy steps to get started and plant your E-tree – just
-   launch Weather from the Windows 10 or Windows 11 taskbar, from the Weather
-   card on the feed in a new tab in Edge, or by heading to
-   MicrosoftStart.com. On the Weather page, you’ll find the seed on the left
-   where you’ll be prompted to sign in with your Microsoft Account and then
-   click “Join now.”
+     * What is a tree
+     * Examples of trees
+     * Its terminology and how it works
+     * How to implement tree structures in code.
 
-   Download image
-   1 of 3
-   Collecting wind power
-   Download image
-   2 of 3
-   Collecting hydro power
-   Download image
-   3 of 3
-   Collecting heat power
+   Let’s start this learning journey. :)
 
-   Once you sign in and join, you’ll be able to give your E-tree a unique
-   name. Then, you can start nurturing your tree by collecting energy points
-   right away. Each time you launch Weather and click on your tree, you’ll
-   see suggested tasks and new ways to get points daily while learning more
-   about the weather where you live or in another area you care about – like
-   seeing how much rain to expect where you’re going on vacation next or
-   keeping track of extreme weather somewhere you have family or friends.
+  Definition
 
-   Just like a real tree, an E-tree needs water, air, and sunlight.
-   Conveniently, Weather from Microsoft Start can deliver meaningful
-   information about each of these. The site includes detailed maps with
-   beautiful animations showing wind, heat – or a Redmond favorite – the
-   precipitation map. The hourly forecast animation helps to plan the best
-   time for walking the dog, riding a bike, or even taking a quick “sun
-   break” to make the most of the sunshine. 
+   When starting out programming, it is common to understand better the
+   linear data structures than data structures like trees and graphs.
 
-   Once your tree reaches 10,000 points, you’ll receive an E-tree certificate
-   and the Eden Restoration Projects will plant a real tree in the Mwamdudu
-   site, just outside the bustling city of Mombasa, Kenya. You can even see
-   how fast other people are their E-trees!
+   Trees are well-known as a non-linear data structure. They don’t store data
+   in a linear way. They organize data hierarchically.
 
-   E-Trees bring together the best weather tools with a fun experience, plus
-   the chance to make the world a greener place – one tree at a time. 
+  Let’s dive into real life examples!
 
-     * Microsoft Shopping:Terms and Details
+   What do I mean when I say in a hierarchical way?
 
-     * [IMG]
+   Imagine a family tree with relationships from all generation:
+   grandparents, parents, children, siblings, etc. We commonly organize
+   family trees hierarchically.
 
-       Celebrate the 1-Year Anniversary of Games from Microsoft Start
+   1*MasdC5DmucEU2abIXQe45QMy family tree
 
-     * [IMG]
+   The above drawing is is my family tree. Tossico, Akikazu, Hitomi, and
+   Takemi are my grandparents.
 
-       Follow the FIFA Women’s World Cup with Microsoft Start
+   Toshiaki and Juliana are my parents.
 
-     * Microsoft Weather Social Awareness Sweepstakes Official Rules
+   TK, Yuji, Bruno, and Kaio are the children of my parents (me and my
+   brothers).
 
-   Follow us:
+   An organization’s structure is another example of a hierarchy.
 
-     * Facebook
-     * Twitter
-     * LinkedIn
-     * Instagram
-     * Check us out on RSS
+   1*GsBCmW5E1GuJ3MpH3Zz0EwA company’s structure is an example of a hierarchy
 
-   Share this page:
+   In HTML, the Document Object Model (DOM) works as a tree.
 
-     * Facebook
-     * Twitter
-     * LinkedIn
-   What's new
-     * Surface Laptop Studio 2
-     * Surface Laptop Go 3
-     * Surface Pro 9
-     * Surface Laptop 5
-     * Surface Studio 2+
-     * Copilot in Windows
-     * Microsoft 365
-     * Windows 11 apps
-   Microsoft Store
-     * Account profile
-     * Download Center
-     * Microsoft Store support
-     * Returns
-     * Order tracking
-     * Certified Refurbished
-     * Microsoft Store Promise
-     * Flexible Payments
-   Education
-     * Microsoft in education
-     * Devices for education
-     * Microsoft Teams for Education
-     * Microsoft 365 Education
-     * How to buy for your school
-     * Educator training and development
-     * Deals for students and parents
-     * Azure for students
-   Business
-     * Microsoft Cloud
-     * Microsoft Security
-     * Dynamics 365
-     * Microsoft 365
-     * Microsoft Power Platform
-     * Microsoft Teams
-     * Microsoft Industry
-     * Small Business
-   Developer & IT
-     * Azure
-     * Developer Center
-     * Documentation
-     * Microsoft Learn
-     * Microsoft Tech Community
-     * Azure Marketplace
-     * AppSource
-     * Visual Studio
-   Company
-     * Careers
-     * About Microsoft
-     * Company news
-     * Privacy at Microsoft
-     * Investors
-     * Diversity and inclusion
-     * Accessibility
-     * Sustainability
-   English (United States)  Your Privacy Choices  Your Privacy Choices
-     * Sitemap
-     * Contact Microsoft
-     * Privacy
-     * Manage cookies
-     * Terms of use
-     * Trademarks
-     * Safety & eco
-     * Recycling
-     * About our ads
-     * © Microsoft 2024
+   1*dLXUdR4NuIZG8GJdu_CinwDocument Object Model (DOM)
+
+   The HTML tag contains other tags. We have a head tag and a body tag. Those
+   tags contains specific elements. The head tag has meta and title tags. The
+   body tag has elements that show in the user interface, for example, h1, a,
+   li, etc.
+
+  A technical definition
+
+   A tree is a collection of entities called nodes. Nodes are connected by
+   edges. Each node contains a value or data, and it may or may not have a
+   child node .
+
+   1*3WN7tIQ-kNBQmY9MgvTuOA
+
+   The first node of the tree is called the root. If this root node is
+   connected by another node, the root is then a parent node and the
+   connected node is a child.
+
+   1*9AtR3bhhlMJxQlaUVEQgrw
+
+   All Tree nodes are connected by links called edges. It’s an important part
+   of trees, because it’s manages the relationship between nodes.
+
+   1*j5qKwIxKcEjoxy88EOc1Rg
+
+   Leaves are the last nodes on a tree. They are nodes without children. Like
+   real trees, we have the root, branches, and finally the leaves.
+
+   1*c9_5uMUsIy4Q3OA7Q8bJiw
+
+   Other important concepts to understand are height and depth.
+
+   The height of a tree is the length of the longest path to a leaf.
+
+   The depth of a node is the length of the path to its root.
+
+  Terminology summary
+
+     * Root is the topmost node of the tree
+     * Edge is the link between two nodes
+     * Child is a node that has a parent node
+     * Parent is a node that has an edge to a child node
+     * Leaf is a node that does not have a child node in the tree
+     * Height is the length of the longest path to a leaf
+     * Depth is the length of the path to its root
+
+  Binary trees
+
+   Now we will discuss a specific type of tree. We call it thebinary tree.
+
+     “In computer science, a binary tree is a tree data structure in which
+     each node has at the most two children, which are referred to as the
+     left child and the right child.” — Wikipedia
+
+   So let’s look at an example of a binary tree.
+
+   1*ofbwuz4inpf2OlB-l9gtHw
+
+  Let’s code a binary tree
+
+   The first thing we need to keep in mind when we implement a binary tree is
+   that it is a collection of nodes. Each node has three attributes: value,
+   left_child, and right_child.
+
+   How do we implement a simple binary tree that initializes with these three
+   properties?
+
+   Let’s take a look.
+
+ class BinaryTree:
+     def __init__(self, value):
+         self.value = value
+         self.left_child = None
+         self.right_child = None
+
+   Here it is. Our binary tree class.
+
+   When we instantiate an object, we pass the value (the data of the node) as
+   a parameter. Look at the left_child and the right_child. Both are set to
+   None.
+
+   Why?
+
+   Because when we create our node, it doesn’t have any children. We just
+   have the node data.
+
+   Let’s test it:
+
+ tree = BinaryTree('a')
+ print(tree.value) # a
+ print(tree.left_child) # None
+ print(tree.right_child) # None
+
+   That’s it.
+
+   We can pass the string ‘a’ as the value to our Binary Tree node. If we
+   print the value, left_child, and right_child, we can see the values.
+
+   Let’s go to the insertion part. What do we need to do here?
+
+   We will implement a method to insert a new node to the right and to the
+   left.
+
+   Here are the rules:
+
+     * If the current node doesn’t have a left child, we just create a new
+       nodeand set it to the current node’s left_child.
+     * If it does have the left child, we create a new node and put it in the
+       current left child’s place. Allocate this left child node to the new
+       node’s left child.
+
+   Let’s draw it out. :)
+
+   1*ofbwuz4inpf2OlB-l9gtHw
+
+   Here’s the code:
+
+ def insert_left(self, value):
+     if self.left_child == None:
+         self.left_child = BinaryTree(value)
+     else:
+         new_node = BinaryTree(value)
+         new_node.left_child = self.left_child
+         self.left_child = new_node
+
+   Again, if the current node doesn’t have a left child, we just create a new
+   node and set it to the current node’s left_child. Or else we create a new
+   node and put it in the current left child’s place. Allocate this left
+   child node to the new node’s left child.
+
+   And we do the same thing to insert a right child node.
+
+ def insert_right(self, value):
+     if self.right_child == None:
+         self.right_child = BinaryTree(value)
+     else:
+         new_node = BinaryTree(value)
+         new_node.right_child = self.right_child
+         self.right_child = new_node
+
+   Done. :)
+
+   But not entirely. We still need to test it.
+
+   Let’s build the followingtree:
+
+   1*V_EUgNXVc8Wy9H1-JoqT3g
+
+   To summarize the illustration of this tree:
+
+     * a node will be the root of our binary Tree
+     * a left child is b node
+     * a right child is c node
+     * b right child is d node (b node doesn’t have a left child)
+     * c left child is e node
+     * c right child is f node
+     * both e and f nodes do not have children
+
+   So here is the code for the tree:
+
+ a_node = BinaryTree('a')
+ a_node.insert_left('b')
+ a_node.insert_right('c')
+
+ b_node = a_node.left_child
+ b_node.insert_right('d')
+
+ c_node = a_node.right_child
+ c_node.insert_left('e')
+ c_node.insert_right('f')
+
+ d_node = b_node.right_child
+ e_node = c_node.left_child
+ f_node = c_node.right_child
+
+ print(a_node.value) # a
+ print(b_node.value) # b
+ print(c_node.value) # c
+ print(d_node.value) # d
+ print(e_node.value) # e
+ print(f_node.value) # f
+
+   Insertion is done.
+
+   Now we have to think about tree traversal.
+
+   We have two options here: Depth-First Search (DFS) and Breadth-First
+   Search (BFS).
+
+     * DFS “is an algorithm for traversing or searching tree data structure.
+       One starts at the root and explores as far as possible along each
+       branch before backtracking.” — Wikipedia
+     * BFS “is an algorithm for traversing or searching tree data structure.
+       It starts at the tree root and explores the neighbor nodes first,
+       before moving to the next level neighbors.” — Wikipedia
+
+   So let’s dive into each tree traversal type.
+
+    Depth-First Search (DFS)
+
+   DFS explores a path all the way to a leaf before backtracking and
+   exploring another path. Let’s take a look at an example with this type of
+   traversal.
+
+   1*-sCuUx3R9e1ougu2pGdThg
+
+   The result for this algorithm will be 1–2–3–4–5–6–7.
+
+   Why?
+
+   Let’s break it down.
+
+    1. Start at the root (1). Print it.
+
+   2. Go to the left child (2). Print it.
+
+   3. Then go to the left child (3). Print it. (This node doesn’t have any
+   children)
+
+   4. Backtrack and go the right child (4). Print it. (This node doesn’t have
+   any children)
+
+   5. Backtrack to the root node and go to the right child (5). Print it.
+
+   6. Go to the left child (6). Print it. (This node doesn’t have any
+   children)
+
+   7. Backtrack and go to the right child (7). Print it. (This node doesn’t
+   have any children)
+
+   8. Done.
+
+   When we go deep to the leaf and backtrack, this is called DFS algorithm.
+
+   Now that we are familiar with this traversal algorithm, we will discuss
+   types of DFS: pre-order, in-order, and post-order.
+
+    Pre-order
+
+   This is exactly what we did in the above example.
+
+    1. Print the value of the node.
+    2. Go to the left child and print it. This is if, and only if, it has a
+       left child.
+    3. Go to the right child and print it. This is if, and only if, it has a
+       right child.
+
+ def pre_order(self):
+     print(self.value)
+
+     if self.left_child:
+         self.left_child.pre_order()
+
+     if self.right_child:
+         self.right_child.pre_order()
+
+    In-order
+
+   1*-sCuUx3R9e1ougu2pGdThg
+
+   The result of the in-order algorithm for this tree example is
+   3–2–4–1–6–5–7.
+
+   The left first, the middle second, and the right last.
+
+   Now let’s code it.
+
+ def in_order(self):
+     if self.left_child:
+         self.left_child.in_order()
+
+     print(self.value)
+
+     if self.right_child:
+         self.right_child.in_order()
+
+    1. Go to the left child and print it. This is if, and only if, it has a
+       left child.
+    2. Print the node’s value
+    3. Go to the right child and print it. This is if, and only if, it has a
+       right child.
+
+    Post-order
+
+   1*-sCuUx3R9e1ougu2pGdThg
+
+   The result of the post order algorithm for this tree example is
+   3–4–2–6–7–5–1.
+
+   The left first, the right second, and the middle last.
+
+   Let’s code this.
+
+ def post_order(self):
+     if self.left_child:
+         self.left_child.post_order()
+
+     if self.right_child:
+         self.right_child.post_order()
+
+     print(self.value)
+
+    1. Go to the left child and print it. This is if, and only if, it has a
+       left child.
+    2. Go to the right child and print it. This is if, and only if, it has a
+       right child.
+    3. Print the node’s value
+
+    Breadth-First Search (BFS)
+
+   BFS algorithm traverses the tree level by level and depth by depth.
+
+   1*ZNxp_NkRZLCeak85rreebA
+
+   Here is an example that helps to better explain this algorithm:
+
+   1*-sCuUx3R9e1ougu2pGdThg
+
+   So we traverse level by level. In this example, the result is
+   1–2–5–3–4–6–7.
+
+     * Level/Depth 0: only node with value 1
+     * Level/Depth 1: nodes with values 2 and 5
+     * Level/Depth 2: nodes with values 3, 4, 6, and 7
+
+   Now let’s code it.
+
+ def bfs(self):
+     queue = Queue()
+     queue.put(self)
+
+     while not queue.empty():
+         current_node = queue.get()
+         print(current_node.value)
+
+         if current_node.left_child:
+             queue.put(current_node.left_child)
+
+         if current_node.right_child:
+             queue.put(current_node.right_child)
+
+   To implement a BFS algorithm, we use the queue data structure to help.
+
+   How does it work?
+
+   Here’s the explanation.
+
+   1*A4yGfEoiqcZ-COvAfr2CWQ
+    1. First add the root node into the queue with the put method.
+    2. Iterate while the queue is not empty.
+    3. Get the first node in the queue, and then print its value.
+    4. Add both left and right children into the queue (if the current
+       nodehas children).
+    5. Done. We will print the value of each node, level by level, with our
+       queuehelper.
+
+  Binary Search tree
+
+     “A Binary Search Tree is sometimes called ordered or sorted binary
+     trees, and it keeps its values in sorted order, so that lookup and other
+     operations can use the principle of binary search” — Wikipedia
+
+   An important property of a Binary Search Tree is that the value of a
+   Binary Search Tree nodeis larger than the value of the offspring of its
+   left child, but smaller than the value of the offspring of its right
+   child.”
+
+   1*mslH9VtVUN9Hs983XxUN5A
+
+   Here is a breakdown of the above illustration:
+
+     * A is inverted. The subtree 7–5–8–6 needs to be on the right side, and
+       the subtree 2–1–3 needs to be on the left.
+     * B is the only correct option. It satisfies the Binary Search Tree
+       property.
+     * C has one problem: the node with the value 4. It needs to be on the
+       left side of the root because it is smaller than 5.
+
+  Let’s code a Binary Search Tree!
+
+   Now it’s time to code!
+
+   What will we see here? We will insert new nodes, search for a value,
+   delete nodes, and the balance of the tree.
+
+   Let’s start.
+
+    Insertion: adding new nodes to our tree
+
+   Imagine that we have an empty tree and we want to add new nodes with the
+   following values in this order: 50, 76, 21, 4, 32, 100, 64, 52.
+
+   The first thing we need to know is if 50 is the root of our tree.
+
+   1*fxSlTwgQSN_DlzfEmcxqQg
+
+   We can now start inserting node by node.
+
+     * 76 is greater than 50, so insert 76 on the right side.
+     * 21 is smaller than 50, so insert 21 on the left side.
+     * 4 is smaller than 50. Node with value 50 has a left child 21. Since 4
+       is smaller than 21, insert it on the left side of this node.
+     * 32 is smaller than 50. Node with value 50 has a left child 21. Since
+       32 is greater than 21, insert 32 on the right side of this node.
+     * 100 is greater than 50. Node with value 50 has a right child 76. Since
+       100 is greater than 76, insert 100 on the right side of this node.
+     * 64 is greater than 50. Node with value 50 has a right child 76. Since
+       64 is smaller than 76, insert 64 on the left side of this node.
+     * 52 is greater than 50. Node with value 50 has a right child 76. Since
+       52 is smaller than 76, node with value 76 has a left child 64. 52 is
+       smaller than 64, so insert 54 on the left side of this node.
+   1*LlLDNx7wgJfH6VAGnyAbIQ
+
+   Do you notice a pattern here?
+
+   Let’s break it down.
+
+    1. Is the new node value greater or smaller than the current node?
+    2. If the value of the new node is greater than the current node, go to
+       the right subtree. If the current node doesn’t have a right child,
+       insert it there, or else backtrack to step #1.
+    3. If the value of the new node is smaller than the current node, go to
+       the left subtree. If the current node doesn’t have a left child,
+       insert it there, or else backtrack to step #1.
+    4. We did not handle special cases here. When the value of a new node is
+       equal to the current value of the node, use rule number 3. Consider
+       inserting equal values to the left side of the subtree.
+
+   Now let’s code it.
+
+ class BinarySearchTree:
+     def __init__(self, value):
+         self.value = value
+         self.left_child = None
+         self.right_child = None
+
+     def insert_node(self, value):
+         if value <= self.value and self.left_child:
+             self.left_child.insert_node(value)
+         elif value <= self.value:
+             self.left_child = BinarySearchTree(value)
+         elif value > self.value and self.right_child:
+             self.right_child.insert_node(value)
+         else:
+             self.right_child = BinarySearchTree(value)
+
+   It seems very simple.
+
+   The powerful part of this algorithm is the recursion part, which is on
+   line 9 and line 13. Both lines of code call the insert_node method, and
+   use it for its left and right children, respectively. Lines 11 and 15 are
+   the ones that do the insertion for each child.
+
+    Let’s search for the node value… Or not…
+
+   The algorithm that we will build now is about doing searches. For a given
+   value (integer number), we will say if our Binary Search Tree does or does
+   not have that value.
+
+   An important item to note is how we defined the tree insertion algorithm.
+   First we have our root node. All the left subtree nodes will have smaller
+   values than the root node. And all the right subtree nodes will have
+   values greater than the root node.
+
+   Let’s take a look at an example.
+
+   Imagine that we have this tree.
+
+   1*LlLDNx7wgJfH6VAGnyAbIQ
+
+   Now we want to know if we have a node based on value 52.
+
+   1*NwvTrpKiJWb1u2yAY-nnAA
+
+   Let’s break it down.
+
+    1. We start with the root node as our current node. Is the given value
+       smaller than the current node value? If yes, then we will search for
+       it on the left subtree.
+    2. Is the given value greater than the current node value? If yes, then
+       we will search for it on the right subtree.
+    3. If rules #1 and #2 are both false, we can compare the current node
+       value and the given value if they are equal. If the comparison returns
+       true, then we can say, “Yeah! Our tree has the given value,”
+       otherwise, we say, “Nooo, it hasn’t.”
+
+   Now let’s code it.
+
+ class BinarySearchTree:
+     def __init__(self, value):
+         self.value = value
+         self.left_child = None
+         self.right_child = None
+
+     def find_node(self, value):
+         if value < self.value and self.left_child:
+             return self.left_child.find_node(value)
+         if value > self.value and self.right_child:
+             return self.right_child.find_node(value)
+
+         return value == self.value
+
+   Let’s beak down the code:
+
+     * Lines 8 and 9 fall under rule #1.
+     * Lines 10 and 11 fall under rule #2.
+     * Line 13 falls under rule #3.
+
+   How do we test it?
+
+   Let’s create our Binary Search Tree by initializing the root node with the
+   value 15.
+
+ bst = BinarySearchTree(15)
+
+   And now we will insert many new nodes.
+
+ bst.insert_node(10)
+ bst.insert_node(8)
+ bst.insert_node(12)
+ bst.insert_node(20)
+ bst.insert_node(17)
+ bst.insert_node(25)
+ bst.insert_node(19)
+
+   For each inserted node , we will test if our find_node method really
+   works.
+
+ print(bst.find_node(15)) # True
+ print(bst.find_node(10)) # True
+ print(bst.find_node(8)) # True
+ print(bst.find_node(12)) # True
+ print(bst.find_node(20)) # True
+ print(bst.find_node(17)) # True
+ print(bst.find_node(25)) # True
+ print(bst.find_node(19)) # True
+
+   Yeah, it works for these given values! Let’s test for a value that doesn’t
+   exist in our Binary Search Tree.
+
+ print(bst.find_node(0)) # False
+
+   Oh yeah.
+
+   Our search is done.
+
+    Deletion: removing and organizing
+
+   Deletion is a more complex algorithm because we need to handle different
+   cases. For a given value, we need to remove the node with this value.
+   Imagine the following scenarios for this node : it has no children, has a
+   single child, or has two children.
+
+     * Scenario #1: A node with no children (leaf node).
+
+ #        |50|                              |50|
+ #      /      \                           /    \
+ #    |30|     |70|   (DELETE 20) --->   |30|   |70|
+ #   /    \                                \
+ # |20|   |40|                             |40|
+
+   If the node we want to delete has no children, we simply delete it. The
+   algorithm doesn’t need to reorganize the tree.
+
+     * Scenario #2: A node with just one child (left or right child).
+
+ #        |50|                              |50|
+ #      /      \                           /    \
+ #    |30|     |70|   (DELETE 30) --->   |20|   |70|
+ #   /           
+ # |20|
+
+   In this case, our algorithm needs to make the parent of the node point to
+   the child node. If the node is the left child, we make the parent of the
+   left child point to the child. If the node is the right child of its
+   parent, we make the parent of the right child point to the child.
+
+     * Scenario #3: A node with two children.
+
+ #        |50|                              |50|
+ #      /      \                           /    \
+ #    |30|     |70|   (DELETE 30) --->   |40|   |70|
+ #   /    \                             /
+ # |20|   |40|                        |20|
+
+   When the node has 2 children, we need to find the node with the minimum
+   value, starting from the node’sright child. We will put this node with
+   minimum value in the place of the node we want to remove.
+
+   It’s time to code.
+
+ def remove_node(self, value, parent):
+     if value < self.value and self.left_child:
+         return self.left_child.remove_node(value, self)
+     elif value < self.value:
+         return False
+     elif value > self.value and self.right_child:
+         return self.right_child.remove_node(value, self)
+     elif value > self.value:
+         return False
+     else:
+         if self.left_child is None and self.right_child is None and self == parent.left_child:
+             parent.left_child = None
+             self.clear_node()
+         elif self.left_child is None and self.right_child is None and self == parent.right_child:
+             parent.right_child = None
+             self.clear_node()
+         elif self.left_child and self.right_child is None and self == parent.left_child:
+             parent.left_child = self.left_child
+             self.clear_node()
+         elif self.left_child and self.right_child is None and self == parent.right_child:
+             parent.right_child = self.left_child
+             self.clear_node()
+         elif self.right_child and self.left_child is None and self == parent.left_child:
+             parent.left_child = self.right_child
+             self.clear_node()
+         elif self.right_child and self.left_child is None and self == parent.right_child:
+             parent.right_child = self.right_child
+             self.clear_node()
+         else:
+             self.value = self.right_child.find_minimum_value()
+             self.right_child.remove_node(self.value, self)
+
+         return True
+
+    1. First: Note the parameters value and parent. We want to find the
+       nodethat has this value , and the node’s parent is important to the
+       removal of the node.
+    2. Second: Note the returning value. Our algorithm will return a boolean
+       value. It returns True if it finds the node and removes it. Otherwise
+       it will return False.
+    3. From line 2 to line 9: We start searching for the node that has the
+       valuethat we are looking for. If the value is smaller than the current
+       nodevalue , we go to the left subtree, recursively (if, and only if,
+       the current node has a left child). If the value is greater, go to the
+       right subtree, recursively.
+    4. Line 10: We start to think about the remove algorithm.
+    5. From line 11 to line 13: We cover the node with no children , and it
+       is the left child from its parent. We remove the node by setting the
+       parent’s left child to None.
+    6. Lines 14 and 15: We cover the node with no children , and it is the
+       right child from it’s parent. We remove the node by setting the
+       parent’s right child to None.
+    7. Clear node method: I will show the clear_node code below. It sets the
+       nodes left child , right child, and its value to None.
+    8. From line 16 to line 18: We cover the node with just one child (left
+       child), and it is the left child from it’s parent. We set the parent's
+       left child to the node’s left child (the only child it has).
+    9. From line 19 to line 21: We cover the node with just one child (left
+       child), and it is the right child from its parent. We set the parent's
+       right child to the node’s left child (the only child it has).
+   10. From line 22 to line 24: We cover the node with just one child (right
+       child), and it is the left child from its parent. We set the parent's
+       left child to the node’s right child (the only child it has).
+   11. From line 25 to line 27: We cover the node with just one child (right
+       child) , and it is the right child from its parent. We set the
+       parent's right child to the node’s right child (the only child it
+       has).
+   12. From line 28 to line 30: We cover the node with both left and
+       rightchildren. We get the node with the smallest value (the code is
+       shown below) and set it to the value of the current node . Finish it
+       by removing the smallest node.
+   13. Line 32: If we find the node we are looking for, it needs to return
+       True. From line 11 to line 31, we handle this case. So just return
+       True and that’s it.
+     * To use the clear_node method: set the None value to all three
+       attributes — (value, left_child, and right_child)
+
+ def clear_node(self):
+     self.value = None
+     self.left_child = None
+     self.right_child = None
+
+     * To use the find_minimum_value method: go way down to the left. If we
+       can’t find anymore nodes, we found the smallest one.
+
+ def find_minimum_value(self):
+     if self.left_child:
+         return self.left_child.find_minimum_value()
+     else:
+         return self.value
+
+   Now let’s test it.
+
+   We will use this tree to test our remove_node algorithm.
+
+ #        |15|
+ #      /      \
+ #    |10|     |20|
+ #   /    \    /    \
+ # |8|   |12| |17| |25|
+ #              \
+ #              |19|
+
+   Let’s remove the node with the value 8. It’s a node with no child.
+
+ print(bst.remove_node(8, None)) # True
+ bst.pre_order_traversal()
+
+ #     |15|
+ #   /      \
+ # |10|     |20|
+ #    \    /    \
+ #   |12| |17| |25|
+ #          \
+ #          |19|
+
+   Now let’s remove the node with the value 17. It’s a node with just one
+   child.
+
+ print(bst.remove_node(17, None)) # True
+ bst.pre_order_traversal()
+
+ #        |15|
+ #      /      \
+ #    |10|     |20|
+ #       \    /    \
+ #      |12| |19| |25|
+
+   Finally, we will remove a node with two children. This is the root of our
+   tree.
+
+ print(bst.remove_node(15, None)) # True
+ bst.pre_order_traversal()
+
+ #        |19|
+ #      /      \
+ #    |10|     |20|
+ #        \        \
+ #        |12|     |25|
+
+   The tests are now done. :)
+
+  That’s all for now!
+
+   We learned a lot here.
+
+   Congrats on finishing this dense content. It’s really tough to understand
+   a concept that we do not know. But you did it. :)
+
+   This is one more step forward in my journey to learning and mastering
+   algorithms and data structures. You can see the documentation of my
+   complete journey here on my Renaissance Developer publication.
+
+   Have fun, keep learning and coding.
+
+   My Twitter & Github. ☺
+
+  Additional resources
+
+     * Introduction to Tree Data Structure by mycodeschool
+     * Tree by Wikipedia
+     * How To Not Be Stumped By Trees by the talented Vaidehi Joshi
+     * Intro to Trees, Lecture by Professor Jonathan Cohen
+     * Intro to Trees, Lecture by Professor David Schmidt
+     * Intro to Trees, Lecture by Professor Victor Adamchik
+     * Trees with Gayle Laakmann McDowell
+     * Binary Tree Implementation and Tests by TK
+     * Coursera Course: Data Structures by University of California, San
+       Diego
+     * Coursera Course: Data Structures and Performance by University of
+       California, San Diego
+     * Binary Search Tree concepts and Implementation by Paul Programming
+     * Binary Search Tree Implementation and Tests by TK
+     * Tree Traversal by Wikipedia
+     * Binary Search Tree Remove Node Algorithm by GeeksforGeeks
+     * Binary Search Tree Remove Node Algorithm by Algolist
+     * Learning Python From Zero to Hero
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+   ADVERTISEMENT
+
+     ----------------------------------------------------------------------
+
+   TK TK
+
+   Read more posts.
+
+     ----------------------------------------------------------------------
+
+   If you read this far, thank the author to show them you care. Say Thanks
+
+   Learn to code for free. freeCodeCamp's open source curriculum has helped
+   more than 40,000 people get jobs as developers. Get started
+
+   ADVERTISEMENT
+
+   freeCodeCamp is a donor-supported tax-exempt 501(c)(3) charity
+   organization (United States Federal Tax Identification Number: 82-0779546)
+
+   Our mission: to help people learn to code for free. We accomplish this by
+   creating thousands of videos, articles, and interactive coding lessons -
+   all freely available to the public.
+
+   Donations to freeCodeCamp go toward our education initiatives, and help
+   pay for servers, services, and staff.
+
+   You can make a tax-deductible donation here.
+
+   Trending Guides
+   What is Programming? Open-Closed Principle Compare Strings in JS Python
+   str() Function Append to Python Dict time.sleep() in Python Python
+   Requirements.txt What is a String in JS? What's Ethical Hacking? Get
+   Current URL with JS
+   What is a ROM? CSS Bold Text Git Reset Hard Python Env Vars Python Set vs
+   List JavaScript Require Python Delete File Python Sorted List Force Pull
+   in GitHub Check Python Version
+   Unhide Row/Column Excel Create Python Dictionary DNS Server Not Responding
+   Set a Static IP in Ubuntu Delete Key from Dict Python
+   Indices of a List in Python XML Formatting in Notepad++ What's a Git
+   Remote Branch? Insert into JavaScript Array Filter an Array in JavaScript
+   Our Charity
+   About Alumni Network Open Source Shop Support Sponsors Academic Honesty
+   Code of Conduct Privacy Policy Terms of Service Copyright Policy
