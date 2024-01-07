@@ -1,1099 +1,1150 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset='UTF-8'>
-            <link rel=stylesheet href=../Css/main.css>
-            <script src='https://kit.fontawesome.com/b0d5fca4a5.js' crossorigin='anonymous'></script>
-        </head>
-    <body class="has-background-white-bis">
-        <div class="container has-text-centered">
-            <div class="is-centered">
-                <nav class="navbar is-fixed-top is-success" role="navigation" aria-label="main navigation">
+<html>
 
-                <div id="navbar" class="navbar-menu">
-                    <div class="navbar-start">
-                        <a class="navbar-item" href="../index.html">
-                            <span class="icon is-small mr-1"><i class="fa-solid fa-tree" aria-hidden="true"></i></span>
-                            <span>Accueil</span>
-                        </a>
-                        <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link">
-                                <span class="icon is-small mr-1"><i class="fa-solid fa-table" aria-hidden="true"></i></span>
-                                <span>Tableaux</span>
-                            </a>
-                            <div class="navbar-dropdown">
-                                <a class="navbar-item" href="../tableaux/tableau_anglais.html">
-                                    🇬🇧 Anglais
-                                </a>
-                                <a class="navbar-item" href="../tableaux/tableau_italien.html">
-                                    🇮🇹 Italien
-                                </a>
-                                <a class="navbar-item" href="../tableaux/tableau_russe.html">
-                                    🇷🇺 Russe
-                                </a>
-                            </div>
-                        </div>
-                        <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link">
-                                <span class="icon is-small mr-1"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i></span>
-                                <span>Analyses</span>
-                            </a>
-                            <div class="navbar-dropdown">
-                                <a class="navbar-item" href="../analyses/anglais/anglais.html">
-                                    🇬🇧Anglais
-                                </a>
-                                <a class="navbar-item" href="../analyses/italien/italien.html">
-                                    🇮🇹Italien
-                                </a>
-                                <a class="navbar-item" href="../analyses/russe/russe.html">
-                                    🇷🇺Russe
-                                </a>
-                            </div>
-                        </div>
+<head>
+     <meta charset='UTF-8'>
+     <link rel=stylesheet href=../Css/main.css>
+     <script src='https://kit.fontawesome.com/b0d5fca4a5.js' crossorigin='anonymous'></script>
+</head>
+
+<body class="has-background-white-bis">
+     <div class="container has-text-centered">
+          <div class="is-centered">
+               <nav class="navbar is-fixed-top is-success" role="navigation" aria-label="main navigation">
+
+                    <div id="navbar" class="navbar-menu">
+                         <div class="navbar-start">
+                              <a class="navbar-item" href="../index.html">
+                                   <span class="icon is-small mr-1"><i class="fa-solid fa-tree"
+                                             aria-hidden="true"></i></span>
+                                   <span>Accueil</span>
+                              </a>
+                              <div class="navbar-item has-dropdown is-hoverable">
+                                   <a class="navbar-link">
+                                        <span class="icon is-small mr-1"><i class="fa-solid fa-table"
+                                                  aria-hidden="true"></i></span>
+                                        <span>Tableaux</span>
+                                   </a>
+                                   <div class="navbar-dropdown">
+                                        <a class="navbar-item" href="../tableaux/tableau_anglais.html">
+                                             🇬🇧 Anglais
+                                        </a>
+                                        <a class="navbar-item" href="../tableaux/tableau_italien.html">
+                                             🇮🇹 Italien
+                                        </a>
+                                        <a class="navbar-item" href="../tableaux/tableau_russe.html">
+                                             🇷🇺 Russe
+                                        </a>
+                                   </div>
+                              </div>
+                              <div class="navbar-item has-dropdown is-hoverable">
+                                   <a class="navbar-link">
+                                        <span class="icon is-small mr-1"><i class="fa-solid fa-chart-simple"
+                                                  aria-hidden="true"></i></span>
+                                        <span>Analyses</span>
+                                   </a>
+                                   <div class="navbar-dropdown">
+                                        <a class="navbar-item" href="../analyses/anglais/anglais.html">
+                                             🇬🇧Anglais
+                                        </a>
+                                        <a class="navbar-item" href="../analyses/italien/italien.html">
+                                             🇮🇹Italien
+                                        </a>
+                                        <a class="navbar-item" href="../analyses/russe/russe.html">
+                                             🇷🇺Russe
+                                        </a>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-                </div>
-                <div class="navbar-end">
-                    <div class="navbar-item">
-                        <div class="buttons">
-                            <a class="button is-dark" href="https://github.com/Maouee/PPE_arbre">
-                                <span class="icon is-small mr-1"><i class="fa-brands fa-github"></i></span>
-                                <strong>Github</strong>
-                            </a>
-                        </div>
+                    <div class="navbar-end">
+                         <div class="navbar-item">
+                              <div class="buttons">
+                                   <a class="button is-dark" href="https://github.com/Maouee/PPE_arbre">
+                                        <span class="icon is-small mr-1"><i class="fa-brands fa-github"></i></span>
+                                        <strong>Github</strong>
+                                   </a>
+                              </div>
+                         </div>
                     </div>
-                </div>
-            </nav>
-            <table id=table>
-<br><br><br>
-                <tr>
-                <th>ligne</th>
-                <th>URL</th>
-                <th>code</th>
-                <th>encodage</th>
-                <th>aspirations</th>
-                <th>dumps</th>
-                <th>compte</th>
-                <th>contexte</th>
-                <th>concordances</th>
-                </tr>
-            <tr>
-                    <td>1</td>
-                    <td><a href=https://en.wikipedia.org/wiki/Tree_structure>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-1.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-1.txt'>dump-text</a>
-                    </td>
-                    <td>      73</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-1.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-1.html'>concordancier</a>
-                    </td>
+               </nav>
+               <table id=table>
+                    <br><br><br>
+                    <tr>
+                         <th>ligne</th>
+                         <th>URL</th>
+                         <th>code</th>
+                         <th>encodage</th>
+                         <th>aspirations</th>
+                         <th>dumps</th>
+                         <th>compte</th>
+                         <th>contexte</th>
+                         <th>concordances</th>
                     </tr>
-    
-            <tr>
-                    <td>2</td>
-                    <td><a href=https://en.wikipedia.org/wiki/Tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-2.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-2.txt'>dump-text</a>
-                    </td>
-                    <td>     382</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-2.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-2.html'>concordancier</a>
-                    </td>
+                    <tr>
+                         <td>1</td>
+                         <td><a href=https://en.wikipedia.org/wiki/Tree_structure>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-1.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-1.txt'>dump-text</a>
+                         </td>
+                         <td> 73</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-1.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-1.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>3</td>
-                    <td><a href=https://en.wikiquote.org/wiki/Trees>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-3.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-3.txt'>dump-text</a>
-                    </td>
-                    <td>     185</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-3.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-3.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>2</td>
+                         <td><a href=https://en.wikipedia.org/wiki/Tree>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-2.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-2.txt'>dump-text</a>
+                         </td>
+                         <td> 382</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-2.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-2.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>4</td>
-                    <td><a href=https://extension.usu.edu/forestry/trees-cities-towns/tree-selection/what-is-a-tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-4.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-4.txt'>dump-text</a>
-                    </td>
-                    <td>      27</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-4.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-4.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>3</td>
+                         <td><a href=https://en.wikiquote.org/wiki/Trees>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-3.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-3.txt'>dump-text</a>
+                         </td>
+                         <td> 185</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-3.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-3.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>5</td>
-                    <td><a href=https://scikit-learn.org/stable/modules/tree.html>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-5.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-5.txt'>dump-text</a>
-                    </td>
-                    <td>     137</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-5.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-5.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>4</td>
+                         <td><a
+                                   href=https://extension.usu.edu/forestry/trees-cities-towns/tree-selection/what-is-a-tree>URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-4.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-4.txt'>dump-text</a>
+                         </td>
+                         <td> 27</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-4.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-4.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>6</td>
-                    <td><a href=https://www.nwf.org/Trees-for-Wildlife/About/Trees-101>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-6.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-6.txt'>dump-text</a>
-                    </td>
-                    <td>      47</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-6.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-6.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>5</td>
+                         <td><a href=https://scikit-learn.org/stable/modules/tree.html>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-5.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-5.txt'>dump-text</a>
+                         </td>
+                         <td> 137</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-5.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-5.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>7</td>
-                    <td><a href=https://www.britannica.com/plant/tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-7.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-7.txt'>dump-text</a>
-                    </td>
-                    <td>      91</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-7.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-7.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>6</td>
+                         <td><a href=https://www.nwf.org/Trees-for-Wildlife/About/Trees-101>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-6.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-6.txt'>dump-text</a>
+                         </td>
+                         <td> 47</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-6.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-6.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>8</td>
-                    <td><a href=https://csfs.colostate.edu/colorado-trees/what-is-a-tree-how-does-it-work/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-8.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-8.txt'>dump-text</a>
-                    </td>
-                    <td>      31</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-8.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-8.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>7</td>
+                         <td><a href=https://www.britannica.com/plant/tree>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-7.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-7.txt'>dump-text</a>
+                         </td>
+                         <td> 91</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-7.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-7.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>9</td>
-                    <td><a href=https://www.bbc.com/news/uk-england-humber-67675906>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-9.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-9.txt'>dump-text</a>
-                    </td>
-                    <td>       8</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-9.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-9.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>8</td>
+                         <td><a href=https://csfs.colostate.edu/colorado-trees/what-is-a-tree-how-does-it-work />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-8.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-8.txt'>dump-text</a>
+                         </td>
+                         <td> 31</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-8.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-8.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>10</td>
-                    <td><a href=https://www.americanforests.org/tools-research-reports-and-guides/tree-equity-score/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-10.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-10.txt'>dump-text</a>
-                    </td>
-                    <td>      35</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-10.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-10.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>9</td>
+                         <td><a href=https://www.bbc.com/news/uk-england-humber-67675906>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-9.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-9.txt'>dump-text</a>
+                         </td>
+                         <td> 8</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-9.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-9.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>11</td>
-                    <td><a href=https://en.wikipedia.org/wiki/Abstract_syntax_tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-11.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-11.txt'>dump-text</a>
-                    </td>
-                    <td>      40</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-11.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-11.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>10</td>
+                         <td><a
+                                   href=https://www.americanforests.org/tools-research-reports-and-guides/tree-equity-score />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-10.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-10.txt'>dump-text</a>
+                         </td>
+                         <td> 35</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-10.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-10.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>12</td>
-                    <td><a href=https://en.wikipedia.org/wiki/Parse_tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-12.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-12.txt'>dump-text</a>
-                    </td>
-                    <td>      73</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-12.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-12.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>11</td>
+                         <td><a href=https://en.wikipedia.org/wiki/Abstract_syntax_tree>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-11.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-11.txt'>dump-text</a>
+                         </td>
+                         <td> 40</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-11.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-11.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>13</td>
-                    <td><a href=https://www.tutorialspoint.com/what-is-syntax-tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-13.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-13.txt'>dump-text</a>
-                    </td>
-                    <td>      18</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-13.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-13.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>12</td>
+                         <td><a href=https://en.wikipedia.org/wiki/Parse_tree>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-12.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-12.txt'>dump-text</a>
+                         </td>
+                         <td> 73</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-12.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-12.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>14</td>
-                    <td><a href=https://en.wikipedia.org/wiki/Family_tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-14.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-14.txt'>dump-text</a>
-                    </td>
-                    <td>      62</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-14.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-14.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>13</td>
+                         <td><a href=https://www.tutorialspoint.com/what-is-syntax-tree>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-13.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-13.txt'>dump-text</a>
+                         </td>
+                         <td> 18</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-13.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-13.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>15</td>
-                    <td><a href=https://en.wikipedia.org/wiki/Christmas_tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-15.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-15.txt'>dump-text</a>
-                    </td>
-                    <td>     576</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-15.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-15.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>14</td>
+                         <td><a href=https://en.wikipedia.org/wiki/Family_tree>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-14.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-14.txt'>dump-text</a>
+                         </td>
+                         <td> 62</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-14.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-14.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>16</td>
-                    <td><a href=https://www.history.com/topics/christmas/history-of-christmas-trees>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-16.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-16.txt'>dump-text</a>
-                    </td>
-                    <td>     138</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-16.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-16.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>15</td>
+                         <td><a href=https://en.wikipedia.org/wiki/Christmas_tree>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-15.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-15.txt'>dump-text</a>
+                         </td>
+                         <td> 576</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-15.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-15.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>17</td>
-                    <td><a href=https://www.mercurynews.com/2024/01/02/eucalyptus-are-one-of-the-states-most-controversial-trees-a-monterey-bay-reserve-may-be-a-model-for-how-to-replace-them/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-17.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-17.txt'>dump-text</a>
-                    </td>
-                    <td>      24</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-17.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-17.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>16</td>
+                         <td><a href=https://www.history.com/topics/christmas/history-of-christmas-trees>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-16.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-16.txt'>dump-text</a>
+                         </td>
+                         <td> 138</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-16.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-16.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>18</td>
-                    <td><a href=https://gulfnews.com/photos/news/photos-unsold-christmas-trees-are-on-the-menu-for-elephants-and-bison-at-the-berlin-zoo-1.1704384725332>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-18.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-18.txt'>dump-text</a>
-                    </td>
-                    <td>      13</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-18.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-18.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>17</td>
+                         <td><a
+                                   href=https://www.mercurynews.com/2024/01/02/eucalyptus-are-one-of-the-states-most-controversial-trees-a-monterey-bay-reserve-may-be-a-model-for-how-to-replace-them />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-17.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-17.txt'>dump-text</a>
+                         </td>
+                         <td> 24</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-17.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-17.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>19</td>
-                    <td><a href=https://learningenglish.voanews.com/a/forest-service-moving-trees-to-save-them/7426070.html>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-19.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-19.txt'>dump-text</a>
-                    </td>
-                    <td>      32</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-19.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-19.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>18</td>
+                         <td><a
+                                   href=https://gulfnews.com/photos/news/photos-unsold-christmas-trees-are-on-the-menu-for-elephants-and-bison-at-the-berlin-zoo-1.1704384725332>URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-18.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-18.txt'>dump-text</a>
+                         </td>
+                         <td> 13</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-18.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-18.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>20</td>
-                    <td><a href=https://www.civilbeat.org/2024/01/want-to-cool-down-honolulu-plant-a-lot-more-trees/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-20.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-20.txt'>dump-text</a>
-                    </td>
-                    <td>      49</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-20.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-20.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>19</td>
+                         <td><a
+                                   href=https://learningenglish.voanews.com/a/forest-service-moving-trees-to-save-them/7426070.html>URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-19.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-19.txt'>dump-text</a>
+                         </td>
+                         <td> 32</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-19.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-19.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>21</td>
-                    <td><a href=https://iowacapitaldispatch.com/2024/01/02/convicted-tree-thiefs-right-to-survive-trumps-iowa-law-his-lawyer-argues/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-21.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-21.txt'>dump-text</a>
-                    </td>
-                    <td>      11</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-21.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-21.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>20</td>
+                         <td><a
+                                   href=https://www.civilbeat.org/2024/01/want-to-cool-down-honolulu-plant-a-lot-more-trees />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-20.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-20.txt'>dump-text</a>
+                         </td>
+                         <td> 49</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-20.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-20.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>22</td>
-                    <td><a href=https://www.opb.org/article/2024/01/02/as-tree-species-face-decline-assisted-migration-gains-popularity-in-pacific-northwest/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-22.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-22.txt'>dump-text</a>
-                    </td>
-                    <td>      32</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-22.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-22.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>21</td>
+                         <td><a
+                                   href=https://iowacapitaldispatch.com/2024/01/02/convicted-tree-thiefs-right-to-survive-trumps-iowa-law-his-lawyer-argues />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-21.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-21.txt'>dump-text</a>
+                         </td>
+                         <td> 11</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-21.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-21.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>23</td>
-                    <td><a href=https://builtin.com/software-engineering-perspectives/compiler-vs-interpreter>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-23.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-23.txt'>dump-text</a>
-                    </td>
-                    <td>       6</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-23.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-23.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>22</td>
+                         <td><a
+                                   href=https://www.opb.org/article/2024/01/02/as-tree-species-face-decline-assisted-migration-gains-popularity-in-pacific-northwest />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-22.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-22.txt'>dump-text</a>
+                         </td>
+                         <td> 32</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-22.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-22.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>24</td>
-                    <td><a href=https://www.makeuseof.com/parse-and-generate-html-in-go/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-24.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-24.txt'>dump-text</a>
-                    </td>
-                    <td>       4</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-24.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-24.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>23</td>
+                         <td><a
+                                   href=https://builtin.com/software-engineering-perspectives/compiler-vs-interpreter>URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-23.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-23.txt'>dump-text</a>
+                         </td>
+                         <td> 6</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-23.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-23.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>25</td>
-                    <td><a href=https://builtin.com/data-science/b-tree-index>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-25.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-25.txt'>dump-text</a>
-                    </td>
-                    <td>      65</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-25.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-25.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>24</td>
+                         <td><a href=https://www.makeuseof.com/parse-and-generate-html-in-go />URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-24.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-24.txt'>dump-text</a>
+                         </td>
+                         <td> 4</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-24.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-24.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>26</td>
-                    <td><a href=https://hackernoon.com/how-to-insert-binary-tree-in-rust>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-26.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-26.txt'>dump-text</a>
-                    </td>
-                    <td>       6</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-26.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-26.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>25</td>
+                         <td><a href=https://builtin.com/data-science/b-tree-index>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-25.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-25.txt'>dump-text</a>
+                         </td>
+                         <td> 65</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-25.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-25.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>27</td>
-                    <td><a href=https://www.merriam-webster.com/dictionary/tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-27.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-27.txt'>dump-text</a>
-                    </td>
-                    <td>     250</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-27.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-27.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>26</td>
+                         <td><a href=https://hackernoon.com/how-to-insert-binary-tree-in-rust>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-26.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-26.txt'>dump-text</a>
+                         </td>
+                         <td> 6</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-26.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-26.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>28</td>
-                    <td><a href=https://kids.britannica.com/kids/article/tree/399629>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-28.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-28.txt'>dump-text</a>
-                    </td>
-                    <td>      50</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-28.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-28.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>27</td>
+                         <td><a href=https://www.merriam-webster.com/dictionary/tree>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-27.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-27.txt'>dump-text</a>
+                         </td>
+                         <td> 250</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-27.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-27.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>29</td>
-                    <td><a href=https://dictionary.cambridge.org/dictionary/english/tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-29.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-29.txt'>dump-text</a>
-                    </td>
-                    <td>      68</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-29.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-29.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>28</td>
+                         <td><a href=https://kids.britannica.com/kids/article/tree/399629>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-28.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-28.txt'>dump-text</a>
+                         </td>
+                         <td> 50</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-28.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-28.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>30</td>
-                    <td><a href=https://en.wikipedia.org/wiki/Tree_(data_structure)>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-30.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-30.txt'>dump-text</a>
-                    </td>
-                    <td>     149</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-30.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-30.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>29</td>
+                         <td><a href=https://dictionary.cambridge.org/dictionary/english/tree>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-29.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-29.txt'>dump-text</a>
+                         </td>
+                         <td> 68</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-29.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-29.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>31</td>
-                    <td><a href=https://en.wikipedia.org/wiki/Tree_(data_structure)>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-31.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-31.txt'>dump-text</a>
-                    </td>
-                    <td>     149</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-31.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-31.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>30</td>
+                         <td><a href=https://en.wikipedia.org/wiki/Tree_(data_structure)>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-30.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-30.txt'>dump-text</a>
+                         </td>
+                         <td> 149</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-30.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-30.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>32</td>
-                    <td><a href=https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-32.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-32.txt'>dump-text</a>
-                    </td>
-                    <td>     190</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-32.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-32.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>31</td>
+                         <td><a href=https://en.wikipedia.org/wiki/Tree_(data_structure)>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-31.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-31.txt'>dump-text</a>
+                         </td>
+                         <td> 149</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-31.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-31.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>33</td>
-                    <td><a href=https://dictionary.cambridge.org/us/dictionary/english/tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-33.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-33.txt'>dump-text</a>
-                    </td>
-                    <td>      62</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-33.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-33.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>32</td>
+                         <td><a
+                                   href=https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-32.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-32.txt'>dump-text</a>
+                         </td>
+                         <td> 190</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-32.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-32.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>34</td>
-                    <td><a href=https://en.wikipedia.org/wiki/Kruskal's_tree_theorem>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-34.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-34.txt'>dump-text</a>
-                    </td>
-                    <td>      58</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-34.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-34.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>33</td>
+                         <td><a href=https://dictionary.cambridge.org/us/dictionary/english/tree>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-33.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-33.txt'>dump-text</a>
+                         </td>
+                         <td> 62</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-33.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-33.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>35</td>
-                    <td><a href=https://www.javatpoint.com/tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-35.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-35.txt'>dump-text</a>
-                    </td>
-                    <td>     253</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-35.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-35.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>34</td>
+                         <td><a href=https://en.wikipedia.org/wiki/Kruskal's_tree_theorem>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-34.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-34.txt'>dump-text</a>
+                         </td>
+                         <td> 58</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-34.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-34.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>36</td>
-                    <td><a href=https://en.wikipedia.org/wiki/Tree_(graph_theory)>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-36.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-36.txt'>dump-text</a>
-                    </td>
-                    <td>     173</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-36.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-36.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>35</td>
+                         <td><a href=https://www.javatpoint.com/tree>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-35.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-35.txt'>dump-text</a>
+                         </td>
+                         <td> 253</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-35.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-35.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>37</td>
-                    <td><a href=https://6abc.com/philly-goat-project-christmas-tree-recycling-east-germantown-farm/14275277/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-37.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-37.txt'>dump-text</a>
-                    </td>
-                    <td>       4</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-37.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-37.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>36</td>
+                         <td><a href=https://en.wikipedia.org/wiki/Tree_(graph_theory)>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-36.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-36.txt'>dump-text</a>
+                         </td>
+                         <td> 173</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-36.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-36.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>38</td>
-                    <td><a href=https://www.kalb.com/2024/01/04/get-free-tree-louisiana-forestry-association-arbor-day/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-38.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-38.txt'>dump-text</a>
-                    </td>
-                    <td>       8</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-38.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-38.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>37</td>
+                         <td><a
+                                   href=https://6abc.com/philly-goat-project-christmas-tree-recycling-east-germantown-farm/14275277 />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-37.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-37.txt'>dump-text</a>
+                         </td>
+                         <td> 4</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-37.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-37.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>39</td>
-                    <td><a href=https://www.episcopalnewsservice.org/2024/01/04/christmas-tree-burnings-invoke-symbol-of-jesus-as-light-to-the-world-on-epiphany/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-39.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-39.txt'>dump-text</a>
-                    </td>
-                    <td>      14</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-39.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-39.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>38</td>
+                         <td><a
+                                   href=https://www.kalb.com/2024/01/04/get-free-tree-louisiana-forestry-association-arbor-day />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-38.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-38.txt'>dump-text</a>
+                         </td>
+                         <td> 8</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-38.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-38.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>40</td>
-                    <td><a href=https://www.vaildaily.com/news/skier-dies-after-collision-with-tree-at-breckenridge-ski-resort>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-40.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-40.txt'>dump-text</a>
-                    </td>
-                    <td>       6</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-40.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-40.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>39</td>
+                         <td><a
+                                   href=https://www.episcopalnewsservice.org/2024/01/04/christmas-tree-burnings-invoke-symbol-of-jesus-as-light-to-the-world-on-epiphany />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-39.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-39.txt'>dump-text</a>
+                         </td>
+                         <td> 14</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-39.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-39.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>41</td>
-                    <td><a href=https://kpq.com/tree-trimming-removal-project-to-slow-traffic-on-us-97a/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-41.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-41.txt'>dump-text</a>
-                    </td>
-                    <td>       9</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-41.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-41.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>40</td>
+                         <td><a
+                                   href=https://www.vaildaily.com/news/skier-dies-after-collision-with-tree-at-breckenridge-ski-resort>URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-40.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-40.txt'>dump-text</a>
+                         </td>
+                         <td> 6</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-40.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-40.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>42</td>
-                    <td><a href=https://www.keysnews.com/news/local/tree-house-murder-trial-jury-selection-set-to-begin-monday/article_b858bde2-ab1c-11ee-b7cb-ef9b0fdf7b84.html>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-42.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-42.txt'>dump-text</a>
-                    </td>
-                    <td>       7</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-42.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-42.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>41</td>
+                         <td><a href=https://kpq.com/tree-trimming-removal-project-to-slow-traffic-on-us-97a />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-41.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-41.txt'>dump-text</a>
+                         </td>
+                         <td> 9</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-41.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-41.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>43</td>
-                    <td><a href=https://www.wgbh.org/news/local/2024-01-02/steve-mcqueens-lynching-tree-exhibit-comes-to-the-isabella-stewart-gardner-museum>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-43.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-43.txt'>dump-text</a>
-                    </td>
-                    <td>      12</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-43.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-43.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>42</td>
+                         <td><a
+                                   href=https://www.keysnews.com/news/local/tree-house-murder-trial-jury-selection-set-to-begin-monday/article_b858bde2-ab1c-11ee-b7cb-ef9b0fdf7b84.html>URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-42.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-42.txt'>dump-text</a>
+                         </td>
+                         <td> 7</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-42.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-42.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>44</td>
-                    <td><a href=https://wjon.com/two-men-hurt-when-pickup-collides-with-tree/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-44.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-44.txt'>dump-text</a>
-                    </td>
-                    <td>       4</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-44.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-44.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>43</td>
+                         <td><a
+                                   href=https://www.wgbh.org/news/local/2024-01-02/steve-mcqueens-lynching-tree-exhibit-comes-to-the-isabella-stewart-gardner-museum>URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-43.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-43.txt'>dump-text</a>
+                         </td>
+                         <td> 12</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-43.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-43.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>45</td>
-                    <td><a href=https://blogs.msn.com/e-trees/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-45.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-45.txt'>dump-text</a>
-                    </td>
-                    <td>      21</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-45.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-45.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>44</td>
+                         <td><a href=https://wjon.com/two-men-hurt-when-pickup-collides-with-tree />URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-44.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-44.txt'>dump-text</a>
+                         </td>
+                         <td> 4</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-44.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-44.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>46</td>
-                    <td><a href=https://www.nationalgeographic.com/environment/article/whats-the-oldest-tree-on-earth-and-will-it-survive-climate-change>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-46.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-46.txt'>dump-text</a>
-                    </td>
-                    <td>      47</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-46.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-46.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>45</td>
+                         <td><a href=https://blogs.msn.com/e-trees />URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-45.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-45.txt'>dump-text</a>
+                         </td>
+                         <td> 21</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-45.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-45.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>47</td>
-                    <td><a href=https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-47.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-47.txt'>dump-text</a>
-                    </td>
-                    <td>     106</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-47.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-47.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>46</td>
+                         <td><a
+                                   href=https://www.nationalgeographic.com/environment/article/whats-the-oldest-tree-on-earth-and-will-it-survive-climate-change>URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-46.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-46.txt'>dump-text</a>
+                         </td>
+                         <td> 47</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-46.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-46.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>48</td>
-                    <td><a href=https://www.khanacademy.org/science/ap-biology/natural-selection/phylogeny/a/phylogenetic-trees>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-48.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-48.txt'>dump-text</a>
-                    </td>
-                    <td>     112</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-48.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-48.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>47</td>
+                         <td><a
+                                   href=https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-47.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-47.txt'>dump-text</a>
+                         </td>
+                         <td> 106</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-47.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-47.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>49</td>
-                    <td><a href=https://mathworld.wolfram.com/Tree.html>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-49.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-49.txt'>dump-text</a>
-                    </td>
-                    <td>      85</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-49.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-49.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>48</td>
+                         <td><a
+                                   href=https://www.khanacademy.org/science/ap-biology/natural-selection/phylogeny/a/phylogenetic-trees>URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-48.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-48.txt'>dump-text</a>
+                         </td>
+                         <td> 112</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-48.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-48.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>50</td>
-                    <td><a href=https://www.etymonline.com/word/tree>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-50.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-50.txt'>dump-text</a>
-                    </td>
-                    <td>      51</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-50.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-50.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>49</td>
+                         <td><a href=https://mathworld.wolfram.com/Tree.html>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-49.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-49.txt'>dump-text</a>
+                         </td>
+                         <td> 85</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-49.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-49.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-            <tr>
-                    <td>51</td>
-                    <td><a href=https://www.13abc.com/2024/01/04/toledo-man-left-paralyzed-after-tree-trimming-accident-speaks-out-first-time-exclusive-interview/>URL</a></td>
-                    <td>200</td>
-                    <td> UTF-8 </td>
-                    <td>
-                    <a href='../aspirations/aspiration-anglais-51.html'>aspiration</a>
-                    </td>
-                    <td>
-                    <a href='../dumps-text/dump-text-anglais-51.txt'>dump-text</a>
-                    </td>
-                    <td>       5</td>
-               <td>
-                    <a href='../contextes/contexte-anglais-51.txt'>contexte</a>
-                    </td>
-                    <td>
-                    <a href='../Concordances/concordances-anglais-51.html'>concordancier</a>
-                    </td>
+
+                    <tr>
+                         <td>50</td>
+                         <td><a href=https://www.etymonline.com/word/tree>URL</a></td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-50.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-50.txt'>dump-text</a>
+                         </td>
+                         <td> 51</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-50.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-50.html'>concordancier</a>
+                         </td>
                     </tr>
-    
-</table></div></body></html>
+
+                    <tr>
+                         <td>51</td>
+                         <td><a
+                                   href=https://www.13abc.com/2024/01/04/toledo-man-left-paralyzed-after-tree-trimming-accident-speaks-out-first-time-exclusive-interview />URL</a>
+                         </td>
+                         <td>200</td>
+                         <td> UTF-8 </td>
+                         <td>
+                              <a href='../aspirations/aspiration-anglais-51.html'>aspiration</a>
+                         </td>
+                         <td>
+                              <a href='../dumps-text/dump-text-anglais-51.txt'>dump-text</a>
+                         </td>
+                         <td> 5</td>
+                         <td>
+                              <a href='../contextes/contexte-anglais-51.txt'>contexte</a>
+                         </td>
+                         <td>
+                              <a href='../Concordances/concordances-anglais-51.html'>concordancier</a>
+                         </td>
+                    </tr>
+
+               </table>
+          </div>
+</body>
+
+</html>
